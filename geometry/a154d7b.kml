@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hamonah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a154d7b/hamonah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hamonah</name>
+	<description><![CDATA[Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.39.16&amp;version=ESV">39:16</a>]]></description>
+	<Folder>
+		<name>Hamonah / in Abarim</name>
+		<description>in the Valley of Hamon-gog</description>
+		<Placemark>
+			<name>Hamonah (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.70392,31.73113 35.69115,31.73113 35.67839,31.65428 35.67839,31.64331 35.69115,31.66526 35.70392,31.68722 35.72944,31.73113 35.71668,31.73113 35.70392,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hamonah (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69115,31.73113 35.66563,31.6982 35.65287,31.67624 35.64011,31.65428 35.64011,31.64331 35.64011,31.63233 35.65287,31.63233 35.66563,31.63233 35.67839,31.64331 35.71668,31.6982 35.72944,31.72016 35.72944,31.73113 35.72944,31.74211 35.71668,31.74211 35.70392,31.74211 35.69115,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hamonah (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.62734,31.73113 35.61458,31.72016 35.60182,31.6982 35.58906,31.67624 35.58906,31.66526 35.58906,31.65428 35.61458,31.61037 35.62734,31.61037 35.64011,31.61037 35.65287,31.61037 35.67839,31.61037 35.69115,31.61037 35.70392,31.61037 35.71668,31.61037 35.78049,31.78603 35.76772,31.79701 35.75496,31.79701 35.62734,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hamonah (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.65287,31.79701 35.64011,31.78603 35.62734,31.77505 35.61458,31.76407 35.60182,31.75309 35.58906,31.72016 35.5763,31.63233 35.5763,31.62135 35.62734,31.51156 35.65287,31.50058 35.66563,31.51156 35.76772,31.61037 35.85706,31.75309 35.86982,31.78603 35.86982,31.79701 35.8443,31.80798 35.75496,31.81896 35.7422,31.81896 35.72944,31.81896 35.71668,31.81896 35.70392,31.81896 35.69115,31.81896 35.67839,31.81896 35.66563,31.80798 35.65287,31.79701</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hamonah (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.56354,31.56646 35.56354,31.55548 35.56354,31.5445 35.5763,31.48961 35.58906,31.47863 35.60182,31.46765 35.61458,31.45667 35.67839,31.42373 35.69115,31.42373 35.85706,31.74211 35.86982,31.77505 35.86982,31.78603 35.86982,31.79701 35.85706,31.80798 35.75496,31.81896 35.7422,31.81896 35.72944,31.81896 35.71668,31.81896 35.70392,31.81896 35.69115,31.81896 35.67839,31.81896 35.61458,31.77505 35.60182,31.76407 35.58906,31.72016 35.5763,31.65428 35.56354,31.57743 35.56354,31.56646</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hamonah / in Abarim</name>
+			<description>in the Valley of Hamon-gog</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.7152,31.7539</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Hamonah / in the Jezreel Valley</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29862,32.45796 35.349462,32.458358 35.357195,32.467342 35.37629,32.485041 35.344045,32.520373 35.38992,32.567088 35.403528,32.634411 35.409049,32.659945 35.386203,32.681735 35.370946,32.694521 35.347554,32.692114 35.29698,32.679897 35.272385,32.669034 35.238055,32.666491 35.105695,32.66217 35.134339,32.620408 35.18078,32.589464 35.181039,32.558857 35.208211,32.539932 35.238096,32.499001 35.29862,32.45796</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hamonah / in the Jezreel Valley</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241944,32.596389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hamonah / in the Transjordan</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.811761,33.353421 35.661238,32.513198 35.639106,31.965954 35.715941,31.789723 35.047135,29.528504 37.670975,29.350224 38.273915,33.302161 35.811761,33.353421</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hamonah / in the Transjordan</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.9343,31.9547</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hamonah / in the Hinnom Valley</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.226521,31.771194 35.226425,31.771254 35.226178,31.771219 35.226009,31.771178 35.225877,31.771114 35.225765,31.770953 35.225701,31.770872 35.22563,31.770469 35.225646,31.770223 35.225748,31.770201 35.225911,31.770267 35.22639,31.76966 35.226178,31.769549 35.226088,31.769457 35.226429,31.769186 35.22665,31.768919 35.22765,31.768532 35.227962,31.768429 35.228058,31.768491 35.22831,31.768459 35.228461,31.768852 35.228289,31.768961 35.227421,31.769785 35.227024,31.769776 35.226863,31.769967 35.227024,31.77014 35.226681,31.770825 35.226668,31.771002 35.226594,31.771138 35.226521,31.771194</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hamonah / in the Hinnom Valley</name>
+		<description>in the Valley of Hamon-gog</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.228056,31.769167</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

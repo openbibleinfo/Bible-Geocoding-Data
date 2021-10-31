@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Yarkon River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mf4bdf8/yarkon-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Yarkon River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.92187,32.109923 34.920395,32.110569 34.91929,32.11016 34.916747,32.114222 34.913559,32.11535 34.913044,32.116685 34.914975,32.117385 34.914267,32.117676 34.914941,32.118784 34.913388,32.118625 34.912249,32.119445 34.912225,32.120924 34.910952,32.121063 34.913905,32.123046 34.912648,32.125425 34.911517,32.125606 34.911653,32.126963 34.909814,32.125908 34.90912,32.126927 34.907937,32.126446 34.908639,32.124025 34.907283,32.124183 34.907213,32.123093 34.905266,32.124618 34.903344,32.124712 34.903052,32.123927 34.901344,32.123818 34.900074,32.122606 34.899434,32.122814 34.899584,32.124116 34.898374,32.123593 34.899249,32.12448 34.898643,32.125071 34.897352,32.124783 34.897412,32.125917 34.896615,32.124763 34.895118,32.125723 34.894772,32.123509 34.892505,32.124647 34.891387,32.12278 34.887052,32.123766 34.886007,32.12507 34.881304,32.126046 34.881979,32.127007 34.880217,32.127257 34.879716,32.125219 34.877434,32.123572 34.876218,32.124222 34.876872,32.122713 34.874815,32.121738 34.875058,32.120146 34.873569,32.121504 34.874145,32.122519 34.871815,32.124982 34.87169,32.126464 34.868843,32.124817 34.869913,32.121599 34.86599,32.123571 34.865866,32.122185 34.867878,32.121744 34.867192,32.119854 34.864543,32.116752 34.863061,32.117248 34.861454,32.116269 34.862541,32.115188 34.860793,32.113469 34.861184,32.1114 34.859417,32.110857 34.861062,32.109747 34.859518,32.109118 34.858937,32.110934 34.857618,32.110848 34.858154,32.1078 34.854984,32.108059 34.853552,32.106201 34.852282,32.108467 34.850394,32.106376 34.849305,32.107077 34.846837,32.106508 34.842692,32.108361 34.841605,32.106925 34.839792,32.10701 34.8359,32.105164 34.830361,32.105819 34.82687,32.105316 34.82681,32.106581 34.822871,32.103612 34.824322,32.102354 34.821051,32.101077 34.822544,32.098944 34.819334,32.096094 34.818412,32.097739 34.81561,32.098142 34.813979,32.096016 34.812159,32.095607 34.807321,32.09694 34.807535,32.098803 34.80644,32.099694 34.800395,32.100181 34.792436,32.0974 34.778477,32.096213 34.777325,32.098087 34.778046,32.100378 34.775966,32.103401</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Yarkon River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.775833,32.103889</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

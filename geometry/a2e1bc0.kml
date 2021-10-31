@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gath 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2e1bc0/gath-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gath 2</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.7.21&amp;version=ESV">7:21</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.8.13&amp;version=ESV">8:13</a>]]></description>
+	<Placemark>
+		<name>Gath 2 / Tell es Safi</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.84694,31.69972</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Tell esh Sharia</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.6816,31.3912</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Ras Abu Hamid</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.88994,31.90302</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Tel Haror</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.6065,31.3821</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Tel Erani</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.78622,31.61209</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Tel Nagila</name>
+		<description>another name for Gath 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.7583,31.50259</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Jett</name>
+		<description>another name for Gath-padalla</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.04005,32.39835</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Ras Abu Hamid</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.88994,31.90302</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 7 km of Lod</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9,32.01295 34.89224,32.01261 34.88456,32.01158 34.87706,32.00987 34.8698,32.00751 34.86288,32.00451 34.85637,32.00092 34.85033,31.99677 34.84484,31.99211 34.83995,31.98699 34.83573,31.98146 34.8322,31.97559 34.82942,31.96943 34.82742,31.96307 34.82621,31.95656 34.82581,31.94998 34.82622,31.9434 34.82744,31.93689 34.82945,31.93053 34.83224,31.92438 34.83577,31.91851 34.84,31.91298 34.84489,31.90786 34.85038,31.90321 34.85642,31.89906 34.86293,31.89548 34.86984,31.89249 34.87709,31.89013 34.88459,31.88842 34.89225,31.88739 34.9,31.88705 34.90775,31.88739 34.91541,31.88842 34.92291,31.89013 34.93016,31.89249 34.93707,31.89548 34.94358,31.89906 34.94962,31.90321 34.95511,31.90786 34.96,31.91298 34.96423,31.91851 34.96776,31.92438 34.97055,31.93053 34.97256,31.93689 34.97378,31.9434 34.97419,31.94998 34.97379,31.95656 34.97258,31.96307 34.97058,31.96943 34.9678,31.97559 34.96427,31.98146 34.96005,31.98699 34.95516,31.99211 34.94967,31.99677 34.94363,32.00092 34.93712,32.00451 34.9302,32.00751 34.92294,32.00987 34.91544,32.01158 34.90776,32.01261 34.9,32.01295</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 7 km of Lod</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9,31.95</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Al Bira</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,32.17494 35.18164,32.17346 35.14869,32.16903 35.11647,32.1617 35.08535,32.15155 35.05565,32.13869 35.02771,32.12327 35.00184,32.10546 34.97831,32.08545 34.9574,32.06346 34.93932,32.03974 34.92428,32.01455 34.91243,31.98816 34.9039,31.96086 34.89879,31.93295 34.89715,31.90475 34.89899,31.87655 34.90428,31.84867 34.91298,31.82141 34.92497,31.79508 34.94013,31.76995 34.95829,31.7463 34.97924,31.7244 35.00276,31.70447 35.0286,31.68674 35.05645,31.67139 35.08604,31.65861 35.11702,31.64851 35.14907,31.64122 35.18183,31.63682 35.21496,31.63535 35.24808,31.63682 35.28085,31.64122 35.31289,31.64851 35.34388,31.65861 35.37346,31.67139 35.40132,31.68674 35.42715,31.70447 35.45067,31.7244 35.47163,31.7463 35.48979,31.76995 35.50495,31.79508 35.51694,31.82141 35.52563,31.84867 35.53093,31.87655 35.53277,31.90475 35.53112,31.93295 35.52601,31.96086 35.51749,31.98816 35.50564,32.01455 35.49059,32.03974 35.47252,32.06346 35.4516,32.08545 35.42808,32.10546 35.40221,32.12327 35.37427,32.13869 35.34457,32.15155 35.31344,32.1617 35.28122,32.16903 35.24828,32.17346 35.21496,32.17494</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Al Bira</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Jett</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.04005,32.39835</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Khirbet el Burj</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.1872,32.09363 35.15391,32.09214 35.12099,32.08771 35.0888,32.08038 35.0577,32.07024 35.02803,32.05738 35.00012,32.04196 34.97427,32.02415 34.95077,32.00414 34.92987,31.98215 34.91181,31.95843 34.89678,31.93324 34.88494,31.90684 34.87642,31.87955 34.87131,31.85164 34.86967,31.82344 34.87151,31.79524 34.8768,31.76736 34.88548,31.7401 34.89747,31.71377 34.91261,31.68864 34.93075,31.66499 34.95169,31.64308 34.97519,31.62316 35.001,31.60542 35.02884,31.59008 35.05839,31.57729 35.08935,31.5672 35.12137,31.55991 35.15411,31.55551 35.1872,31.55403 35.22029,31.55551 35.25303,31.55991 35.28505,31.5672 35.31601,31.57729 35.34556,31.59008 35.3734,31.60542 35.39921,31.62316 35.42271,31.64308 35.44365,31.66499 35.46179,31.68864 35.47693,31.71377 35.48892,31.7401 35.4976,31.76736 35.50289,31.79524 35.50473,31.82344 35.50309,31.85164 35.49798,31.87955 35.48946,31.90684 35.47762,31.93324 35.46259,31.95843 35.44453,31.98215 35.42363,32.00414 35.40013,32.02415 35.37428,32.04196 35.34637,32.05738 35.3167,32.07024 35.2856,32.08038 35.25341,32.08771 35.22049,32.09214 35.1872,32.09363</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Khirbet el Burj</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.1872,31.82383</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Nabi Samwil</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18015,32.10253 35.14686,32.10105 35.11394,32.09662 35.08174,32.08929 35.05064,32.07914 35.02097,32.06628 34.99305,32.05087 34.9672,32.03305 34.94369,32.01304 34.9228,31.99106 34.90473,31.96733 34.8897,31.94214 34.87786,31.91575 34.86934,31.88845 34.86423,31.86054 34.86259,31.83234 34.86443,31.80414 34.86972,31.77626 34.87841,31.74901 34.89039,31.72267 34.90554,31.69754 34.92368,31.67389 34.94462,31.65199 34.96812,31.63206 34.99393,31.61433 35.02177,31.59898 35.05133,31.5862 35.08229,31.5761 35.11431,31.56882 35.14705,31.56441 35.18015,31.56294 35.21325,31.56441 35.24599,31.56882 35.27801,31.5761 35.30897,31.5862 35.33853,31.59898 35.36637,31.61433 35.39218,31.63206 35.41568,31.65199 35.43662,31.67389 35.45476,31.69754 35.46991,31.72267 35.48189,31.74901 35.49058,31.77626 35.49587,31.80414 35.49771,31.83234 35.49607,31.86054 35.49096,31.88845 35.48244,31.91575 35.4706,31.94214 35.45557,31.96733 35.4375,31.99106 35.41661,32.01304 35.3931,32.03305 35.36725,32.05087 35.33933,32.06628 35.30966,32.07914 35.27856,32.08929 35.24636,32.09662 35.21344,32.10105 35.18015,32.10253</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Nabi Samwil</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.18015,31.832733</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Ramla</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.873556,31.9318</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Ras et Tahuneh</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2117,32.17859 35.17838,32.1771 35.14543,32.17267 35.11321,32.16534 35.08208,32.1552 35.05238,32.14234 35.02444,32.12692 34.99857,32.10911 34.97505,32.0891 34.95413,32.06711 34.93605,32.04339 34.92101,32.0182 34.90916,31.9918 34.90063,31.9645 34.89552,31.9366 34.89388,31.90839 34.89572,31.8802 34.90101,31.85232 34.90971,31.82506 34.9217,31.79872 34.93686,31.7736 34.95502,31.74995 34.97597,31.72804 34.9995,31.70812 35.02533,31.69038 35.05319,31.67504 35.08277,31.66225 35.11376,31.65216 35.14581,31.64487 35.17857,31.64047 35.2117,31.63899 35.24483,31.64047 35.27759,31.64487 35.30964,31.65216 35.34063,31.66225 35.37021,31.67504 35.39807,31.69038 35.4239,31.70812 35.44743,31.72804 35.46838,31.74995 35.48654,31.7736 35.5017,31.79872 35.51369,31.82506 35.52239,31.85232 35.52768,31.8802 35.52952,31.90839 35.52788,31.9366 35.52277,31.9645 35.51424,31.9918 35.50239,32.0182 35.48735,32.04339 35.46927,32.06711 35.44835,32.0891 35.42483,32.10911 35.39896,32.12692 35.37102,32.14234 35.34132,32.1552 35.31019,32.16534 35.27797,32.17267 35.24502,32.1771 35.2117,32.17859</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Ras et Tahuneh</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2117,31.90879</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Al Burj</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.02225,31.90175</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of El Jib</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18335,32.11725 35.15005,32.11576 35.11713,32.11133 35.08493,32.104 35.05382,32.09386 35.02414,32.081 34.99622,32.06558 34.97036,32.04777 34.94686,32.02776 34.92596,32.00577 34.90789,31.98205 34.89285,31.95686 34.88101,31.93047 34.87249,31.90317 34.86738,31.87526 34.86574,31.84706 34.86758,31.81886 34.87287,31.79098 34.88156,31.76372 34.89354,31.73739 34.90869,31.71226 34.92684,31.68861 34.94778,31.66671 34.97129,31.64678 34.9971,31.62905 35.02495,31.6137 35.05451,31.60092 35.08548,31.59082 35.1175,31.58353 35.15025,31.57913 35.18335,31.57765 35.21645,31.57913 35.2492,31.58353 35.28123,31.59082 35.31219,31.60092 35.34176,31.6137 35.3696,31.62905 35.39541,31.64678 35.41892,31.66671 35.43986,31.68861 35.45801,31.71226 35.47316,31.73739 35.48514,31.76372 35.49383,31.79098 35.49912,31.81886 35.50096,31.84706 35.49932,31.87526 35.49421,31.90317 35.48569,31.93047 35.47385,31.95686 35.45881,31.98205 35.44075,32.00577 35.41984,32.02776 35.39634,32.04777 35.37048,32.06558 35.34256,32.081 35.31288,32.09386 35.28177,32.104 35.24958,32.11133 35.21665,32.11576 35.18335,32.11725</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of El Jib</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.183351,31.847451</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Tell en Nasbeh</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21642,32.15493 35.18311,32.15345 35.15016,32.14902 35.11795,32.14169 35.08683,32.13154 35.05714,32.11869 35.02921,32.10327 35.00334,32.08546 34.97983,32.06545 34.95892,32.04346 34.94084,32.01974 34.9258,31.99454 34.91395,31.96815 34.90543,31.94085 34.90032,31.91295 34.89868,31.88474 34.90051,31.85654 34.90581,31.82866 34.9145,31.80141 34.92649,31.77507 34.94165,31.74994 34.9598,31.7263 34.98075,31.70439 35.00427,31.68446 35.03009,31.66673 35.05795,31.65139 35.08752,31.6386 35.1185,31.62851 35.15054,31.62122 35.1833,31.61681 35.21642,31.61534 35.24953,31.61681 35.28229,31.62122 35.31433,31.62851 35.34531,31.6386 35.37489,31.65139 35.40274,31.66673 35.42857,31.68446 35.45208,31.70439 35.47303,31.7263 35.49119,31.74994 35.50634,31.77507 35.51833,31.80141 35.52702,31.82866 35.53232,31.85654 35.53416,31.88474 35.53251,31.91295 35.5274,31.94085 35.51888,31.96815 35.50703,31.99454 35.49199,32.01974 35.47392,32.04346 35.45301,32.06545 35.42949,32.08546 35.40362,32.10327 35.37569,32.11869 35.346,32.13154 35.31488,32.14169 35.28267,32.14902 35.24973,32.15345 35.21642,32.15493</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Tell en Nasbeh</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.216417,31.885136</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Biddu</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.14832,32.10372 35.11503,32.10223 35.0821,32.0978 35.04991,32.09047 35.01881,32.08033 34.98913,32.06747 34.96122,32.05205 34.93537,32.03424 34.91186,32.01423 34.89096,31.99224 34.8729,31.96852 34.85787,31.94333 34.84603,31.91693 34.83751,31.88964 34.8324,31.86173 34.83076,31.83353 34.83259,31.80533 34.83789,31.77745 34.84657,31.75019 34.85856,31.72386 34.8737,31.69873 34.89185,31.67508 34.91278,31.65317 34.93629,31.63325 34.9621,31.61551 34.98994,31.60017 35.0195,31.58738 35.05046,31.57729 35.08248,31.57 35.11522,31.5656 35.14832,31.56412 35.18142,31.5656 35.21416,31.57 35.24618,31.57729 35.27714,31.58738 35.3067,31.60017 35.33454,31.61551 35.36035,31.63325 35.38386,31.65317 35.40479,31.67508 35.42294,31.69873 35.43808,31.72386 35.45007,31.75019 35.45875,31.77745 35.46405,31.80533 35.46588,31.83353 35.46424,31.86173 35.45913,31.88964 35.45061,31.91693 35.43877,31.94333 35.42374,31.96852 35.40568,31.99224 35.38478,32.01423 35.36127,32.03424 35.33542,32.05205 35.30751,32.06747 35.27783,32.08033 35.24673,32.09047 35.21454,32.0978 35.18161,32.10223 35.14832,32.10372</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Biddu</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.14832,31.83392</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Khirbet Raddana</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.202,32.1819 35.16868,32.18041 35.13573,32.17598 35.10351,32.16865 35.07238,32.15851 35.04268,32.14565 35.01474,32.13023 34.98886,32.11242 34.96534,32.09241 34.94442,32.07042 34.92634,32.0467 34.9113,32.02151 34.89945,31.99511 34.89092,31.96781 34.88581,31.93991 34.88417,31.9117 34.88601,31.88351 34.8913,31.85563 34.9,31.82837 34.91199,31.80203 34.92715,31.77691 34.94531,31.75326 34.96627,31.73135 34.98979,31.71143 35.01562,31.69369 35.04349,31.67835 35.07307,31.66556 35.10406,31.65547 35.13611,31.64818 35.16887,31.64378 35.202,31.6423 35.23513,31.64378 35.26789,31.64818 35.29994,31.65547 35.33093,31.66556 35.36051,31.67835 35.38838,31.69369 35.41421,31.71143 35.43773,31.73135 35.45869,31.75326 35.47685,31.77691 35.49201,31.80203 35.504,31.82837 35.5127,31.85563 35.51799,31.88351 35.51983,31.9117 35.51819,31.93991 35.51308,31.96781 35.50455,31.99511 35.4927,32.02151 35.47766,32.0467 35.45958,32.07042 35.43866,32.09241 35.41514,32.11242 35.38926,32.13023 35.36132,32.14565 35.33162,32.15851 35.30049,32.16865 35.26827,32.17598 35.23532,32.18041 35.202,32.1819</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / within 30 km of Khirbet Raddana</name>
+		<description>another name for Gittaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.202,31.9121</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Ras Abu Hamid</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.88994,31.90302</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gath 2 / Horbat Avimor</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.97128,31.81263</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

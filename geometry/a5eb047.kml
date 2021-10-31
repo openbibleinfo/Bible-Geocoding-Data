@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lebo-hamath</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5eb047/lebo-hamath">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Lebo-hamath (Hamath)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.13.21&amp;version=ESV">13:21</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.8&amp;version=ESV">34:8</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.13.5&amp;version=ESV">13:5</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.3.3&amp;version=ESV">3:3</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.8.65&amp;version=ESV">8:65</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.25&amp;version=ESV">14:25</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.13.5&amp;version=ESV">13:5</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.7.8&amp;version=ESV">7:8</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.47.15&amp;version=ESV">47:15</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.20&amp;version=ESV">47:20</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.48.1&amp;version=ESV">48:1</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.6.14&amp;version=ESV">6:14</a>]]></description>
+	<Placemark>
+		<name>Lebo-hamath / Labweh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.34956,34.19491</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lebo-hamath / Rableh</name>
+		<description>another name for Riblah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.572623,34.459547</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lebo-hamath / Labau</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.723889,33.4825</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

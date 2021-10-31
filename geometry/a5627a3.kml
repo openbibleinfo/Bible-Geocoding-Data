@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5627a3/goah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Goah (Goath)</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.31.39&amp;version=ESV">31:39</a>]]></description>
+	<Placemark>
+		<name>Goah / within 8 km of Jerusalem</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23417,31.84861 35.22531,31.84822 35.21656,31.84704 35.208,31.84509 35.19972,31.84239 35.19182,31.83897 35.18439,31.83486 35.1775,31.83012 35.17124,31.82479 35.16567,31.81894 35.16085,31.81262 35.15683,31.80591 35.15366,31.79887 35.15137,31.7916 35.14999,31.78416 35.14954,31.77664 35.15001,31.76912 35.1514,31.76168 35.1537,31.75441 35.15688,31.74738 35.1609,31.74067 35.16573,31.73436 35.17131,31.72851 35.17757,31.72319 35.18445,31.71845 35.19188,31.71435 35.19977,31.71094 35.20803,31.70824 35.21658,31.70629 35.22533,31.70512 35.23417,31.70472 35.24301,31.70512 35.25175,31.70629 35.2603,31.70824 35.26857,31.71094 35.27645,31.71435 35.28388,31.71845 35.29076,31.72319 35.29703,31.72851 35.3026,31.73436 35.30743,31.74067 35.31146,31.74738 35.31464,31.75441 35.31694,31.76168 35.31833,31.76912 35.3188,31.77664 35.31834,31.78416 35.31696,31.7916 35.31468,31.79887 35.31151,31.80591 35.30749,31.81262 35.30267,31.81894 35.29709,31.82479 35.29083,31.83012 35.28394,31.83486 35.27651,31.83897 35.26861,31.84239 35.26034,31.84509 35.25178,31.84704 35.24302,31.84822 35.23417,31.84861</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goah / within 8 km of Jerusalem</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.234167,31.776667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

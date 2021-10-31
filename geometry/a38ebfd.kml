@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tigris</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a38ebfd/tigris">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Tigris (Hiddekel)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.2.14&amp;version=ESV">2:14</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.10.4&amp;version=ESV">10:4</a>]]></description>
+	<Placemark>
+		<name>Tigris / Tigris River</name>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>39.53881,38.47307 39.6221,38.45823 39.70029,38.33975 39.99664,38.37056 40.173,38.24769 40.18636,38.16192 40.13415,38.11487 40.25671,38.08473 40.24093,37.8383 40.62362,37.85049 40.75523,37.79832 40.85028,37.83877 41.23597,37.71856 41.77458,37.73292 41.89776,37.5782 41.83772,37.5199 41.86563,37.41775 42.14003,37.38515 42.2046,37.2804 42.34066,37.23563 42.37106,37.0515 42.44693,36.96308 42.51539,36.96645 42.49806,36.84493 42.88866,36.6848 42.74793,36.50603 42.93245,36.49325 42.99376,36.3988 43.11411,36.39376 43.30768,36.13887 43.36851,35.88744 43.28724,35.78066 43.32544,35.70384 43.24289,35.63821 43.26224,35.41062 43.37104,35.34004 43.35279,35.2798 43.43071,35.25193 43.38706,35.20794 43.57449,35.03533 43.50816,34.94418 43.76493,34.51689 43.8161,34.22348 43.94614,34.08128 44.17537,34.06952 44.22534,33.99563 44.26639,34.04402 44.45482,33.92986 44.38223,33.76319 44.4369,33.70141 44.3006,33.5327 44.33107,33.38745 44.41558,33.30796 44.36993,33.26527 44.45095,33.28473 44.48643,33.16986 44.5672,33.13941 44.57738,33.03115 44.61205,33.08259 44.65995,32.99985 44.73964,33.02689 44.71403,32.9626 44.78246,32.99549 44.7973,32.92103 44.84051,32.97645 44.84254,32.92863 44.99943,32.85658 45.0721,32.89702 45.0299,32.85114 45.09045,32.77621 45.29675,32.73949 45.24779,32.68197 45.34421,32.67961 45.41904,32.55588 45.51556,32.58967 45.52523,32.52008 45.59926,32.5672 45.58526,32.53117 45.6517,32.56133 45.83862,32.48637 45.96544,32.60472 46.14071,32.65608 46.25329,32.55132 46.71673,32.45984 46.76068,32.35022 46.70322,32.31731 46.68752,32.19458 46.73163,32.11354 46.87358,32.07486 46.94816,31.87546 47.14638,31.85445 47.18909,31.6201 47.4369,31.38488 47.44235,31.00471</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Tigris / Tigris River</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>47.4421,31.0043</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

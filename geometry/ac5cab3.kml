@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Amaw</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac5cab3/amaw">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Amaw</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.22.5&amp;version=ESV">22:5</a>]]></description>
+	<Placemark>
+		<name>Amaw / between Aleppo and Carchemish</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>38.216979,35.914263 38.054795,36.099649 38.185103,36.279519 38.258127,36.435034 38.246534,36.510609 38.214163,36.649786 38.035205,36.74756 38.05373,36.932487 37.563504,36.91613 37.160494,36.102356 38.216979,35.914263</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Amaw / between Aleppo and Carchemish</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>38.0865,36.7014</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Amaw / Ammon</name>
+		<description>another name for Ammon</description>
+		<Placemark>
+			<name>Amaw (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85219,31.95434 35.85219,31.92407 35.99338,31.83325 36.06397,31.83325 36.20516,31.86352 36.27575,31.92407 36.34635,32.04515 36.34635,32.07543 36.09927,32.13597 36.06397,32.13597 36.02868,32.13597 35.99338,32.13597 35.95808,32.13597 35.92279,32.1057 35.88749,32.07543 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85219,31.92407 35.99338,31.83325 36.02868,31.83325 36.06397,31.83325 36.09927,31.83325 36.20516,31.86352 36.24046,31.89379 36.27575,31.92407 36.31105,31.95434 36.38164,32.04515 36.31105,32.13597 35.95808,32.16624 35.92279,32.16624 35.88749,32.1057 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434 35.85219,31.92407</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13457,31.80298 36.16986,31.80298 36.27575,31.86352 36.31105,31.89379 36.38164,31.98461 36.38164,32.04515 36.38164,32.07543 36.34635,32.1057 36.31105,32.13597 35.99338,32.16624 35.95808,32.16624 35.92279,32.16624 35.88749,32.16624 35.85219,32.16624 35.85219,32.13597 35.85219,32.07543 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434 35.85219,31.92407 35.85219,31.89379 35.95808,31.83325 36.06397,31.80298 36.13457,31.80298</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.99338,32.19651 35.85219,32.16624 35.8169,31.92407 35.8169,31.89379 35.92279,31.83325 36.09927,31.77271 36.13457,31.77271 36.16986,31.77271 36.38164,31.86352 36.38164,31.89379 36.38164,31.92407 36.38164,31.98461 36.38164,32.01488 36.38164,32.04515 36.38164,32.07543 36.38164,32.1057 36.38164,32.13597 35.99338,32.19651</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7816,31.92407 35.7816,31.89379 35.7816,31.86352 36.13457,31.74243 36.27575,31.77271 36.59342,32.01488 36.55813,32.1057 36.31105,32.16624 35.99338,32.19651 35.95808,32.19651 35.85219,32.16624 35.7816,31.92407</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7816,31.86352 35.88749,31.80298 36.09927,31.71216 36.20516,31.71216 36.24046,31.71216 36.48753,31.86352 36.62872,32.04515 36.66402,32.1057 36.34635,32.19651 35.99338,32.19651 35.95808,32.19651 35.85219,32.16624 35.7463,31.89379 35.7816,31.86352</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.71101,32.07543 35.71101,32.04515 35.71101,32.01488 35.71101,31.86352 35.85219,31.80298 36.06397,31.71216 36.09927,31.71216 36.16986,31.71216 36.20516,31.71216 36.24046,31.71216 36.27575,31.71216 36.38164,31.77271 36.41694,31.80298 36.45224,31.83325 36.48753,31.86352 36.52283,31.89379 36.55813,31.92407 36.66402,32.04515 36.66402,32.07543 36.66402,32.1057 36.34635,32.19651 36.16986,32.22679 36.13457,32.22679 35.92279,32.19651 35.85219,32.16624 35.71101,32.07543</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.71101,31.95434 35.71101,31.92407 35.71101,31.89379 35.71101,31.86352 35.7463,31.83325 36.02868,31.65162 36.06397,31.65162 36.09927,31.65162 36.27575,31.65162 36.48753,31.80298 36.69931,32.01488 36.69931,32.04515 36.66402,32.13597 36.20516,32.37815 35.7816,32.22679 35.71101,32.16624 35.71101,32.13597 35.71101,32.1057 35.71101,32.07543 35.71101,32.04515 35.71101,32.01488 35.71101,31.98461 35.71101,31.95434</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.06397,31.43971 36.09927,31.43971 36.8758,32.01488 36.8758,32.04515 36.8405,32.1057 36.66402,32.19651 36.24046,32.37815 36.20516,32.37815 36.16986,32.37815 35.85219,32.37815 35.7816,32.34787 35.64041,32.01488 35.64041,31.98461 35.64041,31.95434 35.64041,31.86352 35.64041,31.83325 35.7463,31.65162 36.02868,31.43971 36.06397,31.43971</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amaw / Ammon</name>
+			<description>another name for Ammon</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.9343,31.9547</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

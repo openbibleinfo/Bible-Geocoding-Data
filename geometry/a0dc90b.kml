@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Diviners' Oak</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0dc90b/diviners-oak">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Diviners’ Oak (Elon-meonenim, Oak Tree of the Diviners, Diviners’ Terebinth Tree, Meonenim)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.9.37&amp;version=ESV">9:37</a>]]></description>
+	<Placemark>
+		<name>Diviners’ Oak / within 200 m of Tell Balatah</name>
+		<description>within 200 m of Shechem</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.28194,32.21541 35.28172,32.2154 35.2815,32.21537 35.28129,32.21532 35.28108,32.21525 35.28088,32.21517 35.28069,32.21507 35.28052,32.21495 35.28036,32.21481 35.28022,32.21467 35.2801,32.21451 35.28,32.21434 35.27992,32.21417 35.27986,32.21398 35.27983,32.2138 35.27982,32.21361 35.27983,32.21342 35.27986,32.21324 35.27992,32.21306 35.28,32.21288 35.2801,32.21271 35.28022,32.21255 35.28036,32.21241 35.28052,32.21227 35.28069,32.21216 35.28088,32.21205 35.28108,32.21197 35.28129,32.2119 35.2815,32.21185 35.28172,32.21182 35.28194,32.21181 35.28217,32.21182 35.28239,32.21185 35.2826,32.2119 35.28281,32.21197 35.28301,32.21205 35.28319,32.21216 35.28337,32.21227 35.28352,32.21241 35.28366,32.21255 35.28379,32.21271 35.28389,32.21288 35.28397,32.21306 35.28402,32.21324 35.28406,32.21342 35.28407,32.21361 35.28406,32.2138 35.28402,32.21398 35.28397,32.21417 35.28389,32.21434 35.28379,32.21451 35.28366,32.21467 35.28352,32.21481 35.28337,32.21495 35.28319,32.21507 35.28301,32.21517 35.28281,32.21525 35.2826,32.21532 35.28239,32.21537 35.28217,32.2154 35.28194,32.21541</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Diviners’ Oak / within 200 m of Tell Balatah</name>
+		<description>within 200 m of Shechem</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.281944,32.213611</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

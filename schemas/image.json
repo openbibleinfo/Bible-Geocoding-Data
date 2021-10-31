@@ -1,0 +1,151 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": true,
+   "definitions": {
+      "ancient_or_modern_id": {
+         "pattern": "^[am][0-9a-f]{6}$",
+         "type": "string"
+      },
+      "file": {
+         "pattern": "^[am][0-9a-f]{6}\\.(i[0-9a-f]{6}|satellite)\\.jpg$",
+         "type": "string"
+      },
+      "image_id": {
+         "pattern": "^i[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "uri": {
+         "pattern": "https?://.+$",
+         "type": "string"
+      }
+   },
+   "properties": {
+      "author": {
+         "type": "string"
+      },
+      "color": {
+         "enum": [
+            "black_and_white",
+            "color",
+            "colorized"
+         ],
+         "type": "string"
+      },
+      "credit": {
+         "type": "string"
+      },
+      "credit_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "descriptions": {
+         "patternProperties": {
+            "": {
+               "type": "string"
+            }
+         },
+         "type": "object"
+      },
+      "file_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "height": {
+         "type": "number"
+      },
+      "id": {
+         "$ref": "#/definitions/image_id"
+      },
+      "license": {
+         "enum": [
+            "attribution",
+            "copyright",
+            "CC-BY-2.0",
+            "CC-BY-2.5",
+            "CC-BY-3.0",
+            "CC-BY-4.0",
+            "CC-BY-SA-1.0",
+            "CC-BY-SA-2.0",
+            "CC-BY-SA-2.5",
+            "CC-BY-SA-3.0",
+            "CC-BY-SA-3.0-FR",
+            "CC-BY-SA-3.0-DE",
+            "CC-BY-SA-3.0-IGO",
+            "CC-BY-SA-4.0",
+            "CC-PD-Mark",
+            "CC-Zero",
+            "FAL",
+            "GFDL",
+            "GPL",
+            "OGL-1.0",
+            "PD",
+            "sentinel"
+         ],
+         "type": "string"
+      },
+      "meters_per_pixel": {
+         "enum": [
+            10
+         ],
+         "type": "number"
+      },
+      "role": {
+         "enum": [
+            "satellite"
+         ],
+         "type": "string"
+      },
+      "thumbnail_url_pattern": {
+         "$ref": "#/definitions/uri"
+      },
+      "thumbnails": {
+         "patternProperties": {
+            "": {
+               "additionalProperties": false,
+               "properties": {
+                  "description": {
+                     "type": "string"
+                  },
+                  "edits": {
+                     "items": {
+                        "enum": [
+                           "color",
+                           "colorize",
+                           "content-aware fill",
+                           "crop",
+                           "rotate",
+                           "super-resolution"
+                        ],
+                        "type": "string"
+                     },
+                     "type": "array"
+                  },
+                  "file": {
+                     "$ref": "#/definitions/file"
+                  },
+                  "placeholder": {
+                     "pattern": "^#[0-9a-f]{6},#[0-9a-f]{6},#[0-9a-f]{6}$",
+                     "type": "string"
+                  }
+               },
+               "required": [
+                  "file",
+                  "placeholder"
+               ],
+               "type": "object"
+            }
+         },
+         "type": "object"
+      },
+      "url": {
+         "$ref": "#/definitions/uri"
+      },
+      "width": {
+         "type": "number"
+      }
+   },
+   "required": [
+      "descriptions",
+      "id",
+      "license"
+   ],
+   "type": "object"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nahal Dishon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m10a103/nahal-dishon">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Nahal Dishon</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.40071,33.00328 35.39543,33.00673 35.39424,33.00899 35.39434,33.01009 35.39789,33.01124 35.40586,33.01115 35.41437,33.0157 35.41685,33.01628 35.42015,33.02164 35.42305,33.02283 35.42567,33.0253 35.42774,33.02866 35.42909,33.03716 35.43121,33.03938 35.43412,33.0403 35.43616,33.04219 35.43789,33.04282 35.43785,33.04416 35.44027,33.04547 35.44012,33.0481 35.44113,33.04922 35.44132,33.05168 35.44247,33.05312 35.44625,33.0555 35.44825,33.05586 35.44945,33.05708 35.45185,33.05788 35.45297,33.0573 35.45427,33.05763 35.45732,33.0558 35.46117,33.05468 35.46401,33.05499 35.46603,33.05672 35.46727,33.05704 35.46683,33.05762 35.46719,33.05832 35.46891,33.05886 35.46937,33.0616 35.47053,33.06265 35.47086,33.06384 35.47167,33.06375 35.47215,33.06542 35.47775,33.06941 35.4778,33.07081 35.47917,33.07172 35.47948,33.07369 35.48187,33.07561 35.48319,33.07581 35.48398,33.07692 35.48786,33.07475 35.48893,33.07518 35.49196,33.07441 35.49178,33.07292 35.49309,33.07245 35.49514,33.07286 35.49669,33.07153 35.49732,33.07207 35.49858,33.07147 35.501,33.07232 35.50453,33.07488 35.50602,33.07457 35.51164,33.07637 35.51438,33.07536 35.5156,33.07336 35.51836,33.07237 35.52066,33.07003 35.52241,33.06928 35.52363,33.06626 35.52546,33.06503 35.52862,33.06081 35.5334,33.05863 35.53452,33.05586 35.53602,33.05428 35.5424,33.05229 35.54273,33.05175 35.54223,33.05042 35.54074,33.04802 35.54169,33.04622 35.54172,33.04429 35.54527,33.04042 35.54927,33.03955 35.5509,33.03858 35.55672,33.03892 35.56278,33.04118 35.56499,33.0406 35.5667,33.04106 35.56798,33.04072 35.57536,33.04306 35.58023,33.04344 35.58167,33.04243 35.58446,33.04265 35.58758,33.04182 35.59178,33.04314 35.59365,33.04265 35.59616,33.04292 35.60127,33.04675 35.60691,33.04818 35.60943,33.0478 35.61173,33.04832 35.61823,33.05204 35.62075,33.05102 35.62209,33.04936 35.62731,33.04922</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Nahal Dishon</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.496944,33.071667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

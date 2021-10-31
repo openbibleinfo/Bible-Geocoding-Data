@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Armageddon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a105543/armageddon">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Armageddon (Har-Magedon, Harmagedon)</name>
+	<description><![CDATA[Rev <a href="https://www.biblegateway.com/passage/?search=Rev.16.16&amp;version=ESV">16:16</a>]]></description>
+	<Placemark>
+		<name>Armageddon / Tel Megiddo</name>
+		<description>another name for Megiddo</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.184444,32.585278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Jezreel Valley</name>
+		<description>another name for the Valley of Jezreel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29862,32.45796 35.349462,32.458358 35.357195,32.467342 35.37629,32.485041 35.344045,32.520373 35.38992,32.567088 35.403528,32.634411 35.409049,32.659945 35.386203,32.681735 35.370946,32.694521 35.347554,32.692114 35.29698,32.679897 35.272385,32.669034 35.238055,32.666491 35.105695,32.66217 35.134339,32.620408 35.18078,32.589464 35.181039,32.558857 35.208211,32.539932 35.238096,32.499001 35.29862,32.45796</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Jezreel Valley</name>
+		<description>another name for the Valley of Jezreel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241944,32.596389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Mount Carmel</name>
+		<description>another name for Mount Carmel</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.023333,32.6725</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Jerusalem</name>
+		<description>another name for Jerusalem</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.234167,31.776667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Euphrates River</name>
+		<description>another name for the Euphrates</description>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>43.4004,39.62289 43.03842,39.70988 42.89148,39.55006 42.68305,39.49974 42.56097,39.37735 42.51654,39.15681 42.14263,39.16913 41.73966,39.02609 41.54147,39.06983 41.5341,38.84767 41.28619,38.8488 41.16636,38.75437 40.93768,38.90233 40.43907,38.71578 40.05323,38.74685 39.76762,38.62738 39.52104,38.65794 39.43605,38.78707 39.07093,38.88889 38.79036,38.86343 38.62579,38.74399 38.4707,38.75055 38.35929,38.54254 38.69727,38.41718 38.81465,38.44258 38.96907,38.3195 39.10977,38.34695 39.15092,38.3002 39.10734,38.20079 39.22207,38.20728 39.26237,38.14575 38.97395,37.89992 38.97615,37.82576 38.89374,37.79772 38.96638,37.75973 38.80754,37.68869 38.84787,37.6459 38.65453,37.62225 38.44129,37.47027 38.27288,37.47616 38.17543,37.41056 37.9869,37.44055 37.876,37.34516 37.8643,37.07822 37.98087,37.04911 38.03223,36.73892 38.27974,36.53821 38.07234,36.08734 38.15529,35.98854 38.554,35.85696 39.04536,35.9343 39.29005,35.82418 39.78978,35.74977 39.91166,35.51972 40.40792,35.20512 40.42549,35.07127 40.4782,35.05925 40.43902,35.03065 40.5636,34.95816 40.64746,34.78824 40.91728,34.62881 40.93077,34.44985 41.07865,34.37813 41.21151,34.38819 41.17855,34.42827 41.23469,34.45545 41.70109,34.44724 41.77868,34.53001 41.83756,34.46904 41.96819,34.47555 42.13934,34.27379 42.37435,34.33023 42.31718,34.24315 42.38791,34.18267 42.41314,34.0175 42.50326,34.03386 42.57021,33.97252 42.53159,33.86241 42.6616,33.90336 42.77015,33.85387 42.71973,33.71875 42.92984,33.52606 43.6575,33.39649 43.75822,33.35178 43.8638,33.18126 44.01608,33.16432 44.17383,33.02275 44.29104,32.78756 44.20564,32.56697 44.30027,32.44331 44.35553,32.11166 44.50174,31.8977 44.47541,31.70573 44.78758,31.45265 45.13943,31.42654 45.24909,31.32722 45.53215,31.28336 45.5573,31.18628 46.0521,31.1234 46.47565,30.9104 46.5801,30.98234 47.30651,30.92903 47.44235,31.00471</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Euphrates River</name>
+		<description>another name for the Euphrates</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>47.442,31.0043</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Valley of Jehoshaphat</name>
+		<description>another name for the Valley of Jehoshaphat</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24104,31.790628 35.23847,31.786079 35.239161,31.781644 35.237624,31.779285 35.237702,31.776337 35.235558,31.772749 35.234772,31.771233 35.233874,31.767876 35.236047,31.767318 35.238813,31.774228 35.240869,31.777212 35.242006,31.785389 35.2427,31.789608 35.24104,31.790628</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Armageddon / Valley of Jehoshaphat</name>
+		<description>another name for the Valley of Jehoshaphat</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.24,31.780278</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

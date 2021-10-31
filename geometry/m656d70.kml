@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Zerqa Main</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m656d70/wadi-zerqa-main">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Zerqa Main</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.666734,31.606429 35.665242,31.60614 35.664645,31.605439 35.664199,31.605214 35.66125,31.604843 35.660378,31.603896 35.66006,31.603779 35.659633,31.603842 35.659532,31.604026 35.659463,31.604961 35.658935,31.605137 35.656702,31.604855 35.655691,31.60516 35.654336,31.60471 35.652594,31.605172 35.652126,31.605086 35.651882,31.60475 35.651758,31.603877 35.651483,31.603748 35.64953,31.603638 35.64771,31.603133 35.646089,31.602249 35.643686,31.601408 35.642335,31.600386 35.640911,31.600958 35.640327,31.600934 35.638586,31.599103 35.637791,31.598801 35.636532,31.598735 35.635645,31.599811 35.63565,31.60093 35.635039,31.601963 35.63316,31.60212 35.632512,31.602343 35.631211,31.602867 35.630403,31.603791 35.630031,31.603947 35.629185,31.603908 35.628244,31.603439 35.627081,31.603471 35.626686,31.60459 35.626847,31.605095 35.626544,31.605646 35.626084,31.605834 35.624316,31.60621 35.623181,31.605869 35.6224,31.606194 35.621885,31.606061 35.620773,31.607208 35.618131,31.607435 35.616805,31.608096 35.616009,31.608209 35.612107,31.607519 35.60996,31.609206 35.6036,31.608513 35.601651,31.609591 35.598475,31.610627 35.597402,31.611155 35.59634,31.610494 35.595992,31.610561 35.595837,31.61121 35.595139,31.610886 35.594245,31.611257 35.593617,31.610808 35.593387,31.610339 35.592965,31.610267 35.592826,31.611348 35.592365,31.61141 35.5919,31.611326 35.590736,31.610563 35.589581,31.610841 35.588981,31.610662 35.588178,31.61074 35.587343,31.611649 35.586202,31.611255 35.585921,31.61209 35.585274,31.612293 35.584903,31.61267 35.58433,31.612455 35.58357,31.612543 35.583818,31.613132 35.583614,31.613461 35.583174,31.613397 35.582791,31.613022 35.580423,31.613666 35.579717,31.613373 35.579407,31.613474 35.578718,31.614532 35.578142,31.614476 35.577412,31.615441 35.577792,31.616365 35.576925,31.616914 35.576997,31.617472 35.575832,31.618199 35.574584,31.61843 35.573863,31.618816 35.572046,31.618159 35.570959,31.617412 35.569394,31.617257 35.567384,31.618131</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Zerqa Main</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.567222,31.618056</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

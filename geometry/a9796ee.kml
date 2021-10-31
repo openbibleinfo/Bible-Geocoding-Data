@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goiim 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a9796ee/goiim-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Goiim 1 (Goyim)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.14.1&amp;version=ESV">14:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.14.9&amp;version=ESV">14:9</a>]]></description>
+	<Folder>
+		<name>Goiim 1 / in Aram</name>
+		<description>in Syria 1</description>
+		<Placemark>
+			<name>Goiim 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.07666,33.5149 35.99445,33.23637 35.99445,33.16674 36.32326,33.37564 36.40546,33.44527 36.07666,33.5149</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.83005,33.09711 35.83005,33.02748 35.91225,32.95785 36.73427,33.306 36.73427,33.37564 36.32326,33.65416 36.24106,33.65416 36.15886,33.58453 36.07666,33.5149 35.83005,33.09711</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.48767,33.65416 36.40546,33.65416 36.32326,33.65416 36.24106,33.65416 36.15886,33.65416 36.07666,33.65416 35.99445,33.5149 35.74785,32.95785 35.83005,32.95785 35.91225,32.95785 36.65207,33.23637 36.81647,33.306 36.89868,33.37564 36.89868,33.44527 36.48767,33.65416</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.15886,33.72379 35.99445,33.65416 35.91225,33.5149 35.66565,32.88821 35.74785,32.81858 36.40546,32.74895 36.48767,32.81858 36.56987,32.88821 36.65207,32.95785 36.89868,33.23637 36.89868,33.306 36.89868,33.37564 36.89868,33.44527 36.89868,33.5149 36.89868,33.58453 36.48767,33.72379 36.40546,33.72379 36.32326,33.72379 36.24106,33.72379 36.15886,33.72379</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.24106,33.79342 35.99445,33.72379 35.83005,33.65416 35.74785,33.58453 35.66565,33.02748 35.66565,32.95785 35.66565,32.88821 35.66565,32.81858 35.66565,32.74895 36.07666,32.1919 36.15886,32.26153 36.24106,32.33116 36.32326,32.40079 36.89868,33.09711 36.98088,33.37564 36.89868,33.72379 36.48767,33.79342 36.40546,33.79342 36.32326,33.79342 36.24106,33.79342</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.66565,33.37564 35.66565,33.09711 35.66565,33.02748 35.66565,32.95785 35.66565,32.88821 35.66565,32.81858 35.66565,32.74895 36.07666,32.1919 36.15886,32.1919 36.32326,32.26153 36.48767,32.33116 36.81647,32.60969 36.89868,32.67932 37.14528,33.5149 37.14528,33.58453 37.14528,33.65416 37.14528,33.72379 37.14528,33.79342 36.89868,34.00232 36.81647,34.00232 36.73427,34.00232 36.65207,34.00232 36.56987,34.00232 36.48767,34.00232 36.15886,33.93269 35.83005,33.72379 35.74785,33.65416 35.66565,33.37564</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.99445,34.14158 35.91225,34.00232 35.74785,33.65416 35.66565,33.44527 35.58344,32.67932 36.07666,32.1919 36.15886,32.1919 36.24106,32.1919 36.32326,32.1919 36.40546,32.1919 36.89868,32.54006 37.8851,34.21121 37.8851,34.28084 37.8029,34.28084 37.72069,34.28084 35.99445,34.14158</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.07666,32.1919 36.40546,32.12227 36.81647,32.47043 36.89868,32.54006 37.14528,32.88821 37.8029,34.00232 37.8851,34.21121 37.8851,34.28084 37.14528,34.69863 37.06308,34.69863 36.98088,34.69863 35.99445,34.21121 35.83005,33.86306 35.74785,33.65416 35.66565,33.44527 35.58344,32.67932 36.07666,32.1919</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goiim 1 / in Aram</name>
+			<description>in Syria 1</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.30639,33.511112</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Goiim 1 / Hatti</name>
+		<description>another name for Hatti</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>31.113501,41.17356 31.638218,36.569905 32.018013,36.438596 32.480967,35.983283 32.851415,35.967947 33.769264,36.079696 34.086596,36.220293 34.693377,36.735027 35.36228,36.480242 35.657797,36.53217 36.107665,36.79231 36.10943,36.657552 35.700582,36.369328 35.854585,36.015448 35.669181,35.55193 35.846205,35.412152 35.810508,34.948423 35.95383,34.544272 35.70969,34.412845 35.605638,34.250291 36.530773,34.204564 37.563927,35.611343 39.103347,35.789851 39.620393,39.080715 38.29744,41.002588 36.642896,41.476014 36.444122,41.355599 36.056485,41.834528 35.476456,41.752322 35.083431,42.184753 34.621495,42.008625 33.30003,42.110344 32.174585,41.7389 31.330483,41.337715 31.283385,41.199137 31.113501,41.17356</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goiim 1 / Hatti</name>
+		<description>another name for Hatti</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.615278,40.019722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goiim 1 / Media</name>
+		<description>another name for Umman Manda</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>50.011002,30.088045 51.274977,27.694685 51.968945,27.609028 52.543486,27.20282 53.574455,26.563513 54.784824,26.32797 56.551349,26.977192 57.236117,25.52583 59.106793,29.245149 67.553301,30.971734 67.40204,33.293338 63.109926,39.492965 53.925093,36.989022 51.826439,36.676968 50.475233,37.138887 50.333849,37.458567 49.23762,37.615969 49.058806,38.442823 45.126246,41.165846 43.314852,41.359638 41.52824,40.338099 36.877553,40.513882 36.556185,41.467699 35.460059,42.142747 33.730665,39.348271 34.945889,38.788819 39.839415,37.914506 40.277386,36.597958 45.212807,36.061842 47.519954,34.14296 49.578808,32.720199 50.59391,30.775085 50.011002,30.088045</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goiim 1 / Media</name>
+		<description>another name for Umman Manda</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.516247,34.8065</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

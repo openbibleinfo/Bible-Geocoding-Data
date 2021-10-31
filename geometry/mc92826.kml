@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi er Rummun</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mc92826/wadi-er-rummun">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi er Rummun</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.647387,30.495537 34.649569,30.497566 34.649926,30.499742 34.651565,30.500964 34.652354,30.502928 34.653118,30.503045 34.654424,30.506517 34.657518,30.507674 34.660648,30.511274 34.663631,30.510966 34.665491,30.513504 34.667389,30.513578 34.6675,30.514661 34.668992,30.515149 34.670039,30.516646 34.670951,30.520086 34.672467,30.521042 34.672331,30.52187 34.676398,30.523759 34.677779,30.526244 34.6798,30.526286 34.679972,30.530501 34.682129,30.533834 34.682869,30.536806 34.687318,30.537592 34.691212,30.540128 34.691582,30.542336 34.695945,30.546794 34.701066,30.548357 34.710662,30.555386 34.711578,30.558678 34.713748,30.5589 34.719731,30.556055 34.721756,30.556156 34.725085,30.555217 34.728939,30.5552 34.738669,30.556978 34.743124,30.556453 34.745789,30.558683 34.74754,30.557863 34.75091,30.557535 34.756545,30.561207 34.755784,30.565338 34.756621,30.567109 34.758079,30.567526 34.760536,30.570523 34.765767,30.572174 34.770254,30.574626 34.775131,30.579515 34.783325,30.579351 34.790916,30.584303 34.792229,30.587618 34.796118,30.587134 34.797006,30.58799 34.805147,30.588378 34.809248,30.587675 34.81594,30.590443 34.821041,30.590907 34.823495,30.590503 34.834201,30.592361 34.836992,30.594817 34.840788,30.595667 34.842627,30.597469 34.843018,30.59829 34.841379,30.600767 34.844104,30.604762 34.845742,30.610494 34.8509,30.611652 34.856824,30.611271 34.857998,30.613483 34.859411,30.614465 34.867309,30.617292 34.872638,30.617863 34.875344,30.621101 34.8804,30.622976 34.885132,30.623137 34.891798,30.621186 34.897726,30.625021 34.903532,30.62715 34.909601,30.626499 34.913797,30.628493 34.919513,30.628871 34.923538,30.626891 34.927408,30.623109 34.927386,30.621789 34.925605,30.619524 34.921515,30.617127 34.921493,30.6155 34.923934,30.612091 34.92853,30.610486 34.929695,30.609123 34.929717,30.608309 34.924527,30.605736 34.924198,30.603383 34.925913,30.601382 34.92721,30.60114 34.931081,30.602833 34.934673,30.602521 34.937466,30.603188 34.938177,30.599711 34.937574,30.597801 34.938786,30.595515 34.939138,30.593122</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi er Rummun</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.817778,30.578611</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

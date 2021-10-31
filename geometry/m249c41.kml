@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Naqb al Biyar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m249c41/naqb-al-biyar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Naqb al Biyar</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.712554,29.482898 34.712784,29.483096 34.713053,29.483169 34.713173,29.48343 34.713777,29.483533 34.714337,29.484411 34.716475,29.485781 34.716813,29.486337 34.716808,29.486589 34.716593,29.487135 34.714887,29.488219 34.714072,29.488471 34.713471,29.489984 34.713095,29.490507 34.712613,29.490955 34.712414,29.491006 34.711159,29.490857 34.710445,29.491058 34.709727,29.491095 34.709373,29.490955 34.709051,29.490666 34.708514,29.489657 34.708182,29.488704 34.707538,29.488069 34.706916,29.486902 34.70654,29.486528 34.70624,29.486416 34.705381,29.486398 34.703536,29.486594 34.702849,29.486977 34.702549,29.487584 34.702109,29.487752 34.701444,29.487798 34.701144,29.488125 34.701144,29.48848 34.701004,29.488695 34.700671,29.488854 34.699888,29.488938 34.699674,29.489087 34.699352,29.489676 34.697034,29.490796 34.695919,29.491506 34.695382,29.491954 34.693505,29.494597 34.692475,29.494625 34.691885,29.49442 34.691606,29.493962 34.691423,29.492225 34.691273,29.491805 34.690994,29.491562 34.690651,29.491431 34.690307,29.491431 34.687969,29.492309 34.686992,29.492384 34.686284,29.492244 34.685662,29.4923 34.685276,29.492468 34.684482,29.493047 34.684235,29.493355 34.683355,29.493747 34.682733,29.493738 34.681284,29.493178 34.679482,29.492972 34.678431,29.493271 34.677572,29.493831 34.676778,29.494765 34.676285,29.495942 34.674354,29.497884 34.671736,29.499714 34.670062,29.501993 34.669933,29.503524 34.669375,29.506213 34.668646,29.50838 34.667616,29.510322 34.665899,29.51204 34.663453,29.514243 34.661994,29.516484 34.661179,29.518501 34.660749,29.521077 34.660106,29.524027 34.660106,29.525521 34.659805,29.527127 34.659119,29.52806 34.657574,29.529143 34.653454,29.530749 34.65281,29.531869 34.652638,29.532915 34.652724,29.534894 34.653068,29.536051 34.654677,29.540177 34.655492,29.541801 34.658239,29.545703 34.658668,29.547775 34.65899,29.548353 34.659376,29.548783 34.659419,29.549193 34.658818,29.550108 34.658046,29.550985 34.657745,29.551583 34.657445,29.552479 34.657402,29.553151 34.657595,29.554075</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Naqb al Biyar</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.65429,29.54022</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

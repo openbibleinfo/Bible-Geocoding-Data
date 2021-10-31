@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Judea 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab86a69/judea-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Judea 2 (Judah)</name>
+	<description><![CDATA[Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.5.8&amp;version=ESV">5:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.9.9&amp;version=ESV">9:9</a>]]></description>
+	<Folder>
+		<name>Judea 2 / Judea 2</name>
+		<Placemark>
+			<name>Judea 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.90608,31.851 34.90608,31.82864 34.93223,31.71685 34.95837,31.60506 35.01065,31.5827 35.37665,31.53798 35.4028,31.53798 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.2198,31.96279 35.19365,31.96279 35.16751,31.96279 35.14137,31.96279 35.11523,31.96279 35.08908,31.96279 35.06294,31.96279 35.0368,31.96279 35.01065,31.96279 34.98451,31.96279 34.93223,31.89571 34.90608,31.851</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.90608,31.89571 34.90608,31.87336 34.90608,31.851 34.90608,31.82864 34.90608,31.80628 34.95837,31.60506 35.01065,31.5827 35.35051,31.47091 35.37665,31.47091 35.4028,31.47091 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.45508,31.89571 35.37665,31.91807 35.2198,31.96279 35.19365,31.96279 35.16751,31.96279 35.14137,31.96279 35.11523,31.96279 35.08908,31.96279 35.06294,31.96279 35.0368,31.96279 35.01065,31.96279 34.98451,31.96279 34.95837,31.94043 34.93223,31.91807 34.90608,31.89571</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.90608,31.80628 34.90608,31.78392 34.90608,31.76157 34.90608,31.73921 34.95837,31.60506 35.01065,31.5827 35.37665,31.44855 35.4028,31.47091 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.2198,31.96279 35.11523,31.98515 35.08908,31.98515 35.0368,31.98515 34.93223,31.96279 34.90608,31.94043 34.90608,31.91807 34.90608,31.89571 34.90608,31.87336 34.90608,31.851 34.90608,31.82864 34.90608,31.80628</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.93223,31.64978 34.95837,31.60506 34.98451,31.5827 35.35051,31.44855 35.37665,31.44855 35.4028,31.47091 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.45508,31.91807 35.16751,31.98515 34.95837,32.0075 34.93223,31.98515 34.90608,31.96279 34.87994,31.80628 34.87994,31.78392 34.87994,31.76157 34.93223,31.64978</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.87994,31.82864 34.87994,31.80628 34.87994,31.78392 34.87994,31.76157 34.87994,31.73921 34.93223,31.62742 34.95837,31.60506 34.98451,31.5827 35.35051,31.44855 35.37665,31.44855 35.4028,31.47091 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.45508,31.91807 35.37665,31.94043 35.19365,31.98515 34.87994,32.02986 34.87994,32.0075 34.87994,31.98515 34.87994,31.96279 34.87994,31.94043 34.87994,31.91807 34.87994,31.89571 34.87994,31.82864</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.87994,31.82864 34.87994,31.80628 34.87994,31.78392 34.87994,31.76157 34.87994,31.73921 34.87994,31.71685 34.93223,31.62742 34.95837,31.60506 34.98451,31.5827 35.35051,31.44855 35.37665,31.44855 35.4028,31.47091 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.4028,31.94043 35.2198,31.98515 35.0368,32.0075 34.87994,32.02986 34.87994,32.0075 34.87994,31.98515 34.87994,31.96279 34.87994,31.94043 34.87994,31.91807 34.87994,31.89571 34.87994,31.87336 34.87994,31.851 34.87994,31.82864</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.93223,31.62742 34.95837,31.60506 34.98451,31.5827 35.35051,31.44855 35.37665,31.44855 35.4028,31.44855 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.53351,31.91807 35.19365,32.0075 34.90608,32.02986 34.87994,32.02986 34.8538,32.02986 34.87994,31.71685 34.93223,31.62742</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.93223,31.60506 34.98451,31.5827 35.27208,31.47091 35.35051,31.44855 35.37665,31.44855 35.4028,31.44855 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.53351,31.91807 35.45508,32.0075 35.19365,32.02986 35.16751,32.02986 35.14137,32.02986 35.11523,32.02986 35.08908,32.02986 35.06294,32.02986 35.0368,32.02986 35.01065,32.02986 34.98451,32.02986 34.95837,32.02986 34.93223,32.02986 34.90608,32.02986 34.87994,32.02986 34.8538,32.02986 34.8538,31.78392 34.87994,31.69449 34.90608,31.64978 34.93223,31.60506</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.42894,32.02986 35.4028,32.02986 35.37665,32.02986 35.35051,32.02986 35.32437,32.02986 35.29822,32.02986 35.27208,32.02986 35.24594,32.02986 35.2198,32.02986 35.19365,32.02986 35.16751,32.02986 35.14137,32.02986 35.11523,32.02986 35.08908,32.02986 35.06294,32.02986 35.0368,32.02986 35.01065,32.02986 34.98451,32.02986 34.95837,32.02986 34.93223,32.02986 34.90608,32.02986 34.87994,32.02986 34.8538,32.02986 34.8538,32.0075 34.8538,31.98515 34.8538,31.80628 34.8538,31.78392 34.8538,31.76157 34.8538,31.73921 34.8538,31.71685 34.90608,31.60506 34.93223,31.5827 35.27208,31.47091 35.35051,31.44855 35.37665,31.44855 35.4028,31.44855 35.53351,31.76157 35.53351,31.78392 35.53351,31.80628 35.53351,31.82864 35.53351,31.851 35.53351,31.87336 35.53351,31.89571 35.53351,31.91807 35.48122,31.98515 35.45508,32.0075 35.42894,32.02986</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Judea 2 / Judea 2</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.234167,31.776667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

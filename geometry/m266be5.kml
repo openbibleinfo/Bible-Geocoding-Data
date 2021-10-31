@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi al Yabis</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m266be5/wadi-al-yabis">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi al Yabis</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.789737,32.418582 35.786947,32.413794 35.780625,32.411417 35.779432,32.410123 35.779554,32.408644 35.777601,32.408911 35.77681,32.40962 35.776737,32.411157 35.774066,32.412737 35.769407,32.412973 35.768043,32.411938 35.768362,32.411147 35.770078,32.410318 35.769832,32.409156 35.768128,32.408252 35.762416,32.40722 35.761863,32.404709 35.759268,32.404025 35.753011,32.408174 35.747535,32.408225 35.746635,32.408831 35.744397,32.407506 35.738888,32.40587 35.737382,32.403266 35.734633,32.401846 35.733669,32.399652 35.73074,32.399501 35.72667,32.39762 35.725188,32.398448 35.722203,32.397329 35.719166,32.395015 35.717759,32.395465 35.713634,32.394354 35.711744,32.391448 35.710412,32.390842 35.708143,32.391366 35.706719,32.3932 35.703507,32.395317 35.702184,32.395563 35.701028,32.394988 35.699376,32.395784 35.698953,32.398533 35.695434,32.400596 35.686527,32.401622 35.685568,32.40085 35.684596,32.401195 35.682329,32.400349 35.681391,32.399294 35.676605,32.397984 35.673259,32.399204 35.672335,32.400915 35.66849,32.402497 35.666981,32.402235 35.664362,32.403801 35.659651,32.402854 35.655503,32.401211 35.652206,32.400908 35.649237,32.398273 35.645739,32.398823 35.643847,32.397338 35.641827,32.39751 35.640674,32.396671 35.636927,32.396014 35.63571,32.396374 35.633629,32.394892 35.632588,32.394999 35.63261,32.393764 35.630356,32.394485 35.629175,32.39392 35.627788,32.39514 35.622746,32.394277 35.621344,32.394731 35.617131,32.392558 35.613639,32.392548 35.609609,32.391292 35.60685,32.389579 35.604696,32.389718 35.603315,32.388472 35.599589,32.390288 35.59864,32.392275 35.597123,32.391618 35.596019,32.391906 35.593588,32.393799 35.592255,32.393918 35.591095,32.394855 35.590829,32.396052 35.588293,32.397714 35.584643,32.398605 35.575397,32.397569 35.570893,32.395493 35.570772,32.394781 35.569436,32.394917 35.568847,32.394135 35.566845,32.394667 35.565687,32.394156 35.564866,32.395121 35.563906,32.394258 35.561547,32.395512 35.56124,32.396395 35.559881,32.396494 35.55752,32.39509 35.553494,32.394603 35.551634,32.392354</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi al Yabis</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.591389,32.394722</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

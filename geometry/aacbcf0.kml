@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Eglaim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aacbcf0/eglaim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Eglaim</name>
+	<description><![CDATA[Isa <a href="https://www.biblegateway.com/passage/?search=Isa.15.8&amp;version=ESV">15:8</a>]]></description>
+	<Placemark>
+		<name>Eglaim / Rujm el Jilimeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.712631,31.180849</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / Mazra</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.516739,31.26895</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / Khirbet Jaljul</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.67775,31.127769</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the region south of the Lisan</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.44922,31.29842 35.43822,31.29793 35.42734,31.29645 35.4167,31.29402 35.40642,31.29064 35.39661,31.28636 35.38737,31.28123 35.37882,31.2753 35.37103,31.26864 35.36411,31.26132 35.35812,31.25342 35.35313,31.24503 35.34919,31.23624 35.34635,31.22715 35.34464,31.21785 35.34407,31.20845 35.34466,31.19905 35.34639,31.18975 35.34925,31.18066 35.3532,31.17188 35.35821,31.16349 35.3642,31.1556 35.37113,31.14829 35.37891,31.14164 35.38747,31.13572 35.39669,31.1306 35.40649,31.12633 35.41676,31.12296 35.42738,31.12052 35.43824,31.11905 35.44922,31.11856 35.4602,31.11905 35.47106,31.12052 35.48169,31.12296 35.49195,31.12633 35.50175,31.1306 35.51098,31.13572 35.51953,31.14164 35.52731,31.14829 35.53424,31.1556 35.54024,31.16349 35.54524,31.17188 35.5492,31.18066 35.55205,31.18975 35.55378,31.19905 35.55437,31.20845 35.55381,31.21785 35.55209,31.22715 35.54925,31.23624 35.54532,31.24503 35.54033,31.25342 35.53434,31.26132 35.52741,31.26864 35.51963,31.2753 35.51108,31.28123 35.50184,31.28636 35.49203,31.29064 35.48175,31.29402 35.4711,31.29645 35.46022,31.29793 35.44922,31.29842</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the region south of the Lisan</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.449223,31.20849</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Al Safi</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.48766,31.12684 35.47668,31.12634 35.46581,31.12487 35.45519,31.12243 35.44493,31.11905 35.43513,31.11478 35.42592,31.10965 35.41738,31.10372 35.40961,31.09706 35.4027,31.08974 35.39672,31.08184 35.39174,31.07345 35.38781,31.06466 35.38497,31.05556 35.38326,31.04626 35.3827,31.03686 35.38328,31.02746 35.38501,31.01817 35.38786,31.00908 35.39181,31.00029 35.3968,30.99191 35.40279,30.98402 35.40971,30.9767 35.41748,30.97005 35.42601,30.96413 35.43522,30.95901 35.445,30.95474 35.45525,30.95137 35.46586,30.94894 35.4767,30.94746 35.48766,30.94697 35.49862,30.94746 35.50946,30.94894 35.52006,30.95137 35.53031,30.95474 35.54009,30.95901 35.5493,30.96413 35.55784,30.97005 35.56561,30.9767 35.57252,30.98402 35.57851,30.99191 35.5835,31.00029 35.58745,31.00908 35.5903,31.01817 35.59203,31.02746 35.59262,31.03686 35.59205,31.04626 35.59034,31.05556 35.58751,31.06466 35.58358,31.07345 35.5786,31.08184 35.57262,31.08974 35.56571,31.09706 35.55794,31.10372 35.5494,31.10965 35.54018,31.11478 35.53038,31.11905 35.52012,31.12243 35.5095,31.12487 35.49864,31.12634 35.48766,31.12684</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Al Safi</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.487657,31.036904</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / Ain Feshkah</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.453333,31.714444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the region north of the Dead Sea</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.59528,31.88493 35.58421,31.88444 35.57326,31.88296 35.56255,31.88053 35.5522,31.87715 35.54233,31.87287 35.53304,31.86774 35.52443,31.86181 35.51659,31.85515 35.50963,31.84783 35.5036,31.83993 35.49858,31.83154 35.49462,31.82275 35.49176,31.81366 35.49004,31.80436 35.48947,31.79496 35.49006,31.78556 35.4918,31.77626 35.49468,31.76717 35.49865,31.75838 35.50369,31.75 35.50972,31.74211 35.5167,31.7348 35.52453,31.72815 35.53313,31.72223 35.54242,31.71711 35.55228,31.71284 35.56261,31.70947 35.5733,31.70703 35.58423,31.70556 35.59528,31.70507 35.60633,31.70556 35.61726,31.70703 35.62794,31.70947 35.63828,31.71284 35.64814,31.71711 35.65742,31.72223 35.66603,31.72815 35.67386,31.7348 35.68083,31.74211 35.68687,31.75 35.6919,31.75838 35.69588,31.76717 35.69875,31.77626 35.7005,31.78556 35.70109,31.79496 35.70052,31.80436 35.6988,31.81366 35.69594,31.82275 35.69198,31.83154 35.68696,31.83993 35.68093,31.84783 35.67396,31.85515 35.66613,31.86181 35.65752,31.86774 35.64823,31.87287 35.63835,31.87715 35.62801,31.88053 35.6173,31.88296 35.60635,31.88444 35.59528,31.88493</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the region north of the Dead Sea</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.595278,31.795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tell al Sheikh Isa</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.47216,31.1129 35.46118,31.11241 35.45032,31.11093 35.4397,31.10849 35.42944,31.10512 35.41965,31.10084 35.41043,31.09571 35.40189,31.08978 35.39412,31.08312 35.38721,31.0758 35.38123,31.0679 35.37625,31.05951 35.37232,31.05072 35.36949,31.04163 35.36778,31.03233 35.36722,31.02293 35.3678,31.01353 35.36953,31.00423 35.37238,30.99514 35.37633,30.98635 35.38132,30.97797 35.38731,30.97008 35.39422,30.96277 35.40199,30.95612 35.41052,30.9502 35.41973,30.94507 35.42951,30.9408 35.43976,30.93743 35.45036,30.935 35.4612,30.93353 35.47216,30.93304 35.48312,30.93353 35.49396,30.935 35.50456,30.93743 35.51481,30.9408 35.52459,30.94507 35.5338,30.9502 35.54233,30.95612 35.5501,30.96277 35.55701,30.97008 35.563,30.97797 35.56799,30.98635 35.57194,30.99514 35.57479,31.00423 35.57652,31.01353 35.5771,31.02293 35.57654,31.03233 35.57483,31.04163 35.572,31.05072 35.56807,31.05951 35.56309,31.0679 35.55711,31.0758 35.5502,31.08312 35.54243,31.08978 35.53389,31.09571 35.52467,31.10084 35.51488,31.10512 35.50462,31.10849 35.494,31.11093 35.48314,31.11241 35.47216,31.1129</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tell al Sheikh Isa</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.47216,31.022968</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the mouth of Wadi Mujib</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.57333,31.55577 35.5623,31.55527 35.55139,31.5538 35.54072,31.55136 35.53041,31.54798 35.52057,31.54371 35.51131,31.53857 35.50273,31.53265 35.49493,31.52599 35.48799,31.51867 35.48198,31.51077 35.47697,31.50238 35.47303,31.49358 35.47018,31.48449 35.46846,31.47519 35.4679,31.46579 35.46848,31.45639 35.47022,31.44709 35.47309,31.438 35.47705,31.42922 35.48207,31.42083 35.48808,31.41294 35.49503,31.40563 35.50283,31.39898 35.51141,31.39306 35.52066,31.38794 35.53049,31.38367 35.54078,31.3803 35.55143,31.37786 35.56232,31.37639 35.57333,31.3759 35.58434,31.37639 35.59523,31.37786 35.60588,31.3803 35.61618,31.38367 35.62601,31.38794 35.63526,31.39306 35.64383,31.39898 35.65164,31.40563 35.65858,31.41294 35.6646,31.42083 35.66962,31.42922 35.67358,31.438 35.67644,31.44709 35.67818,31.45639 35.67877,31.46579 35.6782,31.47519 35.67649,31.48449 35.67364,31.49358 35.66969,31.50238 35.66469,31.51077 35.65868,31.51867 35.65174,31.52599 35.64393,31.53265 35.63536,31.53857 35.6261,31.54371 35.61626,31.54798 35.60594,31.55136 35.59528,31.5538 35.58436,31.55527 35.57333,31.55577</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of the mouth of Wadi Mujib</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.573333,31.465833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tawahin el Sukkar</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.47516,31.11154 35.46418,31.11105 35.45332,31.10958 35.44271,31.10714 35.43244,31.10376 35.42265,31.09948 35.41343,31.09435 35.40489,31.08842 35.39713,31.08176 35.39022,31.07444 35.38424,31.06655 35.37926,31.05815 35.37533,31.04936 35.37249,31.04027 35.37079,31.03097 35.37022,31.02157 35.37081,31.01217 35.37253,31.00287 35.37539,30.99378 35.37933,30.985 35.38432,30.97661 35.39031,30.96872 35.39723,30.96141 35.40499,30.95476 35.41353,30.94884 35.42274,30.94372 35.43252,30.93945 35.44276,30.93608 35.45336,30.93364 35.4642,30.93217 35.47516,30.93168 35.48612,30.93217 35.49696,30.93364 35.50756,30.93608 35.51781,30.93945 35.52759,30.94372 35.5368,30.94884 35.54533,30.95476 35.5531,30.96141 35.56002,30.96872 35.566,30.97661 35.571,30.985 35.57494,30.99378 35.57779,31.00287 35.57952,31.01217 35.5801,31.02157 35.57954,31.03097 35.57783,31.04027 35.575,31.04936 35.57107,31.05815 35.56609,31.06655 35.56011,31.07444 35.5532,31.08176 35.54543,31.08842 35.53689,31.09435 35.52768,31.09948 35.51788,31.10376 35.50762,31.10714 35.497,31.10958 35.48614,31.11105 35.47516,31.11154</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tawahin el Sukkar</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.475163,31.021611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Esh Shaghur</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.64997,31.91946 35.6389,31.91897 35.62794,31.9175 35.61723,31.91506 35.60688,31.91168 35.597,31.9074 35.58771,31.90227 35.57909,31.89634 35.57126,31.88968 35.56429,31.88236 35.55826,31.87446 35.55323,31.86607 35.54927,31.85728 35.54641,31.84819 35.54469,31.83889 35.54412,31.82949 35.54471,31.82009 35.54646,31.81079 35.54933,31.8017 35.55331,31.79292 35.55835,31.78453 35.56439,31.77664 35.57136,31.76933 35.5792,31.76268 35.5878,31.75676 35.59709,31.75164 35.60696,31.74737 35.61729,31.744 35.62798,31.74156 35.63892,31.74009 35.64997,31.7396 35.66102,31.74009 35.67196,31.74156 35.68265,31.744 35.69299,31.74737 35.70285,31.75164 35.71214,31.75676 35.72075,31.76268 35.72858,31.76933 35.73556,31.77664 35.74159,31.78453 35.74663,31.79292 35.75061,31.8017 35.75349,31.81079 35.75523,31.82009 35.75582,31.82949 35.75525,31.83889 35.75353,31.84819 35.75067,31.85728 35.74671,31.86607 35.74168,31.87446 35.73565,31.88236 35.72868,31.88968 35.72085,31.89634 35.71224,31.90227 35.70294,31.9074 35.69306,31.91168 35.68271,31.91506 35.672,31.9175 35.66105,31.91897 35.64997,31.91946</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Esh Shaghur</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.649971,31.829531</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tall Iktanu</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.67188,31.90919 35.6608,31.90869 35.64985,31.90722 35.63914,31.90478 35.62879,31.90141 35.61891,31.89713 35.60962,31.892 35.60101,31.88607 35.59317,31.87941 35.5862,31.87209 35.58018,31.86419 35.57515,31.8558 35.57119,31.84701 35.56833,31.83791 35.56661,31.82861 35.56604,31.81921 35.56663,31.80981 35.56837,31.80052 35.57125,31.79143 35.57523,31.78264 35.58026,31.77426 35.5863,31.76637 35.59328,31.75906 35.60111,31.7524 35.60972,31.74648 35.619,31.74136 35.62887,31.73709 35.6392,31.73372 35.64989,31.73129 35.66083,31.72982 35.67188,31.72932 35.68293,31.72982 35.69386,31.73129 35.70455,31.73372 35.71489,31.73709 35.72475,31.74136 35.73404,31.74648 35.74265,31.7524 35.75048,31.75906 35.75745,31.76637 35.76349,31.77426 35.76853,31.78264 35.77251,31.79143 35.77538,31.80052 35.77713,31.80981 35.77772,31.81921 35.77715,31.82861 35.77542,31.83791 35.77257,31.84701 35.7686,31.8558 35.76358,31.86419 35.75755,31.87209 35.75058,31.87941 35.74275,31.88607 35.73414,31.892 35.72484,31.89713 35.71496,31.90141 35.70461,31.90478 35.6939,31.90722 35.68295,31.90869 35.67188,31.90919</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Tall Iktanu</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.671878,31.819256</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Bab edh Dhra</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.52301,31.33866 35.512,31.33817 35.50111,31.33669 35.49047,31.33426 35.48018,31.33088 35.47037,31.3266 35.46113,31.32147 35.45257,31.31554 35.44478,31.30888 35.43785,31.30156 35.43186,31.29366 35.42687,31.28527 35.42293,31.27648 35.42009,31.26739 35.41838,31.25809 35.41781,31.24869 35.4184,31.23929 35.42013,31.22999 35.42299,31.2209 35.42694,31.21211 35.43195,31.20373 35.43795,31.19584 35.44488,31.18853 35.45267,31.18188 35.46122,31.17596 35.47045,31.17083 35.48026,31.16656 35.49053,31.16319 35.50115,31.16076 35.51202,31.15929 35.52301,31.1588 35.53399,31.15929 35.54486,31.16076 35.55548,31.16319 35.56575,31.16656 35.57556,31.17083 35.58479,31.17596 35.59334,31.18188 35.60113,31.18853 35.60806,31.19584 35.61406,31.20373 35.61907,31.21211 35.62302,31.2209 35.62588,31.22999 35.62761,31.23929 35.6282,31.24869 35.62763,31.25809 35.62592,31.26739 35.62308,31.27648 35.61914,31.28527 35.61415,31.29366 35.60816,31.30156 35.60123,31.30888 35.59344,31.31554 35.58488,31.32147 35.57564,31.3266 35.56583,31.33088 35.55554,31.33426 35.5449,31.33669 35.53401,31.33817 35.52301,31.33866</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / within 10 km of Bab edh Dhra</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.523005,31.248729</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / Mutraba</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.533581,31.28064</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Eglaim / Ain Hajlah</name>
+		<description>another name for Eneglaim</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.512222,31.828056</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

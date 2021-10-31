@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Persia</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab9696f/persia">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Persia</name>
+	<description><![CDATA[2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.36.20&amp;version=ESV">36:20</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.36.22&amp;version=ESV">36:22</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.36.23&amp;version=ESV">36:23</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.1.1&amp;version=ESV">1:1</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.1.2&amp;version=ESV">1:2</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.1.8&amp;version=ESV">1:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.3.7&amp;version=ESV">3:7</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.3&amp;version=ESV">4:3</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.5&amp;version=ESV">4:5</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.7&amp;version=ESV">4:7</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.9&amp;version=ESV">4:9</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.24&amp;version=ESV">4:24</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.6.14&amp;version=ESV">6:14</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.9.9&amp;version=ESV">9:9</a>, Esth <a href="https://www.biblegateway.com/passage/?search=Esth.1.3&amp;version=ESV">1:3</a>, <a href="https://www.biblegateway.com/passage/?search=Esth.1.14&amp;version=ESV">1:14</a>, <a href="https://www.biblegateway.com/passage/?search=Esth.1.18&amp;version=ESV">1:18</a>, <a href="https://www.biblegateway.com/passage/?search=Esth.1.19&amp;version=ESV">1:19</a>, <a href="https://www.biblegateway.com/passage/?search=Esth.10.2&amp;version=ESV">10:2</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.10&amp;version=ESV">27:10</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.38.5&amp;version=ESV">38:5</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.8.20&amp;version=ESV">8:20</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.10.1&amp;version=ESV">10:1</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.10.13&amp;version=ESV">10:13</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.10.20&amp;version=ESV">10:20</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.11.2&amp;version=ESV">11:2</a>]]></description>
+	<Placemark>
+		<name>Persia</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>19.281637,30.344789 24.870895,29.874138 27.765873,24.801406 35.133366,24.834799 33.928451,27.562402 35.051118,27.912821 36.067704,26.588351 38.111265,30.316388 48.200555,29.359618 50.0109,30.054956 51.250362,27.820882 51.999263,27.65919 52.584781,27.249457 53.563237,26.608391 54.728962,26.334982 55.513094,24.445857 57.527362,24.01887 57.871288,25.514723 61.314435,24.943996 66.393209,25.26517 67.40305,23.821546 74.239945,38.864371 63.081788,45.504229 54.507128,40.936195 52.607329,40.840325 52.574363,40.142645 53.621131,38.799241 53.838753,36.982827 51.93599,36.65353 50.537845,37.191198 50.361964,37.498044 49.38577,37.760674 49.130487,38.448562 49.732987,40.023965 50.796143,40.249826 39.103957,43.781886 39.95883,43.130825 41.059,42.756807 41.478048,42.407075 41.41844,41.680981 40.361413,41.108863 39.424011,41.209596 38.366685,41.078506 37.140124,41.441058 35.220971,42.24115 33.377734,42.137573 31.374579,41.536212 30.337588,41.34405 28.859068,41.525334 28.285077,42.282551 28.323265,43.093523 28.981475,43.429017 29.573529,44.584264 30.036384,45.385739 28.971232,45.469121 26.570637,42.217827 22.227236,41.245734 21.693215,39.942999 23.556409,39.259642 25.630399,38.798067 27.717529,35.756611 28.327411,35.696775 28.714711,36.522239 29.460897,35.996951 30.580662,36.114446 30.706141,36.73143 31.979882,36.395889 32.440068,35.938579 34.105132,36.184061 34.696407,36.669549 35.75873,36.526315 35.669798,35.800357 35.730964,34.581282 34.263983,31.578669 32.597228,31.165005 31.986028,31.632916 30.897487,31.683922 29.932792,31.482931 29.064815,30.975565 25.958571,31.819939 25.455467,31.672813 25.093411,32.110492 23.336963,32.458281 23.286584,32.827328 21.641729,33.049836 20.038928,32.440661 19.699796,31.499928 20.001914,31.042997 19.281637,30.344789</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Persia</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.516247,34.8065</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

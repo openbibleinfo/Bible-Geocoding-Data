@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Holy Place 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab60a74/holy-place-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Holy Place 2</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.6.5&amp;version=NET">6:5</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.8.8&amp;version=ESV">8:8</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.8.10&amp;version=ESV">8:10</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.24.5&amp;version=NET">24:5</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.5.9&amp;version=ESV">5:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.5.11&amp;version=ESV">5:11</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.29.5&amp;version=ESV">29:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.29.7&amp;version=ESV">29:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.35.5&amp;version=ESV">35:5</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.68.17&amp;version=NKJV">68:17</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.41.21&amp;version=ESV">41:21</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.41.23&amp;version=ESV">41:23</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.42.14&amp;version=ESV">42:14</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.44.27&amp;version=ESV">44:27</a>, Matt <a href="https://www.biblegateway.com/passage/?search=Matt.24.15&amp;version=NLT">24:15</a>, Luke <a href="https://www.biblegateway.com/passage/?search=Luke.1.9&amp;version=NET">1:9</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.1.21&amp;version=NET">1:21</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.1.22&amp;version=NET">1:22</a>, Heb <a href="https://www.biblegateway.com/passage/?search=Heb.9.2&amp;version=ESV">9:2</a>, <a href="https://www.biblegateway.com/passage/?search=Heb.9.8&amp;version=NIV">9:8</a>, <a href="https://www.biblegateway.com/passage/?search=Heb.9.12&amp;version=NIV">9:12</a>, <a href="https://www.biblegateway.com/passage/?search=Heb.9.25&amp;version=NIV">9:25</a>, <a href="https://www.biblegateway.com/passage/?search=Heb.13.11&amp;version=NIV">13:11</a>]]></description>
+	<Placemark>
+		<name>Holy Place 2 / on Mount Moriah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.235556,31.777778</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

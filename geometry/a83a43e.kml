@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Pontus</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a83a43e/pontus">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Pontus</name>
+	<description><![CDATA[Acts <a href="https://www.biblegateway.com/passage/?search=Acts.2.9&amp;version=ESV">2:9</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.18.2&amp;version=ESV">18:2</a>, 1Pet <a href="https://www.biblegateway.com/passage/?search=1Pet.1.1&amp;version=ESV">1:1</a>]]></description>
+	<Folder>
+		<name>Pontus</name>
+		<Placemark>
+			<name>Pontus (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.12235,40.91592 36.12235,40.82394 36.48011,40.73197 36.83786,40.63999 37.31487,40.54802 37.31487,40.63999 37.31487,40.73197 37.31487,40.82394 36.48011,40.91592 36.36086,40.91592 36.2416,40.91592 36.12235,40.91592</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.64535,40.91592 36.83786,40.54802 37.67262,40.45604 37.67262,40.54802 37.43412,40.73197 37.31487,40.82394 36.95711,40.91592 36.59936,41.00789 36.2416,41.09987 35.64535,40.91592</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.88385,41.19185 35.7646,41.19185 35.64535,41.19185 35.5261,41.00789 35.5261,40.91592 36.59936,40.54802 37.07636,40.45604 37.67262,40.36406 38.26888,40.36406 38.38813,40.36406 38.50738,40.36406 38.62663,40.36406 38.62663,40.45604 37.31487,40.82394 36.95711,40.91592 36.59936,41.00789 36.2416,41.09987 35.88385,41.19185</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.28759,41.00789 35.64535,40.82394 36.48011,40.54802 36.83786,40.45604 37.67262,40.36406 38.50738,40.27209 38.62663,40.27209 38.74589,40.45604 38.62663,40.54802 37.19562,40.91592 35.5261,41.28382 35.04909,41.3758 34.92984,41.3758 35.28759,41.00789</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.04909,41.3758 34.92984,41.3758 34.81059,41.3758 35.16834,41.00789 35.28759,40.91592 36.2416,40.54802 36.95711,40.36406 37.67262,40.27209 38.50738,40.27209 38.62663,40.27209 38.74589,40.27209 38.86514,40.27209 38.86514,40.36406 38.86514,40.45604 38.74589,40.54802 38.62663,40.63999 36.48011,41.09987 35.16834,41.3758 35.04909,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.16834,41.3758 34.57208,41.46777 34.45283,41.46777 34.33358,41.46777 34.81059,41.00789 35.64535,40.63999 36.48011,40.36406 36.95711,40.27209 37.07636,40.27209 37.19562,40.27209 37.31487,40.27209 37.67262,40.27209 38.14963,40.27209 38.26888,40.27209 38.38813,40.27209 38.50738,40.27209 38.62663,40.27209 38.74589,40.27209 38.86514,40.27209 38.98439,40.27209 38.98439,40.36406 38.98439,40.45604 38.98439,40.54802 38.62663,40.63999 38.26888,40.73197 36.48011,41.09987 35.16834,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.02182,41.3758 33.02182,41.28382 36.48011,40.27209 37.67262,40.18011 38.26888,40.18011 38.38813,40.18011 38.50738,40.18011 38.62663,40.18011 38.74589,40.18011 38.86514,40.18011 39.10364,40.27209 39.10364,40.36406 39.10364,40.45604 39.10364,40.54802 38.38813,40.73197 35.04909,41.46777 34.45283,41.55975 33.61807,41.65173 33.14107,41.55975 33.02182,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.78331,41.3758 32.78331,41.28382 33.14107,41.09987 36.48011,40.08814 36.59936,40.08814 36.71861,40.08814 36.83786,40.08814 36.95711,40.08814 37.07636,40.08814 37.19562,40.08814 37.31487,40.08814 37.43412,40.08814 37.55337,40.08814 37.67262,40.08814 38.74589,40.08814 38.86514,40.08814 39.46139,40.18011 39.46139,40.27209 39.46139,40.36406 39.46139,40.45604 39.46139,40.54802 39.10364,40.63999 35.04909,41.55975 34.69134,41.65173 33.14107,41.7437 32.78331,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.78331,41.55975 32.54481,41.28382 32.66406,41.19185 32.78331,41.09987 32.90256,41.00789 36.48011,40.08814 37.07636,39.99616 37.19562,39.99616 37.31487,39.99616 37.43412,39.99616 37.55337,39.99616 37.67262,39.99616 37.91112,39.99616 38.03038,39.99616 38.14963,39.99616 38.26888,39.99616 38.38813,39.99616 38.50738,39.99616 38.62663,39.99616 38.74589,39.99616 40.1769,40.18011 40.29615,40.45604 40.05765,40.54802 35.16834,41.65173 34.33358,41.7437 33.14107,41.83568 32.78331,41.55975</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pontus</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>37.83,40.68</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

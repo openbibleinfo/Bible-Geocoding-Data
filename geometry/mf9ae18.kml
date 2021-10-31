@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lake Timsah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mf9ae18/lake-timsah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Lake Timsah</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>32.302061,30.571567 32.299915,30.572321 32.299307,30.574451 32.299933,30.577062 32.304157,30.582133 32.305458,30.587125 32.301452,30.588337 32.301517,30.588944 32.303666,30.590084 32.302937,30.591236 32.299178,30.590404 32.300077,30.589656 32.300144,30.588172 32.297544,30.586725 32.297759,30.586299 32.299556,30.586665 32.29969,30.584863 32.296361,30.583882 32.293396,30.584604 32.2908,30.584139 32.29026,30.584797 32.284914,30.584767 32.283938,30.587125 32.284405,30.587878 32.284012,30.588372 32.281462,30.587333 32.281168,30.587917 32.2798,30.587532 32.278859,30.588062 32.275945,30.587746 32.276301,30.586819 32.278125,30.587336 32.278269,30.587 32.276805,30.586504 32.277234,30.585633 32.278985,30.585834 32.279588,30.584359 32.276609,30.583516 32.276482,30.583874 32.275027,30.583429 32.276084,30.58391 32.275466,30.585505 32.274577,30.585249 32.274876,30.584474 32.274081,30.585112 32.273857,30.585675 32.274784,30.586136 32.274454,30.586788 32.273091,30.586129 32.273486,30.584995 32.273009,30.585268 32.271737,30.584794 32.271695,30.585169 32.272585,30.585415 32.271036,30.586236 32.270753,30.585732 32.270577,30.586147 32.269499,30.585814 32.269626,30.585148 32.269171,30.585712 32.271045,30.580458 32.272384,30.579292 32.273208,30.577466 32.28268,30.571319 32.286282,30.567565 32.289516,30.565668 32.291039,30.563747 32.290058,30.560236 32.293906,30.557033 32.29178,30.555111 32.290372,30.555948 32.28945,30.555263 32.28891,30.553754 32.290487,30.55113 32.291534,30.550319 32.294153,30.549883 32.29931,30.551151 32.29891,30.552347 32.299228,30.552774 32.301404,30.5508 32.303185,30.550704 32.30378,30.551387 32.302807,30.552609 32.301587,30.552408 32.300503,30.55335 32.298102,30.554124 32.296388,30.556549 32.296525,30.557517 32.298072,30.558337 32.297292,30.557573 32.298516,30.55613 32.299766,30.556946 32.298711,30.558288 32.303247,30.559338 32.30181,30.560995 32.300753,30.560831 32.297373,30.565651 32.297495,30.566688 32.298763,30.567253 32.300835,30.565706 32.301406,30.564304 32.302378,30.564304 32.301828,30.567744 32.302061,30.571567</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Lake Timsah</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>32.288889,30.577778</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

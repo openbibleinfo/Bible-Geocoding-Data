@@ -1,0 +1,122 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": false,
+   "definitions": {
+      "uri": {
+         "pattern": "https?://.+$",
+         "type": "string"
+      }
+   },
+   "properties": {
+      "abbreviation": {
+         "pattern": "^[A-Z0-9]+$",
+         "type": "string"
+      },
+      "alternate_urls": {
+         "items": {
+            "$ref": "#/definitions/uri"
+         },
+         "type": "array"
+      },
+      "amazon_id": {
+         "type": "string"
+      },
+      "amazon_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "best_commentaries_book_id": {
+         "type": "number"
+      },
+      "best_commentaries_series_id": {
+         "type": "string"
+      },
+      "best_commentaries_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "contributors": {
+         "items": {
+            "type": "string"
+         },
+         "type": "array"
+      },
+      "display_name": {
+         "type": "string"
+      },
+      "friendly_id": {
+         "pattern": "^[a-z0-9_]+$",
+         "type": "string"
+      },
+      "google_books_id": {
+         "type": "string"
+      },
+      "google_books_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "id": {
+         "pattern": "^s[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "logos_id": {
+         "type": "number"
+      },
+      "logos_resource_id": {
+         "type": "string"
+      },
+      "logos_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "olivetree_id": {
+         "type": "number"
+      },
+      "olivetree_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "publisher": {
+         "type": "string"
+      },
+      "type": {
+         "enum": [
+            "article",
+            "book",
+            "book set",
+            "chapter",
+            "coordinates",
+            "dataset",
+            "dissertation",
+            "journal",
+            "map",
+            "software",
+            "thesis",
+            "website"
+         ],
+         "type": "string"
+      },
+      "url": {
+         "$ref": "#/definitions/uri"
+      },
+      "vote_count": {
+         "maximum": 100,
+         "minimum": 1,
+         "type": "number"
+      },
+      "web_archive_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "worldcat_id": {
+         "type": "string"
+      },
+      "worldcat_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "year": {
+         "type": "number"
+      }
+   },
+   "required": [
+      "display_name",
+      "friendly_id",
+      "id",
+      "type"
+   ],
+   "type": "object"
+}

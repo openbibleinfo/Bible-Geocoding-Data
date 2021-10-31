@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Avvim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6d7a41/avvim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Avvim (Avim)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.18.23&amp;version=ESV">18:23</a>]]></description>
+	<Placemark>
+		<name>Avvim / Et Tell</name>
+		<description>another name for Ai 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.916944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet el Maqatir</name>
+		<description>another name for Ai 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2496,31.91476</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Nisieh</name>
+		<description>another name for Ai 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.228619,31.897515</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Ibn Baraq</name>
+		<description>another name for Ai 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2464,31.9125</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Haiyan</name>
+		<description>another name for Ai 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Et Tell</name>
+		<description>another name for Aiath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.916944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet el Maqatir</name>
+		<description>another name for Aiath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2496,31.91476</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Nisieh</name>
+		<description>another name for Aiath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.228619,31.897515</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Ibn Baraq</name>
+		<description>another name for Aiath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2464,31.9125</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Haiyan</name>
+		<description>another name for Aiath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Avvim / Khirbet Haiyan</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

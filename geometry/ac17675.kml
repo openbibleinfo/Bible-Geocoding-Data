@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dimonah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac17675/dimonah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Dimonah</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.22&amp;version=ESV">15:22</a>]]></description>
+	<Placemark>
+		<name>Dimonah / Tall Dhiban</name>
+		<description>another name for Dibon 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.776574,31.502236</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dimonah / Khirbet edh Dheiba</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.1562,31.29606</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dimonah / Hare Dimona 18</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.031014,31.1069</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dimonah / Horbat Deragot</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.07829,31.303646</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dimonah / Horbat Tayyav</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.14909,31.30283</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

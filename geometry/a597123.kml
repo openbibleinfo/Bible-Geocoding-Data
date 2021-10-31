@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Mizar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a597123/mount-mizar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Mizar (Hill Mizar, Mizar)</name>
+	<description><![CDATA[Ps <a href="https://www.biblegateway.com/passage/?search=Ps.42.6&amp;version=ESV">42:6</a>]]></description>
+	<Placemark>
+		<name>Mount Mizar / within 30 km of Mount Hermon</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85,33.6698 35.81611,33.66831 35.7826,33.66388 35.74984,33.65655 35.71818,33.6464 35.68798,33.63355 35.65957,33.61812 35.63326,33.60031 35.60934,33.5803 35.58807,33.55831 35.56969,33.53458 35.5544,33.50939 35.54235,33.48299 35.53369,33.45569 35.5285,33.42779 35.52683,33.39958 35.52871,33.37138 35.5341,33.34351 35.54294,33.31625 35.55514,33.28992 35.57056,33.26479 35.58903,33.24114 35.61034,33.21924 35.63426,33.19932 35.66052,33.18159 35.68885,33.16625 35.71893,33.15346 35.75043,33.14337 35.78301,33.13608 35.81632,33.13168 35.85,33.1302 35.88368,33.13168 35.91699,33.13608 35.94957,33.14337 35.98107,33.15346 36.01115,33.16625 36.03948,33.18159 36.06574,33.19932 36.08966,33.21924 36.11097,33.24114 36.12944,33.26479 36.14486,33.28992 36.15706,33.31625 36.1659,33.34351 36.17129,33.37138 36.17317,33.39958 36.1715,33.42779 36.16631,33.45569 36.15765,33.48299 36.1456,33.50939 36.13031,33.53458 36.11193,33.55831 36.09066,33.5803 36.06674,33.60031 36.04043,33.61812 36.01202,33.63355 35.98182,33.6464 35.95016,33.65655 35.9174,33.66388 35.88389,33.66831 35.85,33.6698</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / within 30 km of Mount Hermon</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Mount Zion</name>
+		<description>another name for Mount Zion</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.228611,31.771667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Mount Hermon</name>
+		<description>another name for Mount Hermon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / within 5 km of Za’ura</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.70992,33.26381 35.70429,33.26356 35.69874,33.26283 35.6933,33.26161 35.68804,33.25992 35.68303,33.25778 35.67831,33.25522 35.67394,33.25226 35.66996,33.24893 35.66642,33.24527 35.66336,33.24132 35.6608,33.23712 35.65879,33.23273 35.65734,33.22818 35.65646,33.22353 35.65617,33.21883 35.65646,33.21413 35.65735,33.20948 35.65881,33.20494 35.66082,33.20055 35.66338,33.19635 35.66644,33.19241 35.66999,33.18875 35.67396,33.18542 35.67834,33.18246 35.68305,33.1799 35.68806,33.17776 35.69331,33.17608 35.69875,33.17486 35.7043,33.17413 35.70992,33.17388 35.71553,33.17413 35.72109,33.17486 35.72652,33.17608 35.73177,33.17776 35.73678,33.1799 35.7415,33.18246 35.74587,33.18542 35.74985,33.18875 35.75339,33.19241 35.75645,33.19635 35.75901,33.20055 35.76103,33.20494 35.76249,33.20948 35.76337,33.21413 35.76367,33.21883 35.76337,33.22353 35.7625,33.22818 35.76104,33.23273 35.75903,33.23712 35.75648,33.24132 35.75341,33.24527 35.74987,33.24893 35.7459,33.25226 35.74152,33.25522 35.7368,33.25778 35.73179,33.25992 35.72653,33.26161 35.7211,33.26283 35.71554,33.26356 35.70992,33.26381</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / within 5 km of Za’ura</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.709916,33.218845</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Khirbet Mezara</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.70846,33.26119</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Wadi Za’arah</name>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.705341,33.224149 35.704569,33.224849 35.704213,33.224932 35.703187,33.22517 35.702519,33.225828 35.701414,33.225944 35.700395,33.226313 35.699376,33.22668 35.698239,33.227371 35.697584,33.22782 35.697136,33.229038 35.696629,33.230109 35.695878,33.230234 35.695513,33.230836 35.694862,33.231067 35.694441,33.231024 35.694022,33.231257 35.693649,33.231013 35.693248,33.2312 35.693164,33.231239 35.692834,33.231004 35.692434,33.231365 35.691962,33.23123 35.691222,33.231616 35.690495,33.231506 35.689733,33.231668 35.68954,33.232377 35.688658,33.232873 35.688253,33.232879 35.688143,33.233115 35.687778,33.233088 35.687563,33.233303 35.687478,33.233465 35.686887,33.23342 35.686297,33.23342 35.68601,33.233508 35.685764,33.233894 35.685128,33.234102 35.684452,33.234111 35.683572,33.234012 35.682674,33.234055 35.68166,33.234019 35.681137,33.233965 35.68104,33.23393 35.680782,33.234028 35.68011,33.234315 35.679495,33.234542 35.679131,33.234712 35.678734,33.234524 35.678178,33.234746 35.678121,33.234781</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Wadi Za’arah</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.696667,33.23</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Mizar / Tel Dan</name>
+		<description>another name for Dan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.652,33.249</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

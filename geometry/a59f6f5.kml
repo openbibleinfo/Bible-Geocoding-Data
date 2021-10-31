@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Arabia 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a59f6f5/arabia-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Arabia 1</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.10.15&amp;version=NRSV">10:15</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.9.14&amp;version=ESV">9:14</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.21.13&amp;version=ESV">21:13</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.24&amp;version=ESV">25:24</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.21&amp;version=ESV">27:21</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.30.5&amp;version=ESV">30:5</a>]]></description>
+	<Placemark>
+		<name>Arabia 1 / Arabian Peninsula</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>46.552684,29.100273 44.715219,29.196033 42.085599,31.111658 40.413254,31.948076 39.200916,32.154338 37.006171,31.50064 37.997146,30.500661 37.505505,30.000769 36.784903,29.867901 36.072812,29.183401 34.957163,29.356106 34.571034,28.096175 35.222334,28.046521 37.239083,25.190222 37.155208,24.823834 37.426918,24.369397 38.463171,23.780694 39.113265,22.526225 38.93004,22.012118 39.172439,21.779023 39.190219,21.101647 39.730523,20.391647 40.75593,19.778557 41.638534,17.997428 42.318148,17.436428 42.83138,16.190734 42.677223,15.688416 42.8103,15.280105 42.598942,15.228503 42.944571,14.923925 43.468106,12.673867 45.028142,12.750895 45.662866,13.350703 46.700724,13.429404 47.977117,14.050316 48.683285,14.04569 49.347048,14.640919 52.195361,15.609998 52.150592,15.986543 52.475232,16.431033 54.048019,16.991036 55.020497,17.000475 55.426355,17.817317 56.354085,17.920083 56.790368,18.740697 57.840664,18.999959 57.676889,19.706838 57.824284,20.201791 58.180743,20.624268 58.209048,20.397612 58.520274,20.41603 59.823822,22.292675 59.797585,22.536882 59.290457,22.764747 58.753757,23.522954 56.912798,24.144064 56.375426,24.977273 56.273845,25.706125 56.52156,26.317879 56.378704,26.388557 56.415962,26.205003 56.208245,26.253527 55.345647,25.199515 54.671877,24.814196 54.514247,24.314448 54.128036,24.328401 54.016951,24.185152 54.175433,24.188173 53.803968,24.049843 52.590281,24.214843 52.242452,23.970315 51.831482,23.986257 51.597506,24.379798 51.276815,24.294166 51.504991,24.574401 51.213623,24.620143 51.369095,24.580011 51.656581,25.029115 51.474149,25.513766 51.657861,25.926819 51.264525,26.156949 51.033925,26.043673 50.969103,25.600658 50.756803,25.504118 50.769988,24.71877 50.000305,25.989164 50.240762,26.370728 49.99452,26.744755 50.159171,26.64698 49.583662,27.092148 49.487681,27.304013 49.702123,27.300766 49.48641,27.344645 49.441679,27.081499 49.122844,27.40608 49.312348,27.424965 49.221662,27.569714 48.848542,27.603241 48.101384,29.352594 47.702785,29.359877 48.188363,29.546838 48.007887,29.986786 47.189553,30.02835 46.552684,29.100273</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Arabia 1 / Arabian Peninsula</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>46,23</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

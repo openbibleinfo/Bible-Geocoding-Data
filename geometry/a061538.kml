@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zer</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a061538/zer">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zer</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.35&amp;version=ESV">19:35</a>]]></description>
+	<Placemark>
+		<name>Zer / Qarn Hattin</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.459722,32.799722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Tell el Khirbeh</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.432354,33.076777</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Meiron</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.438081,32.982086</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Maroun al Ras</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.443889,33.101111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Khirbet Madin</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.461143,32.79944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Bint Jbeil</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.442778,33.125833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Khirbet el Biar</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.417222,33.088889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Har Zevi</name>
+		<description>another name for Madon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.528333,33.075833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Tyre</name>
+		<description>another name for Tyre</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.196111,33.270833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zer / Qarn Hattin</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.459722,32.799722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

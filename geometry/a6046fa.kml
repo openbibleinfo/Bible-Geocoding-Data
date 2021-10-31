@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ammon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6046fa/ammon">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ammon</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.19.38&amp;version=NASB">19:38</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.21.24&amp;version=NASB">21:24</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.2.19&amp;version=ESV">2:19</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.2.37&amp;version=ESV">2:37</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.11&amp;version=NASB">3:11</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.16&amp;version=NASB">3:16</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.12.2&amp;version=NASB">12:2</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.10&amp;version=NASB">13:10</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.25&amp;version=NASB">13:25</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.3.13&amp;version=NASB">3:13</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.6&amp;version=NASB">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.7&amp;version=NASB">10:7</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.9&amp;version=NASB">10:9</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.11&amp;version=NASB">10:11</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.17&amp;version=NASB">10:17</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.18&amp;version=NASB">10:18</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.4&amp;version=NASB">11:4</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.5&amp;version=NASB">11:5</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.6&amp;version=NASB">11:6</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.8&amp;version=NASB">11:8</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.9&amp;version=NASB">11:9</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.12&amp;version=NASB">11:12</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.13&amp;version=NASB">11:13</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.14&amp;version=NASB">11:14</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.15&amp;version=NASB">11:15</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.27&amp;version=ESV">11:27</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.28&amp;version=NIV">11:28</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.29&amp;version=NASB">11:29</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.30&amp;version=NASB">11:30</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.31&amp;version=NASB">11:31</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.32&amp;version=NASB">11:32</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.33&amp;version=NIV">11:33</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.11.36&amp;version=NASB">11:36</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.12.1&amp;version=NASB">12:1</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.12.2&amp;version=NASB">12:2</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.12.3&amp;version=NASB">12:3</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.11.1&amp;version=NLT">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.12.12&amp;version=NASB">12:12</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.14.47&amp;version=NASB">14:47</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.12&amp;version=NASB">8:12</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.1&amp;version=NKJV">10:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.2&amp;version=NLT">10:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.3&amp;version=NKJV">10:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.6&amp;version=NASB">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.8&amp;version=NASB">10:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.10&amp;version=NASB">10:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.11&amp;version=NASB">10:11</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.14&amp;version=NASB">10:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.19&amp;version=NASB">10:19</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.11.1&amp;version=NASB">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.12.9&amp;version=NASB">12:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.12.26&amp;version=NASB">12:26</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.12.31&amp;version=NASB">12:31</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.17.27&amp;version=NASB">17:27</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.23.37&amp;version=NLT">23:37</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.1&amp;version=NLT">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.7&amp;version=NASB">11:7</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.33&amp;version=NASB">11:33</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.23.13&amp;version=NIV">23:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.24.2&amp;version=NKJV">24:2</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.11.39&amp;version=NLT">11:39</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.18.11&amp;version=NASB">18:11</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.1&amp;version=NASB">19:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.2&amp;version=NASB">19:2</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.3&amp;version=NASB">19:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.6&amp;version=NASB">19:6</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.7&amp;version=NASB">19:7</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.9&amp;version=NASB">19:9</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.11&amp;version=NASB">19:11</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.12&amp;version=NASB">19:12</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.15&amp;version=NASB">19:15</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.19&amp;version=NASB">19:19</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.20.1&amp;version=NASB">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.20.3&amp;version=NASB">20:3</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.12.13&amp;version=NLT">12:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.1&amp;version=NASB">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.10&amp;version=ESV">20:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.22&amp;version=ESV">20:22</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.23&amp;version=ESV">20:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.27.5&amp;version=NKJV">27:5</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.13.23&amp;version=ESV">13:23</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.83.7&amp;version=ESV">83:7</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.11.14&amp;version=NASB">11:14</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.9.26&amp;version=ESV">9:26</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.25.21&amp;version=ESV">25:21</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.27.3&amp;version=ESV">27:3</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.40.11&amp;version=NIV">40:11</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.40.14&amp;version=NASB">40:14</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.41.10&amp;version=NASB">41:10</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.41.15&amp;version=NASB">41:15</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.1&amp;version=NASB">49:1</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.2&amp;version=NASB">49:2</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.3&amp;version=NET">49:3</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.4&amp;version=NIV">49:4</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.6&amp;version=NASB">49:6</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.21.20&amp;version=NASB">21:20</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.21.28&amp;version=NASB">21:28</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.25.2&amp;version=NASB">25:2</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.25.3&amp;version=NASB">25:3</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.25.5&amp;version=ESV">25:5</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.25.10&amp;version=NASB">25:10</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.11.41&amp;version=NIV">11:41</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.1.13&amp;version=NIV">1:13</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.1.15&amp;version=NET">1:15</a>, Zeph <a href="https://www.biblegateway.com/passage/?search=Zeph.2.8&amp;version=NASB">2:8</a>, <a href="https://www.biblegateway.com/passage/?search=Zeph.2.9&amp;version=NASB">2:9</a>]]></description>
+	<Folder>
+		<name>Ammon</name>
+		<Placemark>
+			<name>Ammon (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85219,31.95434 35.85219,31.92407 35.99338,31.83325 36.06397,31.83325 36.20516,31.86352 36.27575,31.92407 36.34635,32.04515 36.34635,32.07543 36.09927,32.13597 36.06397,32.13597 36.02868,32.13597 35.99338,32.13597 35.95808,32.13597 35.92279,32.1057 35.88749,32.07543 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85219,31.92407 35.99338,31.83325 36.02868,31.83325 36.06397,31.83325 36.09927,31.83325 36.20516,31.86352 36.24046,31.89379 36.27575,31.92407 36.31105,31.95434 36.38164,32.04515 36.31105,32.13597 35.95808,32.16624 35.92279,32.16624 35.88749,32.1057 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434 35.85219,31.92407</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13457,31.80298 36.16986,31.80298 36.27575,31.86352 36.31105,31.89379 36.38164,31.98461 36.38164,32.04515 36.38164,32.07543 36.34635,32.1057 36.31105,32.13597 35.99338,32.16624 35.95808,32.16624 35.92279,32.16624 35.88749,32.16624 35.85219,32.16624 35.85219,32.13597 35.85219,32.07543 35.85219,32.04515 35.85219,32.01488 35.85219,31.98461 35.85219,31.95434 35.85219,31.92407 35.85219,31.89379 35.95808,31.83325 36.06397,31.80298 36.13457,31.80298</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.99338,32.19651 35.85219,32.16624 35.8169,31.92407 35.8169,31.89379 35.92279,31.83325 36.09927,31.77271 36.13457,31.77271 36.16986,31.77271 36.38164,31.86352 36.38164,31.89379 36.38164,31.92407 36.38164,31.98461 36.38164,32.01488 36.38164,32.04515 36.38164,32.07543 36.38164,32.1057 36.38164,32.13597 35.99338,32.19651</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7816,31.92407 35.7816,31.89379 35.7816,31.86352 36.13457,31.74243 36.27575,31.77271 36.59342,32.01488 36.55813,32.1057 36.31105,32.16624 35.99338,32.19651 35.95808,32.19651 35.85219,32.16624 35.7816,31.92407</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7816,31.86352 35.88749,31.80298 36.09927,31.71216 36.20516,31.71216 36.24046,31.71216 36.48753,31.86352 36.62872,32.04515 36.66402,32.1057 36.34635,32.19651 35.99338,32.19651 35.95808,32.19651 35.85219,32.16624 35.7463,31.89379 35.7816,31.86352</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.71101,32.07543 35.71101,32.04515 35.71101,32.01488 35.71101,31.86352 35.85219,31.80298 36.06397,31.71216 36.09927,31.71216 36.16986,31.71216 36.20516,31.71216 36.24046,31.71216 36.27575,31.71216 36.38164,31.77271 36.41694,31.80298 36.45224,31.83325 36.48753,31.86352 36.52283,31.89379 36.55813,31.92407 36.66402,32.04515 36.66402,32.07543 36.66402,32.1057 36.34635,32.19651 36.16986,32.22679 36.13457,32.22679 35.92279,32.19651 35.85219,32.16624 35.71101,32.07543</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.71101,31.95434 35.71101,31.92407 35.71101,31.89379 35.71101,31.86352 35.7463,31.83325 36.02868,31.65162 36.06397,31.65162 36.09927,31.65162 36.27575,31.65162 36.48753,31.80298 36.69931,32.01488 36.69931,32.04515 36.66402,32.13597 36.20516,32.37815 35.7816,32.22679 35.71101,32.16624 35.71101,32.13597 35.71101,32.1057 35.71101,32.07543 35.71101,32.04515 35.71101,32.01488 35.71101,31.98461 35.71101,31.95434</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.06397,31.43971 36.09927,31.43971 36.8758,32.01488 36.8758,32.04515 36.8405,32.1057 36.66402,32.19651 36.24046,32.37815 36.20516,32.37815 36.16986,32.37815 35.85219,32.37815 35.7816,32.34787 35.64041,32.01488 35.64041,31.98461 35.64041,31.95434 35.64041,31.86352 35.64041,31.83325 35.7463,31.65162 36.02868,31.43971 36.06397,31.43971</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ammon</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.9343,31.9547</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

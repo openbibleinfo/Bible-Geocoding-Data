@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Euphrates</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a62dec4/euphrates">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Euphrates (Euphrates River, River)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.2.14&amp;version=ESV">2:14</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.15.18&amp;version=ESV">15:18</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.31.21&amp;version=ESV">31:21</a>, Exod <a href="https://www.biblegateway.com/passage/?search=Exod.23.31&amp;version=ESV">23:31</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.7&amp;version=ESV">1:7</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.11.24&amp;version=ESV">11:24</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.1.4&amp;version=ESV">1:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.2&amp;version=ESV">24:2</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.3&amp;version=ESV">24:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.14&amp;version=ESV">24:14</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.15&amp;version=ESV">24:15</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.3&amp;version=ESV">8:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.16&amp;version=ESV">10:16</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.21&amp;version=ESV">4:21</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.24&amp;version=ESV">4:24</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.14.15&amp;version=ESV">14:15</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.23.29&amp;version=ESV">23:29</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.24.7&amp;version=ESV">24:7</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.9&amp;version=ESV">5:9</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.18.3&amp;version=ESV">18:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.16&amp;version=ESV">19:16</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.9.26&amp;version=ESV">9:26</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.35.20&amp;version=ESV">35:20</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.5.6&amp;version=ESV">5:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.6.6&amp;version=ESV">6:6</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.72.8&amp;version=ESV">72:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.80.11&amp;version=ESV">80:11</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.7.20&amp;version=ESV">7:20</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.8.7&amp;version=ESV">8:7</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.11.15&amp;version=ESV">11:15</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.27.12&amp;version=ESV">27:12</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.2.18&amp;version=ESV">2:18</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.13.4&amp;version=ESV">13:4</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.13.5&amp;version=ESV">13:5</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.13.6&amp;version=ESV">13:6</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.13.7&amp;version=ESV">13:7</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.46.2&amp;version=ESV">46:2</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.46.6&amp;version=ESV">46:6</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.46.10&amp;version=ESV">46:10</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.51.63&amp;version=ESV">51:63</a>, Mic <a href="https://www.biblegateway.com/passage/?search=Mic.7.12&amp;version=ESV">7:12</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.9.10&amp;version=ESV">9:10</a>, Rev <a href="https://www.biblegateway.com/passage/?search=Rev.9.14&amp;version=ESV">9:14</a>, <a href="https://www.biblegateway.com/passage/?search=Rev.16.12&amp;version=ESV">16:12</a>]]></description>
+	<Placemark>
+		<name>Euphrates / Euphrates River</name>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>43.4004,39.62289 43.03842,39.70988 42.89148,39.55006 42.68305,39.49974 42.56097,39.37735 42.51654,39.15681 42.14263,39.16913 41.73966,39.02609 41.54147,39.06983 41.5341,38.84767 41.28619,38.8488 41.16636,38.75437 40.93768,38.90233 40.43907,38.71578 40.05323,38.74685 39.76762,38.62738 39.52104,38.65794 39.43605,38.78707 39.07093,38.88889 38.79036,38.86343 38.62579,38.74399 38.4707,38.75055 38.35929,38.54254 38.69727,38.41718 38.81465,38.44258 38.96907,38.3195 39.10977,38.34695 39.15092,38.3002 39.10734,38.20079 39.22207,38.20728 39.26237,38.14575 38.97395,37.89992 38.97615,37.82576 38.89374,37.79772 38.96638,37.75973 38.80754,37.68869 38.84787,37.6459 38.65453,37.62225 38.44129,37.47027 38.27288,37.47616 38.17543,37.41056 37.9869,37.44055 37.876,37.34516 37.8643,37.07822 37.98087,37.04911 38.03223,36.73892 38.27974,36.53821 38.07234,36.08734 38.15529,35.98854 38.554,35.85696 39.04536,35.9343 39.29005,35.82418 39.78978,35.74977 39.91166,35.51972 40.40792,35.20512 40.42549,35.07127 40.4782,35.05925 40.43902,35.03065 40.5636,34.95816 40.64746,34.78824 40.91728,34.62881 40.93077,34.44985 41.07865,34.37813 41.21151,34.38819 41.17855,34.42827 41.23469,34.45545 41.70109,34.44724 41.77868,34.53001 41.83756,34.46904 41.96819,34.47555 42.13934,34.27379 42.37435,34.33023 42.31718,34.24315 42.38791,34.18267 42.41314,34.0175 42.50326,34.03386 42.57021,33.97252 42.53159,33.86241 42.6616,33.90336 42.77015,33.85387 42.71973,33.71875 42.92984,33.52606 43.6575,33.39649 43.75822,33.35178 43.8638,33.18126 44.01608,33.16432 44.17383,33.02275 44.29104,32.78756 44.20564,32.56697 44.30027,32.44331 44.35553,32.11166 44.50174,31.8977 44.47541,31.70573 44.78758,31.45265 45.13943,31.42654 45.24909,31.32722 45.53215,31.28336 45.5573,31.18628 46.0521,31.1234 46.47565,30.9104 46.5801,30.98234 47.30651,30.92903 47.44235,31.00471</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Euphrates / Euphrates River</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>47.442,31.0043</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

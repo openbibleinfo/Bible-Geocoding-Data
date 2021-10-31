@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Engedi</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a51df0e/engedi">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Engedi (En Gedi)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.62&amp;version=ESV">15:62</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.23.29&amp;version=ESV">23:29</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.24.1&amp;version=ESV">24:1</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.20.2&amp;version=ESV">20:2</a>, Song <a href="https://www.biblegateway.com/passage/?search=Song.1.14&amp;version=ESV">1:14</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.47.10&amp;version=ESV">47:10</a>]]></description>
+	<Placemark>
+		<name>Engedi / Ein Gedi</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.401213,31.464095 35.378021,31.461094 35.372933,31.46034 35.367161,31.461488 35.358893,31.464223 35.351791,31.468925 35.345659,31.46794 35.349772,31.464152 35.34853,31.46011 35.350874,31.455509 35.358737,31.454237 35.361204,31.452982 35.365899,31.448944 35.375945,31.452907 35.37947,31.451779 35.379767,31.448263 35.3964,31.449905 35.401213,31.464095</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Engedi / Ein Gedi</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.383333,31.45</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Kofrein</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mfa2f28/wadi-kofrein">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Kofrein</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.79156,31.89196 35.78772,31.89073 35.78563,31.88753 35.78206,31.88761 35.78151,31.8861 35.77709,31.88534 35.77447,31.88243 35.77334,31.88265 35.77024,31.88109 35.76831,31.88153 35.76729,31.88029 35.7654,31.88049 35.76456,31.87958 35.76097,31.88161 35.76027,31.8807 35.75806,31.8804 35.7579,31.8794 35.75572,31.87821 35.75419,31.87841 35.75266,31.8768 35.74895,31.87625 35.74531,31.87853 35.74413,31.87774 35.7431,31.87869 35.74126,31.87695 35.73769,31.87684 35.73582,31.876 35.73459,31.87674 35.73409,31.87857 35.73118,31.8808 35.72797,31.88151 35.72631,31.8809 35.72552,31.88202 35.72481,31.88087 35.72348,31.88082 35.72253,31.87915 35.72013,31.87961 35.71778,31.87878 35.71469,31.88005 35.71161,31.87917 35.70804,31.87465 35.70691,31.87582 35.70137,31.87496 35.70082,31.87332 35.69853,31.87414 35.69768,31.87337 35.69514,31.87323 35.69218,31.87451 35.69083,31.87056 35.68535,31.86983 35.68394,31.86705 35.68199,31.86617 35.68125,31.86437 35.679,31.86233 35.6778,31.85958 35.67847,31.859 35.67608,31.85464 35.67848,31.84783 35.67479,31.84476 35.67342,31.84187 35.67095,31.84189 35.66796,31.83947 35.66468,31.84039 35.66035,31.8391 35.65933,31.84059 35.65707,31.83905 35.6539,31.84171 35.65095,31.84051 35.6446,31.8433 35.64306,31.84237 35.64199,31.84335 35.63981,31.84267 35.63761,31.84365 35.63577,31.84216 35.63215,31.84262 35.62891,31.84172 35.62412,31.8435 35.6199,31.84183 35.61764,31.84185 35.60685,31.83624 35.59937,31.83418 35.59793,31.8318 35.59598,31.83101 35.59415,31.82875 35.59115,31.82889 35.59013,31.82788 35.58425,31.82639 35.58206,31.82704 35.57867,31.82671 35.57606,31.82402 35.57403,31.82357 35.57219,31.82419 35.57163,31.8224 35.5692,31.82215 35.56691,31.81952 35.56429,31.81821 35.56311,31.81586 35.55304,31.80975 35.54991,31.80512 35.55007,31.80236 35.54643,31.8013</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Kofrein</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.546667,31.801389</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

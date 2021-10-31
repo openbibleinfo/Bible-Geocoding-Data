@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ramah 5</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad27541/ramah-5">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ramah 5 (Ramoth, Ramoth-gilead)</name>
+	<description><![CDATA[2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.29&amp;version=ESV">8:29</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.22.6&amp;version=ESV">22:6</a>]]></description>
+	<Placemark>
+		<name>Ramah 5 / Tall er Rumeith</name>
+		<description>another name for Ramoth-gilead</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.014988,32.499852</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 5 / Tall al Husun</name>
+		<description>another name for Ramoth-gilead</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.880421,32.491014</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 5 / Ar Ramtha</name>
+		<description>another name for Ramoth-gilead</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.006944,32.559167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 5 / As Salt</name>
+		<description>another name for Ramoth-gilead</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.733333,32.033333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 5 / Iraq al Amir</name>
+		<description>another name for Ramoth-gilead</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.7518,31.9128</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

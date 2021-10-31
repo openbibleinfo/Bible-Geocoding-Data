@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Heres</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2466e4/heres">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Heres (Pass of Heres, Heres Pass, Ascent of Heres)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.8.13&amp;version=ESV">8:13</a>]]></description>
+	<Placemark>
+		<name>Heres / in the Transjordan</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.811761,33.353421 35.661238,32.513198 35.639106,31.965954 35.715941,31.789723 35.047135,29.528504 37.670975,29.350224 38.273915,33.302161 35.811761,33.353421</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heres / in the Transjordan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.9343,31.9547</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / within 30 km of Tell Deir Alla</name>
+		<description>within 30 km of Succoth 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.62118,32.4664 35.58776,32.46491 35.5547,32.46048 35.52238,32.45315 35.49115,32.443 35.46136,32.43015 35.43333,32.41473 35.40737,32.39692 35.38378,32.37691 35.3628,32.35492 35.34466,32.3312 35.32957,32.306 35.31768,32.27961 35.30913,32.25231 35.30401,32.22441 35.30236,32.1962 35.3042,32.168 35.30952,32.14012 35.31824,32.11287 35.33027,32.08653 35.34548,32.0614 35.3637,32.03776 35.38472,32.01585 35.40831,31.99592 35.43423,31.97819 35.46218,31.96285 35.49185,31.95006 35.52293,31.93997 35.55508,31.93268 35.58795,31.92828 35.62118,31.9268 35.65441,31.92828 35.68728,31.93268 35.71943,31.93997 35.75051,31.95006 35.78018,31.96285 35.80813,31.97819 35.83405,31.99592 35.85764,32.01585 35.87866,32.03776 35.89688,32.0614 35.91209,32.08653 35.92412,32.11287 35.93284,32.14012 35.93816,32.168 35.94,32.1962 35.93835,32.22441 35.93323,32.25231 35.92468,32.27961 35.91279,32.306 35.8977,32.3312 35.87956,32.35492 35.85858,32.37691 35.83499,32.39692 35.80903,32.41473 35.781,32.43015 35.75121,32.443 35.71998,32.45315 35.68766,32.46048 35.6546,32.46491 35.62118,32.4664</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heres / within 30 km of Tell Deir Alla</name>
+		<description>within 30 km of Succoth 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.62118,32.1966</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / within 30 km of Tell el Ekhsas</name>
+		<description>within 30 km of Succoth 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.59396,32.46301 35.56054,32.46152 35.52748,32.45709 35.49516,32.44976 35.46393,32.43961 35.43414,32.42676 35.40612,32.41134 35.38016,32.39353 35.35657,32.37352 35.33559,32.35153 35.31745,32.32781 35.30236,32.30261 35.29047,32.27622 35.28192,32.24892 35.2768,32.22102 35.27515,32.19281 35.27699,32.16461 35.28231,32.13673 35.29103,32.10948 35.30306,32.08314 35.31827,32.05801 35.33648,32.03437 35.35751,32.01246 35.3811,31.99253 35.40702,31.9748 35.43496,31.95946 35.46464,31.94667 35.49572,31.93658 35.52787,31.92929 35.56073,31.92489 35.59396,31.92341 35.62719,31.92489 35.66005,31.92929 35.6922,31.93658 35.72328,31.94667 35.75296,31.95946 35.7809,31.9748 35.80682,31.99253 35.83041,32.01246 35.85144,32.03437 35.86965,32.05801 35.88486,32.08314 35.89689,32.10948 35.90561,32.13673 35.91093,32.16461 35.91277,32.19281 35.91112,32.22102 35.906,32.24892 35.89745,32.27622 35.88556,32.30261 35.87047,32.32781 35.85233,32.35153 35.83135,32.37352 35.80776,32.39353 35.7818,32.41134 35.75378,32.42676 35.72399,32.43961 35.69276,32.44976 35.66044,32.45709 35.62738,32.46152 35.59396,32.46301</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heres / within 30 km of Tell el Ekhsas</name>
+		<description>within 30 km of Succoth 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.59396,32.19321</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / Rujm Shajarat al Hunayti</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.81014,32.03467</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / Tel Bet Shemesh</name>
+		<description>another name for Mount Heres</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.974744,31.750621</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / Khirbet Harsis</name>
+		<description>another name for Mount Heres</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.024355,31.816813</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / Khirbet Hirsha</name>
+		<description>another name for Mount Heres</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.04917,31.8269</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heres / Batn Harasheh</name>
+		<description>another name for Mount Heres</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.14935,31.94478</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

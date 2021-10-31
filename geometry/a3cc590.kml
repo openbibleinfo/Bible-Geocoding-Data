@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lachish</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3cc590/lachish">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Lachish</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.10.3&amp;version=ESV">10:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.5&amp;version=ESV">10:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.23&amp;version=ESV">10:23</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.31&amp;version=ESV">10:31</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.32&amp;version=ESV">10:32</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.33&amp;version=ESV">10:33</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.34&amp;version=ESV">10:34</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.35&amp;version=ESV">10:35</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.11&amp;version=ESV">12:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.39&amp;version=ESV">15:39</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.19&amp;version=ESV">14:19</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.14&amp;version=ESV">18:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.17&amp;version=ESV">18:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.19.8&amp;version=ESV">19:8</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.11.9&amp;version=ESV">11:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.25.27&amp;version=ESV">25:27</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.32.9&amp;version=ESV">32:9</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.11.30&amp;version=ESV">11:30</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.36.2&amp;version=ESV">36:2</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.37.8&amp;version=ESV">37:8</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.34.7&amp;version=ESV">34:7</a>, Mic <a href="https://www.biblegateway.com/passage/?search=Mic.1.13&amp;version=ESV">1:13</a>]]></description>
+	<Placemark>
+		<name>Lachish / Tell ed Duweir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.849167,31.565278</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

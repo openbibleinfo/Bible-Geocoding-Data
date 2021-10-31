@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Negeb</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a1cb244/negeb">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Negeb (Negev, South)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.12.9&amp;version=ESV">12:9</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.13.1&amp;version=ESV">13:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.13.3&amp;version=ESV">13:3</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.24.62&amp;version=ESV">24:62</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.25.11&amp;version=NLT">25:11</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.13.17&amp;version=ESV">13:17</a>, <a href="https://www.biblegateway.com/passage/?search=Num.13.22&amp;version=ESV">13:22</a>, <a href="https://www.biblegateway.com/passage/?search=Num.13.29&amp;version=ESV">13:29</a>, <a href="https://www.biblegateway.com/passage/?search=Num.21.1&amp;version=ESV">21:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.40&amp;version=ESV">33:40</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.7&amp;version=ESV">1:7</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.34.3&amp;version=ESV">34:3</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.1.4&amp;version=NLT">1:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.10.40&amp;version=ESV">10:40</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.16&amp;version=ESV">11:16</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.8&amp;version=ESV">12:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.1&amp;version=NET">15:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.19&amp;version=ESV">15:19</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.21&amp;version=NIV">15:21</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.19.8&amp;version=ESV">19:8</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.1.9&amp;version=ESV">1:9</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.1.15&amp;version=ESV">1:15</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.1.16&amp;version=ESV">1:16</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.27.10&amp;version=ESV">27:10</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.30.1&amp;version=ESV">30:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.30.14&amp;version=ESV">30:14</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.30.27&amp;version=ESV">30:27</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.24.7&amp;version=ESV">24:7</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.28.18&amp;version=ESV">28:18</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.126.4&amp;version=ESV">126:4</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.21.1&amp;version=ESV">21:1</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.30.6&amp;version=ESV">30:6</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.13.19&amp;version=ESV">13:19</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.17.26&amp;version=ESV">17:26</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.32.44&amp;version=ESV">32:44</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.33.13&amp;version=ESV">33:13</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.20.46&amp;version=ESV">20:46</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.20.47&amp;version=ESV">20:47</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.19&amp;version=NKJV">47:19</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.48.28&amp;version=NKJV">48:28</a>, Obad <a href="https://www.biblegateway.com/passage/?search=Obad.1.19&amp;version=ESV">19</a>, <a href="https://www.biblegateway.com/passage/?search=Obad.1.20&amp;version=ESV">20</a>]]></description>
+	<Folder>
+		<name>Negeb</name>
+		<Placemark>
+			<name>Negeb (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.61892,31.20876 34.61892,31.1819 34.68121,31.04757 34.71235,31.02071 34.77464,30.99384 34.80579,30.99384 34.83693,30.99384 34.99265,31.07444 34.99265,31.1013 34.99265,31.15503 34.99265,31.1819 34.96151,31.20876 34.93036,31.20876 34.89922,31.20876 34.86807,31.20876 34.83693,31.20876 34.80579,31.20876 34.77464,31.20876 34.7435,31.20876 34.71235,31.20876 34.68121,31.20876 34.65006,31.20876 34.61892,31.20876</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.61892,31.20876 34.61892,31.1819 34.61892,31.07444 34.61892,31.04757 34.61892,31.02071 34.80579,30.91325 35.0238,31.07444 35.08608,31.15503 35.08608,31.1819 34.99265,31.20876 34.86807,31.23563 34.61892,31.20876</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.68121,31.28936 34.61892,31.28936 34.58778,31.04757 34.58778,31.02071 34.58778,30.99384 34.77464,30.91325 34.80579,30.91325 34.83693,30.91325 34.93036,30.99384 34.96151,31.02071 35.0238,31.07444 35.08608,31.15503 35.08608,31.1819 34.86807,31.28936 34.68121,31.28936</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.55663,31.04757 34.55663,30.99384 34.77464,30.91325 34.80579,30.91325 34.83693,30.91325 34.86807,30.91325 35.0238,30.99384 35.11723,31.1819 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.55663,31.04757</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.49434,30.99384 34.71235,30.85952 34.7435,30.85952 34.77464,30.85952 34.96151,30.85952 35.05494,30.91325 35.08608,30.99384 35.11723,31.07444 35.11723,31.15503 35.11723,31.1819 35.11723,31.20876 35.08608,31.26249 34.89922,31.28936 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.49434,30.99384 34.71235,30.83265 34.7435,30.83265 34.77464,30.83265 34.99265,30.85952 35.05494,30.91325 35.08608,30.94011 35.11723,30.99384 35.14837,31.07444 35.14837,31.1013 35.14837,31.12817 35.11723,31.26249 34.89922,31.28936 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.58778,31.28936 34.49434,31.20876 34.4632,31.1819 34.49434,30.99384</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.40091,30.99384 34.49434,30.83265 34.52549,30.83265 34.55663,30.83265 34.58778,30.83265 34.61892,30.83265 34.65006,30.83265 34.68121,30.83265 34.71235,30.83265 34.7435,30.83265 34.77464,30.83265 34.80579,30.83265 34.83693,30.83265 34.86807,30.83265 34.89922,30.83265 34.96151,30.83265 35.08608,30.91325 35.11723,30.96698 35.14837,31.07444 35.14837,31.1013 35.14837,31.12817 35.11723,31.28936 34.77464,31.34309 34.7435,31.34309 34.71235,31.34309 34.68121,31.34309 34.65006,31.34309 34.61892,31.34309 34.58778,31.31622 34.49434,31.23563 34.4632,31.20876 34.43205,31.1819 34.40091,30.99384</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.4632,31.26249 34.40091,31.1819 34.40091,30.99384 34.49434,30.83265 34.71235,30.80579 34.7435,30.80579 34.77464,30.80579 34.80579,30.80579 34.83693,30.80579 34.89922,30.80579 34.99265,30.83265 35.08608,30.91325 35.11723,30.94011 35.14837,31.02071 35.17952,31.1013 35.17952,31.23563 35.17952,31.28936 34.86807,31.34309 34.83693,31.34309 34.80579,31.34309 34.77464,31.34309 34.7435,31.34309 34.71235,31.34309 34.68121,31.34309 34.65006,31.34309 34.61892,31.34309 34.58778,31.34309 34.55663,31.34309 34.52549,31.34309 34.4632,31.26249</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.30748,30.6446 34.30748,30.61773 34.36977,30.53714 34.86807,30.45654 34.89922,30.45654 34.93036,30.4834 34.96151,30.51027 35.14837,30.83265 35.27295,31.07444 35.27295,31.1013 35.27295,31.34309 34.65006,31.36995 34.4632,31.34309 34.36977,31.26249 34.30748,30.6446</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Negeb</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>34.840833,31.244722</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

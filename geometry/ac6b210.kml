@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Naamah 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac6b210/naamah-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Naamah 2</name>
+	<description><![CDATA[Job <a href="https://www.biblegateway.com/passage/?search=Job.2.11&amp;version=ESV">2:11</a>, <a href="https://www.biblegateway.com/passage/?search=Job.11.1&amp;version=ESV">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=Job.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=Job.42.9&amp;version=ESV">42:9</a>]]></description>
+	<Placemark>
+		<name>Naamah 2 / Jebel el Na‘ameh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.8975,27.8825</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Naamah 2 / Sheba</name>
+		<description>another name for Sheba 1</description>
+		<Placemark>
+			<name>Naamah 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.81957,15.51157 43.67064,15.36655 43.5217,15.07651 43.67064,14.93149 43.81957,14.93149 43.96851,14.93149 44.11744,14.93149 44.26638,14.93149 44.41531,14.93149 44.56425,14.93149 44.71318,14.93149 44.86212,14.93149 45.01105,14.93149 45.15999,14.93149 45.30893,14.93149 45.45786,14.93149 45.6068,14.93149 45.75573,14.93149 45.75573,15.07651 45.15999,15.36655 43.81957,15.51157</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.81957,15.51157 43.67064,15.51157 43.5217,15.36655 43.5217,15.22153 43.5217,15.07651 43.67064,14.93149 43.81957,14.78647 43.96851,14.78647 44.11744,14.78647 44.71318,14.78647 44.86212,14.78647 46.0536,14.93149 46.0536,15.07651 46.0536,15.22153 46.0536,15.36655 44.41531,15.51157 44.26638,15.51157 44.11744,15.51157 43.96851,15.51157 43.81957,15.51157</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.81957,15.65659 43.5217,15.51157 43.5217,15.36655 43.5217,15.22153 43.5217,15.07651 43.5217,14.93149 43.81957,14.49643 43.96851,14.49643 44.11744,14.49643 46.20254,14.93149 46.20254,15.07651 46.20254,15.22153 46.20254,15.36655 45.15999,15.51157 44.26638,15.65659 44.11744,15.65659 43.96851,15.65659 43.81957,15.65659</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.5217,14.93149 43.81957,14.49643 43.96851,14.49643 44.11744,14.49643 44.26638,14.49643 46.35147,14.93149 46.35147,15.07651 46.35147,15.22153 46.35147,15.36655 46.0536,15.65659 45.75573,15.80161 45.6068,15.80161 45.45786,15.80161 45.30893,15.80161 43.67064,15.65659 43.5217,15.51157 43.37276,15.36655 43.5217,14.93149</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.81957,15.80161 43.5217,15.65659 43.37276,15.36655 43.37276,15.22153 43.37276,15.07651 43.67064,14.49643 43.96851,14.20639 44.11744,14.20639 44.26638,14.20639 46.50041,14.93149 46.50041,15.07651 46.50041,15.22153 46.50041,15.36655 46.20254,15.65659 46.0536,15.80161 45.90467,15.80161 45.75573,15.80161 45.6068,15.80161 45.45786,15.80161 45.30893,15.80161 45.15999,15.80161 45.01105,15.80161 44.86212,15.80161 44.71318,15.80161 44.26638,15.80161 44.11744,15.80161 43.96851,15.80161 43.81957,15.80161</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.5217,14.49643 43.81957,14.20639 44.11744,13.91635 44.26638,13.91635 44.41531,13.91635 47.24509,14.93149 47.24509,15.07651 47.24509,15.22153 47.24509,15.36655 46.35147,15.80161 45.75573,15.94663 45.6068,15.94663 45.45786,15.94663 45.30893,15.94663 45.15999,15.94663 45.01105,15.94663 44.86212,15.94663 44.71318,15.94663 44.11744,15.94663 43.96851,15.94663 43.81957,15.94663 43.5217,15.80161 43.37276,15.51157 43.37276,15.36655 43.37276,15.22153 43.37276,15.07651 43.37276,14.93149 43.5217,14.49643</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.37276,15.07651 43.37276,14.93149 43.5217,14.49643 43.67064,14.20639 43.81957,13.91635 43.96851,13.91635 44.11744,13.91635 44.26638,13.91635 44.41531,13.91635 44.56425,13.91635 44.71318,13.91635 44.86212,13.91635 45.01105,13.91635 45.15999,13.91635 45.30893,13.91635 46.50041,14.20639 47.69189,14.93149 47.84083,15.07651 47.84083,15.22153 47.84083,15.36655 47.84083,15.51157 47.84083,15.65659 47.84083,15.80161 47.84083,15.94663 47.69189,15.94663 47.54296,15.94663 47.39402,15.94663 47.24509,15.94663 47.09615,15.94663 46.94722,15.94663 46.79828,15.94663 46.64934,15.94663 46.50041,15.94663 46.35147,15.94663 46.20254,15.94663 46.0536,15.94663 45.90467,15.94663 45.75573,15.94663 45.6068,15.94663 45.45786,15.94663 45.30893,15.94663 45.15999,15.94663 45.01105,15.94663 44.86212,15.94663 44.71318,15.94663 44.56425,15.94663 44.41531,15.94663 44.26638,15.94663 44.11744,15.94663 43.96851,15.94663 43.81957,15.94663 43.67064,15.94663 43.5217,15.94663 43.37276,15.65659 43.37276,15.51157 43.37276,15.36655 43.37276,15.22153 43.37276,15.07651</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.37276,14.93149 43.5217,14.06137 43.67064,13.91635 44.26638,13.62631 44.41531,13.62631 46.50041,14.06137 48.28764,14.93149 48.43657,15.94663 47.84083,16.09165 47.69189,16.09165 47.54296,16.09165 47.39402,16.09165 47.24509,16.09165 47.09615,16.09165 46.94722,16.09165 46.79828,16.09165 46.64934,16.09165 46.50041,16.09165 43.5217,15.94663 43.37276,15.65659 43.37276,15.51157 43.37276,15.36655 43.37276,15.22153 43.37276,15.07651 43.37276,14.93149</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.96851,16.09165 43.37276,15.94663 43.22383,15.36655 43.22383,15.22153 43.5217,13.91635 43.96851,13.48129 44.11744,13.48129 44.41531,13.48129 44.56425,13.48129 44.71318,13.48129 44.86212,13.48129 45.01105,13.48129 46.50041,13.91635 48.43657,14.93149 48.73444,15.94663 48.43657,16.23667 48.28764,16.23667 48.1387,16.23667 47.98976,16.23667 47.84083,16.23667 47.69189,16.23667 47.54296,16.23667 47.39402,16.23667 47.24509,16.23667 47.09615,16.23667 46.94722,16.23667 46.79828,16.23667 46.64934,16.23667 46.50041,16.23667 43.96851,16.09165</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 / Sheba</name>
+			<description>another name for Sheba 1</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>44.206389,15.348333</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Naamah 2 / in Edom</name>
+		<Placemark>
+			<name>Naamah 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.41521,30.181 35.48269,30.181 35.55017,30.181 35.61765,30.181 35.68513,30.23982 35.75262,30.29864 35.8201,30.41629 35.88758,30.53394 35.95506,30.65159 36.02254,30.76924 35.88758,30.82806 35.75262,30.88688 35.61765,30.94571 35.55017,30.94571 35.48269,30.94571 35.28024,30.82806 35.21276,30.71041 35.21276,30.65159 35.21276,30.59276 35.21276,30.53394 35.21276,30.47512 35.34773,30.181 35.41521,30.181</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.14528,30.47512 35.28024,30.181 35.34773,30.12217 35.55017,30.06335 35.61765,30.12217 35.68513,30.181 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.61765,31.00453 35.48269,31.00453 35.0778,30.71041 35.14528,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.0778,30.76924 35.0778,30.71041 35.14528,30.41629 35.28024,30.181 35.34773,30.12217 35.48269,30.06335 35.55017,30.06335 35.61765,30.06335 35.95506,30.59276 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.14528,30.82806 35.0778,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.01032,30.76924 35.01032,30.71041 35.01032,30.65159 35.01032,30.53394 35.01032,30.47512 35.34773,30.06335 35.41521,30.06335 35.48269,30.06335 35.55017,30.06335 35.61765,30.06335 36.02254,30.47512 36.02254,30.53394 36.02254,30.59276 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.95506,30.88688 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.01032,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.94283,30.76924 34.94283,30.71041 34.94283,30.65159 34.94283,30.53394 34.94283,30.47512 34.94283,30.41629 35.14528,29.9457 35.61765,30.00453 36.02254,30.47512 36.09003,30.88688 35.95506,30.94571 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 34.94283,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.0778,29.82805 35.14528,29.82805 35.55017,29.9457 35.61765,30.00453 35.68513,30.06335 36.02254,30.41629 36.15751,30.76924 36.15751,30.82806 36.15751,30.88688 35.95506,30.94571 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.28024,30.94571 34.94283,30.76924 34.87535,30.41629 35.0778,29.82805</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.53794,30.47512 34.53794,30.41629 34.94283,29.53393 35.01032,29.53393 35.0778,29.53393 35.34773,29.65158 35.41521,29.71041 35.48269,29.76923 35.95506,30.23982 36.09003,30.41629 36.15751,30.59276 36.22499,30.76924 36.22499,30.82806 36.15751,30.88688 35.95506,30.94571 35.75262,31.00453 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.34773,31.00453 34.87535,30.76924 34.60543,30.53394 34.53794,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.47046,30.53394 34.40298,30.47512 34.87535,29.53393 34.94283,29.47511 35.01032,29.47511 35.0778,29.47511 35.41521,29.65158 36.15751,30.41629 36.29247,30.76924 36.29247,30.82806 36.22499,31.00453 35.75262,31.06336 35.68513,31.06336 35.61765,31.06336 35.55017,31.06336 35.48269,31.06336 35.41521,31.06336 35.28024,31.00453 35.14528,30.94571 34.87535,30.82806 34.47046,30.53394</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.3355,30.47512 34.3355,30.41629 34.47046,30.12217 34.74039,29.59276 34.80787,29.53393 34.87535,29.47511 35.01032,29.41629 35.0778,29.41629 35.41521,29.59276 36.22499,30.23982 36.29247,30.59276 36.35995,31.00453 36.29247,31.06336 35.88758,31.12218 35.8201,31.12218 35.34773,31.06336 34.60543,30.82806 34.53794,30.76924 34.47046,30.71041 34.3355,30.53394 34.3355,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Naamah 2 / in Edom</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.603919,30.745843</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sepharad</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0a98de/sepharad">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sepharad</name>
+	<description><![CDATA[Obad <a href="https://www.biblegateway.com/passage/?search=Obad.1.20&amp;version=ESV">20</a>]]></description>
+	<Placemark>
+		<name>Sepharad / Sardis</name>
+		<description>another name for Sardis</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>28.040278,38.488333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Asia Minor</name>
+		<description>another name for Saparda</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>41.443745,41.477736 40.193087,41.05055 39.396161,41.262838 38.29866,41.036232 36.783151,41.487219 36.050399,41.796322 35.1128,42.205988 33.284948,42.108625 31.207261,41.242446 29.415421,41.394121 28.772172,40.88419 27.097272,40.50613 26.266071,40.175571 25.845718,39.222393 26.529583,37.743166 28.056268,36.541477 29.503444,36.008826 30.539958,36.04547 30.791287,36.78345 32.785773,35.819706 34.6964,36.674644 35.62556,36.432044 35.897228,35.949509 41.443745,41.477736</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Asia Minor</name>
+		<description>another name for Saparda</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32,39</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Hispania</name>
+		<description>in Spain</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>-1.927994,43.341489 -3.510451,43.663214 -7.984571,43.909061 -9.592818,43.166065 -8.865002,41.04423 -9.805025,38.672948 -9.02412,38.356384 -9.233945,36.894223 -7.855718,36.6784 -7.323612,37.05308 -6.792985,36.894482 -5.997221,35.915235 -5.63588,35.930215 -5.314237,35.989189 -4.261698,36.51723 -2.034662,36.499076 -1.403817,37.232246 -0.504093,37.444006 0.362429,38.74489 -0.027561,39.330489 1.238274,40.847495 3.364906,41.814738 3.441922,42.317559 0.236568,42.641819 -1.927994,43.341489</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Hispania</name>
+		<description>in Spain</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>-4.35,40.21</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / within 15 km of the Bosporus</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>29.07528,41.25434 29.05652,41.2536 29.03797,41.25139 29.01983,41.24773 29.00231,41.24266 28.98558,41.23623 28.96985,41.22853 28.95528,41.21963 28.94202,41.20963 28.93023,41.19864 28.92004,41.18679 28.91156,41.1742 28.90487,41.161 28.90005,41.14736 28.89715,41.13341 28.89621,41.11931 28.89723,41.10521 28.9002,41.09126 28.90508,41.07763 28.91183,41.06446 28.92036,41.05189 28.93058,41.04006 28.94239,41.0291 28.95564,41.01913 28.9702,41.01026 28.9859,41.00258 29.00258,40.99619 29.02005,40.99114 29.03812,40.98749 29.0566,40.98528 29.07528,40.98455 29.09396,40.98528 29.11243,40.98749 29.1305,40.99114 29.14797,40.99619 29.16465,41.00258 29.18036,41.01026 29.19491,41.01913 29.20817,41.0291 29.21997,41.04006 29.23019,41.05189 29.23873,41.06446 29.24547,41.07763 29.25036,41.09126 29.25333,41.10521 29.25434,41.11931 29.2534,41.13341 29.25051,41.14736 29.24569,41.161 29.239,41.1742 29.23051,41.18679 29.22032,41.19864 29.20853,41.20963 29.19528,41.21963 29.18071,41.22853 29.16497,41.23623 29.14825,41.24266 29.13072,41.24773 29.11258,41.25139 29.09403,41.2536 29.07528,41.25434</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / within 15 km of the Bosporus</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>29.075278,41.119444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Media</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>50.011002,30.088045 51.274977,27.694685 51.968945,27.609028 52.543486,27.20282 53.574455,26.563513 54.784824,26.32797 56.551349,26.977192 57.236117,25.52583 59.106793,29.245149 67.553301,30.971734 67.40204,33.293338 63.109926,39.492965 53.925093,36.989022 51.826439,36.676968 50.475233,37.138887 50.333849,37.458567 49.23762,37.615969 49.058806,38.442823 45.126246,41.165846 43.314852,41.359638 41.52824,40.338099 36.877553,40.513882 36.556185,41.467699 35.460059,42.142747 33.730665,39.348271 34.945889,38.788819 39.839415,37.914506 40.277386,36.597958 45.212807,36.061842 47.519954,34.14296 49.578808,32.720199 50.59391,30.775085 50.011002,30.088045</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / in Media</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.516247,34.8065</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharad / Sparta</name>
+		<description>another name for Sparta</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>22.423611,37.081944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shaalim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab6f1f0/shaalim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shaalim (Shalim)</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.9.4&amp;version=ESV">9:4</a>]]></description>
+	<Placemark>
+		<name>Shaalim / about 10 km around Salbit</name>
+		<description>about 10 km around Shaalbim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.98714,31.95974 34.97606,31.95925 34.9651,31.95777 34.95439,31.95534 34.94403,31.95196 34.93415,31.94768 34.92485,31.94255 34.91623,31.93662 34.90839,31.92996 34.90142,31.92264 34.89539,31.91474 34.89036,31.90635 34.8864,31.89756 34.88354,31.88847 34.88181,31.87917 34.88124,31.86977 34.88184,31.86037 34.88358,31.85107 34.88646,31.84198 34.89044,31.83319 34.89548,31.82481 34.90152,31.81692 34.9085,31.80961 34.91633,31.80296 34.92495,31.79704 34.93424,31.79192 34.94411,31.78765 34.95445,31.78428 34.96514,31.78184 34.97608,31.78037 34.98714,31.77988 34.9982,31.78037 35.00914,31.78184 35.01983,31.78428 35.03017,31.78765 35.04004,31.79192 35.04933,31.79704 35.05795,31.80296 35.06578,31.80961 35.07276,31.81692 35.0788,31.82481 35.08384,31.83319 35.08782,31.84198 35.0907,31.85107 35.09244,31.86037 35.09304,31.86977 35.09247,31.87917 35.09074,31.88847 35.08788,31.89756 35.08392,31.90635 35.07889,31.91474 35.07286,31.92264 35.06589,31.92996 35.05805,31.93662 35.04943,31.94255 35.04013,31.94768 35.03025,31.95196 35.01989,31.95534 35.00918,31.95777 34.99822,31.95925 34.98714,31.95974</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / about 10 km around Salbit</name>
+		<description>about 10 km around Shaalbim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.98714,31.86981</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / about 10 km around Khirbet Salhab</name>
+		<description>about 10 km around Shaalbim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.3725,32.4441 35.36136,32.44361 35.35034,32.44213 35.33957,32.43969 35.32916,32.43632 35.31922,32.43204 35.30987,32.42691 35.30121,32.42098 35.29333,32.41432 35.28632,32.407 35.28026,32.3991 35.27521,32.39071 35.27122,32.38192 35.26835,32.37282 35.26661,32.36352 35.26604,32.35412 35.26664,32.34472 35.26839,32.33543 35.27128,32.32634 35.27528,32.31755 35.28035,32.30917 35.28642,32.30128 35.29344,32.29397 35.30132,32.28731 35.30998,32.2814 35.31932,32.27627 35.32924,32.272 35.33963,32.26863 35.35039,32.2662 35.36138,32.26473 35.3725,32.26423 35.38362,32.26473 35.39461,32.2662 35.40537,32.26863 35.41576,32.272 35.42568,32.27627 35.43502,32.2814 35.44368,32.28731 35.45156,32.29397 35.45858,32.30128 35.46465,32.30917 35.46972,32.31755 35.47372,32.32634 35.47661,32.33543 35.47836,32.34472 35.47896,32.35412 35.47839,32.36352 35.47665,32.37282 35.47378,32.38192 35.46979,32.39071 35.46474,32.3991 35.45868,32.407 35.45167,32.41432 35.44379,32.42098 35.43513,32.42691 35.42578,32.43204 35.41584,32.43632 35.40543,32.43969 35.39466,32.44213 35.38364,32.44361 35.3725,32.4441</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / about 10 km around Khirbet Salhab</name>
+		<description>about 10 km around Shaalbim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.3725,32.354167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / within 10 km of Taybeh</name>
+		<description>another name for Shual</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.30028,32.04438 35.28919,32.04388 35.27822,32.04241 35.26749,32.03997 35.25713,32.03659 35.24724,32.03232 35.23793,32.02719 35.2293,32.02126 35.22146,32.0146 35.21448,32.00728 35.20844,31.99938 35.20341,31.99099 35.19944,31.98219 35.19658,31.9731 35.19485,31.9638 35.19428,31.9544 35.19488,31.945 35.19662,31.9357 35.1995,31.92661 35.20349,31.91783 35.20853,31.90944 35.21458,31.90155 35.22156,31.89424 35.22941,31.88759 35.23803,31.88167 35.24733,31.87655 35.25721,31.87228 35.26755,31.86891 35.27826,31.86648 35.28921,31.865 35.30028,31.86451 35.31135,31.865 35.32229,31.86648 35.333,31.86891 35.34335,31.87228 35.35323,31.87655 35.36253,31.88167 35.37115,31.88759 35.37899,31.89424 35.38598,31.90155 35.39203,31.90944 35.39707,31.91783 35.40105,31.92661 35.40393,31.9357 35.40568,31.945 35.40627,31.9544 35.4057,31.9638 35.40398,31.9731 35.40111,31.98219 35.39715,31.99099 35.39212,31.99938 35.38608,32.00728 35.3791,32.0146 35.37125,32.02126 35.36263,32.02719 35.35332,32.03232 35.34343,32.03659 35.33306,32.03997 35.32234,32.04241 35.31137,32.04388 35.30028,32.04438</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / within 10 km of Taybeh</name>
+		<description>another name for Shual</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.300278,31.954444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / about 10 km around Rammun</name>
+		<description>another name for Shual</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29889,32.01965 35.2878,32.01916 35.27684,32.01769 35.26611,32.01525 35.25575,32.01187 35.24586,32.00759 35.23656,32.00246 35.22793,31.99653 35.22009,31.98987 35.21311,31.98255 35.20708,31.97466 35.20205,31.96626 35.19808,31.95747 35.19522,31.94838 35.19349,31.93908 35.19292,31.92968 35.19352,31.92028 35.19526,31.91098 35.19814,31.90189 35.20212,31.89311 35.20717,31.88472 35.21321,31.87683 35.22019,31.86952 35.22804,31.86287 35.23665,31.85695 35.24595,31.85183 35.25583,31.84756 35.26617,31.84419 35.27688,31.84175 35.28782,31.84028 35.29889,31.83979 35.30995,31.84028 35.3209,31.84175 35.3316,31.84419 35.34195,31.84756 35.35183,31.85183 35.36112,31.85695 35.36974,31.86287 35.37758,31.86952 35.38457,31.87683 35.39061,31.88472 35.39565,31.89311 35.39964,31.90189 35.40252,31.91098 35.40426,31.92028 35.40485,31.92968 35.40428,31.93908 35.40256,31.94838 35.3997,31.95747 35.39573,31.96626 35.3907,31.97466 35.38467,31.98255 35.37769,31.98987 35.36984,31.99653 35.36122,32.00246 35.35192,32.00759 35.34203,32.01187 35.33166,32.01525 35.32094,32.01769 35.30998,32.01916 35.29889,32.01965</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shaalim / about 10 km around Rammun</name>
+		<description>another name for Shual</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.298889,31.929722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

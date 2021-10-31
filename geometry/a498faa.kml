@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Abilene</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a498faa/abilene">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Abilene</name>
+	<description><![CDATA[Luke <a href="https://www.biblegateway.com/passage/?search=Luke.3.1&amp;version=ESV">3:1</a>]]></description>
+	<Folder>
+		<name>Abilene</name>
+		<Placemark>
+			<name>Abilene (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.1568,33.70139 36.1341,33.64457 36.1568,33.62563 36.17949,33.62563 36.20219,33.64457 36.27027,33.72033 36.24758,33.72033 36.22488,33.72033 36.20219,33.72033 36.17949,33.72033 36.1568,33.70139</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.1341,33.70139 36.08871,33.62563 36.1568,33.60669 36.20219,33.62563 36.36105,33.72033 36.29297,33.73927 36.27027,33.73927 36.24758,33.73927 36.22488,33.73927 36.20219,33.73927 36.17949,33.73927 36.1568,33.72033 36.1341,33.70139</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.1114,33.68245 36.06601,33.64457 36.08871,33.62563 36.1114,33.60669 36.1341,33.60669 36.1568,33.60669 36.17949,33.60669 36.33836,33.70139 36.36105,33.72033 36.31566,33.77715 36.29297,33.77715 36.27027,33.77715 36.24758,33.77715 36.20219,33.75821 36.17949,33.73927 36.1568,33.72033 36.1341,33.70139 36.1114,33.68245</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.06601,33.64457 36.06601,33.62563 36.06601,33.60669 36.08871,33.60669 36.1114,33.60669 36.1341,33.60669 36.1568,33.60669 36.17949,33.60669 36.24758,33.62563 36.27027,33.64457 36.31566,33.68245 36.33836,33.70139 36.36105,33.72033 36.38375,33.73927 36.33836,33.79609 36.31566,33.79609 36.29297,33.79609 36.27027,33.79609 36.24758,33.79609 36.22488,33.77715 36.20219,33.75821 36.17949,33.73927 36.1568,33.72033 36.1341,33.70139 36.1114,33.68245 36.08871,33.66351 36.06601,33.64457</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.06601,33.64457 36.06601,33.62563 36.06601,33.60669 36.1341,33.58775 36.1568,33.58775 36.20219,33.60669 36.24758,33.62563 36.29297,33.64457 36.33836,33.68245 36.38375,33.73927 36.40645,33.77715 36.36105,33.85291 36.33836,33.85291 36.22488,33.79609 36.1114,33.72033 36.06601,33.64457</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.1114,33.72033 36.04332,33.64457 36.04332,33.60669 36.04332,33.58775 36.04332,33.56881 36.04332,33.54987 36.08871,33.53093 36.29297,33.62563 36.36105,33.70139 36.42914,33.79609 36.40645,33.85291 36.38375,33.87185 36.33836,33.89079 36.31566,33.89079 36.29297,33.87185 36.27027,33.85291 36.24758,33.83397 36.22488,33.81503 36.20219,33.79609 36.17949,33.77715 36.1341,33.73927 36.1114,33.72033</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.02062,33.62563 36.02062,33.60669 36.02062,33.58775 36.02062,33.56881 36.04332,33.53093 36.06601,33.49304 36.08871,33.49304 36.29297,33.62563 36.31566,33.64457 36.38375,33.72033 36.40645,33.75821 36.42914,33.79609 36.42914,33.87185 36.42914,33.89079 36.42914,33.90973 36.40645,33.92867 36.38375,33.94761 36.31566,33.90973 36.08871,33.73927 36.02062,33.62563</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.99793,33.60669 35.99793,33.58775 35.99793,33.56881 36.02062,33.4741 36.04332,33.4741 36.06601,33.4741 36.08871,33.4741 36.27027,33.60669 36.29297,33.62563 36.31566,33.64457 36.38375,33.72033 36.47453,33.85291 36.49723,33.89079 36.47453,33.90973 36.45184,33.92867 36.42914,33.94761 36.40645,33.96655 36.38375,33.98549 36.36105,34.00443 36.33836,34.02337 36.31566,34.04231 36.27027,33.98549 36.22488,33.92867 36.1114,33.77715 35.99793,33.60669</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.97523,33.58775 35.97523,33.56881 35.99793,33.49304 36.02062,33.4741 36.04332,33.4741 36.06601,33.4741 36.08871,33.4741 36.1341,33.49304 36.36105,33.62563 36.45184,33.72033 36.70149,34.13702 36.72418,34.1749 36.70149,34.19384 36.6334,34.23172 36.56531,34.2696 36.51992,34.28854 36.49723,34.2696 36.47453,34.25066 36.42914,34.19384 36.22488,33.92867 36.17949,33.87185 36.1341,33.81503 36.08871,33.75821 35.97523,33.58775</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Abilene</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.105833,33.626667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

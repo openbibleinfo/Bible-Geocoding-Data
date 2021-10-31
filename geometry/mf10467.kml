@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi el Melek</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mf10467/wadi-el-melek">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi el Melek</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.25039,32.77896 35.24974,32.77893 35.24873,32.77843 35.24629,32.77551 35.24512,32.77231 35.23884,32.76726 35.23927,32.76607 35.23921,32.76559 35.23746,32.76404 35.23384,32.76151 35.23305,32.76147 35.23236,32.76075 35.23242,32.76004 35.23133,32.75887 35.2311,32.75831 35.23011,32.75815 35.2296,32.75781 35.22865,32.75652 35.22776,32.75584 35.22652,32.75423 35.2258,32.75178 35.22543,32.75153 35.2243,32.75165 35.22257,32.75011 35.22144,32.74865 35.21904,32.74763 35.21769,32.74812 35.2135,32.74882 35.21123,32.74984 35.20965,32.74972 35.2085,32.75012 35.20645,32.75021 35.20433,32.74974 35.20229,32.74865 35.20185,32.74874 35.20105,32.74933 35.20032,32.7492 35.19964,32.74936 35.1976,32.7506 35.19643,32.75086 35.19322,32.74973 35.19091,32.74928 35.189,32.74928 35.18816,32.74969 35.18772,32.75055 35.18589,32.75186 35.18596,32.75263 35.18573,32.75336 35.18477,32.75416 35.18364,32.75464 35.18296,32.75423 35.18175,32.7539 35.17806,32.7514 35.17619,32.75151 35.17425,32.75422 35.17397,32.75433 35.1725,32.75845 35.16939,32.75909 35.16754,32.75976 35.16697,32.76015 35.16607,32.76129 35.16487,32.76217 35.16423,32.76236 35.1637,32.76309 35.16242,32.76411 35.16105,32.76417 35.1596,32.76469 35.15923,32.7644 35.15855,32.76426 35.15783,32.76462 35.15386,32.76458 35.15316,32.7651 35.15328,32.7661 35.15283,32.76913 35.15355,32.76987 35.15666,32.77056 35.15832,32.77151 35.15947,32.77173 35.16067,32.77257 35.16079,32.77308 35.16032,32.77351 35.15957,32.77358 35.15877,32.77432 35.15635,32.77453 35.15528,32.77508 35.15385,32.77513 35.15202,32.77484 35.15061,32.77396 35.1499,32.77196 35.14992,32.76907 35.14885,32.7688 35.14602,32.76987 35.14431,32.77146 35.14375,32.77245 35.14397,32.77442 35.14347,32.7755 35.14272,32.77583 35.14157,32.77559 35.14009,32.77577 35.1392,32.77637 35.13835,32.7774 35.1361,32.77836 35.13491,32.77849 35.13297,32.77795 35.12834,32.77847</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi el Melek</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.143017,32.771216</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

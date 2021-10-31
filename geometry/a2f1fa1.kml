@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Amad</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2f1fa1/amad">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Amad</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.26&amp;version=ESV">19:26</a>]]></description>
+	<Placemark>
+		<name>Amad / within 10 km of Mount Carmel</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.02333,32.76243 35.01215,32.76194 35.0011,32.76046 34.99029,32.75803 34.97984,32.75465 34.96987,32.75037 34.96048,32.74524 34.95179,32.73931 34.94388,32.73265 34.93685,32.72533 34.93076,32.71743 34.92569,32.70904 34.92169,32.70025 34.91881,32.69115 34.91707,32.68186 34.9165,32.67245 34.91709,32.66305 34.91885,32.65376 34.92176,32.64467 34.92577,32.63588 34.93086,32.6275 34.93695,32.61961 34.94399,32.6123 34.9519,32.60565 34.96059,32.59973 34.96996,32.59461 34.97992,32.59034 34.99035,32.58697 35.00114,32.58453 35.01218,32.58306 35.02333,32.58257 35.03449,32.58306 35.04552,32.58453 35.05632,32.58697 35.06675,32.59034 35.0767,32.59461 35.08608,32.59973 35.09477,32.60565 35.10267,32.6123 35.10971,32.61961 35.11581,32.6275 35.12089,32.63588 35.12491,32.64467 35.12781,32.65376 35.12957,32.66305 35.13017,32.67245 35.1296,32.68186 35.12786,32.69115 35.12497,32.70025 35.12097,32.70904 35.1159,32.71743 35.10982,32.72533 35.10278,32.73265 35.09487,32.73931 35.08618,32.74524 35.0768,32.75037 35.06683,32.75465 35.05638,32.75803 35.04557,32.76046 35.03451,32.76194 35.02333,32.76243</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Amad / within 10 km of Mount Carmel</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.023333,32.6725</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Amad / Umm al Amad</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.171797,32.7295</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

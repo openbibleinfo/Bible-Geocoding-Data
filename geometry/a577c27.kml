@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bamoth-baal</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a577c27/bamoth-baal">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bamoth-baal</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.22.41&amp;version=ESV">22:41</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.13.17&amp;version=ESV">13:17</a>]]></description>
+	<Placemark>
+		<name>Bamoth-baal / Khirbet el Quweiqiyeh</name>
+		<description>another name for Bamoth</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.740891,31.731791</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bamoth-baal / Jebel Ataruz</name>
+		<description>another name for Bamoth</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.68742,31.591311</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bamoth-baal / Khirbet Libb</name>
+		<description>another name for Bamoth</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.761261,31.60634</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Elam</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a7e3a59/elam">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Elam</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.14.1&amp;version=ESV">14:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.14.9&amp;version=ESV">14:9</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.4.9&amp;version=NLT">4:9</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.11.11&amp;version=ESV">11:11</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.21.2&amp;version=ESV">21:2</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.22.6&amp;version=ESV">22:6</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.25&amp;version=ESV">25:25</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.34&amp;version=ESV">49:34</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.35&amp;version=ESV">49:35</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.36&amp;version=ESV">49:36</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.37&amp;version=ESV">49:37</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.38&amp;version=ESV">49:38</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.39&amp;version=ESV">49:39</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.32.24&amp;version=ESV">32:24</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.32.25&amp;version=NRSV">32:25</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.8.2&amp;version=ESV">8:2</a>]]></description>
+	<Folder>
+		<name>Elam</name>
+		<Placemark>
+			<name>Elam (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>47.54004,32.9664 47.54004,32.69015 48.00637,31.58515 48.16181,31.44703 48.31725,31.3089 48.62813,31.03265 49.09446,30.89453 49.2499,30.89453 49.40534,30.89453 49.71622,31.03265 49.87167,31.3089 49.87167,31.44703 49.87167,31.58515 49.87167,31.72328 49.71622,31.99953 48.93902,32.69015 48.62813,32.82827 48.31725,32.9664 48.00637,32.9664 47.85093,32.9664 47.69548,32.9664 47.54004,32.9664</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>48.31725,31.3089 48.47269,31.17078 48.62813,31.03265 48.93902,30.89453 49.2499,30.75641 49.71622,31.03265 49.87167,31.3089 49.87167,31.44703 49.87167,31.58515 49.87167,31.72328 49.71622,31.99953 49.09446,32.69015 48.00637,33.10452 47.85093,33.10452 47.3846,32.9664 47.3846,32.55202 47.3846,32.4139 47.3846,32.27578 48.00637,31.58515 48.16181,31.44703 48.31725,31.3089</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>47.3846,32.9664 47.3846,32.69015 47.3846,32.55202 47.3846,32.4139 47.3846,32.27578 48.00637,31.44703 48.47269,30.89453 49.2499,30.75641 49.40534,30.75641 49.56078,30.89453 49.71622,31.03265 49.87167,31.17078 49.87167,31.3089 49.87167,31.44703 49.87167,31.58515 49.87167,31.72328 49.87167,31.8614 49.09446,32.69015 48.78357,32.9664 48.47269,33.24265 48.31725,33.24265 47.69548,33.10452 47.3846,32.9664</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>48.62813,33.10452 48.47269,33.24265 48.31725,33.24265 47.54004,33.10452 47.3846,32.9664 47.22916,32.55202 47.22916,32.4139 48.47269,30.75641 48.62813,30.75641 48.78357,30.75641 48.93902,30.75641 49.09446,30.75641 49.2499,30.75641 49.40534,30.75641 49.71622,30.89453 49.87167,31.03265 50.02711,31.44703 50.02711,31.58515 50.02711,31.72328 50.02711,31.8614 49.09446,32.69015 48.93902,32.82827 48.78357,32.9664 48.62813,33.10452</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>48.31725,33.24265 47.3846,33.10452 47.22916,32.55202 47.22916,32.4139 47.22916,32.27578 48.31725,30.75641 49.56078,30.61828 49.87167,30.89453 50.02711,31.03265 50.02711,31.3089 50.02711,31.44703 50.02711,31.58515 50.02711,31.72328 50.02711,31.8614 50.02711,31.99953 48.93902,32.9664 48.47269,33.24265 48.31725,33.24265</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>47.07372,32.82827 47.07372,32.69015 47.22916,32.27578 48.16181,30.89453 48.31725,30.75641 49.40534,30.61828 49.56078,30.61828 50.02711,30.75641 50.18255,31.03265 50.18255,31.8614 50.18255,31.99953 49.2499,32.9664 48.93902,33.10452 48.47269,33.24265 48.31725,33.24265 47.85093,33.24265 47.69548,33.24265 47.3846,33.10452 47.22916,32.9664 47.07372,32.82827</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>47.3846,33.24265 47.22916,33.10452 47.07372,32.82827 47.07372,32.69015 47.07372,32.55202 47.07372,32.4139 47.69548,30.89453 48.00637,30.75641 48.47269,30.61828 48.93902,30.48016 49.56078,30.48016 50.02711,30.48016 50.18255,30.61828 50.49343,31.03265 50.49343,31.17078 50.33799,32.27578 48.93902,33.24265 48.47269,33.38077 48.00637,33.38077 47.3846,33.24265</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>47.3846,33.38077 47.22916,33.24265 47.07372,32.82827 47.07372,32.69015 47.07372,32.55202 47.07372,32.4139 47.07372,32.27578 47.07372,32.13765 47.07372,31.99953 47.69548,30.89453 48.47269,30.48016 49.2499,30.20391 51.73696,29.92766 51.89241,29.92766 51.89241,30.06578 50.33799,32.27578 49.56078,32.82827 48.93902,33.24265 48.47269,33.5189 48.16181,33.65702 47.3846,33.38077</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>46.91828,32.69015 46.91828,32.55202 46.91828,32.4139 46.91828,32.27578 47.54004,30.89453 47.69548,30.75641 48.78357,29.78953 51.58152,29.65141 51.73696,29.65141 52.20329,29.65141 52.20329,29.78953 51.1152,31.58515 50.80431,31.8614 50.64887,31.99953 50.49343,32.13765 50.33799,32.27578 50.18255,32.4139 50.02711,32.55202 49.09446,33.24265 48.47269,33.65702 48.00637,33.79515 47.85093,33.79515 47.69548,33.79515 47.54004,33.79515 47.3846,33.79515 47.07372,33.5189 46.91828,33.38077 46.91828,33.24265 46.91828,32.82827 46.91828,32.69015</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elam</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>48.25778,32.18922</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Nimrin</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m1d55ca/wadi-nimrin">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Nimrin</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.786254,32.035604 35.783372,32.032573 35.780624,32.030939 35.774125,32.030641 35.771827,32.032113 35.770198,32.032283 35.764475,32.029844 35.760974,32.030122 35.759241,32.029156 35.759393,32.027134 35.757141,32.023431 35.757694,32.019817 35.756831,32.019379 35.756643,32.015765 35.752618,32.014126 35.751503,32.011503 35.748324,32.011276 35.746962,32.00959 35.748524,32.006131 35.748257,32.003605 35.746508,32.002581 35.747001,32.00138 35.746508,31.999778 35.741808,31.998668 35.738804,31.998941 35.735972,31.997449 35.736058,31.995902 35.737388,31.995211 35.737431,31.993336 35.733333,31.99128 35.732474,31.989642 35.732474,31.98764 35.730307,31.985511 35.731831,31.984473 35.731959,31.982508 35.730779,31.97874 35.729224,31.976884 35.7305,31.972169 35.728258,31.972124 35.727357,31.970995 35.724385,31.970385 35.722185,31.967591 35.720211,31.967209 35.718344,31.96537 35.71415,31.963559 35.713924,31.962621 35.710427,31.959563 35.709032,31.956468 35.708506,31.952909 35.707176,31.95056 35.701146,31.947793 35.699108,31.947519 35.69649,31.948339 35.691211,31.946536 35.689387,31.946682 35.683057,31.944715 35.679281,31.942203 35.677457,31.943241 35.674045,31.938506 35.667908,31.937687 35.666471,31.936795 35.665462,31.934628 35.665634,31.932679 35.66263,31.933043 35.661986,31.932388 35.659905,31.929347 35.658617,31.925504 35.65527,31.920987 35.651536,31.921989 35.643876,31.919293 35.644391,31.916725 35.643339,31.913757 35.643683,31.910733 35.638769,31.907454 35.628421,31.90437 35.624215,31.901619 35.62267,31.90253 35.620867,31.900581 35.618228,31.899798 35.617177,31.900818 35.615553,31.900874 35.613743,31.899105 35.610696,31.898577 35.607564,31.896701 35.602886,31.896737 35.600955,31.897939 35.59514,31.896391 35.590269,31.896737 35.587565,31.895863 35.585891,31.896391 35.584175,31.89548 35.581294,31.895508 35.577909,31.89344 35.575978,31.893403 35.575012,31.892328 35.572373,31.891618 35.567695,31.891964 35.565077,31.890925 35.561794,31.891381 35.559091,31.889923 35.556194,31.89047 35.552868,31.890124 35.551366,31.889614 35.542096,31.880413 35.539096,31.878712</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Nimrin</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.53933,31.8794</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

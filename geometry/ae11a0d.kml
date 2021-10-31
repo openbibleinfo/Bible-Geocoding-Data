@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wilderness of Maon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae11a0d/wilderness-of-maon">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Wilderness of Maon (Desert of Maon)</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.23.24&amp;version=NIV">23:24</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.23.25&amp;version=NIV">23:25</a>]]></description>
+	<Folder>
+		<name>Wilderness of Maon</name>
+		<Placemark>
+			<name>Wilderness of Maon (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.16442,31.36265 35.13855,31.36817 35.14502,31.3516 35.15148,31.3516 35.15795,31.3516 35.17088,31.3516 35.17088,31.35712 35.16442,31.36265</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.15795,31.39027 35.14502,31.37922 35.13855,31.36817 35.13855,31.36265 35.13855,31.35712 35.14502,31.34607 35.15148,31.34607 35.20321,31.3516 35.20321,31.35712 35.20321,31.3737 35.20321,31.37922 35.20321,31.3958 35.18381,31.40132 35.17735,31.40132 35.17088,31.40132 35.16442,31.3958 35.15795,31.39027</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13208,31.3958 35.13208,31.39027 35.13208,31.37922 35.13208,31.36265 35.13208,31.35712 35.14502,31.34055 35.17088,31.34055 35.20968,31.34607 35.22261,31.3516 35.23554,31.35712 35.25494,31.3737 35.25494,31.37922 35.23554,31.3958 35.18381,31.41237 35.15148,31.40685 35.13855,31.40132 35.13208,31.3958</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13208,31.3516 35.13855,31.34055 35.14502,31.34055 35.15148,31.34055 35.15795,31.34055 35.16442,31.34055 35.17088,31.34055 35.17735,31.34055 35.18381,31.34055 35.19028,31.34055 35.19675,31.34055 35.24201,31.34055 35.24848,31.34055 35.25494,31.34055 35.26141,31.3737 35.25494,31.38475 35.24201,31.40685 35.21615,31.41237 35.20968,31.41237 35.20321,31.41237 35.19675,31.41237 35.19028,31.41237 35.18381,31.41237 35.13208,31.40685 35.12562,31.36265 35.13208,31.3516</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.16442,31.33502 35.17088,31.33502 35.27434,31.34055 35.27434,31.34607 35.27434,31.3516 35.27434,31.35712 35.27434,31.3737 35.27434,31.37922 35.27434,31.38475 35.27434,31.39027 35.27434,31.40132 35.27434,31.40685 35.27434,31.41237 35.26788,31.41237 35.26141,31.41237 35.25494,31.41237 35.24848,31.41237 35.24201,31.41237 35.23554,31.41237 35.22908,31.41237 35.22261,31.41237 35.21615,31.41237 35.20968,31.41237 35.20321,31.41237 35.19675,31.41237 35.19028,31.41237 35.18381,31.41237 35.17735,31.41237 35.17088,31.41237 35.16442,31.41237 35.15795,31.41237 35.13208,31.40685 35.11915,31.37922 35.11268,31.35712 35.11268,31.3516 35.14502,31.33502 35.15148,31.33502 35.15795,31.33502 35.16442,31.33502</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.09329,31.36817 35.09329,31.36265 35.11915,31.34055 35.13855,31.33502 35.14502,31.33502 35.15148,31.33502 35.15795,31.33502 35.16442,31.33502 35.17088,31.33502 35.17735,31.33502 35.18381,31.33502 35.28081,31.34055 35.30667,31.3737 35.30667,31.37922 35.30667,31.38475 35.30667,31.40132 35.30667,31.40685 35.30667,31.41237 35.30021,31.41237 35.29374,31.41237 35.28727,31.41237 35.28081,31.41237 35.27434,31.41237 35.26788,31.41237 35.26141,31.41237 35.25494,31.41237 35.24848,31.41237 35.24201,31.41237 35.23554,31.41237 35.22908,31.41237 35.22261,31.41237 35.21615,31.41237 35.20968,31.41237 35.20321,31.41237 35.19675,31.41237 35.19028,31.41237 35.18381,31.41237 35.17735,31.41237 35.17088,31.41237 35.16442,31.41237 35.15795,31.41237 35.15148,31.41237 35.11915,31.40685 35.09329,31.36817</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.11915,31.40685 35.02216,31.3737 35.12562,31.32398 35.13208,31.32398 35.13855,31.32398 35.14502,31.32398 35.15148,31.32398 35.15795,31.32398 35.16442,31.32398 35.30667,31.34055 35.33901,31.40685 35.33901,31.41237 35.33901,31.4179 35.33254,31.4179 35.32607,31.4179 35.21615,31.4179 35.20968,31.4179 35.14502,31.41237 35.11915,31.40685</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Maon</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.133839,31.409448</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

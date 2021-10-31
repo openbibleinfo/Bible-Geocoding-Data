@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>India</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a878481/india">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>India</name>
+	<description><![CDATA[Esth <a href="https://www.biblegateway.com/passage/?search=Esth.1.1&amp;version=ESV">1:1</a>, <a href="https://www.biblegateway.com/passage/?search=Esth.8.9&amp;version=ESV">8:9</a>]]></description>
+	<Folder>
+		<name>India</name>
+		<Placemark>
+			<name>India (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>68.53543,30.18073 67.18668,28.53455 67.41147,28.53455 67.63627,28.53455 67.86106,28.53455 68.08585,28.74033 69.4346,30.18073 68.98502,30.3865 68.76023,30.3865 68.53543,30.18073</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>India (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>66.96189,28.12301 66.96189,27.91724 67.18668,27.09415 69.88419,29.76919 69.65939,29.97496 69.4346,30.18073 69.20981,30.3865 68.98502,30.3865 68.76023,30.3865 68.53543,30.3865 67.63627,29.35764 67.41147,28.9461 67.18668,28.53455 66.96189,28.12301</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>India (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>66.96189,28.53455 66.7371,27.91724 66.5123,27.29992 66.5123,27.09415 66.7371,26.88837 67.18668,26.6826 67.41147,26.6826 69.65939,27.09415 70.33377,29.56342 70.33377,29.97496 69.4346,30.3865 68.76023,30.59228 68.53543,30.59228 68.31064,30.3865 67.86106,29.76919 67.41147,29.15187 66.96189,28.53455</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>India (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>68.76023,30.79805 68.53543,30.59228 68.31064,30.3865 68.08585,30.18073 66.5123,28.74033 66.28751,28.53455 66.06272,27.29992 66.28751,26.6826 66.5123,26.47683 67.18668,26.27106 70.78335,27.09415 70.55856,30.3865 68.76023,30.79805</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>India (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>66.06272,25.85951 66.5123,25.65374 68.08585,25.44797 71.90732,27.09415 71.90732,27.29992 71.90732,27.50569 71.90732,27.71146 71.00815,31.82691 70.55856,32.03268 70.10898,32.23846 69.4346,32.44423 69.20981,32.44423 68.53543,31.62114 65.83793,28.12301 65.61314,27.09415 65.83793,26.06529 66.06272,25.85951</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>India</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>67.4308,23.9944</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

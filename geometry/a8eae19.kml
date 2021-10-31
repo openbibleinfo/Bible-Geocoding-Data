@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>En-gannim 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a8eae19/en-gannim-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>En-gannim 2</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.21&amp;version=ESV">19:21</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.29&amp;version=ESV">21:29</a>]]></description>
+	<Placemark>
+		<name>En-gannim 2 / Tell Jenin</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.29875,32.46079</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Olam</name>
+		<description>another name for Anem</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.499167,32.666389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Khirbet Anim</name>
+		<description>another name for Anem</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.54671,32.67635</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Tell Jenin</name>
+		<description>another name for Anem</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.29875,32.46079</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Khirbet Beit Jann</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.495439,32.713549</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Tell Jenin</name>
+		<description>another name for Beth-haggan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.29875,32.46079</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Khirbet ed Dir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.537236,32.659741</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Hadita</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.4863,32.6804</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-gannim 2 / Olam</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.499167,32.666389</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

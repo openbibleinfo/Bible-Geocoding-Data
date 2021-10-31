@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Umm Hashim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m24eba2/wadi-umm-hashim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Umm Hashim</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.49545,30.59222 34.49401,30.59409 34.49365,30.59538 34.49382,30.59621 34.49343,30.59824 34.49287,30.59906 34.49137,30.60007 34.49013,30.60046 34.48989,30.60083 34.49006,30.60255 34.48944,30.6031 34.4891,30.60449 34.48906,30.60554 34.48931,30.60615 34.48925,30.60691 34.48871,30.60718 34.48747,30.60711 34.48648,30.60929 34.48455,30.61121 34.48459,30.61187 34.48498,30.61243 34.48455,30.61342 34.48391,30.61413 34.48307,30.61354 34.48238,30.61346 34.48178,30.61398 34.482,30.61448 34.48279,30.61474 34.48292,30.61527 34.48251,30.61588 34.48131,30.61642 34.4812,30.61741 34.48092,30.61806 34.48028,30.61869 34.47659,30.62125 34.47478,30.62349 34.4747,30.62436 34.47547,30.62471 34.47581,30.62548 34.47526,30.62559 34.4744,30.62641 34.4747,30.62753 34.47427,30.62816 34.47339,30.62829 34.47275,30.6281 34.47223,30.62733 34.47043,30.6272 34.46833,30.62666 34.46689,30.62692 34.46582,30.62654 34.46522,30.62563 34.46384,30.62548 34.46225,30.62373 34.46077,30.62408 34.45947,30.62341 34.45921,30.62231 34.45867,30.62201 34.45766,30.6221 34.45607,30.62341 34.45386,30.62341 34.45331,30.62317 34.45283,30.62253 34.45369,30.62103 34.4535,30.62022 34.45301,30.61926 34.45189,30.61893 34.45086,30.6193 34.44974,30.62046 34.44719,30.62184 34.4464,30.62284 34.44638,30.62487 34.44608,30.62543 34.44406,30.62644 34.44341,30.62731 34.44314,30.62919 34.44258,30.6298 34.44123,30.63038 34.43959,30.63049 34.43666,30.63174 34.43569,30.6317 34.43455,30.63141 34.43337,30.63152 34.43138,30.63285 34.4295,30.63351 34.42839,30.63423 34.42618,30.63485 34.4253,30.63596 34.42425,30.63605 34.423,30.63559 34.42208,30.63565 34.42161,30.63618 34.42016,30.63882 34.41901,30.64011 34.41842,30.64048 34.41769,30.64049 34.41655,30.63976 34.41393,30.64032 34.41147,30.63945 34.40911,30.63901 34.40799,30.63924 34.4069,30.63976 34.40471,30.64203 34.40428,30.64229</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Umm Hashim</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.411111,30.640556</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

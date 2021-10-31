@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sardinia</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m9f8a0e/sardinia">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Sardinia</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>8.838837,38.880589 9.021172,38.984015 9.045861,39.056213 9.008628,39.12357 9.061951,39.194397 9.09392,39.192455 9.059738,39.223479 9.15942,39.180714 9.206675,39.226095 9.297166,39.213122 9.437382,39.122101 9.50308,39.131074 9.523862,39.094776 9.579611,39.176305 9.576431,39.254964 9.634227,39.299262 9.596719,39.345906 9.6462,39.462331 9.681754,39.898822 9.715923,39.928753 9.686789,39.984167 9.735515,40.076739 9.654204,40.143444 9.623434,40.250406 9.766712,40.392392 9.828846,40.528596 9.753283,40.598159 9.75356,40.673755 9.671418,40.784908 9.686036,40.835228 9.728668,40.844215 9.615775,40.889722 9.644317,40.919862 9.49444,40.916665 9.575023,40.927967 9.611062,41.003313 9.663313,40.997952 9.594199,41.022657 9.559506,41.001329 9.560321,41.037489 9.509823,41.004148 9.53387,41.081487 9.572248,41.099692 9.526503,41.156725 9.46702,41.14328 9.448867,41.09617 9.445978,41.13571 9.405321,41.157493 9.423372,41.177701 9.363344,41.207503 9.290293,41.192929 9.287792,41.21909 9.286451,41.183992 9.235155,41.259043 9.143901,41.246611 9.16793,41.168051 9.011921,41.125078 8.791144,40.922487 8.699789,40.914746 8.560196,40.831209 8.313747,40.844834 8.200012,40.972382 8.17591,40.934824 8.21899,40.868678 8.130845,40.732756 8.204984,40.685295 8.144442,40.622626 8.160756,40.560916 8.193252,40.618067 8.219415,40.601797 8.203683,40.568141 8.308712,40.602181 8.288103,40.592346 8.398285,40.429856 8.38245,40.338599 8.48372,40.282808 8.456045,40.176568 8.492969,40.0867 8.376574,40.035893 8.414123,40.017096 8.395809,39.90907 8.435297,39.857915 8.491879,39.909594 8.570723,39.863962 8.537068,39.865517 8.553554,39.829466 8.502214,39.712941 8.443607,39.758232 8.470613,39.598869 8.384798,39.470941 8.412757,39.426835 8.373024,39.374709 8.436827,39.289867 8.368121,39.213715 8.438081,39.155567 8.436824,39.111325 8.473384,39.111868 8.46924,39.053897 8.568734,39.041842 8.638239,38.866058 8.719313,38.940842 8.838837,38.880589</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Sardinia</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>9.083333,40.05</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rithmah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2e73ba/rithmah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Rithmah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.33.18&amp;version=ESV">33:18</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.19&amp;version=ESV">33:19</a>]]></description>
+	<Placemark>
+		<name>Rithmah / along Wadi Ratamah</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>33.995009,29.021374 33.995757,29.021618 33.996747,29.021463 33.999016,29.022758 34.000669,29.023058 34.002847,29.023846 34.00378,29.024813 34.004252,29.026173 34.004821,29.03001 34.005207,29.030357 34.006419,29.030432 34.007363,29.030854 34.007106,29.031407 34.006097,29.031633 34.005733,29.031961 34.005894,29.032627 34.007589,29.033133 34.010925,29.033162 34.011676,29.033434 34.012084,29.033837 34.012224,29.034738 34.011226,29.037608 34.011784,29.038096 34.012502,29.038039 34.013243,29.037533 34.014616,29.037402 34.015989,29.038283 34.016633,29.038396 34.017996,29.036867 34.018586,29.036585 34.019015,29.036698 34.019551,29.037383 34.019594,29.039681 34.020345,29.041829 34.021161,29.042504 34.022352,29.04302 34.022974,29.043039 34.023575,29.042561 34.023821,29.040619 34.024272,29.040019 34.02468,29.039981 34.028199,29.041313 34.029958,29.042973 34.03086,29.043452 34.033177,29.042251 34.035065,29.040244 34.035795,29.039981 34.03734,29.040619 34.038563,29.042251 34.038477,29.043208 34.038928,29.043602 34.039722,29.043808 34.040837,29.043658 34.043241,29.042307 34.048777,29.042251 34.050322,29.043395 34.054227,29.044352 34.054656,29.044784 34.054871,29.045628 34.054527,29.046622 34.05457,29.04711 34.054914,29.047466 34.055707,29.04771 34.061029,29.047916 34.061501,29.048291 34.062145,29.050149 34.062703,29.050524 34.063625,29.05058 34.06457,29.05013 34.065149,29.04831 34.066093,29.047035 34.066994,29.047072 34.067359,29.047335 34.067681,29.048535 34.070234,29.049342 34.072981,29.049098 34.076135,29.047991 34.077101,29.048291 34.077401,29.048629 34.07738,29.049867 34.078324,29.050955 34.080405,29.051124 34.081328,29.050843 34.081886,29.050336 34.082315,29.048742 34.08283,29.047898 34.083838,29.047372 34.084954,29.047354 34.086757,29.047954 34.088581,29.047954 34.089224,29.046997 34.089375,29.045121 34.090126,29.04454 34.090898,29.044483 34.091799,29.04484 34.092658,29.046322 34.093645,29.04711 34.09431,29.048066 34.094996,29.048629 34.097056,29.049323 34.098001,29.049079 34.101691,29.046735 34.102743,29.046509 34.105532,29.046622</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / along Wadi Ratamah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.1255,29.03369</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / Ain Rathmah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>33.030278,29.740556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / Bir es Sawra</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.48702,29.15371</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / along Wadi Abu Retemat</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>34.412737,30.602603 34.410548,30.603028 34.409132,30.604099 34.405742,30.604099 34.402394,30.604505 34.400291,30.604635 34.397201,30.603674 34.389219,30.604856 34.385786,30.605853 34.381795,30.606315 34.379156,30.606666 34.37716,30.607737 34.372804,30.607959 34.361603,30.602326 34.361101,30.602263 34.360699,30.602211 34.357446,30.601836</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / along Wadi Abu Retemat</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.36029,30.59941</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / along Wadi er Retame</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>36.277031,27.869057 36.27083,27.866742 36.268963,27.867027 36.264843,27.864276 36.262247,27.865509 36.260573,27.864921 36.25759,27.865604 36.256153,27.867027 36.253299,27.866249 36.251968,27.866477 36.251196,27.867501 36.246389,27.869322 36.245274,27.870498 36.236326,27.867463 36.23242,27.867577 36.226005,27.860369 36.218387,27.860786 36.212958,27.859136 36.21137,27.85942 36.207594,27.858889 36.198281,27.865149 36.181115,27.868526 36.159958,27.878768 36.134809,27.885634 36.127643,27.887265 36.121077,27.889048 36.111785,27.90056 36.107258,27.907329 36.104232,27.917151 36.09964,27.925835 36.097559,27.927314</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Rithmah / along Wadi er Retame</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.228333,27.861944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

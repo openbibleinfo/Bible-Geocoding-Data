@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Maacah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/acae7cb/maacah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Maacah (Maakah)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.12.5&amp;version=NIV">12:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.11&amp;version=NIV">13:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.13&amp;version=ESV">13:13</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.10.6&amp;version=ESV">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.8&amp;version=ESV">10:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.23.34&amp;version=ESV">23:34</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.19.6&amp;version=ESV">19:6</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.7&amp;version=ESV">19:7</a>]]></description>
+	<Folder>
+		<name>Maacah</name>
+		<Placemark>
+			<name>Maacah (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.73213,33.17697 35.69741,33.14781 35.74949,33.10406 35.76685,33.10406 35.8363,33.14781 35.95783,33.22072 35.94047,33.22072 35.90575,33.22072 35.88838,33.22072 35.87102,33.22072 35.85366,33.22072 35.73213,33.17697</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69741,33.16239 35.68005,33.14781 35.69741,33.13322 35.71477,33.11864 35.73213,33.10406 35.74949,33.10406 35.76685,33.10406 35.78422,33.10406 35.87102,33.14781 35.97519,33.20614 35.95783,33.22072 35.94047,33.22072 35.92311,33.22072 35.90575,33.22072 35.88838,33.22072 35.87102,33.22072 35.85366,33.22072 35.8363,33.22072 35.71477,33.17697 35.69741,33.16239</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69741,33.11864 35.73213,33.10406 35.74949,33.10406 35.76685,33.10406 35.78422,33.10406 35.87102,33.13322 35.90575,33.14781 36.00992,33.20614 36.00992,33.22072 35.97519,33.22072 35.95783,33.22072 35.94047,33.22072 35.92311,33.22072 35.90575,33.22072 35.88838,33.22072 35.87102,33.22072 35.85366,33.22072 35.8363,33.22072 35.81894,33.22072 35.80158,33.22072 35.73213,33.19156 35.64532,33.14781 35.66269,33.13322 35.69741,33.11864</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.78422,33.22072 35.69741,33.19156 35.6106,33.14781 35.71477,33.10406 35.74949,33.08948 35.76685,33.08948 35.87102,33.11864 35.99255,33.16239 36.062,33.20614 36.062,33.22072 35.90575,33.24989 35.88838,33.24989 35.78422,33.22072</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69741,33.10406 35.73213,33.08948 35.74949,33.08948 35.76685,33.08948 35.90575,33.10406 36.04464,33.14781 36.062,33.16239 36.09672,33.20614 36.062,33.24989 35.90575,33.26447 35.88838,33.26447 35.76685,33.22072 35.69741,33.19156 35.6106,33.14781 35.69741,33.10406</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.68005,33.10406 35.71477,33.08948 35.73213,33.08948 35.74949,33.08948 35.76685,33.08948 35.78422,33.08948 35.81894,33.08948 35.92311,33.10406 35.97519,33.11864 36.07936,33.14781 36.09672,33.19156 36.09672,33.20614 36.09672,33.22072 36.062,33.24989 35.92311,33.27906 35.90575,33.27906 35.81894,33.24989 35.74949,33.22072 35.59324,33.14781 35.6106,33.13322 35.68005,33.10406</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.57588,33.14781 35.69741,33.07489 35.80158,33.06031 35.97519,33.10406 36.09672,33.14781 36.13145,33.16239 36.13145,33.19156 36.11408,33.22072 36.07936,33.24989 36.062,33.26447 36.04464,33.27906 35.92311,33.29364 35.80158,33.26447 35.6106,33.19156 35.57588,33.14781</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.57588,33.27906 35.57588,33.26447 35.57588,33.24989 35.57588,33.19156 35.57588,33.17697 35.57588,33.16239 35.57588,33.14781 35.57588,33.13322 35.73213,33.03114 36.09672,33.10406 36.13145,33.16239 36.14881,33.19156 36.14881,33.22072 36.13145,33.26447 35.94047,33.3228 35.92311,33.3228 35.57588,33.27906</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.71477,32.97281 35.73213,32.95823 35.74949,32.95823 36.11408,33.08948 36.23562,33.22072 36.21825,33.24989 36.20089,33.27906 36.18353,33.29364 35.99255,33.36655 35.97519,33.36655 35.95783,33.36655 35.57588,33.29364 35.55852,33.27906 35.55852,33.26447 35.55852,33.24989 35.57588,33.13322 35.71477,32.97281</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maacah</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.581007,33.258051</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hazor 5</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3088c2/hazor-5">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hazor 5</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.49.28&amp;version=ESV">49:28</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.30&amp;version=ESV">49:30</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.33&amp;version=ESV">49:33</a>]]></description>
+	<Placemark>
+		<name>Hazor 5 / within 100 km of Dumat al Jandal</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>39.86831,30.71074 39.75898,30.70577 39.65088,30.69091 39.54523,30.66633 39.44321,30.63231 39.34597,30.58922 39.25458,30.53756 39.17007,30.47791 39.09337,30.41092 39.02531,30.33735 38.96663,30.25802 38.91797,30.1738 38.87982,30.08564 38.8526,29.99451 38.83656,29.90141 38.83185,29.80737 38.8385,29.71342 38.85639,29.62058 38.8853,29.52987 38.92489,29.44228 38.9747,29.35875 39.03417,29.28019 39.10264,29.20745 39.17935,29.14131 39.26345,29.08247 39.35404,29.03159 39.45014,28.98919 39.55071,28.95573 39.65467,28.93158 39.76092,28.91698 39.86831,28.9121 39.9757,28.91698 40.08194,28.93158 40.1859,28.95573 40.28647,28.98919 40.38257,29.03159 40.47316,29.08247 40.55727,29.14131 40.63397,29.20745 40.70244,29.28019 40.76191,29.35875 40.81172,29.44228 40.85131,29.52987 40.88022,29.62058 40.89812,29.71342 40.90476,29.80737 40.90005,29.90141 40.88401,29.99451 40.85679,30.08564 40.81865,30.1738 40.76998,30.25802 40.7113,30.33735 40.64324,30.41092 40.56654,30.47791 40.48203,30.53756 40.39064,30.58922 40.2934,30.63231 40.19138,30.66633 40.08573,30.69091 39.97763,30.70577 39.86831,30.71074</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazor 5 / within 100 km of Dumat al Jandal</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>39.868306,29.811417</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

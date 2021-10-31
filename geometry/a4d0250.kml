@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zuph</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a4d0250/zuph">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zuph</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.9.5&amp;version=ESV">9:5</a>]]></description>
+	<Placemark>
+		<name>Zuph / about 10 km around Al Ram</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23161,31.94427 35.22053,31.94378 35.20958,31.9423 35.19886,31.93987 35.18851,31.93649 35.17863,31.93221 35.16933,31.92708 35.16071,31.92115 35.15288,31.91449 35.1459,31.90717 35.13987,31.89927 35.13485,31.89088 35.13088,31.88209 35.12802,31.873 35.1263,31.8637 35.12573,31.8543 35.12632,31.8449 35.12807,31.8356 35.13094,31.82651 35.13492,31.81772 35.13996,31.80934 35.146,31.80145 35.15298,31.79414 35.16082,31.78749 35.16943,31.78157 35.17872,31.77645 35.18858,31.77218 35.19892,31.76881 35.20962,31.76637 35.22055,31.7649 35.23161,31.76441 35.24267,31.7649 35.2536,31.76637 35.2643,31.76881 35.27464,31.77218 35.2845,31.77645 35.29379,31.78157 35.3024,31.78749 35.31024,31.79414 35.31722,31.80145 35.32326,31.80934 35.3283,31.81772 35.33228,31.82651 35.33515,31.8356 35.3369,31.8449 35.33749,31.8543 35.33692,31.8637 35.3352,31.873 35.33234,31.88209 35.32837,31.89088 35.32335,31.89927 35.31732,31.90717 35.31034,31.91449 35.30251,31.92115 35.29389,31.92708 35.28459,31.93221 35.27471,31.93649 35.26436,31.93987 35.25364,31.9423 35.24269,31.94378 35.23161,31.94427</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Al Ram</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.23161,31.85434</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Rantis</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.01944,32.11799 35.00834,32.11749 34.99737,32.11602 34.98663,32.11358 34.97626,32.11021 34.96636,32.10593 34.95704,32.1008 34.94841,32.09487 34.94056,32.08821 34.93358,32.08089 34.92753,32.07299 34.9225,32.0646 34.91853,32.05581 34.91566,32.04671 34.91394,32.03741 34.91337,32.02801 34.91396,32.01861 34.9157,32.00932 34.91859,32.00023 34.92258,31.99144 34.92762,31.98306 34.93367,31.97517 34.94066,31.96786 34.94852,31.9612 34.95714,31.95528 34.96645,31.95016 34.97634,31.94589 34.98669,31.94252 34.99741,31.94009 35.00837,31.93862 35.01944,31.93812 35.03052,31.93862 35.04148,31.94009 35.05219,31.94252 35.06255,31.94589 35.07244,31.95016 35.08175,31.95528 35.09037,31.9612 35.09822,31.96786 35.10521,31.97517 35.11127,31.98306 35.11631,31.99144 35.1203,32.00023 35.12318,32.00932 35.12493,32.01861 35.12552,32.02801 35.12495,32.03741 35.12323,32.04671 35.12036,32.05581 35.11639,32.0646 35.11136,32.07299 35.10531,32.08089 35.09833,32.08821 35.09048,32.09487 35.08184,32.1008 35.07253,32.10593 35.06263,32.11021 35.05225,32.11358 35.04152,32.11602 35.03054,32.11749 35.01944,32.11799</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Rantis</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.019444,32.028056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Beit Rima</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.1025,32.12279 35.0914,32.1223 35.08042,32.12082 35.06969,32.11839 35.05931,32.11501 35.04941,32.11073 35.0401,32.1056 35.03146,32.09967 35.02361,32.09301 35.01663,32.08569 35.01058,32.07779 35.00555,32.0694 35.00158,32.06061 34.99871,32.05152 34.99699,32.04222 34.99642,32.03282 34.99701,32.02342 34.99876,32.01412 35.00164,32.00503 35.00563,31.99624 35.01067,31.98786 35.01673,31.97997 35.02372,31.97266 35.03157,31.96601 35.04019,31.96009 35.0495,31.95497 35.05939,31.9507 35.06975,31.94733 35.08047,31.94489 35.09142,31.94342 35.1025,31.94293 35.11358,31.94342 35.12453,31.94489 35.13525,31.94733 35.14561,31.9507 35.1555,31.95497 35.16481,31.96009 35.17343,31.96601 35.18128,31.97266 35.18827,31.97997 35.19433,31.98786 35.19937,31.99624 35.20336,32.00503 35.20624,32.01412 35.20799,32.02342 35.20858,32.03282 35.20801,32.04222 35.20629,32.05152 35.20342,32.06061 35.19945,32.0694 35.19442,32.07779 35.18837,32.08569 35.18139,32.09301 35.17354,32.09967 35.1649,32.1056 35.15559,32.11073 35.14569,32.11501 35.13531,32.11839 35.12458,32.12082 35.1136,32.1223 35.1025,32.12279</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Beit Rima</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.1025,32.03286</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Ramallah</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.20167,31.98688 35.19058,31.98638 35.17962,31.98491 35.1689,31.98247 35.15854,31.97909 35.14866,31.97482 35.13936,31.96969 35.13074,31.96376 35.1229,31.9571 35.11592,31.94978 35.10989,31.94188 35.10486,31.93349 35.10089,31.92469 35.09803,31.9156 35.09631,31.9063 35.09574,31.8969 35.09633,31.8875 35.09808,31.8782 35.10095,31.86911 35.10494,31.86033 35.10998,31.85195 35.11602,31.84405 35.123,31.83674 35.13084,31.83009 35.13945,31.82417 35.14875,31.81905 35.15862,31.81478 35.16896,31.81141 35.17966,31.80898 35.19061,31.8075 35.20167,31.80701 35.21273,31.8075 35.22367,31.80898 35.23437,31.81141 35.24471,31.81478 35.25459,31.81905 35.26388,31.82417 35.27249,31.83009 35.28033,31.83674 35.28731,31.84405 35.29336,31.85195 35.2984,31.86033 35.30238,31.86911 35.30526,31.8782 35.307,31.8875 35.30759,31.8969 35.30702,31.9063 35.3053,31.9156 35.30244,31.92469 35.29847,31.93349 35.29345,31.94188 35.28741,31.94978 35.28044,31.9571 35.2726,31.96376 35.26398,31.96969 35.25468,31.97482 35.24479,31.97909 35.23443,31.98247 35.22371,31.98491 35.21275,31.98638 35.20167,31.98688</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Ramallah</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.201667,31.896944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Nabi Samwil</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18015,31.92267 35.16907,31.92217 35.15812,31.9207 35.14741,31.91826 35.13706,31.91488 35.12718,31.91061 35.11788,31.90547 35.10927,31.89955 35.10143,31.89289 35.09446,31.88557 35.08843,31.87767 35.08341,31.86928 35.07945,31.86048 35.07659,31.85139 35.07487,31.84209 35.0743,31.83269 35.07489,31.82329 35.07663,31.81399 35.07951,31.8049 35.08349,31.79612 35.08852,31.78773 35.09456,31.77984 35.10154,31.77253 35.10937,31.76588 35.11798,31.75996 35.12727,31.75484 35.13713,31.75057 35.14747,31.7472 35.15816,31.74476 35.1691,31.74329 35.18015,31.7428 35.1912,31.74329 35.20214,31.74476 35.21283,31.7472 35.22317,31.75057 35.23303,31.75484 35.24232,31.75996 35.25093,31.76588 35.25876,31.77253 35.26574,31.77984 35.27178,31.78773 35.27681,31.79612 35.28079,31.8049 35.28367,31.81399 35.28541,31.82329 35.286,31.83269 35.28543,31.84209 35.28371,31.85139 35.28085,31.86048 35.27689,31.86928 35.27187,31.87767 35.26584,31.88557 35.25887,31.89289 35.25103,31.89955 35.24242,31.90547 35.23312,31.91061 35.22324,31.91488 35.21289,31.91826 35.20218,31.9207 35.19123,31.92217 35.18015,31.92267</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Nabi Samwil</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.18015,31.832733</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Ramat Rahel</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2169,31.82983 35.20583,31.82934 35.19489,31.82787 35.18419,31.82543 35.17385,31.82205 35.16398,31.81777 35.15469,31.81264 35.14609,31.80671 35.13826,31.80005 35.1313,31.79273 35.12527,31.78483 35.12025,31.77644 35.11629,31.76765 35.11344,31.75856 35.11172,31.74926 35.11115,31.73986 35.11174,31.73046 35.11348,31.72116 35.11635,31.71207 35.12033,31.70329 35.12536,31.6949 35.13139,31.68701 35.13836,31.6797 35.14619,31.67305 35.15479,31.66713 35.16407,31.66201 35.17392,31.65774 35.18425,31.65437 35.19493,31.65193 35.20585,31.65046 35.2169,31.64997 35.22794,31.65046 35.23886,31.65193 35.24954,31.65437 35.25987,31.65774 35.26973,31.66201 35.279,31.66713 35.2876,31.67305 35.29543,31.6797 35.3024,31.68701 35.30843,31.6949 35.31346,31.70329 35.31744,31.71207 35.32031,31.72116 35.32205,31.73046 35.32264,31.73986 35.32207,31.74926 35.32035,31.75856 35.3175,31.76765 35.31354,31.77644 35.30852,31.78483 35.3025,31.79273 35.29553,31.80005 35.28771,31.80671 35.2791,31.81264 35.26981,31.81777 35.25995,31.82205 35.2496,31.82543 35.2389,31.82787 35.22796,31.82934 35.2169,31.82983</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Ramat Rahel</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.216896,31.739901</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Al Bira</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,31.99507 35.20387,31.99458 35.19291,31.99311 35.18219,31.99067 35.17183,31.98729 35.16194,31.98301 35.15264,31.97788 35.14402,31.97195 35.13618,31.96529 35.1292,31.95797 35.12317,31.95008 35.11814,31.94168 35.11418,31.93289 35.11132,31.9238 35.10959,31.9145 35.10902,31.9051 35.10961,31.8957 35.11136,31.8864 35.11424,31.87731 35.11822,31.86853 35.12326,31.86014 35.1293,31.85225 35.13628,31.84494 35.14412,31.83829 35.15274,31.83237 35.16203,31.82725 35.17191,31.82298 35.18225,31.81961 35.19295,31.81717 35.2039,31.8157 35.21496,31.81521 35.22602,31.8157 35.23696,31.81717 35.24766,31.81961 35.25801,31.82298 35.26788,31.82725 35.27718,31.83237 35.28579,31.83829 35.29363,31.84494 35.30061,31.85225 35.30666,31.86014 35.3117,31.86853 35.31568,31.87731 35.31856,31.8864 35.3203,31.8957 35.32089,31.9051 35.32032,31.9145 35.3186,31.9238 35.31574,31.93289 35.31177,31.94168 35.30675,31.95008 35.30071,31.95797 35.29374,31.96529 35.28589,31.97195 35.27728,31.97788 35.26797,31.98301 35.25808,31.98729 35.24772,31.99067 35.237,31.99311 35.22604,31.99458 35.21496,31.99507</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zuph / about 10 km around Al Bira</name>
+		<description>about 10 km around Ramathaim-zophim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bethuel</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a55cec0/bethuel">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bethuel</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.4.30&amp;version=ESV">4:30</a>]]></description>
+	<Placemark>
+		<name>Bethuel / Khirbet et Tubeiqa</name>
+		<description>another name for Bethel 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.094155,31.589383</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Tell Umm Betin</name>
+		<description>another name for Bethel 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.877114,31.280247</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Khirbet el Qaryatein</name>
+		<description>another name for Bethel 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.124376,31.344952</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Khirbet ar Ras</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.87847,31.327312</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Khirbet el Qaryatein</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.124376,31.344952</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Tel Kelekh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.828611,31.476944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethuel / Tell es Saqati</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9078,31.30992</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Elis</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m44b57b/elis">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Elis</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>21.399403,38.053132 21.401021,38.057801 21.380401,38.062308 21.361525,38.076298 21.363236,38.086905 21.351849,38.104949 21.279817,38.141484 21.30052,38.197654 21.300101,38.233257 21.291888,38.249837 21.219387,38.255153 21.108456,38.232125 21.086618,38.205041 21.039829,38.169047 20.96783,38.097953 20.941372,38.056299 20.925623,37.991849 20.938632,37.918065 20.982479,37.84344 21.04003,37.781736 21.12145,37.731567 21.179652,37.715422 21.175048,37.668289 21.180735,37.623118 21.219494,37.563827 21.245139,37.5469 21.283453,37.534071 21.324908,37.531715 21.36292,37.53933 21.464034,37.482233 21.498594,37.447016 21.551306,37.36999 21.682422,37.37458 21.705898,37.395039 21.787007,37.397828 21.810551,37.390536 21.820012,37.396767 21.849468,37.391297 21.89969,37.402551 21.883413,37.442022 21.886115,37.454859 21.900421,37.447908 21.912685,37.470278 21.926495,37.465857 21.925731,37.473935 21.95089,37.484945 21.965738,37.483264 21.997773,37.503088 21.963247,37.523845 21.947132,37.546409 21.91361,37.55292 21.913653,37.563648 21.900883,37.570312 21.906321,37.574633 21.896006,37.577953 21.877691,37.604436 21.829791,37.60277 21.820145,37.590601 21.796854,37.584744 21.790919,37.61028 21.799519,37.624812 21.792466,37.632615 21.811764,37.684094 21.809736,37.712409 21.795958,37.738973 21.79322,37.789254 21.811157,37.820308 21.853874,37.851293 21.890195,37.865798 21.886483,37.875063 21.858516,37.905485 21.827088,37.917962 21.830831,37.932719 21.810468,37.956745 21.799361,37.95237 21.797,37.939097 21.760306,37.923134 21.744113,37.901811 21.695003,37.867803 21.686787,37.837207 21.676374,37.837096 21.660103,37.851256 21.648699,37.883238 21.637927,37.893381 21.628786,37.890062 21.590436,37.901936 21.59661,37.905915 21.579209,37.908505 21.57592,37.919301 21.559515,37.912673 21.496745,37.920015 21.499387,37.936439 21.461421,37.95485 21.459414,37.966958 21.439937,37.976866 21.460136,37.990829 21.459631,37.999203 21.446994,38.005129 21.450011,38.013646 21.444578,38.01606 21.450898,38.023099 21.428256,38.029022 21.399403,38.053132</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Elis</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>21.5,37.666667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

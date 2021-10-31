@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Ajlun</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m27dba0/wadi-ajlun">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Ajlun</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.75938,32.313101 35.756849,32.313348 35.754635,32.314828 35.7518,32.315538 35.748624,32.314715 35.742772,32.315198 35.740691,32.316597 35.73855,32.317008 35.737965,32.316288 35.734948,32.316001 35.733184,32.314088 35.727994,32.311805 35.724323,32.312542 35.720745,32.310161 35.718932,32.310629 35.71757,32.310295 35.7151,32.30831 35.712549,32.307292 35.711189,32.307579 35.709632,32.305125 35.705782,32.304511 35.70496,32.303365 35.702414,32.3048 35.699357,32.304427 35.698353,32.30571 35.696096,32.305178 35.693598,32.305807 35.692917,32.30654 35.688899,32.304344 35.687364,32.304875 35.684318,32.3047 35.680988,32.301268 35.678209,32.3001 35.677194,32.298679 35.674634,32.29833 35.674441,32.297159 35.673172,32.29673 35.672582,32.295697 35.673021,32.295028 35.672565,32.293577 35.671632,32.292919 35.671619,32.291693 35.669373,32.289497 35.668315,32.287035 35.665583,32.286511 35.665402,32.28558 35.663535,32.284198 35.660335,32.283947 35.655272,32.280857 35.655123,32.278293 35.651719,32.272609 35.650162,32.271614 35.649688,32.270554 35.648456,32.27078 35.647087,32.270225 35.645246,32.267923 35.644005,32.268489 35.643315,32.267735 35.640577,32.267777 35.639605,32.267311 35.636438,32.268839 35.6352,32.267933 35.632649,32.267595 35.631491,32.268659 35.630354,32.268561 35.63067,32.269996 35.629466,32.270428 35.62904,32.271308 35.627634,32.27103 35.626837,32.273041 35.621618,32.274363 35.615242,32.274065 35.611725,32.272663 35.610521,32.272743 35.609617,32.27087 35.607327,32.2699 35.605356,32.270002 35.603433,32.269303 35.601648,32.269823 35.601007,32.271176 35.59905,32.270918 35.596654,32.269761 35.594658,32.270343 35.592162,32.269238 35.589973,32.269096 35.587787,32.26779 35.586622,32.268237 35.585409,32.267917 35.584281,32.268547 35.583189,32.267866 35.582423,32.268761 35.581034,32.268612 35.579046,32.26927 35.578164,32.270147 35.576671,32.269463 35.573428,32.270685 35.572348,32.270096 35.570752,32.270551 35.569328,32.270158 35.566532,32.271238 35.565306,32.270762 35.561038,32.272435 35.557593,32.272569</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Ajlun</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.561667,32.273611</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

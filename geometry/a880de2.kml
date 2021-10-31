@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Pau</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a880de2/pau">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Pau</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.36.39&amp;version=ESV">36:39</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.1.50&amp;version=ESV">1:50</a>]]></description>
+	<Placemark>
+		<name>Pau / along Wadi Fai</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.084789,31.043174 35.085049,31.04321 35.086019,31.042925 35.08683,31.043238 35.0875,31.04367 35.088203,31.043748 35.088884,31.043578 35.089034,31.04339 35.089109,31.042599 35.090408,31.042323 35.090713,31.042535 35.09103,31.043155 35.09169,31.042916 35.092591,31.043013 35.093465,31.043555 35.094286,31.043256 35.094994,31.042705 35.095284,31.042608 35.095879,31.042705 35.097151,31.042608 35.099398,31.043215 35.100369,31.0431 35.101442,31.042686 35.102719,31.043482 35.103765,31.043918 35.104747,31.043849 35.105423,31.044006 35.106601,31.044003 35.108161,31.044195 35.109506,31.043739 35.110197,31.043315 35.11086,31.043059 35.111691,31.043027 35.112952,31.043947 35.113868,31.044419 35.114811,31.046372 35.11496,31.04714 35.11524,31.047852 35.116539,31.048668 35.117062,31.048861 35.118089,31.048885 35.119359,31.04798 35.120695,31.04854 35.122386,31.048861 35.123086,31.049245 35.125066,31.050797 35.126813,31.051733 35.128765,31.051797 35.129643,31.051445 35.130754,31.051269 35.132081,31.051829 35.132716,31.052861 35.133183,31.05439 35.134098,31.05551 35.1352,31.055702 35.136909,31.055646 35.138049,31.056278 35.138264,31.056934 35.139263,31.058774 35.139543,31.059606 35.140339,31.061251 35.141879,31.063753 35.143284,31.064924 35.145158,31.066054 35.146254,31.066529 35.149644,31.067257 35.151147,31.068007 35.152638,31.068936 35.153378,31.070635 35.153094,31.072451 35.153082,31.075618 35.152429,31.077518 35.150864,31.079112 35.150975,31.080178 35.152367,31.081486 35.153242,31.084378 35.15477,31.086363 35.155115,31.086954 35.158172,31.088526 35.162387,31.0924 35.164124,31.092811 35.166676,31.096716 35.167477,31.098457 35.16739,31.100072 35.16794,31.101699 35.169658,31.104706 35.171751,31.109344 35.174272,31.11112 35.180437,31.116573 35.185387,31.117021 35.188338,31.118028 35.189272,31.123098 35.188918,31.125352 35.192616,31.13218 35.196987,31.134291 35.200284,31.138544 35.203027,31.138059 35.205237,31.137977 35.207476,31.138622 35.216129,31.145071 35.219272,31.146174 35.220447,31.147507 35.220874,31.148948</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pau / along Wadi Fai</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.19,31.121389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pau / Khirbet Ayun Musa</name>
+		<description>another name for Beth-peor</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.738498,31.777021</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pau / Khirbet el Muhatta</name>
+		<description>another name for Beth-peor</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.722377,31.798459</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pau / Tall Iktanu</name>
+		<description>another name for Beth-peor</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.671878,31.819256</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zophim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae7f7b5/zophim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zophim (Lookout Field)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.23.14&amp;version=ESV">23:14</a>]]></description>
+	<Placemark>
+		<name>Zophim / on Rujm Siyaghah</name>
+		<description>on Pisgah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.725556,31.767778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zophim / on Jabal al Naba</name>
+		<description>on Pisgah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.75,31.766667</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Zophim / in Abarim</name>
+		<description>on Pisgah</description>
+		<Placemark>
+			<name>Zophim (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.70392,31.73113 35.69115,31.73113 35.67839,31.65428 35.67839,31.64331 35.69115,31.66526 35.70392,31.68722 35.72944,31.73113 35.71668,31.73113 35.70392,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zophim (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69115,31.73113 35.66563,31.6982 35.65287,31.67624 35.64011,31.65428 35.64011,31.64331 35.64011,31.63233 35.65287,31.63233 35.66563,31.63233 35.67839,31.64331 35.71668,31.6982 35.72944,31.72016 35.72944,31.73113 35.72944,31.74211 35.71668,31.74211 35.70392,31.74211 35.69115,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zophim (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.62734,31.73113 35.61458,31.72016 35.60182,31.6982 35.58906,31.67624 35.58906,31.66526 35.58906,31.65428 35.61458,31.61037 35.62734,31.61037 35.64011,31.61037 35.65287,31.61037 35.67839,31.61037 35.69115,31.61037 35.70392,31.61037 35.71668,31.61037 35.78049,31.78603 35.76772,31.79701 35.75496,31.79701 35.62734,31.73113</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zophim (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.65287,31.79701 35.64011,31.78603 35.62734,31.77505 35.61458,31.76407 35.60182,31.75309 35.58906,31.72016 35.5763,31.63233 35.5763,31.62135 35.62734,31.51156 35.65287,31.50058 35.66563,31.51156 35.76772,31.61037 35.85706,31.75309 35.86982,31.78603 35.86982,31.79701 35.8443,31.80798 35.75496,31.81896 35.7422,31.81896 35.72944,31.81896 35.71668,31.81896 35.70392,31.81896 35.69115,31.81896 35.67839,31.81896 35.66563,31.80798 35.65287,31.79701</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zophim (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.56354,31.56646 35.56354,31.55548 35.56354,31.5445 35.5763,31.48961 35.58906,31.47863 35.60182,31.46765 35.61458,31.45667 35.67839,31.42373 35.69115,31.42373 35.85706,31.74211 35.86982,31.77505 35.86982,31.78603 35.86982,31.79701 35.85706,31.80798 35.75496,31.81896 35.7422,31.81896 35.72944,31.81896 35.71668,31.81896 35.70392,31.81896 35.69115,31.81896 35.67839,31.81896 35.61458,31.77505 35.60182,31.76407 35.58906,31.72016 35.5763,31.65428 35.56354,31.57743 35.56354,31.56646</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zophim / in Abarim</name>
+			<description>on Pisgah</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.7152,31.7539</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Zophim / on Jebel Osha</name>
+		<description>on Pisgah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.708552,32.071536</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zophim / Tila as Safa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.73394,31.77107</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

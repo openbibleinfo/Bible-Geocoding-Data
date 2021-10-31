@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shepham</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a9ba60c/shepham">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shepham</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.34.10&amp;version=ESV">34:10</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.11&amp;version=ESV">34:11</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.27.27&amp;version=NLT">27:27</a>]]></description>
+	<Placemark>
+		<name>Shepham / within 100 km of Rableh</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.57262,35.35887 36.45737,35.35389 36.34342,35.339 36.23206,35.31438 36.12455,35.2803 36.0221,35.23715 35.92586,35.18541 35.83688,35.12567 35.75617,35.0586 35.68459,34.98495 35.62293,34.90554 35.57184,34.82126 35.53186,34.73305 35.50339,34.64187 35.4867,34.54875 35.48195,34.4547 35.48915,34.36076 35.50816,34.26795 35.53876,34.17729 35.58057,34.08975 35.63311,34.00629 35.69577,33.9278 35.76785,33.85514 35.84857,33.78908 35.93703,33.73033 36.03228,33.67952 36.13329,33.63719 36.23897,33.60379 36.3482,33.57967 36.45981,33.5651 36.57262,33.56023 36.68543,33.5651 36.79705,33.57967 36.90628,33.60379 37.01196,33.63719 37.11297,33.67952 37.20821,33.73033 37.29668,33.78908 37.37739,33.85514 37.44948,33.9278 37.51214,34.00629 37.56467,34.08975 37.60648,34.17729 37.63708,34.26795 37.6561,34.36076 37.66329,34.4547 37.65854,34.54875 37.64186,34.64187 37.61339,34.73305 37.5734,34.82126 37.52231,34.90554 37.46065,34.98495 37.38908,35.0586 37.30836,35.12567 37.21939,35.18541 37.12314,35.23715 37.02069,35.2803 36.91318,35.31438 36.80183,35.339 36.68788,35.35389 36.57262,35.35887</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Rableh</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.572623,34.459547</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Hermel</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.38715,35.29606 36.27199,35.29108 36.15812,35.2762 36.04685,35.25157 35.93943,35.2175 35.83706,35.17435 35.74088,35.12261 35.65198,35.06287 35.57132,34.9958 35.4998,34.92215 35.43818,34.84274 35.38713,34.75846 35.34718,34.67025 35.31872,34.57908 35.30205,34.48596 35.2973,34.39191 35.30448,34.29797 35.32349,34.20516 35.35406,34.11449 35.39583,34.02695 35.44833,33.94349 35.51094,33.865 35.58297,33.79234 35.66363,33.72628 35.75202,33.66753 35.8472,33.61672 35.94813,33.57438 36.05374,33.54098 36.16289,33.51687 36.27442,33.50229 36.38715,33.49742 36.49988,33.50229 36.61141,33.51687 36.72056,33.54098 36.82617,33.57438 36.9271,33.61672 37.02228,33.66753 37.11067,33.72628 37.19133,33.79234 37.26336,33.865 37.32597,33.94349 37.37847,34.02695 37.42024,34.11449 37.45081,34.20516 37.46982,34.29797 37.477,34.39191 37.47225,34.48596 37.45558,34.57908 37.42712,34.67025 37.38717,34.75846 37.33612,34.84274 37.2745,34.92215 37.20298,34.9958 37.12232,35.06287 37.03342,35.12261 36.93724,35.17435 36.83487,35.2175 36.72745,35.25157 36.61618,35.2762 36.50231,35.29108 36.38715,35.29606</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Hermel</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.38715,34.39674</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Arbin</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.36611,34.43626 36.25214,34.43129 36.13946,34.41641 36.02935,34.39179 35.92303,34.35773 35.82171,34.31459 35.72652,34.26287 35.63852,34.20315 35.55868,34.13609 35.48786,34.06246 35.42685,33.98306 35.37629,33.8988 35.3367,33.81059 35.3085,33.71943 35.29196,33.62631 35.28722,33.53227 35.29429,33.43832 35.31307,33.34551 35.3433,33.25483 35.38463,33.16728 35.43657,33.08381 35.49854,33.00531 35.56984,32.93263 35.64968,32.86655 35.7372,32.80779 35.83143,32.75696 35.93138,32.71461 36.03595,32.6812 36.14403,32.65708 36.25448,32.6425 36.36611,32.63762 36.47774,32.6425 36.58819,32.65708 36.69628,32.6812 36.80085,32.71461 36.90079,32.75696 36.99502,32.80779 37.08254,32.86655 37.16238,32.93263 37.23368,33.00531 37.29565,33.08381 37.34759,33.16728 37.38892,33.25483 37.41915,33.34551 37.43793,33.43832 37.445,33.53227 37.44026,33.62631 37.42372,33.71943 37.39552,33.81059 37.35593,33.8988 37.30537,33.98306 37.24436,34.06246 37.17355,34.13609 37.0937,34.20315 37.0057,34.26287 36.91051,34.31459 36.80919,34.35773 36.70287,34.39179 36.59276,34.41641 36.48008,34.43129 36.36611,34.43626</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Arbin</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.366111,33.536944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Tall Irbid</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.84759,33.45798 35.73492,33.453 35.62353,33.43813 35.51467,33.41353 35.40956,33.37947 35.30938,33.33635 35.21526,33.28465 35.12824,33.22494 35.04928,33.1579 34.97924,33.08429 34.91888,33.00491 34.86885,32.92066 34.82967,32.83247 34.80175,32.74131 34.78534,32.6482 34.78061,32.55415 34.78757,32.46021 34.80609,32.36739 34.83596,32.2767 34.8768,32.18914 34.92814,32.10565 34.98941,32.02714 35.05991,31.95444 35.13888,31.88835 35.22543,31.82956 35.31865,31.77872 35.41751,31.73636 35.52095,31.70293 35.62788,31.6788 35.73715,31.66422 35.84759,31.65934 35.95803,31.66422 36.0673,31.6788 36.17422,31.70293 36.27767,31.73636 36.37653,31.77872 36.46974,31.82956 36.5563,31.88835 36.63527,31.95444 36.70577,32.02714 36.76704,32.10565 36.81838,32.18914 36.85922,32.2767 36.88908,32.36739 36.90761,32.46021 36.91456,32.55415 36.90983,32.6482 36.89343,32.74131 36.86551,32.83247 36.82633,32.92066 36.7763,33.00491 36.71594,33.08429 36.6459,33.1579 36.56694,33.22494 36.47992,33.28465 36.38579,33.33635 36.28562,33.37947 36.18051,33.41353 36.07165,33.43813 35.96025,33.453 35.84759,33.45798</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shepham / within 100 km of Tall Irbid</name>
+		<description>within 100 km of Riblah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.847589,32.558661</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

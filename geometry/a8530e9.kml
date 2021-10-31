@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tabor 3</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a8530e9/tabor-3">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Tabor 3</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.10.3&amp;version=ESV">10:3</a>]]></description>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24139,31.94076 35.23917,31.94067 35.23698,31.94037 35.23484,31.93988 35.23277,31.93921 35.23079,31.93835 35.22893,31.93733 35.22721,31.93614 35.22564,31.93481 35.22424,31.93335 35.22303,31.93177 35.22203,31.93009 35.22123,31.92833 35.22066,31.92652 35.22031,31.92466 35.2202,31.92278 35.22031,31.9209 35.22066,31.91904 35.22124,31.91722 35.22203,31.91546 35.22304,31.91378 35.22425,31.9122 35.22564,31.91074 35.22721,31.90941 35.22894,31.90823 35.2308,31.9072 35.23277,31.90635 35.23484,31.90567 35.23698,31.90518 35.23917,31.90489 35.24139,31.90479 35.2436,31.90489 35.24579,31.90518 35.24794,31.90567 35.25001,31.90635 35.25198,31.9072 35.25384,31.90823 35.25557,31.90941 35.25714,31.91074 35.25853,31.9122 35.25974,31.91378 35.26075,31.91546 35.26154,31.91722 35.26212,31.91904 35.26246,31.9209 35.26258,31.92278 35.26246,31.92466 35.26212,31.92652 35.26154,31.92833 35.26075,31.93009 35.25974,31.93177 35.25854,31.93335 35.25714,31.93481 35.25557,31.93614 35.25385,31.93733 35.25199,31.93835 35.25001,31.93921 35.24794,31.93988 35.2458,31.94037 35.2436,31.94067 35.24139,31.94076</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241389,31.922778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Al Bira</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,31.92313 35.21274,31.92303 35.21055,31.92274 35.20841,31.92225 35.20634,31.92157 35.20436,31.92072 35.2025,31.91969 35.20078,31.91851 35.19921,31.91718 35.19782,31.91571 35.19661,31.91413 35.1956,31.91246 35.19481,31.9107 35.19423,31.90888 35.19389,31.90702 35.19377,31.90514 35.19389,31.90326 35.19423,31.9014 35.19481,31.89958 35.1956,31.89782 35.19661,31.89615 35.19782,31.89457 35.19921,31.89311 35.20078,31.89177 35.20251,31.89059 35.20437,31.88956 35.20634,31.88871 35.20841,31.88804 35.21055,31.88755 35.21274,31.88725 35.21496,31.88716 35.21717,31.88725 35.21936,31.88755 35.2215,31.88804 35.22357,31.88871 35.22555,31.88956 35.22741,31.89059 35.22913,31.89177 35.2307,31.89311 35.2321,31.89457 35.2333,31.89615 35.23431,31.89782 35.23511,31.89958 35.23568,31.9014 35.23603,31.90326 35.23615,31.90514 35.23603,31.90702 35.23568,31.90888 35.23511,31.9107 35.23432,31.91246 35.23331,31.91413 35.2321,31.91571 35.23071,31.91718 35.22914,31.91851 35.22741,31.91969 35.22555,31.92072 35.22358,31.92157 35.22151,31.92225 35.21936,31.92274 35.21717,31.92303 35.21496,31.92313</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Al Bira</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Burj Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24548,31.93985 35.24326,31.93975 35.24107,31.93946 35.23893,31.93897 35.23686,31.9383 35.23488,31.93744 35.23302,31.93642 35.2313,31.93523 35.22973,31.9339 35.22833,31.93244 35.22712,31.93086 35.22612,31.92918 35.22532,31.92742 35.22475,31.9256 35.2244,31.92374 35.22429,31.92186 35.2244,31.91998 35.22475,31.91812 35.22533,31.91631 35.22612,31.91455 35.22713,31.91287 35.22834,31.91129 35.22973,31.90983 35.2313,31.9085 35.23302,31.90731 35.23488,31.90629 35.23686,31.90543 35.23893,31.90476 35.24107,31.90427 35.24326,31.90398 35.24548,31.90388 35.24769,31.90398 35.24988,31.90427 35.25203,31.90476 35.2541,31.90543 35.25607,31.90629 35.25793,31.90731 35.25966,31.9085 35.26122,31.90983 35.26262,31.91129 35.26383,31.91287 35.26484,31.91455 35.26563,31.91631 35.26621,31.91812 35.26655,31.91998 35.26667,31.92186 35.26655,31.92374 35.26621,31.9256 35.26563,31.92742 35.26484,31.92918 35.26383,31.93086 35.26262,31.93244 35.26123,31.9339 35.25966,31.93523 35.25794,31.93642 35.25608,31.93744 35.2541,31.9383 35.25203,31.93897 35.24988,31.93946 35.24769,31.93975 35.24548,31.93985</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 2 km of Burj Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245478,31.921866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24139,31.93177 35.24028,31.93172 35.23919,31.93157 35.23811,31.93133 35.23708,31.93099 35.23609,31.93057 35.23516,31.93005 35.2343,31.92946 35.23351,31.9288 35.23282,31.92806 35.23221,31.92727 35.23171,31.92644 35.23131,31.92556 35.23102,31.92465 35.23085,31.92372 35.23079,31.92278 35.23085,31.92184 35.23103,31.92091 35.23131,31.92 35.23171,31.91912 35.23221,31.91828 35.23282,31.91749 35.23352,31.91676 35.2343,31.91609 35.23516,31.9155 35.23609,31.91499 35.23708,31.91456 35.23812,31.91422 35.23919,31.91398 35.24028,31.91383 35.24139,31.91378 35.2425,31.91383 35.24359,31.91398 35.24466,31.91422 35.2457,31.91456 35.24669,31.91499 35.24762,31.9155 35.24848,31.91609 35.24926,31.91676 35.24996,31.91749 35.25056,31.91828 35.25107,31.91912 35.25147,31.92 35.25175,31.92091 35.25193,31.92184 35.25198,31.92278 35.25193,31.92372 35.25175,31.92465 35.25147,31.92556 35.25107,31.92644 35.25057,31.92727 35.24996,31.92806 35.24926,31.9288 35.24848,31.92946 35.24762,31.93005 35.24669,31.93057 35.2457,31.93099 35.24466,31.93133 35.24359,31.93157 35.2425,31.93172 35.24139,31.93177</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241389,31.922778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Al Bira</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,31.91414 35.21385,31.91409 35.21276,31.91394 35.21168,31.9137 35.21065,31.91336 35.20966,31.91293 35.20873,31.91242 35.20787,31.91183 35.20708,31.91116 35.20639,31.91043 35.20578,31.90964 35.20528,31.9088 35.20488,31.90792 35.2046,31.90701 35.20442,31.90608 35.20436,31.90514 35.20442,31.9042 35.2046,31.90327 35.20488,31.90236 35.20528,31.90148 35.20578,31.90065 35.20639,31.89986 35.20709,31.89912 35.20787,31.89846 35.20873,31.89787 35.20966,31.89735 35.21065,31.89693 35.21168,31.89659 35.21276,31.89635 35.21385,31.8962 35.21496,31.89615 35.21607,31.8962 35.21716,31.89635 35.21823,31.89659 35.21927,31.89693 35.22025,31.89735 35.22118,31.89787 35.22205,31.89846 35.22283,31.89912 35.22353,31.89986 35.22413,31.90065 35.22464,31.90148 35.22503,31.90236 35.22532,31.90327 35.22549,31.9042 35.22555,31.90514 35.22549,31.90608 35.22532,31.90701 35.22503,31.90792 35.22464,31.9088 35.22413,31.90964 35.22353,31.91043 35.22283,31.91116 35.22205,31.91183 35.22119,31.91242 35.22026,31.91293 35.21927,31.91336 35.21823,31.9137 35.21716,31.91394 35.21607,31.91409 35.21496,31.91414</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Al Bira</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Burj Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24548,31.93086 35.24437,31.93081 35.24327,31.93066 35.2422,31.93042 35.24117,31.93008 35.24018,31.92965 35.23925,31.92914 35.23839,31.92855 35.2376,31.92788 35.23691,31.92715 35.2363,31.92636 35.2358,31.92552 35.2354,31.92464 35.23511,31.92374 35.23494,31.92281 35.23488,31.92187 35.23494,31.92093 35.23511,31.92 35.2354,31.91909 35.2358,31.91821 35.2363,31.91737 35.23691,31.91658 35.2376,31.91585 35.23839,31.91518 35.23925,31.91459 35.24018,31.91408 35.24117,31.91365 35.2422,31.91331 35.24328,31.91307 35.24437,31.91292 35.24548,31.91287 35.24659,31.91292 35.24768,31.91307 35.24875,31.91331 35.24979,31.91365 35.25078,31.91408 35.25171,31.91459 35.25257,31.91518 35.25335,31.91585 35.25405,31.91658 35.25465,31.91737 35.25516,31.91821 35.25555,31.91909 35.25584,31.92 35.25602,31.92093 35.25607,31.92187 35.25602,31.92281 35.25584,31.92374 35.25556,31.92464 35.25516,31.92552 35.25465,31.92636 35.25405,31.92715 35.25335,31.92788 35.25257,31.92855 35.25171,31.92914 35.25078,31.92965 35.24979,31.93008 35.24875,31.93042 35.24768,31.93066 35.24659,31.93081 35.24548,31.93086</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tabor 3 / within 1 km of Burj Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245478,31.921866</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

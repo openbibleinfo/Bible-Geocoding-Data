@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Halah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/abf176f/halah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Halah</name>
+	<description><![CDATA[2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.6&amp;version=ESV">17:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.11&amp;version=ESV">18:11</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.26&amp;version=ESV">5:26</a>, Obad <a href="https://www.biblegateway.com/passage/?search=Obad.1.20&amp;version=NRSV">20</a>]]></description>
+	<Placemark>
+		<name>Halah / about 60 km around Al Abbasiyah</name>
+		<description>about 60 km around Halahha</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>43.19459,36.97132 43.124,36.96835 43.05419,36.95945 42.98596,36.94473 42.92006,36.92436 42.85722,36.89856 42.79815,36.86762 42.74349,36.83188 42.69386,36.79174 42.64979,36.74766 42.61176,36.70011 42.58018,36.64963 42.55539,36.59677 42.53764,36.54212 42.52713,36.48628 42.52394,36.42985 42.5281,36.37347 42.53954,36.31775 42.55813,36.2633 42.58364,36.2107 42.61579,36.16054 42.65422,36.11335 42.6985,36.06964 42.74813,36.0299 42.80258,35.99455 42.86126,35.96397 42.92352,35.93848 42.9887,35.91837 43.05609,35.90385 43.12497,35.89507 43.19459,35.89214 43.26421,35.89507 43.33309,35.90385 43.40048,35.91837 43.46566,35.93848 43.52792,35.96397 43.5866,35.99455 43.64105,36.0299 43.69068,36.06964 43.73496,36.11335 43.77339,36.16054 43.80554,36.2107 43.83105,36.2633 43.84964,36.31775 43.86108,36.37347 43.86524,36.42985 43.86205,36.48628 43.85154,36.54212 43.83379,36.59677 43.809,36.64963 43.77742,36.70011 43.73939,36.74766 43.69532,36.79174 43.64569,36.83188 43.59103,36.86762 43.53196,36.89856 43.46912,36.92436 43.40322,36.94473 43.33499,36.95945 43.26518,36.96835 43.19459,36.97132</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Halah / about 60 km around Al Abbasiyah</name>
+		<description>about 60 km around Halahha</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>43.19459,36.43173</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Halah / along the Khabur River</name>
+		<description>along the Habor</description>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>39.715023,37.561921 39.710524,37.517291 39.664917,37.50079 39.649575,37.472816 39.586897,37.437692 39.557766,37.31318 39.572037,37.279709 39.589082,37.283987 39.604438,37.265785 39.616421,37.236236 39.599817,37.225062 39.652323,37.172797 39.651987,37.153147 39.685891,37.148539 39.715228,37.119774 39.698672,37.079074 39.732136,37.074855 39.729493,37.022026 39.76063,36.988638 39.792293,36.997864 39.792958,36.962134 39.862826,36.952286 39.929004,36.891243 39.962173,36.893968 40.007694,36.859096 39.994225,36.839144 40.007774,36.828108 40.073944,36.821318 40.055294,36.7909 40.091673,36.730311 40.173641,36.720124 40.256565,36.653401 40.327428,36.678964 40.34499,36.659887 40.367268,36.664235 40.354744,36.641929 40.412497,36.587249 40.487608,36.567341 40.578333,36.564206 40.594125,36.577441 40.622106,36.542349 40.695679,36.523695 40.725361,36.49227 40.796745,36.504711 40.864377,36.429362 40.857447,36.408014 40.811312,36.40891 40.808606,36.37918 40.829527,36.366309 40.785024,36.346073 40.763544,36.302715 40.794744,36.289952 40.803627,36.262135 40.769491,36.236658 40.784426,36.228488 40.773935,36.217778 40.742368,36.224369 40.723529,36.207957 40.738676,36.1834 40.721681,36.185202 40.726428,36.167593 40.700052,36.157691 40.696178,36.125084 40.7143,36.109999 40.704133,36.084161 40.741688,36.064441 40.760628,36.017568 40.779871,36.00845 40.771205,35.9988 40.811471,35.994252 40.855989,35.963964 40.887474,35.810061 40.85091,35.766615 40.756887,35.740771 40.733494,35.708093 40.723022,35.676167 40.74448,35.664871 40.736223,35.602932 40.673223,35.540938 40.686441,35.531858 40.666357,35.526968 40.674768,35.493712 40.645414,35.466453 40.651422,35.451213 40.609365,35.436528 40.609365,35.400576 40.558836,35.355947 40.571943,35.329182 40.542074,35.295984 40.569025,35.262632 40.549584,35.244111 40.514608,35.242726 40.495554,35.209071 40.462852,35.195816 40.425993,35.125721</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Halah / along the Khabur River</name>
+		<description>along the Habor</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>40.427284,35.130298</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Halah / within 10 km of Tell Halaf</name>
+		<description>within 10 km of Gozan</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>40.03967,36.91672 40.02791,36.91622 40.01628,36.91475 40.00491,36.91231 39.99392,36.90893 39.98344,36.90466 39.97357,36.89952 39.96443,36.89359 39.95611,36.88693 39.94871,36.87961 39.94231,36.87171 39.93698,36.86332 39.93278,36.85453 39.92975,36.84543 39.92792,36.83613 39.92732,36.82673 39.92795,36.81733 39.9298,36.80804 39.93286,36.79895 39.93708,36.79016 39.94243,36.78178 39.94884,36.77389 39.95624,36.76658 39.96456,36.75993 39.97369,36.75401 39.98355,36.74889 39.99402,36.74462 40.00499,36.74125 40.01634,36.73882 40.02794,36.73735 40.03967,36.73685 40.0514,36.73735 40.063,36.73882 40.07435,36.74125 40.08532,36.74462 40.09579,36.74889 40.10565,36.75401 40.11478,36.75993 40.1231,36.76658 40.1305,36.77389 40.13691,36.78178 40.14226,36.79016 40.14648,36.79895 40.14954,36.80804 40.15139,36.81733 40.15202,36.82673 40.15142,36.83613 40.14959,36.84543 40.14656,36.85453 40.14236,36.86332 40.13703,36.87171 40.13063,36.87961 40.12323,36.88693 40.11491,36.89359 40.10577,36.89952 40.0959,36.90466 40.08542,36.90893 40.07443,36.91231 40.06306,36.91475 40.05143,36.91622 40.03967,36.91672</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Halah / within 10 km of Tell Halaf</name>
+		<description>within 10 km of Gozan</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>40.03967,36.826785</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Halah / Nimrud</name>
+		<description>another name for Calah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>43.328889,36.098056</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

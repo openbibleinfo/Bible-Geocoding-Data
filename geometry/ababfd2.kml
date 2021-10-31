@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Pi-hahiroth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ababfd2/pi-hahiroth">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Pi-hahiroth</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.14.2&amp;version=ESV">14:2</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.14.9&amp;version=ESV">14:9</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.33.7&amp;version=ESV">33:7</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.8&amp;version=ESV">33:8</a>]]></description>
+	<Placemark>
+		<name>Pi-hahiroth / plain near Jabal Jinayfah</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.401623,30.183638 32.436825,30.184135 32.514122,30.217341 32.517538,30.24258 32.481078,30.256326 32.466304,30.226496 32.439357,30.231744 32.426513,30.237436 32.420429,30.260246 32.390686,30.275893 32.359868,30.258995 32.401623,30.183638</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / plain near Jabal Jinayfah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.46951,30.22518</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Tell Defenneh</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.17139,30.86955 32.17029,30.8695 32.16921,30.86935 32.16815,30.86911 32.16713,30.86877 32.16615,30.86834 32.16523,30.86783 32.16438,30.86724 32.1636,30.86657 32.16291,30.86584 32.16232,30.86505 32.16182,30.86421 32.16142,30.86333 32.16114,30.86243 32.16097,30.8615 32.16091,30.86056 32.16097,30.85962 32.16114,30.85869 32.16143,30.85778 32.16182,30.8569 32.16232,30.85606 32.16291,30.85527 32.1636,30.85454 32.16438,30.85387 32.16523,30.85328 32.16615,30.85277 32.16713,30.85234 32.16815,30.852 32.16921,30.85176 32.17029,30.85161 32.17139,30.85156 32.17248,30.85161 32.17357,30.85176 32.17463,30.852 32.17565,30.85234 32.17663,30.85277 32.17755,30.85328 32.1784,30.85387 32.17917,30.85454 32.17986,30.85527 32.18046,30.85606 32.18096,30.8569 32.18135,30.85778 32.18164,30.85869 32.18181,30.85962 32.18187,30.86056 32.18181,30.8615 32.18164,30.86243 32.18135,30.86333 32.18096,30.86421 32.18046,30.86505 32.17987,30.86584 32.17918,30.86657 32.1784,30.86724 32.17755,30.86783 32.17663,30.86834 32.17565,30.86877 32.17463,30.86911 32.17357,30.86935 32.17248,30.8695 32.17139,30.86955</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Tell Defenneh</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.171389,30.860556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Zahr al Qais</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.067,31.22272 33.0659,31.22267 33.06481,31.22253 33.06375,31.22228 33.06272,31.22195 33.06174,31.22152 33.06082,31.22101 33.05996,31.22041 33.05919,31.21975 33.05849,31.21902 33.05789,31.21823 33.05739,31.21739 33.057,31.21651 33.05671,31.2156 33.05654,31.21467 33.05648,31.21373 33.05654,31.21279 33.05671,31.21186 33.057,31.21095 33.05739,31.21007 33.05789,31.20923 33.05849,31.20844 33.05919,31.20771 33.05996,31.20705 33.06082,31.20645 33.06174,31.20594 33.06272,31.20551 33.06375,31.20518 33.06481,31.20493 33.0659,31.20479 33.067,31.20474 33.0681,31.20479 33.06919,31.20493 33.07025,31.20518 33.07128,31.20551 33.07226,31.20594 33.07318,31.20645 33.07404,31.20705 33.07481,31.20771 33.07551,31.20844 33.07611,31.20923 33.07661,31.21007 33.077,31.21095 33.07729,31.21186 33.07746,31.21279 33.07752,31.21373 33.07746,31.21467 33.07729,31.2156 33.077,31.21651 33.07661,31.21739 33.07611,31.21823 33.07551,31.21902 33.07481,31.21975 33.07404,31.22041 33.07318,31.22101 33.07226,31.22152 33.07128,31.22195 33.07025,31.22228 33.06919,31.22253 33.0681,31.22267 33.067,31.22272</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Zahr al Qais</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.067,31.21373</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Al Mahamdiyah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.66,31.05372 32.6589,31.05367 32.65782,31.05352 32.65676,31.05328 32.65573,31.05294 32.65475,31.05251 32.65383,31.052 32.65298,31.05141 32.6522,31.05074 32.65151,31.05001 32.65091,31.04922 32.65041,31.04838 32.65002,31.0475 32.64973,31.04659 32.64956,31.04566 32.6495,31.04472 32.64956,31.04378 32.64973,31.04285 32.65002,31.04194 32.65041,31.04106 32.65091,31.04023 32.65151,31.03944 32.6522,31.0387 32.65298,31.03804 32.65383,31.03745 32.65475,31.03693 32.65573,31.03651 32.65676,31.03617 32.65782,31.03593 32.6589,31.03578 32.66,31.03573 32.6611,31.03578 32.66218,31.03593 32.66324,31.03617 32.66427,31.03651 32.66525,31.03693 32.66617,31.03745 32.66702,31.03804 32.6678,31.0387 32.66849,31.03944 32.66909,31.04023 32.66959,31.04106 32.66998,31.04194 32.67027,31.04285 32.67044,31.04378 32.6705,31.04472 32.67044,31.04566 32.67027,31.04659 32.66998,31.0475 32.66959,31.04838 32.66909,31.04922 32.66849,31.05001 32.6678,31.05074 32.66702,31.05141 32.66617,31.052 32.66525,31.05251 32.66427,31.05294 32.66324,31.05328 32.66218,31.05352 32.6611,31.05367 32.66,31.05372</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Al Mahamdiyah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.66,31.044722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Fayid</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.29861,30.3351 32.29752,30.33505 32.29644,30.33491 32.29539,30.33466 32.29437,30.33433 32.2934,30.3339 32.29249,30.33339 32.29164,30.33279 32.29087,30.33213 32.29018,30.3314 32.28959,30.33061 32.28909,30.32977 32.2887,30.32889 32.28842,30.32798 32.28825,30.32705 32.28819,30.32611 32.28825,30.32517 32.28842,30.32424 32.2887,30.32333 32.28909,30.32245 32.28959,30.32161 32.29018,30.32082 32.29087,30.32009 32.29164,30.31943 32.29249,30.31884 32.2934,30.31832 32.29437,30.3179 32.29539,30.31756 32.29644,30.31731 32.29752,30.31717 32.29861,30.31712 32.2997,30.31717 32.30078,30.31731 32.30183,30.31756 32.30285,30.3179 32.30382,30.31832 32.30473,30.31884 32.30558,30.31943 32.30635,30.32009 32.30704,30.32082 32.30763,30.32161 32.30813,30.32245 32.30852,30.32333 32.3088,30.32424 32.30897,30.32517 32.30903,30.32611 32.30897,30.32705 32.3088,30.32798 32.30852,30.32889 32.30813,30.32977 32.30763,30.33061 32.30704,30.3314 32.30635,30.33213 32.30558,30.33279 32.30474,30.33339 32.30382,30.3339 32.30285,30.33433 32.30183,30.33466 32.30078,30.33491 32.2997,30.33505 32.29861,30.3351</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Fayid</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.298611,30.326111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Jabal al Murr</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.70167,29.96122 32.70058,29.96117 32.69951,29.96102 32.69846,29.96078 32.69744,29.96044 32.69648,29.96001 32.69557,29.9595 32.69472,29.95891 32.69395,29.95824 32.69327,29.95751 32.69268,29.95672 32.69218,29.95588 32.6918,29.955 32.69151,29.95409 32.69134,29.95316 32.69129,29.95222 32.69134,29.95128 32.69151,29.95035 32.6918,29.94944 32.69219,29.94856 32.69268,29.94773 32.69327,29.94694 32.69395,29.9462 32.69472,29.94554 32.69557,29.94495 32.69648,29.94443 32.69745,29.94401 32.69846,29.94367 32.69951,29.94343 32.70058,29.94328 32.70167,29.94323 32.70275,29.94328 32.70382,29.94343 32.70487,29.94367 32.70589,29.94401 32.70686,29.94443 32.70777,29.94495 32.70861,29.94554 32.70938,29.9462 32.71006,29.94694 32.71066,29.94773 32.71115,29.94856 32.71154,29.94944 32.71182,29.95035 32.71199,29.95128 32.71205,29.95222 32.71199,29.95316 32.71182,29.95409 32.71154,29.955 32.71115,29.95588 32.71066,29.95672 32.71006,29.95751 32.70938,29.95824 32.70861,29.95891 32.70777,29.9595 32.70686,29.96001 32.70589,29.96044 32.70487,29.96078 32.70383,29.96102 32.70275,29.96117 32.70167,29.96122</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Jabal al Murr</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.701667,29.952222</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Jabal Ataqah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.3075,30.0051 32.30641,30.00505 32.30534,30.00491 32.30429,30.00466 32.30328,30.00433 32.30231,30.0039 32.3014,30.00339 32.30055,30.00279 32.29978,30.00213 32.2991,30.0014 32.29851,30.00061 32.29801,29.99977 32.29762,29.99889 32.29734,29.99798 32.29717,29.99705 32.29712,29.99611 32.29717,29.99517 32.29734,29.99424 32.29762,29.99333 32.29801,29.99245 32.29851,29.99161 32.2991,29.99082 32.29978,29.99009 32.30055,29.98943 32.3014,29.98884 32.30231,29.98832 32.30328,29.9879 32.30429,29.98756 32.30534,29.98731 32.30641,29.98717 32.3075,29.98712 32.30859,29.98717 32.30966,29.98731 32.31071,29.98756 32.31172,29.9879 32.31269,29.98832 32.3136,29.98884 32.31445,29.98943 32.31522,29.99009 32.3159,29.99082 32.31649,29.99161 32.31699,29.99245 32.31738,29.99333 32.31766,29.99424 32.31783,29.99517 32.31788,29.99611 32.31783,29.99705 32.31766,29.99798 32.31738,29.99889 32.31699,29.99977 32.31649,30.00061 32.3159,30.0014 32.31522,30.00213 32.31445,30.00279 32.3136,30.00339 32.31269,30.0039 32.31172,30.00433 32.31071,30.00466 32.30966,30.00491 32.30859,30.00505 32.3075,30.0051</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Jabal Ataqah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.3075,29.996111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of the region between Maghfar and Lake Timsah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.26667,30.57566 32.26558,30.57561 32.2645,30.57546 32.26344,30.57522 32.26242,30.57488 32.26144,30.57446 32.26053,30.57394 32.25968,30.57335 32.2589,30.57268 32.25822,30.57195 32.25762,30.57116 32.25713,30.57032 32.25673,30.56945 32.25645,30.56854 32.25628,30.56761 32.25622,30.56667 32.25628,30.56573 32.25645,30.5648 32.25673,30.56389 32.25713,30.56301 32.25762,30.56217 32.25822,30.56138 32.25891,30.56065 32.25968,30.55998 32.26053,30.55939 32.26145,30.55888 32.26242,30.55845 32.26344,30.55811 32.2645,30.55787 32.26558,30.55772 32.26667,30.55767 32.26776,30.55772 32.26884,30.55787 32.26989,30.55811 32.27091,30.55845 32.27189,30.55888 32.27281,30.55939 32.27366,30.55998 32.27443,30.56065 32.27512,30.56138 32.27571,30.56217 32.27621,30.56301 32.2766,30.56389 32.27688,30.5648 32.27705,30.56573 32.27711,30.56667 32.27705,30.56761 32.27688,30.56854 32.2766,30.56945 32.27621,30.57032 32.27571,30.57116 32.27512,30.57195 32.27443,30.57268 32.27366,30.57335 32.27281,30.57394 32.27189,30.57446 32.27092,30.57488 32.26989,30.57522 32.26884,30.57546 32.26776,30.57561 32.26667,30.57566</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of the region between Maghfar and Lake Timsah</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.266667,30.566667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Kibrit</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.46951,30.23417 32.46842,30.23412 32.46735,30.23398 32.46629,30.23373 32.46528,30.2334 32.46431,30.23297 32.46339,30.23246 32.46255,30.23186 32.46177,30.2312 32.46109,30.23047 32.4605,30.22968 32.46,30.22884 32.45961,30.22796 32.45933,30.22705 32.45916,30.22612 32.4591,30.22518 32.45916,30.22424 32.45933,30.22331 32.45961,30.2224 32.46,30.22152 32.4605,30.22068 32.46109,30.21989 32.46178,30.21916 32.46255,30.2185 32.46339,30.2179 32.46431,30.21739 32.46528,30.21696 32.46629,30.21663 32.46735,30.21638 32.46842,30.21624 32.46951,30.21619 32.4706,30.21624 32.47167,30.21638 32.47273,30.21663 32.47374,30.21696 32.47471,30.21739 32.47563,30.2179 32.47647,30.2185 32.47724,30.21916 32.47793,30.21989 32.47852,30.22068 32.47902,30.22152 32.47941,30.2224 32.47969,30.22331 32.47986,30.22424 32.47992,30.22518 32.47986,30.22612 32.47969,30.22705 32.47941,30.22796 32.47902,30.22884 32.47852,30.22968 32.47793,30.23047 32.47725,30.2312 32.47647,30.23186 32.47563,30.23246 32.47471,30.23297 32.47374,30.2334 32.47273,30.23373 32.47167,30.23398 32.4706,30.23412 32.46951,30.23417</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Kibrit</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.46951,30.22518</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Tall al Qulzum</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.5529,29.98318 32.55182,29.98313 32.55075,29.98299 32.5497,29.98274 32.54868,29.9824 32.54771,29.98198 32.5468,29.98146 32.54596,29.98087 32.54519,29.98021 32.5445,29.97947 32.54391,29.97869 32.54342,29.97785 32.54303,29.97697 32.54275,29.97606 32.54258,29.97513 32.54252,29.97419 32.54258,29.97325 32.54275,29.97232 32.54303,29.97141 32.54342,29.97053 32.54391,29.96969 32.54451,29.9689 32.54519,29.96817 32.54596,29.96751 32.5468,29.96691 32.54771,29.9664 32.54868,29.96597 32.5497,29.96564 32.55075,29.96539 32.55182,29.96525 32.5529,29.9652 32.55399,29.96525 32.55506,29.96539 32.55611,29.96564 32.55713,29.96597 32.55809,29.9664 32.55901,29.96691 32.55985,29.96751 32.56062,29.96817 32.5613,29.9689 32.56189,29.96969 32.56239,29.97053 32.56278,29.97141 32.56306,29.97232 32.56323,29.97325 32.56329,29.97419 32.56323,29.97513 32.56306,29.97606 32.56278,29.97697 32.56239,29.97785 32.5619,29.97869 32.5613,29.97947 32.56062,29.98021 32.55985,29.98087 32.55901,29.98146 32.5581,29.98198 32.55713,29.9824 32.55611,29.98274 32.55506,29.98299 32.55399,29.98313 32.5529,29.98318</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / within 1 km of Tall al Qulzum</name>
+		<description>within 1 km of Baal-zephon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.552904,29.974189</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / Tell Defenneh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.171389,30.860556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / Al Qantarah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.316667,30.85</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / Jebel Abu Hasa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.51667,30.18333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / marsh west of the Bitter Lakes</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.125787,30.308779</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pi-hahiroth / Tell el Farama</name>
+		<description>another name for Pelusium</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.546139,31.042512</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

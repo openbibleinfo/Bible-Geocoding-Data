@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Ephraim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac0d1a5/mount-ephraim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Ephraim (Ephraim)</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.4.15&amp;version=ESV">4:15</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.31.6&amp;version=NKJV">31:6</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.50.19&amp;version=NKJV">50:19</a>]]></description>
+	<Folder>
+		<name>Mount Ephraim</name>
+		<Placemark>
+			<name>Mount Ephraim (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.28043,32.09544 35.17748,32.11002 35.16033,32.11002 35.12601,32.11002 35.14317,32.09544 35.2118,32.08086 35.22896,32.08086 35.26327,32.08086 35.28043,32.08086 35.28043,32.09544</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.12601,32.11002 35.12601,32.09544 35.12601,32.08086 35.17748,32.05171 35.19464,32.05171 35.2118,32.05171 35.24611,32.05171 35.26327,32.05171 35.28043,32.05171 35.3319,32.08086 35.3319,32.09544 35.28043,32.11002 35.26327,32.11002 35.24611,32.11002 35.22896,32.11002 35.2118,32.11002 35.19464,32.11002 35.17748,32.11002 35.16033,32.11002 35.14317,32.11002 35.12601,32.11002</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.12601,32.08086 35.12601,32.05171 35.19464,31.94967 35.2118,31.94967 35.22896,31.94967 35.24611,31.94967 35.26327,31.94967 35.28043,31.94967 35.34906,32.09544 35.3319,32.11002 35.2118,32.13917 35.19464,32.13917 35.17748,32.13917 35.16033,32.13917 35.14317,32.13917 35.12601,32.13917 35.12601,32.12459 35.12601,32.11002 35.12601,32.09544 35.12601,32.08086</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.17748,32.13917 35.16033,32.13917 35.14317,32.13917 35.12601,32.13917 35.0917,32.11002 35.14317,31.93509 35.17748,31.93509 35.19464,31.93509 35.28043,31.94967 35.34906,32.08086 35.34906,32.09544 35.34906,32.11002 35.3319,32.12459 35.31474,32.13917 35.29758,32.13917 35.28043,32.13917 35.26327,32.13917 35.24611,32.13917 35.22896,32.13917 35.2118,32.13917 35.19464,32.13917 35.17748,32.13917</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.2118,32.16833 35.19464,32.16833 35.17748,32.16833 35.16033,32.16833 35.14317,32.15375 35.12601,32.13917 35.10885,32.12459 35.0917,32.11002 35.07454,32.09544 35.10885,31.92051 35.12601,31.92051 35.17748,31.92051 35.19464,31.92051 35.2118,31.92051 35.22896,31.92051 35.24611,31.92051 35.26327,31.92051 35.28043,31.92051 35.34906,32.02255 35.34906,32.03713 35.34906,32.05171 35.34906,32.06628 35.34906,32.08086 35.34906,32.09544 35.34906,32.11002 35.34906,32.12459 35.34906,32.13917 35.24611,32.16833 35.22896,32.16833 35.2118,32.16833</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.07454,32.08086 35.07454,32.06628 35.07454,32.05171 35.07454,32.03713 35.0917,31.92051 35.12601,31.90593 35.17748,31.90593 35.19464,31.90593 35.2118,31.90593 35.22896,31.90593 35.24611,31.90593 35.26327,31.90593 35.28043,31.92051 35.3319,31.96424 35.38337,32.02255 35.34906,32.13917 35.3319,32.16833 35.28043,32.21206 35.26327,32.22664 35.24611,32.22664 35.07454,32.13917 35.07454,32.12459 35.07454,32.11002 35.07454,32.09544 35.07454,32.08086</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.05738,32.09544 35.05738,31.89136 35.07454,31.89136 35.0917,31.89136 35.10885,31.89136 35.17748,31.89136 35.34906,31.90593 35.41769,32.00797 35.43484,32.1829 35.41769,32.21206 35.40053,32.22664 35.29758,32.24121 35.28043,32.24121 35.26327,32.24121 35.19464,32.22664 35.0917,32.16833 35.05738,32.13917 35.05738,32.12459 35.05738,32.11002 35.05738,32.09544</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.00591,32.12459 35.00591,32.11002 35.05738,31.89136 35.2118,31.8622 35.22896,31.8622 35.24611,31.8622 35.34906,31.90593 35.36621,31.92051 35.41769,31.9934 35.46916,32.09544 35.46916,32.11002 35.46916,32.12459 35.46916,32.13917 35.46916,32.15375 35.43484,32.19748 35.41769,32.21206 35.40053,32.22664 35.38337,32.24121 35.31474,32.28495 35.26327,32.3141 35.19464,32.34325 35.17748,32.34325 35.14317,32.32868 35.00591,32.12459</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mount Ephraim</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.241389,31.922778</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Washer's Field</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a84c559/washers-field">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Washer’s Field (Launderer’s Field, Fuller’s Field)</name>
+	<description><![CDATA[2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.17&amp;version=ESV">18:17</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.7.3&amp;version=ESV">7:3</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.36.2&amp;version=ESV">36:2</a>]]></description>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of Bir Ayub</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23599,31.77169 35.23543,31.77167 35.23489,31.7716 35.23435,31.77147 35.23383,31.77131 35.23334,31.77109 35.23288,31.77084 35.23245,31.77054 35.23205,31.77021 35.23171,31.76984 35.2314,31.76945 35.23115,31.76903 35.23095,31.76859 35.23081,31.76813 35.23073,31.76767 35.2307,31.7672 35.23073,31.76673 35.23081,31.76626 35.23096,31.76581 35.23115,31.76537 35.2314,31.76495 35.23171,31.76455 35.23205,31.76419 35.23245,31.76386 35.23288,31.76356 35.23334,31.7633 35.23383,31.76309 35.23435,31.76292 35.23489,31.7628 35.23543,31.76273 35.23599,31.7627 35.23654,31.76273 35.23708,31.7628 35.23762,31.76292 35.23814,31.76309 35.23863,31.7633 35.23909,31.76356 35.23952,31.76386 35.23992,31.76419 35.24026,31.76455 35.24057,31.76495 35.24082,31.76537 35.24101,31.76581 35.24116,31.76626 35.24124,31.76673 35.24127,31.7672 35.24124,31.76767 35.24116,31.76813 35.24102,31.76859 35.24082,31.76903 35.24057,31.76945 35.24026,31.76984 35.23992,31.77021 35.23952,31.77054 35.23909,31.77084 35.23863,31.77109 35.23814,31.77131 35.23762,31.77147 35.23708,31.7716 35.23654,31.77167 35.23599,31.77169</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of Bir Ayub</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.235985,31.767198</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of Ain el Madauwerah</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24803,31.80262 35.24748,31.8026 35.24693,31.80253 35.2464,31.8024 35.24588,31.80224 35.24539,31.80202 35.24492,31.80177 35.24449,31.80147 35.2441,31.80114 35.24375,31.80077 35.24345,31.80038 35.2432,31.79996 35.243,31.79952 35.24286,31.79906 35.24277,31.7986 35.24274,31.79813 35.24277,31.79766 35.24286,31.79719 35.243,31.79674 35.2432,31.7963 35.24345,31.79588 35.24375,31.79548 35.2441,31.79512 35.24449,31.79479 35.24492,31.79449 35.24539,31.79423 35.24588,31.79402 35.2464,31.79385 35.24693,31.79373 35.24748,31.79366 35.24803,31.79363 35.24858,31.79366 35.24913,31.79373 35.24967,31.79385 35.25018,31.79402 35.25068,31.79423 35.25114,31.79449 35.25157,31.79479 35.25196,31.79512 35.25231,31.79548 35.25261,31.79588 35.25286,31.7963 35.25306,31.79674 35.25321,31.79719 35.25329,31.79766 35.25332,31.79813 35.25329,31.7986 35.25321,31.79906 35.25306,31.79952 35.25286,31.79996 35.25261,31.80038 35.25231,31.80077 35.25196,31.80114 35.25157,31.80147 35.25114,31.80177 35.25068,31.80202 35.25018,31.80224 35.24967,31.8024 35.24913,31.80253 35.24858,31.8026 35.24803,31.80262</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of Ain el Madauwerah</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.248031,31.798128</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the Gihon Spring</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23638,31.77742 35.23583,31.77739 35.23528,31.77732 35.23475,31.7772 35.23423,31.77703 35.23374,31.77681 35.23327,31.77656 35.23284,31.77626 35.23245,31.77593 35.2321,31.77556 35.2318,31.77517 35.23155,31.77475 35.23135,31.77431 35.23121,31.77385 35.23112,31.77339 35.23109,31.77292 35.23112,31.77245 35.23121,31.77198 35.23135,31.77153 35.23155,31.77109 35.2318,31.77067 35.2321,31.77028 35.23245,31.76991 35.23284,31.76958 35.23327,31.76928 35.23374,31.76902 35.23423,31.76881 35.23475,31.76864 35.23528,31.76852 35.23583,31.76845 35.23638,31.76842 35.23694,31.76845 35.23748,31.76852 35.23802,31.76864 35.23853,31.76881 35.23903,31.76902 35.23949,31.76928 35.23992,31.76958 35.24031,31.76991 35.24066,31.77028 35.24096,31.77067 35.24121,31.77109 35.24141,31.77153 35.24156,31.77198 35.24164,31.77245 35.24167,31.77292 35.24164,31.77339 35.24156,31.77385 35.24141,31.77431 35.24122,31.77475 35.24096,31.77517 35.24066,31.77556 35.24031,31.77593 35.23992,31.77626 35.23949,31.77656 35.23903,31.77681 35.23853,31.77703 35.23802,31.7772 35.23748,31.77732 35.23694,31.77739 35.23638,31.77742</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the Gihon Spring</name>
+		<description>within 500 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.236383,31.772919</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the Gihon Spring</name>
+		<description>within 500 m of Gihon 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates></coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the Gihon Spring</name>
+		<description>within 500 m of Gihon 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.236383,31.772919</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the northern wall of Jerusalem</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23375,31.7875 35.2332,31.78747 35.23265,31.7874 35.23212,31.78728 35.2316,31.78711 35.2311,31.78689 35.23064,31.78664 35.23021,31.78634 35.22982,31.78601 35.22947,31.78564 35.22917,31.78525 35.22892,31.78483 35.22872,31.78439 35.22858,31.78393 35.22849,31.78347 35.22846,31.783 35.22849,31.78253 35.22858,31.78206 35.22872,31.78161 35.22892,31.78117 35.22917,31.78075 35.22947,31.78036 35.22982,31.77999 35.23021,31.77966 35.23064,31.77936 35.23111,31.77911 35.2316,31.77889 35.23212,31.77872 35.23265,31.7786 35.2332,31.77853 35.23375,31.7785 35.2343,31.77853 35.23485,31.7786 35.23538,31.77872 35.2359,31.77889 35.23639,31.77911 35.23686,31.77936 35.23729,31.77966 35.23768,31.77999 35.23803,31.78036 35.23833,31.78075 35.23858,31.78117 35.23878,31.78161 35.23892,31.78206 35.23901,31.78253 35.23904,31.783 35.23901,31.78347 35.23892,31.78393 35.23878,31.78439 35.23858,31.78483 35.23833,31.78525 35.23803,31.78564 35.23768,31.78601 35.23729,31.78634 35.23686,31.78664 35.2364,31.78689 35.2359,31.78711 35.23538,31.78728 35.23485,31.7874 35.2343,31.78747 35.23375,31.7875</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Washer’s Field / within 500 m of the northern wall of Jerusalem</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.23375,31.783</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

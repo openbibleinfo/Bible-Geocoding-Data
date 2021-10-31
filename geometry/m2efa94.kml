@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Makkuk</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m2efa94/wadi-makkuk">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Makkuk</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.317732,31.899305 35.318274,31.899272 35.318821,31.89745 35.318369,31.894369 35.319773,31.893712 35.320342,31.893801 35.320915,31.894914 35.322165,31.895025 35.322819,31.896369 35.322653,31.897541 35.324021,31.897511 35.324557,31.898895 35.326508,31.899178 35.327056,31.897945 35.325889,31.897198 35.326389,31.895359 35.326211,31.893338 35.325604,31.892823 35.324628,31.893096 35.324473,31.892702 35.325342,31.891812 35.32658,31.891711 35.328377,31.892611 35.329876,31.892025 35.330864,31.892227 35.331994,31.891439 35.333137,31.891621 35.333577,31.892277 35.335933,31.892954 35.336123,31.89356 35.335386,31.894712 35.336254,31.894985 35.337575,31.896339 35.339348,31.895369 35.340229,31.893783 35.341752,31.893651 35.343549,31.891954 35.345644,31.891014 35.350392,31.8916 35.352677,31.890246 35.353164,31.890549 35.353224,31.891196 35.354081,31.891307 35.355247,31.892398 35.356139,31.89254 35.357139,31.893985 35.358567,31.894157 35.36065,31.893732 35.361506,31.89259 35.362149,31.892439 35.364351,31.890368 35.366112,31.89154 35.367802,31.891873 35.368349,31.891307 35.368099,31.890327 35.368408,31.88967 35.369741,31.889731 35.374013,31.887811 35.375822,31.888205 35.376734,31.887588 35.378327,31.88863 35.379867,31.889014 35.380166,31.888653 35.381102,31.888822 35.382142,31.889447 35.383049,31.88882 35.383875,31.889699 35.384755,31.889739 35.38481,31.890143 35.385347,31.890129 35.385822,31.889435 35.385472,31.888383 35.385735,31.888098 35.387248,31.887821 35.390059,31.889732 35.389756,31.890526 35.390379,31.891029 35.392521,31.890136 35.392778,31.88878 35.39425,31.88701 35.395029,31.886909 35.395588,31.887267 35.395551,31.887768 35.398168,31.888463 35.398238,31.887292 35.398767,31.886794 35.400014,31.888119 35.4008,31.887848 35.402695,31.889376 35.403223,31.889402 35.403083,31.890427 35.404023,31.891214 35.40507,31.89099 35.405373,31.892444 35.406449,31.892068 35.405623,31.893337 35.407454,31.893847 35.408578,31.89561 35.409249,31.895292 35.410065,31.895395 35.410285,31.89603 35.41099,31.895563 35.412356,31.895881 35.412951,31.898574 35.416093,31.899642</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Makkuk</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.3508,31.89109</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

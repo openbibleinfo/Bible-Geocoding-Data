@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Holon 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2a444a/holon-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Holon 2</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.48.21&amp;version=ESV">48:21</a>]]></description>
+	<Folder>
+		<name>Holon 2 / in Moab 1</name>
+		<Placemark>
+			<name>Holon 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69284,31.64791 35.62396,31.55916 35.48621,31.38164 35.45177,31.29289 35.45177,31.2633 35.45177,31.23372 35.48621,31.05621 35.52065,31.02662 35.76172,30.96745 35.79615,30.96745 35.83059,30.96745 35.86503,30.96745 35.89947,30.96745 35.93391,30.96745 35.96835,31.02662 36.03722,31.2633 36.03722,31.29289 36.03722,31.32247 35.89947,31.64791 35.86503,31.6775 35.83059,31.6775 35.79615,31.6775 35.76172,31.6775 35.69284,31.64791</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.96835,31.6775 35.83059,31.73667 35.6584,31.64791 35.48621,31.38164 35.45177,31.29289 35.45177,31.2633 35.45177,31.23372 35.48621,31.02662 35.86503,30.90828 35.89947,30.90828 36.00278,31.05621 36.03722,31.2633 36.03722,31.29289 36.03722,31.32247 35.96835,31.6775</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69284,31.6775 35.6584,31.64791 35.48621,31.38164 35.45177,31.29289 35.45177,31.2633 35.45177,31.23372 35.45177,31.05621 35.48621,31.02662 35.96835,30.84911 36.00278,31.02662 36.03722,31.2633 36.03722,31.29289 36.03722,31.32247 36.03722,31.35206 35.96835,31.6775 35.86503,31.73667 35.83059,31.73667 35.79615,31.73667 35.69284,31.6775</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.96835,31.73667 35.93391,31.73667 35.89947,31.73667 35.86503,31.73667 35.83059,31.73667 35.79615,31.73667 35.76172,31.73667 35.72728,31.73667 35.69284,31.73667 35.6584,31.73667 35.62396,31.73667 35.58952,31.73667 35.41733,31.2633 35.45177,31.05621 35.48621,31.02662 35.96835,30.84911 36.03722,31.17455 36.03722,31.20413 36.03722,31.2633 36.03722,31.29289 36.03722,31.32247 36.03722,31.35206 35.96835,31.73667</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.93391,31.73667 35.89947,31.73667 35.86503,31.73667 35.83059,31.73667 35.79615,31.73667 35.76172,31.73667 35.72728,31.73667 35.69284,31.73667 35.6584,31.73667 35.62396,31.73667 35.58952,31.73667 35.41733,31.2633 35.45177,31.05621 35.48621,31.02662 35.96835,30.84911 36.00278,30.93787 36.03722,31.05621 36.07166,31.29289 36.07166,31.32247 36.07166,31.35206 36.03722,31.49999 35.96835,31.73667 35.93391,31.73667</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69284,31.73667 35.6584,31.73667 35.62396,31.73667 35.58952,31.73667 35.41733,31.2633 35.45177,31.05621 35.48621,31.02662 35.96835,30.84911 36.00278,30.8787 36.03722,31.02662 36.1061,31.32247 36.07166,31.49999 36.00278,31.6775 35.96835,31.73667 35.93391,31.73667 35.89947,31.73667 35.86503,31.73667 35.83059,31.73667 35.79615,31.73667 35.76172,31.73667 35.72728,31.73667 35.69284,31.73667</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.58952,31.73667 35.41733,31.2633 35.45177,31.05621 35.48621,31.02662 35.96835,30.84911 36.00278,30.8787 36.03722,30.93787 36.07166,31.02662 36.1061,31.32247 36.1061,31.49999 36.03722,31.6775 36.00278,31.73667 35.96835,31.76625 35.93391,31.76625 35.89947,31.76625 35.86503,31.76625 35.83059,31.76625 35.76172,31.76625 35.72728,31.76625 35.58952,31.73667</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.45177,31.02662 35.96835,30.84911 36.00278,30.84911 36.03722,30.90828 36.1061,31.05621 36.14054,31.55916 36.14054,31.58874 36.14054,31.61833 36.14054,31.64791 36.14054,31.6775 36.14054,31.70708 35.96835,31.79584 35.93391,31.79584 35.89947,31.79584 35.72728,31.76625 35.58952,31.73667 35.41733,31.2633 35.45177,31.02662</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.45177,31.02662 35.48621,30.99704 36.03722,30.81953 36.1061,31.02662 36.14054,31.4704 36.14054,31.49999 36.14054,31.52957 36.14054,31.55916 36.14054,31.58874 36.14054,31.61833 36.14054,31.64791 36.14054,31.6775 36.14054,31.70708 36.1061,31.73667 36.00278,31.79584 35.96835,31.79584 35.93391,31.79584 35.89947,31.79584 35.72728,31.76625 35.58952,31.73667 35.41733,31.2633 35.45177,31.02662</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Holon 2 / in Moab 1</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.701389,31.180556</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Holon 2 / Khirbet Alin</name>
+		<description>another name for Holon 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.030496,31.662152</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / Khirbet Bism</name>
+		<description>another name for Holon 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.03348,31.46269</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / Khirbet Umm el Amad</name>
+		<description>another name for Holon 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.045797,31.44309</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet el Medeiyineh</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.90793,31.85814 35.87473,31.85666 35.84189,31.85223 35.80978,31.8449 35.77876,31.83475 35.74917,31.8219 35.72132,31.80648 35.69554,31.78867 35.6721,31.76866 35.65126,31.74667 35.63324,31.72295 35.61825,31.69776 35.60644,31.67136 35.59794,31.64407 35.59284,31.61616 35.5912,31.58796 35.59304,31.55976 35.59831,31.53188 35.60698,31.50462 35.61893,31.47829 35.63403,31.45316 35.65213,31.42951 35.67301,31.4076 35.69645,31.38768 35.7222,31.36994 35.74996,31.3546 35.77944,31.34181 35.81032,31.33172 35.84226,31.32443 35.87492,31.32002 35.90793,31.31855 35.94094,31.32002 35.97359,31.32443 36.00553,31.33172 36.03641,31.34181 36.06589,31.3546 36.09366,31.36994 36.1194,31.38768 36.14285,31.4076 36.16373,31.42951 36.18182,31.45316 36.19693,31.47829 36.20888,31.50462 36.21754,31.53188 36.22282,31.55976 36.22465,31.58796 36.22301,31.61616 36.21792,31.64407 36.20942,31.67136 36.19761,31.69776 36.18262,31.72295 36.1646,31.74667 36.14376,31.76866 36.12032,31.78867 36.09453,31.80648 36.06669,31.8219 36.03709,31.83475 36.00607,31.8449 35.97397,31.85223 35.94113,31.85666 35.90793,31.85814</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet el Medeiyineh</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.907928,31.588347</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet et Teim</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.77444,31.96537 35.7412,31.96388 35.70833,31.95945 35.67618,31.95212 35.64512,31.94198 35.6155,31.92912 35.58762,31.9137 35.56181,31.89589 35.53834,31.87588 35.51747,31.85389 35.49943,31.83017 35.48442,31.80498 35.4726,31.77859 35.46409,31.75129 35.45899,31.72338 35.45735,31.69518 35.45919,31.66698 35.46447,31.6391 35.47314,31.61184 35.48511,31.58551 35.50023,31.56038 35.51835,31.53673 35.53925,31.51483 35.56272,31.4949 35.5885,31.47717 35.61629,31.46182 35.64581,31.44903 35.67672,31.43894 35.7087,31.43165 35.74139,31.42725 35.77444,31.42577 35.80749,31.42725 35.84018,31.43165 35.87216,31.43894 35.90307,31.44903 35.93259,31.46182 35.96038,31.47717 35.98616,31.4949 36.00963,31.51483 36.03053,31.53673 36.04865,31.56038 36.06377,31.58551 36.07574,31.61184 36.08441,31.6391 36.0897,31.66698 36.09153,31.69518 36.08989,31.72338 36.08479,31.75129 36.07628,31.77859 36.06446,31.80498 36.04945,31.83017 36.03141,31.85389 36.01054,31.87588 35.98708,31.89589 35.96126,31.9137 35.93339,31.92912 35.90376,31.94198 35.8727,31.95212 35.84056,31.95945 35.80768,31.96388 35.77444,31.96537</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet et Teim</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.774441,31.69557</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Libb</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.76126,31.87614 35.72805,31.87465 35.69521,31.87022 35.6631,31.86289 35.63207,31.85275 35.60247,31.83989 35.57462,31.82447 35.54883,31.80666 35.52539,31.78665 35.50454,31.76467 35.48652,31.74094 35.47152,31.71575 35.45971,31.68936 35.45121,31.66206 35.44612,31.63415 35.44448,31.60595 35.44631,31.57775 35.45159,31.54987 35.46025,31.52262 35.4722,31.49628 35.48731,31.47115 35.50541,31.4475 35.5263,31.4256 35.54975,31.40567 35.57549,31.38794 35.60326,31.37259 35.63275,31.3598 35.66364,31.34971 35.69558,31.34242 35.72824,31.33802 35.76126,31.33654 35.79428,31.33802 35.82694,31.34242 35.85888,31.34971 35.88977,31.3598 35.91926,31.37259 35.94703,31.38794 35.97278,31.40567 35.99622,31.4256 36.01711,31.4475 36.03521,31.47115 36.05032,31.49628 36.06227,31.52262 36.07094,31.54987 36.07621,31.57775 36.07805,31.60595 36.07641,31.63415 36.07131,31.66206 36.06281,31.68936 36.051,31.71575 36.036,31.74094 36.01798,31.76467 35.99714,31.78665 35.97369,31.80666 35.9479,31.82447 35.92005,31.83989 35.89045,31.85275 35.85942,31.86289 35.82731,31.87022 35.79447,31.87465 35.76126,31.87614</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Libb</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.761261,31.60634</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Er Remeil</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.87443,31.84549 35.84124,31.84401 35.8084,31.83958 35.7763,31.83225 35.74529,31.8221 35.71569,31.80925 35.68786,31.79383 35.66208,31.77602 35.63864,31.75601 35.6178,31.73402 35.59978,31.7103 35.58479,31.6851 35.57298,31.65871 35.56449,31.63141 35.55939,31.60351 35.55775,31.5753 35.55958,31.54711 35.56486,31.51923 35.57352,31.49197 35.58547,31.46563 35.60058,31.4405 35.61867,31.41686 35.63955,31.39495 35.66299,31.37502 35.68873,31.35729 35.71649,31.34195 35.74597,31.32916 35.77684,31.31907 35.80878,31.31178 35.84143,31.30737 35.87443,31.3059 35.90744,31.30737 35.94009,31.31178 35.97203,31.31907 36.0029,31.32916 36.03238,31.34195 36.06014,31.35729 36.08588,31.37502 36.10932,31.39495 36.1302,31.41686 36.14829,31.4405 36.1634,31.46563 36.17535,31.49197 36.18401,31.51923 36.18928,31.54711 36.19111,31.5753 36.18947,31.60351 36.18438,31.63141 36.17588,31.65871 36.16408,31.6851 36.14909,31.7103 36.13107,31.73402 36.11023,31.75601 36.08679,31.77602 36.06101,31.79383 36.03317,31.80925 36.00358,31.8221 35.97256,31.83225 35.94046,31.83958 35.90763,31.84401 35.87443,31.84549</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Er Remeil</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.874434,31.575694</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Iskander</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.77151,31.82662 35.73831,31.82513 35.70549,31.8207 35.6734,31.81337 35.64238,31.80323 35.6128,31.79037 35.58497,31.77495 35.55919,31.75714 35.53576,31.73713 35.51492,31.71515 35.49691,31.69142 35.48192,31.66623 35.47012,31.63984 35.46162,31.61254 35.45653,31.58463 35.45489,31.55643 35.45672,31.52823 35.46199,31.50035 35.47065,31.4731 35.4826,31.44676 35.4977,31.42163 35.51579,31.39798 35.53667,31.37608 35.5601,31.35615 35.58584,31.33842 35.61359,31.32307 35.64306,31.31028 35.67393,31.30019 35.70586,31.2929 35.73851,31.2885 35.77151,31.28702 35.80451,31.2885 35.83715,31.2929 35.86908,31.30019 35.89995,31.31028 35.92942,31.32307 35.95718,31.33842 35.98291,31.35615 36.00634,31.37608 36.02722,31.39798 36.04531,31.42163 36.06041,31.44676 36.07236,31.4731 36.08102,31.50035 36.08629,31.52823 36.08812,31.55643 36.08648,31.58463 36.08139,31.61254 36.0729,31.63984 36.06109,31.66623 36.0461,31.69142 36.02809,31.71515 36.00725,31.73713 35.98382,31.75714 35.95805,31.77495 35.93021,31.79037 35.90063,31.80323 35.86962,31.81337 35.83752,31.8207 35.8047,31.82513 35.77151,31.82662</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Iskander</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.771506,31.556819</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Tall Jalul</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85684,31.98643 35.82359,31.98494 35.79071,31.98051 35.75856,31.97318 35.7275,31.96304 35.69786,31.95018 35.66998,31.93476 35.64416,31.91695 35.62069,31.89694 35.59981,31.87495 35.58177,31.85123 35.56676,31.82604 35.55493,31.79965 35.54643,31.77235 35.54132,31.74444 35.53968,31.71624 35.54152,31.68804 35.5468,31.66016 35.55548,31.6329 35.56744,31.60657 35.58257,31.58144 35.60069,31.55779 35.6216,31.53589 35.64508,31.51596 35.67086,31.49823 35.69866,31.48288 35.72818,31.47009 35.7591,31.46 35.79109,31.45271 35.82379,31.44831 35.85684,31.44683 35.8899,31.44831 35.9226,31.45271 35.95458,31.46 35.9855,31.47009 36.01503,31.48288 36.04283,31.49823 36.06861,31.51596 36.09208,31.53589 36.11299,31.55779 36.13111,31.58144 36.14624,31.60657 36.15821,31.6329 36.16689,31.66016 36.17217,31.68804 36.174,31.71624 36.17236,31.74444 36.16726,31.77235 36.15875,31.79965 36.14693,31.82604 36.13191,31.85123 36.11387,31.87495 36.093,31.89694 36.06953,31.91695 36.04371,31.93476 36.01583,31.95018 35.98619,31.96304 35.95512,31.97318 35.92297,31.98051 35.89009,31.98494 35.85684,31.98643</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Tall Jalul</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.856843,31.71663</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Umm el Idham</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.77014,31.83568 35.73695,31.83419 35.70412,31.82976 35.67202,31.82243 35.64101,31.81229 35.61142,31.79943 35.58358,31.78401 35.5578,31.7662 35.53437,31.74619 35.51353,31.72421 35.49552,31.70048 35.48053,31.67529 35.46872,31.6489 35.46023,31.6216 35.45513,31.5937 35.45349,31.56549 35.45532,31.53729 35.4606,31.50941 35.46926,31.48216 35.48121,31.45582 35.49631,31.43069 35.5144,31.40704 35.53528,31.38514 35.55872,31.36521 35.58445,31.34748 35.61221,31.33213 35.64169,31.31934 35.67256,31.30925 35.70449,31.30196 35.73714,31.29756 35.77014,31.29608 35.80314,31.29756 35.83579,31.30196 35.86772,31.30925 35.89859,31.31934 35.92807,31.33213 35.95583,31.34748 35.98156,31.36521 36.005,31.38514 36.02588,31.40704 36.04397,31.43069 36.05907,31.45582 36.07102,31.48216 36.07968,31.50941 36.08496,31.53729 36.08679,31.56549 36.08515,31.5937 36.08005,31.6216 36.07156,31.6489 36.05975,31.67529 36.04476,31.70048 36.02675,31.72421 36.00591,31.74619 35.98248,31.7662 35.9567,31.78401 35.92886,31.79943 35.89927,31.81229 35.86826,31.82243 35.83616,31.82976 35.80333,31.83419 35.77014,31.83568</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Khirbet Umm el Idham</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.77014,31.56588</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Aleiyan</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.88026,31.80164 35.84708,31.80016 35.81426,31.79573 35.78218,31.7884 35.75118,31.77825 35.7216,31.7654 35.69377,31.74998 35.668,31.73217 35.64458,31.71216 35.62375,31.69017 35.60574,31.66645 35.59076,31.64125 35.57895,31.61486 35.57046,31.58756 35.56537,31.55966 35.56373,31.53145 35.56556,31.50326 35.57083,31.47538 35.57949,31.44812 35.59144,31.42178 35.60653,31.39665 35.62462,31.37301 35.64549,31.3511 35.66891,31.33117 35.69464,31.31344 35.72239,31.2981 35.75185,31.28531 35.78272,31.27522 35.81464,31.26793 35.84727,31.26352 35.88026,31.26205 35.91325,31.26352 35.94589,31.26793 35.97781,31.27522 36.00867,31.28531 36.03813,31.2981 36.06588,31.31344 36.09161,31.33117 36.11504,31.3511 36.13591,31.37301 36.15399,31.39665 36.16909,31.42178 36.18103,31.44812 36.18969,31.47538 36.19496,31.50326 36.19679,31.53145 36.19515,31.55966 36.19006,31.58756 36.18157,31.61486 36.16977,31.64125 36.15478,31.66645 36.13678,31.69017 36.11595,31.71216 36.09252,31.73217 36.06675,31.74998 36.03893,31.7654 36.00935,31.77825 35.97835,31.7884 35.94626,31.79573 35.91344,31.80016 35.88026,31.80164</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Aleiyan</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.880262,31.531844</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Umm el Walid</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.89585,31.9164 35.86262,31.91492 35.82977,31.91049 35.79764,31.90316 35.7666,31.89301 35.73699,31.88016 35.70913,31.86474 35.68333,31.84693 35.65987,31.82692 35.63901,31.80493 35.62099,31.78121 35.60598,31.75601 35.59417,31.72962 35.58566,31.70232 35.58057,31.67442 35.57893,31.64621 35.58076,31.61802 35.58604,31.59014 35.59471,31.56288 35.60667,31.53654 35.62178,31.51142 35.63989,31.48777 35.66078,31.46586 35.68424,31.44593 35.71,31.4282 35.73778,31.41286 35.76728,31.40007 35.79818,31.38998 35.83014,31.38269 35.86282,31.37828 35.89585,31.37681 35.92888,31.37828 35.96155,31.38269 35.99351,31.38998 36.02441,31.40007 36.05391,31.41286 36.08169,31.4282 36.10745,31.44593 36.13091,31.46586 36.15181,31.48777 36.16991,31.51142 36.18503,31.53654 36.19699,31.56288 36.20566,31.59014 36.21094,31.61802 36.21277,31.64621 36.21113,31.67442 36.20603,31.70232 36.19753,31.72962 36.18571,31.75601 36.17071,31.78121 36.15268,31.80493 36.13183,31.82692 36.10837,31.84693 36.08257,31.86474 36.05471,31.88016 36.0251,31.89301 35.99405,31.90316 35.96193,31.91049 35.92907,31.91492 35.89585,31.9164</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / within 30 km of Umm el Walid</name>
+		<description>within 30 km of Jahaz</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.895848,31.646606</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Holon 2 / Lahun</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.84966,31.46016</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

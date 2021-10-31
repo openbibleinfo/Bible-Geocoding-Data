@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Timnah 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae3f164/timnah-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Timnah 2</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.57&amp;version=ESV">15:57</a>]]></description>
+	<Placemark>
+		<name>Timnah 2 / within 15 km of Tel Main</name>
+		<description>within 15 km of Maon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.13384,31.54435 35.11729,31.54361 35.10093,31.54139 35.08493,31.53773 35.06947,31.53267 35.05471,31.52625 35.04083,31.51855 35.02796,31.50965 35.01626,31.49966 35.00586,31.48868 34.99686,31.47682 34.98936,31.46423 34.98345,31.45105 34.97919,31.4374 34.97662,31.42345 34.97578,31.40935 34.97667,31.39525 34.97928,31.38131 34.98358,31.36767 34.98953,31.3545 34.99705,31.34193 35.00607,31.33009 35.01649,31.31913 35.02819,31.30916 35.04104,31.30028 35.05491,31.2926 35.06963,31.2862 35.08506,31.28114 35.10102,31.27749 35.11734,31.27529 35.13384,31.27455 35.15034,31.27529 35.16666,31.27749 35.18262,31.28114 35.19804,31.2862 35.21277,31.2926 35.22664,31.30028 35.23949,31.30916 35.25119,31.31913 35.2616,31.33009 35.27062,31.34193 35.27815,31.3545 35.2841,31.36767 35.2884,31.38131 35.29101,31.39525 35.2919,31.40935 35.29106,31.42345 35.28849,31.4374 35.28423,31.45105 35.27832,31.46423 35.27082,31.47682 35.26182,31.48868 35.25141,31.49966 35.23971,31.50965 35.22685,31.51855 35.21297,31.52625 35.19821,31.53267 35.18275,31.53773 35.16675,31.54139 35.15038,31.54361 35.13384,31.54435</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / within 15 km of Tel Main</name>
+		<description>within 15 km of Maon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.133839,31.409448</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Khirbet et Tabbaneh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.04906,31.69405</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Khirbet Umm Lasafa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.157356,31.438229</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Khirbet Abu Shaban</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.16295,31.434535</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Rujm al Hamri</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.1112,31.39615</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Tell Tuwani</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.160762,31.409436</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Tel Batash</name>
+		<description>another name for Timnah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.910297,31.784831</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Timnah 2 / Horbat Timna</name>
+		<description>another name for Timnah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.935419,31.743041</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi al Aghaydira</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m7869a6/wadi-al-aghaydira">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi al Aghaydira</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>33.09558,29.87004 33.0961,29.86999 33.09682,29.87039 33.09869,29.87204 33.09993,29.87257 33.10244,29.87262 33.10329,29.8722 33.10377,29.87217 33.10431,29.87228 33.10479,29.8728 33.10597,29.8727 33.10687,29.87326 33.1085,29.87342 33.10993,29.8738 33.11069,29.87386 33.11333,29.87314 33.11376,29.87321 33.11515,29.87433 33.1165,29.87444 33.11827,29.87425 33.11998,29.87453 33.12202,29.87578 33.12277,29.87641 33.12324,29.87714 33.12513,29.87864 33.12638,29.87913 33.12889,29.87902 33.12992,29.87928 33.13412,29.88155 33.13794,29.88277 33.1412,29.88341 33.14464,29.88493 33.14537,29.88557 33.15013,29.88739 33.15202,29.88843 33.15416,29.88906 33.1585,29.88858 33.16416,29.88631 33.16618,29.88579 33.16936,29.88616 33.17279,29.88743 33.17472,29.88899 33.17678,29.89003 33.18026,29.89103 33.18798,29.89103 33.19193,29.89081 33.19485,29.89118 33.19828,29.8923 33.20506,29.89513 33.21107,29.89929 33.21562,29.90182 33.2254,29.90554 33.22695,29.90711 33.22798,29.90859 33.22884,29.91455 33.22935,29.91648 33.23081,29.91908 33.23356,29.92221 33.23751,29.92496 33.24944,29.93151 33.25235,29.93433 33.25519,29.93768 33.26283,29.94356 33.26403,29.94631 33.263,29.95055 33.26523,29.95501 33.26823,29.95739 33.27132,29.96163 33.27179,29.96404 33.27261,29.96475 33.27604,29.96661 33.2775,29.96929 33.27905,29.9704 33.28095,29.97231 33.28205,29.97278 33.28694,29.97576 33.28986,29.9794 33.29587,29.98572 33.30068,29.99144 33.30942,30.00241 33.31707,30.0159 33.32256,30.02288 33.33012,30.03388 33.33355,30.04086 33.33836,30.05453 33.34179,30.06048 33.34642,30.06672 33.35432,30.07281 33.36479,30.08009 33.37149,30.08737 33.38694,30.10281 33.4041,30.11751 33.40839,30.12405 33.41406,30.13399 33.41852,30.14112 33.42848,30.14899 33.44015,30.15671 33.45732,30.16294 33.47157,30.16858 33.49937,30.17318 33.51791,30.17377 33.52684,30.17333 33.5507,30.16992 33.55266,30.16977</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi al Aghaydira</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>33.38012,30.09176</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

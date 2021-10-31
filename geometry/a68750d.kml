@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Samothrace</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a68750d/samothrace">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Samothrace (Samothracia)</name>
+	<description><![CDATA[Acts <a href="https://www.biblegateway.com/passage/?search=Acts.16.11&amp;version=ESV">16:11</a>]]></description>
+	<Placemark>
+		<name>Samothrace / Samothraki</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>25.485575,40.444278 25.494536,40.437969 25.509128,40.425397 25.5244,40.421516 25.542686,40.414294 25.548036,40.408961 25.549995,40.405114 25.554021,40.403181 25.553981,40.400266 25.557625,40.399514 25.559634,40.395933 25.568035,40.397383 25.572098,40.395455 25.574277,40.392881 25.579526,40.395134 25.582638,40.394584 25.58287,40.392857 25.584093,40.392237 25.586259,40.393651 25.587397,40.392327 25.58852,40.394438 25.589966,40.393427 25.590526,40.394275 25.593059,40.394527 25.594055,40.395794 25.596869,40.393627 25.599605,40.393768 25.600981,40.394884 25.60158,40.393964 25.601671,40.394723 25.605516,40.396255 25.607035,40.39775 25.620987,40.400934 25.622533,40.402151 25.626981,40.402089 25.630614,40.405018 25.637618,40.407731 25.642004,40.408571 25.649283,40.40807 25.654662,40.41138 25.661129,40.412325 25.66827,40.412179 25.669791,40.413514 25.678281,40.416852 25.681762,40.419591 25.686159,40.420688 25.687575,40.421863 25.696483,40.421924 25.695828,40.428451 25.693426,40.436085 25.695754,40.445999 25.69924,40.455255 25.699625,40.463992 25.698656,40.46564 25.693176,40.468621 25.680428,40.478513 25.6779,40.479989 25.674221,40.48027 25.668535,40.485597 25.665928,40.485684 25.661098,40.488705 25.656778,40.493512 25.639997,40.49364 25.630033,40.496641 25.625081,40.499758 25.61645,40.503174 25.605662,40.503366 25.601685,40.504539 25.603454,40.503612 25.595173,40.502535 25.589965,40.504014 25.581152,40.508408 25.562093,40.510144 25.544045,40.505194 25.539721,40.504757 25.535659,40.505823 25.532261,40.504595 25.525268,40.504656 25.494825,40.494924 25.477891,40.483662 25.471723,40.476485 25.467899,40.474649 25.472163,40.476174 25.471177,40.473697 25.469284,40.473479 25.469835,40.472839 25.468817,40.472192 25.461584,40.471857 25.45497,40.473478 25.45331,40.472708 25.443454,40.476276 25.449533,40.47275 25.452411,40.469855 25.455085,40.466138 25.455835,40.463086 25.458119,40.461021 25.45903,40.458043 25.476783,40.45001 25.485575,40.444278</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Samothrace / Samothraki</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>25.583333,40.45</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

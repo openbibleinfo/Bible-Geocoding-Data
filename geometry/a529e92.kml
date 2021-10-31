@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>City of Palms 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a529e92/city-of-palms-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>City of Palms 1</name>
+	<description><![CDATA[Deut <a href="https://www.biblegateway.com/passage/?search=Deut.34.3&amp;version=NIV">34:3</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.3.13&amp;version=NIV">3:13</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.28.15&amp;version=NIV">28:15</a>]]></description>
+	<Placemark>
+		<name>City of Palms 1 / Tell es Sultan</name>
+		<description>another name for Jericho 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.444564,31.871719</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / En Hazeva</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2459,30.8087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / En Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.351662,30.985553</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Mezad Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.243068,31.026754</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / in the region south of the Lisan</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.408824,31.314783 35.305248,30.924507 35.479241,30.90329 35.546828,31.303317 35.408824,31.314783</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / in the region south of the Lisan</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.449223,31.20849</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Al Safi</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.487657,31.036904</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / in the region north of the Dead Sea</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.641497,31.738839 35.701387,31.844513 35.595213,31.965858 35.605654,32.028979 35.473661,32.0442 35.447941,31.960009 35.398864,31.951947 35.377756,31.918242 35.421166,31.893264 35.430094,31.847714 35.454051,31.779867 35.494221,31.751456 35.641497,31.738839</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / in the region north of the Dead Sea</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.595278,31.795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Tell al Sheikh Isa</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.47216,31.022968</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / mouth of Wadi Mujib</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.573333,31.465833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Tawahin el Sukkar</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.475163,31.021611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Esh Shaghur</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.649971,31.829531</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Tall Iktanu</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.671878,31.819256</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Palms 1 / Bab edh Dhra</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.523005,31.248729</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

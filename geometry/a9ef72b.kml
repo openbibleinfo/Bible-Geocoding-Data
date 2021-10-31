@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Peor</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a9ef72b/peor">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Peor</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.23.28&amp;version=ESV">23:28</a>, <a href="https://www.biblegateway.com/passage/?search=Num.25.3&amp;version=ESV">25:3</a>, <a href="https://www.biblegateway.com/passage/?search=Num.25.5&amp;version=ESV">25:5</a>, <a href="https://www.biblegateway.com/passage/?search=Num.25.18&amp;version=ESV">25:18</a>, <a href="https://www.biblegateway.com/passage/?search=Num.31.16&amp;version=ESV">31:16</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.4.3&amp;version=ESV">4:3</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.22.17&amp;version=ESV">22:17</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.106.28&amp;version=ESV">106:28</a>]]></description>
+	<Placemark>
+		<name>Peor / within 1 km of Khirbet Ayun Musa</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.7385,31.78601 35.73739,31.78596 35.7363,31.78582 35.73523,31.78557 35.73419,31.78524 35.73321,31.78481 35.73228,31.7843 35.73142,31.7837 35.73064,31.78304 35.72994,31.78231 35.72934,31.78152 35.72883,31.78068 35.72844,31.7798 35.72815,31.77889 35.72798,31.77796 35.72792,31.77702 35.72798,31.77608 35.72815,31.77515 35.72844,31.77424 35.72883,31.77336 35.72934,31.77252 35.72994,31.77173 35.73064,31.771 35.73142,31.77034 35.73228,31.76975 35.73321,31.76923 35.7342,31.76881 35.73523,31.76847 35.7363,31.76822 35.73739,31.76808 35.7385,31.76803 35.7396,31.76808 35.7407,31.76822 35.74177,31.76847 35.7428,31.76881 35.74379,31.76923 35.74472,31.76975 35.74558,31.77034 35.74636,31.771 35.74706,31.77173 35.74766,31.77252 35.74816,31.77336 35.74856,31.77424 35.74885,31.77515 35.74902,31.77608 35.74908,31.77702 35.74902,31.77796 35.74885,31.77889 35.74856,31.7798 35.74816,31.78068 35.74766,31.78152 35.74706,31.78231 35.74636,31.78304 35.74558,31.7837 35.74472,31.7843 35.74379,31.78481 35.7428,31.78524 35.74177,31.78557 35.7407,31.78582 35.7396,31.78596 35.7385,31.78601</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Peor / within 1 km of Khirbet Ayun Musa</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.738498,31.777021</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Peor / within 1 km of Khirbet el Muhatta</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.72238,31.80745 35.72127,31.8074 35.72018,31.80726 35.71911,31.80701 35.71807,31.80667 35.71709,31.80625 35.71616,31.80573 35.7153,31.80514 35.71451,31.80448 35.71382,31.80374 35.71321,31.80296 35.71271,31.80212 35.71231,31.80124 35.71203,31.80033 35.71185,31.7994 35.7118,31.79846 35.71185,31.79752 35.71203,31.79659 35.71231,31.79568 35.71271,31.7948 35.71321,31.79396 35.71382,31.79317 35.71451,31.79244 35.7153,31.79178 35.71616,31.79118 35.71709,31.79067 35.71807,31.79024 35.71911,31.78991 35.72018,31.78966 35.72127,31.78952 35.72238,31.78947 35.72348,31.78952 35.72458,31.78966 35.72565,31.78991 35.72668,31.79024 35.72767,31.79067 35.7286,31.79118 35.72946,31.79178 35.73024,31.79244 35.73094,31.79317 35.73154,31.79396 35.73204,31.7948 35.73244,31.79568 35.73273,31.79659 35.7329,31.79752 35.73296,31.79846 35.7329,31.7994 35.73273,31.80033 35.73244,31.80124 35.73204,31.80212 35.73154,31.80296 35.73094,31.80374 35.73024,31.80448 35.72946,31.80514 35.7286,31.80573 35.72767,31.80625 35.72668,31.80667 35.72565,31.80701 35.72458,31.80726 35.72348,31.8074 35.72238,31.80745</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Peor / within 1 km of Khirbet el Muhatta</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.722377,31.798459</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Peor / within 1 km of Tall Iktanu</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.67188,31.82825 35.67077,31.8282 35.66968,31.82805 35.66861,31.82781 35.66757,31.82747 35.66659,31.82704 35.66566,31.82653 35.6648,31.82594 35.66401,31.82527 35.66332,31.82454 35.66271,31.82375 35.66221,31.82291 35.66181,31.82203 35.66153,31.82113 35.66135,31.8202 35.66129,31.81926 35.66135,31.81832 35.66153,31.81739 35.66181,31.81648 35.66221,31.8156 35.66271,31.81476 35.66332,31.81397 35.66401,31.81324 35.6648,31.81257 35.66566,31.81198 35.66659,31.81147 35.66757,31.81104 35.66861,31.8107 35.66968,31.81046 35.67077,31.81031 35.67188,31.81026 35.67298,31.81031 35.67408,31.81046 35.67515,31.8107 35.67618,31.81104 35.67717,31.81147 35.6781,31.81198 35.67896,31.81257 35.67974,31.81324 35.68044,31.81397 35.68104,31.81476 35.68155,31.8156 35.68194,31.81648 35.68223,31.81739 35.6824,31.81832 35.68246,31.81926 35.6824,31.8202 35.68223,31.82113 35.68194,31.82203 35.68155,31.82291 35.68104,31.82375 35.68044,31.82454 35.67974,31.82527 35.67896,31.82594 35.6781,31.82653 35.67717,31.82704 35.67618,31.82747 35.67515,31.82781 35.67408,31.82805 35.67298,31.8282 35.67188,31.82825</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Peor / within 1 km of Tall Iktanu</name>
+		<description>within 1 km of Beth-peor</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.671878,31.819256</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

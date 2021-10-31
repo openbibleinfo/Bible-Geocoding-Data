@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Gharandal</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/md37ab1/wadi-gharandal">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Gharandal</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>33.122492,29.354125 33.121033,29.3542 33.11996,29.353452 33.119659,29.352554 33.119659,29.349711 33.119187,29.348888 33.117685,29.347841 33.115239,29.347504 33.111076,29.347691 33.108115,29.348327 33.10554,29.349487 33.103609,29.349674 33.098373,29.349374 33.096056,29.349 33.094339,29.348926 33.091979,29.348402 33.089619,29.348215 33.086958,29.348252 33.084168,29.347542 33.082838,29.347467 33.081765,29.347916 33.080564,29.349599 33.077087,29.352965 33.075929,29.353826 33.073869,29.354948 33.072238,29.355584 33.069534,29.355883 33.063784,29.354724 33.062797,29.354724 33.06181,29.354985 33.059964,29.355771 33.058033,29.35708 33.054643,29.360072 33.052626,29.361194 33.050051,29.361381 33.046875,29.360185 33.043485,29.359436 33.040652,29.359212 33.038678,29.358464 33.037477,29.357155 33.035932,29.353003 33.031039,29.348664 33.028851,29.345035 33.028121,29.34324 33.026791,29.34208 33.024817,29.341444 33.022156,29.33976 33.020997,29.338152 33.018765,29.337029 33.015847,29.335944 33.0125,29.334149 33.009839,29.333064 33.007436,29.331455 33.005676,29.329884 33.004346,29.32835 33.002028,29.326479 32.998509,29.323186 32.992759,29.318921 32.989841,29.316975 32.987652,29.315029 32.985678,29.312484 32.983918,29.309453 32.982588,29.305412 32.982845,29.298077 32.982759,29.295382 32.980957,29.291564 32.980131,29.288795 32.977411,29.28312 32.976981,29.281805 32.975893,29.279923 32.975121,29.27779 32.97452,29.27457 32.973232,29.272025 32.971687,29.270078 32.966881,29.267682 32.965336,29.266559 32.959714,29.261018 32.958984,29.260045 32.95671,29.258285 32.955379,29.257499 32.953448,29.257349 32.950702,29.257461 32.94817,29.25821 32.946496,29.259184 32.944522,29.26158 32.94302,29.262666 32.937484,29.264837 32.934051,29.266409 32.932763,29.266746 32.930832,29.266821 32.928729,29.266334 32.92697,29.265361 32.92624,29.264313 32.92521,29.260906 32.922249,29.259034 32.92109,29.25851 32.917185,29.255177 32.914352,29.254167 32.903323,29.254391 32.893796,29.253642 32.889934,29.253642 32.887273,29.254017 32.884741,29.25368 32.880836,29.251433 32.878033,29.249079</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Gharandal</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>32.915833,29.254722</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

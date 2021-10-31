@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Meronoth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a662bda/meronoth">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Meronoth</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.27.30&amp;version=NLT">27:30</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.3.7&amp;version=NIV">3:7</a>]]></description>
+	<Placemark>
+		<name>Meronoth / within 6 km of Tell en Nasbeh</name>
+		<description>within 6 km of Mizpah 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21642,31.9391 35.20977,31.9388 35.2032,31.93792 35.19677,31.93645 35.19056,31.93443 35.18463,31.93186 35.17905,31.92878 35.17388,31.92523 35.16917,31.92123 35.16499,31.91684 35.16137,31.9121 35.15835,31.90707 35.15597,31.9018 35.15425,31.89634 35.15321,31.89076 35.15287,31.88512 35.15322,31.87948 35.15427,31.8739 35.15599,31.86845 35.15838,31.86318 35.1614,31.85814 35.16502,31.85341 35.16921,31.84902 35.17391,31.84503 35.17908,31.84148 35.18466,31.8384 35.19058,31.83584 35.19679,31.83382 35.20321,31.83236 35.20978,31.83147 35.21642,31.83118 35.22306,31.83147 35.22962,31.83236 35.23604,31.83382 35.24225,31.83584 35.24817,31.8384 35.25375,31.84148 35.25892,31.84503 35.26362,31.84902 35.26781,31.85341 35.27144,31.85814 35.27446,31.86318 35.27684,31.86845 35.27857,31.8739 35.27961,31.87948 35.27997,31.88512 35.27962,31.89076 35.27858,31.89634 35.27687,31.9018 35.27448,31.90707 35.27147,31.9121 35.26785,31.91684 35.26366,31.92123 35.25896,31.92523 35.25379,31.92878 35.24821,31.93186 35.24228,31.93443 35.23607,31.93645 35.22964,31.93792 35.22306,31.9388 35.21642,31.9391</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meronoth / within 6 km of Tell en Nasbeh</name>
+		<description>within 6 km of Mizpah 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.216417,31.885136</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meronoth / within 6 km of Nabi Samwil</name>
+		<description>within 6 km of Mizpah 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18015,31.88669 35.17351,31.8864 35.16694,31.88551 35.16051,31.88405 35.1543,31.88202 35.14838,31.87946 35.1428,31.87638 35.13763,31.87283 35.13293,31.86883 35.12875,31.86444 35.12513,31.8597 35.12212,31.85467 35.11974,31.84939 35.11802,31.84394 35.11698,31.83836 35.11664,31.83272 35.11699,31.82708 35.11803,31.8215 35.11976,31.81604 35.12214,31.81077 35.12516,31.80574 35.12879,31.80101 35.13297,31.79662 35.13767,31.79263 35.14284,31.78907 35.14841,31.786 35.15433,31.78344 35.16053,31.78141 35.16695,31.77995 35.17352,31.77907 35.18015,31.77877 35.18678,31.77907 35.19335,31.77995 35.19977,31.78141 35.20597,31.78344 35.21189,31.786 35.21746,31.78907 35.22263,31.79263 35.22733,31.79662 35.23151,31.80101 35.23514,31.80574 35.23816,31.81077 35.24054,31.81604 35.24227,31.8215 35.24331,31.82708 35.24366,31.83272 35.24332,31.83836 35.24228,31.84394 35.24056,31.84939 35.23818,31.85467 35.23517,31.8597 35.23155,31.86444 35.22737,31.86883 35.22267,31.87283 35.2175,31.87638 35.21192,31.87946 35.206,31.88202 35.19979,31.88405 35.19336,31.88551 35.18679,31.8864 35.18015,31.88669</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meronoth / within 6 km of Nabi Samwil</name>
+		<description>within 6 km of Mizpah 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.18015,31.832733</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meronoth / Beitunia</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.167533,31.888956</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

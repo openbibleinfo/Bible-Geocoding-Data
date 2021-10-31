@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hazar-shual</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a89005a/hazar-shual">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hazar-shual</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.28&amp;version=ESV">15:28</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.19.3&amp;version=ESV">19:3</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.4.28&amp;version=ESV">4:28</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.11.27&amp;version=ESV">11:27</a>]]></description>
+	<Placemark>
+		<name>Hazar-shual / within 10 km of Tel Beer Sheva</name>
+		<description>within 10 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.84083,31.33465 34.82983,31.33416 34.81894,31.33269 34.8083,31.33025 34.79801,31.32687 34.7882,31.32259 34.77896,31.31746 34.7704,31.31154 34.76261,31.30487 34.75569,31.29755 34.74969,31.28966 34.7447,31.28126 34.74076,31.27247 34.73792,31.26338 34.73621,31.25408 34.73564,31.24468 34.73623,31.23528 34.73796,31.22598 34.74082,31.21689 34.74478,31.20811 34.74978,31.19972 34.75578,31.19183 34.76271,31.18452 34.7705,31.17787 34.77905,31.17195 34.78828,31.16683 34.79809,31.16256 34.80836,31.15919 34.81898,31.15675 34.82985,31.15528 34.84083,31.15479 34.85182,31.15528 34.86268,31.15675 34.87331,31.15919 34.88358,31.16256 34.89338,31.16683 34.90261,31.17195 34.91117,31.17787 34.91895,31.18452 34.92588,31.19183 34.93189,31.19972 34.93689,31.20811 34.94084,31.21689 34.9437,31.22598 34.94543,31.23528 34.94602,31.24468 34.94546,31.25408 34.94374,31.26338 34.9409,31.27247 34.93696,31.28126 34.93197,31.28966 34.92598,31.29755 34.91905,31.30487 34.91127,31.31154 34.90271,31.31746 34.89347,31.32259 34.88365,31.32687 34.87337,31.33025 34.86272,31.33269 34.85184,31.33416 34.84083,31.33465</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / within 10 km of Tel Beer Sheva</name>
+		<description>within 10 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.840833,31.244722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / within 10 km of Bir es Seba</name>
+		<description>within 10 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.79308,31.32716 34.78207,31.32666 34.77119,31.32519 34.76055,31.32275 34.75026,31.31937 34.74044,31.3151 34.73121,31.30997 34.72265,31.30404 34.71486,31.29738 34.70794,31.29006 34.70195,31.28216 34.69695,31.27377 34.69302,31.26498 34.69018,31.25588 34.68846,31.24658 34.6879,31.23718 34.68848,31.22778 34.69022,31.21849 34.69308,31.2094 34.69703,31.20061 34.70203,31.19223 34.70803,31.18434 34.71496,31.17703 34.72275,31.17037 34.7313,31.16445 34.74053,31.15933 34.75033,31.15506 34.7606,31.15169 34.77123,31.14926 34.78209,31.14779 34.79308,31.14729 34.80406,31.14779 34.81493,31.14926 34.82555,31.15169 34.83582,31.15506 34.84562,31.15933 34.85485,31.16445 34.86341,31.17037 34.87119,31.17703 34.87812,31.18434 34.88412,31.19223 34.88913,31.20061 34.89308,31.2094 34.89594,31.21849 34.89767,31.22778 34.89826,31.23718 34.89769,31.24658 34.89598,31.25588 34.89314,31.26498 34.8892,31.27377 34.88421,31.28216 34.87822,31.29006 34.87129,31.29738 34.86351,31.30404 34.85495,31.30997 34.84571,31.3151 34.8359,31.31937 34.82561,31.32275 34.81497,31.32519 34.80408,31.32666 34.79308,31.32716</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / within 10 km of Bir es Seba</name>
+		<description>within 10 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.793078,31.237225</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / Khirbet el Waten</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.92141,31.2573</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / Hazar Betarim</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.838432,31.274686</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-shual / Tel Masos</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.958277,31.212285</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

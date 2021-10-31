@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Baysh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m81b8c3/wadi-baysh">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Baysh</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>42.657757,17.664896 42.654599,17.664212 42.650422,17.660531 42.649295,17.651013 42.647836,17.648907 42.646291,17.64856 42.643126,17.651238 42.638824,17.648795 42.639875,17.637804 42.637547,17.637548 42.630895,17.63263 42.629951,17.625084 42.625112,17.618673 42.622827,17.607291 42.621518,17.605307 42.620113,17.605307 42.621336,17.599652 42.620445,17.589885 42.618299,17.583452 42.618686,17.576334 42.612495,17.574759 42.607764,17.558321 42.603161,17.555734 42.600972,17.552921 42.602657,17.546312 42.60152,17.535356 42.600393,17.530752 42.59829,17.52622 42.596305,17.524573 42.592947,17.51559 42.586585,17.513083 42.579944,17.507599 42.571243,17.505594 42.567702,17.502268 42.568131,17.500457 42.566383,17.49792 42.56619,17.494901 42.571972,17.486776 42.56958,17.47817 42.569934,17.475847 42.572691,17.473022 42.573035,17.469041 42.575255,17.466074 42.571618,17.453106 42.569751,17.452359 42.566383,17.444038 42.566586,17.436873 42.564924,17.434181 42.566447,17.421038 42.569397,17.413043 42.567305,17.403931 42.564494,17.39872 42.563341,17.384966 42.564122,17.376213 42.567575,17.358533 42.570129,17.351385 42.573948,17.347555 42.576459,17.341964 42.575,17.337068 42.57633,17.331251 42.578905,17.328527 42.579742,17.315335 42.580879,17.313737 42.579549,17.304723 42.58472,17.29911 42.583712,17.296365 42.57912,17.2945 42.57942,17.291448 42.583969,17.286674 42.584441,17.282023 42.589376,17.278868 42.589934,17.275999 42.579399,17.265918 42.580815,17.260447 42.57633,17.253807 42.572475,17.252168 42.565372,17.241348 42.556875,17.240487 42.554214,17.238766 42.553978,17.237085 42.555459,17.235856 42.554794,17.234687 42.54546,17.227309 42.54076,17.221058 42.540396,17.218271 42.535654,17.213803 42.528057,17.210195 42.52471,17.199086 42.522993,17.197282 42.523787,17.192403 42.5175,17.188385 42.513187,17.187258 42.506407,17.178709 42.500956,17.17791 42.496236,17.175675 42.480293,17.153595 42.459586,17.141251 42.446647,17.129112 42.441197,17.127923 42.432163,17.128702 42.426262,17.126877 42.42049,17.132988 42.417176,17.132844</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Baysh</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>42.416389,17.119722</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

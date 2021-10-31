@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Oman</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mdd0bed/oman">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Oman</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>52,19 52.78218,17.34973 52.74583,17.29444 52.81228,17.28553 53.18885,16.46496 53.39841,16.53584 53.66522,16.56379 53.77062,16.60386 53.85856,16.68577 54.03547,16.71716 54.17783,16.80778 54.54292,16.82973 54.67414,16.75512 54.79311,16.73513 55.09372,16.81247 55.35753,17.01675 55.47224,17.23537 56.47503,17.31698 56.56024,17.37475 56.60586,17.46484 56.56164,17.85898 56.74403,18.04692 56.84184,18.48885 56.92676,18.58651 57.32315,18.72107 57.75725,18.74585 57.91208,18.79658 58.03672,18.91285 58.05917,19.02463 57.9588,19.29369 57.97115,19.42416 57.92181,19.55985 58.00705,19.76673 57.99188,19.876 58.04733,20.12288 58.27029,20.13705 58.55983,19.96854 58.67522,19.95731 58.85827,20.05791 59.15949,20.39892 59.18839,20.53278 59.04034,20.96004 59.19789,21.11697 59.52883,21.32985 59.69709,21.67077 59.82271,21.82201 59.88418,21.98908 60.00769,22.14694 60.05458,22.40891 60.02152,22.56053 59.97096,22.65612 59.88393,22.72125 59.61855,22.76446 59.56826,22.80296 59.45744,22.91684 59.35409,23.09636 59.25904,23.16069 59.10869,23.41954 58.99144,23.51969 58.93224,23.63792 58.61376,23.85592 58.18169,24.06071 58.07957,24.06652 57.68786,23.97951 57.27738,24.11608 57.09984,24.25218 56.73656,24.70145 56.59405,25.00876 56.32333,24.97276 56.34897,24.93283 56.32741,24.90065 56.20566,24.85051 56.20105,24.78512 56.11956,24.73428 56.05428,24.75211 55.97834,24.87736 56.06219,24.8708 56.04548,24.96789 55.96112,25.006 55.91091,24.96566 55.85145,24.96582 55.81236,24.91079 55.83658,24.67131 55.7937,24.63713 55.81615,24.61529 55.76482,24.52965 55.8342,24.40955 55.83394,24.32773 55.75288,24.2348 55.83352,24.2009 55.95445,24.22257 56.0174,24.06647 55.83311,24.01463 55.73125,24.05807 55.48527,23.94439 55.53373,23.84935 55.57231,23.62965 55.23647,23.11933 55.21628,23.02621 55.21137,22.70542 55.66669,22.00002 55,20 52,19</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Oman</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>54.130865,17.006157</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

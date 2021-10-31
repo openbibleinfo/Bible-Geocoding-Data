@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ithlah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/abf8060/ithlah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ithlah (Jethlah)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.42&amp;version=ESV">19:42</a>]]></description>
+	<Placemark>
+		<name>Ithlah / within 10 km of Yalo</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.02361,31.93104 35.01253,31.93055 35.00158,31.92908 34.99087,31.92664 34.98051,31.92326 34.97063,31.91898 34.96134,31.91385 34.95272,31.90792 34.94489,31.90126 34.93792,31.89394 34.93189,31.88604 34.92686,31.87765 34.9229,31.86886 34.92004,31.85977 34.91832,31.85047 34.91775,31.84107 34.91834,31.83167 34.92008,31.82237 34.92296,31.81328 34.92694,31.8045 34.93198,31.79611 34.93802,31.78822 34.94499,31.78091 34.95283,31.77426 34.96144,31.76834 34.97072,31.76322 34.98059,31.75895 34.99093,31.75558 35.00162,31.75314 35.01256,31.75167 35.02361,31.75118 35.03467,31.75167 35.0456,31.75314 35.05629,31.75558 35.06663,31.75895 35.0765,31.76322 35.08579,31.76834 35.0944,31.77426 35.10223,31.78091 35.10921,31.78822 35.11525,31.79611 35.12028,31.8045 35.12426,31.81328 35.12714,31.82237 35.12888,31.83167 35.12947,31.84107 35.1289,31.85047 35.12718,31.85977 35.12432,31.86886 35.12036,31.87765 35.11534,31.88604 35.1093,31.89394 35.10233,31.90126 35.0945,31.90792 35.08588,31.91385 35.07659,31.91898 35.06671,31.92326 35.05635,31.92664 35.04564,31.92908 35.03469,31.93055 35.02361,31.93104</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / within 10 km of Yalo</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.023611,31.841111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / within 10 km of Tell el Kokah</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.0263,31.93003 35.01522,31.92954 35.00427,31.92806 34.99356,31.92563 34.9832,31.92225 34.97332,31.91797 34.96403,31.91284 34.95541,31.90691 34.94758,31.90025 34.94061,31.89293 34.93458,31.88503 34.92955,31.87664 34.92559,31.86785 34.92273,31.85876 34.92101,31.84946 34.92044,31.84006 34.92103,31.83066 34.92277,31.82136 34.92565,31.81227 34.92963,31.80348 34.93467,31.7951 34.94071,31.78721 34.94768,31.7799 34.95552,31.77325 34.96413,31.76733 34.97341,31.76221 34.98328,31.75794 34.99362,31.75457 35.00431,31.75213 35.01525,31.75066 35.0263,31.75017 35.03735,31.75066 35.04829,31.75213 35.05898,31.75457 35.06932,31.75794 35.07919,31.76221 35.08847,31.76733 35.09708,31.77325 35.10492,31.7799 35.11189,31.78721 35.11793,31.7951 35.12297,31.80348 35.12695,31.81227 35.12983,31.82136 35.13157,31.83066 35.13216,31.84006 35.13159,31.84946 35.12987,31.85876 35.12701,31.86785 35.12305,31.87664 35.11802,31.88503 35.11199,31.89293 35.10502,31.90025 35.09719,31.90691 35.08857,31.91284 35.07928,31.91797 35.0694,31.92225 35.05904,31.92563 35.04833,31.92806 35.03738,31.92954 35.0263,31.93003</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / within 10 km of Tell el Kokah</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.0263,31.8401</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / within 10 km of Khirbet Haiyan</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.27038,31.9951 35.25929,31.99461 35.24833,31.99313 35.23761,31.9907 35.22725,31.98732 35.21737,31.98304 35.20806,31.97791 35.19944,31.97198 35.1916,31.96532 35.18463,31.958 35.17859,31.9501 35.17356,31.94171 35.1696,31.93292 35.16674,31.92382 35.16501,31.91453 35.16444,31.90513 35.16503,31.89573 35.16678,31.88643 35.16966,31.87734 35.17364,31.86855 35.17868,31.86017 35.18472,31.85228 35.1917,31.84497 35.19955,31.83832 35.20816,31.8324 35.21746,31.82727 35.22733,31.823 35.23767,31.81963 35.24837,31.8172 35.25932,31.81573 35.27038,31.81524 35.28144,31.81573 35.29238,31.8172 35.30308,31.81963 35.31343,31.823 35.3233,31.82727 35.3326,31.8324 35.34121,31.83832 35.34905,31.84497 35.35603,31.85228 35.36208,31.86017 35.36712,31.86855 35.3711,31.87734 35.37398,31.88643 35.37572,31.89573 35.37632,31.90513 35.37575,31.91453 35.37402,31.92382 35.37116,31.93292 35.3672,31.94171 35.36217,31.9501 35.35613,31.958 35.34916,31.96532 35.34132,31.97198 35.3327,31.97791 35.32339,31.98304 35.31351,31.98732 35.30315,31.9907 35.29243,31.99313 35.28146,31.99461 35.27038,31.9951</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / within 10 km of Khirbet Haiyan</name>
+		<description>within 10 km of Aijalon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / Bayt Thul</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.073861,31.822472</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / Al Burj</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.02225,31.90175</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithlah / Shilta</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.020597,31.917722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

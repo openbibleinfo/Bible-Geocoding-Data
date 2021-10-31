@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Seychelles</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/ma8ce8b/seychelles">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Seychelles</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>56.09663,-4.44878 56.10491,-4.43366 56.11517,-4.40584 56.12395,-4.36175 56.12429,-4.32072 56.11706,-4.28285 56.11038,-4.26331 56.09352,-4.2294 56.07063,-4.19926 56.00515,-4.13638 55.97253,-4.11126 55.93549,-4.09335 55.73744,-4.02164 55.70843,-4.01355 55.72764,-4.00895 55.75893,-3.9955 55.78749,-3.97692 55.81146,-3.95684 55.82109,-3.94688 55.83442,-3.93045 55.84218,-3.91897 55.85246,-3.90046 55.85812,-3.8878 55.86628,-3.86352 55.87275,-3.83154 55.87365,-3.79115 55.86871,-3.75467 55.85724,-3.71971 55.83961,-3.68743 55.81642,-3.65892 55.78667,-3.63389 55.75168,-3.61422 55.71349,-3.60195 55.67363,-3.59758 55.63234,-3.60064 55.59194,-3.6123 55.58152,-3.61655 55.55215,-3.63196 55.52571,-3.65202 55.50292,-3.67619 55.48442,-3.70381 55.47072,-3.73412 55.46217,-3.76628 55.45903,-3.79942 55.46138,-3.83262 55.46341,-3.84578 55.472,-3.88059 55.48662,-3.91331 55.50679,-3.9429 55.53188,-3.96842 55.56331,-3.99132 55.594,-4.0061 55.62056,-4.01367 55.59428,-4.02026 55.56094,-4.03555 55.29292,-4.18963 55.2741,-4.1846 55.23933,-4.18161 55.20458,-4.18473 55.1709,-4.19386 55.1393,-4.20872 55.11076,-4.22886 55.0851,-4.2549 55.0654,-4.28317 55.0508,-4.31441 55.04174,-4.3477 55.04043,-4.36149 55.02627,-4.38715 55.01613,-4.41237 55.00696,-4.45101 55.00535,-4.48766 55.00994,-4.52418 55.02078,-4.56136 55.03514,-4.59049 55.06196,-4.62808 55.07643,-4.64629 55.21143,-4.7973 55.32845,-4.91142 55.36671,-4.94636 55.4063,-4.97442 55.44441,-4.99363 55.48317,-5.00474 55.52336,-5.00783 55.55251,-5.00603 55.58594,-5.00067 55.618,-4.98973 55.64775,-4.97354 55.67437,-4.95256 55.84494,-4.79289 55.86187,-4.79864 55.8964,-4.80393 55.93132,-4.80314 55.96557,-4.79627 56.01846,-4.78103 56.05473,-4.76317 56.08355,-4.74251 56.1083,-4.71709 56.1282,-4.68768 56.14262,-4.65522 56.15112,-4.62072 56.15343,-4.58526 56.14948,-4.54994 56.1394,-4.51587 56.1248,-4.48612 56.09663,-4.44878</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Seychelles</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>55.454444,-4.623611</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Meribah 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a65db0f/meribah-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Meribah 2</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.17.7&amp;version=ESV">17:7</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.33.8&amp;version=ESV">33:8</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.95.8&amp;version=ESV">95:8</a>]]></description>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Rufaiyil</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.88028,28.62755 33.87974,28.62753 33.87921,28.62745 33.87869,28.62733 33.87819,28.62716 33.87772,28.62695 33.87727,28.62669 33.87685,28.6264 33.87647,28.62606 33.87613,28.6257 33.87584,28.6253 33.8756,28.62488 33.87541,28.62445 33.87527,28.62399 33.87518,28.62353 33.87516,28.62306 33.87518,28.62259 33.87527,28.62212 33.87541,28.62167 33.8756,28.62123 33.87584,28.62081 33.87613,28.62041 33.87647,28.62005 33.87685,28.61971 33.87727,28.61942 33.87772,28.61916 33.87819,28.61895 33.8787,28.61878 33.87921,28.61866 33.87974,28.61858 33.88028,28.61856 33.88081,28.61858 33.88134,28.61866 33.88186,28.61878 33.88236,28.61895 33.88284,28.61916 33.88329,28.61942 33.88371,28.61971 33.88408,28.62005 33.88442,28.62041 33.88471,28.62081 33.88496,28.62123 33.88515,28.62167 33.88529,28.62212 33.88537,28.62259 33.8854,28.62306 33.88537,28.62353 33.88529,28.62399 33.88515,28.62445 33.88496,28.62488 33.88471,28.6253 33.88442,28.6257 33.88408,28.62606 33.88371,28.6264 33.88329,28.62669 33.88284,28.62695 33.88236,28.62716 33.88186,28.62733 33.88134,28.62745 33.88081,28.62753 33.88028,28.62755</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Rufaiyil</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.880278,28.623056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Feiran</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.61194,28.717 33.61141,28.71697 33.61088,28.7169 33.61036,28.71678 33.60986,28.71661 33.60938,28.71639 33.60893,28.71614 33.60851,28.71584 33.60813,28.71551 33.6078,28.71514 33.6075,28.71475 33.60726,28.71433 33.60707,28.71389 33.60693,28.71343 33.60685,28.71297 33.60682,28.7125 33.60685,28.71203 33.60693,28.71157 33.60707,28.71111 33.60726,28.71067 33.6075,28.71025 33.6078,28.70986 33.60813,28.70949 33.60851,28.70916 33.60893,28.70886 33.60938,28.70861 33.60986,28.70839 33.61036,28.70822 33.61088,28.7081 33.61141,28.70803 33.61194,28.708 33.61248,28.70803 33.61301,28.7081 33.61353,28.70822 33.61403,28.70839 33.61451,28.70861 33.61496,28.70886 33.61537,28.70916 33.61575,28.70949 33.61609,28.70986 33.61638,28.71025 33.61663,28.71067 33.61682,28.71111 33.61696,28.71157 33.61704,28.71203 33.61707,28.7125 33.61704,28.71297 33.61696,28.71343 33.61682,28.71389 33.61663,28.71433 33.61638,28.71475 33.61609,28.71514 33.61575,28.71551 33.61537,28.71584 33.61496,28.71614 33.61451,28.71639 33.61403,28.71661 33.61353,28.71678 33.61301,28.7169 33.61248,28.71697 33.61194,28.717</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Feiran</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.611944,28.7125</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi el Sheikh</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.68167,28.70394 33.68113,28.70392 33.6806,28.70384 33.68008,28.70372 33.67958,28.70355 33.6791,28.70334 33.67865,28.70308 33.67824,28.70279 33.67786,28.70245 33.67752,28.70209 33.67723,28.70169 33.67698,28.70127 33.67679,28.70083 33.67665,28.70038 33.67657,28.69991 33.67654,28.69944 33.67657,28.69897 33.67665,28.69851 33.67679,28.69805 33.67698,28.69761 33.67723,28.6972 33.67752,28.6968 33.67786,28.69644 33.67824,28.6961 33.67865,28.69581 33.6791,28.69555 33.67958,28.69534 33.68008,28.69517 33.6806,28.69505 33.68113,28.69497 33.68167,28.69495 33.6822,28.69497 33.68273,28.69505 33.68325,28.69517 33.68375,28.69534 33.68423,28.69555 33.68468,28.69581 33.6851,28.6961 33.68548,28.69644 33.68581,28.6968 33.68611,28.6972 33.68635,28.69761 33.68654,28.69805 33.68668,28.69851 33.68677,28.69897 33.68679,28.69944 33.68677,28.69991 33.68668,28.70038 33.68654,28.70083 33.68635,28.70127 33.68611,28.70169 33.68581,28.70209 33.68548,28.70245 33.6851,28.70279 33.68468,28.70308 33.68423,28.70334 33.68375,28.70355 33.68325,28.70372 33.68273,28.70384 33.6822,28.70392 33.68167,28.70394</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi el Sheikh</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.681667,28.699444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Sudr</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.80587,29.64075 32.80533,29.64072 32.80479,29.64065 32.80427,29.64053 32.80377,29.64036 32.80328,29.64014 32.80283,29.63989 32.80241,29.63959 32.80203,29.63926 32.80168,29.63889 32.80139,29.6385 32.80114,29.63808 32.80095,29.63764 32.80081,29.63718 32.80072,29.63672 32.8007,29.63625 32.80072,29.63578 32.80081,29.63532 32.80095,29.63486 32.80114,29.63442 32.80139,29.634 32.80168,29.63361 32.80203,29.63324 32.80241,29.63291 32.80283,29.63261 32.80328,29.63236 32.80377,29.63214 32.80427,29.63197 32.80479,29.63185 32.80533,29.63178 32.80587,29.63175 32.80641,29.63178 32.80695,29.63185 32.80747,29.63197 32.80797,29.63214 32.80846,29.63236 32.80891,29.63261 32.80933,29.63291 32.80971,29.63324 32.81006,29.63361 32.81035,29.634 32.8106,29.63442 32.81079,29.63486 32.81093,29.63532 32.81102,29.63578 32.81104,29.63625 32.81102,29.63672 32.81093,29.63718 32.81079,29.63764 32.8106,29.63808 32.81035,29.6385 32.81006,29.63889 32.80971,29.63926 32.80933,29.63959 32.80891,29.63989 32.80846,29.64014 32.80797,29.64036 32.80747,29.64053 32.80695,29.64065 32.80641,29.64072 32.80587,29.64075</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Wadi Sudr</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.80587,29.63625</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Jabal Huwayti</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.86139,28.62616 33.86085,28.62614 33.86032,28.62607 33.85981,28.62594 33.85931,28.62577 33.85883,28.62556 33.85838,28.6253 33.85796,28.62501 33.85758,28.62468 33.85724,28.62431 33.85695,28.62392 33.85671,28.6235 33.85652,28.62306 33.85638,28.6226 33.85629,28.62214 33.85627,28.62167 33.85629,28.6212 33.85638,28.62073 33.85652,28.62028 33.85671,28.61984 33.85695,28.61942 33.85724,28.61902 33.85758,28.61866 33.85796,28.61833 33.85838,28.61803 33.85883,28.61777 33.85931,28.61756 33.85981,28.61739 33.86032,28.61727 33.86085,28.6172 33.86139,28.61717 33.86192,28.6172 33.86245,28.61727 33.86297,28.61739 33.86347,28.61756 33.86395,28.61777 33.8644,28.61803 33.86482,28.61833 33.8652,28.61866 33.86553,28.61902 33.86583,28.61942 33.86607,28.61984 33.86626,28.62028 33.8664,28.62073 33.86648,28.6212 33.86651,28.62167 33.86648,28.62214 33.8664,28.6226 33.86626,28.62306 33.86607,28.6235 33.86583,28.62392 33.86553,28.62431 33.8652,28.62468 33.86482,28.62501 33.8644,28.6253 33.86395,28.62556 33.86347,28.62577 33.86297,28.62594 33.86245,28.62607 33.86192,28.62614 33.86139,28.62616</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Meribah 2 / within 500 m of Jabal Huwayti</name>
+		<description>within 500 m of Rephidim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.861389,28.621667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

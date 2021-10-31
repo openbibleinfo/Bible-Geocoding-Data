@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tora River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mf29181/tora-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Tora River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>36.259328,33.51849 36.259588,33.518272 36.260072,33.518067 36.261003,33.517497 36.261192,33.517111 36.261355,33.516932 36.261553,33.516889 36.262145,33.516968 36.262497,33.517297 36.262806,33.517447 36.263836,33.517154 36.265793,33.51681 36.267372,33.517218 36.267621,33.517354 36.269217,33.517161 36.271371,33.517217 36.271974,33.517296 36.273585,33.517161 36.274626,33.517177 36.27501,33.517215 36.278034,33.518139 36.279342,33.518676 36.28096,33.519611 36.283187,33.521352 36.283772,33.521929 36.284021,33.522364 36.284246,33.522528 36.291072,33.52656 36.29311,33.528237 36.294205,33.528954 36.294879,33.529574 36.295658,33.530094 36.296424,33.530756 36.297445,33.531429 36.298676,33.53242 36.3005,33.53342 36.301723,33.533745 36.302338,33.533701 36.303189,33.533887 36.303622,33.533705 36.304454,33.533712 36.306674,33.533434 36.307511,33.533452 36.309078,33.532933 36.309421,33.53254 36.309636,33.532433 36.310859,33.532451 36.311245,33.532075 36.311459,33.532075 36.312296,33.531825 36.312833,33.531485 36.313047,33.531198 36.313069,33.530966 36.313219,33.530787 36.314657,33.530304 36.314936,33.530286 36.315708,33.530698 36.316566,33.530823 36.317167,33.530429 36.318789,33.530332 36.320107,33.530511 36.320686,33.53034 36.322033,33.530349 36.322395,33.529926 36.32412,33.528963 36.324527,33.528855 36.324871,33.528855 36.32545,33.528998 36.327961,33.530118 36.329441,33.531112 36.329918,33.531288 36.332966,33.531631 36.335149,33.532099 36.335983,33.532166 36.337506,33.532582 36.338883,33.533188 36.339295,33.533517 36.340093,33.533753 36.340266,33.533919 36.341172,33.534389 36.346887,33.537243 36.34733,33.537584 36.350668,33.53872 36.351873,33.539232 36.352476,33.540076 36.352738,33.540276 36.352841,33.540591 36.354074,33.541519 36.354225,33.541823 36.354504,33.541876 36.355255,33.542466 36.355362,33.542753 36.355705,33.542788 36.356263,33.543218 36.356909,33.544043 36.357594,33.544695 36.357656,33.544902 36.357894,33.545221 36.358323,33.545525 36.358731,33.545936 36.359115,33.546102 36.359548,33.546583 36.359846,33.546784</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Tora River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>36.353056,33.540556</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

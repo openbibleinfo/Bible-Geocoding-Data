@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Balikh River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m02640f/balikh-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Balikh River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>38.939338,36.670353 38.945308,36.667942 38.957586,36.651959 38.963581,36.650205 38.968904,36.643252 38.966179,36.642567 38.968537,36.638418 38.965925,36.638028 38.966753,36.632238 38.978603,36.625438 38.97663,36.619843 38.983057,36.611387 38.983378,36.605898 38.996762,36.601226 38.996399,36.595735 39.001681,36.592217 38.997541,36.587089 38.994521,36.586642 38.997613,36.584462 38.998543,36.575171 39.002041,36.573731 39.002298,36.576676 39.007288,36.576505 39.010957,36.571347 39.009693,36.569361 39.014487,36.568132 39.019655,36.558894 39.023878,36.556105 39.032803,36.555547 39.036864,36.551248 39.036758,36.538931 39.034265,36.537094 39.033311,36.528982 39.031311,36.527087 39.029082,36.528874 39.026669,36.525616 39.035906,36.518806 39.035235,36.515269 39.031488,36.514843 39.032655,36.510758 39.029511,36.507362 39.05241,36.49298 39.053791,36.480843 39.060735,36.476841 39.062453,36.465859 39.074398,36.459122 39.072947,36.454095 39.075751,36.444975 39.072589,36.436723 39.065953,36.428937 39.069512,36.422679 39.068673,36.41797 39.072308,36.40741 39.072545,36.398854 39.068195,36.387869 39.055621,36.373872 39.053107,36.36452 39.053132,36.357999 39.056071,36.353042 39.053854,36.342308 39.050069,36.337657 39.041436,36.335153 39.038844,36.331231 39.032551,36.328352 39.032648,36.315334 39.022577,36.306919 39.019704,36.290879 39.005061,36.271658 38.98984,36.258934 38.986349,36.248595 38.979662,36.239662 38.977905,36.229638 38.981496,36.226009 38.981161,36.218485 38.986206,36.207824 38.981622,36.200479 38.978145,36.164605 38.969301,36.141815 38.97157,36.138536 38.990775,36.127145 39.031921,36.109969 39.042053,36.107837 39.04875,36.100188 39.060296,36.093149 39.068858,36.082997 39.069989,36.069765 39.079154,36.056626 39.079844,36.047596 39.085585,36.04318 39.079682,36.019169 39.085075,36.007893 39.083046,35.999913 39.088159,35.990356 39.080583,35.938542 39.083161,35.927913 39.077188,35.925783 39.082323,35.91533 39.083283,35.899491</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Balikh River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>39.0788,35.9264</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

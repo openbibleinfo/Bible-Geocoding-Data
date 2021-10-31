@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Canaan</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a581f0c/canaan">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Canaan</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.10.19&amp;version=NIV">10:19</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.11.31&amp;version=ESV">11:31</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.12.5&amp;version=ESV">12:5</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.12.10&amp;version=NLT">12:10</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.13.12&amp;version=ESV">13:12</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.16.3&amp;version=ESV">16:3</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.17.8&amp;version=ESV">17:8</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.23.2&amp;version=ESV">23:2</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.23.19&amp;version=ESV">23:19</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.28.1&amp;version=NASB">28:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.28.6&amp;version=NASB">28:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.28.8&amp;version=NASB">28:8</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.31.18&amp;version=ESV">31:18</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.33.18&amp;version=ESV">33:18</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.35.6&amp;version=ESV">35:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.36.2&amp;version=NIV">36:2</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.36.5&amp;version=ESV">36:5</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.36.6&amp;version=ESV">36:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.37.1&amp;version=ESV">37:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.42.5&amp;version=ESV">42:5</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.42.7&amp;version=ESV">42:7</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.42.13&amp;version=ESV">42:13</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.42.29&amp;version=ESV">42:29</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.42.32&amp;version=ESV">42:32</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.43.1&amp;version=NLT">43:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.44.8&amp;version=ESV">44:8</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.45.17&amp;version=ESV">45:17</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.45.25&amp;version=ESV">45:25</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.6&amp;version=ESV">46:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.12&amp;version=ESV">46:12</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.31&amp;version=ESV">46:31</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.1&amp;version=ESV">47:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.4&amp;version=ESV">47:4</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.13&amp;version=ESV">47:13</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.14&amp;version=ESV">47:14</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.15&amp;version=ESV">47:15</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.48.3&amp;version=ESV">48:3</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.48.4&amp;version=NLT">48:4</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.48.7&amp;version=ESV">48:7</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.48.21&amp;version=NLT">48:21</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.49.30&amp;version=ESV">49:30</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.50.5&amp;version=ESV">50:5</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.50.13&amp;version=ESV">50:13</a>, Exod <a href="https://www.biblegateway.com/passage/?search=Exod.6.4&amp;version=ESV">6:4</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.15.15&amp;version=ESV">15:15</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.16.35&amp;version=ESV">16:35</a>, Lev <a href="https://www.biblegateway.com/passage/?search=Lev.14.34&amp;version=ESV">14:34</a>, <a href="https://www.biblegateway.com/passage/?search=Lev.18.3&amp;version=ESV">18:3</a>, <a href="https://www.biblegateway.com/passage/?search=Lev.25.38&amp;version=ESV">25:38</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.13.2&amp;version=ESV">13:2</a>, <a href="https://www.biblegateway.com/passage/?search=Num.13.17&amp;version=ESV">13:17</a>, <a href="https://www.biblegateway.com/passage/?search=Num.26.19&amp;version=ESV">26:19</a>, <a href="https://www.biblegateway.com/passage/?search=Num.32.30&amp;version=ESV">32:30</a>, <a href="https://www.biblegateway.com/passage/?search=Num.32.32&amp;version=ESV">32:32</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.40&amp;version=ESV">33:40</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.51&amp;version=ESV">33:51</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.2&amp;version=ESV">34:2</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.29&amp;version=ESV">34:29</a>, <a href="https://www.biblegateway.com/passage/?search=Num.35.10&amp;version=ESV">35:10</a>, <a href="https://www.biblegateway.com/passage/?search=Num.35.14&amp;version=ESV">35:14</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.7&amp;version=NET">1:7</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.2.12&amp;version=NLT">2:12</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.32.49&amp;version=ESV">32:49</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.5.12&amp;version=ESV">5:12</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.3&amp;version=NLT">11:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.14.1&amp;version=ESV">14:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.14.7&amp;version=NLT">14:7</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.14.9&amp;version=NLT">14:9</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.2&amp;version=ESV">21:2</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.22.9&amp;version=ESV">22:9</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.22.10&amp;version=ESV">22:10</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.22.11&amp;version=ESV">22:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.22.32&amp;version=ESV">22:32</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.3&amp;version=ESV">24:3</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.4.2&amp;version=ESV">4:2</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.4.23&amp;version=ESV">4:23</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.4.24&amp;version=ESV">4:24</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.5.19&amp;version=ESV">5:19</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.21.12&amp;version=ESV">21:12</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.16.18&amp;version=ESV">16:18</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.16.19&amp;version=NLT">16:19</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.105.11&amp;version=ESV">105:11</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.105.12&amp;version=NLT">105:12</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.105.16&amp;version=NLT">105:16</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.106.38&amp;version=ESV">106:38</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.135.11&amp;version=ESV">135:11</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.19.18&amp;version=ESV">19:18</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.11&amp;version=ESV">23:11</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.16.3&amp;version=NKJV">16:3</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.16.29&amp;version=KJV">16:29</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.17.4&amp;version=LEB">17:4</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.8.9&amp;version=NIV">8:9</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.11.16&amp;version=NIV">11:16</a>, <a href="https://www.biblegateway.com/passage/?search=Dan.11.41&amp;version=NIV">11:41</a>, Obad <a href="https://www.biblegateway.com/passage/?search=Obad.1.20&amp;version=NIV">20</a>, Zeph <a href="https://www.biblegateway.com/passage/?search=Zeph.1.11&amp;version=NASB">1:11</a>, <a href="https://www.biblegateway.com/passage/?search=Zeph.2.5&amp;version=ESV">2:5</a>, Matt <a href="https://www.biblegateway.com/passage/?search=Matt.15.22&amp;version=NKJV">15:22</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.7.11&amp;version=ESV">7:11</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.13.19&amp;version=ESV">13:19</a>]]></description>
+	<Folder>
+		<name>Canaan</name>
+		<Placemark>
+			<name>Canaan (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.16601,32.36806 34.96148,31.95699 34.96148,31.89826 35.16601,31.89826 35.23418,32.19189 35.23418,32.25061 35.23418,32.36806 35.23418,32.42678 35.16601,32.36806</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.37053,32.9553 34.96148,31.95699 34.89331,31.66337 35.02966,31.72209 35.09783,31.78082 35.16601,31.89826 35.30236,32.30933 35.37053,32.89657 35.37053,32.9553</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.89331,31.72209 34.89331,31.66337 34.96148,31.66337 35.02966,31.66337 35.16601,31.72209 35.37053,32.19189 35.57506,33.24892 35.57506,33.30764 35.57506,33.36637 35.50688,33.30764 35.37053,33.01402 34.96148,32.13316 34.89331,31.95699 34.89331,31.89826 34.89331,31.72209</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.82513,31.60464 35.09783,31.4872 35.16601,31.54592 35.23418,31.66337 35.43871,32.42678 35.64323,33.36637 35.57506,33.36637 35.50688,33.36637 34.96148,32.13316 34.75696,31.66337 34.82513,31.60464</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.82513,31.89826 34.68878,31.54592 34.89331,31.4872 35.02966,31.4872 35.09783,31.4872 35.16601,31.4872 35.23418,31.60464 35.50688,32.48551 35.64323,33.36637 35.57506,33.42509 35.43871,33.42509 34.89331,32.07444 34.82513,31.89826</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.68878,31.4872 34.75696,31.2523 35.16601,31.42847 35.23418,31.54592 35.57506,32.48551 35.77958,33.19019 35.64323,33.36637 35.57506,33.42509 35.50688,33.42509 35.43871,33.42509 34.89331,32.13316 34.68878,31.66337 34.68878,31.54592 34.68878,31.4872</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.62061,31.36975 34.62061,31.31102 34.75696,31.2523 34.82513,31.2523 35.16601,31.42847 35.23418,31.4872 35.57506,32.42678 35.77958,33.07275 35.77958,33.13147 35.77958,33.19019 35.77958,33.24892 35.77958,33.30764 35.64323,33.42509 35.57506,33.42509 35.50688,33.42509 35.43871,33.42509 34.89331,32.13316 34.75696,31.83954 34.68878,31.66337 34.62061,31.36975</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.84776,34.12978 35.43871,33.42509 34.82513,32.07444 34.62061,31.54592 34.62061,31.4872 34.62061,31.42847 34.62061,31.36975 34.62061,31.31102 34.62061,31.2523 34.82513,31.19358 34.89331,31.19358 34.96148,31.19358 35.16601,31.36975 35.23418,31.4872 35.50688,32.01571 35.64323,32.48551 35.71141,32.7204 35.77958,32.9553 35.84776,33.19019 36.05228,34.1885 35.98411,34.1885 35.91593,34.1885 35.84776,34.12978</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.68878,30.84123 34.75696,30.84123 34.82513,30.84123 35.16601,31.19358 36.52951,33.89488 36.12046,34.1885 35.98411,34.24723 35.91593,34.24723 35.84776,34.1885 35.77958,34.12978 35.71141,34.01233 34.68878,32.13316 34.62061,31.95699 34.48426,31.2523 34.68878,30.84123</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canaan</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.333333,32.766667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

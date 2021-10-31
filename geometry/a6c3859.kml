@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ahava</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6c3859/ahava">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ahava (Ahava Canal, Ahava River)</name>
+	<description><![CDATA[Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.8.15&amp;version=ESV">8:15</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.8.21&amp;version=ESV">8:21</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.8.31&amp;version=ESV">8:31</a>]]></description>
+	<Placemark>
+		<name>Ahava / within 250 km of Babylon</name>
+		<description>within 250 km of Babylon 1</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>44.42222,34.79163 44.13617,34.779 43.8535,34.74123 43.57756,34.67879 43.31159,34.5924 43.05867,34.4831 42.82172,34.35215 42.60342,34.20111 42.40621,34.03171 42.23221,33.84593 42.08327,33.64589 41.9609,33.43387 41.86628,33.21228 41.80026,32.9836 41.76334,32.75038 41.75571,32.51519 41.77721,32.28062 41.82739,32.04921 41.9055,31.82347 42.0105,31.60581 42.14108,31.39855 42.29571,31.20388 42.47263,31.02384 42.66987,30.86033 42.88528,30.71504 43.11656,30.58948 43.36128,30.48494 43.61687,30.4025 43.88071,30.343 44.15008,30.30705 44.42222,30.29503 44.69437,30.30705 44.96374,30.343 45.22757,30.4025 45.48317,30.48494 45.72788,30.58948 45.95916,30.71504 46.17458,30.86033 46.37181,31.02384 46.54873,31.20388 46.70336,31.39855 46.83395,31.60581 46.93894,31.82347 47.01705,32.04921 47.06723,32.28062 47.08874,32.51519 47.0811,32.75038 47.04419,32.9836 46.97816,33.21228 46.88355,33.43387 46.76118,33.64589 46.61224,33.84593 46.43824,34.03171 46.24102,34.20111 46.02272,34.35215 45.78578,34.4831 45.53286,34.5924 45.26688,34.67879 44.99094,34.74123 44.70828,34.779 44.42222,34.79163</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ahava / within 250 km of Babylon</name>
+		<description>within 250 km of Babylon 1</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.422222,32.543333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ahava / Hit</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>42.823141,33.643918</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ahava / Opis</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.6991,33.1815</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ahava / Tell Ishnayt</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.289872,33.775182</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ahava / Mesčin</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.244982,33.823671</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

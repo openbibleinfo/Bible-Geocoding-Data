@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gibeah 3</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3bba31/gibeah-3">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gibeah 3</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.24.33&amp;version=ESV">24:33</a>]]></description>
+	<Placemark>
+		<name>Gibeah 3 / Jibiya</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.161111,31.997222</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Jaba</name>
+		<description>another name for Geba 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.8575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Tel el Ful</name>
+		<description>another name for Geba 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.230718,31.823113</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Tel el Ful</name>
+		<description>another name for Gibeah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.230718,31.823113</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Jaba</name>
+		<description>another name for Gibeah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.8575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Khirbet et Tell</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.262,32.0215</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Burj el Bardawil</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.24395,31.98545</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Awarta</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.286392,32.161444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24139,31.94076 35.23917,31.94067 35.23698,31.94037 35.23484,31.93988 35.23277,31.93921 35.23079,31.93835 35.22893,31.93733 35.22721,31.93614 35.22564,31.93481 35.22424,31.93335 35.22303,31.93177 35.22203,31.93009 35.22123,31.92833 35.22066,31.92652 35.22031,31.92466 35.2202,31.92278 35.22031,31.9209 35.22066,31.91904 35.22124,31.91722 35.22203,31.91546 35.22304,31.91378 35.22425,31.9122 35.22564,31.91074 35.22721,31.90941 35.22894,31.90823 35.2308,31.9072 35.23277,31.90635 35.23484,31.90567 35.23698,31.90518 35.23917,31.90489 35.24139,31.90479 35.2436,31.90489 35.24579,31.90518 35.24794,31.90567 35.25001,31.90635 35.25198,31.9072 35.25384,31.90823 35.25557,31.90941 35.25714,31.91074 35.25853,31.9122 35.25974,31.91378 35.26075,31.91546 35.26154,31.91722 35.26212,31.91904 35.26246,31.9209 35.26258,31.92278 35.26246,31.92466 35.26212,31.92652 35.26154,31.92833 35.26075,31.93009 35.25974,31.93177 35.25854,31.93335 35.25714,31.93481 35.25557,31.93614 35.25385,31.93733 35.25199,31.93835 35.25001,31.93921 35.24794,31.93988 35.2458,31.94037 35.2436,31.94067 35.24139,31.94076</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241389,31.922778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Al Bira</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,31.92313 35.21274,31.92303 35.21055,31.92274 35.20841,31.92225 35.20634,31.92157 35.20436,31.92072 35.2025,31.91969 35.20078,31.91851 35.19921,31.91718 35.19782,31.91571 35.19661,31.91413 35.1956,31.91246 35.19481,31.9107 35.19423,31.90888 35.19389,31.90702 35.19377,31.90514 35.19389,31.90326 35.19423,31.9014 35.19481,31.89958 35.1956,31.89782 35.19661,31.89615 35.19782,31.89457 35.19921,31.89311 35.20078,31.89177 35.20251,31.89059 35.20437,31.88956 35.20634,31.88871 35.20841,31.88804 35.21055,31.88755 35.21274,31.88725 35.21496,31.88716 35.21717,31.88725 35.21936,31.88755 35.2215,31.88804 35.22357,31.88871 35.22555,31.88956 35.22741,31.89059 35.22913,31.89177 35.2307,31.89311 35.2321,31.89457 35.2333,31.89615 35.23431,31.89782 35.23511,31.89958 35.23568,31.9014 35.23603,31.90326 35.23615,31.90514 35.23603,31.90702 35.23568,31.90888 35.23511,31.9107 35.23432,31.91246 35.23331,31.91413 35.2321,31.91571 35.23071,31.91718 35.22914,31.91851 35.22741,31.91969 35.22555,31.92072 35.22358,31.92157 35.22151,31.92225 35.21936,31.92274 35.21717,31.92303 35.21496,31.92313</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Al Bira</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Burj Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24548,31.93985 35.24326,31.93975 35.24107,31.93946 35.23893,31.93897 35.23686,31.9383 35.23488,31.93744 35.23302,31.93642 35.2313,31.93523 35.22973,31.9339 35.22833,31.93244 35.22712,31.93086 35.22612,31.92918 35.22532,31.92742 35.22475,31.9256 35.2244,31.92374 35.22429,31.92186 35.2244,31.91998 35.22475,31.91812 35.22533,31.91631 35.22612,31.91455 35.22713,31.91287 35.22834,31.91129 35.22973,31.90983 35.2313,31.9085 35.23302,31.90731 35.23488,31.90629 35.23686,31.90543 35.23893,31.90476 35.24107,31.90427 35.24326,31.90398 35.24548,31.90388 35.24769,31.90398 35.24988,31.90427 35.25203,31.90476 35.2541,31.90543 35.25607,31.90629 35.25793,31.90731 35.25966,31.9085 35.26122,31.90983 35.26262,31.91129 35.26383,31.91287 35.26484,31.91455 35.26563,31.91631 35.26621,31.91812 35.26655,31.91998 35.26667,31.92186 35.26655,31.92374 35.26621,31.9256 35.26563,31.92742 35.26484,31.92918 35.26383,31.93086 35.26262,31.93244 35.26123,31.9339 35.25966,31.93523 35.25794,31.93642 35.25608,31.93744 35.2541,31.9383 35.25203,31.93897 35.24988,31.93946 35.24769,31.93975 35.24548,31.93985</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Burj Beitin</name>
+		<description>within 2 km of Bethel 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245478,31.921866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / Nabi Salih</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.124722,32.016667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Tell Balatah</name>
+		<description>within 2 km of Shechem</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.28194,32.2316 35.27972,32.2315 35.27752,32.2312 35.27537,32.23072 35.2733,32.23004 35.27131,32.22919 35.26945,32.22816 35.26772,32.22698 35.26614,32.22565 35.26474,32.22418 35.26353,32.2226 35.26252,32.22093 35.26172,32.21917 35.26115,32.21735 35.2608,32.21549 35.26069,32.21361 35.2608,32.21173 35.26115,32.20987 35.26173,32.20805 35.26252,32.20629 35.26354,32.20462 35.26475,32.20304 35.26615,32.20157 35.26772,32.20024 35.26945,32.19906 35.27132,32.19803 35.2733,32.19718 35.27538,32.1965 35.27752,32.19602 35.27972,32.19572 35.28194,32.19562 35.28417,32.19572 35.28636,32.19602 35.28851,32.1965 35.29059,32.19718 35.29257,32.19803 35.29444,32.19906 35.29617,32.20024 35.29774,32.20157 35.29914,32.20304 35.30035,32.20462 35.30136,32.20629 35.30216,32.20805 35.30274,32.20987 35.30309,32.21173 35.3032,32.21361 35.30309,32.21549 35.30274,32.21735 35.30216,32.21917 35.30137,32.22093 35.30036,32.2226 35.29914,32.22418 35.29774,32.22565 35.29617,32.22698 35.29444,32.22816 35.29258,32.22919 35.29059,32.23004 35.28851,32.23072 35.28636,32.2312 35.28417,32.2315 35.28194,32.2316</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeah 3 / within 2 km of Tell Balatah</name>
+		<description>within 2 km of Shechem</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.281944,32.213611</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

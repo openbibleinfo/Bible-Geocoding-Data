@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Mizpeh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae32196/valley-of-mizpeh">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Mizpeh (Valley of Mizpah, Mizpah Valley)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.11.8&amp;version=ESV">11:8</a>]]></description>
+	<Placemark>
+		<name>Valley of Mizpeh / about 30 km around Mount Hermon</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85,33.6698 35.81611,33.66831 35.7826,33.66388 35.74984,33.65655 35.71818,33.6464 35.68798,33.63355 35.65957,33.61812 35.63326,33.60031 35.60934,33.5803 35.58807,33.55831 35.56969,33.53458 35.5544,33.50939 35.54235,33.48299 35.53369,33.45569 35.5285,33.42779 35.52683,33.39958 35.52871,33.37138 35.5341,33.34351 35.54294,33.31625 35.55514,33.28992 35.57056,33.26479 35.58903,33.24114 35.61034,33.21924 35.63426,33.19932 35.66052,33.18159 35.68885,33.16625 35.71893,33.15346 35.75043,33.14337 35.78301,33.13608 35.81632,33.13168 35.85,33.1302 35.88368,33.13168 35.91699,33.13608 35.94957,33.14337 35.98107,33.15346 36.01115,33.16625 36.03948,33.18159 36.06574,33.19932 36.08966,33.21924 36.11097,33.24114 36.12944,33.26479 36.14486,33.28992 36.15706,33.31625 36.1659,33.34351 36.17129,33.37138 36.17317,33.39958 36.1715,33.42779 36.16631,33.45569 36.15765,33.48299 36.1456,33.50939 36.13031,33.53458 36.11193,33.55831 36.09066,33.5803 36.06674,33.60031 36.04043,33.61812 36.01202,33.63355 35.98182,33.6464 35.95016,33.65655 35.9174,33.66388 35.88389,33.66831 35.85,33.6698</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 30 km around Mount Hermon</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around Qalat es Subeibeh</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.71472,33.34271 35.70347,33.34222 35.69234,33.34074 35.68146,33.3383 35.67094,33.33493 35.6609,33.33065 35.65146,33.32552 35.64271,33.31959 35.63475,33.31293 35.62767,33.30561 35.62154,33.29771 35.61644,33.28932 35.61241,33.28053 35.60951,33.27143 35.60776,33.26213 35.60718,33.25273 35.60778,33.24333 35.60955,33.23404 35.61248,33.22495 35.61652,33.21616 35.62164,33.20778 35.62777,33.19989 35.63486,33.19258 35.64282,33.18592 35.65156,33.18001 35.661,33.17488 35.67102,33.17061 35.68152,33.16724 35.69239,33.16481 35.70349,33.16334 35.71472,33.16285 35.72595,33.16334 35.73706,33.16481 35.74792,33.16724 35.75842,33.17061 35.76844,33.17488 35.77788,33.18001 35.78663,33.18592 35.79459,33.19258 35.80167,33.19989 35.80781,33.20778 35.81292,33.21616 35.81697,33.22495 35.81989,33.23404 35.82166,33.24333 35.82226,33.25273 35.82169,33.26213 35.81994,33.27143 35.81703,33.28053 35.81301,33.28932 35.8079,33.29771 35.80178,33.30561 35.7947,33.31293 35.78674,33.31959 35.77799,33.32552 35.76854,33.33065 35.7585,33.33493 35.74799,33.3383 35.7371,33.34074 35.72597,33.34222 35.71472,33.34271</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around Qalat es Subeibeh</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.714722,33.252778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / Marjayoun</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.604157,33.398855 35.540145,33.372794 35.525269,33.299632 35.436578,33.304043 35.449799,33.205364 35.504943,33.113535 35.624951,33.276669 35.647162,33.383637 35.604157,33.398855</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / Marjayoun</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.5921,33.3611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around Metula</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.57667,33.36882 35.56541,33.36833 35.55428,33.36685 35.54339,33.36442 35.53287,33.36104 35.52283,33.35676 35.51338,33.35163 35.50463,33.3457 35.49667,33.33904 35.48959,33.33172 35.48346,33.32382 35.47835,33.31543 35.47433,33.30664 35.47142,33.29754 35.46967,33.28824 35.46909,33.27884 35.46969,33.26944 35.47147,33.26015 35.47439,33.25106 35.47844,33.24227 35.48355,33.23389 35.48969,33.226 35.49678,33.21869 35.50474,33.21204 35.51349,33.20612 35.52293,33.20099 35.53295,33.19672 35.54346,33.19335 35.55432,33.19092 35.56543,33.18945 35.57667,33.18896 35.5879,33.18945 35.59901,33.19092 35.60988,33.19335 35.62038,33.19672 35.63041,33.20099 35.63984,33.20612 35.64859,33.21204 35.65655,33.21869 35.66364,33.226 35.66978,33.23389 35.6749,33.24227 35.67894,33.25106 35.68187,33.26015 35.68364,33.26944 35.68424,33.27884 35.68366,33.28824 35.68191,33.29754 35.67901,33.30664 35.67498,33.31543 35.66988,33.32382 35.66375,33.33172 35.65666,33.33904 35.6487,33.3457 35.63995,33.35163 35.6305,33.35676 35.62046,33.36104 35.60994,33.36442 35.59906,33.36685 35.58792,33.36833 35.57667,33.36882</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around Metula</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.576667,33.278889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 5 km around Arnah</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.87917,33.41108 35.87354,33.41083 35.86797,33.41009 35.86252,33.40888 35.85726,33.40719 35.85223,33.40505 35.84751,33.40249 35.84313,33.39952 35.83914,33.39619 35.8356,33.39253 35.83253,33.38859 35.82997,33.38439 35.82795,33.38 35.8265,33.37545 35.82562,33.3708 35.82533,33.3661 35.82562,33.3614 35.82651,33.35675 35.82797,33.35221 35.82999,33.34781 35.83255,33.34362 35.83562,33.33967 35.83917,33.33602 35.84315,33.33269 35.84753,33.32973 35.85226,33.32717 35.85728,33.32503 35.86254,33.32334 35.86798,33.32213 35.87354,33.32139 35.87917,33.32114 35.88479,33.32139 35.89036,33.32213 35.8958,33.32334 35.90106,33.32503 35.90608,33.32717 35.9108,33.32973 35.91518,33.33269 35.91916,33.33602 35.92271,33.33967 35.92578,33.34362 35.92834,33.34781 35.93036,33.35221 35.93183,33.35675 35.93271,33.3614 35.93301,33.3661 35.93272,33.3708 35.93184,33.37545 35.93038,33.38 35.92836,33.38439 35.92581,33.38859 35.92274,33.39253 35.91919,33.39619 35.91521,33.39952 35.91083,33.40249 35.9061,33.40505 35.90108,33.40719 35.89581,33.40888 35.89037,33.41009 35.8848,33.41083 35.87917,33.41108</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 5 km around Arnah</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.879167,33.366111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around the Litani River</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24501,33.42833 35.23374,33.42784 35.2226,33.42636 35.21171,33.42392 35.20118,33.42055 35.19113,33.41627 35.18168,33.41114 35.17292,33.40521 35.16495,33.39855 35.15786,33.39123 35.15173,33.38333 35.14662,33.37494 35.14259,33.36615 35.13969,33.35705 35.13794,33.34775 35.13736,33.33835 35.13796,33.32895 35.13973,33.31965 35.14266,33.31056 35.14671,33.30178 35.15183,33.2934 35.15797,33.28551 35.16506,33.2782 35.17303,33.27154 35.18178,33.26562 35.19123,33.2605 35.20126,33.25623 35.21177,33.25286 35.22265,33.25043 35.23376,33.24896 35.24501,33.24846 35.25625,33.24896 35.26736,33.25043 35.27824,33.25286 35.28875,33.25623 35.29878,33.2605 35.30823,33.26562 35.31698,33.27154 35.32495,33.2782 35.33204,33.28551 35.33818,33.2934 35.3433,33.30178 35.34735,33.31056 35.35028,33.31965 35.35205,33.32895 35.35265,33.33835 35.35207,33.34775 35.35032,33.35705 35.34742,33.36615 35.34339,33.37494 35.33828,33.38333 35.33215,33.39123 35.32506,33.39855 35.31709,33.40521 35.30833,33.41114 35.29888,33.41627 35.28883,33.42055 35.2783,33.42392 35.26741,33.42636 35.25627,33.42784 35.24501,33.42833</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Mizpeh / about 10 km around the Litani River</name>
+		<description>about 10 km around Mizpah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245005,33.338397</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nahal Gerar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m59af06/nahal-gerar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Nahal Gerar</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.598984,31.373509 34.598199,31.372497 34.597083,31.371813 34.594079,31.370766 34.593757,31.369072 34.589399,31.369724 34.587484,31.369019 34.586894,31.367608 34.588243,31.366703 34.588231,31.366019 34.587404,31.365366 34.585694,31.365306 34.583951,31.364311 34.582976,31.363119 34.583505,31.361048 34.58299,31.361069 34.581955,31.360315 34.57799,31.359392 34.5774,31.358856 34.574984,31.358815 34.572256,31.360105 34.570754,31.361666 34.567499,31.361894 34.567334,31.36267 34.561133,31.366513 34.559537,31.366417 34.556042,31.36439 34.554333,31.364408 34.550264,31.3636 34.543838,31.364946 34.540606,31.364333 34.538642,31.365125 34.537505,31.366203 34.536697,31.366392 34.531926,31.365524 34.531238,31.366347 34.531725,31.36761 34.531431,31.368476 34.530092,31.36944 34.528324,31.371661 34.527565,31.372106 34.525164,31.371006 34.523526,31.371897 34.519836,31.370281 34.518915,31.371941 34.518208,31.371906 34.513915,31.374533 34.509178,31.37669 34.506448,31.376773 34.505118,31.37549 34.503862,31.375504 34.502338,31.376959 34.500949,31.376736 34.498702,31.377284 34.495429,31.379466 34.488772,31.380505 34.487989,31.381252 34.486954,31.38361 34.485441,31.382974 34.484176,31.38297 34.483771,31.383286 34.483656,31.383964 34.481624,31.385927 34.481182,31.387028 34.482164,31.388369 34.482069,31.388636 34.47947,31.389928 34.480238,31.391011 34.479864,31.392031 34.480526,31.393056 34.480529,31.393855 34.479505,31.395071 34.478188,31.394784 34.476245,31.395246 34.47561,31.39704 34.476126,31.398534 34.475554,31.399017 34.475155,31.400069 34.472633,31.402235 34.471512,31.402076 34.47185,31.401318 34.471418,31.400704 34.469404,31.400352 34.468288,31.401238 34.468257,31.401936 34.467414,31.40178 34.462524,31.397869 34.458341,31.397822 34.456744,31.39858 34.454826,31.396928 34.454111,31.397486 34.454338,31.398746 34.453336,31.399535 34.451477,31.399565 34.448588,31.400469 34.446751,31.399867 34.443951,31.400133 34.439888,31.398409 34.437544,31.398019 34.436157,31.398197</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Nahal Gerar</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.4362,31.3986</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

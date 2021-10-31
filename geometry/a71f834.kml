@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Beracah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a71f834/valley-of-beracah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Beracah (Valley of Berakah, Valley of Berachah, Valley of Blessing, Berachah)</name>
+	<description><![CDATA[2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.20.26&amp;version=ESV">20:26</a>]]></description>
+	<Placemark>
+		<name>Valley of Beracah / Wadi el Arrub</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.1394,31.62086 35.1481,31.61712 35.15209,31.61191 35.15868,31.6074 35.16385,31.60798 35.16442,31.6108 35.16664,31.61209 35.16946,31.61041 35.1774,31.60977 35.1783,31.6152 35.18444,31.6127 35.18697,31.61434 35.19138,31.61098 35.19444,31.6108 35.20085,31.61461 35.19908,31.61991 35.20008,31.62085 35.20485,31.61852 35.20305,31.61364 35.20462,31.61214 35.20943,31.61118 35.21115,31.61384 35.21489,31.61323 35.21622,31.61017 35.2117,31.61035 35.21322,31.6063 35.21143,31.60575 35.2121,31.60133 35.20989,31.59907 35.21778,31.59071 35.22572,31.58914 35.22525,31.58688 35.22289,31.58664 35.22456,31.58348 35.22445,31.5789 35.22599,31.57766 35.22525,31.57582 35.22811,31.57353 35.22549,31.57227 35.22667,31.56762 35.2329,31.5634 35.23324,31.56008 35.23566,31.55838 35.23785,31.55914 35.23899,31.55683 35.23598,31.5563 35.23715,31.55161 35.23434,31.54969 35.23612,31.54664 35.23075,31.54521 35.23049,31.54258 35.23492,31.53977 35.23586,31.54299 35.23758,31.54342 35.23926,31.54133 35.24117,31.54365 35.24227,31.53762 35.24112,31.53228 35.24355,31.53264 35.25093,31.52861 35.25516,31.52887 35.25668,31.5262 35.26482,31.52123 35.26683,31.51724 35.27986,31.51187 35.28337,31.50789 35.28893,31.50509 35.29775,31.50373 35.30122,31.50173 35.30217,31.4996 35.30597,31.49763 35.30507,31.49577 35.307,31.49503 35.30626,31.49356 35.3093,31.49015 35.30817,31.4892 35.30907,31.48569 35.31604,31.48502 35.31175,31.48065 35.31229,31.47926 35.31767,31.47707 35.31773,31.47499 35.32135,31.47532 35.32262,31.47362 35.32618,31.47666 35.3258,31.47199 35.32832,31.47215 35.3289,31.47041 35.33118,31.47125 35.33026,31.46814 35.3341,31.46719 35.33906,31.46978 35.34488,31.46717 35.35106,31.46749 35.35703,31.46001 35.36254,31.45964 35.36557,31.45537 35.36943,31.45653 35.37286,31.45494 35.37578,31.45616 35.38311,31.45474 35.40021,31.46237</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / Wadi el Arrub</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.17164,31.60894</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / region around Khirbet Bereikut</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.138518,31.647021 35.136042,31.64152 35.138933,31.640925 35.142635,31.642035 35.147551,31.639246 35.148494,31.640648 35.147603,31.643367 35.152738,31.645183 35.151534,31.647402 35.144377,31.650259 35.138518,31.647021</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / region around Khirbet Bereikut</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.14302,31.64328</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / El Baq’a</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.193909,31.644841 35.198258,31.631475 35.210938,31.632672 35.206357,31.647539 35.193909,31.644841</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / El Baq’a</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.20236,31.640157</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / Wadi ar Rashrash</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.0999,31.59451 35.10052,31.59535 35.101,31.59577 35.10165,31.59663 35.10183,31.59733 35.10173,31.59789 35.10137,31.59851 35.1008,31.59923 35.1004,31.59963 35.09913,31.60043 35.09778,31.60155 35.09565,31.60224 35.09492,31.60303 35.09424,31.60354 35.09276,31.6042 35.09226,31.60484 35.09156,31.60597 35.09104,31.60656 35.09048,31.60688 35.08917,31.60747 35.08771,31.60893 35.08711,31.60941 35.08647,31.60977 35.08435,31.61048 35.08254,31.61147 35.0793,31.61301 35.07703,31.61328 35.07467,31.61376 35.0743,31.61387 35.07422,31.61408 35.07392,31.61423 35.07299,31.61429 35.07078,31.61514 35.06956,31.61633 35.06933,31.61648 35.06924,31.61688 35.0689,31.6171 35.06855,31.61717 35.06836,31.6173 35.06806,31.61772 35.06634,31.6184 35.06491,31.6188 35.06385,31.61904 35.06293,31.61913 35.06231,31.61931 35.06121,31.61986 35.06048,31.61999 35.05961,31.6198 35.05909,31.61988 35.05885,31.62 35.05875,31.62017 35.05815,31.6203 35.05763,31.62024 35.05733,31.62011 35.05651,31.61951 35.05445,31.61957 35.05413,31.61968 35.05368,31.61968 35.05252,31.61884 35.0521,31.61874 35.04924,31.61882 35.04832,31.61933 35.04798,31.61973 35.04673,31.62043 35.04637,31.62075 35.04497,31.62275 35.04426,31.62424 35.04366,31.62472 35.0428,31.62598 35.0407,31.62728 35.04031,31.62744 35.03905,31.62772 35.03675,31.62845 35.03609,31.6289 35.03495,31.62947 35.03353,31.6311 35.03325,31.6321 35.03255,31.63305 35.03167,31.63382 35.03059,31.63446 35.0304,31.63479 35.02997,31.63513 35.02785,31.63524 35.02673,31.63506 35.02559,31.63475 35.02362,31.63448 35.02184,31.63446 35.02062,31.63458 35.01911,31.63477 35.01866,31.63495 35.01669,31.63621 35.01609,31.63647 35.01551,31.63683 35.01336,31.63714 35.01295,31.63696 35.01244,31.637 35.01175,31.63723 35.0117,31.63747 35.01137,31.63745 35.0103,31.63716 35.00946,31.63753</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Beracah / Wadi ar Rashrash</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.08081,31.61234</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

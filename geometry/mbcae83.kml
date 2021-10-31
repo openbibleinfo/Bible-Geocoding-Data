@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kishon River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mbcae83/kishon-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Kishon River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.294454,32.469365 35.293588,32.477725 35.291229,32.481256 35.291374,32.482767 35.281429,32.491181 35.280676,32.49986 35.27569,32.505187 35.276258,32.510449 35.275494,32.511707 35.277471,32.516755 35.27729,32.518426 35.278787,32.52024 35.27883,32.526959 35.274048,32.533241 35.261775,32.535905 35.258409,32.538867 35.255193,32.548921 35.256846,32.552291 35.256262,32.556908 35.258755,32.559781 35.257425,32.561499 35.257886,32.563353 35.256223,32.565433 35.261008,32.574926 35.258144,32.579383 35.257961,32.587113 35.252114,32.5926 35.251071,32.595927 35.24843,32.597007 35.246651,32.600083 35.242807,32.601585 35.242658,32.603912 35.239657,32.608114 35.235426,32.61089 35.234826,32.613113 35.2371,32.617794 35.236928,32.619891 35.231135,32.621698 35.2265,32.626631 35.221929,32.627644 35.21693,32.632143 35.21075,32.63536 35.200515,32.63442 35.194871,32.637926 35.189397,32.637636 35.187337,32.636335 35.181007,32.636679 35.178304,32.638016 35.175364,32.641431 35.168219,32.641865 35.163098,32.646701 35.151267,32.65229 35.145709,32.662623 35.139877,32.665969 35.138269,32.668949 35.128264,32.67664 35.121548,32.679855 35.118957,32.682874 35.115095,32.68403 35.112729,32.683243 35.10742,32.685441 35.105752,32.69396 35.102739,32.698214 35.104095,32.699951 35.104111,32.702192 35.101009,32.707358 35.100541,32.715339 35.096901,32.722501 35.097162,32.724206 35.100073,32.727877 35.098544,32.729976 35.098528,32.732498 35.094039,32.734422 35.09378,32.736373 35.092492,32.737179 35.09012,32.73684 35.089319,32.739919 35.086022,32.740763 35.086354,32.743189 35.082922,32.744596 35.083058,32.746378 35.080846,32.746815 35.080692,32.749054 35.07735,32.752921 35.069713,32.755261 35.064606,32.760167 35.064133,32.762771 35.066466,32.76493 35.06584,32.767801 35.064061,32.769244 35.070204,32.772249 35.070548,32.776541 35.068456,32.779365 35.066089,32.7789 35.060417,32.781508 35.057892,32.786155 35.050182,32.793394 35.048809,32.798074 35.045834,32.801627 35.030331,32.801841 35.027879,32.80484 35.02857,32.808887</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Kishon River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.033333,32.816667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

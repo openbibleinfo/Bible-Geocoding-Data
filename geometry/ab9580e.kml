@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dragon Spring</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab9580e/dragon-spring">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Dragon Spring (Jackal Well, Dragon’s Spring, Well of the Dragons, Jackal’s Well, Serpent’s Well, Serpent Well)</name>
+	<description><![CDATA[Neh <a href="https://www.biblegateway.com/passage/?search=Neh.2.13&amp;version=ESV">2:13</a>]]></description>
+	<Placemark>
+		<name>Dragon Spring / Bir Ayub</name>
+		<description>another name for En-rogel</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.235985,31.767198</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dragon Spring / Ain el Madauwerah</name>
+		<description>another name for En-rogel</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.248031,31.798128</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dragon Spring / Gihon Spring</name>
+		<description>another name for En-rogel</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.236383,31.772919</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dragon Spring / Gihon Spring</name>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.236383,31.772919</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dragon Spring / in Jerusalem</name>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.234167,31.776667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dragon Spring / Pool of Siloam</name>
+		<description>another name for Siloam</description>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.235,31.770556</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

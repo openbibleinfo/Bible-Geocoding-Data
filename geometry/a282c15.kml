@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sepharvaim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a282c15/sepharvaim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sepharvaim</name>
+	<description><![CDATA[2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.24&amp;version=ESV">17:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.31&amp;version=ESV">17:31</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.34&amp;version=ESV">18:34</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.19.13&amp;version=ESV">19:13</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.36.19&amp;version=ESV">36:19</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.37.13&amp;version=ESV">37:13</a>]]></description>
+	<Placemark>
+		<name>Sepharvaim / in the region between Damascus and Hamath</name>
+		<description>another name for Sibraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.842998,33.546925 37.104613,35.134191 36.502819,35.145589 36.063758,33.549348 36.842998,33.546925</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / in the region between Damascus and Hamath</name>
+		<description>another name for Sibraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.636361,34.401068</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / Huwwarin</name>
+		<description>another name for Sibraim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>37.066667,34.266667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / Al Zaafaraniyah</name>
+		<description>another name for Sibraim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.778056,34.895278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / Zifran</name>
+		<description>another name for Sibraim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.814639,33.871861</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / within 50 km of Nippur</name>
+		<description>another name for Saparre</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>45.23083,32.57577 45.17506,32.5733 45.1199,32.5659 45.06598,32.55366 45.01389,32.53671 44.96421,32.51525 44.91749,32.48951 44.87424,32.45977 44.83494,32.42638 44.80003,32.38969 44.76987,32.35011 44.7448,32.30808 44.72509,32.26406 44.71095,32.21854 44.70251,32.17202 44.69988,32.125 44.70306,32.07801 44.71201,32.03156 44.72663,31.98616 44.74675,31.9423 44.77214,31.90045 44.80252,31.86109 44.83755,31.82462 44.87684,31.79146 44.91998,31.76195 44.96648,31.73642 45.01584,31.71514 45.06752,31.69835 45.12097,31.68623 45.1756,31.6789 45.23083,31.67645 45.28606,31.6789 45.3407,31.68623 45.39415,31.69835 45.44583,31.71514 45.49519,31.73642 45.54169,31.76195 45.58482,31.79146 45.62412,31.82462 45.65915,31.86109 45.68953,31.90045 45.71492,31.9423 45.73504,31.98616 45.74966,32.03156 45.75861,32.07801 45.76179,32.125 45.75915,32.17202 45.75072,32.21854 45.73657,32.26406 45.71686,32.30808 45.69179,32.35011 45.66164,32.38969 45.62672,32.42638 45.58742,32.45977 45.54418,32.48951 45.49746,32.51525 45.44777,32.53671 45.39568,32.55366 45.34176,32.5659 45.28661,32.5733 45.23083,32.57577</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / within 50 km of Nippur</name>
+		<description>another name for Saparre</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>45.230833,32.126111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sepharvaim / Sippar</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.252153,33.058829</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

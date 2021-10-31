@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Zemaraim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5a92d1/mount-zemaraim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Zemaraim (Zemaraim)</name>
+	<description><![CDATA[2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.13.4&amp;version=ESV">13:4</a>]]></description>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Ras ez Zemara</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29566,31.98581 35.29012,31.98556 35.28464,31.98483 35.27928,31.98361 35.2741,31.98192 35.26916,31.97978 35.26451,31.97722 35.26019,31.97425 35.25627,31.97093 35.25278,31.96727 35.24976,31.96332 35.24725,31.95912 35.24526,31.95473 35.24383,31.95018 35.24296,31.94553 35.24268,31.94083 35.24297,31.93613 35.24384,31.93148 35.24528,31.92694 35.24727,31.92254 35.24979,31.91835 35.25281,31.91441 35.2563,31.91075 35.26022,31.90742 35.26453,31.90446 35.26918,31.9019 35.27412,31.89976 35.2793,31.89808 35.28465,31.89686 35.29013,31.89612 35.29566,31.89588 35.3012,31.89612 35.30668,31.89686 35.31203,31.89808 35.31721,31.89976 35.32215,31.9019 35.3268,31.90446 35.33111,31.90742 35.33503,31.91075 35.33852,31.91441 35.34154,31.91835 35.34406,31.92254 35.34605,31.92694 35.34749,31.93148 35.34836,31.93613 35.34865,31.94083 35.34837,31.94553 35.3475,31.95018 35.34607,31.95473 35.34408,31.95912 35.34156,31.96332 35.33855,31.96727 35.33506,31.97093 35.33113,31.97425 35.32682,31.97722 35.32217,31.97978 35.31723,31.98192 35.31205,31.98361 35.30669,31.98483 35.30121,31.98556 35.29566,31.98581</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Ras ez Zemara</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.295664,31.940843</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Ras et Tahuneh</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2117,31.95376 35.20616,31.95351 35.20068,31.95277 35.19532,31.95155 35.19015,31.94987 35.1852,31.94773 35.18055,31.94516 35.17624,31.9422 35.17232,31.93887 35.16883,31.93521 35.16582,31.93126 35.1633,31.92707 35.16131,31.92268 35.15988,31.91813 35.15902,31.91348 35.15873,31.90878 35.15902,31.90408 35.15989,31.89943 35.16133,31.89488 35.16332,31.89049 35.16584,31.8863 35.16886,31.88235 35.17235,31.8787 35.17627,31.87537 35.18058,31.87241 35.18523,31.86985 35.19016,31.86771 35.19534,31.86602 35.20069,31.86481 35.20617,31.86407 35.2117,31.86382 35.21723,31.86407 35.22271,31.86481 35.22806,31.86602 35.23324,31.86771 35.23817,31.86985 35.24282,31.87241 35.24713,31.87537 35.25105,31.8787 35.25454,31.88235 35.25756,31.8863 35.26008,31.89049 35.26207,31.89488 35.26351,31.89943 35.26438,31.90408 35.26467,31.90878 35.26438,31.91348 35.26352,31.91813 35.26209,31.92268 35.2601,31.92707 35.25758,31.93126 35.25457,31.93521 35.25108,31.93887 35.24716,31.9422 35.24285,31.94516 35.2382,31.94773 35.23325,31.94987 35.22808,31.95155 35.22272,31.95277 35.21724,31.95351 35.2117,31.95376</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Ras et Tahuneh</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2117,31.90879</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Khirbet es Samra</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.4854,31.96127 35.47986,31.96102 35.47438,31.96028 35.46902,31.95906 35.46384,31.95738 35.4589,31.95524 35.45425,31.95267 35.44994,31.94971 35.44602,31.94638 35.44253,31.94272 35.43951,31.93877 35.437,31.93458 35.43501,31.93019 35.43358,31.92564 35.43271,31.92099 35.43243,31.91629 35.43272,31.91159 35.43359,31.90694 35.43503,31.90239 35.43701,31.898 35.43953,31.89381 35.44255,31.88986 35.44605,31.88621 35.44997,31.88288 35.45427,31.87992 35.45892,31.87736 35.46386,31.87522 35.46904,31.87353 35.47439,31.87232 35.47987,31.87158 35.4854,31.87133 35.49093,31.87158 35.49641,31.87232 35.50176,31.87353 35.50694,31.87522 35.51188,31.87736 35.51653,31.87992 35.52083,31.88288 35.52475,31.88621 35.52825,31.88986 35.53127,31.89381 35.53379,31.898 35.53577,31.90239 35.53721,31.90694 35.53808,31.91159 35.53837,31.91629 35.53809,31.92099 35.53722,31.92564 35.53579,31.93019 35.5338,31.93458 35.53129,31.93877 35.52827,31.94272 35.52478,31.94638 35.52086,31.94971 35.51655,31.95267 35.5119,31.95524 35.50696,31.95738 35.50178,31.95906 35.49642,31.96028 35.49094,31.96102 35.4854,31.96127</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Khirbet es Samra</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.4854,31.9163</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Rammun</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29889,31.97469 35.29335,31.97444 35.28787,31.9737 35.28251,31.97249 35.27733,31.9708 35.27239,31.96866 35.26773,31.9661 35.26342,31.96313 35.2595,31.9598 35.25601,31.95615 35.25299,31.9522 35.25048,31.948 35.24849,31.94361 35.24706,31.93906 35.24619,31.93441 35.24591,31.92971 35.2462,31.92501 35.24707,31.92036 35.24851,31.91582 35.2505,31.91142 35.25302,31.90723 35.25604,31.90328 35.25953,31.89963 35.26345,31.8963 35.26776,31.89334 35.27241,31.89078 35.27735,31.88864 35.28252,31.88696 35.28788,31.88574 35.29335,31.885 35.29889,31.88476 35.30442,31.885 35.3099,31.88574 35.31525,31.88696 35.32043,31.88864 35.32537,31.89078 35.33002,31.89334 35.33433,31.8963 35.33825,31.89963 35.34174,31.90328 35.34476,31.90723 35.34728,31.91142 35.34927,31.91582 35.35071,31.92036 35.35158,31.92501 35.35187,31.92971 35.35158,31.93441 35.35072,31.93906 35.34929,31.94361 35.3473,31.948 35.34478,31.9522 35.34176,31.95615 35.33828,31.9598 35.33435,31.96313 35.33004,31.9661 35.32539,31.96866 35.32045,31.9708 35.31527,31.97249 35.30991,31.9737 35.30443,31.97444 35.29889,31.97469</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Rammun</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.298889,31.929722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Khirbet el Mazari’a</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.27447,31.9976 35.26893,31.99735 35.26345,31.99661 35.25809,31.99539 35.25291,31.99371 35.24796,31.99157 35.24331,31.989 35.239,31.98604 35.23507,31.98271 35.23158,31.97905 35.22856,31.9751 35.22605,31.97091 35.22406,31.96652 35.22263,31.96197 35.22176,31.95732 35.22147,31.95262 35.22177,31.94792 35.22264,31.94327 35.22408,31.93872 35.22607,31.93433 35.22859,31.93014 35.23161,31.92619 35.2351,31.92254 35.23902,31.91921 35.24333,31.91625 35.24798,31.91369 35.25292,31.91155 35.2581,31.90986 35.26346,31.90865 35.26893,31.90791 35.27447,31.90766 35.28001,31.90791 35.28548,31.90865 35.29084,31.90986 35.29602,31.91155 35.30096,31.91369 35.30561,31.91625 35.30992,31.91921 35.31384,31.92254 35.31733,31.92619 35.32035,31.93014 35.32287,31.93433 35.32486,31.93872 35.3263,31.94327 35.32717,31.94792 35.32747,31.95262 35.32718,31.95732 35.32631,31.96197 35.32488,31.96652 35.32289,31.97091 35.32038,31.9751 35.31736,31.97905 35.31387,31.98271 35.30994,31.98604 35.30563,31.989 35.30098,31.99157 35.29603,31.99371 35.29085,31.99539 35.28549,31.99661 35.28001,31.99735 35.27447,31.9976</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / within 5 km of Khirbet el Mazari’a</name>
+		<description>within 5 km of Zemaraim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.27447,31.95263</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / Ras ez Zemara</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.295664,31.940843</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Zemaraim / Ras et Tahuneh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2117,31.90879</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

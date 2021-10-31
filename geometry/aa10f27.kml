@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sibmah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa10f27/sibmah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sibmah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.32.3&amp;version=ESV">32:3</a>, <a href="https://www.biblegateway.com/passage/?search=Num.32.38&amp;version=ESV">32:38</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.13.19&amp;version=ESV">13:19</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.16.8&amp;version=ESV">16:8</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.16.9&amp;version=ESV">16:9</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.48.32&amp;version=ESV">48:32</a>]]></description>
+	<Placemark>
+		<name>Sibmah / Qarn al Qubish</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.761314,31.782365</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sibmah / Khirbet Ayun Musa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.738498,31.777021</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sibmah / within 5 km of Ma‘in</name>
+		<description>within 5 km of Baal-meon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.73532,31.72447 35.7298,31.72422 35.72433,31.72348 35.71899,31.72227 35.71382,31.72058 35.70889,31.71844 35.70425,31.71588 35.69995,31.71291 35.69604,31.70958 35.69256,31.70592 35.68955,31.70198 35.68704,31.69778 35.68506,31.69339 35.68363,31.68884 35.68277,31.68419 35.68248,31.67949 35.68277,31.67479 35.68364,31.67014 35.68508,31.6656 35.68706,31.6612 35.68957,31.65701 35.69259,31.65306 35.69607,31.64941 35.69998,31.64608 35.70428,31.64312 35.70891,31.64056 35.71384,31.63842 35.719,31.63673 35.72434,31.63552 35.7298,31.63478 35.73532,31.63453 35.74084,31.63478 35.7463,31.63552 35.75164,31.63673 35.7568,31.63842 35.76173,31.64056 35.76637,31.64312 35.77066,31.64608 35.77458,31.64941 35.77806,31.65306 35.78107,31.65701 35.78358,31.6612 35.78557,31.6656 35.787,31.67014 35.78787,31.67479 35.78816,31.67949 35.78787,31.68419 35.78701,31.68884 35.78558,31.69339 35.7836,31.69778 35.78109,31.70198 35.77808,31.70592 35.7746,31.70958 35.77069,31.71291 35.76639,31.71588 35.76175,31.71844 35.75682,31.72058 35.75166,31.72227 35.74631,31.72348 35.74085,31.72422 35.73532,31.72447</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sibmah / within 5 km of Ma‘in</name>
+		<description>within 5 km of Baal-meon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.735321,31.679501</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sibmah / Sumia</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.771417,31.81688</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

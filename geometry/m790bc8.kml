@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Sa’l</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m790bc8/wadi-sal">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Sa'l</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.012771,28.703293 34.013286,28.704045 34.013822,28.704384 34.014595,28.704629 34.015603,28.704399 34.015667,28.704384 34.016504,28.70414 34.017298,28.704158 34.017856,28.704271 34.018436,28.704215 34.019294,28.703951 34.020216,28.703989 34.02144,28.70429 34.023242,28.705946 34.023628,28.707113 34.024572,28.708732 34.025517,28.709974 34.026632,28.710952 34.028177,28.711781 34.029894,28.712533 34.03146,28.712721 34.032791,28.71274 34.033628,28.712533 34.034046,28.712307 34.034405,28.711917 34.034711,28.711319 34.034757,28.711117 34.034926,28.710369 34.035039,28.710094 34.035151,28.709823 34.035516,28.709353 34.035848,28.709108 34.036256,28.709023 34.036685,28.708741 34.036975,28.708421 34.037372,28.708054 34.037983,28.70797 34.038531,28.70797 34.039131,28.708082 34.040251,28.708027 34.040741,28.707979 34.04117,28.707508 34.041438,28.707104 34.042211,28.706539 34.043262,28.70621 34.044442,28.705739 34.045107,28.705617 34.045719,28.705683 34.046427,28.705928 34.047076,28.706149 34.047757,28.706473 34.048643,28.707066 34.049007,28.707635 34.049383,28.707979 34.049892,28.708275 34.050257,28.708638 34.050788,28.709183 34.050901,28.709395 34.051185,28.709809 34.051189,28.70984 34.05129,28.709953 34.051432,28.710068 34.051604,28.710143 34.051759,28.710176 34.051912,28.71017 34.052129,28.710056 34.052596,28.709762 34.05324,28.709546 34.054077,28.709503 34.054441,28.709682 34.054699,28.709804 34.055375,28.709899 34.055858,28.709974 34.056748,28.710378 34.058615,28.710792 34.059709,28.711103 34.060375,28.711442 34.060965,28.712016 34.061437,28.712731 34.062016,28.713879 34.062424,28.714453 34.063486,28.715083</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Sa'l</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.04194,28.70667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

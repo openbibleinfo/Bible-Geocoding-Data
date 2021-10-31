@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Nu’eima</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m80d92c/wadi-nueima">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Nu'eima</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.416093,31.899642 35.41753,31.899452 35.418184,31.898758 35.419282,31.898612 35.419742,31.89809 35.420754,31.897786 35.421611,31.8968 35.421673,31.895841 35.422203,31.896066 35.42267,31.895954 35.422748,31.894479 35.423979,31.893858 35.423929,31.893555 35.424509,31.892687 35.425124,31.892581 35.425817,31.892026 35.426339,31.891001 35.426845,31.890928 35.427352,31.891239 35.427975,31.891232 35.428216,31.890194 35.429392,31.89024 35.43021,31.889638 35.430506,31.888871 35.430771,31.888732 35.431207,31.888964 35.431558,31.888904 35.43257,31.887264 35.433411,31.886933 35.433397,31.886228 35.4331,31.885703 35.433201,31.885465 35.433887,31.885201 35.434859,31.883523 35.437668,31.881858 35.438059,31.881835 35.438589,31.881372 35.438885,31.881319 35.441541,31.883177 35.442928,31.88204 35.445957,31.882463 35.446939,31.883138 35.447546,31.883918 35.449579,31.884004 35.45158,31.883455 35.453357,31.883673 35.453692,31.883561 35.454222,31.88282 35.454712,31.882615 35.456621,31.882529 35.457634,31.88204 35.457926,31.879774 35.45871,31.8786 35.459819,31.878432 35.460232,31.87746 35.460792,31.877096 35.461859,31.877089 35.463581,31.87617 35.465847,31.876547 35.467225,31.875162 35.468261,31.874639 35.469329,31.874723 35.470629,31.875181 35.47259,31.874657 35.474649,31.874966 35.475905,31.875555 35.477007,31.875237 35.477359,31.875368 35.479507,31.875059 35.481534,31.876098 35.483329,31.875939 35.485004,31.875256 35.486039,31.875621 35.486392,31.875565 35.487317,31.874975 35.489531,31.874657 35.490721,31.875106 35.491481,31.875836 35.492769,31.876088 35.49429,31.87694 35.495854,31.876809 35.497998,31.877787 35.499348,31.877651 35.500911,31.877049 35.502194,31.877118 35.504065,31.876346 35.506057,31.876947 35.506872,31.876754 35.507487,31.877356 35.508435,31.876913 35.509718,31.877118 35.510841,31.876857 35.514275,31.876675 35.515264,31.876902 35.516587,31.876505 35.518766,31.876788 35.51934,31.876471 35.519527,31.87537 35.520436,31.875256 35.520864,31.874893 35.521532,31.874723 35.522174,31.87478 35.523617,31.875438</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Nu'eima</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.417355,31.897732</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

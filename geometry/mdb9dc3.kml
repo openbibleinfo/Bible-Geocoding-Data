@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi el Ghafar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mdb9dc3/wadi-el-ghafar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi el Ghafar</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.849432,31.568827 34.849711,31.568943 34.850035,31.569021 34.850404,31.569026 34.85082,31.56894 34.852028,31.568371 34.852429,31.568076 34.852965,31.567411 34.85317,31.567139 34.853333,31.566714 34.853329,31.566037 34.853106,31.565545 34.852425,31.564516 34.851573,31.563434 34.851359,31.562946 34.851362,31.562579 34.851454,31.562226 34.851698,31.561949 34.852087,31.561691 34.85251,31.561553 34.852889,31.56152 34.853365,31.561594 34.854811,31.561972 34.855352,31.562042 34.85584,31.562028 34.856332,31.561839 34.858043,31.560967 34.858509,31.560787 34.861746,31.560289 34.862261,31.56015 34.863873,31.559512 34.864654,31.559204 34.86493,31.559098 34.865553,31.558946 34.866056,31.558988 34.866478,31.559126 34.868059,31.559915 34.868525,31.560095 34.868715,31.560169 34.869299,31.560196 34.869722,31.560164 34.870339,31.560007 34.870821,31.559726 34.871162,31.559412 34.871388,31.559015 34.871551,31.55847 34.872,31.556761 34.872161,31.556321 34.872445,31.556021 34.872759,31.555781 34.87317,31.555638 34.873571,31.55556 34.874015,31.555569 34.875401,31.555719 34.876744,31.555864 34.877172,31.555827 34.87767,31.555694 34.877964,31.555541 34.878087,31.555477 34.878363,31.555214 34.87859,31.554895 34.878906,31.554113 34.87933,31.553069 34.879478,31.552705 34.879606,31.552388 34.879743,31.551993 34.880025,31.55167 34.880388,31.551449 34.880848,31.551292 34.881286,31.551237 34.884524,31.551297 34.885426,31.551233 34.887879,31.551058 34.88886,31.55095 34.890924,31.550503 34.891481,31.550355 34.892007,31.550097 34.895309,31.547716 34.896322,31.547103 34.897551,31.546443 34.898049,31.546106 34.898422,31.545797 34.899426,31.544733 34.899587,31.544563 34.900269,31.54384 34.902128,31.542381 34.902628,31.541993 34.903041,31.541538 34.904376,31.539778 34.904831,31.539179 34.904933,31.539046</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi el Ghafar</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.853426,31.560713</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

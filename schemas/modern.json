@@ -1,0 +1,730 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": false,
+   "definitions": {
+      "geo_source": {
+         "additionalProperties": false,
+         "properties": {
+            "article": {
+               "type": "string"
+            },
+            "comment": {
+               "type": "string"
+            },
+            "data_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "from": {
+               "enum": [
+                  "accuracy_claims"
+               ],
+               "type": "string"
+            },
+            "geometry_credit": {
+               "enum": [
+                  "osm"
+               ],
+               "type": "string"
+            },
+            "geometry_id": {
+               "$ref": "#/definitions/geometry_id"
+            },
+            "georeference_id": {
+               "type": "string"
+            },
+            "georeference_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "group": {
+               "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                     "comment": {
+                        "type": "string"
+                     },
+                     "osm_version": {
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "type": {
+                        "enum": [
+                           "osm"
+                        ],
+                        "type": "string"
+                     },
+                     "url": {
+                        "$ref": "#/definitions/uri"
+                     }
+                  },
+                  "required": [
+                     "osm_version",
+                     "type",
+                     "url"
+                  ],
+                  "type": "object"
+               },
+               "type": "array"
+            },
+            "id": {
+               "type": "string"
+            },
+            "label": {
+               "type": "string"
+            },
+            "local_geometry_id": {
+               "$ref": "#/definitions/geometry_id"
+            },
+            "map": {
+               "type": "string"
+            },
+            "modifier": {
+               "enum": [
+                  "actual",
+                  "ancient",
+                  "another part of same historical site",
+                  "artifact",
+                  "bay",
+                  "correct location, wrong site",
+                  "correct site, wrong location",
+                  "event",
+                  "modern",
+                  "near",
+                  "nonunique_url",
+                  "on this mountain",
+                  "person",
+                  "same",
+                  "settlement in",
+                  "surrounding",
+                  "upstream",
+                  "wrong location"
+               ],
+               "type": "string"
+            },
+            "osm_version": {
+               "minimum": 1,
+               "type": "number"
+            },
+            "page": {
+               "type": "string"
+            },
+            "plate": {
+               "type": "string"
+            },
+            "source_id": {
+               "$ref": "#/definitions/source_id"
+            },
+            "table": {
+               "type": "string"
+            },
+            "type": {
+               "enum": [
+                  "amudanan",
+                  "amudanan_map",
+                  "ancientlocations",
+                  "ane_kml",
+                  "article",
+                  "biblewalks",
+                  "chapter",
+                  "corona",
+                  "cultnat",
+                  "daahl",
+                  "dare",
+                  "davidrumsey",
+                  "epsg_28191",
+                  "geonames",
+                  "google_books",
+                  "google_earth_community",
+                  "google_maps",
+                  "govmap",
+                  "hadashot_arkheologiyot",
+                  "iaa",
+                  "iaa_archives",
+                  "jstor_pdf",
+                  "known_book",
+                  "map",
+                  "megajordan",
+                  "musil_map",
+                  "oriental_institute",
+                  "osm",
+                  "osm_group",
+                  "ortsangaben_der_bibel",
+                  "palopenmaps",
+                  "pleiades",
+                  "raremaps",
+                  "representative_point_in_region",
+                  "representative_point_along_path",
+                  "topostext",
+                  "van_de_velde_map",
+                  "vici",
+                  "webpage",
+                  "website",
+                  "wikidata",
+                  "wikimedia_commons",
+                  "wikipedia_article"
+               ],
+               "type": "string"
+            },
+            "until": {
+               "$ref": "#/definitions/uri"
+            },
+            "url": {
+               "$ref": "#/definitions/uri"
+            },
+            "url_id": {
+               "type": "string"
+            },
+            "wiki_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "x": {
+               "pattern": "^[0-9]+$",
+               "type": "string"
+            },
+            "y": {
+               "pattern": "^[0-9]+$",
+               "type": "string"
+            }
+         },
+         "required": [
+            "type"
+         ],
+         "type": "object"
+      },
+      "geojson_file": {
+         "pattern": "^m[0-9a-f]{6}\\.geojson$",
+         "type": "string"
+      },
+      "geojson_geometry": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "geometry_credit": {
+               "enum": [
+                  "osm"
+               ],
+               "type": "string"
+            },
+            "id": {
+               "pattern": "^g[0-9a-f]{6}\\.[a-z_]+$",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id"
+         ],
+         "type": "object"
+      },
+      "geojson_point": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "geometry_credit": {
+               "enum": [
+                  "osm"
+               ],
+               "type": "string"
+            },
+            "id": {
+               "pattern": "^m[0-9a-f]{6}\\.(point|representative_point)$",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id"
+         ],
+         "type": "object"
+      },
+      "geometry_id": {
+         "pattern": "^g[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "image_id": {
+         "pattern": "^i[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "kml_file": {
+         "pattern": "^m[0-9a-f]{6}\\.kml$",
+         "type": "string"
+      },
+      "lonlat": {
+         "pattern": "^-?1?[0-9]{1,2}\\.[0-9]{6},-?[0-9]{1,2}\\.[0-9]{6}$",
+         "type": "string"
+      },
+      "lonlat_mixed_precision": {
+         "pattern": "^-?1?[0-9]{1,2}\\.[0-9]{1,6},-?[0-9]{1,2}\\.[0-9]{1,6}$",
+         "type": "string"
+      },
+      "media_object_alternate": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "image_id": {
+               "$ref": "#/definitions/image_id"
+            },
+            "proximity_meters": {
+               "type": "number"
+            },
+            "quality": {
+               "enum": [
+                  "low"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "description",
+            "image_id"
+         ],
+         "type": "object"
+      },
+      "media_object_google": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "image_id": {
+               "$ref": "#/definitions/image_id"
+            },
+            "quality": {
+               "enum": [
+                  "low"
+               ],
+               "type": "string"
+            },
+            "role": {
+               "enum": [
+                  "google_aerialview",
+                  "google_place",
+                  "google_siteview",
+                  "google_streetview"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "description",
+            "image_id",
+            "role"
+         ],
+         "type": "object"
+      },
+      "media_object_thumbnail": {
+         "additionalProperties": false,
+         "properties": {
+            "credit": {
+               "type": "string"
+            },
+            "credit_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "description": {
+               "type": "string"
+            },
+            "file": {
+               "pattern": "^m[0-9a-f]{6}\\.(i[0-9a-f]{6}|satellite)\\.jpg$",
+               "type": "string"
+            },
+            "image_id": {
+               "$ref": "#/definitions/image_id"
+            },
+            "placeholder": {
+               "pattern": "^#[0-9a-f]{6},#[0-9a-f]{6},#[0-9a-f]{6}$",
+               "type": "string"
+            },
+            "proximity_meters": {
+               "type": "number"
+            },
+            "quality": {
+               "enum": [
+                  "low"
+               ],
+               "type": "string"
+            },
+            "role": {
+               "enum": [
+                  "satellite"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "credit",
+            "description",
+            "file",
+            "image_id",
+            "placeholder"
+         ],
+         "type": "object"
+      },
+      "modern_id": {
+         "pattern": "^m[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "source_id": {
+         "pattern": "^s[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "uri": {
+         "pattern": "https?://.+$",
+         "type": "string"
+      },
+      "url_slug": {
+         "pattern": "^\\w[\\w-]*\\w$",
+         "type": "string"
+      }
+   },
+   "properties": {
+      "accuracy_claims": {
+         "items": {
+            "type": "string"
+         },
+         "minItems": 1,
+         "type": "array"
+      },
+      "ancient_associations": {
+         "additionalProperties": false,
+         "patternProperties": {
+            "^a[0-9a-f]{6}$": {
+               "additionalProperties": false,
+               "properties": {
+                  "name": {
+                     "type": "string"
+                  },
+                  "score": {
+                     "type": "number"
+                  },
+                  "url_slug": {
+                     "$ref": "#/definitions/url_slug"
+                  }
+               },
+               "required": [
+                  "name",
+                  "score",
+                  "url_slug"
+               ],
+               "type": "object"
+            }
+         },
+         "type": "object"
+      },
+      "class": {
+         "enum": [
+            "human",
+            "natural",
+            "probability"
+         ],
+         "type": "string"
+      },
+      "coordinates_source": {
+         "$ref": "#/definitions/geo_source"
+      },
+      "custom_lonlat": {
+         "$ref": "#/definitions/lonlat"
+      },
+      "epsg_28191": {
+         "pattern": "^-?\\d{6}/-?\\d{6}$",
+         "type": "string"
+      },
+      "friendly_id": {
+         "type": "string"
+      },
+      "geojson_file": {
+         "$ref": "#/definitions/geojson_file"
+      },
+      "geojson_roles": {
+         "additionalProperties": false,
+         "properties": {
+            "geometry": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "isobands": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "local": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "point": {
+               "$ref": "#/definitions/geojson_point"
+            },
+            "precise": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "precision_radius": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "representative_point": {
+               "$ref": "#/definitions/geojson_point"
+            },
+            "simplified_geometry": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "simplified_local": {
+               "$ref": "#/definitions/geojson_geometry"
+            },
+            "simplified_precise": {
+               "$ref": "#/definitions/geojson_geometry"
+            }
+         },
+         "type": "object"
+      },
+      "geometry": {
+         "enum": [
+            "path",
+            "point",
+            "polygon"
+         ],
+         "type": "string"
+      },
+      "geometry_credit": {
+         "enum": [
+            "osm"
+         ],
+         "type": "string"
+      },
+      "geometry_id": {
+         "$ref": "#/definitions/geometry_id"
+      },
+      "id": {
+         "$ref": "#/definitions/modern_id"
+      },
+      "kml_file": {
+         "$ref": "#/definitions/kml_file"
+      },
+      "land_or_water": {
+         "enum": [
+            "land",
+            "water"
+         ],
+         "type": "string"
+      },
+      "local_geometry_id": {
+         "$ref": "#/definitions/geometry_id"
+      },
+      "lonlat": {
+         "$ref": "#/definitions/lonlat"
+      },
+      "media": {
+         "additionalProperties": true,
+         "properties": {
+            "alternate": {
+               "items": {
+                  "$ref": "#/definitions/media_object_alternate"
+               },
+               "type": "array"
+            },
+            "google": {
+               "items": {
+                  "$ref": "#/definitions/media_object_google"
+               },
+               "type": "array"
+            },
+            "near": {
+               "items": {
+                  "$ref": "#/definitions/media_object_alternate"
+               },
+               "type": "array"
+            },
+            "thumbnail": {
+               "$ref": "#/definitions/media_object_thumbnail"
+            }
+         },
+         "type": "object"
+      },
+      "names": {
+         "items": {
+            "additionalProperties": false,
+            "properties": {
+               "description": {
+                  "enum": [
+                     "description"
+                  ],
+                  "type": "string"
+               },
+               "name": {
+                  "type": "string"
+               },
+               "sentence_name": {
+                  "type": "string"
+               },
+               "type": {
+                  "enum": [
+                     "ancient",
+                     "modern"
+                  ],
+                  "type": "string"
+               },
+               "typo_for": {
+                  "type": "string"
+               },
+               "url_slug": {
+                  "$ref": "#/definitions/url_slug"
+               }
+            },
+            "required": [
+               "name",
+               "type",
+               "url_slug"
+            ],
+            "type": "object"
+         },
+         "type": "array"
+      },
+      "preceding_article": {
+         "enum": [
+            "",
+            "the"
+         ],
+         "type": "string"
+      },
+      "precise_geometry_id": {
+         "$ref": "#/definitions/geometry_id"
+      },
+      "precision": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "meters": {
+               "type": "number"
+            },
+            "radius_geometry_id": {
+               "$ref": "#/definitions/geometry_id"
+            },
+            "same_as": {
+               "enum": [
+                  "root"
+               ],
+               "type": "string"
+            },
+            "type": {
+               "enum": [
+                  "distance",
+                  "settlement",
+                  "path",
+                  "region",
+                  "tel",
+                  "terrain",
+                  "visible",
+                  "water"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "type"
+         ],
+         "type": "object"
+      },
+      "precision_claims": {
+         "items": {
+            "type": "string"
+         },
+         "maxItems": 1,
+         "type": "array"
+      },
+      "root": {
+         "additionalProperties": false,
+         "properties": {
+            "id": {
+               "$ref": "#/definitions/modern_id"
+            },
+            "modifier": {
+               "enum": [
+                  ">"
+               ],
+               "type": "string"
+            },
+            "source": {
+               "enum": [
+                  "modern"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "id",
+            "source"
+         ],
+         "type": "object"
+      },
+      "secondary_sources": {
+         "items": {
+            "$ref": "#/definitions/geo_source"
+         },
+         "type": "array"
+      },
+      "type": {
+         "enum": [
+            "altar",
+            "archipelago",
+            "body of water",
+            "campsite",
+            "cave",
+            "cliff",
+            "field",
+            "ford",
+            "forest",
+            "garden",
+            "gate",
+            "harbor",
+            "hill",
+            "intersection",
+            "island",
+            "marsh",
+            "mine",
+            "mountain",
+            "mountain pass",
+            "mountain range",
+            "mountain ridge",
+            "mouth of river",
+            "path",
+            "plain",
+            "plateau",
+            "pool",
+            "probability center n-s",
+            "probability center radial",
+            "promontory",
+            "region",
+            "river",
+            "river valley",
+            "road",
+            "room",
+            "settlement",
+            "spring",
+            "structure",
+            "valley",
+            "wadi",
+            "wall",
+            "well"
+         ],
+         "type": "string"
+      },
+      "url_slug": {
+         "$ref": "#/definitions/url_slug"
+      }
+   },
+   "required": [
+      "class",
+      "friendly_id",
+      "geometry",
+      "geojson_file",
+      "geojson_roles",
+      "id",
+      "kml_file",
+      "lonlat",
+      "media",
+      "names",
+      "preceding_article",
+      "type",
+      "url_slug"
+   ],
+   "type": "object"
+}

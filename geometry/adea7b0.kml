@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wildgoats' Rocks</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adea7b0/wildgoats-rocks">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Wildgoats’ Rocks (Crags of the Wild Goats, Rocks of the Mountain Goats, Rocks of the Wild Goats)</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.24.2&amp;version=ESV">24:2</a>]]></description>
+	<Placemark>
+		<name>Wildgoats’ Rocks / within 4 km of Ein Gedi</name>
+		<description>within 4 km of Engedi</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.38333,31.48597 35.37892,31.48578 35.37456,31.48519 35.3703,31.48421 35.36618,31.48286 35.36224,31.48115 35.35854,31.4791 35.35511,31.47673 35.35199,31.47407 35.34921,31.47114 35.34681,31.46798 35.34481,31.46463 35.34322,31.46111 35.34208,31.45747 35.34139,31.45375 35.34117,31.44999 35.3414,31.44623 35.34209,31.44251 35.34323,31.43888 35.34482,31.43536 35.34682,31.43201 35.34923,31.42885 35.352,31.42593 35.35513,31.42326 35.35856,31.42089 35.36226,31.41884 35.36619,31.41714 35.37031,31.41579 35.37457,31.41481 35.37893,31.41422 35.38333,31.41403 35.38774,31.41422 35.3921,31.41481 35.39636,31.41579 35.40048,31.41714 35.40441,31.41884 35.40811,31.42089 35.41154,31.42326 35.41466,31.42593 35.41744,31.42885 35.41984,31.43201 35.42185,31.43536 35.42343,31.43888 35.42458,31.44251 35.42527,31.44623 35.4255,31.44999 35.42527,31.45375 35.42458,31.45747 35.42344,31.46111 35.42186,31.46463 35.41986,31.46798 35.41745,31.47114 35.41468,31.47407 35.41156,31.47673 35.40813,31.4791 35.40442,31.48115 35.40049,31.48286 35.39637,31.48421 35.3921,31.48519 35.38774,31.48578 35.38333,31.48597</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wildgoats’ Rocks / within 4 km of Ein Gedi</name>
+		<description>within 4 km of Engedi</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.383333,31.45</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

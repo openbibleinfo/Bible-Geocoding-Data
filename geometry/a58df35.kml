@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gebim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a58df35/gebim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gebim</name>
+	<description><![CDATA[Isa <a href="https://www.biblegateway.com/passage/?search=Isa.10.31&amp;version=ESV">10:31</a>]]></description>
+	<Placemark>
+		<name>Gebim / within 3 km of Ras el Kharruba</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.25758,31.8345 35.25426,31.83435 35.25098,31.83391 35.24777,31.83318 35.24466,31.83217 35.2417,31.83088 35.23891,31.82935 35.23633,31.82757 35.23398,31.82557 35.23189,31.82338 35.23008,31.82101 35.22857,31.81849 35.22738,31.81585 35.22652,31.81313 35.22601,31.81034 35.22583,31.80752 35.22601,31.8047 35.22653,31.80191 35.22739,31.79918 35.22858,31.79654 35.23009,31.79403 35.2319,31.79166 35.23399,31.78946 35.23634,31.78747 35.23892,31.78569 35.24171,31.78415 35.24467,31.78287 35.24777,31.78186 35.25098,31.78113 35.25426,31.78069 35.25758,31.78054 35.2609,31.78069 35.26418,31.78113 35.26739,31.78186 35.27049,31.78287 35.27345,31.78415 35.27624,31.78569 35.27882,31.78747 35.28117,31.78946 35.28326,31.79166 35.28507,31.79403 35.28658,31.79654 35.28777,31.79918 35.28863,31.80191 35.28915,31.8047 35.28933,31.80752 35.28915,31.81034 35.28864,31.81313 35.28778,31.81585 35.28659,31.81849 35.28508,31.82101 35.28327,31.82338 35.28118,31.82557 35.27883,31.82757 35.27625,31.82935 35.27346,31.83088 35.2705,31.83217 35.26739,31.83318 35.26418,31.83391 35.2609,31.83435 35.25758,31.8345</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / within 3 km of Ras el Kharruba</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.25758,31.80752</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / within 3 km of Anata</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.26187,31.84016 35.25855,31.84002 35.25527,31.83957 35.25206,31.83884 35.24895,31.83783 35.24599,31.83655 35.24321,31.83501 35.24062,31.83323 35.23827,31.83124 35.23618,31.82904 35.23437,31.82667 35.23286,31.82416 35.23167,31.82152 35.23081,31.81879 35.2303,31.816 35.23012,31.81318 35.2303,31.81036 35.23082,31.80757 35.23168,31.80484 35.23287,31.80221 35.23438,31.79969 35.23619,31.79732 35.23828,31.79513 35.24063,31.79313 35.24321,31.79136 35.246,31.78982 35.24896,31.78854 35.25206,31.78753 35.25527,31.78679 35.25855,31.78635 35.26187,31.78621 35.26519,31.78635 35.26847,31.78679 35.27168,31.78753 35.27478,31.78854 35.27774,31.78982 35.28053,31.79136 35.28311,31.79313 35.28546,31.79513 35.28755,31.79732 35.28936,31.79969 35.29087,31.80221 35.29206,31.80484 35.29293,31.80757 35.29345,31.81036 35.29362,31.81318 35.29345,31.816 35.29293,31.81879 35.29207,31.82152 35.29088,31.82416 35.28937,31.82667 35.28756,31.82904 35.28547,31.83124 35.28312,31.83323 35.28054,31.83501 35.27775,31.83655 35.27479,31.83783 35.27169,31.83884 35.26847,31.83957 35.26519,31.84002 35.26187,31.84016</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / within 3 km of Anata</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.261872,31.813185</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / within 3 km of Khirbet Deir es Sidd</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2756,31.8379 35.27228,31.83775 35.269,31.83731 35.26579,31.83658 35.26268,31.83557 35.25972,31.83428 35.25693,31.83275 35.25435,31.83097 35.252,31.82897 35.24991,31.82678 35.2481,31.82441 35.24659,31.82189 35.2454,31.81925 35.24454,31.81653 35.24402,31.81374 35.24385,31.81092 35.24403,31.8081 35.24455,31.80531 35.24541,31.80258 35.2466,31.79994 35.24811,31.79743 35.24992,31.79506 35.25201,31.79286 35.25436,31.79087 35.25694,31.78909 35.25973,31.78755 35.26269,31.78627 35.26579,31.78526 35.269,31.78453 35.27228,31.78409 35.2756,31.78394 35.27892,31.78409 35.2822,31.78453 35.28541,31.78526 35.28851,31.78627 35.29147,31.78755 35.29426,31.78909 35.29684,31.79087 35.29919,31.79286 35.30128,31.79506 35.30309,31.79743 35.3046,31.79994 35.30579,31.80258 35.30665,31.80531 35.30717,31.8081 35.30735,31.81092 35.30718,31.81374 35.30666,31.81653 35.3058,31.81925 35.30461,31.82189 35.3031,31.82441 35.30129,31.82678 35.2992,31.82897 35.29685,31.83097 35.29427,31.83275 35.29148,31.83428 35.28852,31.83557 35.28541,31.83658 35.2822,31.83731 35.27892,31.83775 35.2756,31.8379</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / within 3 km of Khirbet Deir es Sidd</name>
+		<description>within 3 km of Anathoth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2756,31.81092</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / Bath el Battash</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.245456,31.79228</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / Isawiya</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.248333,31.798611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / Khirbet ed Dawwara</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.29185,31.86604</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / Shufat</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.22322,31.82014</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gebim / Khirbet et Tell</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.262,32.0215</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

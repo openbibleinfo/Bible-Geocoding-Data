@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jabez</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aedf531/jabez">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Jabez</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.2.55&amp;version=ESV">2:55</a>]]></description>
+	<Placemark>
+		<name>Jabez / within 5 km of Bethlehem</name>
+		<description>within 5 km of Bethlehem 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.20764,31.74927 35.20211,31.74903 35.19664,31.74829 35.1913,31.74707 35.18613,31.74538 35.1812,31.74324 35.17656,31.74068 35.17226,31.73772 35.16835,31.73439 35.16487,31.73073 35.16186,31.72678 35.15935,31.72259 35.15737,31.71819 35.15594,31.71364 35.15507,31.709 35.15479,31.7043 35.15508,31.69959 35.15595,31.69495 35.15738,31.6904 35.15936,31.68601 35.16188,31.68181 35.16489,31.67787 35.16837,31.67421 35.17229,31.67088 35.17658,31.66792 35.18122,31.66536 35.18615,31.66323 35.19131,31.66154 35.19666,31.66032 35.20212,31.65959 35.20764,31.65934 35.21316,31.65959 35.21862,31.66032 35.22396,31.66154 35.22913,31.66323 35.23405,31.66536 35.23869,31.66792 35.24299,31.67088 35.2469,31.67421 35.25039,31.67787 35.2534,31.68181 35.25591,31.68601 35.2579,31.6904 35.25933,31.69495 35.2602,31.69959 35.26049,31.7043 35.26021,31.709 35.25934,31.71364 35.25791,31.71819 35.25593,31.72259 35.25342,31.72678 35.25041,31.73073 35.24693,31.73439 35.24302,31.73772 35.23872,31.74068 35.23408,31.74324 35.22915,31.74538 35.22398,31.74707 35.21863,31.74829 35.21317,31.74903 35.20764,31.74927</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Bethlehem</name>
+		<description>within 5 km of Bethlehem 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.207639,31.704306</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Arad</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.125,31.3258 35.1195,31.32555 35.11406,31.32482 35.10873,31.3236 35.10359,31.32191 35.09868,31.31977 35.09406,31.31721 35.08978,31.31424 35.08589,31.31092 35.08242,31.30726 35.07942,31.30331 35.07692,31.29911 35.07495,31.29472 35.07353,31.29017 35.07267,31.28552 35.07239,31.28082 35.07268,31.27612 35.07354,31.27147 35.07497,31.26693 35.07694,31.26253 35.07945,31.25834 35.08245,31.2544 35.08591,31.25074 35.08981,31.24741 35.09409,31.24445 35.0987,31.24189 35.10361,31.23975 35.10875,31.23807 35.11407,31.23685 35.1195,31.23611 35.125,31.23587 35.1305,31.23611 35.13593,31.23685 35.14125,31.23807 35.14639,31.23975 35.1513,31.24189 35.15591,31.24445 35.16019,31.24741 35.16409,31.25074 35.16755,31.2544 35.17055,31.25834 35.17306,31.26253 35.17503,31.26693 35.17646,31.27147 35.17732,31.27612 35.17761,31.28082 35.17733,31.28552 35.17647,31.29017 35.17505,31.29472 35.17308,31.29911 35.17058,31.30331 35.16758,31.30726 35.16411,31.31092 35.16022,31.31424 35.15594,31.31721 35.15132,31.31977 35.14641,31.32191 35.14127,31.3236 35.13594,31.32482 35.1305,31.32555 35.125,31.3258</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Arad</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.125,31.280833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Malhata</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.0258,31.26217 35.0203,31.26192 35.01486,31.26118 35.00954,31.25996 35.0044,31.25828 34.9995,31.25614 34.99488,31.25357 34.99061,31.25061 34.98671,31.24728 34.98325,31.24362 34.98025,31.23967 34.97776,31.23548 34.97579,31.23109 34.97436,31.22654 34.97351,31.22189 34.97322,31.21719 34.97351,31.21249 34.97438,31.20784 34.9758,31.2033 34.97778,31.1989 34.98028,31.19471 34.98327,31.19076 34.98674,31.18711 34.99063,31.18378 34.99491,31.18082 34.99952,31.17826 35.00442,31.17612 35.00956,31.17443 35.01487,31.17322 35.02031,31.17248 35.0258,31.17223 35.03129,31.17248 35.03673,31.17322 35.04204,31.17443 35.04718,31.17612 35.05208,31.17826 35.05669,31.18082 35.06097,31.18378 35.06486,31.18711 35.06833,31.19076 35.07132,31.19471 35.07382,31.1989 35.0758,31.2033 35.07722,31.20784 35.07809,31.21249 35.07838,31.21719 35.07809,31.22189 35.07724,31.22654 35.07581,31.23109 35.07384,31.23548 35.07135,31.23967 35.06835,31.24362 35.06489,31.24728 35.06099,31.25061 35.05672,31.25357 35.0521,31.25614 35.0472,31.25828 35.04206,31.25996 35.03674,31.26118 35.0313,31.26192 35.0258,31.26217</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Malhata</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.0258,31.2172</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Masos</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.95828,31.25725 34.95278,31.257 34.94734,31.25627 34.94202,31.25505 34.93688,31.25336 34.93198,31.25122 34.92736,31.24866 34.92308,31.2457 34.91919,31.24237 34.91573,31.23871 34.91273,31.23476 34.91024,31.23057 34.90827,31.22617 34.90684,31.22162 34.90599,31.21697 34.9057,31.21227 34.90599,31.20757 34.90685,31.20293 34.90828,31.19838 34.91026,31.19399 34.91276,31.18979 34.91575,31.18585 34.91922,31.18219 34.92311,31.17886 34.92739,31.1759 34.932,31.17334 34.9369,31.1712 34.94204,31.16952 34.94735,31.1683 34.95278,31.16757 34.95828,31.16732 34.96377,31.16757 34.9692,31.1683 34.97452,31.16952 34.97965,31.1712 34.98455,31.17334 34.98917,31.1759 34.99344,31.17886 34.99734,31.18219 35.0008,31.18585 35.0038,31.18979 35.0063,31.19399 35.00827,31.19838 35.0097,31.20293 35.01056,31.20757 35.01085,31.21227 35.01057,31.21697 35.00971,31.22162 35.00829,31.22617 35.00632,31.23057 35.00382,31.23476 35.00082,31.23871 34.99736,31.24237 34.99347,31.2457 34.98919,31.24866 34.98458,31.25122 34.97967,31.25336 34.97453,31.25505 34.96921,31.25627 34.96378,31.257 34.95828,31.25725</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jabez / within 5 km of Tel Masos</name>
+		<description>within 5 km of Arad 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.958277,31.212285</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

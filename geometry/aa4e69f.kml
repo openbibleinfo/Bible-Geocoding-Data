@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sharon 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa4e69f/sharon-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sharon 2</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.16&amp;version=ESV">5:16</a>]]></description>
+	<Placemark>
+		<name>Sharon 2 / in the Transjordan</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.811761,33.353421 35.661238,32.513198 35.639106,31.965954 35.715941,31.789723 35.047135,29.528504 37.670975,29.350224 38.273915,33.302161 35.811761,33.353421</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sharon 2 / in the Transjordan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.9343,31.9547</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sharon 2 / within 30 km of Mount Hermon</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85,33.6698 35.81611,33.66831 35.7826,33.66388 35.74984,33.65655 35.71818,33.6464 35.68798,33.63355 35.65957,33.61812 35.63326,33.60031 35.60934,33.5803 35.58807,33.55831 35.56969,33.53458 35.5544,33.50939 35.54235,33.48299 35.53369,33.45569 35.5285,33.42779 35.52683,33.39958 35.52871,33.37138 35.5341,33.34351 35.54294,33.31625 35.55514,33.28992 35.57056,33.26479 35.58903,33.24114 35.61034,33.21924 35.63426,33.19932 35.66052,33.18159 35.68885,33.16625 35.71893,33.15346 35.75043,33.14337 35.78301,33.13608 35.81632,33.13168 35.85,33.1302 35.88368,33.13168 35.91699,33.13608 35.94957,33.14337 35.98107,33.15346 36.01115,33.16625 36.03948,33.18159 36.06574,33.19932 36.08966,33.21924 36.11097,33.24114 36.12944,33.26479 36.14486,33.28992 36.15706,33.31625 36.1659,33.34351 36.17129,33.37138 36.17317,33.39958 36.1715,33.42779 36.16631,33.45569 36.15765,33.48299 36.1456,33.50939 36.13031,33.53458 36.11193,33.55831 36.09066,33.5803 36.06674,33.60031 36.04043,33.61812 36.01202,33.63355 35.98182,33.6464 35.95016,33.65655 35.9174,33.66388 35.88389,33.66831 35.85,33.6698</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sharon 2 / within 30 km of Mount Hermon</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sharon 2 / Madaba Plateau</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.698867,31.467266 36.078103,31.410726 36.047679,31.759174 35.758692,31.767808 35.698867,31.467266</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sharon 2 / Madaba Plateau</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.79548,31.716107</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

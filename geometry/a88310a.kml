@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Beyond the River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a88310a/beyond-the-river">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Beyond the River (Trans-Euphrates)</name>
+	<description><![CDATA[Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.4.10&amp;version=ESV">4:10</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.11&amp;version=ESV">4:11</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.16&amp;version=ESV">4:16</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.17&amp;version=ESV">4:17</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.20&amp;version=ESV">4:20</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.5.3&amp;version=ESV">5:3</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.5.6&amp;version=ESV">5:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.6.6&amp;version=ESV">6:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.6.8&amp;version=ESV">6:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.6.13&amp;version=ESV">6:13</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.7.21&amp;version=ESV">7:21</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.7.25&amp;version=ESV">7:25</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.8.36&amp;version=ESV">8:36</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.2.7&amp;version=ESV">2:7</a>, <a href="https://www.biblegateway.com/passage/?search=Neh.2.9&amp;version=ESV">2:9</a>, <a href="https://www.biblegateway.com/passage/?search=Neh.3.7&amp;version=ESV">3:7</a>]]></description>
+	<Folder>
+		<name>Beyond the River</name>
+		<Placemark>
+			<name>Beyond the River (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.78109,33.06437 35.66576,32.66625 35.78109,32.76578 35.89642,32.96484 37.04971,34.75638 36.81906,34.75638 36.70373,34.65685 36.47307,34.25873 36.12708,33.66155 35.78109,33.06437</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.4351,32.76578 35.66576,32.46719 35.89642,32.76578 37.16504,34.75638 37.16504,34.85591 37.04971,34.85591 36.93439,34.85591 36.81906,34.85591 36.70373,34.75638 36.35774,34.25873 35.4351,32.86531 35.4351,32.76578</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.4351,32.96484 35.4351,32.86531 35.4351,32.76578 35.55043,32.36766 35.66576,32.36766 36.24241,33.1639 37.28037,34.85591 37.28037,34.95544 37.04971,35.05497 36.93439,34.95544 36.81906,34.85591 36.70373,34.75638 36.5884,34.65685 36.01175,34.05967 35.4351,32.96484</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.20444,32.56672 35.20444,32.46719 35.4351,32.1686 35.55043,32.1686 35.78109,32.1686 37.28037,34.65685 37.3957,34.85591 37.74169,35.65215 37.51103,35.75168 37.3957,35.65215 36.70373,34.85591 36.01175,34.05967 35.4351,33.06437 35.31977,32.86531 35.20444,32.56672</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.31977,33.06437 35.08911,32.26813 35.08911,32.1686 35.20444,32.1686 35.31977,32.1686 35.4351,32.1686 35.55043,32.1686 35.66576,32.1686 35.78109,32.1686 35.89642,32.1686 36.01175,32.1686 36.12708,32.36766 36.24241,32.56672 37.74169,35.25403 37.85702,35.45309 37.97235,35.65215 37.74169,35.95074 37.51103,36.05027 36.5884,35.75168 35.31977,33.06437</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.20444,32.96484 34.97379,32.26813 34.97379,32.1686 34.97379,31.96954 34.97379,31.87001 35.89642,31.47189 36.01175,31.47189 37.3957,32.26813 37.74169,32.46719 37.85702,32.56672 37.97235,32.66625 38.08768,35.55262 37.74169,36.24933 37.16504,36.54792 37.04971,36.54792 36.93439,36.54792 36.81906,36.54792 36.70373,36.54792 36.5884,36.54792 35.20444,32.96484</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyond the River</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.234167,31.776667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

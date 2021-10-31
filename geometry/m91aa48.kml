@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rioni River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m91aa48/rioni-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Rioni River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>43.371613,42.843759 43.376101,42.814982 43.405316,42.783409 43.434258,42.78794 43.475997,42.783559 43.497155,42.774913 43.503225,42.762537 43.572031,42.732132 43.582302,42.695564 43.539194,42.627571 43.507976,42.613443 43.470302,42.610312 43.422448,42.574379 43.270645,42.563524 43.238852,42.544891 43.190794,42.536488 43.179358,42.525502 43.16305,42.523351 43.133655,42.522566 43.053356,42.548238 43.040458,42.54698 43.032777,42.554801 42.978145,42.565043 42.945965,42.549316 42.914254,42.548567 42.872152,42.536588 42.851028,42.548981 42.856198,42.556298 42.847097,42.563757 42.806427,42.554514 42.807559,42.539458 42.793961,42.52573 42.805,42.517534 42.803986,42.511007 42.777736,42.482821 42.750852,42.47094 42.761724,42.457703 42.758516,42.437978 42.746555,42.436391 42.743312,42.423971 42.73022,42.416558 42.71489,42.427262 42.713935,42.416817 42.70406,42.420455 42.687296,42.408611 42.685761,42.393967 42.711268,42.376145 42.717928,42.354947 42.699587,42.343435 42.69787,42.329604 42.72693,42.287174 42.722063,42.278883 42.69932,42.2723 42.704683,42.261878 42.691235,42.208592 42.729627,42.170919 42.699318,42.137844 42.670874,42.13068 42.654191,42.118518 42.610407,42.10929 42.53139,42.109276 42.501349,42.117681 42.491255,42.13429 42.408857,42.133527 42.404394,42.159745 42.367443,42.155403 42.367432,42.136646 42.340602,42.141107 42.347114,42.120264 42.324989,42.119121 42.303909,42.127537 42.291603,42.10843 42.276426,42.104831 42.200991,42.128087 42.175226,42.158982 42.117376,42.159236 42.10619,42.175115 42.083183,42.17216 42.060835,42.185083 42.030627,42.183099 42.01978,42.174768 42.00923,42.187606 41.98142,42.198385 41.957173,42.195651 41.955628,42.20735 41.921795,42.188928 41.892827,42.199007 41.882083,42.185127 41.859999,42.21215 41.823862,42.197384 41.788457,42.212708 41.760494,42.192271 41.776731,42.188005 41.77466,42.178717 41.735304,42.171237 41.690954,42.195541 41.656068,42.198738 41.628863,42.209434</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Rioni River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>41.636111,42.184167</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

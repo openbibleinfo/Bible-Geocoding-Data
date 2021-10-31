@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bosporus</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m17c001/bosporus">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Bosporus</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>29.014867,40.992603 29.020363,40.9911 29.02408,40.994233 29.017534,40.996137 29.019066,40.997025 29.015483,41.000527 29.010343,41.00267 29.013387,41.002534 29.01244,41.004452 29.006661,41.007304 29.010357,41.007224 29.00686,41.010953 29.009829,41.009228 29.009443,41.013877 29.011151,41.01299 29.00644,41.022544 29.051999,41.048144 29.052419,41.061502 29.057011,41.06679 29.055458,41.073539 29.063655,41.076379 29.06624,41.081104 29.065587,41.093017 29.067467,41.094401 29.064402,41.097694 29.066174,41.102745 29.073284,41.107007 29.081467,41.107111 29.087773,41.115046 29.0966,41.118429 29.097612,41.12536 29.091367,41.134403 29.078177,41.13892 29.083466,41.14044 29.078978,41.139605 29.071165,41.143157 29.077909,41.154496 29.072416,41.161189 29.073494,41.164596 29.086685,41.170052 29.087122,41.178662 29.106678,41.180741 29.108763,41.183965 29.112584,41.18296 29.118618,41.187769 29.120146,41.196712 29.118058,41.200284 29.131043,41.203141 29.129735,41.207401 29.125389,41.204824 29.130043,41.20842 29.141632,41.212985 29.149902,41.213039 29.152208,41.214742 29.150732,41.218076 29.116173,41.233813 29.114577,41.2288 29.115292,41.233438 29.113332,41.234073 29.111986,41.23139 29.113953,41.229637 29.106137,41.220145 29.107554,41.215931 29.111782,41.214163 29.105343,41.20641 29.100168,41.206071 29.091431,41.200362 29.081552,41.187572 29.077146,41.185636 29.072707,41.175022 29.036611,41.157176 29.038135,41.153717 29.053053,41.146356 29.057975,41.139661 29.054229,41.138584 29.061088,41.135707 29.071698,41.124537 29.070327,41.120209 29.061759,41.113125 29.054351,41.113772 29.057691,41.113494 29.059358,41.109323 29.052855,41.097695 29.057209,41.09078 29.056805,41.083166 29.044429,41.077738 29.046456,41.067989 29.042289,41.066533 29.036575,41.059393 29.032807,41.04971 28.996765,41.037482 28.988468,41.028161 28.974481,41.021809 28.975029,41.017605 28.986515,41.017447 28.988068,41.013004 28.986041,41.006324 28.977592,41.001502 29.014867,40.992603</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Bosporus</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>29.075278,41.119444</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

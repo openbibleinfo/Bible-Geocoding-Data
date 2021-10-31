@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Horem</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a9cdd53/horem">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Horem</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.38&amp;version=ESV">19:38</a>]]></description>
+	<Placemark>
+		<name>Horem / within 50 km of Yarun</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.41667,33.53299 35.36028,33.53052 35.30452,33.52312 35.25001,33.51087 35.19736,33.49393 35.14714,33.47246 35.09991,33.44672 35.0562,33.41698 35.01648,33.38358 34.98119,33.34688 34.95071,33.3073 34.92538,33.26526 34.90546,33.22124 34.89117,33.17572 34.88266,33.1292 34.88001,33.08218 34.88323,33.03519 34.89229,32.98875 34.90708,32.94334 34.92742,32.89948 34.95309,32.85764 34.9838,32.81828 35.0192,32.78182 35.05892,32.74866 35.10252,32.71916 35.14951,32.69363 35.1994,32.67236 35.25163,32.65557 35.30564,32.64345 35.36085,32.63612 35.41667,32.63367 35.47248,32.63612 35.52769,32.64345 35.58171,32.65557 35.63394,32.67236 35.68382,32.69363 35.73082,32.71916 35.77441,32.74866 35.81413,32.78182 35.84954,32.81828 35.88025,32.85764 35.90592,32.89948 35.92626,32.94334 35.94104,32.98875 35.9501,33.03519 35.95333,33.08218 35.95067,33.1292 35.94216,33.17572 35.92787,33.22124 35.90796,33.26526 35.88262,33.3073 35.85215,33.34688 35.81686,33.38358 35.77714,33.41698 35.73342,33.44672 35.6862,33.47246 35.63598,33.49393 35.58332,33.51087 35.52881,33.52312 35.47305,33.53052 35.41667,33.53299</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Yarun</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.416667,33.083333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Majdal</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.51355,33.27673 35.45733,33.27425 35.40174,33.26685 35.34739,33.25461 35.29489,33.23766 35.24481,33.2162 35.19772,33.19046 35.15414,33.16072 35.11453,33.12732 35.07934,33.09062 35.04896,33.05104 35.0237,33.00901 35.00384,32.96499 34.98959,32.91947 34.98109,32.87294 34.97844,32.82593 34.98166,32.77894 34.99069,32.73249 35.00543,32.68709 35.02571,32.64323 35.0513,32.60139 35.08192,32.56202 35.11723,32.52556 35.15683,32.4924 35.2003,32.4629 35.24716,32.43737 35.2969,32.4161 35.34898,32.39931 35.40284,32.38719 35.4579,32.37986 35.51355,32.37741 35.56921,32.37986 35.62426,32.38719 35.67812,32.39931 35.7302,32.4161 35.77994,32.43737 35.8268,32.4629 35.87027,32.4924 35.90988,32.52556 35.94518,32.56202 35.9758,32.60139 36.00139,32.64323 36.02168,32.68709 36.03642,32.73249 36.04545,32.77894 36.04866,32.82593 36.04601,32.87294 36.03752,32.91947 36.02327,32.96499 36.00341,33.00901 35.97815,33.05104 35.94776,33.09062 35.91257,33.12732 35.87297,33.16072 35.82938,33.19046 35.78229,33.2162 35.73222,33.23766 35.67971,33.25461 35.62536,33.26685 35.56977,33.27425 35.51355,33.27673</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Majdal</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.513552,32.827069</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Majdel Selem</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.46444,33.67133 35.40797,33.66885 35.35212,33.66145 35.29752,33.64921 35.24478,33.63226 35.19448,33.61079 35.14718,33.58505 35.1034,33.55531 35.06361,33.52191 35.02827,33.48521 34.99775,33.44563 34.97237,33.40359 34.95243,33.35957 34.93812,33.31405 34.92959,33.26753 34.92694,33.22051 34.93017,33.17352 34.93924,33.12707 34.95405,33.08167 34.97443,33.03781 35.00014,32.99597 35.0309,32.95661 35.06636,32.92015 35.10614,32.88699 35.14981,32.85749 35.19688,32.83196 35.24684,32.81069 35.29915,32.79391 35.35325,32.78178 35.40854,32.77446 35.46444,32.77201 35.52034,32.77446 35.57564,32.78178 35.62974,32.79391 35.68205,32.81069 35.73201,32.83196 35.77908,32.85749 35.82274,32.88699 35.86253,32.92015 35.89799,32.95661 35.92875,32.99597 35.95446,33.03781 35.97484,33.08167 35.98965,33.12707 35.99872,33.17352 36.00195,33.22051 35.9993,33.26753 35.99077,33.31405 35.97646,33.35957 35.95651,33.40359 35.93114,33.44563 35.90062,33.48521 35.86527,33.52191 35.82549,33.55531 35.78171,33.58505 35.73441,33.61079 35.68411,33.63226 35.63136,33.64921 35.57677,33.66145 35.52092,33.66885 35.46444,33.67133</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Majdel Selem</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.464444,33.221667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Khirbet el Mejdel</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.51579,33.60964 35.45935,33.60716 35.40354,33.59976 35.34899,33.58752 35.29628,33.57057 35.24602,33.54911 35.19875,33.52336 35.155,33.49362 35.11524,33.46022 35.07992,33.42352 35.04942,33.38394 35.02407,33.34191 35.00413,33.29789 34.98983,33.25236 34.98131,33.20584 34.97866,33.15883 34.98188,33.11184 34.99095,33.06539 35.00575,33.01999 35.02611,32.97613 35.0518,32.93429 35.08254,32.89493 35.11798,32.85847 35.15773,32.8253 35.20137,32.7958 35.2484,32.77028 35.29833,32.74901 35.3506,32.73222 35.40466,32.7201 35.45992,32.71277 35.51579,32.71032 35.57165,32.71277 35.62691,32.7201 35.68097,32.73222 35.73324,32.74901 35.78317,32.77028 35.8302,32.7958 35.87384,32.8253 35.91359,32.85847 35.94903,32.89493 35.97977,32.93429 36.00546,32.97613 36.02582,33.01999 36.04062,33.06539 36.04969,33.11184 36.05292,33.15883 36.05026,33.20584 36.04174,33.25236 36.02744,33.29789 36.00751,33.34191 35.98215,33.38394 35.95165,33.42352 35.91633,33.46022 35.87658,33.49362 35.83282,33.52336 35.78555,33.54911 35.73529,33.57057 35.68259,33.58752 35.62803,33.59976 35.57222,33.60716 35.51579,33.60964</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of Khirbet el Mejdel</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.515786,33.15998</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of the eastern side of the Sea of Galilee</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.64637,33.3101 35.59013,33.30763 35.53452,33.30023 35.48015,33.28799 35.42762,33.27104 35.37753,33.24957 35.33042,33.22383 35.28682,33.19409 35.2472,33.16069 35.212,33.124 35.1816,33.08441 35.15633,33.04238 35.13646,32.99836 35.12221,32.95284 35.11371,32.90632 35.11106,32.8593 35.11428,32.81231 35.12331,32.76586 35.13806,32.72046 35.15835,32.6766 35.18395,32.63476 35.21458,32.5954 35.2499,32.55894 35.28952,32.52577 35.333,32.49627 35.37988,32.47074 35.42964,32.44947 35.48174,32.43268 35.53562,32.42056 35.5907,32.41323 35.64637,32.41078 35.70205,32.41323 35.75712,32.42056 35.811,32.43268 35.8631,32.44947 35.91286,32.47074 35.95974,32.49627 36.00322,32.52577 36.04284,32.55894 36.07816,32.5954 36.10879,32.63476 36.1344,32.6766 36.15468,32.72046 36.16943,32.76586 36.17847,32.81231 36.18168,32.8593 36.17903,32.90632 36.17053,32.95284 36.15628,32.99836 36.13641,33.04238 36.11114,33.08441 36.08074,33.124 36.04554,33.16069 36.00592,33.19409 35.96232,33.22383 35.91521,33.24957 35.86512,33.27104 35.8126,33.28799 35.75823,33.30023 35.70261,33.30763 35.64637,33.3101</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Horem / within 50 km of the eastern side of the Sea of Galilee</name>
+		<description>within 50 km of Migdal-el</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.646371,32.860443</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / Hariss</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.376611,33.174505</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Horem / Khirbet Qatamun</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.367875,33.05772</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

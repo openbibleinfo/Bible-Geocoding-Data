@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Aijalon 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2e7975/aijalon-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Aijalon 2</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.12.12&amp;version=ESV">12:12</a>]]></description>
+	<Placemark>
+		<name>Aijalon 2 / Khirbet el Lon</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2733,32.7689</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / Tel el Butmeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.309023,32.814086</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Rumana</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.31056,32.87799 35.29936,32.87749 35.28829,32.87602 35.27747,32.87358 35.267,32.87021 35.25702,32.86593 35.24763,32.8608 35.23892,32.85487 35.231,32.84821 35.22396,32.84089 35.21787,32.83299 35.21279,32.8246 35.20878,32.81581 35.2059,32.80671 35.20416,32.79741 35.20358,32.78801 35.20418,32.77861 35.20594,32.76931 35.20885,32.76022 35.21287,32.75144 35.21796,32.74306 35.22406,32.73517 35.23111,32.72785 35.23903,32.7212 35.24773,32.71528 35.25712,32.71016 35.26709,32.70589 35.27753,32.70252 35.28834,32.70009 35.29939,32.69862 35.31056,32.69812 35.32173,32.69862 35.33278,32.70009 35.34358,32.70252 35.35403,32.70589 35.364,32.71016 35.37338,32.71528 35.38208,32.7212 35.39,32.72785 35.39705,32.73517 35.40315,32.74306 35.40824,32.75144 35.41226,32.76022 35.41517,32.76931 35.41693,32.77861 35.41753,32.78801 35.41696,32.79741 35.41522,32.80671 35.41233,32.81581 35.40832,32.8246 35.40325,32.83299 35.39715,32.84089 35.39011,32.84821 35.38219,32.85487 35.37349,32.8608 35.36409,32.86593 35.35411,32.87021 35.34365,32.87358 35.33282,32.87602 35.32175,32.87749 35.31056,32.87799</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Rumana</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.310556,32.788056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Horbat Rumah</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29321,32.87885 35.28202,32.87836 35.27095,32.87688 35.26012,32.87445 35.24966,32.87107 35.23967,32.86679 35.23028,32.86166 35.22157,32.85573 35.21366,32.84907 35.20661,32.84175 35.20052,32.83385 35.19544,32.82546 35.19144,32.81667 35.18855,32.80757 35.18681,32.79828 35.18623,32.78887 35.18683,32.77947 35.18859,32.77018 35.1915,32.76109 35.19552,32.7523 35.20061,32.74392 35.20672,32.73603 35.21376,32.72872 35.22168,32.72207 35.23038,32.71615 35.23977,32.71103 35.24974,32.70676 35.26018,32.70339 35.27099,32.70095 35.28204,32.69948 35.29321,32.69899 35.30438,32.69948 35.31543,32.70095 35.32624,32.70339 35.33668,32.70676 35.34665,32.71103 35.35604,32.71615 35.36474,32.72207 35.37266,32.72872 35.3797,32.73603 35.38581,32.74392 35.3909,32.7523 35.39492,32.76109 35.39783,32.77018 35.39959,32.77947 35.40019,32.78887 35.39961,32.79828 35.39787,32.80757 35.39498,32.81667 35.39098,32.82546 35.3859,32.83385 35.37981,32.84175 35.37276,32.84907 35.36485,32.85573 35.35614,32.86166 35.34675,32.86679 35.33676,32.87107 35.3263,32.87445 35.31547,32.87688 35.3044,32.87836 35.29321,32.87885</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Horbat Rumah</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.29321,32.78892</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Tel Hanaton</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.25694,32.87549 35.24575,32.87499 35.23468,32.87352 35.22386,32.87108 35.21339,32.86771 35.20341,32.86343 35.19402,32.8583 35.18531,32.85237 35.17739,32.84571 35.17035,32.83839 35.16426,32.83049 35.15918,32.8221 35.15518,32.81331 35.15229,32.80421 35.15055,32.79491 35.14997,32.78551 35.15057,32.77611 35.15233,32.76681 35.15524,32.75772 35.15926,32.74894 35.16435,32.74056 35.17045,32.73267 35.1775,32.72535 35.18542,32.7187 35.19412,32.71278 35.2035,32.70766 35.21347,32.70339 35.22392,32.70002 35.23473,32.69759 35.24577,32.69612 35.25694,32.69562 35.26811,32.69612 35.27916,32.69759 35.28997,32.70002 35.30041,32.70339 35.31038,32.70766 35.31977,32.71278 35.32847,32.7187 35.33639,32.72535 35.34344,32.73267 35.34954,32.74056 35.35463,32.74894 35.35865,32.75772 35.36156,32.76681 35.36332,32.77611 35.36392,32.78551 35.36334,32.79491 35.3616,32.80421 35.35871,32.81331 35.35471,32.8221 35.34963,32.83049 35.34354,32.83839 35.33649,32.84571 35.32858,32.85237 35.31987,32.8583 35.31048,32.86343 35.30049,32.86771 35.29003,32.87108 35.27921,32.87352 35.26814,32.87499 35.25694,32.87549</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Tel Hanaton</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.256944,32.785556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Qarn Hattin</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.45972,32.88965 35.44853,32.88916 35.43746,32.88769 35.42663,32.88525 35.41617,32.88187 35.40618,32.87759 35.39678,32.87246 35.38808,32.86653 35.38016,32.85987 35.37311,32.85255 35.36702,32.84465 35.36194,32.83626 35.35794,32.82747 35.35505,32.81838 35.35331,32.80908 35.35273,32.79968 35.35333,32.79028 35.35509,32.78098 35.358,32.77189 35.36202,32.76311 35.36711,32.75472 35.37322,32.74683 35.38027,32.73952 35.38819,32.73287 35.39689,32.72695 35.40627,32.72183 35.41625,32.71756 35.42669,32.71419 35.4375,32.71175 35.44855,32.71028 35.45972,32.70979 35.47089,32.71028 35.48194,32.71175 35.49275,32.71419 35.5032,32.71756 35.51317,32.72183 35.52256,32.72695 35.53126,32.73287 35.53918,32.73952 35.54623,32.74683 35.55233,32.75472 35.55742,32.76311 35.56144,32.77189 35.56435,32.78098 35.56611,32.79028 35.56671,32.79968 35.56614,32.80908 35.5644,32.81838 35.56151,32.82747 35.5575,32.83626 35.55242,32.84465 35.54633,32.85255 35.53928,32.85987 35.53137,32.86653 35.52266,32.87246 35.51326,32.87759 35.50328,32.88187 35.49282,32.88525 35.48199,32.88769 35.47092,32.88916 35.45972,32.88965</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 2 / within 10 km of Qarn Hattin</name>
+		<description>within 10 km of Rimmon 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.459722,32.799722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

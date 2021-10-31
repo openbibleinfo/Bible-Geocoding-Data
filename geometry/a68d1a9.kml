@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kedar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a68d1a9/kedar">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Kedar</name>
+	<description><![CDATA[Ps <a href="https://www.biblegateway.com/passage/?search=Ps.120.5&amp;version=ESV">120:5</a>, Song <a href="https://www.biblegateway.com/passage/?search=Song.1.5&amp;version=ESV">1:5</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.21.16&amp;version=ESV">21:16</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.21.17&amp;version=ESV">21:17</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.42.11&amp;version=ESV">42:11</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.60.7&amp;version=ESV">60:7</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.2.10&amp;version=ESV">2:10</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.49.28&amp;version=ESV">49:28</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.21&amp;version=ESV">27:21</a>]]></description>
+	<Folder>
+		<name>Kedar</name>
+		<Placemark>
+			<name>Kedar (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>38.62559,31.73304 38.44603,31.89103 38.26647,31.73304 37.36867,30.15317 38.62559,31.73304</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>37.18911,29.99518 37.36867,29.8372 37.54823,29.8372 37.72779,29.8372 37.90735,29.99518 38.08691,30.15317 39.70296,31.73304 39.70296,31.89103 38.44603,32.52297 38.26647,32.52297 37.00955,32.36499 37.18911,29.99518</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>37.00955,32.52297 37.00955,32.36499 37.00955,30.15317 37.00955,29.99518 37.00955,29.8372 37.18911,29.8372 37.36867,29.8372 37.54823,29.8372 37.72779,29.8372 37.90735,29.8372 38.08691,29.8372 38.26647,29.8372 38.44603,29.8372 38.62559,29.8372 38.80516,29.8372 38.98472,29.8372 39.16428,29.8372 39.34384,29.8372 39.5234,29.8372 39.70296,29.8372 39.88252,29.8372 40.06208,29.8372 40.06208,29.99518 40.06208,30.15317 40.06208,30.31116 39.70296,31.89103 38.80516,32.52297 38.62559,32.52297 38.44603,32.52297 38.26647,32.52297 38.08691,32.52297 37.90735,32.52297 37.72779,32.52297 37.54823,32.52297 37.36867,32.52297 37.18911,32.52297 37.00955,32.52297</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>37.00955,29.20525 37.18911,29.20525 40.24164,29.8372 40.42121,31.73304 40.42121,31.89103 38.98472,32.52297 38.80516,32.52297 38.62559,32.52297 38.44603,32.52297 38.26647,32.52297 38.08691,32.52297 37.90735,32.52297 37.72779,32.52297 37.54823,32.52297 37.36867,32.52297 37.18911,32.52297 37.00955,32.52297 36.82998,32.52297 36.82998,32.36499 36.82998,30.15317 36.82998,29.99518 36.82998,29.8372 36.82998,29.36323 36.82998,29.20525 37.00955,29.20525</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.65042,32.52297 36.2913,29.04726 36.47086,29.04726 36.65042,29.04726 36.82998,29.04726 37.00955,29.04726 38.08691,29.20525 38.80516,29.36323 39.34384,29.52122 39.88252,29.67921 40.42121,29.8372 40.78033,31.41706 40.78033,31.57505 40.78033,31.73304 40.78033,31.89103 40.78033,32.04901 40.78033,32.207 40.78033,32.36499 38.44603,32.68096 38.26647,32.68096 36.65042,32.52297</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.65042,32.52297 35.75262,30.15317 35.75262,29.99518 35.75262,29.8372 35.93218,29.04726 36.11174,28.73129 36.2913,28.73129 40.78033,29.36323 40.95989,31.89103 40.95989,32.04901 40.95989,32.207 40.78033,32.52297 39.34384,32.68096 39.16428,32.68096 38.98472,32.68096 38.80516,32.68096 38.62559,32.68096 38.44603,32.68096 38.26647,32.68096 38.08691,32.68096 37.90735,32.68096 37.72779,32.68096 37.54823,32.68096 37.36867,32.68096 37.18911,32.68096 37.00955,32.68096 36.82998,32.68096 36.65042,32.52297</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kedar</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>39.868306,29.811417</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

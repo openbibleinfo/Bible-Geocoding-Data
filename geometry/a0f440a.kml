@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Galatia</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0f440a/galatia">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Galatia</name>
+	<description><![CDATA[Acts <a href="https://www.biblegateway.com/passage/?search=Acts.16.6&amp;version=ESV">16:6</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.18.23&amp;version=ESV">18:23</a>, 1Cor <a href="https://www.biblegateway.com/passage/?search=1Cor.16.1&amp;version=ESV">16:1</a>, Gal <a href="https://www.biblegateway.com/passage/?search=Gal.1.2&amp;version=ESV">1:2</a>, 2Tim <a href="https://www.biblegateway.com/passage/?search=2Tim.4.10&amp;version=ESV">4:10</a>, 1Pet <a href="https://www.biblegateway.com/passage/?search=1Pet.1.1&amp;version=ESV">1:1</a>]]></description>
+	<Folder>
+		<name>Galatia</name>
+		<Placemark>
+			<name>Galatia (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.50194,37.66055 31.70788,37.49538 31.91382,37.33022 32.11976,37.16505 33.3554,37.33022 33.56134,37.49538 35.20886,39.8077 35.00292,40.96386 34.79698,41.12903 34.17916,40.96386 33.56134,40.7987 33.14946,40.63353 32.73758,40.46836 32.53164,40.3032 31.70788,39.47737 30.88412,38.32121 30.88412,38.15605 31.50194,37.66055</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.50194,39.47737 30.67818,38.15605 30.88412,37.99088 31.70788,37.33022 31.91382,37.16505 32.11976,37.16505 32.3257,37.16505 33.76728,37.33022 35.20886,39.8077 35.20886,40.96386 35.20886,41.12903 35.00292,41.12903 34.79698,41.12903 34.59104,41.12903 34.3851,41.12903 34.17916,41.12903 33.14946,40.96386 32.3257,40.3032 31.50194,39.47737</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>30.67818,38.15605 30.67818,37.99088 31.91382,37.16505 32.11976,37.16505 32.3257,37.16505 33.56134,37.16505 33.76728,37.16505 35.4148,39.8077 35.4148,39.97287 35.4148,41.12903 35.20886,41.29419 35.00292,41.29419 34.79698,41.29419 32.53164,41.12903 31.296,39.47737 30.67818,38.15605</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>30.67818,38.32121 30.67818,38.15605 30.67818,37.99088 31.91382,37.16505 32.11976,37.16505 32.3257,37.16505 33.56134,37.16505 33.76728,37.16505 35.62074,39.8077 35.62074,39.97287 35.62074,40.7987 35.62074,40.96386 35.4148,41.12903 35.20886,41.29419 34.17916,41.45936 33.97322,41.45936 33.76728,41.45936 33.56134,41.45936 33.3554,41.45936 33.14946,41.45936 32.53164,41.12903 31.09006,39.47737 30.67818,38.32121</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.62074,41.12903 35.20886,41.29419 34.59104,41.45936 34.3851,41.45936 34.17916,41.45936 33.97322,41.45936 33.76728,41.45936 33.56134,41.45936 33.3554,41.45936 33.14946,41.45936 32.53164,41.12903 31.09006,39.47737 30.47224,37.99088 31.91382,37.16505 32.11976,37.16505 32.3257,37.16505 32.53164,37.16505 32.73758,37.16505 32.94352,37.16505 33.56134,37.16505 33.76728,37.16505 35.62074,39.8077 35.82668,40.7987 35.82668,40.96386 35.62074,41.12903</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.09006,39.64254 30.2663,37.99088 31.91382,37.16505 32.3257,36.99989 33.76728,37.16505 35.62074,39.8077 36.03262,40.7987 35.82668,41.12903 35.4148,41.29419 34.59104,41.45936 34.3851,41.45936 34.17916,41.45936 33.97322,41.45936 33.76728,41.45936 33.56134,41.45936 33.3554,41.45936 33.14946,41.45936 32.53164,41.12903 31.09006,39.64254</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>30.2663,37.99088 30.2663,37.82572 30.2663,37.66055 30.2663,37.49538 30.2663,37.33022 30.2663,37.16505 32.3257,36.99989 33.76728,37.16505 36.4445,40.46836 36.4445,40.63353 36.4445,40.7987 36.23856,40.96386 35.82668,41.12903 35.4148,41.29419 35.00292,41.45936 34.17916,41.62452 33.14946,41.45936 32.73758,41.29419 32.53164,41.12903 31.09006,39.64254 30.2663,37.99088</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.53164,41.12903 31.296,39.97287 31.09006,39.64254 30.2663,37.99088 30.06036,37.49538 30.2663,36.99989 32.11976,36.99989 32.3257,36.99989 32.53164,36.99989 32.73758,36.99989 32.94352,36.99989 33.14946,36.99989 33.3554,36.99989 33.56134,36.99989 39.5336,40.63353 39.5336,40.7987 39.5336,40.96386 34.17916,41.62452 33.97322,41.62452 33.76728,41.62452 33.14946,41.45936 32.73758,41.29419 32.53164,41.12903</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galatia</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>32.983333,39.266667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

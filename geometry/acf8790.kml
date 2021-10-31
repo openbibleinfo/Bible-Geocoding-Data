@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Adummim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/acf8790/adummim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Adummim (Pass of Adummim, Ascent of Adummim)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.7&amp;version=ESV">15:7</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.18.17&amp;version=ESV">18:17</a>]]></description>
+	<Placemark>
+		<name>Adummim</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.410118,31.838305 35.409441,31.837944 35.409001,31.837026 35.408394,31.836535 35.408068,31.83558 35.408524,31.834549 35.408036,31.833939 35.407678,31.833663 35.407397,31.83362 35.406464,31.834033 35.4062,31.834023 35.40597,31.833872 35.405242,31.832648 35.404197,31.831575 35.402708,31.831427 35.402155,31.830953 35.401126,31.830503 35.401059,31.830326 35.401607,31.829446 35.401699,31.828851 35.400423,31.827713 35.399529,31.827743 35.398504,31.827147 35.397278,31.826886 35.396819,31.826899 35.396039,31.827186 35.395612,31.827065 35.395344,31.82671 35.395134,31.825156 35.394663,31.824794 35.394541,31.824339 35.393103,31.82439 35.392168,31.823982 35.390959,31.824396 35.389332,31.825754 35.38755,31.82602 35.387,31.82631 35.385665,31.826301 35.384911,31.826205 35.384455,31.825615 35.384058,31.825498 35.383683,31.82511 35.38328,31.824954 35.382345,31.825221 35.381984,31.825203 35.380806,31.824722 35.379291,31.825209 35.379011,31.825182 35.378512,31.824403 35.377847,31.823892 35.377472,31.823775 35.376934,31.824 35.376357,31.824659 35.375759,31.824972 35.374994,31.8248 35.373954,31.82422 35.372535,31.824361 35.37143,31.824888 35.370931,31.825832 35.370563,31.826144 35.370273,31.826163 35.36981,31.825498 35.369465,31.825491 35.368833,31.82465 35.368309,31.824385 35.368252,31.822966 35.367672,31.82259 35.367456,31.8221 35.366844,31.821934 35.366302,31.821312 35.365297,31.820711 35.364869,31.820566 35.364111,31.820554 35.36346,31.820097 35.363389,31.819408 35.36328,31.819318 35.362632,31.819168 35.361676,31.819267 35.361033,31.81907 35.360468,31.819335 35.360041,31.819959 35.360078,31.820892 35.359246,31.8204 35.358722,31.820495 35.35819,31.821007 35.356726,31.820919 35.356344,31.820707 35.35613,31.820106 35.355775,31.819869 35.355423,31.818661 35.355056,31.818089 35.354664,31.81754 35.353974,31.81697 35.353522,31.817039 35.352545,31.816397 35.350171,31.815896 35.350177,31.815742 35.349677,31.815423 35.349396,31.815639 35.349106,31.815666 35.348961,31.815851 35.346215,31.814942</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Adummim</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.361505,31.8175</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

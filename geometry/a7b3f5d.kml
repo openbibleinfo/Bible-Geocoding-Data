@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shaphir</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a7b3f5d/shaphir">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shaphir (Saphir)</name>
+	<description><![CDATA[Mic <a href="https://www.biblegateway.com/passage/?search=Mic.1.11&amp;version=ESV">1:11</a>]]></description>
+	<Placemark>
+		<name>Shaphir / Khirbet el Qom</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.966564,31.534716</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Tell as Sawafir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.704236,31.713231</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Tell Eton</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.928055,31.491813</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet al Bira</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9265,31.4355</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet Sumara</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9318,31.4184</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet Anab es Seghireh</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9549,31.4121</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet Anab al Kabir</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9308,31.3959</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet Fuqeiqis</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9826,31.4887</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet al Simia</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.033694,31.421683</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shaphir / Khirbet Raddana</name>
+		<description>another name for Shamir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.202,31.9121</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

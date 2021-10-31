@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Amalek</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab95484/amalek">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Amalek</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.17.8&amp;version=ESV">17:8</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.9&amp;version=ESV">17:9</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.10&amp;version=ESV">17:10</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.11&amp;version=ESV">17:11</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.13&amp;version=ESV">17:13</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.14&amp;version=ESV">17:14</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.17.16&amp;version=ESV">17:16</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.13.29&amp;version=NASB">13:29</a>, <a href="https://www.biblegateway.com/passage/?search=Num.24.20&amp;version=ESV">24:20</a>, <a href="https://www.biblegateway.com/passage/?search=Num.24.24&amp;version=NKJV">24:24</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.25.17&amp;version=ESV">25:17</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.25.19&amp;version=ESV">25:19</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.3.13&amp;version=NASB">3:13</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.5.14&amp;version=NIV">5:14</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.6.3&amp;version=NLT">6:3</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.6.33&amp;version=NLT">6:33</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.7.12&amp;version=NLT">7:12</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.12&amp;version=NET">10:12</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.15.2&amp;version=ESV">15:2</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.15.3&amp;version=ESV">15:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.15.5&amp;version=ESV">15:5</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.15.8&amp;version=CSB">15:8</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.15.20&amp;version=ESV">15:20</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.15.32&amp;version=CSB">15:32</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.28.18&amp;version=ESV">28:18</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.12&amp;version=ESV">8:12</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.18.11&amp;version=ESV">18:11</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.83.7&amp;version=ESV">83:7</a>]]></description>
+	<Folder>
+		<name>Amalek</name>
+		<Placemark>
+			<name>Amalek (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.64888,31.03223 34.62235,31.03223 34.64888,30.96372 34.86107,30.94088 34.91411,30.96372 34.91411,30.98656 34.64888,31.03223</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.5693,31.10074 34.54278,31.00939 34.64888,30.84954 34.6754,30.84954 34.70192,30.84954 34.94064,30.96372 34.96716,31.00939 34.59583,31.10074 34.5693,31.10074</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.5693,31.10074 34.35711,31.0779 34.46321,30.80387 34.48973,30.80387 34.62235,30.8267 34.70192,30.84954 34.96716,30.96372 34.99368,30.98656 34.99368,31.00939 34.59583,31.10074 34.5693,31.10074</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.30407,31.0779 34.25102,31.03223 34.46321,30.78103 34.59583,30.80387 34.6754,30.8267 34.91411,30.91805 34.96716,30.94088 35.02021,30.96372 35.02021,30.98656 35.02021,31.00939 35.02021,31.03223 34.5693,31.12358 34.43668,31.10074 34.30407,31.0779</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.25102,31.0779 34.17145,31.03223 34.33059,30.8267 34.43668,30.75819 34.59583,30.78103 35.04673,30.87238 35.09978,31.03223 35.07326,31.0779 34.64888,31.14641 34.35711,31.12358 34.25102,31.0779</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.22449,30.80387 34.35711,30.73536 34.38364,30.73536 34.51626,30.75819 34.64888,30.78103 35.02021,30.84954 35.04673,30.87238 35.07326,30.89521 35.25892,31.16925 34.96716,31.19208 34.5693,31.14641 34.30407,31.12358 34.14492,31.0779 34.17145,30.98656 34.19797,30.89521 34.22449,30.80387</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Amalek</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>34.422222,30.648333</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

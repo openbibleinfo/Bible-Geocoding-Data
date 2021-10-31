@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tarshish 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5f43dd/tarshish-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Tarshish 1</name>
+	<description><![CDATA[2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.9.21&amp;version=ESV">9:21</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.36&amp;version=ESV">20:36</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.20.37&amp;version=ESV">20:37</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.72.10&amp;version=ESV">72:10</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.23.1&amp;version=ESV">23:1</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.6&amp;version=ESV">23:6</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.10&amp;version=ESV">23:10</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.14&amp;version=ESV">23:14</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.66.19&amp;version=ESV">66:19</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.10.9&amp;version=ESV">10:9</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.10.9&amp;version=NASB">10:9</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.27.12&amp;version=ESV">27:12</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.27.25&amp;version=ESV">27:25</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.38.13&amp;version=ESV">38:13</a>, Jonah <a href="https://www.biblegateway.com/passage/?search=Jonah.1.3&amp;version=ESV">1:3</a>, <a href="https://www.biblegateway.com/passage/?search=Jonah.4.2&amp;version=ESV">4:2</a>]]></description>
+	<Placemark>
+		<name>Tarshish 1 / Huelva</name>
+		<description>another name for Tartessos</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>-6.944167,37.271944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Sardinia</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>8.838837,38.880589 9.021172,38.984015 9.045861,39.056213 9.008628,39.12357 9.061951,39.194397 9.09392,39.192455 9.059738,39.223479 9.15942,39.180714 9.206675,39.226095 9.297166,39.213122 9.437382,39.122101 9.50308,39.131074 9.523862,39.094776 9.579611,39.176305 9.576431,39.254964 9.634227,39.299262 9.596719,39.345906 9.6462,39.462331 9.681754,39.898822 9.715923,39.928753 9.686789,39.984167 9.735515,40.076739 9.654204,40.143444 9.623434,40.250406 9.766712,40.392392 9.828846,40.528596 9.753283,40.598159 9.75356,40.673755 9.671418,40.784908 9.686036,40.835228 9.728668,40.844215 9.615775,40.889722 9.644317,40.919862 9.49444,40.916665 9.575023,40.927967 9.611062,41.003313 9.663313,40.997952 9.594199,41.022657 9.559506,41.001329 9.560321,41.037489 9.509823,41.004148 9.53387,41.081487 9.572248,41.099692 9.526503,41.156725 9.46702,41.14328 9.448867,41.09617 9.445978,41.13571 9.405321,41.157493 9.423372,41.177701 9.363344,41.207503 9.290293,41.192929 9.287792,41.21909 9.286451,41.183992 9.235155,41.259043 9.143901,41.246611 9.16793,41.168051 9.011921,41.125078 8.791144,40.922487 8.699789,40.914746 8.560196,40.831209 8.313747,40.844834 8.200012,40.972382 8.17591,40.934824 8.21899,40.868678 8.130845,40.732756 8.204984,40.685295 8.144442,40.622626 8.160756,40.560916 8.193252,40.618067 8.219415,40.601797 8.203683,40.568141 8.308712,40.602181 8.288103,40.592346 8.398285,40.429856 8.38245,40.338599 8.48372,40.282808 8.456045,40.176568 8.492969,40.0867 8.376574,40.035893 8.414123,40.017096 8.395809,39.90907 8.435297,39.857915 8.491879,39.909594 8.570723,39.863962 8.537068,39.865517 8.553554,39.829466 8.502214,39.712941 8.443607,39.758232 8.470613,39.598869 8.384798,39.470941 8.412757,39.426835 8.373024,39.374709 8.436827,39.289867 8.368121,39.213715 8.438081,39.155567 8.436824,39.111325 8.473384,39.111868 8.46924,39.053897 8.568734,39.041842 8.638239,38.866058 8.719313,38.940842 8.838837,38.880589</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Sardinia</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>9.083333,40.05</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Carthage</name>
+		<description>another name for Carthage</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>10.323461,36.852558</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Tarsus</name>
+		<description>another name for Tarsus</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.892056,36.913028</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Rhodes</name>
+		<description>another name for Rhodes 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>27.697546,36.145377 27.707002,36.148533 27.707566,36.1391 27.713032,36.13941 27.716366,36.131865 27.706868,36.12023 27.710364,36.113103 27.736941,36.103692 27.750184,36.105646 27.760723,36.086068 27.755157,36.013443 27.731156,35.957746 27.718253,35.940234 27.72668,35.936797 27.735635,35.922673 27.734203,35.915641 27.759605,35.903861 27.771009,35.887098 27.798379,35.89038 27.81218,35.902541 27.816957,35.901154 27.816875,35.907118 27.829078,35.915744 27.845464,35.912828 27.841779,35.916108 27.845301,35.921821 27.854872,35.928612 27.86248,35.927057 27.875696,35.948778 27.89225,35.959037 27.922175,36.01006 27.953613,36.04523 27.969186,36.046521 27.979386,36.057074 28.014832,36.074824 28.036772,36.077687 28.04818,36.074938 28.054028,36.067557 28.050908,36.063902 28.066539,36.06381 28.087067,36.054394 28.074517,36.073484 28.080162,36.08011 28.09051,36.080819 28.087663,36.087537 28.093074,36.094347 28.085355,36.096706 28.099897,36.104185 28.067929,36.107575 28.075676,36.142906 28.090777,36.164732 28.101223,36.165657 28.098104,36.175063 28.104556,36.181643 28.123965,36.18788 28.136636,36.18448 28.147495,36.226881 28.158881,36.231156 28.166056,36.248442 28.175006,36.248637 28.176008,36.253838 28.168541,36.25467 28.16628,36.261546 28.174319,36.280499 28.192922,36.308749 28.205758,36.320713 28.212421,36.320346 28.209469,36.322737 28.215928,36.327617 28.205098,36.338267 28.207286,36.349142 28.223468,36.369474 28.233357,36.371423 28.247628,36.386841 28.228287,36.403569 28.233658,36.427407 28.240887,36.432824 28.238874,36.447587 28.23603,36.441018 28.232121,36.447696 28.229422,36.443638 28.2209,36.458409 28.187543,36.421076 28.155097,36.42407 28.116495,36.418706 28.053662,36.398 28.009298,36.375075 27.97648,36.365386 27.959152,36.352741 27.915429,36.342903 27.878395,36.322636 27.847959,36.285009 27.827113,36.272418 27.812976,36.274541 27.805468,36.270431 27.803277,36.258024 27.795773,36.254831 27.789335,36.242343 27.788981,36.219273 27.767348,36.188015 27.754324,36.18772 27.735076,36.168702 27.684428,36.155873 27.686423,36.146439 27.697546,36.145377</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Rhodes</name>
+		<description>another name for Rhodes 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>28.2109,36.4402</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Cádiz</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>-6.2937,36.5283</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Cyprus</name>
+		<description>another name for Cyprus</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.5687,35.169754 32.548763,35.173447 32.487636,35.083543 32.427746,35.044729 32.361088,35.046865 32.28845,35.104887 32.275871,35.100076 32.275224,35.037621 32.313779,34.995944 32.313396,34.962748 32.301522,34.956085 32.325297,34.926001 32.316033,34.899397 32.347578,34.856931 32.388203,34.840513 32.399804,34.754909 32.494356,34.702855 32.555041,34.697957 32.703319,34.64024 32.791122,34.664291 32.874729,34.66688 32.923565,34.618646 32.940456,34.575482 32.933122,34.565922 32.973607,34.573306 33.028549,34.562536 33.03636,34.567594 33.008675,34.593637 33.005913,34.618944 33.010803,34.641301 33.032845,34.650441 33.006892,34.647914 33.063483,34.685644 33.148964,34.712708 33.260061,34.70539 33.291425,34.724632 33.318861,34.715038 33.429152,34.764067 33.495454,34.777131 33.551377,34.819158 33.602749,34.815834 33.639511,34.865986 33.645643,34.943813 33.684251,34.974358 33.776035,34.980376 33.858484,34.942597 33.891961,34.954638 33.899286,34.971371 33.970852,34.988274 34.085661,34.956398 34.064641,35.012459 33.91189,35.163134 33.899877,35.203086 33.906556,35.257322 33.966955,35.321807 34.06619,35.328818 34.080839,35.368123 34.134212,35.415943 34.300345,35.489299 34.409147,35.556831 34.437401,35.601815 34.562681,35.64129 34.588508,35.695158 34.346565,35.623048 34.338684,35.603351 34.290108,35.576002 34.229199,35.556916 34.176362,35.562006 34.126192,35.504926 33.977466,35.445836 33.849876,35.412761 33.771791,35.414048 33.646715,35.356963 33.608475,35.360888 33.480711,35.332186 33.348216,35.334868 33.291893,35.350562 33.170622,35.351276 33.113977,35.368432 33.097222,35.353807 33.063747,35.355208 32.993872,35.368134 32.920776,35.404096 32.937894,35.281061 32.915906,35.20605 32.88461,35.16407 32.824557,35.140836 32.738545,35.179943 32.65081,35.195743 32.5687,35.169754</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Cyprus</name>
+		<description>another name for Cyprus</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33,35</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Etruria</name>
+		<description>another name for Etruria</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>9.746245,43.553727 9.595327,43.111828 9.866554,42.524037 10.299685,42.188989 12.096865,41.613626 12.663899,42.191297 12.362228,42.819809 12.690855,43.285354 12.293351,43.823619 11.748344,44.020668 12.076533,43.594525 11.814505,43.557886 11.493895,43.804184 10.137748,43.572057 9.746245,43.553727</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tarshish 1 / Etruria</name>
+		<description>another name for Etruria</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>11.838912,42.227871</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

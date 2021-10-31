@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Way of Holiness</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a207807/way-of-holiness">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Way of Holiness (Highway of Holiness, Holy Way)</name>
+	<description><![CDATA[Isa <a href="https://www.biblegateway.com/passage/?search=Isa.35.8&amp;version=ESV">35:8</a>]]></description>
+	<Placemark>
+		<name>Way of Holiness / within 10 km of Jerusalem</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23417,31.8666 35.2231,31.86611 35.21215,31.86463 35.20145,31.86219 35.1911,31.85882 35.18123,31.85454 35.17194,31.84941 35.16333,31.84348 35.1555,31.83682 35.14853,31.8295 35.14251,31.8216 35.13749,31.81321 35.13353,31.80442 35.13067,31.79532 35.12895,31.78602 35.12838,31.77662 35.12897,31.76722 35.13071,31.75793 35.13359,31.74884 35.13756,31.74005 35.1426,31.73167 35.14863,31.72378 35.1556,31.71647 35.16343,31.70981 35.17203,31.7039 35.18132,31.69877 35.19118,31.6945 35.20151,31.69113 35.21219,31.6887 35.22312,31.68723 35.23417,31.68673 35.24521,31.68723 35.25614,31.6887 35.26683,31.69113 35.27716,31.6945 35.28702,31.69877 35.2963,31.7039 35.3049,31.70981 35.31273,31.71647 35.3197,31.72378 35.32574,31.73167 35.33077,31.74005 35.33475,31.74884 35.33762,31.75793 35.33937,31.76722 35.33996,31.77662 35.33939,31.78602 35.33767,31.79532 35.33481,31.80442 35.33085,31.81321 35.32583,31.8216 35.3198,31.8295 35.31283,31.83682 35.305,31.84348 35.2964,31.84941 35.28711,31.85454 35.27723,31.85882 35.26689,31.86219 35.25618,31.86463 35.24524,31.86611 35.23417,31.8666</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Way of Holiness / within 10 km of Jerusalem</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.234167,31.776667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

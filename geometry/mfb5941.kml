@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nahal Taninim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mfb5941/nahal-taninim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Nahal Taninim</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.056034,32.563738 35.055072,32.563488 35.054358,32.563592 35.051585,32.565125 35.050651,32.565966 35.047878,32.566807 35.040513,32.566395 35.039633,32.566079 35.037965,32.564686 35.03561,32.563913 35.030701,32.561069 35.028883,32.5604 35.024602,32.559397 35.023363,32.559576 35.022418,32.559003 35.01998,32.55925 35.018679,32.558477 35.016444,32.558072 35.015868,32.557751 35.015504,32.557036 35.014007,32.55658 35.012049,32.555259 35.010214,32.555486 35.009158,32.55422 35.008154,32.553912 35.007613,32.553012 35.006073,32.552176 35.005644,32.551579 35.00536,32.549766 35.004416,32.548572 35.004029,32.548287 35.002661,32.548047 35.00177,32.546495 35.000955,32.545832 35.000585,32.544986 34.998407,32.543874 34.997061,32.541292 34.994106,32.538515 34.991764,32.538023 34.987382,32.536526 34.986538,32.535926 34.985871,32.534956 34.984863,32.534857 34.983825,32.534231 34.982279,32.532552 34.979503,32.532134 34.976642,32.530716 34.975653,32.530827 34.97327,32.530494 34.97182,32.529614 34.96969,32.528901 34.968064,32.528753 34.967241,32.528318 34.966176,32.528528 34.962646,32.528528 34.960952,32.529533 34.95808,32.529228 34.95472,32.529597 34.951873,32.53056 34.949152,32.531022 34.946794,32.531739 34.945231,32.530878 34.942419,32.529988 34.941158,32.529875 34.940435,32.529988 34.938919,32.53089 34.936557,32.531107 34.934423,32.533018 34.934135,32.534623 34.933626,32.535435 34.931589,32.536685 34.929447,32.536535 34.928867,32.53676 34.926828,32.539152 34.926531,32.540026 34.92735,32.541612 34.926974,32.543115 34.92745,32.544132 34.927361,32.544869 34.927859,32.545895 34.927172,32.546864 34.927381,32.547738 34.927038,32.548477 34.927206,32.549609 34.926841,32.55015 34.923764,32.550924 34.921583,32.550859 34.920012,32.549692 34.918121,32.549492 34.916237,32.549767 34.913326,32.548722 34.913371,32.547997 34.912418,32.546884 34.9113,32.544188 34.909751,32.542471 34.907858,32.539028 34.907404,32.538692 34.906541,32.538328 34.904864,32.538169 34.903092,32.538565 34.901855,32.539756</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Nahal Taninim</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.902,32.5396</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Havilah 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad7e819/havilah-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Havilah 1</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.2.11&amp;version=ESV">2:11</a>]]></description>
+	<Folder>
+		<name>Havilah 1 / in Babylonia</name>
+		<Placemark>
+			<name>Havilah 1 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>44.15765,32.09004 44.47181,31.81713 46.67095,31.54421 46.67095,31.68067 46.67095,32.09004 45.57138,32.36296 45.4143,32.36296 44.78598,32.2265 44.15765,32.09004</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>44.78598,33.04525 44.00057,32.09004 43.84349,31.81713 46.51387,31.54421 46.67095,31.54421 46.82804,31.54421 46.67095,32.09004 44.94306,33.04525 44.78598,33.04525</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.84349,32.09004 43.68641,31.81713 46.35679,31.54421 46.51387,31.54421 46.67095,31.54421 46.82804,31.54421 46.82804,31.81713 46.67095,32.09004 45.57138,32.9088 45.25722,33.04525 44.94306,33.18171 44.78598,33.18171 44.62889,33.04525 43.84349,32.09004</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>45.88555,31.54421 46.04263,31.54421 46.19971,31.54421 46.35679,31.54421 46.51387,31.54421 46.67095,31.54421 46.82804,31.54421 46.82804,31.68067 46.82804,31.81713 46.82804,31.95358 46.67095,32.09004 46.35679,32.36296 46.04263,32.63588 45.72847,32.9088 44.94306,33.18171 44.15765,33.45463 44.00057,33.45463 43.84349,33.45463 43.68641,32.09004 43.68641,31.95358 43.68641,31.81713 44.00057,31.68067 44.62889,31.54421 44.78598,31.54421 45.88555,31.54421</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>46.82804,32.09004 46.51387,32.36296 46.04263,32.77234 45.88555,32.9088 45.57138,33.04525 45.10014,33.18171 44.62889,33.31817 44.15765,33.45463 44.00057,33.45463 43.84349,33.45463 43.68641,33.45463 43.21516,32.09004 43.37224,31.81713 43.68641,31.68067 44.31473,31.54421 44.62889,31.54421 44.78598,31.54421 44.94306,31.54421 45.57138,31.54421 45.72847,31.54421 45.88555,31.54421 46.04263,31.54421 46.19971,31.54421 46.35679,31.54421 46.51387,31.54421 46.67095,31.54421 46.82804,31.54421 46.98512,31.54421 46.98512,31.68067 46.82804,32.09004</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.52932,33.72755 43.37224,33.72755 43.21516,33.72755 43.21516,32.2265 43.21516,32.09004 43.21516,31.95358 43.37224,31.81713 43.68641,31.54421 46.98512,31.27129 47.1422,31.54421 46.82804,32.2265 45.72847,33.18171 45.4143,33.31817 43.52932,33.72755</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.21516,33.86401 43.05808,33.59109 43.21516,31.81713 43.68641,31.54421 45.10014,31.27129 46.98512,31.13483 47.1422,31.13483 47.1422,31.54421 47.1422,31.81713 46.98512,32.2265 46.51387,33.31817 43.21516,33.86401</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.21516,33.86401 43.05808,33.86401 42.74392,32.2265 43.21516,31.54421 44.00057,31.40775 46.98512,30.99837 47.1422,31.13483 47.61344,31.54421 47.61344,31.68067 47.61344,31.81713 46.82804,33.31817 43.52932,33.86401 43.37224,33.86401 43.21516,33.86401</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>43.05808,34.00047 40.85894,33.59109 43.21516,31.54421 43.37224,31.40775 46.35679,30.45254 46.82804,30.31608 47.77052,30.72546 48.87009,31.54421 48.87009,31.68067 48.87009,31.81713 46.82804,34.00047 46.67095,34.00047 46.51387,34.00047 46.35679,34.00047 46.19971,34.00047 46.04263,34.00047 45.88555,34.00047 45.72847,34.00047 45.57138,34.00047 45.4143,34.00047 45.25722,34.00047 45.10014,34.00047 44.94306,34.00047 44.78598,34.00047 44.62889,34.00047 44.47181,34.00047 44.31473,34.00047 44.15765,34.00047 44.00057,34.00047 43.84349,34.00047 43.68641,34.00047 43.52932,34.00047 43.37224,34.00047 43.21516,34.00047 43.05808,34.00047</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havilah 1 / in Babylonia</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>44.422222,32.543333</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Havilah 1 / about 200 km around Sanaa</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>44.2145,17.15374 44.01778,17.1438 43.82328,17.11409 43.63318,17.06494 43.44962,16.9969 43.27465,16.91075 43.11022,16.80745 42.95816,16.68816 42.82014,16.55421 42.69767,16.4071 42.59208,16.24847 42.50448,16.08008 42.43581,15.9038 42.38678,15.72157 42.35786,15.5354 42.34932,15.34735 42.3612,15.15946 42.39332,14.9738 42.44526,14.79238 42.51643,14.61718 42.606,14.4501 42.71296,14.29295 42.83613,14.14743 42.97416,14.0151 43.12552,13.89739 43.28858,13.79557 43.46157,13.71073 43.64263,13.64378 43.82982,13.59544 44.02113,13.56623 44.2145,13.55646 44.40787,13.56623 44.59918,13.59544 44.78637,13.64378 44.96743,13.71073 45.14042,13.79557 45.30348,13.89739 45.45484,14.0151 45.59287,14.14743 45.71604,14.29295 45.823,14.4501 45.91257,14.61718 45.98374,14.79238 46.03568,14.9738 46.0678,15.15946 46.07968,15.34735 46.07114,15.5354 46.04222,15.72157 45.99319,15.9038 45.92452,16.08008 45.83692,16.24847 45.73133,16.4071 45.60886,16.55421 45.47084,16.68816 45.31878,16.80745 45.15435,16.91075 44.97938,16.9969 44.79582,17.06494 44.60572,17.11409 44.41122,17.1438 44.2145,17.15374</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Havilah 1 / about 200 km around Sanaa</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.2145,15.3551</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Havilah 1 / Arabian Peninsula</name>
+		<description>another name for Arabia 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>46.552684,29.100273 44.715219,29.196033 42.085599,31.111658 40.413254,31.948076 39.200916,32.154338 37.006171,31.50064 37.997146,30.500661 37.505505,30.000769 36.784903,29.867901 36.072812,29.183401 34.957163,29.356106 34.571034,28.096175 35.222334,28.046521 37.239083,25.190222 37.155208,24.823834 37.426918,24.369397 38.463171,23.780694 39.113265,22.526225 38.93004,22.012118 39.172439,21.779023 39.190219,21.101647 39.730523,20.391647 40.75593,19.778557 41.638534,17.997428 42.318148,17.436428 42.83138,16.190734 42.677223,15.688416 42.8103,15.280105 42.598942,15.228503 42.944571,14.923925 43.468106,12.673867 45.028142,12.750895 45.662866,13.350703 46.700724,13.429404 47.977117,14.050316 48.683285,14.04569 49.347048,14.640919 52.195361,15.609998 52.150592,15.986543 52.475232,16.431033 54.048019,16.991036 55.020497,17.000475 55.426355,17.817317 56.354085,17.920083 56.790368,18.740697 57.840664,18.999959 57.676889,19.706838 57.824284,20.201791 58.180743,20.624268 58.209048,20.397612 58.520274,20.41603 59.823822,22.292675 59.797585,22.536882 59.290457,22.764747 58.753757,23.522954 56.912798,24.144064 56.375426,24.977273 56.273845,25.706125 56.52156,26.317879 56.378704,26.388557 56.415962,26.205003 56.208245,26.253527 55.345647,25.199515 54.671877,24.814196 54.514247,24.314448 54.128036,24.328401 54.016951,24.185152 54.175433,24.188173 53.803968,24.049843 52.590281,24.214843 52.242452,23.970315 51.831482,23.986257 51.597506,24.379798 51.276815,24.294166 51.504991,24.574401 51.213623,24.620143 51.369095,24.580011 51.656581,25.029115 51.474149,25.513766 51.657861,25.926819 51.264525,26.156949 51.033925,26.043673 50.969103,25.600658 50.756803,25.504118 50.769988,24.71877 50.000305,25.989164 50.240762,26.370728 49.99452,26.744755 50.159171,26.64698 49.583662,27.092148 49.487681,27.304013 49.702123,27.300766 49.48641,27.344645 49.441679,27.081499 49.122844,27.40608 49.312348,27.424965 49.221662,27.569714 48.848542,27.603241 48.101384,29.352594 47.702785,29.359877 48.188363,29.546838 48.007887,29.986786 47.189553,30.02835 46.552684,29.100273</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Havilah 1 / Arabian Peninsula</name>
+		<description>another name for Arabia 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>46,23</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Havilah 1 / about 200 km around Zeila</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>43.47389,13.15253 43.28085,13.14261 43.08998,13.11297 42.9034,13.06393 42.72319,12.99604 42.55136,12.91007 42.38982,12.80697 42.24035,12.68789 42.10459,12.55416 41.98404,12.40727 41.87999,12.24883 41.79357,12.08062 41.7257,11.90448 41.67708,11.72236 41.64821,11.53626 41.63937,11.34822 41.65061,11.16031 41.68178,10.97457 41.73249,10.79304 41.80216,10.6177 41.89,10.45044 41.99504,10.29309 42.11609,10.14735 42.25185,10.01481 42.40082,9.89689 42.56138,9.79487 42.73178,9.70986 42.9102,9.64277 43.09469,9.59432 43.28326,9.56504 43.47389,9.55525 43.66452,9.56504 43.85309,9.59432 44.03758,9.64277 44.21599,9.70986 44.3864,9.79487 44.54696,9.89689 44.69593,10.01481 44.83168,10.14735 44.95274,10.29309 45.05777,10.45044 45.14561,10.6177 45.21529,10.79304 45.266,10.97457 45.29716,11.16031 45.30841,11.34822 45.29957,11.53626 45.2707,11.72236 45.22208,11.90448 45.15421,12.08062 45.06779,12.24883 44.96374,12.40727 44.84319,12.55416 44.70743,12.68789 44.55796,12.80697 44.39642,12.91007 44.22459,12.99604 44.04438,13.06393 43.8578,13.11297 43.66692,13.14261 43.47389,13.15253</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Havilah 1 / about 200 km around Zeila</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>43.473889,11.353889</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

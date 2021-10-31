@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Gerar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a816ed9/valley-of-gerar">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Gerar (Gerar Valley)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.26.17&amp;version=ESV">26:17</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.26.19&amp;version=NLT">26:19</a>]]></description>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tel Haror</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.6065,31.40908 34.6032,31.40893 34.59993,31.40849 34.59673,31.40776 34.59364,31.40675 34.59069,31.40546 34.58792,31.40393 34.58535,31.40215 34.58301,31.40015 34.58093,31.39796 34.57913,31.39559 34.57763,31.39307 34.57644,31.39043 34.57559,31.38771 34.57507,31.38492 34.5749,31.3821 34.57507,31.37928 34.57559,31.37649 34.57645,31.37376 34.57763,31.37112 34.57914,31.36861 34.58094,31.36624 34.58302,31.36404 34.58536,31.36205 34.58793,31.36027 34.5907,31.35873 34.59365,31.35745 34.59674,31.35644 34.59993,31.35571 34.6032,31.35527 34.6065,31.35512 34.6098,31.35527 34.61307,31.35571 34.61626,31.35644 34.61935,31.35745 34.6223,31.35873 34.62507,31.36027 34.62764,31.36205 34.62998,31.36404 34.63206,31.36624 34.63386,31.36861 34.63537,31.37112 34.63655,31.37376 34.63741,31.37649 34.63793,31.37928 34.6381,31.3821 34.63793,31.38492 34.63741,31.38771 34.63656,31.39043 34.63537,31.39307 34.63387,31.39559 34.63207,31.39796 34.62999,31.40015 34.62765,31.40215 34.62508,31.40393 34.62231,31.40546 34.61936,31.40675 34.61627,31.40776 34.61307,31.40849 34.6098,31.40893 34.6065,31.40908</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tel Haror</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.6065,31.3821</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell esh Sharia</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.6816,31.41818 34.6783,31.41803 34.67503,31.41759 34.67183,31.41686 34.66874,31.41585 34.66579,31.41456 34.66302,31.41303 34.66045,31.41125 34.65811,31.40925 34.65603,31.40706 34.65422,31.40469 34.65272,31.40217 34.65154,31.39953 34.65068,31.39681 34.65017,31.39402 34.64999,31.3912 34.65017,31.38838 34.65069,31.38559 34.65154,31.38286 34.65273,31.38022 34.65423,31.37771 34.65603,31.37534 34.65812,31.37314 34.66046,31.37115 34.66303,31.36937 34.6658,31.36783 34.66875,31.36655 34.67184,31.36554 34.67503,31.36481 34.6783,31.36437 34.6816,31.36422 34.6849,31.36437 34.68817,31.36481 34.69136,31.36554 34.69445,31.36655 34.6974,31.36783 34.70017,31.36937 34.70274,31.37115 34.70508,31.37314 34.70717,31.37534 34.70897,31.37771 34.71047,31.38022 34.71166,31.38286 34.71251,31.38559 34.71303,31.38838 34.71321,31.3912 34.71303,31.39402 34.71252,31.39681 34.71166,31.39953 34.71048,31.40217 34.70898,31.40469 34.70717,31.40706 34.70509,31.40925 34.70275,31.41125 34.70018,31.41303 34.69741,31.41456 34.69446,31.41585 34.69137,31.41686 34.68817,31.41759 34.6849,31.41803 34.6816,31.41818</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell esh Sharia</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.6816,31.3912</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell Tuweiyil</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.56705,31.21084 34.56375,31.21069 34.56049,31.21025 34.5573,31.20952 34.55422,31.20851 34.55128,31.20723 34.54851,31.20569 34.54594,31.20391 34.54361,31.20191 34.54153,31.19972 34.53973,31.19735 34.53823,31.19483 34.53705,31.19219 34.5362,31.18947 34.53568,31.18668 34.53551,31.18386 34.53569,31.18104 34.5362,31.17825 34.53706,31.17552 34.53824,31.17288 34.53974,31.17037 34.54154,31.168 34.54362,31.16581 34.54595,31.16381 34.54852,31.16203 34.55128,31.1605 34.55422,31.15921 34.55731,31.1582 34.56049,31.15747 34.56375,31.15703 34.56705,31.15688 34.57034,31.15703 34.5736,31.15747 34.57679,31.1582 34.57987,31.15921 34.58281,31.1605 34.58558,31.16203 34.58815,31.16381 34.59048,31.16581 34.59256,31.168 34.59436,31.17037 34.59585,31.17288 34.59704,31.17552 34.59789,31.17825 34.59841,31.18104 34.59858,31.18386 34.59841,31.18668 34.5979,31.18947 34.59704,31.19219 34.59586,31.19483 34.59436,31.19735 34.59257,31.19972 34.59049,31.20191 34.58815,31.20391 34.58559,31.20569 34.58282,31.20723 34.57988,31.20851 34.5768,31.20952 34.57361,31.21025 34.57035,31.21069 34.56705,31.21084</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell Tuweiyil</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.567048,31.183861</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell Jemmeh</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.44506,31.41422 34.44176,31.41407 34.43849,31.41363 34.43529,31.4129 34.4322,31.41189 34.42925,31.4106 34.42648,31.40907 34.42391,31.40729 34.42157,31.40529 34.41949,31.4031 34.41769,31.40073 34.41618,31.39821 34.415,31.39557 34.41414,31.39285 34.41363,31.39006 34.41346,31.38724 34.41363,31.38442 34.41415,31.38163 34.41501,31.3789 34.41619,31.37626 34.41769,31.37375 34.4195,31.37138 34.42158,31.36918 34.42392,31.36719 34.42649,31.36541 34.42926,31.36387 34.43221,31.36259 34.4353,31.36158 34.43849,31.36085 34.44176,31.36041 34.44506,31.36026 34.44836,31.36041 34.45163,31.36085 34.45482,31.36158 34.45791,31.36259 34.46086,31.36387 34.46363,31.36541 34.4662,31.36719 34.46854,31.36918 34.47062,31.37138 34.47243,31.37375 34.47393,31.37626 34.47511,31.3789 34.47597,31.38163 34.47649,31.38442 34.47666,31.38724 34.47649,31.39006 34.47598,31.39285 34.47512,31.39557 34.47394,31.39821 34.47243,31.40073 34.47063,31.4031 34.46855,31.40529 34.46621,31.40729 34.46364,31.40907 34.46087,31.4106 34.45792,31.41189 34.45483,31.4129 34.45163,31.41363 34.44836,31.41407 34.44506,31.41422</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Gerar / about 3 km around Tell Jemmeh</name>
+		<description>about 3 km around Gerar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.44506,31.38724</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Great Sea</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa805fb/great-sea">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Great Sea (Mediterranean Sea)</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.23.31&amp;version=ESV">23:31</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.13.29&amp;version=NLT">13:29</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.5&amp;version=NIV">34:5</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.6&amp;version=ESV">34:6</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.7&amp;version=ESV">34:7</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.11.24&amp;version=NIV">11:24</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.34.2&amp;version=NIV">34:2</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.1.4&amp;version=ESV">1:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.5.1&amp;version=NLT">5:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.9.1&amp;version=ESV">9:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.4&amp;version=NIV">15:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.11&amp;version=NLT">15:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.12&amp;version=ESV">15:12</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.47&amp;version=ESV">15:47</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.16.3&amp;version=NIV">16:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.16.6&amp;version=NIV">16:6</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.16.8&amp;version=NIV">16:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.17.9&amp;version=NIV">17:9</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.17.10&amp;version=NIV">17:10</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.19.29&amp;version=NIV">19:29</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.23.4&amp;version=ESV">23:4</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.5.9&amp;version=NIV">5:9</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.2.16&amp;version=NLT">2:16</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.3.7&amp;version=NLT">3:7</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.80.11&amp;version=NIV">80:11</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.11.11&amp;version=NIV">11:11</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.47.5&amp;version=NLT">47:5</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.47.10&amp;version=ESV">47:10</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.15&amp;version=ESV">47:15</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.17&amp;version=NLT">47:17</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.19&amp;version=ESV">47:19</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.20&amp;version=ESV">47:20</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.48.28&amp;version=ESV">48:28</a>, Dan <a href="https://www.biblegateway.com/passage/?search=Dan.7.2&amp;version=NKJV">7:2</a>, Joel <a href="https://www.biblegateway.com/passage/?search=Joel.2.20&amp;version=NIV">2:20</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.14.8&amp;version=NIV">14:8</a>]]></description>
+	<Placemark>
+		<name>Great Sea / Mediterranean Sea</name>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>-5.059108,36.019613 -5.117805,35.665487 -4.499633,35.307226 -2.988166,35.527792 -1.962276,35.245673 -0.756545,35.89537 0.289383,36.359661 2.314734,36.744466 3.82732,37.111874 5.348983,36.839402 5.809423,37.072917 8.086871,37.188496 9.610212,37.518437 11.029821,37.255215 11.334762,36.995458 10.976304,36.134165 11.358003,35.192403 10.587897,34.20995 12.470949,32.97462 13.144661,33.123303 15.352058,32.550678 15.716814,31.568542 18.144941,31.051307 19.068672,30.390776 19.881405,31.109668 19.70053,32.194911 20.807608,32.86639 22.437585,33.067134 23.320526,32.598418 24.899154,32.087131 27.269542,31.489506 28.333673,31.221584 29.084772,30.925417 30.23887,31.560918 31.032129,31.781232 31.926053,31.669766 32.610156,31.166131 33.029539,31.33009 33.690969,31.268046 34.315114,31.602683 34.87919,32.94342 35.775241,34.659547 35.62671,35.503094 35.662921,36.355668 34.843393,36.619776 33.933215,36.076309 32.714115,35.91469 30.777386,36.736311 30.571703,36.092113 29.413139,36.053078 28.846286,36.372306 27.573543,36.438793 26.291849,38.738835 25.823311,40.010259 24.862732,40.355581 23.356819,39.60364 24.789236,38.164005 23.382356,36.947522 23.393528,36.284454 21.456893,36.504213 20.955569,38.288132 19.217413,40.299186 19.267034,41.707569 16.575685,42.959296 13.390366,45.277724 12.980585,45.293228 12.575197,44.490184 13.66839,43.751176 14.980478,42.237631 16.476105,41.97549 16.231153,41.592993 18.655414,40.198971 18.499436,39.657121 16.991762,40.289924 16.709968,39.807705 17.285628,39.402073 17.414601,38.903466 16.693647,38.372818 16.126436,37.835136 15.60854,37.939045 15.609022,38.225786 15.676107,38.254936 15.590668,38.536237 15.506481,39.650649 10.378687,42.767722 9.907548,43.869787 8.744007,44.180523 6.24801,42.748505 4.236519,43.263792 3.430629,42.769344 3.614332,41.596146 1.817681,40.917756 -0.053978,39.558823 0.635683,38.659868 -1.758423,36.586715 -4.122767,36.591086 -5.059108,36.019613</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Great Sea / Mediterranean Sea</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.17035,31.804819</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

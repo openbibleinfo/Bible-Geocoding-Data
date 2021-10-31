@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Diyala River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m4f8928/diyala-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Diyala River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>46.154121,35.08638 46.11623,35.074035 46.092979,35.087899 46.071775,35.0831 46.068234,35.058455 46.07993,35.055245 46.057915,35.038128 46.014864,35.071477 45.9997,35.061788 45.947811,35.090769 45.931274,35.081671 45.891995,35.123003 45.863029,35.11191 45.822174,35.150237 45.786954,35.152514 45.706202,35.113863 45.667335,35.043495 45.648281,35.036749 45.637312,35.047271 45.623986,35.021203 45.642524,35.01959 45.639771,35.00424 45.619393,35.002187 45.607254,34.974741 45.632207,34.970109 45.633346,34.954624 45.600036,34.902716 45.542187,34.866245 45.51982,34.806445 45.466047,34.755449 45.469545,34.711162 45.442744,34.65964 45.348581,34.632885 45.309411,34.586193 45.277007,34.569529 45.271385,34.543004 45.194201,34.482927 45.211093,34.39381 45.175992,34.35251 45.174698,34.322911 45.155063,34.294621 45.16139,34.278107 45.101266,34.173233 44.983045,34.150741 44.969999,34.107118 44.985488,34.103964 44.979533,34.084586 45.000016,34.066758 44.921075,34.074136 44.885398,34.01076 44.838683,33.988721 44.84028,33.976523 44.776764,33.965081 44.769437,33.950278 44.787698,33.945044 44.715013,33.916735 44.721073,33.894481 44.704599,33.899842 44.693268,33.888194 44.714644,33.876284 44.669898,33.885857 44.681221,33.865687 44.630321,33.85437 44.637492,33.839147 44.623521,33.831772 44.63697,33.83264 44.642323,33.815176 44.6324,33.824505 44.614255,33.802172 44.633617,33.776623 44.608182,33.764561 44.618753,33.754783 44.637627,33.768786 44.619516,33.731521 44.644585,33.725111 44.63076,33.703637 44.654707,33.699299 44.6287,33.691569 44.635052,33.656104 44.613852,33.616873 44.631704,33.618052 44.615783,33.612155 44.622515,33.583951 44.582736,33.547753 44.614324,33.538749 44.593853,33.531524 44.581322,33.455615 44.563512,33.447809 44.561323,33.424746 44.577245,33.432267 44.579257,33.418581 44.559387,33.414247 44.570116,33.402317 44.529927,33.324567 44.540531,33.278371 44.528086,33.26287 44.527512,33.279416 44.520747,33.273456 44.528386,33.245931 44.504816,33.219838</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Diyala River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>44.5069,33.2213</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

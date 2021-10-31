@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Arabah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2bb5ef/arabah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Arabah (Jordan Valley)</name>
+	<description><![CDATA[Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.1&amp;version=ESV">1:1</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.1.7&amp;version=ESV">1:7</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.2.8&amp;version=ESV">2:8</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.17&amp;version=ESV">3:17</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.4.49&amp;version=ESV">4:49</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.11.30&amp;version=ESV">11:30</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.8.14&amp;version=ESV">8:14</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.2&amp;version=ESV">11:2</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.16&amp;version=ESV">11:16</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.1&amp;version=ESV">12:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.3&amp;version=ESV">12:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.8&amp;version=ESV">12:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.18.18&amp;version=ESV">18:18</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.23.24&amp;version=ESV">23:24</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.2.29&amp;version=ESV">2:29</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.4.7&amp;version=ESV">4:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.23.31&amp;version=NLT">23:31</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.25.4&amp;version=ESV">25:4</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.25.5&amp;version=LEB">25:5</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.11.32&amp;version=NLT">11:32</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.33.9&amp;version=NIV">33:9</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.17.6&amp;version=CSB">17:6</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.39.4&amp;version=ESV">39:4</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.52.7&amp;version=ESV">52:7</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.47.8&amp;version=ESV">47:8</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.14.10&amp;version=NIV">14:10</a>]]></description>
+	<Placemark>
+		<name>Arabah</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.557543,32.719317 35.480681,31.800096 35.241313,30.667349 35.133457,30.417043 35.082195,30.013463 34.914786,29.55601 35.045156,29.52262 35.224156,30.056781 35.434371,30.507763 35.571744,31.392845 35.621406,32.190444 35.623684,32.7139 35.557543,32.719317</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Arabah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.151389,30.416944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

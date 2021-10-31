@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shual</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad16b1e/shual">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shual</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.13.17&amp;version=ESV">13:17</a>]]></description>
+	<Placemark>
+		<name>Shual / within 10 km of Taybeh</name>
+		<description>within 10 km of Ophrah 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.30028,32.04438 35.28919,32.04388 35.27822,32.04241 35.26749,32.03997 35.25713,32.03659 35.24724,32.03232 35.23793,32.02719 35.2293,32.02126 35.22146,32.0146 35.21448,32.00728 35.20844,31.99938 35.20341,31.99099 35.19944,31.98219 35.19658,31.9731 35.19485,31.9638 35.19428,31.9544 35.19488,31.945 35.19662,31.9357 35.1995,31.92661 35.20349,31.91783 35.20853,31.90944 35.21458,31.90155 35.22156,31.89424 35.22941,31.88759 35.23803,31.88167 35.24733,31.87655 35.25721,31.87228 35.26755,31.86891 35.27826,31.86648 35.28921,31.865 35.30028,31.86451 35.31135,31.865 35.32229,31.86648 35.333,31.86891 35.34335,31.87228 35.35323,31.87655 35.36253,31.88167 35.37115,31.88759 35.37899,31.89424 35.38598,31.90155 35.39203,31.90944 35.39707,31.91783 35.40105,31.92661 35.40393,31.9357 35.40568,31.945 35.40627,31.9544 35.4057,31.9638 35.40398,31.9731 35.40111,31.98219 35.39715,31.99099 35.39212,31.99938 35.38608,32.00728 35.3791,32.0146 35.37125,32.02126 35.36263,32.02719 35.35332,32.03232 35.34343,32.03659 35.33306,32.03997 35.32234,32.04241 35.31137,32.04388 35.30028,32.04438</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shual / within 10 km of Taybeh</name>
+		<description>within 10 km of Ophrah 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.300278,31.954444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shual / about 10 km around Rammun</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29889,32.01965 35.2878,32.01916 35.27684,32.01769 35.26611,32.01525 35.25575,32.01187 35.24586,32.00759 35.23656,32.00246 35.22793,31.99653 35.22009,31.98987 35.21311,31.98255 35.20708,31.97466 35.20205,31.96626 35.19808,31.95747 35.19522,31.94838 35.19349,31.93908 35.19292,31.92968 35.19352,31.92028 35.19526,31.91098 35.19814,31.90189 35.20212,31.89311 35.20717,31.88472 35.21321,31.87683 35.22019,31.86952 35.22804,31.86287 35.23665,31.85695 35.24595,31.85183 35.25583,31.84756 35.26617,31.84419 35.27688,31.84175 35.28782,31.84028 35.29889,31.83979 35.30995,31.84028 35.3209,31.84175 35.3316,31.84419 35.34195,31.84756 35.35183,31.85183 35.36112,31.85695 35.36974,31.86287 35.37758,31.86952 35.38457,31.87683 35.39061,31.88472 35.39565,31.89311 35.39964,31.90189 35.40252,31.91098 35.40426,31.92028 35.40485,31.92968 35.40428,31.93908 35.40256,31.94838 35.3997,31.95747 35.39573,31.96626 35.3907,31.97466 35.38467,31.98255 35.37769,31.98987 35.36984,31.99653 35.36122,32.00246 35.35192,32.00759 35.34203,32.01187 35.33166,32.01525 35.32094,32.01769 35.30998,32.01916 35.29889,32.01965</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shual / about 10 km around Rammun</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.298889,31.929722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

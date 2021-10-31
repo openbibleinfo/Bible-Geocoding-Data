@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi ar Raynah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/me00c08/wadi-ar-raynah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi ar Raynah</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>32.93623,29.91435 32.93524,29.91361 32.9354,29.9132 32.93485,29.91249 32.93417,29.91268 32.93135,29.91191 32.93137,29.91135 32.93045,29.9111 32.92987,29.91029 32.93027,29.90872 32.92923,29.90848 32.92918,29.90806 32.92711,29.90875 32.92626,29.90949 32.92361,29.90955 32.92254,29.90866 32.92158,29.90687 32.92048,29.90646 32.91853,29.90684 32.91745,29.90629 32.91366,29.90778 32.91223,29.90767 32.91055,29.90837 32.90986,29.90832 32.91036,29.90422 32.90823,29.90125 32.90751,29.90079 32.90635,29.89872 32.90546,29.89841 32.90402,29.89922 32.90263,29.89945 32.90216,29.8986 32.90118,29.89858 32.90033,29.89804 32.89713,29.89496 32.89431,29.89599 32.89265,29.89436 32.89076,29.89387 32.89022,29.89229 32.88781,29.89037 32.88625,29.88964 32.88603,29.88911 32.88367,29.88898 32.88343,29.88868 32.88367,29.88728 32.88271,29.88572 32.88224,29.88563 32.88193,29.88597 32.88153,29.88765 32.87965,29.88649 32.87843,29.88676 32.87795,29.88657 32.87699,29.88517 32.87472,29.88435 32.87366,29.88166 32.87066,29.88155 32.86874,29.88052 32.86749,29.87915 32.86274,29.87915 32.85899,29.87961 32.85716,29.87878 32.85561,29.87742 32.85448,29.87709 32.85286,29.87708 32.8484,29.87824 32.84614,29.87773 32.84378,29.87592 32.84133,29.87692 32.83862,29.87725 32.83789,29.87809 32.83573,29.87784 32.83349,29.87839 32.82927,29.87758 32.82756,29.87826 32.82652,29.87831 32.82222,29.87726 32.8206,29.87734 32.81673,29.87676 32.81551,29.87596 32.81445,29.87576 32.81219,29.87637 32.8034,29.87426 32.80096,29.87175 32.79762,29.87264 32.79562,29.87179 32.79155,29.86586 32.78114,29.87009 32.779,29.86936 32.77383,29.86424 32.77101,29.86412 32.76598,29.86717 32.75886,29.87085 32.75264,29.87057 32.74573,29.86741 32.73811,29.85952 32.70807,29.84454 32.70292,29.84394 32.69689,29.84571 32.69324,29.84567 32.68625,29.84389 32.68011,29.84716 32.66996,29.84363</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi ar Raynah</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>32.748056,29.866111</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

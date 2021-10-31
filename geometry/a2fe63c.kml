@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ramoth-gilead</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2fe63c/ramoth-gilead">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ramoth-gilead</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.13&amp;version=ESV">4:13</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.3&amp;version=ESV">22:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.4&amp;version=ESV">22:4</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.6&amp;version=ESV">22:6</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.12&amp;version=ESV">22:12</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.15&amp;version=ESV">22:15</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.20&amp;version=ESV">22:20</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.29&amp;version=ESV">22:29</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.28&amp;version=ESV">8:28</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.9.1&amp;version=ESV">9:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.9.4&amp;version=ESV">9:4</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.9.14&amp;version=ESV">9:14</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.18.2&amp;version=ESV">18:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.3&amp;version=ESV">18:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.5&amp;version=ESV">18:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.11&amp;version=ESV">18:11</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.14&amp;version=ESV">18:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.19&amp;version=ESV">18:19</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.28&amp;version=ESV">18:28</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.22.5&amp;version=ESV">22:5</a>]]></description>
+	<Placemark>
+		<name>Ramoth-gilead / Tall er Rumeith</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.014988,32.499852</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramoth-gilead / Tall al Husun</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.880421,32.491014</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramoth-gilead / Ar Ramtha</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.006944,32.559167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramoth-gilead / As Salt</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.733333,32.033333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramoth-gilead / Iraq al Amir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.7518,31.9128</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Zered</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aaa2177/valley-of-zered">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Zered (Zered Valley, Wadi Zered)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.21.12&amp;version=ESV">21:12</a>]]></description>
+	<Placemark>
+		<name>Valley of Zered / Wadi al Hasa</name>
+		<description>another name for the Zered</description>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.985014,30.810678 35.974958,30.824487 35.961596,30.830619 35.948062,30.831455 35.936363,30.839798 35.925404,30.843365 35.924527,30.849493 35.914255,30.862898 35.918338,30.871398 35.91363,30.874747 35.920791,30.876255 35.923141,30.881392 35.898857,30.884941 35.894595,30.879713 35.889742,30.879088 35.88919,30.892689 35.878455,30.896404 35.872704,30.89429 35.873895,30.886049 35.870375,30.884453 35.866435,30.886582 35.864414,30.889325 35.868412,30.904303 35.857975,30.903571 35.85031,30.905773 35.844164,30.916284 35.837905,30.921161 35.838989,30.92617 35.843509,30.92967 35.84224,30.934474 35.824074,30.93298 35.820598,30.928264 35.814437,30.927981 35.809218,30.934113 35.800143,30.933493 35.800123,30.937862 35.794499,30.938638 35.784598,30.946074 35.779887,30.944448 35.774361,30.949291 35.771153,30.946118 35.772403,30.955862 35.758905,30.955453 35.75669,30.961514 35.744462,30.960852 35.739869,30.964217 35.732629,30.96432 35.712958,30.973337 35.708703,30.979307 35.700939,30.977444 35.698125,30.980725 35.694821,30.9784 35.690746,30.979284 35.68874,30.973773 35.683085,30.970074 35.678853,30.97774 35.672596,30.976259 35.674836,30.980227 35.66296,30.98791 35.652294,30.989012 35.64867,30.98607 35.641027,30.985419 35.637777,30.988952 35.630856,30.988633 35.628087,30.992412 35.619708,30.995747 35.61802,30.990576 35.610337,30.987668 35.586751,30.990505 35.587335,30.993606 35.583834,30.993862 35.582425,30.998089 35.577205,30.994086 35.575441,30.995859 35.571312,30.994719 35.570522,30.999463 35.561021,31.002165 35.55765,30.998404 35.554082,31.001743 35.547934,30.999597 35.546192,31.003157 35.548279,31.010818 35.538774,31.014029 35.537077,31.017455 35.533831,31.015171 35.526174,31.015462 35.509818,31.006989 35.506741,31.008505 35.506098,31.005011 35.502355,31.004517 35.499689,31.008795 35.495473,31.009315 35.496458,31.014855 35.492235,31.015254 35.476261,31.028189 35.47299,31.045356 35.465225,31.050405 35.466235,31.057245 35.457299,31.069013 35.45645,31.075737</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Zered / Wadi al Hasa</name>
+		<description>another name for the Zered</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.48533,31.02701</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

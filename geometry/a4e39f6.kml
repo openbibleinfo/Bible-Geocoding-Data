@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Galilee 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a4e39f6/galilee-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Galilee 2 (Gilgal)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.12.23&amp;version=ESV">12:23</a>]]></description>
+	<Folder>
+		<name>Galilee 2</name>
+		<description>another name for Galilee 1</description>
+		<Placemark>
+			<name>Galilee 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.29702,32.60062 35.32407,32.60062 35.45934,32.62347 35.48639,32.64631 35.51344,32.66916 35.5405,32.692 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.56755,33.08034 35.43228,33.10318 35.40523,33.10318 35.37818,33.10318 35.29702,33.03465 35.24291,32.96612 35.16175,32.8519 35.1347,32.76053 35.1347,32.73769 35.21586,32.62347 35.29702,32.60062</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.1347,32.66916 35.16175,32.64631 35.21586,32.60062 35.26997,32.57778 35.43228,32.60062 35.48639,32.62347 35.51344,32.64631 35.5405,32.66916 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.56755,33.08034 35.43228,33.10318 35.40523,33.10318 35.37818,33.10318 35.35113,33.08034 35.32407,33.0575 35.29702,33.03465 35.24291,32.96612 35.16175,32.8519 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769 35.1347,32.71484 35.1347,32.66916</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.21586,32.57778 35.24291,32.55494 35.48639,32.60062 35.51344,32.62347 35.5405,32.64631 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.12603 35.45934,33.12603 35.35113,33.10318 35.26997,33.01181 35.21586,32.94328 35.16175,32.8519 35.1347,32.80622 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769 35.1347,32.71484 35.1347,32.66916 35.21586,32.57778</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.1347,32.73769 35.1347,32.71484 35.1347,32.692 35.1347,32.66916 35.1347,32.64631 35.21586,32.55494 35.24291,32.55494 35.26997,32.55494 35.51344,32.55494 35.5405,32.62347 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.12603 35.45934,33.12603 35.43228,33.12603 35.40523,33.12603 35.32407,33.10318 35.26997,33.03465 35.1347,32.82906 35.1347,32.80622 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.32407,32.53209 35.35113,32.53209 35.5405,32.55494 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.51344,33.12603 35.48639,33.12603 35.45934,33.12603 35.43228,33.12603 35.40523,33.12603 35.37818,33.12603 35.32407,33.10318 35.24291,33.03465 35.1347,32.82906 35.10765,32.73769 35.10765,32.71484 35.10765,32.66916 35.18881,32.57778 35.21586,32.55494 35.26997,32.53209 35.29702,32.53209 35.32407,32.53209</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.29702,32.50925 35.32407,32.50925 35.5405,32.55494 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.14887 35.45934,33.14887 35.32407,33.12603 35.24291,33.0575 35.10765,32.80622 35.10765,32.76053 35.10765,32.73769 35.10765,32.71484 35.10765,32.692 35.10765,32.66916 35.18881,32.57778 35.21586,32.55494 35.24291,32.53209 35.29702,32.50925</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.10765,32.73769 35.10765,32.71484 35.10765,32.692 35.10765,32.66916 35.10765,32.64631 35.21586,32.53209 35.35113,32.48641 35.37818,32.48641 35.5405,32.53209 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.56755,33.12603 35.51344,33.19456 35.32407,33.12603 35.21586,33.0575 35.10765,32.80622 35.10765,32.78337 35.10765,32.76053 35.10765,32.73769</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.32407,33.12603 35.21586,33.08034 35.16175,33.0575 35.10765,32.80622 35.08059,32.62347 35.08059,32.60062 35.21586,32.53209 35.40523,32.46356 35.43228,32.46356 35.45934,32.46356 35.5405,32.53209 35.56755,32.60062 35.62166,32.94328 35.5946,33.08034 35.56755,33.12603 35.5405,33.17171 35.51344,33.19456 35.48639,33.19456 35.32407,33.12603</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.5405,33.19456 35.51344,33.2174 35.48639,33.2174 35.45934,33.2174 35.37818,33.2174 35.35113,33.2174 35.32407,33.2174 35.16175,33.08034 35.1347,33.0575 35.08059,32.8519 35.05354,32.60062 35.24291,32.50925 35.51344,32.41788 35.56755,32.57778 35.62166,32.92043 35.62166,32.94328 35.5946,33.14887 35.5405,33.19456</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 2</name>
+			<description>another name for Galilee 1</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.527,32.76</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Galilee 2 / Jiljuliyeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9518,32.153531</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

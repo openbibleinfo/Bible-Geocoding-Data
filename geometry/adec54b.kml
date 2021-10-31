@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Waheb</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adec54b/waheb">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Waheb (Zahab)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.21.14&amp;version=ESV">21:14</a>]]></description>
+	<Placemark>
+		<name>Waheb / within 50 km of the Gulf of Aqaba</name>
+		<description>within 50 km of Suphah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.75,29.19966 34.69616,29.19719 34.64291,29.18979 34.59086,29.17756 34.54056,29.16062 34.49259,29.13917 34.44748,29.11345 34.40571,29.08373 34.36775,29.05034 34.33401,29.01367 34.30487,28.9741 34.28063,28.93208 34.26157,28.88807 34.24788,28.84256 34.2397,28.79604 34.23712,28.74903 34.24016,28.70204 34.24877,28.65559 34.26287,28.61017 34.28228,28.5663 34.30678,28.52445 34.33611,28.48507 34.36994,28.44859 34.4079,28.41541 34.44958,28.38589 34.49451,28.36034 34.5422,28.33906 34.59215,28.32226 34.64381,28.31012 34.69662,28.30279 34.75,28.30034 34.80338,28.30279 34.85619,28.31012 34.90785,28.32226 34.9578,28.33906 35.00549,28.36034 35.05042,28.38589 35.0921,28.41541 35.13006,28.44859 35.16389,28.48507 35.19322,28.52445 35.21772,28.5663 35.23713,28.61017 35.25123,28.65559 35.25984,28.70204 35.26288,28.74903 35.2603,28.79604 35.25212,28.84256 35.23843,28.88807 35.21937,28.93208 35.19513,28.9741 35.16599,29.01367 35.13225,29.05034 35.09429,29.08373 35.05252,29.11345 35.00741,29.13917 34.95944,29.16062 34.90914,29.17756 34.85709,29.18979 34.80384,29.19719 34.75,29.19966</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Waheb / within 50 km of the Gulf of Aqaba</name>
+		<description>within 50 km of Suphah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.75,28.75</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Waheb / within 50 km of Sufeh</name>
+		<description>within 50 km of Suphah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.81749,32.11527 35.762,32.11279 35.70712,32.1054 35.65347,32.09316 35.60165,32.07621 35.55222,32.05475 35.50573,32.02901 35.4627,31.99928 35.4236,31.96589 35.38886,31.9292 35.35885,31.88962 35.3339,31.84759 35.31429,31.80357 35.30021,31.75806 35.29181,31.71153 35.28918,31.66452 35.29234,31.61753 35.30125,31.57108 35.31579,31.52567 35.3358,31.48181 35.36106,31.43997 35.39129,31.4006 35.42614,31.36413 35.46524,31.33096 35.50816,31.30145 35.55443,31.27592 35.60355,31.25465 35.65498,31.23785 35.70816,31.22573 35.76253,31.2184 35.81749,31.21595 35.87245,31.2184 35.92682,31.22573 35.98,31.23785 36.03143,31.25465 36.08055,31.27592 36.12682,31.30145 36.16974,31.33096 36.20884,31.36413 36.24369,31.4006 36.27392,31.43997 36.29918,31.48181 36.31919,31.52567 36.33373,31.57108 36.34264,31.61753 36.3458,31.66452 36.34317,31.71153 36.33477,31.75806 36.32069,31.80357 36.30108,31.84759 36.27613,31.88962 36.24612,31.9292 36.21138,31.96589 36.17228,31.99928 36.12925,32.02901 36.08276,32.05475 36.03333,32.07621 35.98151,32.09316 35.92786,32.1054 35.87298,32.11279 35.81749,32.11527</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Waheb / within 50 km of Sufeh</name>
+		<description>within 50 km of Suphah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.81749,31.665609</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

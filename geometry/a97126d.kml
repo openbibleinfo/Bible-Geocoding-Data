@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gibeath-haaraloth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a97126d/gibeath-haaraloth">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gibeath-haaraloth (Hill of the Foreskins)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.5.3&amp;version=ESV">5:3</a>]]></description>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Khirbet el Mefjir</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.45997,31.92685 35.45443,31.9266 35.44895,31.92587 35.4436,31.92465 35.43842,31.92296 35.43348,31.92082 35.42883,31.91826 35.42452,31.91529 35.4206,31.91197 35.41712,31.90831 35.4141,31.90436 35.41158,31.90016 35.4096,31.89577 35.40817,31.89122 35.4073,31.88657 35.40701,31.88187 35.40731,31.87717 35.40818,31.87252 35.40961,31.86798 35.4116,31.86358 35.41412,31.85939 35.41714,31.85545 35.42063,31.85179 35.42455,31.84846 35.42886,31.8455 35.4335,31.84294 35.43844,31.8408 35.44361,31.83912 35.44896,31.8379 35.45444,31.83716 35.45997,31.83692 35.4655,31.83716 35.47097,31.8379 35.47633,31.83912 35.4815,31.8408 35.48644,31.84294 35.49108,31.8455 35.49539,31.84846 35.49931,31.85179 35.5028,31.85545 35.50582,31.85939 35.50834,31.86358 35.51032,31.86798 35.51176,31.87252 35.51263,31.87717 35.51292,31.88187 35.51264,31.88657 35.51177,31.89122 35.51034,31.89577 35.50836,31.90016 35.50584,31.90436 35.50282,31.90831 35.49933,31.91197 35.49542,31.91529 35.49111,31.91826 35.48646,31.92082 35.48152,31.92296 35.47634,31.92465 35.47098,31.92587 35.46551,31.9266 35.45997,31.92685</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Khirbet el Mefjir</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.459969,31.881883</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Khirbet en Nitleh</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.48747,31.89529 35.48193,31.89504 35.47646,31.8943 35.4711,31.89308 35.46593,31.8914 35.46099,31.88926 35.45634,31.88669 35.45204,31.88373 35.44812,31.8804 35.44463,31.87674 35.44161,31.87279 35.4391,31.8686 35.43712,31.86421 35.43568,31.85966 35.43482,31.85501 35.43453,31.85031 35.43483,31.84561 35.4357,31.84096 35.43713,31.83641 35.43912,31.83202 35.44164,31.82783 35.44466,31.82388 35.44814,31.82023 35.45206,31.8169 35.45637,31.81394 35.46101,31.81138 35.46595,31.80924 35.47112,31.80755 35.47647,31.80634 35.48194,31.8056 35.48747,31.80535 35.493,31.8056 35.49847,31.80634 35.50382,31.80755 35.50899,31.80924 35.51393,31.81138 35.51857,31.81394 35.52288,31.8169 35.5268,31.82023 35.53028,31.82388 35.5333,31.82783 35.53582,31.83202 35.53781,31.83641 35.53924,31.84096 35.54011,31.84561 35.54041,31.85031 35.54012,31.85501 35.53926,31.85966 35.53782,31.86421 35.53584,31.8686 35.53333,31.87279 35.53031,31.87674 35.52682,31.8804 35.5229,31.88373 35.5186,31.88669 35.51395,31.88926 35.50901,31.8914 35.50384,31.89308 35.49848,31.8943 35.49301,31.89504 35.48747,31.89529</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Khirbet en Nitleh</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.48747,31.85032</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of El ’Unuq</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.3707,32.29422 35.36514,32.29397 35.35964,32.29323 35.35426,32.29201 35.34906,32.29033 35.3441,32.28819 35.33944,32.28562 35.33511,32.28266 35.33118,32.27933 35.32767,32.27567 35.32464,32.27172 35.32212,32.26753 35.32013,32.26314 35.31869,32.25859 35.31782,32.25394 35.31753,32.24924 35.31783,32.24454 35.3187,32.23989 35.32014,32.23534 35.32214,32.23095 35.32467,32.22676 35.3277,32.22281 35.3312,32.21916 35.33514,32.21583 35.33946,32.21287 35.34413,32.21031 35.34908,32.20817 35.35428,32.20648 35.35965,32.20527 35.36515,32.20453 35.3707,32.20428 35.37625,32.20453 35.38175,32.20527 35.38712,32.20648 35.39232,32.20817 35.39727,32.21031 35.40194,32.21287 35.40626,32.21583 35.4102,32.21916 35.4137,32.22281 35.41673,32.22676 35.41926,32.23095 35.42126,32.23534 35.4227,32.23989 35.42357,32.24454 35.42387,32.24924 35.42358,32.25394 35.42271,32.25859 35.42127,32.26314 35.41928,32.26753 35.41676,32.27172 35.41373,32.27567 35.41022,32.27933 35.40629,32.28266 35.40196,32.28562 35.3973,32.28819 35.39234,32.29033 35.38714,32.29201 35.38176,32.29323 35.37626,32.29397 35.3707,32.29422</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of El ’Unuq</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.3707,32.24925</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Suwwanet eth Thaniya</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.45567,31.92658 35.45013,31.92633 35.44465,31.92559 35.4393,31.92437 35.43412,31.92269 35.42918,31.92055 35.42453,31.91798 35.42022,31.91502 35.4163,31.91169 35.41282,31.90803 35.4098,31.90408 35.40728,31.89989 35.4053,31.8955 35.40387,31.89095 35.403,31.8863 35.40272,31.8816 35.40301,31.8769 35.40388,31.87225 35.40531,31.8677 35.4073,31.86331 35.40982,31.85912 35.41284,31.85517 35.41633,31.85152 35.42025,31.84819 35.42456,31.84523 35.4292,31.84267 35.43414,31.84053 35.43931,31.83884 35.44467,31.83763 35.45014,31.83689 35.45567,31.83664 35.4612,31.83689 35.46667,31.83763 35.47203,31.83884 35.4772,31.84053 35.48214,31.84267 35.48678,31.84523 35.49109,31.84819 35.49501,31.85152 35.4985,31.85517 35.50152,31.85912 35.50404,31.86331 35.50603,31.8677 35.50746,31.87225 35.50833,31.8769 35.50862,31.8816 35.50834,31.8863 35.50747,31.89095 35.50604,31.8955 35.50406,31.89989 35.50154,31.90408 35.49852,31.90803 35.49504,31.91169 35.49112,31.91502 35.48681,31.91798 35.48216,31.92055 35.47722,31.92269 35.47204,31.92437 35.46669,31.92559 35.46121,31.92633 35.45567,31.92658</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Suwwanet eth Thaniya</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.45567,31.88161</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Tell el Jurn</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.45883,31.91891 35.45329,31.91866 35.44782,31.91792 35.44246,31.9167 35.43728,31.91502 35.43234,31.91288 35.42769,31.91031 35.42339,31.90735 35.41947,31.90402 35.41598,31.90036 35.41296,31.89641 35.41045,31.89222 35.40846,31.88783 35.40703,31.88328 35.40617,31.87863 35.40588,31.87393 35.40617,31.86923 35.40704,31.86458 35.40848,31.86003 35.41047,31.85564 35.41298,31.85145 35.416,31.8475 35.41949,31.84385 35.42341,31.84052 35.42772,31.83756 35.43237,31.835 35.4373,31.83286 35.44248,31.83117 35.44783,31.82996 35.4533,31.82922 35.45883,31.82897 35.46436,31.82922 35.46983,31.82996 35.47518,31.83117 35.48036,31.83286 35.48529,31.835 35.48994,31.83756 35.49425,31.84052 35.49817,31.84385 35.50166,31.8475 35.50468,31.85145 35.50719,31.85564 35.50918,31.86003 35.51062,31.86458 35.51149,31.86923 35.51178,31.87393 35.51149,31.87863 35.51063,31.88328 35.5092,31.88783 35.50721,31.89222 35.5047,31.89641 35.50168,31.90036 35.49819,31.90402 35.49427,31.90735 35.48997,31.91031 35.48532,31.91288 35.48038,31.91502 35.4752,31.9167 35.46984,31.91792 35.46437,31.91866 35.45883,31.91891</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Tell el Jurn</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.45883,31.87394</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Bedhat esh Sha’ab</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.51549,32.2049 35.50993,32.20465 35.50444,32.20391 35.49906,32.20269 35.49387,32.20101 35.48892,32.19887 35.48425,32.1963 35.47993,32.19334 35.476,32.19001 35.4725,32.18635 35.46948,32.1824 35.46695,32.17821 35.46496,32.17381 35.46353,32.16927 35.46266,32.16462 35.46237,32.15992 35.46266,32.15522 35.46354,32.15057 35.46498,32.14602 35.46697,32.14163 35.4695,32.13744 35.47253,32.13349 35.47603,32.12983 35.47996,32.12651 35.48428,32.12355 35.48894,32.12098 35.49389,32.11885 35.49908,32.11716 35.50445,32.11595 35.50994,32.11521 35.51549,32.11496 35.52104,32.11521 35.52652,32.11595 35.53189,32.11716 35.53708,32.11885 35.54203,32.12098 35.54669,32.12355 35.55101,32.12651 35.55495,32.12983 35.55845,32.13349 35.56147,32.13744 35.564,32.14163 35.56599,32.14602 35.56744,32.15057 35.56831,32.15522 35.5686,32.15992 35.56831,32.16462 35.56745,32.16927 35.56601,32.17381 35.56402,32.17821 35.5615,32.1824 35.55847,32.18635 35.55497,32.19001 35.55104,32.19334 35.54672,32.1963 35.54206,32.19887 35.5371,32.20101 35.53191,32.20269 35.52653,32.20391 35.52104,32.20465 35.51549,32.2049</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Bedhat esh Sha’ab</name>
+		<description>within 5 km of Gilgal 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.515486,32.159929</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Tell es Sultan</name>
+		<description>within 5 km of Jericho 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.44456,31.91669 35.43903,31.91644 35.43355,31.9157 35.42819,31.91448 35.42302,31.9128 35.41808,31.91066 35.41343,31.90809 35.40912,31.90513 35.4052,31.9018 35.40172,31.89814 35.3987,31.89419 35.39618,31.89 35.3942,31.8856 35.39277,31.88106 35.3919,31.87641 35.39161,31.87171 35.39191,31.86701 35.39278,31.86236 35.39421,31.85781 35.3962,31.85342 35.39872,31.84923 35.40174,31.84528 35.40523,31.84162 35.40915,31.8383 35.41345,31.83534 35.4181,31.83277 35.42304,31.83064 35.42821,31.82895 35.43356,31.82774 35.43903,31.827 35.44456,31.82675 35.4501,31.827 35.45557,31.82774 35.46092,31.82895 35.46609,31.83064 35.47103,31.83277 35.47567,31.83534 35.47998,31.8383 35.4839,31.84162 35.48739,31.84528 35.49041,31.84923 35.49293,31.85342 35.49491,31.85781 35.49635,31.86236 35.49722,31.86701 35.49751,31.87171 35.49723,31.87641 35.49636,31.88106 35.49493,31.8856 35.49294,31.89 35.49043,31.89419 35.48741,31.89814 35.48393,31.9018 35.48001,31.90513 35.4757,31.90809 35.47105,31.91066 35.46611,31.9128 35.46093,31.91448 35.45558,31.9157 35.4501,31.91644 35.44456,31.91669</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gibeath-haaraloth / within 5 km of Tell es Sultan</name>
+		<description>within 5 km of Jericho 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.444564,31.871719</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

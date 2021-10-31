@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hukok</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5c4318/hukok">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hukok</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.6.75&amp;version=ESV">6:75</a>]]></description>
+	<Placemark>
+		<name>Hukok / Tel Regev</name>
+		<description>another name for Helkath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.09027,32.75885</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Tel Qashish</name>
+		<description>another name for Helkath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.109722,32.685278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Yaquq</name>
+		<description>another name for Helkath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.4789,32.8847</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Khirbet el Jemeijimeh</name>
+		<description>another name for Helkath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.263449,32.864276</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Tell Amr</name>
+		<description>another name for Helkath</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.096667,32.728056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Khirbet el Jemeijimeh</name>
+		<description>another name for Hukkok</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.263449,32.864276</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hukok / Yaquq</name>
+		<description>another name for Hukkok</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.4789,32.8847</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

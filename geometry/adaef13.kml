@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lasha</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adaef13/lasha">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Lasha</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.10.19&amp;version=ESV">10:19</a>]]></description>
+	<Placemark>
+		<name>Lasha / Callirrhoe</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.559306,31.597</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Tel Dan</name>
+		<description>another name for Dan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.652,33.249</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / in the region south of the Lisan</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.408824,31.314783 35.305248,30.924507 35.479241,30.90329 35.546828,31.303317 35.408824,31.314783</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / in the region south of the Lisan</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.449223,31.20849</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Al Safi</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.487657,31.036904</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / in the region north of the Dead Sea</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.641497,31.738839 35.701387,31.844513 35.595213,31.965858 35.605654,32.028979 35.473661,32.0442 35.447941,31.960009 35.398864,31.951947 35.377756,31.918242 35.421166,31.893264 35.430094,31.847714 35.454051,31.779867 35.494221,31.751456 35.641497,31.738839</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / in the region north of the Dead Sea</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.595278,31.795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Tell al Sheikh Isa</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.47216,31.022968</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Tawahin el Sukkar</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.475163,31.021611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / mouth of Wadi Mujib</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.573333,31.465833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Esh Shaghur</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.649971,31.829531</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Tall Iktanu</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.671878,31.819256</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / Bab edh Dhra</name>
+		<description>another name for Zoar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.523005,31.248729</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / within 30 km of Hama</name>
+		<description>another name for Laash</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.75,35.4063 36.7154,35.40481 36.68118,35.40038 36.64773,35.39305 36.6154,35.3829 36.58457,35.37004 36.55556,35.35461 36.5287,35.3368 36.50428,35.31678 36.48258,35.29479 36.46381,35.27106 36.4482,35.24586 36.43591,35.21947 36.42708,35.19217 36.42178,35.16426 36.42009,35.13605 36.42201,35.10786 36.42752,35.07998 36.43656,35.05272 36.44902,35.02639 36.46476,35.00127 36.48361,34.97763 36.50537,34.95573 36.52979,34.9358 36.5566,34.91808 36.58552,34.90274 36.61622,34.88996 36.64837,34.87987 36.68163,34.87258 36.71563,34.86818 36.75,34.8667 36.78437,34.86818 36.81837,34.87258 36.85163,34.87987 36.88378,34.88996 36.91448,34.90274 36.9434,34.91808 36.97021,34.9358 36.99463,34.95573 37.01639,34.97763 37.03524,35.00127 37.05098,35.02639 37.06344,35.05272 37.07248,35.07998 37.07799,35.10786 37.07991,35.13605 37.07822,35.16426 37.07292,35.19217 37.06409,35.21947 37.0518,35.24586 37.03619,35.27106 37.01742,35.29479 36.99572,35.31678 36.9713,35.3368 36.94444,35.35461 36.91543,35.37004 36.8846,35.3829 36.85227,35.39305 36.81882,35.40038 36.7846,35.40481 36.75,35.4063</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Lasha / within 30 km of Hama</name>
+		<description>another name for Laash</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.75,35.1365</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Lasha / Nuhashe</name>
+		<description>another name for Nuhashe</description>
+		<Placemark>
+			<name>Lasha (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.96571,35.64666 36.96571,35.61072 36.96571,35.57479 37.00973,35.57479 37.05375,35.57479 37.09778,35.57479 37.1418,35.57479 37.18582,35.57479 37.22984,35.57479 37.22984,35.61072 37.22984,35.64666 37.22984,35.68259 37.18582,35.68259 37.1418,35.68259 37.09778,35.68259 37.05375,35.68259 37.00973,35.68259 36.96571,35.68259 36.96571,35.64666</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lasha (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.96571,35.71853 36.61353,35.68259 36.61353,35.64666 36.61353,35.61072 36.61353,35.57479 36.65755,35.57479 36.70157,35.57479 36.7456,35.57479 36.78962,35.57479 36.83364,35.57479 36.87766,35.57479 36.92169,35.57479 36.96571,35.57479 37.00973,35.57479 37.05375,35.57479 37.09778,35.57479 37.1418,35.57479 37.18582,35.57479 37.22984,35.57479 37.27387,35.57479 37.31789,35.57479 37.36191,35.57479 37.40593,35.57479 37.40593,35.61072 37.40593,35.64666 37.40593,35.68259 37.22984,35.71853 37.18582,35.71853 37.1418,35.71853 37.09778,35.71853 37.05375,35.71853 37.00973,35.71853 36.96571,35.71853</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lasha (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.70157,35.7904 36.65755,35.75447 36.61353,35.71853 36.61353,35.68259 36.61353,35.64666 36.61353,35.61072 36.61353,35.57479 36.61353,35.53885 36.65755,35.53885 36.70157,35.53885 36.7456,35.53885 36.78962,35.53885 36.83364,35.53885 36.87766,35.53885 36.92169,35.53885 36.96571,35.53885 37.00973,35.53885 37.05375,35.53885 37.09778,35.53885 37.1418,35.53885 37.18582,35.53885 37.22984,35.53885 37.27387,35.53885 37.31789,35.53885 37.36191,35.53885 37.40593,35.53885 37.84616,35.57479 37.84616,35.61072 37.84616,35.64666 37.80213,35.71853 37.18582,35.7904 37.1418,35.7904 37.09778,35.7904 37.05375,35.7904 37.00973,35.7904 36.96571,35.7904 36.92169,35.7904 36.87766,35.7904 36.83364,35.7904 36.78962,35.7904 36.7456,35.7904 36.70157,35.7904</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lasha (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.61353,35.43105 36.7456,35.39511 37.36191,35.35918 37.40593,35.35918 37.44995,35.35918 37.49398,35.35918 37.538,35.35918 37.58202,35.35918 37.62604,35.35918 37.67007,35.35918 37.71409,35.35918 37.75811,35.35918 37.80213,35.35918 37.84616,35.35918 37.84616,35.39511 37.84616,35.43105 37.84616,35.46698 37.84616,35.50292 37.84616,35.53885 37.84616,35.57479 37.84616,35.61072 37.84616,35.64666 37.84616,35.68259 37.84616,35.71853 37.80213,35.75447 37.75811,35.7904 37.71409,35.82634 37.538,35.93414 37.40593,35.97008 37.22984,36.00601 37.18582,36.00601 37.1418,36.00601 37.09778,36.00601 37.05375,36.00601 37.00973,36.00601 36.96571,36.00601 36.92169,36.00601 36.56951,35.7904 36.56951,35.75447 36.56951,35.71853 36.56951,35.68259 36.56951,35.64666 36.56951,35.61072 36.56951,35.57479 36.61353,35.43105</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lasha (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.30537,35.75447 36.30537,35.71853 36.30537,35.68259 36.30537,35.64666 36.30537,35.61072 36.30537,35.57479 36.56951,35.39511 37.31789,35.35918 37.36191,35.35918 37.40593,35.35918 37.44995,35.35918 37.49398,35.35918 37.538,35.35918 37.58202,35.35918 37.62604,35.35918 37.67007,35.35918 37.71409,35.35918 37.75811,35.35918 37.80213,35.35918 37.84616,35.35918 37.89018,35.39511 37.84616,35.71853 37.80213,35.75447 37.75811,35.7904 37.71409,35.82634 37.67007,35.86227 37.62604,35.89821 37.58202,35.93414 37.49398,35.97008 37.40593,36.00601 37.36191,36.00601 37.31789,36.00601 37.27387,36.00601 37.22984,36.00601 37.18582,36.00601 37.1418,36.00601 37.09778,36.00601 37.05375,36.00601 37.00973,36.00601 36.96571,36.00601 36.92169,36.00601 36.87766,36.00601 36.83364,36.00601 36.7456,35.97008 36.30537,35.7904 36.30537,35.75447</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lasha / Nuhashe</name>
+			<description>another name for Nuhashe</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>37.046667,35.740556</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

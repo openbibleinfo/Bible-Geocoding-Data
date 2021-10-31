@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Uzzen-sheerah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a57ea5f/uzzen-sheerah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Uzzen-sheerah (Uzzen-sherah)</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.7.24&amp;version=ESV">7:24</a>]]></description>
+	<Placemark>
+		<name>Uzzen-sheerah / within 5 km of Beit Ur al Tahta</name>
+		<description>within 5 km of Lower Beth-horon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.08361,31.93997 35.07807,31.93972 35.07259,31.93898 35.06724,31.93776 35.06206,31.93608 35.05712,31.93394 35.05247,31.93137 35.04816,31.92841 35.04424,31.92508 35.04075,31.92142 35.03773,31.91747 35.03522,31.91328 35.03323,31.90889 35.0318,31.90434 35.03094,31.89969 35.03065,31.89499 35.03094,31.89029 35.03181,31.88564 35.03325,31.88109 35.03524,31.8767 35.03776,31.87251 35.04078,31.86856 35.04427,31.86491 35.04819,31.86158 35.05249,31.85862 35.05714,31.85606 35.06208,31.85392 35.06725,31.85223 35.0726,31.85102 35.07808,31.85028 35.08361,31.85003 35.08914,31.85028 35.09462,31.85102 35.09997,31.85223 35.10514,31.85392 35.11008,31.85606 35.11473,31.85862 35.11904,31.86158 35.12296,31.86491 35.12645,31.86856 35.12947,31.87251 35.13198,31.8767 35.13397,31.88109 35.13541,31.88564 35.13628,31.89029 35.13657,31.89499 35.13629,31.89969 35.13542,31.90434 35.13399,31.90889 35.132,31.91328 35.12949,31.91747 35.12647,31.92142 35.12298,31.92508 35.11906,31.92841 35.11475,31.93137 35.1101,31.93394 35.10516,31.93608 35.09998,31.93776 35.09463,31.93898 35.08915,31.93972 35.08361,31.93997</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uzzen-sheerah / within 5 km of Beit Ur al Tahta</name>
+		<description>within 5 km of Lower Beth-horon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.083611,31.895</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzzen-sheerah / Beit Sira</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.044092,31.887419</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

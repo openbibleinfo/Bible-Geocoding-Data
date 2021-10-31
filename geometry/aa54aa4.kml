@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jordan Valley</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa54aa4/jordan-valley">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Jordan Valley (Jordan, Plain)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.13.10&amp;version=ESV">13:10</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.13.11&amp;version=ESV">13:11</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.13.12&amp;version=NASB">13:12</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.19.17&amp;version=NRSV">19:17</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.19.25&amp;version=NRSV">19:25</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.19.28&amp;version=NRSV">19:28</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.19.29&amp;version=NRSV">19:29</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.18.23&amp;version=NRSV">18:23</a>]]></description>
+	<Placemark>
+		<name>Jordan Valley</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.641497,31.738839 35.701387,31.844513 35.595213,31.965858 35.668632,32.19519 35.598618,32.350868 35.635348,32.727494 35.566054,32.71703 35.575584,32.661326 35.567754,32.623829 35.519762,32.506111 35.539992,32.362357 35.556018,32.270368 35.540053,32.197291 35.489048,32.083101 35.434166,32.030584 35.447941,31.960009 35.398864,31.951947 35.377756,31.918242 35.421166,31.893264 35.430094,31.847714 35.454051,31.779867 35.494221,31.751456 35.641497,31.738839</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jordan Valley</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.57,32.317222</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

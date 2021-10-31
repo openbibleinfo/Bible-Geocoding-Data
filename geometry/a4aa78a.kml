@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zobah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a4aa78a/zobah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zobah</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.14.47&amp;version=ESV">14:47</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.3&amp;version=ESV">8:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.8.5&amp;version=ESV">8:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.8.12&amp;version=ESV">8:12</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.6&amp;version=ESV">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.8&amp;version=ESV">10:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.23.36&amp;version=ESV">23:36</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.23&amp;version=ESV">11:23</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.24&amp;version=NIV">11:24</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.11.47&amp;version=NLT">11:47</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.18.5&amp;version=ESV">18:5</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.18.9&amp;version=ESV">18:9</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.6&amp;version=ESV">19:6</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.60.1&amp;version=ESV">60:1</a>]]></description>
+	<Folder>
+		<name>Zobah</name>
+		<Placemark>
+			<name>Zobah (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.98844,33.89764 35.98844,33.87814 36.01173,33.87814 36.03502,33.87814 36.05832,33.89764 36.08161,33.91713 36.1049,33.93662 36.1282,33.95612 36.1049,33.95612 36.08161,33.95612 36.05832,33.95612 36.03502,33.93662 36.01173,33.91713 35.98844,33.89764</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.01173,33.97561 35.96514,33.91713 35.96514,33.87814 35.98844,33.85865 36.01173,33.85865 36.03502,33.87814 36.05832,33.89764 36.08161,33.91713 36.1049,33.93662 36.1282,33.95612 36.15149,33.97561 36.29125,34.13156 36.26796,34.13156 36.24467,34.13156 36.1282,34.09257 36.1049,34.07308 36.01173,33.97561</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.94185,33.89764 35.94185,33.87814 35.96514,33.85865 36.01173,33.83916 36.05832,33.87814 36.08161,33.89764 36.1282,33.93662 36.15149,33.95612 36.31455,34.13156 36.33784,34.17055 36.31455,34.19004 36.29125,34.19004 36.26796,34.19004 36.24467,34.19004 36.17478,34.13156 36.15149,34.11206 36.1282,34.09257 36.1049,34.07308 36.08161,34.05358 36.01173,33.97561 35.94185,33.89764</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.94185,33.89764 35.94185,33.87814 35.96514,33.85865 36.01173,33.83916 36.03502,33.85865 36.05832,33.87814 36.08161,33.89764 36.1049,33.91713 36.1282,33.93662 36.15149,33.95612 36.31455,34.13156 36.40772,34.24852 36.40772,34.26801 36.24467,34.22903 36.1282,34.11206 35.98844,33.95612 35.94185,33.89764</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.91855,33.87814 35.89526,33.80017 35.91855,33.78068 35.94185,33.78068 36.15149,33.93662 36.17478,33.95612 36.29125,34.09257 36.40772,34.22903 36.52419,34.36548 36.52419,34.38497 36.52419,34.40447 36.5009,34.42396 36.4776,34.44345 36.45431,34.44345 36.43102,34.42396 36.40772,34.40447 36.31455,34.307 36.22137,34.20953 36.1282,34.11206 35.98844,33.95612 35.91855,33.87814</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.89526,33.80017 35.91855,33.78068 35.94185,33.78068 36.03502,33.83916 36.05832,33.85865 36.1282,33.91713 36.15149,33.93662 36.17478,33.95612 36.31455,34.11206 36.43102,34.24852 36.54748,34.38497 36.57078,34.42396 36.57078,34.44345 36.5009,34.48244 36.4776,34.46295 36.45431,34.44345 36.43102,34.42396 36.40772,34.40447 36.31455,34.307 36.08161,34.07308 35.98844,33.97561 35.91855,33.89764 35.87197,33.81966 35.89526,33.80017</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.64066,34.54092 36.61737,34.54092 36.59407,34.54092 36.52419,34.52143 36.5009,34.50194 36.4776,34.48244 36.45431,34.46295 36.31455,34.32649 36.1049,34.11206 35.96514,33.95612 35.91855,33.89764 35.87197,33.81966 35.84867,33.74169 35.87197,33.72219 35.89526,33.72219 35.94185,33.76118 35.96514,33.78068 35.98844,33.80017 36.01173,33.81966 36.03502,33.83916 36.05832,33.85865 36.1049,33.89764 36.1282,33.91713 36.15149,33.93662 36.17478,33.95612 36.33784,34.13156 36.40772,34.20953 36.66395,34.50194 36.66395,34.52143 36.66395,34.54092 36.64066,34.54092</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.84867,33.72219 35.87197,33.7027 36.1049,33.68321 36.1282,33.7027 36.29125,33.93662 36.66395,34.44345 36.68725,34.54092 36.66395,34.56042 36.64066,34.56042 36.54748,34.54092 36.4776,34.50194 36.38443,34.40447 36.08161,34.09257 35.91855,33.91713 35.84867,33.80017 35.82538,33.76118 35.84867,33.72219</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.64066,34.57991 36.61737,34.57991 36.52419,34.54092 36.26796,34.40447 36.05832,34.13156 35.82538,33.78068 35.80209,33.74169 35.80209,33.66371 35.82538,33.58574 35.91855,33.54675 35.94185,33.54675 35.96514,33.54675 35.98844,33.54675 36.01173,33.54675 36.03502,33.54675 36.15149,33.68321 36.66395,34.32649 36.73383,34.52143 36.64066,34.57991</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zobah</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.150833,33.935278</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

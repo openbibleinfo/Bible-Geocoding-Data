@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Etham</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a27d0e0/etham">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Etham</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.13.20&amp;version=ESV">13:20</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.33.6&amp;version=ESV">33:6</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.7&amp;version=ESV">33:7</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.8&amp;version=ESV">33:8</a>]]></description>
+	<Placemark>
+		<name>Etham / Tell er Retaba</name>
+		<description>another name for Pithom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>31.963611,30.5475</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Ain Shams</name>
+		<description>another name for Pithom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>31.3075,30.129444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Tell el Maskhuta</name>
+		<description>another name for Pithom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.099,30.5527</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Tell Abu Sefeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.352252,30.861009</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Ismailia</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.266667,30.583333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Tel Habuwa</name>
+		<description>another name for Tjaru</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.3669,30.9352</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Etham / Al Qantarah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>32.316667,30.85</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hauran</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0e8903/hauran">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hauran</name>
+	<description><![CDATA[Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.47.16&amp;version=ESV">47:16</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.18&amp;version=ESV">47:18</a>]]></description>
+	<Folder>
+		<name>Hauran</name>
+		<Placemark>
+			<name>Hauran (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.36148,32.73844 36.32862,32.73844 36.29576,32.71063 36.42721,32.65502 36.46007,32.65502 36.49293,32.65502 36.59152,32.68282 36.62438,32.71063 36.46007,32.73844 36.42721,32.73844 36.39435,32.73844 36.36148,32.73844</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.23003,32.71063 36.29576,32.68282 36.46007,32.62721 36.62438,32.68282 36.62438,32.71063 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.29576,32.73844 36.23003,32.71063</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.29576,32.76624 36.19717,32.73844 36.19717,32.71063 36.23003,32.68282 36.32862,32.65502 36.46007,32.62721 36.49293,32.62721 36.59152,32.65502 36.65725,32.68282 36.62438,32.71063 36.55866,32.73844 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.19717,32.65502 36.39435,32.5994 36.46007,32.5994 36.49293,32.5994 36.65725,32.68282 36.65725,32.71063 36.59152,32.73844 36.49293,32.76624 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624 36.26289,32.76624 36.16431,32.73844 36.19717,32.65502</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.16431,32.76624 36.09858,32.73844 36.19717,32.65502 36.46007,32.54379 36.59152,32.62721 36.62438,32.65502 36.65725,32.68282 36.65725,32.71063 36.62438,32.73844 36.55866,32.76624 36.5258,32.76624 36.49293,32.76624 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624 36.26289,32.76624 36.23003,32.76624 36.16431,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13144,32.76624 36.09858,32.73844 36.13144,32.71063 36.16431,32.68282 36.19717,32.65502 36.23003,32.62721 36.49293,32.43257 36.75583,32.71063 36.55866,32.93308 36.5258,32.93308 36.49293,32.93308 36.46007,32.93308 36.42721,32.93308 36.39435,32.93308 36.36148,32.93308 36.32862,32.93308 36.29576,32.90527 36.13144,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13144,32.98869 35.99999,32.73844 36.46007,32.34915 36.49293,32.34915 36.65725,32.51598 36.82156,32.71063 36.59152,32.93308 36.19717,32.98869 36.16431,32.98869 36.13144,32.98869</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.42721,33.07211 36.39435,33.07211 36.36148,33.07211 36.32862,33.07211 36.19717,33.04431 36.06572,33.0165 35.93427,32.98869 35.96713,32.73844 36.46007,32.29353 36.75583,32.46037 36.82156,32.68282 36.82156,32.71063 36.82156,32.73844 36.5258,33.07211 36.49293,33.07211 36.46007,33.07211 36.42721,33.07211</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.49293,33.09992 35.83568,33.07211 35.83568,33.04431 35.83568,33.0165 35.83568,32.98869 35.96713,32.68282 36.06572,32.5994 36.42721,32.29353 36.46007,32.29353 36.49293,32.29353 36.85442,32.37695 36.88729,32.51598 36.88729,32.54379 36.88729,32.5716 36.88729,32.5994 36.82156,32.76624 36.5258,33.09992 36.49293,33.09992</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hauran</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.36812,32.73009</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

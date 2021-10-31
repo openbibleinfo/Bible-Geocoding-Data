@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Elkosh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a221d82/elkosh">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Elkosh</name>
+	<description><![CDATA[Nah <a href="https://www.biblegateway.com/passage/?search=Nah.1.1&amp;version=ESV">1:1</a>]]></description>
+	<Placemark>
+		<name>Elkosh / Tel Maresha</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.898241,31.592963</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / Tell Hum</name>
+		<description>another name for Capernaum</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.575,32.881111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / Khirbet Minyeh</name>
+		<description>another name for Capernaum</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.536111,32.864722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / El Kauzeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.33833,33.12139</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / Al Qush</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>43.095833,36.738333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Al Eizariya</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2559,31.86159 35.24483,31.8611 35.23389,31.85963 35.22318,31.85719 35.21284,31.85381 35.20297,31.84953 35.19368,31.8444 35.18507,31.83847 35.17724,31.83181 35.17027,31.82449 35.16425,31.81659 35.15923,31.8082 35.15527,31.79941 35.15241,31.79032 35.15069,31.78102 35.15012,31.77162 35.15071,31.76222 35.15245,31.75292 35.15533,31.74383 35.1593,31.73505 35.16434,31.72666 35.17037,31.71877 35.17734,31.71146 35.18517,31.70481 35.19377,31.69889 35.20306,31.69377 35.21292,31.6895 35.22324,31.68613 35.23393,31.68369 35.24486,31.68222 35.2559,31.68173 35.26695,31.68222 35.27788,31.68369 35.28856,31.68613 35.29889,31.6895 35.30875,31.69377 35.31803,31.69889 35.32663,31.70481 35.33446,31.71146 35.34143,31.71877 35.34747,31.72666 35.3525,31.73505 35.35648,31.74383 35.35935,31.75292 35.3611,31.76222 35.36169,31.77162 35.36112,31.78102 35.3594,31.79032 35.35654,31.79941 35.35258,31.8082 35.34756,31.81659 35.34153,31.82449 35.33457,31.83181 35.32674,31.83847 35.31813,31.8444 35.30884,31.84953 35.29897,31.85381 35.28862,31.85719 35.27792,31.85963 35.26697,31.8611 35.2559,31.86159</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Al Eizariya</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.255903,31.771661</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Raphana</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.19934,32.94197 36.18814,32.94147 36.17706,32.94 36.16623,32.93756 36.15576,32.93418 36.14577,32.92991 36.13636,32.92477 36.12765,32.91885 36.11973,32.91219 36.11268,32.90486 36.10658,32.89697 36.1015,32.88857 36.0975,32.87978 36.0946,32.87069 36.09286,32.86139 36.09229,32.85199 36.09289,32.84259 36.09465,32.83329 36.09756,32.8242 36.10158,32.81542 36.10668,32.80703 36.11278,32.79914 36.11984,32.79183 36.12776,32.78518 36.13647,32.77926 36.14586,32.77414 36.15584,32.76987 36.16629,32.7665 36.1771,32.76407 36.18816,32.76259 36.19934,32.7621 36.21052,32.76259 36.22158,32.76407 36.23239,32.7665 36.24284,32.76987 36.25282,32.77414 36.26221,32.77926 36.27092,32.78518 36.27884,32.79183 36.2859,32.79914 36.292,32.80703 36.2971,32.81542 36.30112,32.8242 36.30403,32.83329 36.30579,32.84259 36.30639,32.85199 36.30582,32.86139 36.30408,32.87069 36.30118,32.87978 36.29718,32.88857 36.2921,32.89697 36.286,32.90486 36.27895,32.91219 36.27103,32.91885 36.26232,32.92477 36.25291,32.92991 36.24292,32.93418 36.23245,32.93756 36.22162,32.94 36.21054,32.94147 36.19934,32.94197</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Raphana</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.19934,32.852034</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Khirbet Batneh</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.71074,32.1005 35.69964,32.10001 35.68867,32.09854 35.67793,32.0961 35.66756,32.09272 35.65766,32.08844 35.64835,32.08331 35.63972,32.07738 35.63187,32.07072 35.62489,32.0634 35.61884,32.0555 35.61381,32.04711 35.60984,32.03832 35.60698,32.02923 35.60525,32.01993 35.60468,32.01053 35.60527,32.00113 35.60702,31.99183 35.6099,31.98274 35.61389,31.97396 35.61893,31.96557 35.62499,31.95768 35.63197,31.95037 35.63982,31.94372 35.64845,31.9378 35.65775,31.93268 35.66764,31.92841 35.678,31.92504 35.68871,31.9226 35.69966,31.92113 35.71074,31.92064 35.72181,31.92113 35.73277,31.9226 35.74348,31.92504 35.75384,31.92841 35.76372,31.93268 35.77303,31.9378 35.78165,31.94372 35.7895,31.95037 35.79649,31.95768 35.80254,31.96557 35.80759,31.97396 35.81158,31.98274 35.81446,31.99183 35.81621,32.00113 35.8168,32.01053 35.81623,32.01993 35.8145,32.02923 35.81164,32.03832 35.80767,32.04711 35.80263,32.0555 35.79659,32.0634 35.78961,32.07072 35.78176,32.07738 35.77313,32.08331 35.76381,32.08844 35.75392,32.09272 35.74354,32.0961 35.73281,32.09854 35.72184,32.10001 35.71074,32.1005</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Khirbet Batneh</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.710739,32.010571</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Tall Bleibel</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.63872,31.99904 35.62764,31.99854 35.61667,31.99707 35.60595,31.99463 35.59559,31.99126 35.5857,31.98698 35.5764,31.98185 35.56778,31.97592 35.55994,31.96926 35.55296,31.96194 35.54693,31.95404 35.5419,31.94565 35.53793,31.93686 35.53507,31.92776 35.53335,31.91846 35.53278,31.90906 35.53337,31.89966 35.53512,31.89037 35.53799,31.88128 35.54198,31.87249 35.54702,31.86411 35.55306,31.85622 35.56004,31.84891 35.56788,31.84225 35.5765,31.83633 35.58579,31.83121 35.59567,31.82694 35.60601,31.82357 35.61671,31.82114 35.62766,31.81967 35.63872,31.81917 35.64978,31.81967 35.66073,31.82114 35.67143,31.82357 35.68177,31.82694 35.69165,31.83121 35.70094,31.83633 35.70956,31.84225 35.7174,31.84891 35.72438,31.85622 35.73042,31.86411 35.73546,31.87249 35.73945,31.88128 35.74232,31.89037 35.74407,31.89966 35.74466,31.90906 35.74409,31.91846 35.74237,31.92776 35.73951,31.93686 35.73554,31.94565 35.73051,31.95404 35.72448,31.96194 35.7175,31.96926 35.70966,31.97592 35.70104,31.98185 35.69174,31.98698 35.68185,31.99126 35.67149,31.99463 35.66077,31.99707 35.6498,31.99854 35.63872,31.99904</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Tall Bleibel</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.63872,31.909106</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Al Maghtas</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.5503,31.92704 35.53923,31.92655 35.52827,31.92507 35.51756,31.92264 35.50721,31.91926 35.49733,31.91498 35.48803,31.90985 35.47942,31.90392 35.47158,31.89726 35.46461,31.88994 35.45858,31.88204 35.45356,31.87365 35.44959,31.86486 35.44674,31.85576 35.44501,31.84647 35.44444,31.83707 35.44503,31.82767 35.44678,31.81837 35.44965,31.80928 35.45363,31.80049 35.45867,31.79211 35.46471,31.78422 35.47168,31.77691 35.47952,31.77026 35.48813,31.76434 35.49742,31.75921 35.50728,31.75494 35.51762,31.75157 35.52831,31.74914 35.53925,31.74767 35.5503,31.74718 35.56136,31.74767 35.57229,31.74914 35.58298,31.75157 35.59332,31.75494 35.60319,31.75921 35.61247,31.76434 35.62108,31.77026 35.62892,31.77691 35.63589,31.78422 35.64193,31.79211 35.64697,31.80049 35.65095,31.80928 35.65383,31.81837 35.65557,31.82767 35.65616,31.83707 35.65559,31.84647 35.65387,31.85576 35.65101,31.86486 35.64705,31.87365 35.64202,31.88204 35.63599,31.88994 35.62902,31.89726 35.62119,31.90392 35.61257,31.90985 35.60327,31.91498 35.5934,31.91926 35.58304,31.92264 35.57233,31.92507 35.56138,31.92655 35.5503,31.92704</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Al Maghtas</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.550301,31.837109</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Wadi al Fara</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.52,32.18993 35.50889,32.18944 35.49791,32.18796 35.48716,32.18553 35.47678,32.18215 35.46687,32.17787 35.45755,32.17274 35.44891,32.16681 35.44105,32.16015 35.43406,32.15283 35.42802,32.14493 35.42298,32.13654 35.419,32.12775 35.41614,32.11866 35.41441,32.10936 35.41384,32.09996 35.41443,32.09056 35.41618,32.08126 35.41906,32.07217 35.42306,32.06338 35.42811,32.055 35.43416,32.04711 35.44116,32.0398 35.44902,32.03315 35.45765,32.02723 35.46696,32.02211 35.47686,32.01784 35.48722,32.01447 35.49795,32.01203 35.50891,32.01056 35.52,32.01007 35.53109,32.01056 35.54205,32.01203 35.55278,32.01447 35.56314,32.01784 35.57304,32.02211 35.58235,32.02723 35.59098,32.03315 35.59884,32.0398 35.60584,32.04711 35.61189,32.055 35.61694,32.06338 35.62094,32.07217 35.62382,32.08126 35.62557,32.09056 35.62616,32.09996 35.62559,32.10936 35.62386,32.11866 35.621,32.12775 35.61702,32.13654 35.61198,32.14493 35.60594,32.15283 35.59895,32.16015 35.59109,32.16681 35.58245,32.17274 35.57313,32.17787 35.56322,32.18215 35.55284,32.18553 35.54209,32.18796 35.53111,32.18944 35.52,32.18993</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Wadi al Fara</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.52,32.1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Tall Nimrin</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.62455,31.99087 35.61346,31.99038 35.6025,31.9889 35.59178,31.98647 35.58142,31.98309 35.57154,31.97881 35.56223,31.97368 35.55361,31.96775 35.54577,31.96109 35.5388,31.95377 35.53276,31.94587 35.52773,31.93748 35.52377,31.92869 35.52091,31.9196 35.51918,31.9103 35.51861,31.9009 35.51921,31.8915 35.52095,31.8822 35.52383,31.87311 35.52781,31.86432 35.53285,31.85594 35.53889,31.84805 35.54587,31.84074 35.55372,31.83409 35.56233,31.82817 35.57162,31.82305 35.5815,31.81878 35.59184,31.81541 35.60254,31.81297 35.61348,31.8115 35.62455,31.81101 35.63561,31.8115 35.64655,31.81297 35.65725,31.81541 35.66759,31.81878 35.67747,31.82305 35.68676,31.82817 35.69538,31.83409 35.70322,31.84074 35.7102,31.84805 35.71624,31.85594 35.72128,31.86432 35.72526,31.87311 35.72814,31.8822 35.72989,31.8915 35.73048,31.9009 35.72991,31.9103 35.72818,31.9196 35.72532,31.92869 35.72136,31.93748 35.71633,31.94587 35.7103,31.95377 35.70332,31.96109 35.69548,31.96775 35.68686,31.97368 35.67756,31.97881 35.66767,31.98309 35.65731,31.98647 35.64659,31.9889 35.63563,31.99038 35.62455,31.99087</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Tall Nimrin</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.624546,31.90094</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Makhadhet Abarah</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.55926,32.6217 35.5481,32.6212 35.53706,32.61973 35.52626,32.61729 35.51583,32.61391 35.50588,32.60964 35.49651,32.6045 35.48783,32.59858 35.47994,32.59191 35.47291,32.58459 35.46683,32.5767 35.46177,32.5683 35.45778,32.55951 35.4549,32.55042 35.45316,32.54112 35.45259,32.53172 35.45319,32.52232 35.45494,32.51302 35.45784,32.50393 35.46185,32.49515 35.46693,32.48676 35.47301,32.47887 35.48004,32.47156 35.48794,32.46491 35.49661,32.45899 35.50597,32.45387 35.51591,32.4496 35.52633,32.44623 35.5371,32.44379 35.54812,32.44232 35.55926,32.44183 35.5704,32.44232 35.58142,32.44379 35.59219,32.44623 35.60261,32.4496 35.61255,32.45387 35.62191,32.45899 35.63058,32.46491 35.63848,32.47156 35.64551,32.47887 35.65159,32.48676 35.65667,32.49515 35.66068,32.50393 35.66358,32.51302 35.66533,32.52232 35.66593,32.53172 35.66535,32.54112 35.66362,32.55042 35.66074,32.55951 35.65675,32.5683 35.65168,32.5767 35.64561,32.58459 35.63858,32.59191 35.63069,32.59858 35.62201,32.6045 35.61264,32.60964 35.60268,32.61391 35.59225,32.61729 35.58146,32.61973 35.57042,32.6212 35.55926,32.6217</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Elkosh / within 10 km of Makhadhet Abarah</name>
+		<description>within 10 km of Beth-barah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.559259,32.531763</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

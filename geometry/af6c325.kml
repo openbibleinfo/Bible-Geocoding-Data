@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Geshur</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/af6c325/geshur">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Geshur</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.12.5&amp;version=NIV">12:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.11&amp;version=NIV">13:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.13&amp;version=ESV">13:13</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.3.3&amp;version=ESV">3:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.13.37&amp;version=ESV">13:37</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.13.38&amp;version=ESV">13:38</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.14.23&amp;version=ESV">14:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.14.32&amp;version=ESV">14:32</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.15.8&amp;version=ESV">15:8</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.2.23&amp;version=ESV">2:23</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.3.2&amp;version=ESV">3:2</a>]]></description>
+	<Folder>
+		<name>Geshur</name>
+		<Placemark>
+			<name>Geshur (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.68486,32.8566 35.69863,32.82178 35.7124,32.82178 35.8226,32.8566 35.83638,32.87982 35.83638,32.93785 35.8226,32.97268 35.80883,32.97268 35.7124,32.92625 35.68486,32.87982 35.68486,32.8566</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.68486,32.78696 35.69863,32.78696 35.78128,32.82178 35.8226,32.8566 35.83638,32.87982 35.83638,32.93785 35.8226,32.98428 35.72618,32.93785 35.7124,32.92625 35.69863,32.91464 35.67108,32.87982 35.68486,32.78696</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.67108,32.91464 35.67108,32.90303 35.67108,32.87982 35.67108,32.8566 35.68486,32.77535 35.69863,32.77535 35.7124,32.77535 35.79505,32.82178 35.80883,32.83339 35.83638,32.8566 35.85015,32.86821 35.8777,32.90303 35.83638,32.98428 35.8226,32.98428 35.80883,32.98428 35.69863,32.93785 35.68486,32.92625 35.67108,32.91464</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.65731,32.93785 35.65731,32.91464 35.68486,32.77535 35.7124,32.76374 35.79505,32.82178 35.80883,32.83339 35.8226,32.84499 35.83638,32.8566 35.85015,32.86821 35.86393,32.87982 35.8777,32.90303 35.83638,32.99589 35.8226,32.99589 35.65731,32.93785</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85015,33.0075 35.8226,33.0075 35.65731,32.93785 35.65731,32.92625 35.65731,32.91464 35.65731,32.87982 35.67108,32.77535 35.68486,32.76374 35.69863,32.76374 35.7124,32.76374 35.79505,32.79856 35.85015,32.82178 35.8777,32.86821 35.89147,32.90303 35.85015,33.0075</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.65731,32.87982 35.65731,32.78696 35.67108,32.75213 35.68486,32.75213 35.69863,32.75213 35.73995,32.76374 35.8777,32.82178 35.9328,32.8566 35.9328,32.87982 35.9328,32.90303 35.89147,33.0075 35.86393,33.01911 35.80883,33.0075 35.75373,32.99589 35.65731,32.93785 35.65731,32.92625 35.65731,32.91464 35.65731,32.87982</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.65731,32.90303 35.65731,32.89142 35.65731,32.87982 35.65731,32.86821 35.65731,32.79856 35.65731,32.78696 35.65731,32.77535 35.67108,32.75213 35.68486,32.74053 35.72618,32.75213 35.8226,32.78696 35.85015,32.79856 35.97412,32.8566 35.96035,32.92625 35.90525,33.01911 35.89147,33.03071 35.8777,33.03071 35.86393,33.03071 35.7675,33.0075 35.65731,32.93785 35.65731,32.92625 35.65731,32.91464 35.65731,32.90303</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.64353,32.89142 35.64353,32.79856 35.64353,32.78696 35.64353,32.77535 35.65731,32.75213 35.67108,32.72892 35.85015,32.77535 35.9879,32.8566 35.9879,32.86821 35.9879,32.87982 35.97412,32.93785 35.91902,33.04232 35.89147,33.06554 35.86393,33.07714 35.79505,33.04232 35.65731,32.94946 35.64353,32.91464 35.64353,32.90303 35.64353,32.89142</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85015,33.08875 35.83638,33.08875 35.65731,33.04232 35.64353,32.93785 35.62976,32.74053 35.64353,32.72892 35.65731,32.71731 35.8777,32.76374 35.97412,32.82178 36.04299,32.91464 36.02922,32.93785 35.89147,33.07714 35.8777,33.08875 35.86393,33.08875 35.85015,33.08875</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Geshur</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.7,32.766667</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

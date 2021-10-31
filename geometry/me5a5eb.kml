@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Macedonia</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/me5a5eb/macedonia">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Macedonia</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>19.435595,40.392179 20.925919,40.292434 21.631536,39.967708 22.690401,40.035755 22.61989,40.113744 22.750642,40.442579 22.831701,40.37209 23.251951,40.193534 23.31789,39.929366 23.791315,39.861007 23.803805,39.949841 23.41974,40.19926 23.642845,40.188472 23.873873,39.925472 23.989156,39.896443 24.092459,39.972007 24.081142,40.096083 23.982696,40.190757 23.802165,40.267341 23.904409,40.292757 24.003015,40.265771 24.294196,40.101079 24.453972,40.140395 24.38777,40.25841 24.000989,40.494644 23.954488,40.41691 23.883055,40.496659 23.978651,40.537689 23.909404,40.595009 23.743447,40.696574 23.804003,40.747296 24.045438,40.695959 24.384515,40.824327 24.383585,40.880592 24.453255,40.917432 23.865836,41.500285 22.364147,41.878491 22.164235,42.252529 21.634339,41.906691 20.477368,41.9888 19.850333,41.98078 19.562901,41.784367 19.559572,41.596376 19.428309,41.605405 19.451865,41.547706 19.49872,41.524938 19.37244,41.417611 19.419533,41.297161 19.481821,41.281314 19.432468,41.151737 19.424211,41.009909 19.371979,40.9162 19.342793,40.817656 19.295655,40.637131 19.435595,40.392179</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Macedonia</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>22.54,41.6</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

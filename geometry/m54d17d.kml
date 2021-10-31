@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Safiyeh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m54d17d/wadi-safiyeh">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Safiyeh</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>34.96019,31.59267 34.96045,31.60235 34.9566,31.60634 34.95485,31.60659 34.95273,31.61093 34.94967,31.61235 34.94902,31.61356 34.94091,31.61309 34.93072,31.61462 34.92511,31.61675 34.92259,31.61902 34.92,31.61919 34.91456,31.61511 34.91117,31.61649 34.90962,31.61476 34.9075,31.61555 34.90626,31.61462 34.903,31.61457 34.8992,31.61198 34.89945,31.61064 34.89732,31.60957 34.89053,31.60861 34.88682,31.61011 34.88486,31.61286 34.88342,31.61779 34.88012,31.62013 34.87976,31.62595 34.87782,31.62692 34.87463,31.62622 34.87215,31.62707 34.86874,31.62852 34.86807,31.63019 34.86489,31.62978 34.86366,31.63131 34.86087,31.62867 34.8589,31.6299 34.8375,31.62618 34.83273,31.63073 34.82766,31.63077 34.82045,31.63316 34.81813,31.63273 34.81697,31.63391 34.81499,31.63374 34.81055,31.63695 34.808,31.63757 34.80638,31.63635 34.80542,31.63838 34.80301,31.63765 34.80161,31.63886 34.79813,31.63902 34.79764,31.64007 34.79084,31.64033 34.79031,31.64264 34.78844,31.64345 34.7873,31.64268 34.78694,31.64465 34.7839,31.6458 34.78297,31.64904 34.78157,31.64838 34.77543,31.65035 34.77325,31.65202 34.77317,31.65344 34.77041,31.65396 34.77053,31.65596 34.76878,31.65552 34.76696,31.66625 34.76526,31.66602 34.76448,31.66729 34.76274,31.66751 34.76432,31.669 34.76464,31.67114 34.76123,31.67044 34.76066,31.67271 34.75659,31.67621 34.75681,31.67839 34.75517,31.68175 34.7565,31.68315 34.75611,31.68451 34.75451,31.68573 34.75203,31.68488 34.74949,31.68555 34.75036,31.68706 34.7494,31.69138 34.74792,31.69053 34.74747,31.69182 34.74601,31.69155 34.74365,31.69437 34.74234,31.69286 34.74195,31.69381 34.74313,31.69531 34.74106,31.69677 34.7394,31.69659 34.7391,31.69854 34.7375,31.69901 34.73512,31.70192 34.73577,31.70277 34.72887,31.70366 34.72464,31.70572 34.72034,31.70573 34.72062,31.70711 34.71793,31.7072 34.71642,31.70886 34.70791,31.71015 34.70353,31.70958 34.69692,31.71211</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Safiyeh</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>34.953056,31.610556</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

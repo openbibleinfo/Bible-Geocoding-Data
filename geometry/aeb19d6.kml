@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kiriath-huzoth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aeb19d6/kiriath-huzoth">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Kiriath-huzoth (Kirjath Huzoth)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.22.39&amp;version=ESV">22:39</a>]]></description>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Tall Dhiban</name>
+		<description>within 10 km of Dibon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.77657,31.59217 35.76554,31.59167 35.75462,31.5902 35.74395,31.58776 35.73363,31.58439 35.72379,31.58011 35.71453,31.57498 35.70595,31.56905 35.69814,31.56239 35.69119,31.55507 35.68518,31.54717 35.68018,31.53878 35.67623,31.52999 35.67338,31.52089 35.67166,31.51159 35.6711,31.50219 35.67169,31.49279 35.67342,31.4835 35.67629,31.47441 35.68025,31.46562 35.68527,31.45724 35.69129,31.44935 35.69824,31.44204 35.70605,31.43538 35.71462,31.42946 35.72388,31.42434 35.73371,31.42007 35.74401,31.4167 35.75466,31.41427 35.76556,31.4128 35.77657,31.4123 35.78759,31.4128 35.79848,31.41427 35.80914,31.4167 35.81944,31.42007 35.82927,31.42434 35.83852,31.42946 35.8471,31.43538 35.85491,31.44204 35.86186,31.44935 35.86788,31.45724 35.87289,31.46562 35.87686,31.47441 35.87973,31.4835 35.88146,31.49279 35.88205,31.50219 35.88148,31.51159 35.87977,31.52089 35.87692,31.52999 35.87297,31.53878 35.86796,31.54717 35.86196,31.55507 35.85501,31.56239 35.8472,31.56905 35.83862,31.57498 35.82936,31.58011 35.81951,31.58439 35.8092,31.58776 35.79852,31.5902 35.78761,31.59167 35.77657,31.59217</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Tall Dhiban</name>
+		<description>within 10 km of Dibon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.776574,31.502236</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Khirbet el Quweiqiyeh</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.74089,31.82172 35.72983,31.82123 35.71889,31.81976 35.70819,31.81732 35.69785,31.81394 35.68798,31.80966 35.67869,31.80453 35.67009,31.7986 35.66226,31.79194 35.6553,31.78462 35.64927,31.77672 35.64426,31.76833 35.6403,31.75954 35.63744,31.75045 35.63572,31.74115 35.63515,31.73175 35.63574,31.72235 35.63748,31.71305 35.64036,31.70396 35.64433,31.69518 35.64936,31.68679 35.6554,31.6789 35.66236,31.67159 35.67019,31.66494 35.67879,31.65902 35.68807,31.6539 35.69792,31.64963 35.70825,31.64626 35.71893,31.64382 35.72985,31.64235 35.74089,31.64186 35.75193,31.64235 35.76285,31.64382 35.77354,31.64626 35.78386,31.64963 35.79372,31.6539 35.80299,31.65902 35.81159,31.66494 35.81942,31.67159 35.82639,31.6789 35.83242,31.68679 35.83745,31.69518 35.84142,31.70396 35.8443,31.71305 35.84604,31.72235 35.84663,31.73175 35.84606,31.74115 35.84434,31.75045 35.84148,31.75954 35.83753,31.76833 35.83251,31.77672 35.82648,31.78462 35.81952,31.79194 35.81169,31.7986 35.80309,31.80453 35.7938,31.80966 35.78394,31.81394 35.7736,31.81732 35.7629,31.81976 35.75195,31.82123 35.74089,31.82172</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Khirbet el Quweiqiyeh</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.740891,31.731791</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Jebel Ataruz</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.68742,31.68124 35.67637,31.68075 35.66545,31.67928 35.65476,31.67684 35.64444,31.67346 35.63459,31.66918 35.62531,31.66405 35.61672,31.65812 35.60891,31.65146 35.60196,31.64414 35.59594,31.63624 35.59093,31.62785 35.58698,31.61906 35.58413,31.60997 35.58241,31.60067 35.58184,31.59127 35.58243,31.58187 35.58417,31.57257 35.58704,31.56348 35.59101,31.5547 35.59603,31.54631 35.60205,31.53842 35.60901,31.53111 35.61683,31.52446 35.62541,31.51854 35.63468,31.51342 35.64452,31.50915 35.65482,31.50578 35.66549,31.50334 35.67639,31.50187 35.68742,31.50138 35.69845,31.50187 35.70935,31.50334 35.72002,31.50578 35.73032,31.50915 35.74016,31.51342 35.74943,31.51854 35.75801,31.52446 35.76583,31.53111 35.77279,31.53842 35.77881,31.54631 35.78383,31.5547 35.7878,31.56348 35.79067,31.57257 35.79241,31.58187 35.793,31.59127 35.79243,31.60067 35.79071,31.60997 35.78786,31.61906 35.78391,31.62785 35.7789,31.63624 35.77288,31.64414 35.76593,31.65146 35.75812,31.65812 35.74953,31.66405 35.74025,31.66918 35.7304,31.67346 35.72008,31.67684 35.70939,31.67928 35.69847,31.68075 35.68742,31.68124</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Jebel Ataruz</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.68742,31.591311</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Khirbet Libb</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.76126,31.69627 35.75021,31.69578 35.73929,31.6943 35.7286,31.69187 35.71827,31.68849 35.70842,31.68421 35.69915,31.67908 35.69055,31.67315 35.68274,31.66649 35.67578,31.65917 35.66977,31.65127 35.66476,31.64288 35.6608,31.63409 35.65795,31.625 35.65623,31.6157 35.65567,31.6063 35.65626,31.5969 35.65799,31.5876 35.66086,31.57851 35.66483,31.56973 35.66986,31.56134 35.67588,31.55345 35.68284,31.54614 35.69065,31.53949 35.69924,31.53357 35.70851,31.52845 35.71835,31.52418 35.72866,31.52081 35.73933,31.51837 35.75023,31.5169 35.76126,31.51641 35.77229,31.5169 35.78319,31.51837 35.79386,31.52081 35.80417,31.52418 35.81401,31.52845 35.82328,31.53357 35.83187,31.53949 35.83968,31.54614 35.84664,31.55345 35.85266,31.56134 35.85769,31.56973 35.86166,31.57851 35.86453,31.5876 35.86627,31.5969 35.86686,31.6063 35.86629,31.6157 35.86457,31.625 35.86172,31.63409 35.85776,31.64288 35.85275,31.65127 35.84674,31.65917 35.83978,31.66649 35.83197,31.67315 35.82338,31.67908 35.8141,31.68421 35.80425,31.68849 35.79392,31.69187 35.78324,31.6943 35.77231,31.69578 35.76126,31.69627</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / within 10 km of Khirbet Libb</name>
+		<description>within 10 km of Bamoth-baal</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.761261,31.60634</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / El Keryeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.867068,31.527544</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / Al Qurayyat</name>
+		<description>another name for Kiriathaim 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.686111,31.540556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / Khirbet al Mukhayyat</name>
+		<description>another name for Kiriathaim 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.74386,31.749127</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / Khirbet el Qureiye</name>
+		<description>another name for Kiriathaim 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.694296,31.708935</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kiriath-huzoth / Tall Jalul</name>
+		<description>another name for Kiriathaim 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.856843,31.71663</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

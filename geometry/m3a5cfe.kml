@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Barbar River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m3a5cfe/barbar-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Barbar River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>36.0786,33.325053 36.079426,33.324663 36.085236,33.325282 36.086747,33.32669 36.086853,33.327362 36.086436,33.328254 36.083905,33.331071 36.086164,33.331118 36.086856,33.331615 36.086956,33.332248 36.088503,33.334011 36.089747,33.334898 36.092908,33.3391 36.093414,33.340931 36.093435,33.34279 36.09404,33.343416 36.094363,33.34469 36.094058,33.34614 36.092446,33.347198 36.092441,33.347501 36.095843,33.346347 36.096857,33.346371 36.097378,33.346707 36.097185,33.353751 36.097856,33.354047 36.097912,33.354508 36.098683,33.35494 36.099481,33.356009 36.101887,33.357414 36.1029,33.357334 36.103923,33.357838 36.10318,33.359672 36.104536,33.361033 36.104786,33.363667 36.105706,33.363922 36.106492,33.364735 36.106042,33.366243 36.107611,33.366747 36.109668,33.369083 36.111296,33.369231 36.1125,33.369697 36.112522,33.370407 36.114144,33.370107 36.114627,33.371045 36.114582,33.37202 36.115952,33.371418 36.116446,33.371476 36.116714,33.371814 36.116591,33.372264 36.119563,33.374094 36.119992,33.376715 36.121387,33.378211 36.12159,33.379217 36.12251,33.380233 36.12306,33.382758 36.123436,33.383217 36.123379,33.383877 36.123991,33.384153 36.124552,33.384917 36.12435,33.386469 36.123965,33.386874 36.124581,33.387427 36.124219,33.388773 36.125147,33.390854 36.124863,33.391098 36.125026,33.391651 36.12604,33.392827 36.126738,33.393048 36.126746,33.393389 36.127153,33.393147 36.127633,33.393796 36.129025,33.394377 36.129806,33.395111 36.131413,33.394887 36.133285,33.396247 36.133752,33.398586 36.133293,33.399363 36.133258,33.400628 36.132823,33.401746 36.133414,33.40233 36.133805,33.403596 36.133684,33.404639 36.13539,33.405143 36.136645,33.406249 36.137893,33.406582 36.138126,33.407294 36.139116,33.408165 36.139333,33.409271 36.140274,33.40987 36.141559,33.411688 36.142772,33.412565 36.143644,33.413736 36.144225,33.413886 36.14459,33.414642 36.147187,33.416216 36.146897,33.41687 36.147112,33.417969 36.147835,33.418737 36.148016,33.419024 36.147798,33.419183 36.148453,33.420056 36.149104,33.420365 36.150121,33.421637 36.151349,33.421751</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Barbar River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>36.133333,33.416667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

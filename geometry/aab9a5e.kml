@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hena</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aab9a5e/hena">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hena</name>
+	<description><![CDATA[2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.34&amp;version=ESV">18:34</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.19.13&amp;version=ESV">19:13</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.37.13&amp;version=ESV">37:13</a>]]></description>
+	<Placemark>
+		<name>Hena / within 75 km of Hama</name>
+		<description>within 75 km of Hamath 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.75,35.81099 36.66307,35.80726 36.57711,35.79613 36.49309,35.77771 36.41196,35.75221 36.33462,35.71992 36.26193,35.6812 36.19469,35.63648 36.13365,35.58626 36.07947,35.53111 36.03275,35.47164 35.99399,35.40849 35.96359,35.34239 35.94187,35.27405 35.92905,35.20424 35.92524,35.13371 35.93047,35.06324 35.94465,34.9936 35.9676,34.92555 35.99907,34.85984 36.03867,34.79717 36.08597,34.73823 36.14044,34.68365 36.20148,34.63402 36.26842,34.58987 36.34054,34.55168 36.41704,34.51987 36.49711,34.49476 36.57989,34.47663 36.66449,34.46567 36.75,34.46201 36.83551,34.46567 36.92011,34.47663 37.00289,34.49476 37.08296,34.51987 37.15946,34.55168 37.23158,34.58987 37.29852,34.63402 37.35956,34.68365 37.41403,34.73823 37.46133,34.79717 37.50093,34.85984 37.5324,34.92555 37.55535,34.9936 37.56953,35.06324 37.57476,35.13371 37.57095,35.20424 37.55813,35.27405 37.53641,35.34239 37.50601,35.40849 37.46725,35.47164 37.42053,35.53111 37.36635,35.58626 37.30531,35.63648 37.23807,35.6812 37.16538,35.71992 37.08804,35.75221 37.00691,35.77771 36.92289,35.79613 36.83693,35.80726 36.75,35.81099</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hena / within 75 km of Hama</name>
+		<description>within 75 km of Hamath 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.75,35.1365</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hena / Anah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>41.981944,34.368611</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

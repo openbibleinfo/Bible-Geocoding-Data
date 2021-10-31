@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Jearim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3587ba/mount-jearim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Jearim (Jearim)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.10&amp;version=ESV">15:10</a>]]></description>
+	<Placemark>
+		<name>Mount Jearim / within 1 km of Kesla</name>
+		<description>within 1 km of Chesalon</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.05111,31.7901 35.05001,31.79005 35.04891,31.78991 35.04784,31.78966 35.04681,31.78933 35.04582,31.7889 35.04489,31.78839 35.04403,31.78779 35.04325,31.78713 35.04255,31.7864 35.04195,31.78561 35.04145,31.78477 35.04105,31.78389 35.04076,31.78298 35.04059,31.78205 35.04053,31.78111 35.04059,31.78017 35.04076,31.77924 35.04105,31.77833 35.04145,31.77745 35.04195,31.77661 35.04255,31.77582 35.04325,31.77509 35.04403,31.77443 35.04489,31.77384 35.04582,31.77332 35.04681,31.7729 35.04784,31.77256 35.04891,31.77231 35.05001,31.77217 35.05111,31.77212 35.05222,31.77217 35.05331,31.77231 35.05438,31.77256 35.05541,31.7729 35.0564,31.77332 35.05733,31.77384 35.05819,31.77443 35.05897,31.77509 35.05967,31.77582 35.06027,31.77661 35.06078,31.77745 35.06117,31.77833 35.06146,31.77924 35.06163,31.78017 35.06169,31.78111 35.06163,31.78205 35.06146,31.78298 35.06117,31.78389 35.06078,31.78477 35.06027,31.78561 35.05967,31.7864 35.05897,31.78713 35.05819,31.78779 35.05733,31.78839 35.0564,31.7889 35.05541,31.78933 35.05438,31.78966 35.05331,31.78991 35.05222,31.79005 35.05111,31.7901</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Jearim / within 1 km of Kesla</name>
+		<description>within 1 km of Chesalon</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.051111,31.781111</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

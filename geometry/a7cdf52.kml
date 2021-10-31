@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tibhath</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a7cdf52/tibhath">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Tibhath (Tebah)</name>
+	<description><![CDATA[2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.8&amp;version=ESV">8:8</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.18.8&amp;version=ESV">18:8</a>]]></description>
+	<Placemark>
+		<name>Tibhath / in the Beqaa Valley</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.701387,33.543868 35.795539,33.517671 36.637128,34.366186 36.405133,34.475965 35.701387,33.543868</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / in the Beqaa Valley</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.145278,34.008889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / in the region between Baalbek and Kadesh</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.447294,34.592226 36.389896,34.366968 36.269973,34.189205 36.065164,34.026544 36.283093,33.991685 36.322496,34.140213 36.727853,34.502468 36.447294,34.592226</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / in the region between Baalbek and Kadesh</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.415556,34.363889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / Tell Dalhamiya</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.958476,33.818483</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Brital</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.15083,34.38494 36.09388,34.38246 36.03756,34.37506 35.9825,34.36282 35.92932,34.34586 35.8786,34.3244 35.8309,34.29865 35.78675,34.26891 35.74664,34.2355 35.711,34.1988 35.68023,34.15921 35.65465,34.11718 35.63454,34.07315 35.62012,34.02763 35.61153,33.9811 35.60886,33.93409 35.61213,33.8871 35.62129,33.84065 35.63623,33.79525 35.65678,33.7514 35.68271,33.70956 35.71372,33.6702 35.74948,33.63374 35.7896,33.60059 35.83362,33.57109 35.88108,33.54557 35.93145,33.5243 35.98419,33.50751 36.03873,33.49539 36.09448,33.48807 36.15083,33.48562 36.20719,33.48807 36.26294,33.49539 36.31748,33.50751 36.37022,33.5243 36.42059,33.54557 36.46805,33.57109 36.51207,33.60059 36.55218,33.63374 36.58794,33.6702 36.61896,33.70956 36.64489,33.7514 36.66544,33.79525 36.68038,33.84065 36.68954,33.8871 36.6928,33.93409 36.69013,33.9811 36.68154,34.02763 36.66712,34.07315 36.64702,34.11718 36.62144,34.15921 36.59067,34.1988 36.55503,34.2355 36.51492,34.26891 36.47077,34.29865 36.42307,34.3244 36.37235,34.34586 36.31916,34.36282 36.2641,34.37506 36.20779,34.38246 36.15083,34.38494</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Brital</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.150833,33.935278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ras Baalbek</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.42361,34.70938 36.36644,34.70691 36.3099,34.6995 36.25463,34.68726 36.20123,34.67031 36.15031,34.64884 36.10243,34.62309 36.05811,34.59334 36.01784,34.55994 35.98207,34.52323 35.95118,34.48365 35.92551,34.44161 35.90533,34.39758 35.89086,34.35206 35.88224,34.30553 35.87956,34.25852 35.88284,34.21153 35.89204,34.16508 35.90704,34.11969 35.92767,34.07583 35.9537,34.03399 35.98484,33.99464 36.02074,33.95818 36.061,33.92502 36.1052,33.89553 36.15283,33.87001 36.20339,33.84874 36.25634,33.83196 36.31108,33.81984 36.36704,33.81251 36.42361,33.81006 36.48018,33.81251 36.53614,33.81984 36.59089,33.83196 36.64383,33.84874 36.69439,33.87001 36.74203,33.89553 36.78622,33.92502 36.82648,33.95818 36.86238,33.99464 36.89352,34.03399 36.91955,34.07583 36.94018,34.11969 36.95518,34.16508 36.96438,34.21153 36.96766,34.25852 36.96499,34.30553 36.95637,34.35206 36.94189,34.39758 36.92171,34.44161 36.89604,34.48365 36.86515,34.52323 36.82938,34.55994 36.78911,34.59334 36.74479,34.62309 36.69691,34.64884 36.64599,34.67031 36.5926,34.68726 36.53732,34.6995 36.48079,34.70691 36.42361,34.70938</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ras Baalbek</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.423611,34.259722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ghantur</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>37.15059,34.84561 37.09332,34.84313 37.03669,34.83573 36.98133,34.82349 36.92785,34.80653 36.87684,34.78506 36.82888,34.75931 36.78449,34.72957 36.74416,34.69616 36.70833,34.65946 36.67739,34.61987 36.65167,34.57783 36.63146,34.53381 36.61697,34.48828 36.60833,34.44176 36.60565,34.39474 36.60894,34.34775 36.61816,34.30131 36.63318,34.25591 36.65385,34.21205 36.67992,34.17022 36.71111,34.13086 36.74707,34.09441 36.7874,34.06125 36.83166,34.03175 36.87938,34.00623 36.93002,33.98497 36.98305,33.96818 37.03788,33.95606 37.09393,33.94874 37.15059,33.94629 37.20725,33.94874 37.2633,33.95606 37.31813,33.96818 37.37116,33.98497 37.4218,34.00623 37.46952,34.03175 37.51378,34.06125 37.55411,34.09441 37.59007,34.13086 37.62126,34.17022 37.64733,34.21205 37.668,34.25591 37.68302,34.30131 37.69224,34.34775 37.69553,34.39474 37.69285,34.44176 37.68421,34.48828 37.66972,34.53381 37.64951,34.57783 37.62379,34.61987 37.59285,34.65946 37.55702,34.69616 37.51669,34.72957 37.4723,34.75931 37.42434,34.78506 37.37333,34.80653 37.31985,34.82349 37.26449,34.83573 37.20786,34.84313 37.15059,34.84561</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ghantur</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>37.15059,34.39595</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ain Bourdai</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.20139,34.44049 36.1444,34.43801 36.08804,34.43061 36.03295,34.41837 35.97973,34.40142 35.92897,34.37995 35.88124,34.3542 35.83707,34.32446 35.79693,34.29105 35.76127,34.25435 35.73047,34.21476 35.70488,34.17273 35.68476,34.1287 35.67033,34.08318 35.66174,34.03665 35.65907,33.98964 35.66233,33.94265 35.6715,33.8962 35.68645,33.8508 35.70701,33.80695 35.73296,33.76511 35.764,33.72575 35.79978,33.6893 35.83992,33.65614 35.88397,33.62664 35.93146,33.60112 35.98186,33.57985 36.03464,33.56307 36.08921,33.55095 36.145,33.54362 36.20139,33.54117 36.25778,33.54362 36.31357,33.55095 36.36814,33.56307 36.42092,33.57985 36.47132,33.60112 36.51881,33.62664 36.56286,33.65614 36.603,33.6893 36.63878,33.72575 36.66982,33.76511 36.69577,33.80695 36.71633,33.8508 36.73128,33.8962 36.74045,33.94265 36.74371,33.98964 36.74104,34.03665 36.73245,34.08318 36.71802,34.1287 36.6979,34.17273 36.67231,34.21476 36.64151,34.25435 36.60585,34.29105 36.56571,34.32446 36.52154,34.3542 36.47381,34.37995 36.42305,34.40142 36.36983,34.41837 36.31474,34.43061 36.25838,34.43801 36.20139,34.44049</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Ain Bourdai</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.20139,33.99083</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Beirut</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.51306,34.3366 35.45614,34.33413 35.39985,34.32673 35.34482,34.31448 35.29167,34.29753 35.24098,34.27606 35.1933,34.25031 35.14918,34.22057 35.10909,34.18717 35.07347,34.15047 35.04272,34.11088 35.01716,34.06884 34.99706,34.02482 34.98265,33.9793 34.97406,33.93277 34.97139,33.88576 34.97466,33.83877 34.98381,33.79232 34.99874,33.74692 35.01928,33.70307 35.04519,33.66123 35.07619,33.62187 35.11193,33.58541 35.15202,33.55225 35.19602,33.52275 35.24345,33.49723 35.29379,33.47596 35.3465,33.45918 35.40101,33.44706 35.45673,33.43973 35.51306,33.43728 35.56938,33.43973 35.6251,33.44706 35.67961,33.45918 35.73232,33.47596 35.78266,33.49723 35.83009,33.52275 35.87409,33.55225 35.91418,33.58541 35.94992,33.62187 35.98092,33.66123 36.00683,33.70307 36.02737,33.74692 36.0423,33.79232 36.05146,33.83877 36.05472,33.88576 36.05205,33.93277 36.04346,33.9793 36.02905,34.02482 36.00896,34.06884 35.98339,34.11088 35.95264,34.15047 35.91702,34.18717 35.87693,34.22057 35.83281,34.25031 35.78514,34.27606 35.73444,34.29753 35.68129,34.31448 35.62626,34.32673 35.56998,34.33413 35.51306,34.3366</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Beirut</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.513056,33.886944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Tell Maqne</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.21335,34.52995 36.1563,34.52747 36.09988,34.52007 36.04473,34.50783 35.99145,34.49087 35.94064,34.4694 35.89286,34.44366 35.84863,34.41391 35.80845,34.38051 35.77275,34.34381 35.74193,34.30422 35.71631,34.26218 35.69617,34.21816 35.68173,34.17263 35.67312,34.12611 35.67045,34.07909 35.67372,34.03211 35.6829,33.98566 35.69787,33.94026 35.71845,33.8964 35.74443,33.85457 35.7755,33.81521 35.81132,33.77875 35.8515,33.74559 35.8956,33.7161 35.94314,33.69057 35.99359,33.66931 36.04642,33.65252 36.10105,33.6404 36.1569,33.63308 36.21335,33.63063 36.2698,33.63308 36.32564,33.6404 36.38027,33.65252 36.4331,33.66931 36.48356,33.69057 36.5311,33.7161 36.57519,33.74559 36.61538,33.77875 36.6512,33.81521 36.68227,33.85457 36.70824,33.8964 36.72883,33.94026 36.7438,33.98566 36.75297,34.03211 36.75624,34.07909 36.75357,34.12611 36.74497,34.17263 36.73052,34.21816 36.71038,34.26218 36.68476,34.30422 36.65394,34.34381 36.61824,34.38051 36.57806,34.41391 36.53384,34.44366 36.48606,34.4694 36.43524,34.49087 36.38197,34.50783 36.32681,34.52007 36.2704,34.52747 36.21335,34.52995</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tibhath / within 50 km of Tell Maqne</name>
+		<description>within 50 km of Zobah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.213347,34.080288</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Za’arah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mae4ba9/wadi-zaarah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Za'arah</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.705341,33.224149 35.704569,33.224849 35.704213,33.224932 35.703187,33.22517 35.702519,33.225828 35.701414,33.225944 35.700395,33.226313 35.699376,33.22668 35.698239,33.227371 35.697584,33.22782 35.697136,33.229038 35.696629,33.230109 35.695878,33.230234 35.695513,33.230836 35.694862,33.231067 35.694441,33.231024 35.694022,33.231257 35.693649,33.231013 35.693248,33.2312 35.693164,33.231239 35.692834,33.231004 35.692434,33.231365 35.691962,33.23123 35.691222,33.231616 35.690495,33.231506 35.689733,33.231668 35.68954,33.232377 35.688658,33.232873 35.688253,33.232879 35.688143,33.233115 35.687778,33.233088 35.687563,33.233303 35.687478,33.233465 35.686887,33.23342 35.686297,33.23342 35.68601,33.233508 35.685764,33.233894 35.685128,33.234102 35.684452,33.234111 35.683572,33.234012 35.682674,33.234055 35.68166,33.234019 35.681137,33.233965 35.68104,33.23393 35.680782,33.234028 35.68011,33.234315 35.679495,33.234542 35.679131,33.234712 35.678734,33.234524 35.678178,33.234746 35.678121,33.234781</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Za'arah</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.696667,33.23</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

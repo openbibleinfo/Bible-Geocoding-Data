@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gidom</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae87a54/gidom">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gidom</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.20.45&amp;version=ESV">20:45</a>]]></description>
+	<Placemark>
+		<name>Gidom / within 10 km of Rammun</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29889,32.01965 35.2878,32.01916 35.27684,32.01769 35.26611,32.01525 35.25575,32.01187 35.24586,32.00759 35.23656,32.00246 35.22793,31.99653 35.22009,31.98987 35.21311,31.98255 35.20708,31.97466 35.20205,31.96626 35.19808,31.95747 35.19522,31.94838 35.19349,31.93908 35.19292,31.92968 35.19352,31.92028 35.19526,31.91098 35.19814,31.90189 35.20212,31.89311 35.20717,31.88472 35.21321,31.87683 35.22019,31.86952 35.22804,31.86287 35.23665,31.85695 35.24595,31.85183 35.25583,31.84756 35.26617,31.84419 35.27688,31.84175 35.28782,31.84028 35.29889,31.83979 35.30995,31.84028 35.3209,31.84175 35.3316,31.84419 35.34195,31.84756 35.35183,31.85183 35.36112,31.85695 35.36974,31.86287 35.37758,31.86952 35.38457,31.87683 35.39061,31.88472 35.39565,31.89311 35.39964,31.90189 35.40252,31.91098 35.40426,31.92028 35.40485,31.92968 35.40428,31.93908 35.40256,31.94838 35.3997,31.95747 35.39573,31.96626 35.3907,31.97466 35.38467,31.98255 35.37769,31.98987 35.36984,31.99653 35.36122,32.00246 35.35192,32.00759 35.34203,32.01187 35.33166,32.01525 35.32094,32.01769 35.30998,32.01916 35.29889,32.01965</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of Rammun</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.298889,31.929722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of El Jai Cave</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.30514,31.93755 35.29406,31.93706 35.28311,31.93558 35.27239,31.93315 35.26204,31.92977 35.25216,31.92549 35.24286,31.92036 35.23425,31.91443 35.22641,31.90777 35.21944,31.90045 35.21341,31.89255 35.20838,31.88416 35.20442,31.87537 35.20156,31.86628 35.19984,31.85698 35.19927,31.84758 35.19986,31.83818 35.2016,31.82888 35.20448,31.81979 35.20846,31.811 35.2135,31.80262 35.21954,31.79473 35.22651,31.78742 35.23435,31.78077 35.24296,31.77485 35.25225,31.76973 35.26212,31.76546 35.27245,31.76209 35.28315,31.75965 35.29408,31.75818 35.30514,31.75769 35.31619,31.75818 35.32713,31.75965 35.33782,31.76209 35.34816,31.76546 35.35803,31.76973 35.36732,31.77485 35.37593,31.78077 35.38376,31.78742 35.39074,31.79473 35.39678,31.80262 35.40182,31.811 35.4058,31.81979 35.40867,31.82888 35.41042,31.83818 35.41101,31.84758 35.41044,31.85698 35.40872,31.86628 35.40586,31.87537 35.40189,31.88416 35.39687,31.89255 35.39084,31.90045 35.38387,31.90777 35.37603,31.91443 35.36742,31.92036 35.35812,31.92549 35.34824,31.92977 35.33789,31.93315 35.32717,31.93558 35.31622,31.93706 35.30514,31.93755</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of El Jai Cave</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.305139,31.84762</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of the region plateau east of Rammun</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.348,32.04993 35.33691,32.04944 35.32594,32.04796 35.31521,32.04553 35.30485,32.04215 35.29496,32.03787 35.28565,32.03274 35.27702,32.02681 35.26918,32.02015 35.2622,32.01283 35.25616,32.00493 35.25113,31.99654 35.24716,31.98775 35.2443,31.97866 35.24257,31.96936 35.242,31.95996 35.24259,31.95056 35.24434,31.94126 35.24722,31.93217 35.2512,31.92338 35.25625,31.915 35.26229,31.90711 35.26928,31.8998 35.27712,31.89315 35.28574,31.88723 35.29505,31.88211 35.30492,31.87784 35.31527,31.87447 35.32598,31.87203 35.33693,31.87056 35.348,31.87007 35.35907,31.87056 35.37002,31.87203 35.38073,31.87447 35.39108,31.87784 35.40095,31.88211 35.41026,31.88723 35.41888,31.89315 35.42672,31.8998 35.43371,31.90711 35.43975,31.915 35.4448,31.92338 35.44878,31.93217 35.45166,31.94126 35.45341,31.95056 35.454,31.95996 35.45343,31.96936 35.4517,31.97866 35.44884,31.98775 35.44487,31.99654 35.43984,32.00493 35.4338,32.01283 35.42682,32.02015 35.41898,32.02681 35.41035,32.03274 35.40104,32.03787 35.39115,32.04215 35.38079,32.04553 35.37006,32.04796 35.35909,32.04944 35.348,32.04993</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of the region plateau east of Rammun</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.348,31.96</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of Wadi Rummananeh</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.3225,31.98483 35.31142,31.98434 35.30046,31.98286 35.28974,31.98043 35.27938,31.97705 35.26949,31.97277 35.26019,31.96764 35.25157,31.96171 35.24373,31.95505 35.23676,31.94773 35.23072,31.93983 35.22569,31.93144 35.22173,31.92265 35.21887,31.91356 35.21714,31.90426 35.21658,31.89486 35.21717,31.88546 35.21891,31.87616 35.22179,31.86707 35.22577,31.85828 35.23081,31.8499 35.23685,31.84201 35.24383,31.8347 35.25167,31.82805 35.26029,31.82213 35.26958,31.81701 35.27945,31.81274 35.2898,31.80937 35.3005,31.80693 35.31144,31.80546 35.3225,31.80497 35.33356,31.80546 35.3445,31.80693 35.3552,31.80937 35.36555,31.81274 35.37542,31.81701 35.38471,31.82213 35.39333,31.82805 35.40117,31.8347 35.40815,31.84201 35.41419,31.8499 35.41923,31.85828 35.42321,31.86707 35.42609,31.87616 35.42783,31.88546 35.42842,31.89486 35.42786,31.90426 35.42613,31.91356 35.42327,31.92265 35.41931,31.93144 35.41428,31.93983 35.40824,31.94773 35.40127,31.95505 35.39343,31.96171 35.38481,31.96764 35.37551,31.97277 35.36562,31.97705 35.35526,31.98043 35.34454,31.98286 35.33358,31.98434 35.3225,31.98483</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gidom / within 10 km of Wadi Rummananeh</name>
+		<description>within 10 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.3225,31.8949</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Uz</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a324c4d/uz">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Uz</name>
+	<description><![CDATA[Job <a href="https://www.biblegateway.com/passage/?search=Job.1.1&amp;version=ESV">1:1</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.20&amp;version=ESV">25:20</a>, Lam <a href="https://www.biblegateway.com/passage/?search=Lam.4.21&amp;version=ESV">4:21</a>]]></description>
+	<Folder>
+		<name>Uz / in Edom</name>
+		<Placemark>
+			<name>Uz (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.41521,30.181 35.48269,30.181 35.55017,30.181 35.61765,30.181 35.68513,30.23982 35.75262,30.29864 35.8201,30.41629 35.88758,30.53394 35.95506,30.65159 36.02254,30.76924 35.88758,30.82806 35.75262,30.88688 35.61765,30.94571 35.55017,30.94571 35.48269,30.94571 35.28024,30.82806 35.21276,30.71041 35.21276,30.65159 35.21276,30.59276 35.21276,30.53394 35.21276,30.47512 35.34773,30.181 35.41521,30.181</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.14528,30.47512 35.28024,30.181 35.34773,30.12217 35.55017,30.06335 35.61765,30.12217 35.68513,30.181 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.61765,31.00453 35.48269,31.00453 35.0778,30.71041 35.14528,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.0778,30.76924 35.0778,30.71041 35.14528,30.41629 35.28024,30.181 35.34773,30.12217 35.48269,30.06335 35.55017,30.06335 35.61765,30.06335 35.95506,30.59276 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.14528,30.82806 35.0778,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.01032,30.76924 35.01032,30.71041 35.01032,30.65159 35.01032,30.53394 35.01032,30.47512 35.34773,30.06335 35.41521,30.06335 35.48269,30.06335 35.55017,30.06335 35.61765,30.06335 36.02254,30.47512 36.02254,30.53394 36.02254,30.59276 36.02254,30.71041 36.02254,30.76924 36.02254,30.82806 35.95506,30.88688 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.01032,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.94283,30.76924 34.94283,30.71041 34.94283,30.65159 34.94283,30.53394 34.94283,30.47512 34.94283,30.41629 35.14528,29.9457 35.61765,30.00453 36.02254,30.47512 36.09003,30.88688 35.95506,30.94571 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 34.94283,30.76924</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.0778,29.82805 35.14528,29.82805 35.55017,29.9457 35.61765,30.00453 35.68513,30.06335 36.02254,30.41629 36.15751,30.76924 36.15751,30.82806 36.15751,30.88688 35.95506,30.94571 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.28024,30.94571 34.94283,30.76924 34.87535,30.41629 35.0778,29.82805</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.53794,30.47512 34.53794,30.41629 34.94283,29.53393 35.01032,29.53393 35.0778,29.53393 35.34773,29.65158 35.41521,29.71041 35.48269,29.76923 35.95506,30.23982 36.09003,30.41629 36.15751,30.59276 36.22499,30.76924 36.22499,30.82806 36.15751,30.88688 35.95506,30.94571 35.75262,31.00453 35.68513,31.00453 35.61765,31.00453 35.55017,31.00453 35.48269,31.00453 35.41521,31.00453 35.34773,31.00453 34.87535,30.76924 34.60543,30.53394 34.53794,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.47046,30.53394 34.40298,30.47512 34.87535,29.53393 34.94283,29.47511 35.01032,29.47511 35.0778,29.47511 35.41521,29.65158 36.15751,30.41629 36.29247,30.76924 36.29247,30.82806 36.22499,31.00453 35.75262,31.06336 35.68513,31.06336 35.61765,31.06336 35.55017,31.06336 35.48269,31.06336 35.41521,31.06336 35.28024,31.00453 35.14528,30.94571 34.87535,30.82806 34.47046,30.53394</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.3355,30.47512 34.3355,30.41629 34.47046,30.12217 34.74039,29.59276 34.80787,29.53393 34.87535,29.47511 35.01032,29.41629 35.0778,29.41629 35.41521,29.59276 36.22499,30.23982 36.29247,30.59276 36.35995,31.00453 36.29247,31.06336 35.88758,31.12218 35.8201,31.12218 35.34773,31.06336 34.60543,30.82806 34.53794,30.76924 34.47046,30.71041 34.3355,30.53394 34.3355,30.47512</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz / in Edom</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.603919,30.745843</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Uz / Wadi Sirhan</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.73737,31.798912 37.485471,31.040384 38.283121,30.065074 39.458936,29.909538 36.952723,31.90196 36.73737,31.798912</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uz / Wadi Sirhan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>37.75,31</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Uz / Hauran</name>
+		<description>another name for Hauran</description>
+		<Placemark>
+			<name>Uz (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.36148,32.73844 36.32862,32.73844 36.29576,32.71063 36.42721,32.65502 36.46007,32.65502 36.49293,32.65502 36.59152,32.68282 36.62438,32.71063 36.46007,32.73844 36.42721,32.73844 36.39435,32.73844 36.36148,32.73844</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.23003,32.71063 36.29576,32.68282 36.46007,32.62721 36.62438,32.68282 36.62438,32.71063 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.29576,32.73844 36.23003,32.71063</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.29576,32.76624 36.19717,32.73844 36.19717,32.71063 36.23003,32.68282 36.32862,32.65502 36.46007,32.62721 36.49293,32.62721 36.59152,32.65502 36.65725,32.68282 36.62438,32.71063 36.55866,32.73844 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.19717,32.65502 36.39435,32.5994 36.46007,32.5994 36.49293,32.5994 36.65725,32.68282 36.65725,32.71063 36.59152,32.73844 36.49293,32.76624 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624 36.26289,32.76624 36.16431,32.73844 36.19717,32.65502</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.16431,32.76624 36.09858,32.73844 36.19717,32.65502 36.46007,32.54379 36.59152,32.62721 36.62438,32.65502 36.65725,32.68282 36.65725,32.71063 36.62438,32.73844 36.55866,32.76624 36.5258,32.76624 36.49293,32.76624 36.46007,32.76624 36.42721,32.76624 36.39435,32.76624 36.36148,32.76624 36.32862,32.76624 36.29576,32.76624 36.26289,32.76624 36.23003,32.76624 36.16431,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13144,32.76624 36.09858,32.73844 36.13144,32.71063 36.16431,32.68282 36.19717,32.65502 36.23003,32.62721 36.49293,32.43257 36.75583,32.71063 36.55866,32.93308 36.5258,32.93308 36.49293,32.93308 36.46007,32.93308 36.42721,32.93308 36.39435,32.93308 36.36148,32.93308 36.32862,32.93308 36.29576,32.90527 36.13144,32.76624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.13144,32.98869 35.99999,32.73844 36.46007,32.34915 36.49293,32.34915 36.65725,32.51598 36.82156,32.71063 36.59152,32.93308 36.19717,32.98869 36.16431,32.98869 36.13144,32.98869</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.42721,33.07211 36.39435,33.07211 36.36148,33.07211 36.32862,33.07211 36.19717,33.04431 36.06572,33.0165 35.93427,32.98869 35.96713,32.73844 36.46007,32.29353 36.75583,32.46037 36.82156,32.68282 36.82156,32.71063 36.82156,32.73844 36.5258,33.07211 36.49293,33.07211 36.46007,33.07211 36.42721,33.07211</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.49293,33.09992 35.83568,33.07211 35.83568,33.04431 35.83568,33.0165 35.83568,32.98869 35.96713,32.68282 36.06572,32.5994 36.42721,32.29353 36.46007,32.29353 36.49293,32.29353 36.85442,32.37695 36.88729,32.51598 36.88729,32.54379 36.88729,32.5716 36.88729,32.5994 36.82156,32.76624 36.5258,33.09992 36.49293,33.09992</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz / Hauran</name>
+			<description>another name for Hauran</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.36812,32.73009</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Uz / Negeb</name>
+		<description>another name for the Negeb</description>
+		<Placemark>
+			<name>Uz (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.61892,31.20876 34.61892,31.1819 34.68121,31.04757 34.71235,31.02071 34.77464,30.99384 34.80579,30.99384 34.83693,30.99384 34.99265,31.07444 34.99265,31.1013 34.99265,31.15503 34.99265,31.1819 34.96151,31.20876 34.93036,31.20876 34.89922,31.20876 34.86807,31.20876 34.83693,31.20876 34.80579,31.20876 34.77464,31.20876 34.7435,31.20876 34.71235,31.20876 34.68121,31.20876 34.65006,31.20876 34.61892,31.20876</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.61892,31.20876 34.61892,31.1819 34.61892,31.07444 34.61892,31.04757 34.61892,31.02071 34.80579,30.91325 35.0238,31.07444 35.08608,31.15503 35.08608,31.1819 34.99265,31.20876 34.86807,31.23563 34.61892,31.20876</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.68121,31.28936 34.61892,31.28936 34.58778,31.04757 34.58778,31.02071 34.58778,30.99384 34.77464,30.91325 34.80579,30.91325 34.83693,30.91325 34.93036,30.99384 34.96151,31.02071 35.0238,31.07444 35.08608,31.15503 35.08608,31.1819 34.86807,31.28936 34.68121,31.28936</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.55663,31.04757 34.55663,30.99384 34.77464,30.91325 34.80579,30.91325 34.83693,30.91325 34.86807,30.91325 35.0238,30.99384 35.11723,31.1819 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.55663,31.04757</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.49434,30.99384 34.71235,30.85952 34.7435,30.85952 34.77464,30.85952 34.96151,30.85952 35.05494,30.91325 35.08608,30.99384 35.11723,31.07444 35.11723,31.15503 35.11723,31.1819 35.11723,31.20876 35.08608,31.26249 34.89922,31.28936 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.49434,30.99384 34.71235,30.83265 34.7435,30.83265 34.77464,30.83265 34.99265,30.85952 35.05494,30.91325 35.08608,30.94011 35.11723,30.99384 35.14837,31.07444 35.14837,31.1013 35.14837,31.12817 35.11723,31.26249 34.89922,31.28936 34.86807,31.28936 34.83693,31.28936 34.80579,31.28936 34.77464,31.28936 34.7435,31.28936 34.71235,31.28936 34.68121,31.28936 34.65006,31.28936 34.61892,31.28936 34.58778,31.28936 34.49434,31.20876 34.4632,31.1819 34.49434,30.99384</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.40091,30.99384 34.49434,30.83265 34.52549,30.83265 34.55663,30.83265 34.58778,30.83265 34.61892,30.83265 34.65006,30.83265 34.68121,30.83265 34.71235,30.83265 34.7435,30.83265 34.77464,30.83265 34.80579,30.83265 34.83693,30.83265 34.86807,30.83265 34.89922,30.83265 34.96151,30.83265 35.08608,30.91325 35.11723,30.96698 35.14837,31.07444 35.14837,31.1013 35.14837,31.12817 35.11723,31.28936 34.77464,31.34309 34.7435,31.34309 34.71235,31.34309 34.68121,31.34309 34.65006,31.34309 34.61892,31.34309 34.58778,31.31622 34.49434,31.23563 34.4632,31.20876 34.43205,31.1819 34.40091,30.99384</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.4632,31.26249 34.40091,31.1819 34.40091,30.99384 34.49434,30.83265 34.71235,30.80579 34.7435,30.80579 34.77464,30.80579 34.80579,30.80579 34.83693,30.80579 34.89922,30.80579 34.99265,30.83265 35.08608,30.91325 35.11723,30.94011 35.14837,31.02071 35.17952,31.1013 35.17952,31.23563 35.17952,31.28936 34.86807,31.34309 34.83693,31.34309 34.80579,31.34309 34.77464,31.34309 34.7435,31.34309 34.71235,31.34309 34.68121,31.34309 34.65006,31.34309 34.61892,31.34309 34.58778,31.34309 34.55663,31.34309 34.52549,31.34309 34.4632,31.26249</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.30748,30.6446 34.30748,30.61773 34.36977,30.53714 34.86807,30.45654 34.89922,30.45654 34.93036,30.4834 34.96151,30.51027 35.14837,30.83265 35.27295,31.07444 35.27295,31.1013 35.27295,31.34309 34.65006,31.36995 34.4632,31.34309 34.36977,31.26249 34.30748,30.6446</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz / Negeb</name>
+			<description>another name for the Negeb</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>34.840833,31.244722</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Uz / Edom</name>
+		<description>another name for Edom</description>
+		<Placemark>
+			<name>Uz (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates></coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Uz / Edom</name>
+			<description>another name for Edom</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.603919,30.745843</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Uz / about 30 km around Al Shaykh Saad</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.035,33.10563 36.00133,33.10415 35.96804,33.09972 35.93549,33.09238 35.90403,33.08224 35.87403,33.06938 35.8458,33.05396 35.81966,33.03615 35.79589,33.01613 35.77476,32.99415 35.7565,32.97042 35.7413,32.94523 35.72933,32.91883 35.72072,32.89153 35.71556,32.86363 35.7139,32.83542 35.71576,32.80723 35.72112,32.77935 35.7299,32.75209 35.74202,32.72576 35.75734,32.70063 35.77569,32.67698 35.79686,32.65508 35.82063,32.63515 35.84672,32.61742 35.87487,32.60208 35.90476,32.58929 35.93606,32.5792 35.96844,32.57191 36.00154,32.56751 36.035,32.56604 36.06846,32.56751 36.10156,32.57191 36.13394,32.5792 36.16524,32.58929 36.19513,32.60208 36.22328,32.61742 36.24937,32.63515 36.27314,32.65508 36.29431,32.67698 36.31266,32.70063 36.32798,32.72576 36.3401,32.75209 36.34888,32.77935 36.35424,32.80723 36.3561,32.83542 36.35444,32.86363 36.34928,32.89153 36.34067,32.91883 36.3287,32.94523 36.3135,32.97042 36.29524,32.99415 36.27411,33.01613 36.25034,33.03615 36.2242,33.05396 36.19597,33.06938 36.16597,33.08224 36.13451,33.09238 36.10196,33.09972 36.06867,33.10415 36.035,33.10563</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uz / about 30 km around Al Shaykh Saad</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.035,32.835833</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

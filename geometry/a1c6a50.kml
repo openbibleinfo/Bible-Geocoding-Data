@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zalmonah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a1c6a50/zalmonah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zalmonah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.33.41&amp;version=ESV">33:41</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.42&amp;version=ESV">33:42</a>]]></description>
+	<Placemark>
+		<name>Zalmonah / along Wadi es Salmaneh</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.466614,30.762102 35.466828,30.761604 35.466903,30.760203 35.467129,30.759954 35.466378,30.758672 35.46568,30.758184 35.46449,30.759083 35.464613,30.759516 35.464361,30.760092 35.463191,30.760115 35.462505,30.760908 35.460906,30.760917 35.460622,30.761235 35.459147,30.761913 35.457092,30.762558 35.455531,30.763665 35.453492,30.764545 35.452929,30.765163 35.45242,30.765342 35.452371,30.766444 35.451894,30.766794 35.451465,30.766647 35.450687,30.766794 35.450285,30.766439 35.449823,30.766559 35.449147,30.766172 35.447854,30.766721 35.443032,30.76755 35.442141,30.767108 35.440908,30.765753 35.439706,30.76614 35.438451,30.76555 35.436605,30.765559 35.435511,30.765089 35.43447,30.764987 35.433408,30.765061 35.431488,30.765992 35.430586,30.765771 35.429041,30.766905 35.427282,30.767043 35.426134,30.767301 35.425179,30.767772 35.423892,30.769468 35.424031,30.770021 35.423462,30.771035 35.423452,30.771542 35.422658,30.77227 35.422465,30.773395 35.421413,30.775073 35.420437,30.775478 35.419428,30.775257 35.419031,30.77546 35.418999,30.775782 35.419343,30.776188 35.419761,30.777442 35.419493,30.778575 35.419536,30.779377 35.419825,30.779893 35.419654,30.78064 35.42004,30.780972 35.420866,30.780751 35.421381,30.780935 35.421724,30.781497 35.421767,30.78193 35.421563,30.782244 35.421124,30.782401 35.420587,30.782115 35.420276,30.78217 35.419589,30.782769 35.417862,30.782041 35.417454,30.782198 35.416703,30.783129 35.416607,30.783875 35.415459,30.783728 35.415255,30.783885 35.415148,30.784511 35.414171,30.785396 35.41297,30.785608 35.411468,30.786428 35.411049,30.788152 35.41092,30.79124 35.41032,30.791562 35.409697,30.791608 35.407981,30.790779 35.40252,30.790641 35.400095,30.790862 35.398335,30.791452 35.396168,30.791415 35.392907,30.793479 35.390224,30.795544 35.387929,30.797811 35.386362,30.79947 35.385686,30.800677 35.382382,30.802999 35.379581,30.805515 35.37824,30.809873 35.377286,30.810786 35.37676,30.811624 35.375397,30.811873 35.373734,30.813099 35.372973,30.81519 35.372307,30.815872 35.371535,30.817678</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Zalmonah / along Wadi es Salmaneh</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.37339,30.81217</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zalmonah / Bir Madhkur</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.3427,30.3946</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zalmonah / Rujm Talat az Zalma</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.5677,30.4136</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zalmonah / along Wadi Umran</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.153705,29.504722 35.147177,29.506722 35.143469,29.508521 35.14009,29.512386 35.136768,29.514907 35.134875,29.518403 35.135127,29.519176 35.13671,29.522066 35.136961,29.524503 35.135204,29.525141 35.130434,29.52825 35.130492,29.531073 35.130878,29.532652 35.132191,29.533761 35.132481,29.535694 35.132442,29.537021 35.132635,29.538836 35.132442,29.542784 35.133591,29.545647</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Zalmonah / along Wadi Umran</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.13178,29.54265</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

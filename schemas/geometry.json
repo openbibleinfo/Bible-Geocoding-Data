@@ -1,0 +1,158 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": false,
+   "definitions": {
+      "geojson_file": {
+         "pattern": "^g[0-9a-f]{6}\\.(geometry|isobands|simplified)\\.geojson$",
+         "type": "string"
+      },
+      "geometry_id": {
+         "pattern": "^g[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "json_file": {
+         "pattern": "^g[0-9a-f]{6}\\.(lonlats|simplified_lonlats)\\.json$",
+         "type": "string"
+      },
+      "lonlat": {
+         "pattern": "^-?1?[0-9]{1,2}\\.[0-9]{6},-?[0-9]{1,2}\\.[0-9]{6}$",
+         "type": "string"
+      },
+      "lonlat_mixed_precision": {
+         "pattern": "^-?1?[0-9]{1,2}\\.[0-9]{1,6},-?[0-9]{1,2}\\.[0-9]{1,6}$",
+         "type": "string"
+      },
+      "lonlats": {
+         "items": {
+            "$ref": "#/definitions/lonlat"
+         },
+         "type": "array"
+      },
+      "uri": {
+         "pattern": "https?://.+$",
+         "type": "string"
+      }
+   },
+   "properties": {
+      "format": {
+         "enum": [
+            "kml",
+            "osm",
+            "radius"
+         ],
+         "type": "string"
+      },
+      "geojson_file": {
+         "$ref": "#/definitions/geojson_file"
+      },
+      "geometry": {
+         "enum": [
+            "rough_boundary",
+            "isobands",
+            "path",
+            "point",
+            "points",
+            "polygon",
+            "polygon_with_center",
+            "probability",
+            "rough_path"
+         ],
+         "type": "string"
+      },
+      "geometry_credit": {
+         "enum": [
+            "osm"
+         ],
+         "type": "string"
+      },
+      "id": {
+         "$ref": "#/definitions/geometry_id"
+      },
+      "isobands_geojson_file": {
+         "$ref": "#/definitions/geojson_file"
+      },
+      "land_or_water": {
+         "enum": [
+            "land",
+            "water"
+         ],
+         "type": "string"
+      },
+      "lonlat": {
+         "$ref": "#/definitions/lonlat"
+      },
+      "modifier": {
+         "enum": [
+            "center n-s",
+            "center radial",
+            "west linear increasing"
+         ],
+         "type": "string"
+      },
+      "name": {
+         "type": "string"
+      },
+      "osm_version": {
+         "minimum": 1,
+         "type": "number"
+      },
+      "points": {
+         "$ref": "#/definitions/lonlats"
+      },
+      "simplified_geojson_file": {
+         "$ref": "#/definitions/geojson_file"
+      },
+      "source": {
+         "enum": [
+            "ancient",
+            "modern"
+         ],
+         "type": "string"
+      },
+      "source_url": {
+         "$ref": "#/definitions/uri"
+      },
+      "source_urls": {
+         "items": {
+            "additionalProperties": false,
+            "properties": {
+               "osm_version": {
+                  "minimum": 1,
+                  "type": "number"
+               },
+               "url": {
+                  "$ref": "#/definitions/uri"
+               }
+            },
+            "required": [
+               "osm_version",
+               "url"
+            ],
+            "type": "object"
+         },
+         "type": "array"
+      },
+      "suggested": {
+         "additionalProperties": false,
+         "properties": {
+            "label_line": {
+               "$ref": "#/definitions/lonlats"
+            },
+            "label_line_horizontal": {
+               "$ref": "#/definitions/lonlats"
+            },
+            "rough_boundary": {
+               "$ref": "#/definitions/lonlats"
+            }
+         },
+         "type": "object"
+      }
+   },
+   "required": [
+      "format",
+      "geometry",
+      "id",
+      "land_or_water"
+   ],
+   "type": "object"
+}

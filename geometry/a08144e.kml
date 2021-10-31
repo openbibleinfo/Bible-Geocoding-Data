@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Cabul 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a08144e/cabul-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Cabul 2 (Land of Kabul, Land of Cabul)</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.9.13&amp;version=ESV">9:13</a>]]></description>
+	<Folder>
+		<name>Cabul 2 / Cabul 2</name>
+		<Placemark>
+			<name>Cabul 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.22314,32.83806 35.23639,32.86036 35.23639,32.87151 35.23639,32.88265 35.23639,32.8938 35.22314,32.83806</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Cabul 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.17014,33.06103 35.1304,32.97184 35.1304,32.96069 35.22314,32.81576 35.23639,32.81576 35.26288,32.88265 35.27613,33.00529 35.24963,33.09448 35.23639,33.09448 35.22314,33.09448 35.17014,33.06103</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Cabul 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.11715,32.99414 35.11715,32.98299 35.11715,32.97184 35.11715,32.96069 35.17014,32.80461 35.18339,32.80461 35.23639,32.81576 35.24963,32.83806 35.26288,32.87151 35.27613,32.9161 35.28938,32.97184 35.28938,32.98299 35.28938,32.99414 35.28938,33.06103 35.28938,33.07218 35.28938,33.08333 35.28938,33.09448 35.24963,33.11677 35.23639,33.11677 35.22314,33.11677 35.11715,33.07218 35.11715,33.06103 35.11715,33.04988 35.11715,33.03873 35.11715,33.02758 35.11715,33.01644 35.11715,33.00529 35.11715,32.99414</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Cabul 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.0774,32.96069 35.05091,32.82691 35.05091,32.81576 35.06415,32.80461 35.19664,32.79347 35.20989,32.79347 35.22314,32.79347 35.23639,32.80461 35.24963,32.81576 35.34237,33.01644 35.35562,33.08333 35.35562,33.09448 35.35562,33.10562 35.35562,33.11677 35.24963,33.15022 35.23639,33.15022 35.22314,33.15022 35.1039,33.09448 35.0774,32.96069</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Cabul 2 / Cabul 2</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.211389,32.868333</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

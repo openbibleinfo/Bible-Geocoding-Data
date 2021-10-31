@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sicily</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/ma87346/sicily">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Sicily</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>15.12575,37.53461 15.17682,37.57618 15.17435,37.63249 15.21941,37.70864 15.21177,37.75393 15.4936,38.07474 15.57468,38.1934 15.5576,38.19047 15.57186,38.23346 15.65244,38.26906 15.54152,38.30143 15.42956,38.24242 15.28623,38.20605 15.24128,38.21686 15.25372,38.24531 15.23111,38.27143 15.21352,38.1875 15.09622,38.12092 15.04482,38.15204 14.97251,38.15187 14.9157,38.19273 14.7903,38.15205 14.74873,38.16601 14.63793,38.07397 14.52571,38.0424 14.28884,38.00693 14.14633,38.03022 14.06513,38.01844 14.02186,38.04164 13.79976,37.97565 13.75295,37.97074 13.75393,37.99009 13.74423,37.97018 13.56645,38.0387 13.53642,38.0673 13.53777,38.11269 13.3837,38.10887 13.3657,38.18232 13.31819,38.22428 13.1911,38.16924 13.10574,38.19079 13.0524,38.1388 13.0777,38.08758 12.90285,38.02454 12.81133,38.07945 12.77147,38.17529 12.73051,38.18956 12.71574,38.17674 12.73775,38.13944 12.71048,38.10897 12.66025,38.11159 12.63904,38.07518 12.56173,38.0656 12.49153,38.01693 12.5221,38.01316 12.45825,37.908 12.48591,37.87376 12.46114,37.81664 12.42425,37.80207 12.49911,37.67572 12.60658,37.64135 12.67296,37.56008 12.91757,37.57713 12.96347,37.56229 13.02011,37.49528 13.16927,37.49209 13.27233,37.38919 13.44856,37.2933 13.55556,37.28562 13.75011,37.1495 13.8243,37.14438 13.93966,37.0845 13.9745,37.10853 14.06793,37.11094 14.2609,37.05802 14.37654,36.96399 14.49309,36.78649 14.62942,36.76522 14.68955,36.72144 14.78102,36.70374 14.87594,36.73107 14.95662,36.69416 15.0186,36.70206 15.07979,36.64679 15.14073,36.6854 15.09414,36.79931 15.15308,36.91427 15.20933,36.96401 15.26192,36.97368 15.27508,37.00712 15.33648,37.00195 15.31493,37.03705 15.27095,37.04939 15.29594,37.10649 15.23727,37.1151 15.22007,37.1434 15.24447,37.1462 15.20699,37.15246 15.18571,37.1895 15.18987,37.23603 15.25741,37.24375 15.2066,37.29337 15.09848,37.31995 15.0856,37.47846 15.12575,37.53461</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Sicily</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>14.015378,37.599958</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

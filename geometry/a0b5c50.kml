@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zin 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0b5c50/zin-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zin 1 (Desert of Zin, Wilderness of Zin)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.13.21&amp;version=ESV">13:21</a>, <a href="https://www.biblegateway.com/passage/?search=Num.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.27.14&amp;version=ESV">27:14</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.36&amp;version=ESV">33:36</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.3&amp;version=ESV">34:3</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.32.51&amp;version=ESV">32:51</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.1&amp;version=ESV">15:1</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.29.8&amp;version=NIV">29:8</a>]]></description>
+	<Folder>
+		<name>Zin 1 / Zin Desert</name>
+		<Placemark>
+			<name>Zin 1 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58894,30.73587 34.65444,30.70756 35.08023,30.76419 35.11298,30.7925 35.11298,30.82082 35.11298,30.84914 35.04747,30.90577 35.01472,30.90577 34.98197,30.90577 34.94922,30.90577 34.91646,30.90577 34.88371,30.90577 34.85096,30.90577 34.81821,30.90577 34.78545,30.90577 34.7527,30.90577 34.71995,30.90577 34.6872,30.90577 34.65444,30.87745 34.62169,30.84914 34.58894,30.7925 34.58894,30.76419 34.58894,30.73587</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58894,30.73587 34.62169,30.70756 34.88371,30.67924 34.91646,30.67924 35.11298,30.76419 35.11298,30.7925 35.11298,30.82082 35.11298,30.84914 35.08023,30.90577 35.04747,30.90577 35.01472,30.90577 34.98197,30.90577 34.94922,30.90577 34.91646,30.90577 34.88371,30.90577 34.85096,30.90577 34.81821,30.90577 34.78545,30.90577 34.7527,30.90577 34.71995,30.90577 34.6872,30.90577 34.65444,30.90577 34.62169,30.87745 34.58894,30.84914 34.55619,30.76419 34.58894,30.73587</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58894,30.70756 34.7527,30.67924 34.78545,30.67924 34.81821,30.67924 34.85096,30.67924 34.88371,30.67924 34.91646,30.67924 35.11298,30.76419 35.14573,30.82082 35.14573,30.84914 35.11298,30.87745 35.08023,30.90577 35.04747,30.90577 35.01472,30.90577 34.98197,30.90577 34.94922,30.90577 34.91646,30.90577 34.88371,30.90577 34.85096,30.90577 34.81821,30.90577 34.78545,30.90577 34.7527,30.90577 34.71995,30.90577 34.6872,30.90577 34.65444,30.90577 34.58894,30.87745 34.55619,30.7925 34.55619,30.76419 34.58894,30.70756</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.55619,30.73587 34.58894,30.70756 34.85096,30.62261 34.88371,30.62261 34.91646,30.62261 35.11298,30.76419 35.14573,30.7925 35.14573,30.82082 35.14573,30.84914 35.11298,30.90577 34.98197,30.93409 34.91646,30.93409 34.88371,30.93409 34.85096,30.93409 34.81821,30.93409 34.78545,30.93409 34.7527,30.93409 34.71995,30.93409 34.62169,30.90577 34.58894,30.87745 34.55619,30.84914 34.55619,30.82082 34.55619,30.7925 34.55619,30.76419 34.55619,30.73587</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58894,30.90577 34.52343,30.84914 34.52343,30.82082 34.52343,30.7925 34.52343,30.76419 34.62169,30.50934 34.78545,30.50934 34.81821,30.50934 34.85096,30.50934 34.88371,30.53766 34.91646,30.56597 35.14573,30.76419 35.17848,30.7925 35.17848,30.82082 35.17848,30.84914 35.11298,30.93409 35.08023,30.9624 35.04747,30.9624 34.71995,30.93409 34.58894,30.90577</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58894,30.93409 34.45793,30.87745 34.45793,30.7925 34.62169,30.45271 34.65444,30.45271 34.6872,30.45271 34.71995,30.45271 34.7527,30.45271 34.78545,30.45271 34.81821,30.45271 34.98197,30.50934 35.17848,30.7925 35.17848,30.82082 35.17848,30.84914 35.14573,30.9624 34.98197,30.99072 34.94922,30.99072 34.91646,30.99072 34.58894,30.93409</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.49068,30.99072 34.45793,30.93409 34.42518,30.87745 34.42518,30.7925 34.52343,30.45271 34.62169,30.42439 34.65444,30.42439 34.6872,30.42439 34.71995,30.42439 34.7527,30.42439 34.78545,30.42439 34.88371,30.45271 34.94922,30.48102 35.01472,30.50934 35.17848,30.76419 35.17848,30.7925 35.17848,30.82082 35.17848,30.84914 35.17848,30.90577 35.17848,30.93409 35.14573,30.9624 35.11298,30.99072 34.98197,31.01904 34.94922,31.01904 34.49068,30.99072</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.39242,30.39607 34.42518,30.39607 34.62169,30.39607 34.65444,30.39607 34.6872,30.39607 34.71995,30.39607 34.7527,30.39607 34.98197,30.45271 35.08023,30.56597 35.17848,30.70756 35.21124,30.7925 35.21124,30.82082 35.21124,30.84914 35.17848,30.9624 35.08023,31.07567 34.49068,31.01904 34.32692,30.99072 34.29417,30.87745 34.39242,30.39607</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.22866,30.84914 34.22866,30.82082 34.22866,30.7925 34.22866,30.76419 34.39242,30.39607 34.42518,30.39607 34.45793,30.39607 34.49068,30.39607 34.52343,30.39607 34.55619,30.39607 34.58894,30.39607 34.62169,30.39607 34.65444,30.39607 34.6872,30.39607 34.71995,30.39607 34.7527,30.39607 34.78545,30.39607 35.01472,30.42439 35.14573,30.56597 35.21124,30.70756 35.21124,30.73587 35.21124,30.76419 35.21124,30.7925 35.21124,30.82082 35.21124,30.84914 35.21124,30.87745 35.17848,30.99072 35.14573,31.10399 35.11298,31.10399 34.49068,31.07567 34.32692,31.01904 34.29417,30.99072 34.22866,30.87745 34.22866,30.84914</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Zin 1 / Zin Desert</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.325,30.971</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

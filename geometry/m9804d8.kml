@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Al Gharraf River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m9804d8/al-gharraf-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Al Gharraf River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>45.804269,32.460428 45.807997,32.502379 45.805417,32.458284 45.822865,32.427183 45.844291,32.429876 45.864515,32.421242 45.875502,32.430516 45.908804,32.396605 45.93009,32.398054 45.927,32.385009 45.939552,32.376917 45.946569,32.357462 45.91444,32.321655 45.940763,32.289512 45.926488,32.28514 45.931806,32.2649 45.963566,32.260021 45.9648,32.250277 45.952504,32.240495 45.958488,32.224241 45.993582,32.209536 45.996619,32.200531 46.008002,32.199605 46.00658,32.186094 46.038788,32.171565 46.038721,32.125477 46.031046,32.117178 46.010912,32.122279 46.011599,32.100469 46.000555,32.091568 45.988227,32.05172 45.977863,32.05432 45.958069,32.033185 45.97943,32.013474 45.97988,31.999427 45.964563,31.9628 45.96628,31.94707 45.950519,31.929326 45.980903,31.909456 45.980699,31.892378 46.018989,31.875014 46.032722,31.885554 46.05452,31.886415 46.064972,31.86896 46.059664,31.863131 46.075625,31.855216 46.072219,31.834385 46.093849,31.810104 46.095005,31.779028 46.110507,31.750174 46.093927,31.682592 46.103014,31.6782 46.104296,31.61144 46.124066,31.573495 46.117741,31.526253 46.134757,31.522384 46.131418,31.488266 46.175638,31.446084 46.19685,31.461876 46.215459,31.46123 46.253065,31.440952 46.263638,31.409448 46.313668,31.411295 46.362078,31.398499 46.372479,31.408072 46.381291,31.391864 46.419844,31.36901 46.411482,31.353788 46.413643,31.306302 46.455123,31.309908 46.474121,31.280883 46.496757,31.268464 46.521459,31.28355 46.558412,31.278976 46.575649,31.26753 46.566298,31.235798 46.579868,31.224765 46.586009,31.175384 46.616841,31.160441 46.62274,31.127669 46.638917,31.100478 46.633176,31.080795 46.66461,31.059611 46.66808,31.028836 46.67941,31.024497 46.680482,31.008258 46.698126,30.98637 46.707284,30.995274 46.70079,30.985766 46.718549,30.971811 46.717016,30.964293 46.704221,30.957469 46.717809,30.971576 46.704634,30.984232 46.694754,30.979689 46.698717,30.985804 46.679701,31.008071 46.678671,31.02396 46.651939,31.042383 46.666645,31.032366</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Al Gharraf River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>45.85,32.425</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

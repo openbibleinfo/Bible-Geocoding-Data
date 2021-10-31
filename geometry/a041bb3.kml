@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Samaria 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a041bb3/samaria-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Samaria 1</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.13.32&amp;version=ESV">13:32</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.16.24&amp;version=ESV">16:24</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.16.28&amp;version=ESV">16:28</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.16.29&amp;version=ESV">16:29</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.16.32&amp;version=ESV">16:32</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.18.2&amp;version=ESV">18:2</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.10&amp;version=ESV">20:10</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.17&amp;version=ESV">20:17</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.34&amp;version=ESV">20:34</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.43&amp;version=ESV">20:43</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.21.1&amp;version=ESV">21:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.21.18&amp;version=ESV">21:18</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.10&amp;version=ESV">22:10</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.37&amp;version=ESV">22:37</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.38&amp;version=ESV">22:38</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.51&amp;version=ESV">22:51</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.1.2&amp;version=ESV">1:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.1.3&amp;version=ESV">1:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.2.25&amp;version=ESV">2:25</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.3.6&amp;version=ESV">3:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.5.3&amp;version=ESV">5:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.19&amp;version=ESV">6:19</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.20&amp;version=ESV">6:20</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.24&amp;version=ESV">6:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.25&amp;version=ESV">6:25</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.7.16&amp;version=NLT">7:16</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.7.18&amp;version=ESV">7:18</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.1&amp;version=ESV">10:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.6&amp;version=NLT">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.12&amp;version=ESV">10:12</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.17&amp;version=ESV">10:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.35&amp;version=ESV">10:35</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.36&amp;version=ESV">10:36</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.1&amp;version=ESV">13:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.6&amp;version=ESV">13:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.9&amp;version=ESV">13:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.10&amp;version=ESV">13:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.13&amp;version=ESV">13:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.14&amp;version=ESV">14:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.16&amp;version=ESV">14:16</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.23&amp;version=ESV">14:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.29&amp;version=NET">14:29</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.8&amp;version=ESV">15:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.13&amp;version=ESV">15:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.14&amp;version=ESV">15:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.17&amp;version=ESV">15:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.23&amp;version=ESV">15:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.25&amp;version=ESV">15:25</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.27&amp;version=ESV">15:27</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.1&amp;version=ESV">17:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.5&amp;version=ESV">17:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.6&amp;version=ESV">17:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.24&amp;version=ESV">17:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.26&amp;version=ESV">17:26</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.27&amp;version=NIV">17:27</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.28&amp;version=ESV">17:28</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.17.29&amp;version=NIV">17:29</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.9&amp;version=ESV">18:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.10&amp;version=ESV">18:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.18.34&amp;version=ESV">18:34</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.21.13&amp;version=ESV">21:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.23.18&amp;version=ESV">23:18</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.23.19&amp;version=ESV">23:19</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.18.2&amp;version=ESV">18:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.9&amp;version=ESV">18:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.22.9&amp;version=ESV">22:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.25.13&amp;version=ESV">25:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.25.24&amp;version=ESV">25:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.8&amp;version=ESV">28:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.9&amp;version=ESV">28:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.15&amp;version=ESV">28:15</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.4.10&amp;version=ESV">4:10</a>, <a href="https://www.biblegateway.com/passage/?search=Ezra.4.17&amp;version=ESV">4:17</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.4.2&amp;version=ESV">4:2</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.7.9&amp;version=ESV">7:9</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.8.4&amp;version=ESV">8:4</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.9.9&amp;version=ESV">9:9</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.10.9&amp;version=ESV">10:9</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.10.10&amp;version=ESV">10:10</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.10.11&amp;version=ESV">10:11</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.28.1&amp;version=NLT">28:1</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.28.3&amp;version=NLT">28:3</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.36.19&amp;version=ESV">36:19</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.23.13&amp;version=ESV">23:13</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.31.5&amp;version=ESV">31:5</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.41.5&amp;version=ESV">41:5</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.16.46&amp;version=ESV">16:46</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.16.51&amp;version=ESV">16:51</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.16.53&amp;version=ESV">16:53</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.16.55&amp;version=ESV">16:55</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.16.61&amp;version=NLT">16:61</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.23.4&amp;version=ESV">23:4</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.23.33&amp;version=ESV">23:33</a>, Hos <a href="https://www.biblegateway.com/passage/?search=Hos.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=Hos.8.5&amp;version=ESV">8:5</a>, <a href="https://www.biblegateway.com/passage/?search=Hos.8.6&amp;version=ESV">8:6</a>, <a href="https://www.biblegateway.com/passage/?search=Hos.10.5&amp;version=ESV">10:5</a>, <a href="https://www.biblegateway.com/passage/?search=Hos.10.7&amp;version=ESV">10:7</a>, <a href="https://www.biblegateway.com/passage/?search=Hos.13.16&amp;version=ESV">13:16</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.3.9&amp;version=ESV">3:9</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.3.12&amp;version=ESV">3:12</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.4.1&amp;version=ESV">4:1</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.6.1&amp;version=ESV">6:1</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.6.8&amp;version=NET">6:8</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.8.14&amp;version=ESV">8:14</a>, Obad <a href="https://www.biblegateway.com/passage/?search=Obad.1.19&amp;version=ESV">19</a>, Mic <a href="https://www.biblegateway.com/passage/?search=Mic.1.1&amp;version=ESV">1:1</a>, <a href="https://www.biblegateway.com/passage/?search=Mic.1.5&amp;version=ESV">1:5</a>, <a href="https://www.biblegateway.com/passage/?search=Mic.1.6&amp;version=ESV">1:6</a>, <a href="https://www.biblegateway.com/passage/?search=Mic.1.9&amp;version=NIV">1:9</a>]]></description>
+	<Placemark>
+		<name>Samaria 1</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.195,32.276111</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

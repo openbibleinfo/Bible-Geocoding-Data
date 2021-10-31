@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jeruel</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a8ccbf2/jeruel">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Jeruel (Desert of Jeruel, Wilderness of Jeruel)</name>
+	<description><![CDATA[2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.20.16&amp;version=ESV">20:16</a>]]></description>
+	<Folder>
+		<name>Jeruel</name>
+		<Placemark>
+			<name>Jeruel (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.29578,31.57375 35.31004,31.56766 35.31718,31.56766 35.33144,31.57375 35.35284,31.60417 35.34571,31.60417 35.33858,31.60417 35.33144,31.60417 35.32431,31.59809 35.31718,31.592 35.29578,31.57375</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jeruel (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.31004,31.61026 35.30291,31.60417 35.29578,31.58592 35.29578,31.57983 35.29578,31.57375 35.29578,31.56766 35.30291,31.56766 35.31004,31.56766 35.31718,31.56766 35.32431,31.56766 35.33858,31.57375 35.34571,31.57983 35.35284,31.59809 35.35284,31.60417 35.35284,31.61026 35.35284,31.61634 35.35284,31.62242 35.34571,31.62242 35.31004,31.61026</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jeruel (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.34571,31.62242 35.33858,31.62242 35.33144,31.62242 35.32431,31.62242 35.31718,31.62242 35.31004,31.62242 35.28865,31.61634 35.27438,31.51898 35.35284,31.57375 35.35998,31.61634 35.35998,31.62242 35.35284,31.62242 35.34571,31.62242</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jeruel (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.23872,31.50681 35.23872,31.50073 35.23872,31.49465 35.28865,31.48248 35.29578,31.48248 35.30291,31.48248 35.37424,31.56766 35.38137,31.59809 35.37424,31.65285 35.28865,31.62242 35.28151,31.61634 35.27438,31.61026 35.25298,31.56766 35.23872,31.50681</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jeruel (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.24585,31.57983 35.22445,31.50073 35.22445,31.49465 35.24585,31.48856 35.28865,31.48248 35.29578,31.48248 35.30291,31.48248 35.31004,31.48248 35.31718,31.48248 35.32431,31.48248 35.33144,31.48248 35.33858,31.48248 35.34571,31.48248 35.35284,31.48248 35.38137,31.56766 35.38851,31.592 35.38851,31.59809 35.38851,31.60417 35.38851,31.61026 35.38851,31.61634 35.38851,31.62242 35.38851,31.64676 35.38851,31.65285 35.36711,31.65893 35.33858,31.66502 35.33144,31.66502 35.32431,31.66502 35.26011,31.61634 35.25298,31.60417 35.24585,31.57983</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jeruel</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.309167,31.579722</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

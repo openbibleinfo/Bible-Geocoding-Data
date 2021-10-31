@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Shepher</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a39fe14/mount-shepher">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Shepher (Mount Shapher, Shapher)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.33.23&amp;version=ESV">33:23</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.24&amp;version=ESV">33:24</a>]]></description>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Wadi Lussan</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.30356,30.95628 34.24875,30.95381 34.19455,30.94641 34.14157,30.93417 34.09038,30.91723 34.04155,30.89578 33.99564,30.87004 33.95313,30.84031 33.9145,30.80692 33.88018,30.77024 33.85053,30.73067 33.82588,30.68864 33.80649,30.64463 33.79257,30.59911 33.78426,30.55259 33.78166,30.50558 33.78477,30.45859 33.79355,30.41214 33.80791,30.36673 33.82767,30.32286 33.85262,30.28101 33.88247,30.24164 33.9169,30.20517 33.95553,30.172 33.99793,30.14248 34.04364,30.11694 34.09217,30.09566 34.14298,30.07887 34.19554,30.06674 34.24925,30.05941 34.30356,30.05696 34.35787,30.05941 34.41158,30.06674 34.46414,30.07887 34.51495,30.09566 34.56348,30.11694 34.60919,30.14248 34.65159,30.172 34.69022,30.20517 34.72465,30.24164 34.7545,30.28101 34.77945,30.32286 34.79921,30.36673 34.81357,30.41214 34.82235,30.45859 34.82546,30.50558 34.82286,30.55259 34.81455,30.59911 34.80063,30.64463 34.78124,30.68864 34.75659,30.73067 34.72694,30.77024 34.69262,30.80692 34.65399,30.84031 34.61148,30.87004 34.56557,30.89578 34.51674,30.91723 34.46555,30.93417 34.41257,30.94641 34.35837,30.95381 34.30356,30.95628</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Wadi Lussan</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.30356,30.50662</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Jebel Araif en Nakah</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.4425,30.80883 34.38778,30.80635 34.33366,30.79896 34.28076,30.78672 34.22964,30.76978 34.1809,30.74832 34.13505,30.72259 34.09261,30.69286 34.05404,30.65947 34.01976,30.62279 33.99016,30.58322 33.96554,30.54119 33.94618,30.49718 33.93228,30.45167 33.92399,30.40515 33.92138,30.35813 33.92449,30.31114 33.93326,30.26469 33.94759,30.21928 33.96732,30.17541 33.99223,30.13357 34.02204,30.09419 34.05642,30.05772 34.09499,30.02454 34.13733,29.99503 34.18297,29.96949 34.23142,29.94821 34.28216,29.93142 34.33464,29.91929 34.38828,29.91196 34.4425,29.90951 34.49672,29.91196 34.55036,29.91929 34.60284,29.93142 34.65358,29.94821 34.70203,29.96949 34.74767,29.99503 34.79001,30.02454 34.82858,30.05772 34.86296,30.09419 34.89277,30.13357 34.91768,30.17541 34.93741,30.21928 34.95174,30.26469 34.96051,30.31114 34.96362,30.35813 34.96101,30.40515 34.95272,30.45167 34.93882,30.49718 34.91946,30.54119 34.89484,30.58322 34.86524,30.62279 34.83096,30.65947 34.79239,30.69286 34.74995,30.72259 34.7041,30.74832 34.65536,30.76978 34.60424,30.78672 34.55134,30.79896 34.49722,30.80635 34.4425,30.80883</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Jebel Araif en Nakah</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.4425,30.359167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Jebel Aradeh</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.47324,29.43608 34.41927,29.43361 34.3659,29.42621 34.31372,29.41398 34.26332,29.39704 34.21524,29.37559 34.17001,29.34986 34.12815,29.32014 34.0901,29.28676 34.05629,29.25008 34.02708,29.21051 34.00279,29.16849 33.98369,29.12448 33.96996,29.07897 33.96177,29.03245 33.95919,28.98544 33.96224,28.93845 33.97087,28.892 33.985,28.84658 34.00446,28.80271 34.02902,28.76086 34.05842,28.72148 34.09233,28.685 34.13037,28.65182 34.17214,28.6223 34.21717,28.59676 34.26498,28.57547 34.31504,28.55867 34.36681,28.54654 34.41973,28.53921 34.47324,28.53676 34.52674,28.53921 34.57966,28.54654 34.63144,28.55867 34.6815,28.57547 34.7293,28.59676 34.77433,28.6223 34.8161,28.65182 34.85415,28.685 34.88806,28.72148 34.91745,28.76086 34.94202,28.80271 34.96147,28.84658 34.9756,28.892 34.98424,28.93845 34.98729,28.98544 34.9847,29.03245 34.97651,29.07897 34.96279,29.12448 34.94368,29.16849 34.91939,29.21051 34.89018,29.25008 34.85637,29.28676 34.81832,29.32014 34.77646,29.34986 34.73124,29.37559 34.68316,29.39704 34.63275,29.41398 34.58057,29.42621 34.5272,29.43361 34.47324,29.43608</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / within 50 km of Jebel Aradeh</name>
+		<description>within 50 km of Haradah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.473237,28.986419</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Shepher / Jebel Araif en Nakah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.4425,30.359167</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

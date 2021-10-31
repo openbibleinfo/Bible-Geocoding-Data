@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bether 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac9fb6d/bether-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bether 1</name>
+	<description><![CDATA[Song <a href="https://www.biblegateway.com/passage/?search=Song.2.17&amp;version=NASB">2:17</a>]]></description>
+	<Placemark>
+		<name>Bether 1 / within 5 km of Khirbet al Yahud</name>
+		<description>within 5 km of Bether 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.13556,31.77497 35.13003,31.77472 35.12456,31.77398 35.11921,31.77276 35.11404,31.77108 35.10911,31.76894 35.10447,31.76637 35.10017,31.76341 35.09625,31.76008 35.09277,31.75642 35.08976,31.75247 35.08725,31.74828 35.08527,31.74389 35.08384,31.73934 35.08298,31.73469 35.08269,31.72999 35.08298,31.72529 35.08385,31.72064 35.08528,31.71609 35.08727,31.7117 35.08978,31.70751 35.0928,31.70356 35.09628,31.69991 35.10019,31.69658 35.10449,31.69362 35.10913,31.69106 35.11406,31.68892 35.11923,31.68723 35.12457,31.68602 35.13003,31.68528 35.13556,31.68503 35.14108,31.68528 35.14654,31.68602 35.15189,31.68723 35.15705,31.68892 35.16198,31.69106 35.16662,31.69362 35.17092,31.69658 35.17483,31.69991 35.17831,31.70356 35.18133,31.70751 35.18384,31.7117 35.18583,31.71609 35.18726,31.72064 35.18813,31.72529 35.18842,31.72999 35.18814,31.73469 35.18727,31.73934 35.18584,31.74389 35.18386,31.74828 35.18135,31.75247 35.17834,31.75642 35.17486,31.76008 35.17094,31.76341 35.16664,31.76637 35.162,31.76894 35.15707,31.77108 35.1519,31.77276 35.14655,31.77398 35.14108,31.77472 35.13556,31.77497</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Bether 1 / within 5 km of Khirbet al Yahud</name>
+		<description>within 5 km of Bether 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.135556,31.73</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

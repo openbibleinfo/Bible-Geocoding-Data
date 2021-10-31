@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Syria 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a159fa4/syria-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Syria 1 (Aram)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.1.4&amp;version=NET">1:4</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.10.6&amp;version=ESV">10:6</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.8.5&amp;version=LEB">8:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.9&amp;version=LEB">10:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.11&amp;version=LEB">10:11</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.13&amp;version=LEB">10:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.14&amp;version=LEB">10:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.17&amp;version=LEB">10:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.18&amp;version=LEB">10:18</a>, <a href="https://www.biblegateway.com/passage/?search=2Sam.10.19&amp;version=LEB">10:19</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.10.29&amp;version=ESV">10:29</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.25&amp;version=ESV">11:25</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.15.18&amp;version=ESV">15:18</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.19.15&amp;version=ESV">19:15</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.20&amp;version=ESV">20:20</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.21&amp;version=NET">20:21</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.22&amp;version=ESV">20:22</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.23&amp;version=ESV">20:23</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.26&amp;version=LEB">20:26</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.20.28&amp;version=LEB">20:28</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.1&amp;version=ESV">22:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.3&amp;version=ESV">22:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.11&amp;version=NET">22:11</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.31&amp;version=ESV">22:31</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.22.35&amp;version=LEB">22:35</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.5.1&amp;version=ESV">5:1</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.5.2&amp;version=NIV">5:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.5.5&amp;version=ESV">5:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.8&amp;version=ESV">6:8</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.9&amp;version=NET">6:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.11&amp;version=ESV">6:11</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.23&amp;version=NIV">6:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.6.24&amp;version=ESV">6:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.7.5&amp;version=KJV">7:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.7&amp;version=ESV">8:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.9&amp;version=ESV">8:9</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.13&amp;version=ESV">8:13</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.28&amp;version=ESV">8:28</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.8.29&amp;version=ESV">8:29</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.9.14&amp;version=ESV">9:14</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.9.15&amp;version=ESV">9:15</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.12.17&amp;version=ESV">12:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.12.18&amp;version=ESV">12:18</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.3&amp;version=ESV">13:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.4&amp;version=ESV">13:4</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.5&amp;version=NIV">13:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.7&amp;version=ESV">13:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.17&amp;version=ESV">13:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.19&amp;version=ESV">13:19</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.22&amp;version=ESV">13:22</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.13.24&amp;version=ESV">13:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.37&amp;version=ESV">15:37</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.16.5&amp;version=ESV">16:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.16.6&amp;version=ESV">16:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.16.7&amp;version=ESV">16:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Kgs.24.2&amp;version=LEB">24:2</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.18.5&amp;version=LEB">18:5</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.18.6&amp;version=ESV">18:6</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.10&amp;version=LEB">19:10</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.12&amp;version=LEB">19:12</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.14&amp;version=LEB">19:14</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.15&amp;version=LEB">19:15</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.16&amp;version=LEB">19:16</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.17&amp;version=LEB">19:17</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.18&amp;version=LEB">19:18</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.19.19&amp;version=LEB">19:19</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.1.17&amp;version=ESV">1:17</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.16.2&amp;version=ESV">16:2</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.16.7&amp;version=ESV">16:7</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.10&amp;version=NET">18:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.30&amp;version=ESV">18:30</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.18.34&amp;version=LEB">18:34</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.22.5&amp;version=ESV">22:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.22.6&amp;version=ESV">22:6</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.24.23&amp;version=NIV">24:23</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.24.24&amp;version=NRSV">24:24</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.5&amp;version=ESV">28:5</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.23&amp;version=ESV">28:23</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.7.2&amp;version=ESV">7:2</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.7.4&amp;version=ESV">7:4</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.7.5&amp;version=ESV">7:5</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.7.8&amp;version=ESV">7:8</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.9.12&amp;version=NET">9:12</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.17.3&amp;version=ESV">17:3</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.16.57&amp;version=ESV">16:57</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.27.16&amp;version=ESV">27:16</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.1.5&amp;version=ESV">1:5</a>]]></description>
+	<Folder>
+		<name>Syria 1 / Aram</name>
+		<Placemark>
+			<name>Syria 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.07666,33.5149 35.99445,33.23637 35.99445,33.16674 36.32326,33.37564 36.40546,33.44527 36.07666,33.5149</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.83005,33.09711 35.83005,33.02748 35.91225,32.95785 36.73427,33.306 36.73427,33.37564 36.32326,33.65416 36.24106,33.65416 36.15886,33.58453 36.07666,33.5149 35.83005,33.09711</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.48767,33.65416 36.40546,33.65416 36.32326,33.65416 36.24106,33.65416 36.15886,33.65416 36.07666,33.65416 35.99445,33.5149 35.74785,32.95785 35.83005,32.95785 35.91225,32.95785 36.65207,33.23637 36.81647,33.306 36.89868,33.37564 36.89868,33.44527 36.48767,33.65416</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.15886,33.72379 35.99445,33.65416 35.91225,33.5149 35.66565,32.88821 35.74785,32.81858 36.40546,32.74895 36.48767,32.81858 36.56987,32.88821 36.65207,32.95785 36.89868,33.23637 36.89868,33.306 36.89868,33.37564 36.89868,33.44527 36.89868,33.5149 36.89868,33.58453 36.48767,33.72379 36.40546,33.72379 36.32326,33.72379 36.24106,33.72379 36.15886,33.72379</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.24106,33.79342 35.99445,33.72379 35.83005,33.65416 35.74785,33.58453 35.66565,33.02748 35.66565,32.95785 35.66565,32.88821 35.66565,32.81858 35.66565,32.74895 36.07666,32.1919 36.15886,32.26153 36.24106,32.33116 36.32326,32.40079 36.89868,33.09711 36.98088,33.37564 36.89868,33.72379 36.48767,33.79342 36.40546,33.79342 36.32326,33.79342 36.24106,33.79342</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.66565,33.37564 35.66565,33.09711 35.66565,33.02748 35.66565,32.95785 35.66565,32.88821 35.66565,32.81858 35.66565,32.74895 36.07666,32.1919 36.15886,32.1919 36.32326,32.26153 36.48767,32.33116 36.81647,32.60969 36.89868,32.67932 37.14528,33.5149 37.14528,33.58453 37.14528,33.65416 37.14528,33.72379 37.14528,33.79342 36.89868,34.00232 36.81647,34.00232 36.73427,34.00232 36.65207,34.00232 36.56987,34.00232 36.48767,34.00232 36.15886,33.93269 35.83005,33.72379 35.74785,33.65416 35.66565,33.37564</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.99445,34.14158 35.91225,34.00232 35.74785,33.65416 35.66565,33.44527 35.58344,32.67932 36.07666,32.1919 36.15886,32.1919 36.24106,32.1919 36.32326,32.1919 36.40546,32.1919 36.89868,32.54006 37.8851,34.21121 37.8851,34.28084 37.8029,34.28084 37.72069,34.28084 35.99445,34.14158</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.07666,32.1919 36.40546,32.12227 36.81647,32.47043 36.89868,32.54006 37.14528,32.88821 37.8029,34.00232 37.8851,34.21121 37.8851,34.28084 37.14528,34.69863 37.06308,34.69863 36.98088,34.69863 35.99445,34.21121 35.83005,33.86306 35.74785,33.65416 35.66565,33.44527 35.58344,32.67932 36.07666,32.1919</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Syria 1 / Aram</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.30639,33.511112</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

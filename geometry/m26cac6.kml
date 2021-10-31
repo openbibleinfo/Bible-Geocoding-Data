@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Feiran</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m26cac6/wadi-feiran">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Feiran</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>33.683859,28.699214 33.673503,28.700484 33.665071,28.708534 33.659738,28.710538 33.658322,28.710247 33.656911,28.708849 33.657201,28.705386 33.659186,28.703062 33.657796,28.699239 33.655855,28.698493 33.644761,28.700512 33.645802,28.705909 33.644042,28.706803 33.640679,28.706525 33.637674,28.705316 33.633935,28.706031 33.630288,28.703547 33.626822,28.703377 33.623791,28.705114 33.619859,28.712562 33.617381,28.712392 33.614844,28.709969 33.613046,28.7106 33.612392,28.715874 33.609109,28.718903 33.607017,28.722385 33.605375,28.722498 33.60309,28.7196 33.599292,28.718104 33.597543,28.723429 33.594153,28.725998 33.591085,28.725301 33.58881,28.721322 33.579766,28.718179 33.576697,28.718376 33.569262,28.729018 33.565925,28.732611 33.56585,28.738482 33.566859,28.742226 33.564756,28.746177 33.559992,28.749615 33.560379,28.75516 33.559681,28.756683 33.558104,28.757662 33.551731,28.756425 33.55024,28.757144 33.550594,28.760342 33.552407,28.764095 33.551828,28.767349 33.550798,28.768534 33.53965,28.769333 33.534372,28.77112 33.531776,28.772662 33.527505,28.776762 33.523128,28.777477 33.520022,28.779104 33.50491,28.788385 33.498323,28.793613 33.481801,28.797204 33.47223,28.795663 33.46369,28.796866 33.458669,28.796227 33.451889,28.797073 33.445129,28.795982 33.440645,28.79444 33.430538,28.794497 33.425775,28.790604 33.423564,28.786204 33.421226,28.783401 33.411098,28.78154 33.408115,28.779226 33.406055,28.774995 33.402901,28.77159 33.396614,28.768562 33.390605,28.766803 33.387612,28.766954 33.383782,28.7656 33.380113,28.765609 33.373289,28.762392 33.357325,28.761339 33.349771,28.759458 33.343077,28.754567 33.336296,28.744333 33.333378,28.729582 33.329,28.718367 33.326511,28.714754 33.324022,28.712722 33.317038,28.710332 33.31581,28.708673 33.295841,28.70095 33.291767,28.698712 33.284893,28.692699 33.274913,28.690338 33.270802,28.688253 33.2697,28.686253 33.266713,28.684201 33.265097,28.680243 33.261583,28.677306 33.239589,28.672232 33.217464,28.675679 33.208959,28.675834 33.202105,28.679672</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Feiran</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>33.611944,28.7125</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

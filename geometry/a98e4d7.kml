@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sidon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a98e4d7/sidon">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sidon (Zidon)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.10.19&amp;version=ESV">10:19</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.49.13&amp;version=ESV">49:13</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.11.8&amp;version=ESV">11:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.4&amp;version=NET">13:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.19.28&amp;version=ESV">19:28</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.1.31&amp;version=ESV">1:31</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.10.6&amp;version=ESV">10:6</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.18.7&amp;version=NLT">18:7</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.18.28&amp;version=ESV">18:28</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.24.6&amp;version=ESV">24:6</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.11.1&amp;version=NLT">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.17.9&amp;version=ESV">17:9</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.22.4&amp;version=NLT">22:4</a>, Ezra <a href="https://www.biblegateway.com/passage/?search=Ezra.3.7&amp;version=NIV">3:7</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.23.2&amp;version=ESV">23:2</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.4&amp;version=ESV">23:4</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.23.12&amp;version=ESV">23:12</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.22&amp;version=ESV">25:22</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.27.3&amp;version=ESV">27:3</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.47.4&amp;version=ESV">47:4</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.8&amp;version=ESV">27:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.28.21&amp;version=ESV">28:21</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.28.22&amp;version=ESV">28:22</a>, Joel <a href="https://www.biblegateway.com/passage/?search=Joel.3.4&amp;version=ESV">3:4</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.9.2&amp;version=ESV">9:2</a>, Matt <a href="https://www.biblegateway.com/passage/?search=Matt.11.21&amp;version=ESV">11:21</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.11.22&amp;version=ESV">11:22</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.15.21&amp;version=ESV">15:21</a>, Mark <a href="https://www.biblegateway.com/passage/?search=Mark.3.8&amp;version=ESV">3:8</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.7.24&amp;version=ESV">7:24</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.7.31&amp;version=ESV">7:31</a>, Luke <a href="https://www.biblegateway.com/passage/?search=Luke.4.26&amp;version=ESV">4:26</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.6.17&amp;version=ESV">6:17</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.10.13&amp;version=ESV">10:13</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.10.14&amp;version=ESV">10:14</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.12.20&amp;version=ESV">12:20</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.27.3&amp;version=ESV">27:3</a>]]></description>
+	<Placemark>
+		<name>Sidon / Sandikli archaeological site in Sidon</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.371944,33.560985</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

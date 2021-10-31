@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Karkor</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0415e8/karkor">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Karkor</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.8.10&amp;version=ESV">8:10</a>]]></description>
+	<Placemark>
+		<name>Karkor / Al Qarqar</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>37.54278,31.36306</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / in Wadi Sirhan</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.73737,31.798912 37.485471,31.040384 38.283121,30.065074 39.458936,29.909538 36.952723,31.90196 36.73737,31.798912</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / in Wadi Sirhan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>37.75,31</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / Al Baqa’a</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.80677,32.055338 35.836151,32.037966 35.873973,32.08311 35.850381,32.100686 35.80677,32.055338</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / Al Baqa’a</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.843056,32.073611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / Carcaria</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.560833,30.531389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / Karkagheisch</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.848658,31.999537</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / within 8 km of Tell edh Dhahab esh Sherqiyeh</name>
+		<description>within 8 km of Penuel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.69211,32.25896 35.68322,32.25857 35.67442,32.25739 35.66582,32.25544 35.65751,32.25274 35.64958,32.24932 35.64211,32.24521 35.63519,32.24047 35.6289,32.23514 35.6233,32.22929 35.61846,32.22297 35.61442,32.21626 35.61124,32.20922 35.60894,32.20195 35.60756,32.19451 35.6071,32.18699 35.60757,32.17947 35.60897,32.17203 35.61128,32.16476 35.61447,32.15773 35.61852,32.15102 35.62337,32.14471 35.62897,32.13886 35.63526,32.13354 35.64217,32.1288 35.64963,32.1247 35.65756,32.12129 35.66586,32.11859 35.67445,32.11664 35.68323,32.11546 35.69211,32.11507 35.70099,32.11546 35.70977,32.11664 35.71836,32.11859 35.72666,32.12129 35.73459,32.1247 35.74205,32.1288 35.74896,32.13354 35.75525,32.13886 35.76085,32.14471 35.7657,32.15102 35.76975,32.15773 35.77294,32.16476 35.77525,32.17203 35.77665,32.17947 35.77712,32.18699 35.77666,32.19451 35.77528,32.20195 35.77298,32.20922 35.7698,32.21626 35.76576,32.22297 35.76092,32.22929 35.75532,32.23514 35.74903,32.24047 35.74211,32.24521 35.73464,32.24932 35.72671,32.25274 35.7184,32.25544 35.7098,32.25739 35.701,32.25857 35.69211,32.25896</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / within 8 km of Tell edh Dhahab esh Sherqiyeh</name>
+		<description>within 8 km of Penuel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.69211,32.187016</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / within 8 km of Tell edh Dhahab el Gharbi</name>
+		<description>within 8 km of Penuel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.68667,32.2577 35.67778,32.2573 35.66898,32.25612 35.66038,32.25417 35.65207,32.25147 35.64414,32.24805 35.63667,32.24395 35.62975,32.2392 35.62346,32.23388 35.61786,32.22802 35.61302,32.2217 35.60899,32.21499 35.6058,32.20796 35.6035,32.20068 35.60212,32.19324 35.60166,32.18572 35.60213,32.1782 35.60353,32.17076 35.60584,32.16349 35.60904,32.15646 35.61308,32.14976 35.61793,32.14344 35.62353,32.13759 35.62982,32.13227 35.63673,32.12753 35.64419,32.12344 35.65212,32.12002 35.66042,32.11732 35.66901,32.11538 35.67779,32.1142 35.68667,32.1138 35.69555,32.1142 35.70433,32.11538 35.71292,32.11732 35.72122,32.12002 35.72915,32.12344 35.73661,32.12753 35.74352,32.13227 35.74981,32.13759 35.75541,32.14344 35.76026,32.14976 35.7643,32.15646 35.7675,32.16349 35.76981,32.17076 35.77121,32.1782 35.77168,32.18572 35.77122,32.19324 35.76984,32.20068 35.76754,32.20796 35.76435,32.21499 35.76032,32.2217 35.75548,32.22802 35.74988,32.23388 35.74359,32.2392 35.73667,32.24395 35.7292,32.24805 35.72127,32.25147 35.71296,32.25417 35.70436,32.25612 35.69556,32.2573 35.68667,32.2577</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / within 8 km of Tell edh Dhahab el Gharbi</name>
+		<description>within 8 km of Penuel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.68667,32.18575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Karkor / Qarqar</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.330543,35.742646</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

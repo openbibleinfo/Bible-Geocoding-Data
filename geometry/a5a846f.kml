@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Humtah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5a846f/humtah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Humtah</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.54&amp;version=ESV">15:54</a>]]></description>
+	<Placemark>
+		<name>Humtah / within 14 km of Tel Rumeida</name>
+		<description>within 14 km of Hebron</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10222,31.65099 35.08676,31.6503 35.07147,31.64824 35.05652,31.64482 35.04207,31.64009 35.02828,31.6341 35.01531,31.62692 35.00329,31.61861 34.99236,31.60929 34.98263,31.59904 34.97422,31.58798 34.96721,31.57623 34.96169,31.56392 34.9577,31.55118 34.9553,31.53816 34.95452,31.525 34.95535,31.51184 34.95778,31.49883 34.9618,31.4861 34.96736,31.47381 34.97439,31.46207 34.98282,31.45103 34.99255,31.44079 35.00349,31.43148 35.0155,31.4232 35.02845,31.41603 35.04222,31.41005 35.05664,31.40534 35.07155,31.40193 35.0868,31.39987 35.10222,31.39918 35.11764,31.39987 35.13289,31.40193 35.1478,31.40534 35.16222,31.41005 35.17599,31.41603 35.18894,31.4232 35.20095,31.43148 35.21189,31.44079 35.22162,31.45103 35.23005,31.46207 35.23708,31.47381 35.24264,31.4861 35.24666,31.49883 35.24909,31.51184 35.24992,31.525 35.24914,31.53816 35.24674,31.55118 35.24275,31.56392 35.23723,31.57623 35.23022,31.58798 35.22181,31.59904 35.21208,31.60929 35.20115,31.61861 35.18913,31.62692 35.17616,31.6341 35.16237,31.64009 35.14792,31.64482 35.13297,31.64824 35.11768,31.6503 35.10222,31.65099</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Humtah / within 14 km of Tel Rumeida</name>
+		<description>within 14 km of Hebron</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.10222,31.525087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Humtah / Khirbet al Hadab</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9975,31.4555</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

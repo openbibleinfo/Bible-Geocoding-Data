@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kerioth-hezron</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/af66926/kerioth-hezron">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Kerioth-hezron (Hezron)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.25&amp;version=ESV">15:25</a>]]></description>
+	<Placemark>
+		<name>Kerioth-hezron / Khirbet el Qaryatein</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.124376,31.344952</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / within 10 km of Ain el Qudeirat</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.42222,30.73827 34.41129,30.73777 34.40047,30.7363 34.38989,30.73386 34.37967,30.73048 34.36991,30.72621 34.36073,30.72108 34.35223,30.71515 34.34449,30.70849 34.33761,30.70117 34.33165,30.69327 34.32669,30.68488 34.32278,30.67609 34.31995,30.66699 34.31825,30.65769 34.31769,30.64829 34.31827,30.63889 34.31999,30.6296 34.32283,30.6205 34.32676,30.61172 34.33173,30.60334 34.3377,30.59544 34.34459,30.58813 34.35232,30.58148 34.36082,30.57556 34.37,30.57044 34.37974,30.56617 34.38995,30.5628 34.40051,30.56036 34.41131,30.55889 34.42222,30.5584 34.43314,30.55889 34.44394,30.56036 34.4545,30.5628 34.4647,30.56617 34.47445,30.57044 34.48362,30.57556 34.49212,30.58148 34.49986,30.58813 34.50675,30.59544 34.51271,30.60334 34.51768,30.61172 34.52161,30.6205 34.52445,30.6296 34.52617,30.63889 34.52676,30.64829 34.52619,30.65769 34.52449,30.66699 34.52167,30.67609 34.51775,30.68488 34.51279,30.69327 34.50684,30.70117 34.49995,30.70849 34.49222,30.71515 34.48371,30.72108 34.47453,30.72621 34.46478,30.73048 34.45455,30.73386 34.44398,30.7363 34.43316,30.73777 34.42222,30.73827</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / within 10 km of Ain el Qudeirat</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.422222,30.648333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / Ein Qedeis</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.484081,30.583378</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / within 10 km of Ein Qedeis</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.48408,30.67331 34.47315,30.67282 34.46234,30.67134 34.45177,30.6689 34.44156,30.66553 34.43181,30.66125 34.42263,30.65612 34.41413,30.65019 34.4064,30.64353 34.39952,30.63621 34.39357,30.62831 34.38861,30.61992 34.3847,30.61113 34.38188,30.60204 34.38018,30.59274 34.37962,30.58334 34.3802,30.57394 34.38192,30.56464 34.38476,30.55555 34.38868,30.54676 34.39365,30.53838 34.39961,30.53049 34.4065,30.52318 34.41423,30.51653 34.42272,30.51061 34.43189,30.50548 34.44163,30.50121 34.45183,30.49784 34.46238,30.49541 34.47317,30.49394 34.48408,30.49345 34.49499,30.49394 34.50578,30.49541 34.51633,30.49784 34.52653,30.50121 34.53627,30.50548 34.54544,30.51061 34.55393,30.51653 34.56166,30.52318 34.56855,30.53049 34.57451,30.53838 34.57948,30.54676 34.5834,30.55555 34.58624,30.56464 34.58796,30.57394 34.58855,30.58334 34.58798,30.59274 34.58628,30.60204 34.58346,30.61113 34.57955,30.61992 34.57459,30.62831 34.56864,30.63621 34.56176,30.64353 34.55403,30.65019 34.54553,30.65612 34.53636,30.66125 34.52661,30.66553 34.51639,30.6689 34.50582,30.67134 34.49501,30.67282 34.48408,30.67331</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / within 10 km of Ein Qedeis</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.484081,30.583378</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / Khirbet el Qudeirat</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.422222,30.648333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / Har Avnon</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.971389,30.974444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kerioth-hezron / Mesudat Ein Qedeis</name>
+		<description>another name for Hazor 3</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.51416,30.59462</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

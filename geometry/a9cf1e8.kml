@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Galilee 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a9cf1e8/galilee-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Galilee 1</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.20.7&amp;version=ESV">20:7</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.32&amp;version=ESV">21:32</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.9.11&amp;version=ESV">9:11</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.15.29&amp;version=ESV">15:29</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.6.76&amp;version=ESV">6:76</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.9.1&amp;version=ESV">9:1</a>, Matt <a href="https://www.biblegateway.com/passage/?search=Matt.2.22&amp;version=ESV">2:22</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.3.13&amp;version=ESV">3:13</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.12&amp;version=ESV">4:12</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.13&amp;version=NET">4:13</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.15&amp;version=ESV">4:15</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.23&amp;version=ESV">4:23</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.25&amp;version=ESV">4:25</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.11.1&amp;version=NIV">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.14.1&amp;version=NLT">14:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.15.21&amp;version=NLT">15:21</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.17.22&amp;version=ESV">17:22</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.19.1&amp;version=ESV">19:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.21.11&amp;version=ESV">21:11</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.26.32&amp;version=ESV">26:32</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.26.69&amp;version=NIV">26:69</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.27.55&amp;version=ESV">27:55</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.28.7&amp;version=ESV">28:7</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.28.10&amp;version=ESV">28:10</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.28.16&amp;version=ESV">28:16</a>, Mark <a href="https://www.biblegateway.com/passage/?search=Mark.1.9&amp;version=ESV">1:9</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.1.14&amp;version=ESV">1:14</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.1.28&amp;version=ESV">1:28</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.1.39&amp;version=ESV">1:39</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.3.7&amp;version=ESV">3:7</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.6.21&amp;version=ESV">6:21</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.7.24&amp;version=NLT">7:24</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.8.27&amp;version=NLT">8:27</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.9.30&amp;version=ESV">9:30</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.14.28&amp;version=ESV">14:28</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.15.41&amp;version=ESV">15:41</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.16.7&amp;version=ESV">16:7</a>, Luke <a href="https://www.biblegateway.com/passage/?search=Luke.1.26&amp;version=ESV">1:26</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.2.4&amp;version=ESV">2:4</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.2.39&amp;version=ESV">2:39</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.3.19&amp;version=NLT">3:19</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.4.14&amp;version=ESV">4:14</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.4.31&amp;version=ESV">4:31</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.5.17&amp;version=ESV">5:17</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.8.26&amp;version=ESV">8:26</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.9.7&amp;version=NLT">9:7</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.13.1&amp;version=NLT">13:1</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.13.2&amp;version=NLT">13:2</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.17.11&amp;version=ESV">17:11</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.5&amp;version=ESV">23:5</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.6&amp;version=NKJV">23:6</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.7&amp;version=NLT">23:7</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.49&amp;version=ESV">23:49</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.55&amp;version=ESV">23:55</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.24.6&amp;version=ESV">24:6</a>, John <a href="https://www.biblegateway.com/passage/?search=John.1.43&amp;version=ESV">1:43</a>, <a href="https://www.biblegateway.com/passage/?search=John.2.1&amp;version=ESV">2:1</a>, <a href="https://www.biblegateway.com/passage/?search=John.2.11&amp;version=ESV">2:11</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.3&amp;version=ESV">4:3</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.43&amp;version=ESV">4:43</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.45&amp;version=ESV">4:45</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.46&amp;version=ESV">4:46</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.47&amp;version=ESV">4:47</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.54&amp;version=ESV">4:54</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.3&amp;version=NIV">7:3</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.9&amp;version=ESV">7:9</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.41&amp;version=ESV">7:41</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.52&amp;version=ESV">7:52</a>, <a href="https://www.biblegateway.com/passage/?search=John.12.21&amp;version=ESV">12:21</a>, <a href="https://www.biblegateway.com/passage/?search=John.21.2&amp;version=ESV">21:2</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.1.11&amp;version=ESV">1:11</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.2.7&amp;version=NLT">2:7</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.5.37&amp;version=NASB">5:37</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.9.31&amp;version=ESV">9:31</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.10.37&amp;version=ESV">10:37</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.13.31&amp;version=ESV">13:31</a>]]></description>
+	<Folder>
+		<name>Galilee 1</name>
+		<Placemark>
+			<name>Galilee 1 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.29702,32.60062 35.32407,32.60062 35.45934,32.62347 35.48639,32.64631 35.51344,32.66916 35.5405,32.692 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.56755,33.08034 35.43228,33.10318 35.40523,33.10318 35.37818,33.10318 35.29702,33.03465 35.24291,32.96612 35.16175,32.8519 35.1347,32.76053 35.1347,32.73769 35.21586,32.62347 35.29702,32.60062</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.1347,32.66916 35.16175,32.64631 35.21586,32.60062 35.26997,32.57778 35.43228,32.60062 35.48639,32.62347 35.51344,32.64631 35.5405,32.66916 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.56755,33.08034 35.43228,33.10318 35.40523,33.10318 35.37818,33.10318 35.35113,33.08034 35.32407,33.0575 35.29702,33.03465 35.24291,32.96612 35.16175,32.8519 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769 35.1347,32.71484 35.1347,32.66916</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.21586,32.57778 35.24291,32.55494 35.48639,32.60062 35.51344,32.62347 35.5405,32.64631 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.12603 35.45934,33.12603 35.35113,33.10318 35.26997,33.01181 35.21586,32.94328 35.16175,32.8519 35.1347,32.80622 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769 35.1347,32.71484 35.1347,32.66916 35.21586,32.57778</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.1347,32.73769 35.1347,32.71484 35.1347,32.692 35.1347,32.66916 35.1347,32.64631 35.21586,32.55494 35.24291,32.55494 35.26997,32.55494 35.51344,32.55494 35.5405,32.62347 35.56755,32.71484 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.12603 35.45934,33.12603 35.43228,33.12603 35.40523,33.12603 35.32407,33.10318 35.26997,33.03465 35.1347,32.82906 35.1347,32.80622 35.1347,32.78337 35.1347,32.76053 35.1347,32.73769</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.32407,32.53209 35.35113,32.53209 35.5405,32.55494 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.51344,33.12603 35.48639,33.12603 35.45934,33.12603 35.43228,33.12603 35.40523,33.12603 35.37818,33.12603 35.32407,33.10318 35.24291,33.03465 35.1347,32.82906 35.10765,32.73769 35.10765,32.71484 35.10765,32.66916 35.18881,32.57778 35.21586,32.55494 35.26997,32.53209 35.29702,32.53209 35.32407,32.53209</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.29702,32.50925 35.32407,32.50925 35.5405,32.55494 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.48639,33.14887 35.45934,33.14887 35.32407,33.12603 35.24291,33.0575 35.10765,32.80622 35.10765,32.76053 35.10765,32.73769 35.10765,32.71484 35.10765,32.692 35.10765,32.66916 35.18881,32.57778 35.21586,32.55494 35.24291,32.53209 35.29702,32.50925</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.10765,32.73769 35.10765,32.71484 35.10765,32.692 35.10765,32.66916 35.10765,32.64631 35.21586,32.53209 35.35113,32.48641 35.37818,32.48641 35.5405,32.53209 35.56755,32.62347 35.5946,32.89759 35.5946,32.92043 35.5946,32.94328 35.5946,32.96612 35.5946,32.98897 35.5946,33.01181 35.5946,33.03465 35.5946,33.0575 35.5946,33.08034 35.56755,33.12603 35.51344,33.19456 35.32407,33.12603 35.21586,33.0575 35.10765,32.80622 35.10765,32.78337 35.10765,32.76053 35.10765,32.73769</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.32407,33.12603 35.21586,33.08034 35.16175,33.0575 35.10765,32.80622 35.08059,32.62347 35.08059,32.60062 35.21586,32.53209 35.40523,32.46356 35.43228,32.46356 35.45934,32.46356 35.5405,32.53209 35.56755,32.60062 35.62166,32.94328 35.5946,33.08034 35.56755,33.12603 35.5405,33.17171 35.51344,33.19456 35.48639,33.19456 35.32407,33.12603</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.5405,33.19456 35.51344,33.2174 35.48639,33.2174 35.45934,33.2174 35.37818,33.2174 35.35113,33.2174 35.32407,33.2174 35.16175,33.08034 35.1347,33.0575 35.08059,32.8519 35.05354,32.60062 35.24291,32.50925 35.51344,32.41788 35.56755,32.57778 35.62166,32.92043 35.62166,32.94328 35.5946,33.14887 35.5405,33.19456</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Galilee 1</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.527,32.76</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

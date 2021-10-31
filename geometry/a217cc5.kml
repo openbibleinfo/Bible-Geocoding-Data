@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Uzal</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a217cc5/uzal">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Uzal (Izal)</name>
+	<description><![CDATA[Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.19&amp;version=ESV">27:19</a>]]></description>
+	<Placemark>
+		<name>Uzal / Sanaa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.2145,15.3551</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Izalla</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>41.166667,37.333333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Azalla</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>39.8333,24.4833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Tur Abdin</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>41.37792,37.14168 41.41608,37.15369 41.42768,37.13229 41.48545,37.13296 41.63567,37.17929 41.67753,37.22589 41.69953,37.22263 41.7157,37.22462 41.77257,37.24656 41.79238,37.24832 41.79859,37.26468 41.7898,37.28757 41.76237,37.32132 41.76037,37.33798 41.77272,37.35294 41.78441,37.36186 41.79622,37.37682 41.79726,37.37896 41.79409,37.38618 41.79584,37.38813 41.80988,37.38662 41.81311,37.38887 41.81163,37.39529 41.81391,37.39654 41.82309,37.39615 41.82412,37.39747 41.82055,37.41059 41.82258,37.41225 41.83359,37.40807 41.83662,37.40935 41.84131,37.41509 41.84204,37.41268 41.83851,37.40227 41.83931,37.40003 41.85373,37.40254 41.85572,37.39892 41.85945,37.39702 41.86419,37.39968 41.86667,37.39785 41.8734,37.40099 41.87536,37.40381 41.87199,37.40701 41.8728,37.41099 41.87983,37.41068 41.87782,37.41306 41.86771,37.41651 41.86359,37.4197 41.85533,37.43282 41.84662,37.44137 41.84697,37.44497 41.8586,37.45181 41.86044,37.45561 41.86051,37.4581 41.851,37.4641 41.84896,37.46727 41.84983,37.47068 41.85508,37.47537 41.85615,37.47843 41.85332,37.48465 41.85475,37.49529 41.85182,37.50169 41.84109,37.51361 41.79317,37.53497 41.75918,37.55281 41.73753,37.55205 41.70867,37.55964 41.68039,37.56922 41.65609,37.58057 41.61783,37.57935 41.60364,37.5752 41.5928,37.56714 41.57571,37.57603 41.55988,37.57187 41.51587,37.55447 41.46697,37.54127 41.4489,37.55318 41.37923,37.55977 41.32896,37.55372 41.25814,37.5631 41.18664,37.56882 41.16422,37.54814 41.13827,37.5506 41.0841,37.56104 41.00573,37.4402 40.98538,37.3329 40.95723,37.2946 40.96381,37.21277 40.95799,37.19546 40.95457,37.19253 40.9565,37.18876 40.95484,37.18451 40.96004,37.18026 40.96909,37.15965 40.98243,37.14326 41.01588,37.13077 41.0752,37.13265 41.09,37.14661 41.10432,37.15567 41.13841,37.15192 41.16909,37.15129 41.23092,37.11369 41.2702,37.11354 41.37792,37.14168</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Tur Abdin</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>41.483333,37.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Azal</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>44.563468,14.217756 44.551146,14.210464 44.55175,14.184225 44.569095,14.172659 44.61666,14.181109 44.614868,14.226582 44.599511,14.215841 44.563468,14.217756</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Azal</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.58473,14.19494</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Az Zu‘alla</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>44.407143,14.123567 44.405244,14.114697 44.406906,14.102854 44.416982,14.097613 44.427432,14.105847 44.444535,14.106819 44.446075,14.114188 44.440832,14.114959 44.440502,14.121208 44.42378,14.11806 44.407143,14.123567</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / Az Zu‘alla</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.42321,14.10983</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / within 10 km of Konya</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.49233,37.96213 32.48041,37.96164 32.46862,37.96017 32.45708,37.95773 32.44594,37.95435 32.43531,37.95007 32.4253,37.94494 32.41603,37.93901 32.4076,37.93235 32.4001,37.92503 32.39361,37.91713 32.3882,37.90873 32.38394,37.89994 32.38087,37.89085 32.37901,37.88155 32.3784,37.87215 32.37904,37.86275 32.38092,37.85345 32.38402,37.84436 32.38831,37.83558 32.39373,37.82719 32.40023,37.81931 32.40774,37.812 32.41617,37.80534 32.42543,37.79943 32.43543,37.7943 32.44604,37.79004 32.45717,37.78667 32.46867,37.78423 32.48044,37.78276 32.49233,37.78227 32.50423,37.78276 32.51599,37.78423 32.5275,37.78667 32.53862,37.79004 32.54923,37.7943 32.55923,37.79943 32.56849,37.80534 32.57693,37.812 32.58443,37.81931 32.59093,37.82719 32.59636,37.83558 32.60064,37.84436 32.60374,37.85345 32.60562,37.86275 32.60626,37.87215 32.60565,37.88155 32.6038,37.89085 32.60072,37.89994 32.59646,37.90873 32.59106,37.91713 32.58457,37.92503 32.57706,37.93235 32.56863,37.93901 32.55936,37.94494 32.54935,37.95007 32.53872,37.95435 32.52758,37.95773 32.51605,37.96017 32.50425,37.96164 32.49233,37.96213</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Uzal / within 10 km of Konya</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.492331,37.872202</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Rajib</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m92cd57/wadi-rajib">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Rajib</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.723591,32.25511 35.718977,32.250882 35.715485,32.250142 35.712953,32.248228 35.710593,32.247148 35.707546,32.246023 35.70591,32.246027 35.705325,32.245728 35.704858,32.24478 35.703217,32.244081 35.698775,32.243496 35.695047,32.241922 35.693539,32.242193 35.691973,32.240311 35.690294,32.23934 35.688888,32.239725 35.688127,32.239394 35.684795,32.239848 35.680021,32.239076 35.676652,32.240093 35.675826,32.240978 35.6747,32.2413 35.673965,32.242021 35.672913,32.241735 35.671497,32.242747 35.669142,32.242529 35.667511,32.243155 35.665097,32.242643 35.664979,32.242026 35.664298,32.24184 35.659658,32.241436 35.658998,32.241744 35.65763,32.241304 35.655393,32.242026 35.65461,32.242702 35.653912,32.24262 35.65336,32.243128 35.652759,32.242806 35.651069,32.242865 35.649514,32.244049 35.64777,32.244058 35.646917,32.245025 35.645807,32.245224 35.644809,32.244616 35.642733,32.245134 35.64151,32.244167 35.637149,32.244285 35.636269,32.243305 35.634617,32.243509 35.633302,32.244213 35.632482,32.243818 35.631607,32.244444 35.630781,32.244285 35.629724,32.245147 35.627112,32.244389 35.626785,32.243568 35.625556,32.243432 35.624966,32.242756 35.623367,32.24277 35.622118,32.242039 35.62201,32.241177 35.621098,32.24051 35.619993,32.240324 35.619966,32.239367 35.617998,32.238323 35.617595,32.237711 35.614511,32.237633 35.613808,32.237094 35.613288,32.237057 35.612467,32.237738 35.609742,32.236531 35.608749,32.236699 35.607671,32.236345 35.604624,32.236513 35.603144,32.237193 35.601389,32.236785 35.600043,32.237502 35.598439,32.23698 35.597162,32.237116 35.595553,32.236753 35.593289,32.237833 35.589834,32.238287 35.58881,32.237484 35.587839,32.23786 35.585505,32.237933 35.583049,32.236613 35.581992,32.236699 35.580227,32.236127 35.579798,32.236145 35.579524,32.236776 35.578237,32.23718 35.577807,32.23777 35.57681,32.236926 35.576,32.236789 35.576096,32.236422 35.575404,32.235446 35.570512,32.234248 35.568785,32.232987 35.568522,32.231458 35.569268,32.230072</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Rajib</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.60667,32.23778</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

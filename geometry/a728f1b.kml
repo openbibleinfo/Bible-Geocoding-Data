@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gederoth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a728f1b/gederoth">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gederoth</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.41&amp;version=ESV">15:41</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.28.18&amp;version=ESV">28:18</a>]]></description>
+	<Placemark>
+		<name>Gederoth / Qatra</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.777744,31.822936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Khirbet Judraya</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.996117,31.688903</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tel Goded</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.916611,31.633361</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Khirbet Jedireh</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.95892,31.82744</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Qatra</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.777744,31.822936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Jedireh</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.19727,31.85794</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Khirbet Judeira</name>
+		<description>another name for Gederah 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.09229,31.86725</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tell el Meleiha</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.776516,31.462135</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Deir el Azar</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.10378,31.808957</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / within 1 km of Kesla</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.05111,31.7901 35.05001,31.79005 35.04891,31.78991 35.04784,31.78966 35.04681,31.78933 35.04582,31.7889 35.04489,31.78839 35.04403,31.78779 35.04325,31.78713 35.04255,31.7864 35.04195,31.78561 35.04145,31.78477 35.04105,31.78389 35.04076,31.78298 35.04059,31.78205 35.04053,31.78111 35.04059,31.78017 35.04076,31.77924 35.04105,31.77833 35.04145,31.77745 35.04195,31.77661 35.04255,31.77582 35.04325,31.77509 35.04403,31.77443 35.04489,31.77384 35.04582,31.77332 35.04681,31.7729 35.04784,31.77256 35.04891,31.77231 35.05001,31.77217 35.05111,31.77212 35.05222,31.77217 35.05331,31.77231 35.05438,31.77256 35.05541,31.7729 35.0564,31.77332 35.05733,31.77384 35.05819,31.77443 35.05897,31.77509 35.05967,31.77582 35.06027,31.77661 35.06078,31.77745 35.06117,31.77833 35.06146,31.77924 35.06163,31.78017 35.06169,31.78111 35.06163,31.78205 35.06146,31.78298 35.06117,31.78389 35.06078,31.78477 35.06027,31.78561 35.05967,31.7864 35.05897,31.78713 35.05819,31.78779 35.05733,31.78839 35.0564,31.7889 35.05541,31.78933 35.05438,31.78966 35.05331,31.78991 35.05222,31.79005 35.05111,31.7901</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / within 1 km of Kesla</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.051111,31.781111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tulul el Medbah</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.91217,31.142053</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Khirbet es Siyyagh</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.001006,31.748796</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Bayt Itab</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.052967,31.734836</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Arak Ismain</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.025793,31.763715</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / along Wadi el Qeini</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.208909,31.223416 35.207254,31.221377 35.206104,31.220698 35.205261,31.220585 35.204096,31.221136 35.201418,31.221431 35.198819,31.222413 35.196822,31.222292 35.195212,31.223215 35.194579,31.223888 35.19123,31.223485 35.190226,31.224072 35.189598,31.224113 35.187434,31.223211 35.186384,31.223534 35.185837,31.224222 35.185192,31.224269 35.183487,31.223607 35.182751,31.222212 35.181604,31.222679 35.179335,31.221513 35.178704,31.22085 35.176501,31.221085 35.177271,31.218804 35.176096,31.219065 35.173939,31.218466 35.17363,31.218129 35.173337,31.216672 35.172006,31.216885 35.170189,31.216146 35.169866,31.214554 35.170233,31.213138 35.17006,31.212335 35.169433,31.212092 35.168344,31.212447 35.167496,31.212072 35.166811,31.211398 35.166693,31.21078 35.16731,31.209882 35.17028,31.209448 35.17105,31.209067 35.168021,31.205685 35.165311,31.204847 35.165658,31.204327 35.166268,31.204018 35.168766,31.203815 35.168947,31.203462 35.168745,31.202847 35.168188,31.202582 35.168655,31.2021 35.169298,31.202228 35.169623,31.202031 35.167765,31.199254 35.169,31.198962 35.169552,31.198478 35.167687,31.198047 35.167225,31.197531 35.167946,31.196925 35.170207,31.196694 35.170794,31.196306 35.170853,31.195708 35.169519,31.193627 35.169888,31.192927 35.169881,31.192101 35.172197,31.192248 35.172816,31.191847 35.173714,31.192264 35.174364,31.192196 35.175125,31.193169 35.175724,31.192891 35.176512,31.193169 35.177025,31.192896 35.176875,31.192512 35.177459,31.191651 35.177193,31.191326 35.17593,31.191297 35.175859,31.190966 35.174611,31.189991 35.173927,31.188726 35.173953,31.187965 35.174505,31.186994 35.175308,31.186674 35.176349,31.187006 35.176648,31.186214 35.176025,31.183811 35.17549,31.183225 35.175794,31.182402 35.174552,31.181967 35.174101,31.180808 35.174309,31.180304 35.175276,31.179495 35.175335,31.179148 35.17417,31.178655 35.173279,31.176981 35.174459,31.176414 35.176975,31.176047 35.177382,31.175476 35.177416,31.174333 35.178557,31.173963 35.179486,31.172366 35.18039,31.171435 35.180825,31.170423 35.182163,31.169777 35.182566,31.169154 35.183092,31.168891</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / along Wadi el Qeini</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.174722,31.178889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Beer Yeroham</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.911322,30.991038</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tel Malhata</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.0258,31.2172</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Al Maghar</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.78225,31.838514</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tel Masos</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.958277,31.212285</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tel Ira</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9867,31.2328</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Horbat Tayyav</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.14909,31.30283</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Horbat Uza</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.165672,31.209188</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Nahal Avnon Fortress</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.93972,30.992902</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / En Hazeva</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2459,30.8087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Mughar</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.785833,31.841389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Qatra</name>
+		<description>another name for Baalath 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.777744,31.822936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Khirbet Hamideh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.987606,31.827039</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gederoth / Tel Agra</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.873333,31.501667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

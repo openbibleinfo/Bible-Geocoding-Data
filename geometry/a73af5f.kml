@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Haradah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a73af5f/haradah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Haradah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.33.24&amp;version=ESV">33:24</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.25&amp;version=ESV">33:25</a>]]></description>
+	<Placemark>
+		<name>Haradah / along Wadi Lussan</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>34.64918,30.49431 34.64566,30.49266 34.64145,30.49434 34.6368,30.49213 34.63433,30.49325 34.62961,30.49148 34.62815,30.4893 34.62118,30.48475 34.61794,30.48135 34.61626,30.47702 34.61304,30.47469 34.60343,30.47307 34.60051,30.47068 34.59919,30.47128 34.5995,30.47397 34.59582,30.47511 34.594,30.47209 34.59254,30.47359 34.59088,30.47284 34.59069,30.47059 34.58485,30.47088 34.58484,30.46919 34.58718,30.46872 34.58715,30.46795 34.58121,30.46644 34.58035,30.46255 34.57816,30.46215 34.57543,30.46503 34.57299,30.46298 34.5698,30.46222 34.56861,30.45861 34.56684,30.45864 34.56361,30.46244 34.56204,30.46212 34.55974,30.45957 34.5543,30.4622 34.5492,30.46323 34.5408,30.45918 34.53727,30.4594 34.53309,30.4617 34.52779,30.4605 34.5262,30.459 34.52412,30.45362 34.52133,30.45214 34.50721,30.45149 34.50257,30.4462 34.50103,30.4376 34.4933,30.4297 34.4862,30.42552 34.48058,30.42755 34.47815,30.42557 34.47755,30.42211 34.47282,30.42035 34.44305,30.42183 34.43268,30.4183 34.42171,30.4187 34.41652,30.41726 34.41244,30.41367 34.40845,30.41389 34.40373,30.41112 34.39564,30.41049 34.39178,30.41208 34.37549,30.41223 34.35262,30.42544 34.34961,30.42869 34.34489,30.43025 34.33451,30.44087 34.3203,30.44509 34.31691,30.44719 34.3085,30.44827 34.30438,30.45456 34.30305,30.45474 34.29893,30.45219 34.2952,30.45748 34.29009,30.45774 34.29043,30.46088 34.30082,30.47327 34.30245,30.481 34.30743,30.48718 34.30524,30.49739 34.30138,30.50245 34.30331,30.50974 34.29902,30.51369 34.29644,30.51876 34.29035,30.52094 34.2864,30.52541 34.28095,30.52793 34.27443,30.53314 34.25391,30.54216 34.2461,30.54674 34.22988,30.5511 34.22233,30.55724 34.21967,30.5613 34.21486,30.56492 34.21134,30.57135 34.19992,30.5868 34.19735,30.59478 34.1819,30.61007 34.17727,30.61723 34.17177,30.63562 34.16061,30.64911</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Haradah / along Wadi Lussan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.30356,30.50662</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Haradah / Jebel Aradeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.473237,28.986419</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Haradah / Jebel Araif en Nakah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.4425,30.359167</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

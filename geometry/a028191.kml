@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Taberah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a028191/taberah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Taberah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.11.3&amp;version=ESV">11:3</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.9.22&amp;version=ESV">9:22</a>]]></description>
+	<Placemark>
+		<name>Taberah / within 50 km of Erweis el Ebeirig</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.27544,29.23833 34.22158,29.23585 34.16831,29.22846 34.11623,29.21623 34.06592,29.19929 34.01794,29.17784 33.9728,29.15211 33.93102,29.12239 33.89304,29.08901 33.8593,29.05233 33.83014,29.01277 33.8059,28.97075 33.78683,28.92674 33.77313,28.88123 33.76495,28.83471 33.76237,28.7877 33.76541,28.74071 33.77403,28.69425 33.78813,28.64884 33.80754,28.60497 33.83206,28.56311 33.8614,28.52373 33.89524,28.48725 33.93322,28.45407 33.97491,28.42455 34.01985,28.39901 34.06757,28.37772 34.11753,28.36092 34.16921,28.34879 34.22204,28.34146 34.27544,28.33901 34.32884,28.34146 34.38167,28.34879 34.43334,28.36092 34.48331,28.37772 34.53103,28.39901 34.57597,28.42455 34.61766,28.45407 34.65563,28.48725 34.68948,28.52373 34.71882,28.56311 34.74334,28.60497 34.76275,28.64884 34.77685,28.69425 34.78547,28.74071 34.78851,28.7877 34.78593,28.83471 34.77775,28.88123 34.76405,28.92674 34.74498,28.97075 34.72074,29.01277 34.69158,29.05233 34.65783,29.08901 34.61986,29.12239 34.57808,29.15211 34.53294,29.17784 34.48495,29.19929 34.43464,29.21623 34.38257,29.22846 34.3293,29.23585 34.27544,29.23833</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Erweis el Ebeirig</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.275439,28.788667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi Sa’l</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.04194,29.15633 33.98812,29.15386 33.9349,29.14646 33.88286,29.13423 33.83259,29.11729 33.78464,29.09584 33.73954,29.07012 33.69779,29.0404 33.65985,29.00701 33.62613,28.97034 33.597,28.93077 33.57277,28.88875 33.55371,28.84475 33.54002,28.79923 33.53185,28.75272 33.52927,28.7057 33.53231,28.65871 33.54092,28.61226 33.55501,28.56685 33.57441,28.52297 33.5989,28.48112 33.62822,28.44174 33.66204,28.40526 33.69998,28.37208 33.74164,28.34256 33.78655,28.31701 33.83423,28.29573 33.88416,28.27893 33.93579,28.26679 33.98858,28.25946 34.04194,28.25701 34.0953,28.25946 34.14809,28.26679 34.19972,28.27893 34.24965,28.29573 34.29733,28.31701 34.34224,28.34256 34.3839,28.37208 34.42184,28.40526 34.45566,28.44174 34.48498,28.48112 34.50947,28.52297 34.52887,28.56685 34.54296,28.61226 34.55157,28.65871 34.55461,28.7057 34.55203,28.75272 34.54386,28.79923 34.53017,28.84475 34.51111,28.88875 34.48688,28.93077 34.45775,28.97034 34.42403,29.00701 34.38609,29.0404 34.34434,29.07012 34.29924,29.09584 34.25129,29.11729 34.20102,29.13423 34.14898,29.14646 34.09576,29.15386 34.04194,29.15633</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi Sa’l</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.04194,28.70667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi Sudr</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.80587,30.08591 32.75155,30.08344 32.69784,30.07604 32.64532,30.06381 32.59458,30.04687 32.54619,30.02541 32.50068,29.99968 32.45855,29.96996 32.42026,29.93657 32.38623,29.89989 32.35684,29.86032 32.3324,29.8183 32.31318,29.77429 32.29937,29.72878 32.29113,29.68226 32.28854,29.63525 32.29161,29.58826 32.30031,29.5418 32.31453,29.49639 32.33412,29.45252 32.35884,29.41067 32.38843,29.37129 32.42256,29.33482 32.46085,29.30164 32.50288,29.27212 32.54819,29.24658 32.5963,29.2253 32.64668,29.2085 32.69878,29.19637 32.75203,29.18904 32.80587,29.18659 32.85971,29.18904 32.91296,29.19637 32.96506,29.2085 33.01544,29.2253 33.06355,29.24658 33.10886,29.27212 33.15089,29.30164 33.18918,29.33482 33.22331,29.37129 33.2529,29.41067 33.27762,29.45252 33.29721,29.49639 33.31143,29.5418 33.32013,29.58826 33.3232,29.63525 33.32061,29.68226 33.31237,29.72878 33.29856,29.77429 33.27934,29.8183 33.2549,29.86032 33.22551,29.89989 33.19148,29.93657 33.15319,29.96996 33.11106,29.99968 33.06555,30.02541 33.01716,30.04687 32.96642,30.06381 32.9139,30.07604 32.86019,30.08344 32.80587,30.08591</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi Sudr</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.80587,29.63625</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi al Aghaydira</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.38012,30.54142 33.32555,30.53895 33.27158,30.53155 33.21882,30.51931 33.16785,30.50237 33.11924,30.48092 33.07351,30.45519 33.03119,30.42546 32.99272,30.39207 32.95854,30.35539 32.92902,30.31582 32.90447,30.2738 32.88516,30.22979 32.87129,30.18427 32.86302,30.13775 32.86042,30.09074 32.86351,30.04375 32.87226,29.99729 32.88655,29.95189 32.90622,29.90802 32.93106,29.86617 32.96079,29.82679 32.99507,29.79032 33.03354,29.75714 33.07576,29.72763 33.12128,29.70209 33.16961,29.68081 33.22021,29.66401 33.27254,29.65188 33.32604,29.64455 33.38012,29.6421 33.4342,29.64455 33.4877,29.65188 33.54003,29.66401 33.59063,29.68081 33.63896,29.70209 33.68448,29.72763 33.7267,29.75714 33.76517,29.79032 33.79945,29.82679 33.82918,29.86617 33.85402,29.90802 33.87369,29.95189 33.88798,29.99729 33.89673,30.04375 33.89982,30.09074 33.89722,30.13775 33.88895,30.18427 33.87508,30.22979 33.85577,30.2738 33.83122,30.31582 33.8017,30.35539 33.76752,30.39207 33.72905,30.42546 33.68673,30.45519 33.641,30.48092 33.59239,30.50237 33.54142,30.51931 33.48866,30.53155 33.43469,30.53895 33.38012,30.54142</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Taberah / within 50 km of Wadi al Aghaydira</name>
+		<description>within 50 km of Kibroth-hattaavah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.38012,30.09176</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

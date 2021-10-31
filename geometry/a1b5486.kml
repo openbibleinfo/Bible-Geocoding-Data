@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rekem</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a1b5486/rekem">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Rekem</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.18.27&amp;version=ESV">18:27</a>]]></description>
+	<Placemark>
+		<name>Rekem / within 5 km of Rafat</name>
+		<description>within 5 km of Irpeel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.19222,31.91552 35.18668,31.91528 35.18121,31.91454 35.17585,31.91332 35.17068,31.91163 35.16574,31.90949 35.16109,31.90693 35.15678,31.90397 35.15286,31.90064 35.14937,31.89698 35.14636,31.89303 35.14384,31.88884 35.14186,31.88444 35.14043,31.87989 35.13956,31.87525 35.13927,31.87055 35.13957,31.86584 35.14044,31.8612 35.14187,31.85665 35.14386,31.85226 35.14638,31.84806 35.1494,31.84412 35.15289,31.84046 35.15681,31.83713 35.16111,31.83417 35.16576,31.83161 35.1707,31.82948 35.17587,31.82779 35.18122,31.82657 35.18669,31.82584 35.19222,31.82559 35.19775,31.82584 35.20323,31.82657 35.20858,31.82779 35.21375,31.82948 35.21868,31.83161 35.22333,31.83417 35.22764,31.83713 35.23156,31.84046 35.23505,31.84412 35.23807,31.84806 35.24058,31.85226 35.24257,31.85665 35.24401,31.8612 35.24488,31.86584 35.24517,31.87055 35.24488,31.87525 35.24402,31.87989 35.24259,31.88444 35.2406,31.88884 35.23809,31.89303 35.23507,31.89698 35.23158,31.90064 35.22766,31.90397 35.22336,31.90693 35.21871,31.90949 35.21377,31.91163 35.20859,31.91332 35.20324,31.91454 35.19776,31.91528 35.19222,31.91552</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / within 5 km of Rafat</name>
+		<description>within 5 km of Irpeel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.192222,31.870556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / within 5 km of Ein Umm esh Sharayit</name>
+		<description>within 5 km of Irpeel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2052,31.93087 35.19966,31.93062 35.19418,31.92988 35.18883,31.92866 35.18365,31.92698 35.17871,31.92484 35.17406,31.92227 35.16975,31.91931 35.16583,31.91598 35.16234,31.91232 35.15933,31.90837 35.15681,31.90418 35.15483,31.89979 35.15339,31.89524 35.15253,31.89059 35.15224,31.88589 35.15254,31.88119 35.15341,31.87654 35.15484,31.87199 35.15683,31.8676 35.15935,31.86341 35.16237,31.85946 35.16586,31.85581 35.16978,31.85248 35.17408,31.84952 35.17873,31.84696 35.18367,31.84482 35.18884,31.84313 35.19419,31.84192 35.19967,31.84118 35.2052,31.84093 35.21073,31.84118 35.21621,31.84192 35.22156,31.84313 35.22673,31.84482 35.23167,31.84696 35.23632,31.84952 35.24062,31.85248 35.24454,31.85581 35.24803,31.85946 35.25105,31.86341 35.25357,31.8676 35.25556,31.87199 35.25699,31.87654 35.25786,31.88119 35.25816,31.88589 35.25787,31.89059 35.25701,31.89524 35.25557,31.89979 35.25359,31.90418 35.25107,31.90837 35.24806,31.91232 35.24457,31.91598 35.24065,31.91931 35.23634,31.92227 35.23169,31.92484 35.22675,31.92698 35.22157,31.92866 35.21622,31.92988 35.21074,31.93062 35.2052,31.93087</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / within 5 km of Ein Umm esh Sharayit</name>
+		<description>within 5 km of Irpeel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2052,31.8859</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / Feldstein et al Site 43</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.17421,31.81048</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / Feldstein et al Site 34</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.15785,31.79966</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rekem / Khirbet el Burj</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.1872,31.82383</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

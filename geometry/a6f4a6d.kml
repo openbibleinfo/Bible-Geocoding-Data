@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ellasar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6f4a6d/ellasar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ellasar</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.14.1&amp;version=ESV">14:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.14.9&amp;version=ESV">14:9</a>]]></description>
+	<Placemark>
+		<name>Ellasar / Ilanzura</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>41.413056,37.714722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Assur</name>
+		<description>another name for Asshur</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>43.2625,35.456667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Larsa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>45.853611,31.285833</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Ellasar / Cappadocia</name>
+		<description>another name for Cappadocia</description>
+		<Placemark>
+			<name>Ellasar (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.58087,38.78012 34.36733,38.60975 34.58087,37.92827 37.99746,38.78012 37.99746,38.95049 37.99746,39.12086 37.78392,39.63197 35.86209,39.63197 35.43502,39.4616 34.58087,38.78012</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.15379,38.78012 34.15379,38.60975 34.15379,37.92827 34.36733,37.92827 34.58087,37.92827 34.79441,37.92827 38.42453,38.78012 38.42453,38.95049 38.211,39.4616 37.78392,39.63197 37.57039,39.63197 37.35685,39.63197 37.14331,39.63197 36.92978,39.63197 36.07563,39.63197 35.86209,39.63197 35.64855,39.63197 34.15379,38.78012</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.72672,38.60975 33.72672,38.43938 33.94026,37.92827 34.15379,37.92827 34.36733,37.92827 34.58087,37.92827 34.79441,37.92827 35.00794,37.92827 35.22148,37.92827 36.07563,38.09864 38.42453,38.78012 38.42453,38.95049 38.211,39.63197 37.99746,39.63197 37.78392,39.63197 37.57039,39.63197 37.35685,39.63197 37.14331,39.63197 36.92978,39.63197 36.71624,39.63197 36.5027,39.63197 36.28916,39.63197 36.07563,39.63197 35.86209,39.63197 35.64855,39.63197 35.00794,39.4616 33.72672,38.60975</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.15379,37.7579 34.36733,37.7579 35.43502,37.92827 38.211,38.60975 38.63807,38.78012 39.27868,39.12086 38.42453,39.63197 38.211,39.63197 37.99746,39.63197 37.78392,39.63197 37.57039,39.63197 37.35685,39.63197 37.14331,39.63197 36.92978,39.63197 36.71624,39.63197 36.5027,39.63197 36.28916,39.63197 36.07563,39.63197 35.86209,39.63197 35.64855,39.63197 35.43502,39.63197 35.22148,39.63197 35.00794,39.63197 33.51318,38.95049 33.72672,38.43938 33.94026,37.92827 34.15379,37.7579</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.51318,38.95049 33.51318,38.60975 33.94026,37.7579 34.15379,37.58753 34.36733,37.58753 37.57039,38.09864 38.42453,38.26901 39.27868,38.78012 39.49222,39.12086 38.63807,39.63197 36.07563,39.80234 35.86209,39.80234 35.00794,39.63197 34.58087,39.4616 33.51318,38.95049</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.36733,37.58753 34.58087,37.58753 37.14331,37.92827 37.99746,38.09864 38.63807,38.26901 39.70576,38.78012 39.70576,38.95049 39.49222,39.63197 38.42453,39.97271 38.211,39.97271 36.28916,39.97271 36.07563,39.97271 35.86209,39.97271 35.43502,39.80234 35.00794,39.63197 34.58087,39.4616 34.15379,39.29123 33.72672,39.12086 33.51318,38.95049 33.51318,38.78012 33.51318,38.60975 33.94026,37.58753 34.15379,37.58753 34.36733,37.58753</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.51318,39.12086 33.29965,38.60975 33.94026,37.58753 34.15379,37.58753 34.36733,37.58753 34.58087,37.58753 34.79441,37.58753 37.57039,37.92827 38.211,38.09864 39.49222,38.43938 39.70576,38.60975 39.91929,38.78012 39.91929,38.95049 39.49222,39.80234 38.63807,40.14308 36.5027,40.31345 36.28916,40.31345 36.07563,40.31345 33.51318,39.12086</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.87257,38.60975 32.87257,38.43938 33.94026,37.58753 34.15379,37.41716 37.99746,37.92827 38.85161,38.09864 39.49222,38.26901 40.5599,38.78012 40.5599,38.95049 39.49222,40.99494 39.27868,40.99494 39.06514,40.99494 38.85161,40.99494 38.63807,40.99494 38.42453,40.99494 38.211,40.99494 37.99746,40.99494 35.00794,40.82457 34.58087,40.6542 34.15379,40.48383 32.87257,38.60975</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.80489,38.26901 31.80489,38.09864 31.80489,37.92827 34.15379,37.41716 34.36733,37.41716 38.211,37.92827 39.06514,38.09864 39.70576,38.26901 40.77344,38.78012 40.77344,38.95049 40.13283,41.16531 39.91929,41.16531 38.85161,41.16531 38.63807,41.16531 38.42453,41.16531 38.211,41.16531 37.99746,41.16531 37.78392,41.16531 37.57039,41.16531 37.35685,41.16531 34.36733,40.99494 31.80489,38.26901</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar / Cappadocia</name>
+			<description>another name for Cappadocia</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>34.839167,38.670556</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Ellasar / Til Barsip</name>
+		<description>another name for Telassar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>38.0865,36.7014</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Til Assuri</name>
+		<description>another name for Telassar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>45.686389,35.111944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Tal Afar</name>
+		<description>another name for Telassar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>42.449722,36.379167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Tell Bashir</name>
+		<description>another name for Telassar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>37.558889,36.874167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Alishar Huyuk</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.261389,39.606111</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Ellasar / Pontus</name>
+		<description>another name for Pontus</description>
+		<Placemark>
+			<name>Ellasar (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.12235,40.91592 36.12235,40.82394 36.48011,40.73197 36.83786,40.63999 37.31487,40.54802 37.31487,40.63999 37.31487,40.73197 37.31487,40.82394 36.48011,40.91592 36.36086,40.91592 36.2416,40.91592 36.12235,40.91592</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.64535,40.91592 36.83786,40.54802 37.67262,40.45604 37.67262,40.54802 37.43412,40.73197 37.31487,40.82394 36.95711,40.91592 36.59936,41.00789 36.2416,41.09987 35.64535,40.91592</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.88385,41.19185 35.7646,41.19185 35.64535,41.19185 35.5261,41.00789 35.5261,40.91592 36.59936,40.54802 37.07636,40.45604 37.67262,40.36406 38.26888,40.36406 38.38813,40.36406 38.50738,40.36406 38.62663,40.36406 38.62663,40.45604 37.31487,40.82394 36.95711,40.91592 36.59936,41.00789 36.2416,41.09987 35.88385,41.19185</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.28759,41.00789 35.64535,40.82394 36.48011,40.54802 36.83786,40.45604 37.67262,40.36406 38.50738,40.27209 38.62663,40.27209 38.74589,40.45604 38.62663,40.54802 37.19562,40.91592 35.5261,41.28382 35.04909,41.3758 34.92984,41.3758 35.28759,41.00789</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.04909,41.3758 34.92984,41.3758 34.81059,41.3758 35.16834,41.00789 35.28759,40.91592 36.2416,40.54802 36.95711,40.36406 37.67262,40.27209 38.50738,40.27209 38.62663,40.27209 38.74589,40.27209 38.86514,40.27209 38.86514,40.36406 38.86514,40.45604 38.74589,40.54802 38.62663,40.63999 36.48011,41.09987 35.16834,41.3758 35.04909,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.16834,41.3758 34.57208,41.46777 34.45283,41.46777 34.33358,41.46777 34.81059,41.00789 35.64535,40.63999 36.48011,40.36406 36.95711,40.27209 37.07636,40.27209 37.19562,40.27209 37.31487,40.27209 37.67262,40.27209 38.14963,40.27209 38.26888,40.27209 38.38813,40.27209 38.50738,40.27209 38.62663,40.27209 38.74589,40.27209 38.86514,40.27209 38.98439,40.27209 38.98439,40.36406 38.98439,40.45604 38.98439,40.54802 38.62663,40.63999 38.26888,40.73197 36.48011,41.09987 35.16834,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.02182,41.3758 33.02182,41.28382 36.48011,40.27209 37.67262,40.18011 38.26888,40.18011 38.38813,40.18011 38.50738,40.18011 38.62663,40.18011 38.74589,40.18011 38.86514,40.18011 39.10364,40.27209 39.10364,40.36406 39.10364,40.45604 39.10364,40.54802 38.38813,40.73197 35.04909,41.46777 34.45283,41.55975 33.61807,41.65173 33.14107,41.55975 33.02182,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.78331,41.3758 32.78331,41.28382 33.14107,41.09987 36.48011,40.08814 36.59936,40.08814 36.71861,40.08814 36.83786,40.08814 36.95711,40.08814 37.07636,40.08814 37.19562,40.08814 37.31487,40.08814 37.43412,40.08814 37.55337,40.08814 37.67262,40.08814 38.74589,40.08814 38.86514,40.08814 39.46139,40.18011 39.46139,40.27209 39.46139,40.36406 39.46139,40.45604 39.46139,40.54802 39.10364,40.63999 35.04909,41.55975 34.69134,41.65173 33.14107,41.7437 32.78331,41.3758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.78331,41.55975 32.54481,41.28382 32.66406,41.19185 32.78331,41.09987 32.90256,41.00789 36.48011,40.08814 37.07636,39.99616 37.19562,39.99616 37.31487,39.99616 37.43412,39.99616 37.55337,39.99616 37.67262,39.99616 37.91112,39.99616 38.03038,39.99616 38.14963,39.99616 38.26888,39.99616 38.38813,39.99616 38.50738,39.99616 38.62663,39.99616 38.74589,39.99616 40.1769,40.18011 40.29615,40.45604 40.05765,40.54802 35.16834,41.65173 34.33358,41.7437 33.14107,41.83568 32.78331,41.55975</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ellasar / Pontus</name>
+			<description>another name for Pontus</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>37.83,40.68</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Ellasar / Alsi</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>40.236667,37.910833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ellasar / Til Assuri</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>45.686389,35.111944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

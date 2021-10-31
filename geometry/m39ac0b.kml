@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Barada River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m39ac0b/barada-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Barada River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>36.239828,33.540154 36.238717,33.539496 36.238471,33.538942 36.240016,33.537323 36.239629,33.536518 36.238986,33.535901 36.239608,33.53405 36.239243,33.533183 36.240086,33.532524 36.238944,33.530928 36.239931,33.529497 36.241142,33.528972 36.241613,33.528492 36.242639,33.528372 36.244137,33.529984 36.244703,33.530246 36.246047,33.529322 36.248883,33.528185 36.250116,33.52617 36.248721,33.524072 36.248977,33.523181 36.249698,33.522267 36.251251,33.521477 36.255016,33.520864 36.257857,33.519641 36.258507,33.518975 36.25914,33.516744 36.260056,33.516044 36.260067,33.514843 36.261269,33.513891 36.262076,33.513869 36.262762,33.514979 36.26338,33.515014 36.263827,33.514685 36.263784,33.513998 36.265011,33.514893 36.265852,33.514585 36.265844,33.515115 36.266196,33.5152 36.26659,33.515079 36.267689,33.51354 36.269903,33.514685 36.274289,33.513905 36.274667,33.513769 36.275576,33.512669 36.276494,33.512424 36.279823,33.512946 36.2934,33.513488 36.295535,33.513365 36.298196,33.512775 36.301456,33.51281 36.302394,33.513137 36.303369,33.513062 36.304876,33.51355 36.306413,33.513651 36.307434,33.514059 36.309156,33.514014 36.309207,33.514351 36.310363,33.514312 36.313105,33.515061 36.314329,33.515032 36.315666,33.514067 36.316403,33.513858 36.316987,33.514109 36.317263,33.514984 36.318076,33.515635 36.319287,33.515404 36.321084,33.514325 36.321204,33.51381 36.322972,33.512679 36.324223,33.511032 36.325095,33.510406 36.325737,33.508015 36.32691,33.507443 36.329576,33.507885 36.331075,33.507562 36.332278,33.507722 36.332903,33.507075 36.337628,33.505273 36.340467,33.502827 36.341262,33.501632 36.342725,33.501282 36.345193,33.49964 36.347647,33.499551 36.350148,33.498667 36.354537,33.498922 36.355841,33.497816 36.356946,33.497736 36.357897,33.497095 36.358899,33.497548 36.359155,33.497183 36.359815,33.497149 36.360368,33.496714 36.360698,33.496919 36.362515,33.496819 36.363186,33.496304 36.363285,33.49517 36.363717,33.494785</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Barada River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>36.305,33.513542</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

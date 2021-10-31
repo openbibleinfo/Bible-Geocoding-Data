@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bethany 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6e060d/bethany-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bethany 2 (Bethabara)</name>
+	<description><![CDATA[John <a href="https://www.biblegateway.com/passage/?search=John.1.28&amp;version=ESV">1:28</a>]]></description>
+	<Placemark>
+		<name>Bethany 2 / Al Maghtas</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.550301,31.837109</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Bethany 2 / Batanea</name>
+		<description>another name for Batanea</description>
+		<Placemark>
+			<name>Bethany 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.14245,32.9904 35.98686,32.94126 36.00631,32.92487 36.123,32.87573 36.14245,32.87573 36.14245,32.9904</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.04521,32.9904 35.96741,32.94126 36.0841,32.82658 36.10355,32.82658 36.1619,32.87573 36.20079,32.97402 36.20079,32.9904 36.1619,33.00678 36.14245,33.00678 36.04521,32.9904</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.02576,33.02316 35.94796,32.94126 35.94796,32.92487 35.96741,32.90849 36.0841,32.82658 36.10355,32.82658 36.20079,32.87573 36.22024,32.9904 36.22024,33.00678 36.20079,33.02316 36.18134,33.02316 36.1619,33.02316 36.10355,33.02316 36.0841,33.02316 36.02576,33.02316</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.92851,32.94126 35.92851,32.92487 35.94796,32.90849 36.06465,32.8102 36.0841,32.8102 36.10355,32.8102 36.23969,32.87573 36.25914,33.10507 36.1619,33.13784 36.123,33.12146 36.10355,33.10507 36.0841,33.08869 36.06465,33.07231 35.92851,32.94126</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.90907,32.85935 35.92851,32.82658 36.04521,32.79382 36.06465,32.79382 36.0841,32.79382 36.123,32.8102 36.23969,32.87573 36.29804,33.12146 36.29804,33.13784 36.29804,33.15422 36.27859,33.1706 36.14245,33.13784 36.06465,33.10507 36.02576,33.08869 35.88962,33.02316 35.90907,32.85935</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.85072,32.85935 35.85072,32.84296 35.85072,32.82658 36.02576,32.76105 36.04521,32.76105 36.06465,32.76105 36.27859,32.84296 36.29804,32.92487 36.33693,33.18698 35.98686,33.1706 35.88962,33.03955 35.85072,32.85935</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.00631,32.74467 36.06465,32.72829 36.27859,32.8102 36.29804,32.84296 36.31748,32.92487 36.35638,33.15422 36.35638,33.1706 36.35638,33.18698 36.33693,33.18698 36.31748,33.18698 36.29804,33.18698 36.27859,33.18698 35.96741,33.1706 35.87017,33.10507 35.83127,32.82658 35.88962,32.79382 36.00631,32.74467</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bethany 2 / Batanea</name>
+			<description>another name for Batanea</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.19934,32.852034</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Bethany 2 / Al Eizariya</name>
+		<description>another name for Bethany 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.255903,31.771661</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Makhadhet Abarah</name>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>35.559259,32.531763</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Wadi al Fara</name>
+		<description>another name for Beth-barah</description>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.427295,32.222339 35.428082,32.221102 35.432094,32.219595 35.432169,32.218061 35.434186,32.216663 35.435066,32.21296 35.438049,32.211489 35.439443,32.210282 35.443392,32.208602 35.444464,32.205888 35.446342,32.205244 35.448177,32.203818 35.450033,32.201204 35.451706,32.199769 35.452811,32.196837 35.45662,32.194204 35.457035,32.190751 35.455934,32.189528 35.454002,32.18586 35.453949,32.181347 35.456341,32.17983 35.459476,32.179531 35.461212,32.177569 35.462231,32.173555 35.464527,32.172257 35.465729,32.172275 35.468486,32.170504 35.469784,32.168978 35.46972,32.167761 35.470696,32.167026 35.471233,32.165282 35.472499,32.164955 35.474312,32.163547 35.474473,32.162703 35.476372,32.161885 35.478314,32.159133 35.480814,32.158188 35.481876,32.155627 35.481361,32.154165 35.481522,32.153393 35.482359,32.152739 35.48209,32.15233 35.482756,32.151231 35.482605,32.150204 35.48577,32.147479 35.486511,32.142992 35.487723,32.141911 35.489139,32.14152 35.489332,32.140075 35.490652,32.139903 35.491403,32.138994 35.492776,32.139058 35.49577,32.136741 35.497851,32.136614 35.49843,32.132889 35.501585,32.132135 35.503258,32.128883 35.504342,32.127701 35.506799,32.126411 35.509503,32.121859 35.511573,32.121205 35.512882,32.119733 35.513419,32.119933 35.514009,32.119515 35.515818,32.120315 35.516412,32.119978 35.516895,32.118588 35.519373,32.115153 35.519212,32.114072 35.521723,32.112799 35.521905,32.111582 35.521369,32.111091 35.522249,32.1098 35.522302,32.108283 35.521541,32.107045 35.520736,32.106738 35.522624,32.104402 35.52256,32.103657 35.521294,32.103402 35.521594,32.103103 35.521101,32.102376 35.522367,32.10173 35.522173,32.100794 35.521251,32.10014 35.52198,32.099504 35.523536,32.100103 35.52418,32.099922 35.523568,32.099004 35.523954,32.096504 35.523107,32.096395 35.52286,32.096122 35.523236,32.095486 35.522849,32.094823 35.521927,32.094714 35.521873,32.094277 35.522206,32.093496 35.524716,32.091832 35.524298,32.091105 35.523225,32.091251 35.520811,32.088442 35.522313,32.087306 35.522409,32.085106 35.524169,32.084215 35.524276,32.082415 35.522924,32.081388</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Wadi al Fara</name>
+		<description>another name for Beth-barah</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.52,32.1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Tall Bleibel</name>
+		<description>another name for Beth-nimrah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.63872,31.909106</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Tall Nimrin</name>
+		<description>another name for Beth-nimrah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.624546,31.90094</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bethany 2 / Khirbet Batneh</name>
+		<description>another name for Betonim</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.710739,32.010571</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

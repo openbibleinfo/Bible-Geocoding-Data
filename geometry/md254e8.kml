@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bitter Lakes</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/md254e8/bitter-lakes">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Bitter Lakes</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>32.365583,30.413807 32.386317,30.389774 32.391762,30.387564 32.388575,30.383519 32.382634,30.388253 32.380727,30.385519 32.395173,30.371996 32.398322,30.356057 32.409593,30.357608 32.411192,30.361598 32.415483,30.35815 32.419045,30.35898 32.410848,30.36329 32.410545,30.371563 32.41316,30.372167 32.435364,30.357122 32.441081,30.349831 32.447613,30.328506 32.443019,30.318211 32.444523,30.304723 32.45099,30.284125 32.450255,30.286235 32.454847,30.287138 32.462148,30.278258 32.492237,30.271281 32.496325,30.272939 32.49875,30.269001 32.511892,30.267657 32.52341,30.26115 32.52621,30.2656 32.530982,30.26671 32.538768,30.264331 32.537068,30.259846 32.542663,30.251032 32.562819,30.234743 32.563329,30.221612 32.570037,30.217894 32.573808,30.210621 32.575192,30.19798 32.570745,30.164234 32.567572,30.164415 32.566427,30.17227 32.563546,30.173757 32.563139,30.191339 32.560062,30.198488 32.548467,30.201789 32.538355,30.194944 32.535726,30.196288 32.533253,30.2072 32.52794,30.209149 32.529869,30.215604 32.523941,30.217303 32.515352,30.22599 32.517391,30.231399 32.522184,30.229739 32.519687,30.231902 32.525282,30.237746 32.524724,30.244739 32.500528,30.254248 32.502035,30.260001 32.498272,30.256199 32.480454,30.261732 32.471978,30.258154 32.461275,30.263342 32.458988,30.261467 32.475809,30.254035 32.471577,30.240742 32.453659,30.231028 32.44175,30.234087 32.440996,30.238659 32.432361,30.237296 32.425958,30.259622 32.401477,30.273893 32.410506,30.272359 32.407141,30.277837 32.39429,30.276652 32.38879,30.281029 32.346321,30.285108 32.348174,30.287149 32.337605,30.295847 32.326167,30.316827 32.305385,30.334361 32.30139,30.351484 32.304232,30.352153 32.303227,30.360999 32.309166,30.375696 32.305466,30.387958 32.311032,30.402055 32.329089,30.408597 32.344521,30.406494 32.33506,30.410759 32.345367,30.408228 32.345206,30.411945 32.346924,30.408951 32.353253,30.415314 32.356362,30.412027 32.365583,30.413807</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Bitter Lakes</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>32.377778,30.338333</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

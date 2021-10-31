@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ganges River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mfae3ed/ganges-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Ganges River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>78.597499,30.145093 78.587401,30.052412 78.479678,30.055505 78.402267,30.137739 78.291423,30.100434 78.159795,29.939418 78.18833,29.712002 77.999674,29.445519 78.104559,29.295324 78.050829,28.996222 78.154684,28.847322 78.274555,28.341157 78.549288,28.04425 78.835754,27.968313 78.922191,27.855353 79.16104,27.786987 79.308852,27.657045 79.429487,27.652055 79.456291,27.56244 79.613451,27.481244 79.694884,27.22984 79.953751,27.132857 80.136885,26.737727 80.259864,26.687887 80.320185,26.503237 80.490561,26.386526 80.711697,26.07968 80.831438,26.019625 81.017046,26.067146 81.393894,25.767048 81.384631,25.686039 81.636367,25.590751 81.681579,25.507372 81.882906,25.505883 81.939139,25.332676 82.049564,25.349469 82.097754,25.269917 82.210896,25.300536 82.213184,25.179802 82.285478,25.194336 82.233097,25.224437 82.288309,25.272613 82.542073,25.154939 82.627191,25.228119 82.835563,25.111648 83.021604,25.22035 83.023954,25.316362 83.171873,25.360794 83.128871,25.459097 83.191162,25.53337 83.3299,25.461493 83.402454,25.494882 83.534468,25.392291 83.535176,25.524748 83.622737,25.593988 83.896189,25.520634 84.105225,25.720225 84.333784,25.709371 84.383676,25.773799 84.530554,25.658527 84.637685,25.741573 84.711088,25.680706 84.829785,25.727327 85.432477,25.554503 85.548413,25.573221 85.677996,25.476443 85.897851,25.504634 86.054449,25.328666 86.362753,25.315904 86.48695,25.415989 86.670048,25.245686 86.844435,25.31218 87.089095,25.249703 87.158833,25.314003 87.216361,25.263831 87.296206,25.453059 87.389823,25.466815 87.656298,25.285919 87.789646,25.267608 87.789659,25.071475 87.979514,24.989151 87.919207,24.868917 87.945642,24.703095 88.155829,24.620231 88.173397,24.45031 88.295231,24.498474 88.387671,24.369107 88.694987,24.328328 88.822179,24.0991 88.997507,24.159602 89.089179,23.96785 89.598007,23.802139 89.784669,23.797639 89.951353,23.589128 90.615255,23.264916 90.638236,22.875501 90.869293,22.598164 91.257059,22.357526</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Ganges River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>90.8333,22.0833</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

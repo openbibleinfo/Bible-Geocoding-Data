@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Samaria 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a282dce/samaria-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Samaria 2</name>
+	<description><![CDATA[Luke <a href="https://www.biblegateway.com/passage/?search=Luke.17.11&amp;version=ESV">17:11</a>, John <a href="https://www.biblegateway.com/passage/?search=John.4.4&amp;version=ESV">4:4</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.5&amp;version=ESV">4:5</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.7&amp;version=ESV">4:7</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.9&amp;version=ESV">4:9</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.1.8&amp;version=ESV">1:8</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.1&amp;version=ESV">8:1</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.5&amp;version=ESV">8:5</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.9&amp;version=ESV">8:9</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.14&amp;version=ESV">8:14</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.25&amp;version=NLT">8:25</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.9.31&amp;version=ESV">9:31</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.15.3&amp;version=ESV">15:3</a>]]></description>
+	<Folder>
+		<name>Samaria 2 / Samaria 2</name>
+		<Placemark>
+			<name>Samaria 2 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.96765,32.40879 34.96765,32.28887 34.96765,32.26488 34.96765,32.2409 34.96765,32.21692 34.99588,32.16895 35.02411,32.14497 35.19349,32.07302 35.22172,32.07302 35.24995,32.07302 35.3911,32.14497 35.47579,32.2409 35.47579,32.26488 35.47579,32.31285 35.47579,32.33683 35.47579,32.36082 35.44756,32.3848 35.41933,32.40879 35.13703,32.45675 35.02411,32.43277 34.96765,32.40879</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.96765,32.19293 34.99588,32.16895 35.02411,32.14497 35.13703,32.07302 35.16526,32.07302 35.19349,32.07302 35.22172,32.07302 35.24995,32.07302 35.27818,32.07302 35.3911,32.14497 35.41933,32.16895 35.44756,32.19293 35.47579,32.2409 35.50402,32.36082 35.41933,32.40879 35.36287,32.43277 35.16526,32.45675 35.13703,32.45675 35.02411,32.43277 34.96765,32.40879 34.93942,32.2409 34.96765,32.19293</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13703,32.45675 35.1088,32.45675 34.96765,32.43277 34.91119,32.33683 34.93942,32.21692 34.99588,32.14497 35.05234,32.097 35.1088,32.07302 35.22172,32.04903 35.24995,32.04903 35.30641,32.07302 35.3911,32.12098 35.41933,32.14497 35.50402,32.2409 35.50402,32.33683 35.50402,32.36082 35.3911,32.43277 35.19349,32.45675 35.16526,32.45675 35.13703,32.45675</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.99588,32.14497 35.05234,32.097 35.08057,32.07302 35.16526,32.04903 35.19349,32.04903 35.22172,32.04903 35.24995,32.04903 35.27818,32.04903 35.3911,32.04903 35.50402,32.2409 35.53225,32.36082 35.3911,32.43277 35.16526,32.50472 35.13703,32.50472 34.96765,32.43277 34.93942,32.3848 34.91119,32.33683 34.88297,32.2409 34.91119,32.21692 34.96765,32.16895 34.99588,32.14497</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.05234,32.50472 34.91119,32.43277 34.88297,32.2409 34.88297,32.21692 34.93942,32.16895 35.02411,32.097 35.05234,32.07302 35.16526,32.04903 35.19349,32.04903 35.22172,32.04903 35.24995,32.04903 35.27818,32.04903 35.30641,32.04903 35.33464,32.04903 35.36287,32.04903 35.3911,32.04903 35.50402,32.19293 35.53225,32.28887 35.53225,32.31285 35.53225,32.33683 35.53225,32.36082 35.50402,32.3848 35.41933,32.43277 35.16526,32.5287 35.13703,32.5287 35.05234,32.50472</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13703,32.5287 35.1088,32.5287 35.08057,32.5287 35.05234,32.5287 34.91119,32.45675 34.85474,32.2409 34.85474,32.21692 34.85474,32.19293 35.02411,32.07302 35.19349,32.02505 35.22172,32.02505 35.24995,32.02505 35.27818,32.02505 35.3911,32.04903 35.44756,32.097 35.50402,32.16895 35.53225,32.21692 35.53225,32.2409 35.53225,32.28887 35.53225,32.31285 35.53225,32.33683 35.53225,32.36082 35.50402,32.3848 35.3911,32.45675 35.16526,32.5287 35.13703,32.5287</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.3911,32.45675 35.33464,32.48074 35.22172,32.5287 35.19349,32.5287 35.16526,32.5287 35.13703,32.5287 35.1088,32.5287 35.08057,32.5287 35.05234,32.5287 34.99588,32.50472 34.91119,32.45675 34.85474,32.31285 34.82651,32.2409 34.82651,32.21692 34.82651,32.19293 35.02411,32.07302 35.16526,32.02505 35.19349,32.02505 35.22172,32.02505 35.24995,32.02505 35.27818,32.02505 35.30641,32.02505 35.33464,32.02505 35.36287,32.02505 35.3911,32.02505 35.53225,32.16895 35.53225,32.19293 35.53225,32.21692 35.53225,32.2409 35.53225,32.26488 35.53225,32.28887 35.53225,32.31285 35.53225,32.33683 35.53225,32.36082 35.53225,32.3848 35.44756,32.43277 35.3911,32.45675</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.82651,32.19293 35.02411,32.07302 35.16526,32.02505 35.36287,31.97708 35.50402,32.04903 35.53225,32.12098 35.53225,32.14497 35.53225,32.16895 35.53225,32.19293 35.53225,32.21692 35.53225,32.2409 35.53225,32.26488 35.53225,32.28887 35.53225,32.31285 35.53225,32.33683 35.53225,32.36082 35.53225,32.3848 35.33464,32.5287 35.24995,32.5287 35.22172,32.5287 35.19349,32.5287 35.16526,32.5287 35.13703,32.5287 35.1088,32.5287 35.08057,32.5287 35.05234,32.5287 35.02411,32.5287 34.99588,32.5287 34.91119,32.50472 34.88297,32.45675 34.85474,32.36082 34.82651,32.2409 34.82651,32.21692 34.82651,32.19293</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>34.88297,32.48074 34.82651,32.26488 34.82651,32.2409 34.82651,32.21692 34.82651,32.19293 34.91119,32.02505 35.13703,31.9531 35.50402,31.90513 35.53225,31.92911 35.53225,31.9531 35.53225,31.97708 35.53225,32.00106 35.53225,32.07302 35.53225,32.097 35.53225,32.12098 35.53225,32.14497 35.53225,32.16895 35.53225,32.19293 35.53225,32.21692 35.53225,32.2409 35.53225,32.26488 35.53225,32.28887 35.53225,32.31285 35.53225,32.33683 35.53225,32.36082 35.53225,32.3848 35.41933,32.50472 35.36287,32.5287 35.19349,32.55269 35.16526,32.55269 35.13703,32.55269 35.1088,32.55269 35.08057,32.55269 34.99588,32.5287 34.91119,32.50472 34.88297,32.48074</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Samaria 2 / Samaria 2</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.195,32.276111</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

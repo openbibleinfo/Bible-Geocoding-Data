@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Naioth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae1c9ea/naioth">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Naioth</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.19.18&amp;version=ESV">19:18</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.19.19&amp;version=ESV">19:19</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.19.22&amp;version=ESV">19:22</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.19.23&amp;version=ESV">19:23</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.20.1&amp;version=ESV">20:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.20.42&amp;version=NET">20:42</a>]]></description>
+	<Placemark>
+		<name>Naioth / within 2 km of Al Ram</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23161,31.87233 35.2294,31.87223 35.22721,31.87193 35.22507,31.87145 35.223,31.87077 35.22102,31.86992 35.21916,31.86889 35.21744,31.86771 35.21587,31.86637 35.21448,31.86491 35.21327,31.86333 35.21226,31.86165 35.21147,31.8599 35.2109,31.85808 35.21055,31.85622 35.21043,31.85434 35.21055,31.85246 35.2109,31.8506 35.21147,31.84878 35.21227,31.84702 35.21327,31.84535 35.21448,31.84377 35.21588,31.8423 35.21744,31.84097 35.21917,31.83979 35.22102,31.83876 35.223,31.83791 35.22507,31.83723 35.22721,31.83675 35.2294,31.83645 35.23161,31.83635 35.23382,31.83645 35.23601,31.83675 35.23815,31.83723 35.24022,31.83791 35.2422,31.83876 35.24405,31.83979 35.24578,31.84097 35.24734,31.8423 35.24874,31.84377 35.24995,31.84535 35.25095,31.84702 35.25175,31.84878 35.25232,31.8506 35.25267,31.85246 35.25279,31.85434 35.25267,31.85622 35.25232,31.85808 35.25175,31.8599 35.25096,31.86165 35.24995,31.86333 35.24874,31.86491 35.24735,31.86637 35.24578,31.86771 35.24406,31.86889 35.2422,31.86992 35.24022,31.87077 35.23815,31.87145 35.23601,31.87193 35.23382,31.87223 35.23161,31.87233</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Al Ram</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.23161,31.85434</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Rantis</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.01944,32.04604 35.01723,32.04594 35.01503,32.04565 35.01289,32.04516 35.01081,32.04449 35.00883,32.04363 35.00697,32.04261 35.00525,32.04142 35.00368,32.04009 35.00228,32.03863 35.00107,32.03705 35.00006,32.03537 34.99927,32.03361 34.99869,32.03179 34.99834,32.02993 34.99823,32.02805 34.99834,32.02617 34.99869,32.02431 34.99927,32.0225 35.00006,32.02074 35.00107,32.01906 35.00228,32.01748 35.00368,32.01602 35.00525,32.01469 35.00698,32.0135 35.00884,32.01248 35.01082,32.01162 35.01289,32.01095 35.01503,32.01046 35.01723,32.01017 35.01944,32.01007 35.02166,32.01017 35.02385,32.01046 35.026,32.01095 35.02807,32.01162 35.03005,32.01248 35.03191,32.0135 35.03364,32.01469 35.03521,32.01602 35.03661,32.01748 35.03782,32.01906 35.03882,32.02074 35.03962,32.0225 35.0402,32.02431 35.04054,32.02617 35.04066,32.02805 35.04054,32.02993 35.0402,32.03179 35.03962,32.03361 35.03883,32.03537 35.03782,32.03705 35.03661,32.03863 35.03521,32.04009 35.03364,32.04142 35.03192,32.04261 35.03005,32.04363 35.02807,32.04449 35.026,32.04516 35.02386,32.04565 35.02166,32.04594 35.01944,32.04604</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Rantis</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.019444,32.028056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Beit Rima</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.1025,32.05085 35.10028,32.05075 35.09809,32.05045 35.09594,32.04997 35.09387,32.04929 35.09189,32.04844 35.09003,32.04741 35.0883,32.04623 35.08673,32.04489 35.08533,32.04343 35.08412,32.04185 35.08312,32.04017 35.08232,32.03842 35.08175,32.0366 35.0814,32.03474 35.08128,32.03286 35.0814,32.03098 35.08175,32.02912 35.08232,32.0273 35.08312,32.02554 35.08413,32.02387 35.08534,32.02229 35.08673,32.02082 35.08831,32.01949 35.09003,32.01831 35.09189,32.01728 35.09387,32.01643 35.09594,32.01575 35.09809,32.01527 35.10028,32.01497 35.1025,32.01487 35.10472,32.01497 35.10691,32.01527 35.10906,32.01575 35.11113,32.01643 35.11311,32.01728 35.11497,32.01831 35.11669,32.01949 35.11827,32.02082 35.11966,32.02229 35.12087,32.02387 35.12188,32.02554 35.12268,32.0273 35.12325,32.02912 35.1236,32.03098 35.12372,32.03286 35.1236,32.03474 35.12325,32.0366 35.12268,32.03842 35.12188,32.04017 35.12088,32.04185 35.11967,32.04343 35.11827,32.04489 35.1167,32.04623 35.11497,32.04741 35.11311,32.04844 35.11113,32.04929 35.10906,32.04997 35.10691,32.05045 35.10472,32.05075 35.1025,32.05085</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Beit Rima</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.1025,32.03286</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Ramallah</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.20167,31.91493 35.19945,31.91483 35.19726,31.91454 35.19512,31.91405 35.19305,31.91338 35.19107,31.91252 35.18921,31.91149 35.18749,31.91031 35.18592,31.90898 35.18453,31.90751 35.18332,31.90594 35.18231,31.90426 35.18152,31.9025 35.18094,31.90068 35.1806,31.89882 35.18048,31.89694 35.1806,31.89506 35.18095,31.8932 35.18152,31.89138 35.18231,31.88963 35.18332,31.88795 35.18453,31.88637 35.18593,31.88491 35.18749,31.88358 35.18922,31.88239 35.19108,31.88137 35.19305,31.88051 35.19512,31.87984 35.19726,31.87935 35.19945,31.87906 35.20167,31.87896 35.20388,31.87906 35.20607,31.87935 35.20821,31.87984 35.21028,31.88051 35.21226,31.88137 35.21412,31.88239 35.21584,31.88358 35.21741,31.88491 35.2188,31.88637 35.22001,31.88795 35.22102,31.88963 35.22181,31.89138 35.22239,31.8932 35.22274,31.89506 35.22285,31.89694 35.22274,31.89882 35.22239,31.90068 35.22182,31.9025 35.22102,31.90426 35.22002,31.90594 35.21881,31.90751 35.21741,31.90898 35.21584,31.91031 35.21412,31.91149 35.21226,31.91252 35.21029,31.91338 35.20821,31.91405 35.20607,31.91454 35.20388,31.91483 35.20167,31.91493</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Ramallah</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.201667,31.896944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Nabi Samwil</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18015,31.85072 35.17794,31.85062 35.17575,31.85033 35.17361,31.84984 35.17154,31.84916 35.16956,31.84831 35.1677,31.84728 35.16598,31.8461 35.16442,31.84477 35.16302,31.8433 35.16181,31.84172 35.16081,31.84005 35.16001,31.83829 35.15944,31.83647 35.15909,31.83461 35.15898,31.83273 35.1591,31.83085 35.15944,31.82899 35.16002,31.82717 35.16081,31.82542 35.16182,31.82374 35.16302,31.82216 35.16442,31.8207 35.16599,31.81937 35.16771,31.81818 35.16957,31.81716 35.17154,31.8163 35.17361,31.81563 35.17575,31.81514 35.17794,31.81485 35.18015,31.81475 35.18236,31.81485 35.18455,31.81514 35.18669,31.81563 35.18876,31.8163 35.19073,31.81716 35.19259,31.81818 35.19431,31.81937 35.19588,31.8207 35.19728,31.82216 35.19848,31.82374 35.19949,31.82542 35.20028,31.82717 35.20086,31.82899 35.2012,31.83085 35.20132,31.83273 35.20121,31.83461 35.20086,31.83647 35.20029,31.83829 35.19949,31.84005 35.19849,31.84172 35.19728,31.8433 35.19588,31.84477 35.19432,31.8461 35.1926,31.84728 35.19074,31.84831 35.18876,31.84916 35.18669,31.84984 35.18455,31.85033 35.18236,31.85062 35.18015,31.85072</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Nabi Samwil</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.18015,31.832733</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Ramat Rahel</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2169,31.75789 35.21468,31.75779 35.2125,31.75749 35.21036,31.75701 35.20829,31.75633 35.20632,31.75548 35.20446,31.75445 35.20274,31.75327 35.20118,31.75194 35.19978,31.75047 35.19858,31.74889 35.19757,31.74722 35.19678,31.74546 35.19621,31.74364 35.19586,31.74178 35.19575,31.7399 35.19586,31.73802 35.19621,31.73616 35.19678,31.73434 35.19758,31.73258 35.19858,31.73091 35.19979,31.72933 35.20118,31.72786 35.20275,31.72653 35.20447,31.72535 35.20632,31.72432 35.2083,31.72347 35.21036,31.72279 35.2125,31.72231 35.21469,31.72201 35.2169,31.72191 35.21911,31.72201 35.22129,31.72231 35.22343,31.72279 35.2255,31.72347 35.22747,31.72432 35.22933,31.72535 35.23105,31.72653 35.23261,31.72786 35.234,31.72933 35.23521,31.73091 35.23622,31.73258 35.23701,31.73434 35.23758,31.73616 35.23793,31.73802 35.23805,31.7399 35.23793,31.74178 35.23758,31.74364 35.23701,31.74546 35.23622,31.74722 35.23521,31.74889 35.23401,31.75047 35.23262,31.75194 35.23105,31.75327 35.22933,31.75445 35.22747,31.75548 35.2255,31.75633 35.22343,31.75701 35.22129,31.75749 35.21911,31.75779 35.2169,31.75789</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naioth / within 2 km of Ramat Rahel</name>
+		<description>within 2 km of Ramah 4</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.216896,31.739901</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

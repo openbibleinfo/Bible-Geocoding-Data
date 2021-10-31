@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Adriatic Sea</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adc77fb/adriatic-sea">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Adriatic Sea (Sea of Adria, Adria)</name>
+	<description><![CDATA[Acts <a href="https://www.biblegateway.com/passage/?search=Acts.27.27&amp;version=ESV">27:27</a>]]></description>
+	<Placemark>
+		<name>Adriatic Sea / Adriatic and Ionian Seas</name>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>19.30603,40.29128 19.20783,40.48799 19.47192,41.77633 17.833,42.6943 16.96658,42.99694 17.46314,42.98107 16.87671,43.38343 15.98669,43.45777 15.01841,44.25523 14.37058,45.30435 13.97353,44.68191 13.74907,44.79191 13.44388,45.53087 13.63852,45.5924 13.5982,45.74443 12.45087,45.40288 12.33548,45.23668 12.61863,44.97624 12.39826,44.72526 12.32093,44.80284 12.41746,44.26501 13.69223,43.53379 14.04338,42.70092 14.28367,42.45812 15.17313,41.96614 16.16552,41.95687 16.25359,41.71657 15.96794,41.58707 16.04649,41.47058 18.08253,40.64393 18.58547,40.10207 18.41459,39.77178 18.11591,39.81847 17.85978,40.23262 17.46505,40.26302 17.1089,40.48137 16.93752,40.4095 16.5312,39.79487 16.5668,39.66834 16.8073,39.66323 17.19271,39.39175 17.15011,39.0961 17.26383,39.04421 17.11111,38.86983 16.63412,38.80388 16.61186,38.43036 16.19878,38.1261 16.12254,37.9252 15.75693,37.89355 15.62149,38.0047 15.62954,38.22448 15.12447,37.47897 15.11321,37.31416 15.30508,37.23223 15.21734,37.18379 15.3659,36.99656 15.1622,36.8626 15.14824,36.65527 14.67243,35.88387 24.00478,34.84021 23.51045,35.27514 23.5708,35.6386 22.90777,36.16707 22.95993,36.52403 22.78135,36.78693 22.58183,36.76377 22.48915,36.37079 22.14372,37.00852 21.94786,36.97233 21.98495,36.78749 21.88161,36.70928 21.70114,36.80136 21.56392,37.06124 21.63868,37.4501 21.09098,37.83276 21.35124,38.23168 21.59793,38.15484 21.8443,38.34427 22.85054,37.95882 23.16152,38.14835 22.76295,38.21731 22.66871,38.35897 22.54634,38.27331 22.4359,38.41728 22.37406,38.31873 21.95702,38.38206 21.51843,38.28564 21.36444,38.39167 21.13005,38.28232 20.97007,38.66301 20.72694,38.79331 20.76729,38.96048 21.06633,38.89566 21.09988,39.04203 20.72292,38.94744 20.21999,39.39644 20.15823,39.62816 19.9758,39.6832 19.84057,40.01259 19.30603,40.29128</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Adriatic Sea / Adriatic and Ionian Seas</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>19,38</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

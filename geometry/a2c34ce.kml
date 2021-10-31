@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Atharim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a2c34ce/atharim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Atharim</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.21.1&amp;version=ESV">21:1</a>]]></description>
+	<Placemark>
+		<name>Atharim / road between Kadesh-barnea and Arad</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>34.456929,30.680128 34.713355,30.825565 34.779822,30.878961 34.796013,30.887642 34.853051,30.907187 34.904199,30.999411 34.983053,31.100178 35.015446,31.120564 34.981024,31.167578 35.024747,31.217932 35.118084,31.259725</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / road between Kadesh-barnea and Arad</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.779822,30.878961</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / En Hazeva</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2459,30.8087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / En Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.351662,30.985553</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / Mezad Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.243068,31.026754</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / road between the Dead Sea and Arad</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.379492,31.133624 35.348306,31.154703 35.176603,31.172079 35.16475,31.20965 35.125781,31.276939</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Atharim / road between the Dead Sea and Arad</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.17554,31.171</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

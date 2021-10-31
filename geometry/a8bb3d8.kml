@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Serpent's Stone</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a8bb3d8/serpents-stone">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Serpent’s Stone (Stone of Zoheleth, Zoheleth)</name>
+	<description><![CDATA[1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.1.9&amp;version=ESV">1:9</a>]]></description>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of Bir Ayub</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23599,31.7681 35.23587,31.76809 35.23577,31.76808 35.23566,31.76805 35.23555,31.76802 35.23546,31.76798 35.23536,31.76793 35.23528,31.76787 35.2352,31.7678 35.23513,31.76773 35.23507,31.76765 35.23502,31.76756 35.23498,31.76748 35.23495,31.76738 35.23493,31.76729 35.23493,31.7672 35.23493,31.7671 35.23495,31.76701 35.23498,31.76692 35.23502,31.76683 35.23507,31.76675 35.23513,31.76667 35.2352,31.7666 35.23528,31.76653 35.23536,31.76647 35.23546,31.76642 35.23555,31.76638 35.23566,31.76634 35.23577,31.76632 35.23587,31.7663 35.23599,31.7663 35.2361,31.7663 35.2362,31.76632 35.23631,31.76634 35.23642,31.76638 35.23651,31.76642 35.23661,31.76647 35.23669,31.76653 35.23677,31.7666 35.23684,31.76667 35.2369,31.76675 35.23695,31.76683 35.23699,31.76692 35.23702,31.76701 35.23704,31.7671 35.23704,31.7672 35.23704,31.76729 35.23702,31.76738 35.23699,31.76748 35.23695,31.76756 35.2369,31.76765 35.23684,31.76773 35.23677,31.7678 35.23669,31.76787 35.23661,31.76793 35.23651,31.76798 35.23642,31.76802 35.23631,31.76805 35.2362,31.76808 35.2361,31.76809 35.23599,31.7681</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of Bir Ayub</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.235985,31.767198</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of Ain el Madauwerah</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24803,31.79903 35.24792,31.79902 35.24781,31.79901 35.2477,31.79898 35.2476,31.79895 35.2475,31.79891 35.24741,31.79886 35.24732,31.7988 35.24724,31.79873 35.24717,31.79866 35.24711,31.79858 35.24706,31.79849 35.24702,31.79841 35.247,31.79831 35.24698,31.79822 35.24697,31.79813 35.24698,31.79803 35.247,31.79794 35.24702,31.79785 35.24706,31.79776 35.24711,31.79768 35.24717,31.7976 35.24724,31.79753 35.24732,31.79746 35.24741,31.7974 35.2475,31.79735 35.2476,31.79731 35.2477,31.79727 35.24781,31.79725 35.24792,31.79723 35.24803,31.79723 35.24814,31.79723 35.24825,31.79725 35.24836,31.79727 35.24846,31.79731 35.24856,31.79735 35.24865,31.7974 35.24874,31.79746 35.24882,31.79753 35.24889,31.7976 35.24895,31.79768 35.249,31.79776 35.24904,31.79785 35.24907,31.79794 35.24908,31.79803 35.24909,31.79813 35.24908,31.79822 35.24907,31.79831 35.24904,31.79841 35.249,31.79849 35.24895,31.79858 35.24889,31.79866 35.24882,31.79873 35.24874,31.7988 35.24865,31.79886 35.24856,31.79891 35.24846,31.79895 35.24836,31.79898 35.24825,31.79901 35.24814,31.79902 35.24803,31.79903</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of Ain el Madauwerah</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.248031,31.798128</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of the Gihon Spring</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23638,31.77382 35.23627,31.77381 35.23616,31.7738 35.23606,31.77377 35.23595,31.77374 35.23585,31.7737 35.23576,31.77365 35.23568,31.77359 35.2356,31.77352 35.23553,31.77345 35.23547,31.77337 35.23542,31.77328 35.23538,31.7732 35.23535,31.77311 35.23533,31.77301 35.23533,31.77292 35.23533,31.77282 35.23535,31.77273 35.23538,31.77264 35.23542,31.77255 35.23547,31.77247 35.23553,31.77239 35.2356,31.77232 35.23568,31.77225 35.23576,31.77219 35.23585,31.77214 35.23595,31.7721 35.23606,31.77206 35.23616,31.77204 35.23627,31.77202 35.23638,31.77202 35.23649,31.77202 35.2366,31.77204 35.23671,31.77206 35.23681,31.7721 35.23691,31.77214 35.237,31.77219 35.23709,31.77225 35.23717,31.77232 35.23724,31.77239 35.2373,31.77247 35.23735,31.77255 35.23739,31.77264 35.23742,31.77273 35.23744,31.77282 35.23744,31.77292 35.23744,31.77301 35.23742,31.77311 35.23739,31.7732 35.23735,31.77328 35.2373,31.77337 35.23724,31.77345 35.23717,31.77352 35.23709,31.77359 35.237,31.77365 35.23691,31.7737 35.23681,31.77374 35.23671,31.77377 35.2366,31.7738 35.23649,31.77381 35.23638,31.77382</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Serpent’s Stone / within 100 m of the Gihon Spring</name>
+		<description>within 100 m of En-rogel</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.236383,31.772919</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

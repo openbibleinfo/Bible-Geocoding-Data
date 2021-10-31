@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jezreel 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad94cc9/jezreel-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Jezreel 1</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.56&amp;version=ESV">15:56</a>]]></description>
+	<Placemark>
+		<name>Jezreel 1 / within 7 km of Yatta</name>
+		<description>within 7 km of Juttah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.09,31.51073 35.08228,31.51039 35.07465,31.50935 35.06718,31.50765 35.05997,31.50528 35.05308,31.50229 35.0466,31.4987 35.0406,31.49455 35.03514,31.48989 35.03028,31.48477 35.02607,31.47924 35.02257,31.47337 35.01981,31.46721 35.01781,31.46085 35.01661,31.45434 35.01621,31.44776 35.01662,31.44118 35.01783,31.43467 35.01984,31.42831 35.02261,31.42216 35.02612,31.41629 35.03033,31.41076 35.03519,31.40564 35.04065,31.40099 35.04665,31.39684 35.05313,31.39325 35.06,31.39026 35.06721,31.3879 35.07467,31.3862 35.08229,31.38517 35.09,31.38483 35.09771,31.38517 35.10533,31.3862 35.11279,31.3879 35.12,31.39026 35.12687,31.39325 35.13335,31.39684 35.13935,31.40099 35.14481,31.40564 35.14967,31.41076 35.15388,31.41629 35.15739,31.42216 35.16016,31.42831 35.16217,31.43467 35.16338,31.44118 35.16379,31.44776 35.16339,31.45434 35.16219,31.46085 35.16019,31.46721 35.15743,31.47337 35.15393,31.47924 35.14972,31.48477 35.14486,31.48989 35.1394,31.49455 35.1334,31.4987 35.12692,31.50229 35.12003,31.50528 35.11282,31.50765 35.10535,31.50935 35.09772,31.51039 35.09,31.51073</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Jezreel 1 / within 7 km of Yatta</name>
+		<description>within 7 km of Juttah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.09,31.447778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jezreel 1 / Khirbet Tarrama</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.03264,31.47857</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jezreel 1 / Khirbet el Kufeir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.098657,31.459731</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jezreel 1 / Khirbet Fattuh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.10611,31.44888</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

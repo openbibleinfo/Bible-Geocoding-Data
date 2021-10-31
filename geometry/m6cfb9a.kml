@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shephelah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m6cfb9a/shephelah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shephelah</name>
+	<Placemark>
+		<name>Shephelah (90% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.91332,31.56756 34.92944,31.59513 34.96169,31.73298 34.97782,31.8019 34.96169,31.81569 34.92944,31.82947 34.89719,31.77433 34.84881,31.69162 34.83269,31.66406 34.83269,31.65027 34.83269,31.58135 34.84881,31.53999 34.86494,31.53999 34.88106,31.53999 34.89719,31.55378 34.91332,31.56756</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (80% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.80043,31.59513 34.78431,31.53999 34.86494,31.51242 34.89719,31.53999 34.91332,31.55378 34.92944,31.58135 34.94557,31.65027 34.97782,31.78812 34.97782,31.8019 34.97782,31.81569 34.97782,31.82947 34.94557,31.84325 34.92944,31.84325 34.91332,31.82947 34.83269,31.69162 34.80043,31.59513</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (70% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.92944,31.85704 34.91332,31.82947 34.89719,31.8019 34.83269,31.69162 34.81656,31.66406 34.80043,31.63649 34.78431,31.59513 34.76818,31.52621 34.76818,31.51242 34.76818,31.49864 34.86494,31.49864 34.91332,31.55378 34.92944,31.58135 34.94557,31.6227 34.96169,31.67784 34.97782,31.77433 34.97782,31.78812 34.97782,31.8019 34.97782,31.81569 34.97782,31.82947 34.92944,31.85704</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (60% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.96169,31.87082 34.92944,31.85704 34.91332,31.84325 34.88106,31.8019 34.78431,31.60892 34.76818,31.56756 34.76818,31.55378 34.76818,31.53999 34.76818,31.52621 34.76818,31.51242 34.76818,31.49864 34.78431,31.45729 34.86494,31.49864 34.88106,31.51242 34.91332,31.53999 34.94557,31.58135 34.97782,31.71919 34.99395,31.82947 34.97782,31.87082 34.96169,31.87082</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (50% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.88106,31.8019 34.81656,31.67784 34.78431,31.60892 34.76818,31.56756 34.75206,31.52621 34.75206,31.51242 34.75206,31.49864 34.75206,31.47107 34.80043,31.4435 34.84881,31.47107 34.88106,31.49864 34.89719,31.51242 34.94557,31.58135 34.97782,31.66406 35.01007,31.78812 35.01007,31.8019 35.01007,31.81569 35.01007,31.82947 34.97782,31.87082 34.96169,31.87082 34.94557,31.87082 34.92944,31.87082 34.88106,31.8019</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (40% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.7198,31.47107 34.7198,31.41593 34.76818,31.37458 34.80043,31.40215 34.88106,31.47107 34.92944,31.52621 34.94557,31.56756 34.97782,31.66406 34.99395,31.71919 35.01007,31.77433 35.0262,31.82947 35.0262,31.84325 34.99395,31.88461 34.92944,31.89839 34.84881,31.76055 34.78431,31.6227 34.7198,31.47107</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (30% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.70368,31.42972 34.73593,31.34701 34.75206,31.34701 34.81656,31.37458 34.88106,31.45729 34.92944,31.52621 34.94557,31.56756 34.96169,31.60892 35.01007,31.73298 35.0262,31.82947 35.0262,31.84325 35.0262,31.85704 34.99395,31.91218 34.92944,31.89839 34.86494,31.8019 34.76818,31.60892 34.70368,31.42972</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (20% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.75206,31.60892 34.70368,31.42972 34.70368,31.41593 34.7198,31.34701 34.73593,31.34701 34.75206,31.34701 34.76818,31.34701 34.83269,31.34701 34.86494,31.37458 34.96169,31.55378 34.97782,31.60892 35.0262,31.78812 35.0262,31.8019 35.0262,31.81569 35.0262,31.82947 35.0262,31.84325 35.0262,31.85704 35.0262,31.87082 34.99395,31.92596 34.97782,31.92596 34.96169,31.92596 34.94557,31.92596 34.91332,31.88461 34.88106,31.84325 34.86494,31.81569 34.75206,31.60892</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah (10% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.60692,31.42972 34.60692,31.41593 34.62305,31.40215 34.70368,31.34701 34.73593,31.33322 34.75206,31.33322 34.84881,31.34701 34.86494,31.36079 34.88106,31.37458 34.92944,31.4435 34.97782,31.59513 35.01007,31.71919 35.04232,31.84325 35.04232,31.85704 35.01007,31.92596 34.97782,31.99489 34.92944,31.95353 34.91332,31.92596 34.89719,31.89839 34.63917,31.48486 34.60692,31.42972</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shephelah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.875,31.691667</coordinates>
+		</Point>
+	</Placemark>
+</Folder></Document>
+</kml>

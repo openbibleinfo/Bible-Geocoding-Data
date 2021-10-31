@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Debir 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad334c4/debir-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Debir 2</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.7&amp;version=ESV">15:7</a>]]></description>
+	<Placemark>
+		<name>Debir 2 / Thoghret ed Debr</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.348784,31.811544</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / Khan el Hatrur</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.359429,31.816392</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / Khirbet Rabud</name>
+		<description>another name for Debir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.01485,31.43209</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / Tell Beit Mirsim</name>
+		<description>another name for Debir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.9098,31.4558</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / Khirbet Tarrama</name>
+		<description>another name for Debir 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.03264,31.47857</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / along Wadi ed Debr</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.437718,31.780755 35.438001,31.78066 35.438345,31.780641 35.438531,31.780831 35.438777,31.781059 35.439143,31.781281 35.439106,31.781675 35.439136,31.781941 35.439568,31.782081 35.439785,31.782024 35.440113,31.782157 35.440233,31.782252 35.440434,31.782265 35.440665,31.782239 35.44118,31.782208 35.441277,31.782449 35.441419,31.782544 35.441606,31.782544 35.441725,31.782474 35.441807,31.782398 35.441912,31.782315 35.442143,31.782315 35.442218,31.782423 35.442009,31.782709 35.441942,31.782791 35.442106,31.782836 35.442337,31.782848 35.442494,31.782848 35.442703,31.782753 35.442867,31.782576 35.443108,31.782424 35.443204,31.782496 35.443467,31.782693 35.443701,31.782876 35.443914,31.783045 35.444119,31.783217 35.444218,31.783413 35.444389,31.783629 35.444759,31.783774 35.444919,31.783978 35.445225,31.784054 35.445449,31.784054 35.445833,31.783955 35.446111,31.783848 35.446524,31.783787 35.446605,31.783678 35.447046,31.783775 35.447263,31.783508 35.447613,31.783324 35.447964,31.783191 35.448203,31.783229 35.448412,31.783375 35.448628,31.783578 35.448934,31.7838 35.449084,31.7838 35.449218,31.783736 35.449322,31.783629 35.449464,31.783445 35.449591,31.783292 35.449807,31.783205 35.44983,31.783369 35.450076,31.783464 35.450367,31.783464 35.450472,31.783464 35.450763,31.783369 35.450784,31.783363 35.451114,31.783273 35.451119,31.783286 35.451221,31.783402 35.451289,31.783578 35.451434,31.783779 35.45155,31.783875 35.451608,31.783928 35.451674,31.783987 35.451707,31.784017 35.451726,31.784086 35.451748,31.784161 35.451919,31.784276 35.451942,31.784434 35.451942,31.784503 35.451942,31.784536 35.451987,31.784675 35.452128,31.784758 35.452352,31.784783 35.452934,31.784745 35.453748,31.784587 35.454345,31.784384 35.454957,31.784295 35.45573,31.784334 35.45689,31.784269 35.457957,31.784377 35.45833,31.784377 35.459233,31.784288 35.459987,31.784022 35.460464,31.783806 35.461275,31.783061</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Debir 2 / along Wadi ed Debr</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.452778,31.785</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

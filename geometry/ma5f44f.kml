@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kidron River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/ma5f44f/kidron-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Kidron River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.239316,31.788507 35.239831,31.787471 35.238927,31.784551 35.23982,31.781778 35.238802,31.779705 35.238579,31.775457 35.237197,31.773835 35.235128,31.768193 35.238909,31.763669 35.245874,31.762618 35.249998,31.758589 35.250394,31.756765 35.251913,31.75581 35.25503,31.75075 35.254896,31.747927 35.257069,31.746652 35.258168,31.742495 35.260009,31.741996 35.263736,31.737983 35.26489,31.73237 35.263071,31.722762 35.265163,31.719677 35.268178,31.719997 35.271671,31.722259 35.273864,31.722671 35.28033,31.727879 35.284261,31.729717 35.285968,31.729091 35.287863,31.72989 35.289398,31.729263 35.292108,31.729734 35.292693,31.728839 35.295739,31.728148 35.29588,31.726793 35.297961,31.727152 35.308389,31.724921 35.310025,31.723077 35.313516,31.723151 35.313852,31.721777 35.318827,31.722349 35.318914,31.723086 35.320204,31.722856 35.32054,31.724054 35.321971,31.7241 35.32565,31.721923 35.325174,31.719179 35.326608,31.717979 35.326784,31.715495 35.329735,31.714927 35.330501,31.712606 35.329405,31.711896 35.329283,31.710246 35.33254,31.709431 35.332785,31.707103 35.331489,31.702266 35.335782,31.700047 35.333835,31.69605 35.336051,31.69588 35.336901,31.6938 35.339254,31.69408 35.341332,31.691993 35.341332,31.690865 35.342933,31.691211 35.344957,31.689476 35.345831,31.690565 35.34721,31.690311 35.347402,31.691811 35.349418,31.692222 35.351748,31.694361 35.355189,31.694478 35.355933,31.6956 35.358516,31.695756 35.365659,31.692254 35.368434,31.692548 35.379923,31.689436 35.38131,31.689952 35.382589,31.689103 35.384194,31.685691 35.388895,31.684339 35.39353,31.68633 35.397349,31.691661 35.403787,31.690096 35.40549,31.690538 35.40754,31.693388 35.409452,31.69356 35.41063,31.690293 35.415278,31.686509 35.416722,31.686091 35.416491,31.687 35.41795,31.687398 35.418243,31.684277 35.421226,31.684028 35.420187,31.68162 35.42088,31.680342 35.422035,31.680367 35.421544,31.679187 35.422324,31.679457 35.424085,31.678057 35.427925,31.679335 35.430812,31.678573 35.433382,31.67646 35.434481,31.673505 35.437496,31.671639 35.443026,31.671938 35.449436,31.665916</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Kidron River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.24,31.780278</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

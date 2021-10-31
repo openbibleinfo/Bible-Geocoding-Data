@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bashan</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa7a40a/bashan">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bashan</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.21.33&amp;version=ESV">21:33</a>, <a href="https://www.biblegateway.com/passage/?search=Num.32.33&amp;version=ESV">32:33</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.4&amp;version=ESV">1:4</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.3&amp;version=ESV">3:3</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.4&amp;version=ESV">3:4</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.6&amp;version=NLT">3:6</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.10&amp;version=ESV">3:10</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.11&amp;version=ESV">3:11</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.13&amp;version=ESV">3:13</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.14&amp;version=ESV">3:14</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.4.43&amp;version=ESV">4:43</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.4.47&amp;version=ESV">4:47</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.29.7&amp;version=ESV">29:7</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.32.14&amp;version=ESV">32:14</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.33.22&amp;version=ESV">33:22</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.9.10&amp;version=ESV">9:10</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.4&amp;version=ESV">12:4</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.5&amp;version=ESV">12:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.11&amp;version=ESV">13:11</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.12&amp;version=ESV">13:12</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.30&amp;version=ESV">13:30</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.31&amp;version=ESV">13:31</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.17.1&amp;version=ESV">17:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.17.5&amp;version=ESV">17:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.20.8&amp;version=ESV">20:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.6&amp;version=ESV">21:6</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.27&amp;version=ESV">21:27</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.22.7&amp;version=ESV">22:7</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.13&amp;version=ESV">4:13</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.19&amp;version=ESV">4:19</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.10.33&amp;version=ESV">10:33</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.11&amp;version=ESV">5:11</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.5.12&amp;version=ESV">5:12</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.5.16&amp;version=ESV">5:16</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.5.23&amp;version=ESV">5:23</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.6.62&amp;version=ESV">6:62</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.6.71&amp;version=ESV">6:71</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.9.22&amp;version=ESV">9:22</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.22.12&amp;version=ESV">22:12</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.68.22&amp;version=ESV">68:22</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.135.11&amp;version=ESV">135:11</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.136.20&amp;version=ESV">136:20</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.2.13&amp;version=ESV">2:13</a>, <a href="https://www.biblegateway.com/passage/?search=Isa.33.9&amp;version=ESV">33:9</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.22.20&amp;version=ESV">22:20</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.50.19&amp;version=ESV">50:19</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.27.6&amp;version=ESV">27:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.39.18&amp;version=ESV">39:18</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.4.1&amp;version=ESV">4:1</a>, Mic <a href="https://www.biblegateway.com/passage/?search=Mic.7.14&amp;version=ESV">7:14</a>, Nah <a href="https://www.biblegateway.com/passage/?search=Nah.1.4&amp;version=ESV">1:4</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.11.2&amp;version=ESV">11:2</a>]]></description>
+	<Folder>
+		<name>Bashan</name>
+		<Placemark>
+			<name>Bashan (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.92495,33.04426 35.84765,32.97901 35.8863,32.91375 35.92495,32.91375 36.1182,32.91375 36.07955,33.04426 36.00225,33.04426 35.9636,33.04426 35.92495,33.04426</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.84765,32.94638 35.8863,32.88112 35.92495,32.88112 36.07955,32.88112 36.15685,32.91375 36.07955,33.07689 36.0409,33.07689 36.00225,33.07689 35.9636,33.07689 35.8863,33.04426 35.84765,32.97901 35.84765,32.94638</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.84765,33.01163 35.84765,32.97901 35.84765,32.94638 35.8863,32.88112 35.92495,32.88112 36.07955,32.88112 36.1182,32.88112 36.15685,32.91375 36.15685,32.94638 36.1182,33.07689 36.07955,33.10952 36.0409,33.10952 36.00225,33.10952 35.84765,33.07689 35.84765,33.04426 35.84765,33.01163</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.809,33.07689 35.809,33.04426 35.809,33.01163 35.809,32.97901 35.84765,32.81586 36.15685,32.71798 36.1955,32.91375 36.1955,32.94638 36.1955,33.04426 36.15685,33.10952 36.00225,33.14215 35.9636,33.14215 35.84765,33.10952 35.809,33.07689</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.9636,33.17478 35.84765,33.10952 35.809,33.07689 35.77035,33.04426 35.77035,32.97901 35.84765,32.81586 36.00225,32.71798 36.23415,32.68535 36.23415,33.04426 36.23415,33.10952 36.15685,33.14215 35.9636,33.17478</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.77035,33.07689 35.7317,33.01163 35.84765,32.78323 36.00225,32.71798 36.1955,32.65272 36.23415,32.65272 36.2728,32.65272 36.46605,32.88112 36.46605,32.91375 36.46605,32.94638 36.38875,33.07689 36.23415,33.14215 36.1182,33.17478 35.92495,33.20741 35.8863,33.20741 35.77035,33.07689</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.809,32.84849 35.84765,32.78323 35.8863,32.7506 35.9636,32.71798 36.23415,32.62009 36.54335,32.55483 36.69795,32.5222 36.69795,32.55483 36.69795,32.58746 36.69795,32.62009 36.69795,32.65272 36.69795,32.68535 36.6593,32.88112 36.62065,32.94638 36.23415,33.30529 36.1955,33.30529 36.15685,33.30529 35.92495,33.24004 35.8863,33.20741 35.84765,33.17478 35.809,33.14215 35.77035,33.10952 35.7317,33.07689 35.7317,33.01163 35.809,32.84849</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7317,33.10952 35.7317,33.07689 35.7317,33.04426 35.7317,33.01163 35.7317,32.97901 35.7317,32.94638 35.7317,32.88112 35.7317,32.84849 35.7317,32.81586 35.84765,32.7506 35.9636,32.68535 36.69795,32.48957 36.7366,32.48957 36.7366,32.5222 36.6593,32.91375 36.582,33.01163 36.54335,33.04426 36.5047,33.07689 36.46605,33.10952 36.3501,33.20741 36.31145,33.24004 36.2728,33.27266 36.23415,33.30529 36.15685,33.33792 36.1182,33.33792 36.07955,33.33792 36.0409,33.33792 36.00225,33.33792 35.9636,33.33792 35.92495,33.33792 35.8863,33.33792 35.7317,33.10952</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7317,32.81586 35.77035,32.78323 35.92495,32.68535 36.69795,32.42432 36.7366,32.42432 36.7366,32.45695 36.7366,32.48957 36.7366,32.5222 36.7366,32.55483 36.7366,32.58746 36.7366,32.62009 36.69795,32.84849 36.6593,32.94638 36.2728,33.33792 35.92495,33.40318 35.8863,33.40318 35.84765,33.37055 35.77035,33.27266 35.7317,33.20741 35.69305,32.94638 35.7317,32.81586</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bashan</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.934722,32.781111</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

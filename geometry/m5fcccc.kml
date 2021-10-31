@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Aras River</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m5fcccc/aras-river">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Aras River</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>41.276165,39.50183 41.298311,39.578245 41.442561,39.626577 41.531406,39.615544 41.532006,39.63313 41.577919,39.639521 41.583762,39.616351 41.732078,39.619313 41.813411,39.754234 41.760978,39.83092 41.839122,39.838111 41.879368,39.872825 41.889361,39.970479 42.020912,40.027718 42.164985,40.014903 42.190033,40.051146 42.267217,40.079527 42.32592,40.07468 42.351355,40.103991 42.560606,40.130461 42.659212,40.173631 42.76487,40.117941 42.79321,40.064167 42.828288,40.05803 42.891877,40.064589 43.147491,40.181213 43.232002,40.148974 43.359636,40.144737 43.43635,40.109324 43.648737,40.131236 43.678254,40.096064 43.767112,40.083643 43.899416,40.021017 44.173051,40.027285 44.274369,40.049423 44.456779,39.990569 44.591951,39.859107 44.594536,39.824441 44.694437,39.793083 44.687348,39.772025 44.802326,39.683428 44.816335,39.615182 44.899028,39.603272 44.909903,39.525114 44.951977,39.492205 44.940046,39.459707 44.977298,39.448796 44.96451,39.421848 45.086852,39.351287 45.080438,39.333626 45.128751,39.301333 45.117939,39.286889 45.14213,39.284494 45.153207,39.216534 45.184955,39.220654 45.359061,39.146332 45.405621,39.097107 45.403215,39.0729 45.457,39.051168 45.436981,39.011794 45.454986,38.990601 45.543938,38.964632 45.581954,38.978566 45.615861,38.941459 45.692455,38.951543 45.798052,38.924999 45.894084,38.876752 45.944559,38.896695 46.011953,38.872008 46.06544,38.887527 46.129212,38.846469 46.181776,38.840756 46.339259,38.916363 46.421044,38.883022 46.4535,38.899007 46.5226,38.888907 46.533983,38.867172 46.654851,38.954189 46.696859,39.019138 46.752984,39.02603 46.768147,39.070463 46.845155,39.142127 46.925551,39.164823 46.962508,39.140469 47.019048,39.167056 47.054937,39.195602 47.08126,39.263689 47.314964,39.369324 47.394818,39.469185 47.562917,39.513913 47.752913,39.606153 47.807252,39.659313 47.929355,39.665929 47.980321,39.703948 47.972847,39.77197 48.029226,39.796788 48.03468,39.824191 48.09126,39.865435 48.26972,39.895512 48.394899,39.981279 48.415692,39.974916 48.45452,40.018974</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Aras River</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>48.4535,40.0184</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

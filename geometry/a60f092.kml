@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goshen 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a60f092/goshen-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Goshen 1</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.45.10&amp;version=ESV">45:10</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.28&amp;version=ESV">46:28</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.29&amp;version=ESV">46:29</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.46.34&amp;version=ESV">46:34</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.1&amp;version=ESV">47:1</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.4&amp;version=ESV">47:4</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.6&amp;version=ESV">47:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.47.27&amp;version=ESV">47:27</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.50.8&amp;version=ESV">50:8</a>, Exod <a href="https://www.biblegateway.com/passage/?search=Exod.8.22&amp;version=ESV">8:22</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.9.26&amp;version=ESV">9:26</a>]]></description>
+	<Folder>
+		<name>Goshen 1 / Goshen 1</name>
+		<Placemark>
+			<name>Goshen 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.81859,30.86821 31.56946,30.83224 31.61098,30.40057 31.6525,30.43654 31.90164,30.83224 31.81859,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.56946,30.83224 31.48641,30.47251 31.61098,30.40057 31.6525,30.40057 31.77707,30.40057 31.81859,30.40057 31.98468,30.65237 32.0262,30.83224 31.86011,30.86821 31.81859,30.86821 31.77707,30.86821 31.73555,30.86821 31.56946,30.83224</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.86011,30.40057 31.90164,30.43654 32.10925,30.72432 32.06772,30.83224 32.0262,30.94015 31.98468,30.94015 31.77707,30.90418 31.44489,30.83224 31.44489,30.72432 31.44489,30.47251 31.48641,30.40057 31.6525,30.32862 31.69402,30.32862 31.73555,30.32862 31.81859,30.3646 31.86011,30.40057</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.56946,30.86821 31.44489,30.83224 31.40337,30.72432 31.40337,30.47251 31.40337,30.43654 31.40337,30.40057 31.61098,30.32862 31.6525,30.32862 31.69402,30.32862 31.73555,30.32862 31.77707,30.32862 31.81859,30.32862 31.98468,30.40057 32.15077,30.68835 32.15077,30.72432 32.10925,30.83224 32.06772,30.94015 32.0262,30.94015 31.98468,30.94015 31.90164,30.94015 31.81859,30.94015 31.56946,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.44489,30.86821 31.40337,30.83224 31.36184,30.40057 31.44489,30.32862 31.69402,30.29265 31.81859,30.32862 32.0262,30.40057 32.15077,30.65237 32.15077,30.68835 32.15077,30.72432 32.10925,30.94015 32.06772,30.94015 32.0262,30.94015 31.98468,30.94015 31.94316,30.94015 31.90164,30.94015 31.86011,30.94015 31.81859,30.94015 31.77707,30.94015 31.73555,30.94015 31.69402,30.94015 31.44489,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.36184,30.72432 31.36184,30.47251 31.36184,30.43654 31.36184,30.40057 31.36184,30.3646 31.40337,30.32862 31.48641,30.29265 31.56946,30.25668 31.81859,30.29265 31.90164,30.32862 31.98468,30.3646 32.0262,30.40057 32.06772,30.43654 32.23381,30.68835 32.19229,30.94015 32.06772,30.97613 31.81859,30.97613 31.40337,30.94015 31.36184,30.83224 31.36184,30.72432</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.19229,30.94015 32.15077,30.97613 32.0262,31.0121 31.98468,31.0121 31.94316,31.0121 31.90164,31.0121 31.86011,31.0121 31.81859,31.0121 31.77707,31.0121 31.73555,31.0121 31.69402,31.0121 31.6525,31.0121 31.61098,31.0121 31.36184,30.94015 31.2788,30.72432 31.23728,30.47251 31.2788,30.40057 31.36184,30.32862 31.44489,30.29265 31.52793,30.25668 31.56946,30.25668 31.61098,30.25668 31.6525,30.25668 31.69402,30.25668 31.73555,30.25668 31.77707,30.25668 31.81859,30.25668 31.98468,30.32862 32.06772,30.40057 32.23381,30.65237 32.23381,30.68835 32.23381,30.72432 32.23381,30.83224 32.19229,30.94015</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.23728,30.94015 31.07119,30.83224 31.07119,30.79626 31.07119,30.76029 31.07119,30.72432 31.23728,30.32862 31.36184,30.04084 31.40337,30.00487 31.94316,30.29265 32.06772,30.3646 32.10925,30.40057 32.15077,30.43654 32.27534,30.65237 32.27534,30.68835 32.27534,30.72432 32.27534,30.83224 32.27534,30.86821 32.27534,30.94015 32.15077,31.0121 32.0262,31.08404 31.98468,31.08404 31.94316,31.08404 31.90164,31.08404 31.86011,31.08404 31.81859,31.08404 31.77707,31.08404 31.73555,31.08404 31.69402,31.08404 31.6525,31.08404 31.61098,31.08404 31.56946,31.08404 31.40337,31.0121 31.23728,30.94015</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 1 / Goshen 1</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>31.834217,30.79937</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

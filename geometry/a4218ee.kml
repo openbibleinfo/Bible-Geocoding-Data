@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rhodes 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a4218ee/rhodes-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Rhodes 1</name>
+	<description><![CDATA[Acts <a href="https://www.biblegateway.com/passage/?search=Acts.21.1&amp;version=ESV">21:1</a>]]></description>
+	<Placemark>
+		<name>Rhodes 1</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>27.697546,36.145377 27.707002,36.148533 27.707566,36.1391 27.713032,36.13941 27.716366,36.131865 27.706868,36.12023 27.710364,36.113103 27.736941,36.103692 27.750184,36.105646 27.760723,36.086068 27.755157,36.013443 27.731156,35.957746 27.718253,35.940234 27.72668,35.936797 27.735635,35.922673 27.734203,35.915641 27.759605,35.903861 27.771009,35.887098 27.798379,35.89038 27.81218,35.902541 27.816957,35.901154 27.816875,35.907118 27.829078,35.915744 27.845464,35.912828 27.841779,35.916108 27.845301,35.921821 27.854872,35.928612 27.86248,35.927057 27.875696,35.948778 27.89225,35.959037 27.922175,36.01006 27.953613,36.04523 27.969186,36.046521 27.979386,36.057074 28.014832,36.074824 28.036772,36.077687 28.04818,36.074938 28.054028,36.067557 28.050908,36.063902 28.066539,36.06381 28.087067,36.054394 28.074517,36.073484 28.080162,36.08011 28.09051,36.080819 28.087663,36.087537 28.093074,36.094347 28.085355,36.096706 28.099897,36.104185 28.067929,36.107575 28.075676,36.142906 28.090777,36.164732 28.101223,36.165657 28.098104,36.175063 28.104556,36.181643 28.123965,36.18788 28.136636,36.18448 28.147495,36.226881 28.158881,36.231156 28.166056,36.248442 28.175006,36.248637 28.176008,36.253838 28.168541,36.25467 28.16628,36.261546 28.174319,36.280499 28.192922,36.308749 28.205758,36.320713 28.212421,36.320346 28.209469,36.322737 28.215928,36.327617 28.205098,36.338267 28.207286,36.349142 28.223468,36.369474 28.233357,36.371423 28.247628,36.386841 28.228287,36.403569 28.233658,36.427407 28.240887,36.432824 28.238874,36.447587 28.23603,36.441018 28.232121,36.447696 28.229422,36.443638 28.2209,36.458409 28.187543,36.421076 28.155097,36.42407 28.116495,36.418706 28.053662,36.398 28.009298,36.375075 27.97648,36.365386 27.959152,36.352741 27.915429,36.342903 27.878395,36.322636 27.847959,36.285009 27.827113,36.272418 27.812976,36.274541 27.805468,36.270431 27.803277,36.258024 27.795773,36.254831 27.789335,36.242343 27.788981,36.219273 27.767348,36.188015 27.754324,36.18772 27.735076,36.168702 27.684428,36.155873 27.686423,36.146439 27.697546,36.145377</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Rhodes 1</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>28.2109,36.4402</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rhodes 1 / Acropolis of Rhodes</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>28.2109,36.4402</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Achor</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a31492f/valley-of-achor">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Achor (Valley of Trouble)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.7.24&amp;version=ESV">7:24</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.7.26&amp;version=ESV">7:26</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.7&amp;version=ESV">15:7</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.65.10&amp;version=ESV">65:10</a>, Hos <a href="https://www.biblegateway.com/passage/?search=Hos.2.15&amp;version=ESV">2:15</a>]]></description>
+	<Placemark>
+		<name>Valley of Achor / Al Buqay’ah</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.39448,31.760907 35.349157,31.699308 35.386923,31.689454 35.418167,31.75263 35.39448,31.760907</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Achor / Al Buqay’ah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.38333,31.71667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Achor / Wadi Nu’eima</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.416093,31.899642 35.41753,31.899452 35.418184,31.898758 35.419282,31.898612 35.419742,31.89809 35.420754,31.897786 35.421611,31.8968 35.421673,31.895841 35.422203,31.896066 35.42267,31.895954 35.422748,31.894479 35.423979,31.893858 35.423929,31.893555 35.424509,31.892687 35.425124,31.892581 35.425817,31.892026 35.426339,31.891001 35.426845,31.890928 35.427352,31.891239 35.427975,31.891232 35.428216,31.890194 35.429392,31.89024 35.43021,31.889638 35.430506,31.888871 35.430771,31.888732 35.431207,31.888964 35.431558,31.888904 35.43257,31.887264 35.433411,31.886933 35.433397,31.886228 35.4331,31.885703 35.433201,31.885465 35.433887,31.885201 35.434859,31.883523 35.437668,31.881858 35.438059,31.881835 35.438589,31.881372 35.438885,31.881319 35.441541,31.883177 35.442928,31.88204 35.445957,31.882463 35.446939,31.883138 35.447546,31.883918 35.449579,31.884004 35.45158,31.883455 35.453357,31.883673 35.453692,31.883561 35.454222,31.88282 35.454712,31.882615 35.456621,31.882529 35.457634,31.88204 35.457926,31.879774 35.45871,31.8786 35.459819,31.878432 35.460232,31.87746 35.460792,31.877096 35.461859,31.877089 35.463581,31.87617 35.465847,31.876547 35.467225,31.875162 35.468261,31.874639 35.469329,31.874723 35.470629,31.875181 35.47259,31.874657 35.474649,31.874966 35.475905,31.875555 35.477007,31.875237 35.477359,31.875368 35.479507,31.875059 35.481534,31.876098 35.483329,31.875939 35.485004,31.875256 35.486039,31.875621 35.486392,31.875565 35.487317,31.874975 35.489531,31.874657 35.490721,31.875106 35.491481,31.875836 35.492769,31.876088 35.49429,31.87694 35.495854,31.876809 35.497998,31.877787 35.499348,31.877651 35.500911,31.877049 35.502194,31.877118 35.504065,31.876346 35.506057,31.876947 35.506872,31.876754 35.507487,31.877356 35.508435,31.876913 35.509718,31.877118 35.510841,31.876857 35.514275,31.876675 35.515264,31.876902 35.516587,31.876505 35.518766,31.876788 35.51934,31.876471 35.519527,31.87537 35.520436,31.875256 35.520864,31.874893 35.521532,31.874723 35.522174,31.87478 35.523617,31.875438</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Achor / Wadi Nu’eima</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.417355,31.897732</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Achor / Wadi Qelt</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.345646,31.835562 35.345641,31.836638 35.346865,31.839094 35.348449,31.838918 35.348514,31.840196 35.349915,31.840013 35.351587,31.841465 35.353025,31.840862 35.356985,31.841727 35.357191,31.840593 35.358835,31.840204 35.359358,31.837998 35.360142,31.838022 35.361487,31.841608 35.361394,31.842886 35.363682,31.843425 35.364205,31.843005 35.364,31.841703 35.369026,31.841398 35.369934,31.838728 35.371509,31.83822 35.372611,31.836594 35.375396,31.83584 35.37681,31.836494 35.378897,31.835306 35.381683,31.835973 35.383083,31.83472 35.385895,31.835328 35.387085,31.834537 35.392263,31.83483 35.394037,31.834244 35.39588,31.835953 35.397924,31.835888 35.399845,31.836533 35.400101,31.838006 35.401244,31.838517 35.404483,31.838143 35.404659,31.838779 35.403965,31.839481 35.404263,31.839958 35.406179,31.839125 35.407369,31.840127 35.408647,31.839313 35.41096,31.841016 35.410938,31.842681 35.412233,31.843564 35.412513,31.845002 35.414518,31.845095 35.414595,31.846218 35.416434,31.846574 35.41693,31.8475 35.41877,31.8478 35.419089,31.848782 35.42073,31.84837 35.423121,31.848857 35.424068,31.849531 35.425313,31.849531 35.425985,31.850448 35.428738,31.85012 35.430027,31.851271 35.431536,31.850925 35.432605,31.852076 35.438884,31.851468 35.440768,31.853083 35.441687,31.853016 35.444327,31.851359 35.445505,31.851986 35.451905,31.852903 35.453613,31.853857 35.456135,31.852894 35.462998,31.853885 35.464837,31.852875 35.46715,31.853043 35.468351,31.850938 35.47084,31.849619 35.472372,31.849478 35.474729,31.847457 35.478738,31.847289 35.483299,31.842713 35.488663,31.843322 35.490073,31.844733 35.493532,31.845472 35.496896,31.844605 35.500765,31.845424 35.501821,31.844164 35.504066,31.844857 35.506899,31.844471 35.507781,31.844221 35.508436,31.842961 35.511336,31.843574 35.515399,31.838919 35.516053,31.837114 35.518766,31.835933 35.519969,31.834083 35.522655,31.833844 35.52601,31.831869 35.528602,31.83188 35.530179,31.830915 35.530553,31.829779 35.536241,31.82857 35.537136,31.826379 35.54035,31.82501 35.540938,31.822898 35.542902,31.82114</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Achor / Wadi Qelt</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.4143,31.8443</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

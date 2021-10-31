@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gavdos</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m9e1f27/gavdos">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Gavdos</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>24.121511,34.801558 24.12242,34.800995 24.121841,34.801801 24.122876,34.803949 24.1266,34.803838 24.128523,34.805335 24.130736,34.804953 24.131131,34.805949 24.132693,34.806569 24.129669,34.809944 24.129987,34.810794 24.127486,34.811594 24.124303,34.815125 24.123614,34.816841 24.124436,34.817475 24.12252,34.818659 24.118419,34.819274 24.116006,34.821981 24.112918,34.826355 24.11321,34.828511 24.111368,34.830933 24.113009,34.841096 24.11648,34.847463 24.118343,34.848512 24.11992,34.847676 24.11866,34.846881 24.120967,34.848035 24.12236,34.847721 24.122508,34.850044 24.120918,34.851967 24.125422,34.85315 24.122374,34.856513 24.1231,34.856914 24.12146,34.86059 24.119965,34.85967 24.114427,34.861547 24.113856,34.859584 24.109505,34.85972 24.107547,34.861109 24.108979,34.864769 24.105101,34.866551 24.105051,34.8676 24.103365,34.866879 24.102626,34.867618 24.099727,34.867846 24.095573,34.866523 24.092247,34.868057 24.091575,34.867656 24.091064,34.868413 24.083088,34.867949 24.080001,34.869652 24.077297,34.869646 24.073449,34.871314 24.071136,34.870695 24.069181,34.872486 24.06829,34.871751 24.065507,34.872486 24.063313,34.87097 24.0661,34.86999 24.063974,34.868435 24.066339,34.866591 24.062965,34.864456 24.060708,34.864542 24.063611,34.860451 24.059281,34.856824 24.053206,34.858978 24.050484,34.857613 24.050476,34.85669 24.047881,34.857609 24.043988,34.856481 24.043155,34.856868 24.042727,34.856157 24.038325,34.858872 24.037989,34.857141 24.0392,34.856018 24.036299,34.855984 24.038118,34.855115 24.039838,34.855467 24.039526,34.854105 24.043135,34.852902 24.043419,34.852346 24.042622,34.852171 24.044706,34.851982 24.043795,34.849974 24.044736,34.848968 24.045455,34.844622 24.050086,34.839177 24.063279,34.831792 24.071558,34.825374 24.080882,34.822002 24.084358,34.819457 24.100661,34.811688 24.110976,34.80798 24.11552,34.80522 24.116296,34.8039 24.117729,34.804216 24.121511,34.801558</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Gavdos</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>24.083333,34.833333</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

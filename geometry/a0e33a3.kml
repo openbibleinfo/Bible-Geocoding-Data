@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>En-hakkore</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a0e33a3/en-hakkore">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>En-hakkore (The Spring of the One Who Cried Out, Hakkore Spring, The Spring of Ha-Qore)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.15.19&amp;version=ESV">15:19</a>]]></description>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Khirbet es Siyyagh</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.00101,31.75779 34.9999,31.75774 34.99881,31.75759 34.99774,31.75735 34.9967,31.75701 34.99572,31.75658 34.99479,31.75607 34.99393,31.75548 34.99315,31.75481 34.99245,31.75408 34.99185,31.75329 34.99134,31.75245 34.99095,31.75157 34.99066,31.75067 34.99049,31.74974 34.99043,31.7488 34.99049,31.74786 34.99066,31.74693 34.99095,31.74602 34.99134,31.74514 34.99185,31.7443 34.99245,31.74351 34.99315,31.74278 34.99393,31.74211 34.99479,31.74152 34.99572,31.74101 34.9967,31.74058 34.99774,31.74024 34.99881,31.74 34.9999,31.73985 35.00101,31.7398 35.00211,31.73985 35.0032,31.74 35.00427,31.74024 35.00531,31.74058 35.00629,31.74101 35.00722,31.74152 35.00808,31.74211 35.00886,31.74278 35.00956,31.74351 35.01016,31.7443 35.01067,31.74514 35.01106,31.74602 35.01135,31.74693 35.01152,31.74786 35.01158,31.7488 35.01152,31.74974 35.01135,31.75067 35.01106,31.75157 35.01067,31.75245 35.01017,31.75329 35.00956,31.75408 35.00887,31.75481 35.00808,31.75548 35.00722,31.75607 35.00629,31.75658 35.00531,31.75701 35.00427,31.75735 35.00321,31.75759 35.00211,31.75774 35.00101,31.75779</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Khirbet es Siyyagh</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.001006,31.748796</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Arak Ismain</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.02579,31.77271 35.02469,31.77266 35.02359,31.77251 35.02252,31.77227 35.02149,31.77193 35.0205,31.7715 35.01958,31.77099 35.01871,31.7704 35.01793,31.76973 35.01724,31.769 35.01663,31.76821 35.01613,31.76737 35.01573,31.76649 35.01545,31.76558 35.01527,31.76465 35.01522,31.76371 35.01527,31.76277 35.01545,31.76184 35.01573,31.76094 35.01613,31.76006 35.01663,31.75922 35.01724,31.75843 35.01793,31.7577 35.01872,31.75703 35.01958,31.75644 35.0205,31.75593 35.02149,31.7555 35.02252,31.75516 35.02359,31.75492 35.02469,31.75477 35.02579,31.75472 35.0269,31.75477 35.02799,31.75492 35.02906,31.75516 35.03009,31.7555 35.03108,31.75593 35.03201,31.75644 35.03287,31.75703 35.03365,31.7577 35.03435,31.75843 35.03495,31.75922 35.03546,31.76006 35.03585,31.76094 35.03614,31.76184 35.03631,31.76277 35.03637,31.76371 35.03631,31.76465 35.03614,31.76558 35.03585,31.76649 35.03546,31.76737 35.03495,31.76821 35.03435,31.769 35.03365,31.76973 35.03287,31.7704 35.03201,31.77099 35.03108,31.7715 35.0301,31.77193 35.02906,31.77227 35.02799,31.77251 35.0269,31.77266 35.02579,31.77271</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Arak Ismain</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.025793,31.763715</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Bayt Itab</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.05297,31.74383 35.05186,31.74378 35.05077,31.74363 35.0497,31.74339 35.04867,31.74305 35.04768,31.74262 35.04675,31.74211 35.04589,31.74152 35.04511,31.74085 35.04441,31.74012 35.04381,31.73933 35.04331,31.73849 35.04291,31.73761 35.04262,31.73671 35.04245,31.73578 35.04239,31.73484 35.04245,31.7339 35.04262,31.73297 35.04291,31.73206 35.04331,31.73118 35.04381,31.73034 35.04441,31.72955 35.04511,31.72882 35.04589,31.72815 35.04675,31.72756 35.04768,31.72705 35.04867,31.72662 35.0497,31.72628 35.05077,31.72604 35.05186,31.72589 35.05297,31.72584 35.05407,31.72589 35.05517,31.72604 35.05623,31.72628 35.05727,31.72662 35.05825,31.72705 35.05918,31.72756 35.06004,31.72815 35.06082,31.72882 35.06152,31.72955 35.06212,31.73034 35.06263,31.73118 35.06302,31.73206 35.06331,31.73297 35.06348,31.7339 35.06354,31.73484 35.06348,31.73578 35.06331,31.73671 35.06302,31.73761 35.06263,31.73849 35.06212,31.73933 35.06152,31.74012 35.06083,31.74085 35.06004,31.74152 35.05918,31.74211 35.05825,31.74262 35.05727,31.74305 35.05623,31.74339 35.05517,31.74363 35.05407,31.74378 35.05297,31.74383</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / within 1 km of Bayt Itab</name>
+		<description>within 1 km of Lehi</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.052967,31.734836</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>En-hakkore / Ayun Qara</name>
+		<styleUrl>#waterpoint</styleUrl>
+		<Point>
+			<coordinates>34.949163,31.79541</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

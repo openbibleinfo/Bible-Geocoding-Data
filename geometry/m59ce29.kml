@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Decapolis</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m59ce29/decapolis">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Decapolis</name>
+	<Placemark>
+		<name>Decapolis (90% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.61215,32.60086 35.57759,32.51275 35.88861,32.13092 35.99229,32.10155 36.02684,32.10155 35.99229,32.42463 35.88861,32.57149 35.8195,32.6596 35.78494,32.6596 35.61215,32.60086</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (80% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.57759,32.54212 35.57759,32.51275 35.88861,31.92532 36.02684,32.10155 36.02684,32.27778 35.99229,32.42463 35.92317,32.57149 35.85405,32.6596 35.75038,32.77709 35.68126,32.71834 35.61215,32.60086 35.57759,32.54212</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (70% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.50847,32.48337 35.50847,32.42463 35.85405,31.92532 35.88861,31.92532 36.02684,32.07218 36.02684,32.10155 36.02684,32.13092 36.02684,32.2484 36.02684,32.27778 36.02684,32.33652 35.95773,32.60086 35.92317,32.6596 35.88861,32.68897 35.78494,32.77709 35.75038,32.77709 35.71582,32.77709 35.68126,32.77709 35.6467,32.77709 35.61215,32.77709 35.50847,32.48337</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (60% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.78494,32.77709 35.75038,32.77709 35.71582,32.77709 35.68126,32.77709 35.6467,32.77709 35.61215,32.77709 35.43936,32.48337 35.85405,31.92532 35.88861,31.92532 35.92317,31.92532 35.95773,31.92532 35.99229,31.92532 36.02684,32.07218 36.0614,32.2484 36.0614,32.27778 36.0614,32.30715 36.0614,32.33652 35.95773,32.71834 35.78494,32.77709</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (50% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.43936,32.48337 35.47391,32.42463 35.85405,31.92532 35.88861,31.89595 36.0614,31.92532 36.13052,32.16029 36.13052,32.18966 36.09596,32.30715 35.95773,32.71834 35.78494,32.77709 35.75038,32.77709 35.71582,32.77709 35.68126,32.77709 35.6467,32.77709 35.61215,32.77709 35.43936,32.51275 35.43936,32.48337</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (40% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.43936,32.48337 35.43936,32.454 35.85405,31.92532 35.88861,31.89595 35.92317,31.89595 35.95773,31.89595 35.99229,31.89595 36.0614,31.89595 36.16508,31.98406 36.16508,32.01343 36.16508,32.0428 36.16508,32.07218 36.16508,32.10155 36.16508,32.13092 36.16508,32.16029 36.16508,32.18966 36.16508,32.21903 35.99229,32.71834 35.78494,32.77709 35.75038,32.77709 35.71582,32.77709 35.68126,32.77709 35.6467,32.77709 35.61215,32.77709 35.43936,32.51275 35.43936,32.48337</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (30% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.4048,32.51275 35.4048,32.48337 35.85405,31.89595 35.88861,31.89595 35.92317,31.89595 35.95773,31.89595 35.99229,31.89595 36.02684,31.89595 36.0614,31.89595 36.09596,31.92532 36.13052,31.95469 36.16508,31.98406 36.23419,32.0428 36.23419,32.07218 36.13052,32.57149 36.02684,32.71834 35.78494,32.77709 35.75038,32.77709 35.71582,32.77709 35.68126,32.77709 35.6467,32.77709 35.61215,32.77709 35.4048,32.51275</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (20% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85405,31.89595 35.88861,31.86658 35.95773,31.86658 36.02684,31.86658 36.16508,31.92532 36.23419,32.0428 36.23419,32.07218 36.23419,32.10155 36.23419,32.13092 36.23419,32.16029 36.23419,32.18966 36.23419,32.21903 36.23419,32.2484 36.23419,32.27778 36.23419,32.30715 36.23419,32.33652 36.23419,32.36589 36.23419,32.39526 36.13052,32.68897 36.0614,32.71834 35.78494,32.80646 35.75038,32.80646 35.61215,32.77709 35.37024,32.51275 35.85405,31.89595</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis (10% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.8195,31.89595 35.85405,31.86658 35.88861,31.83721 35.92317,31.83721 35.95773,31.83721 36.0614,31.86658 36.16508,31.89595 36.23419,32.01343 36.33787,32.21903 36.37243,32.30715 36.37243,32.33652 36.37243,32.36589 36.37243,32.39526 36.37243,32.42463 36.13052,32.71834 35.8195,32.83583 35.78494,32.83583 35.75038,32.83583 35.71582,32.83583 35.68126,32.83583 35.6467,32.83583 35.61215,32.83583 35.4048,32.57149 35.37024,32.51275 35.8195,31.89595</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Decapolis</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.8,32.716667</coordinates>
+		</Point>
+	</Placemark>
+</Folder></Document>
+</kml>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lake Urmia</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m63822c/lake-urmia">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Lake Urmia</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>45.195965,38.055068 45.190284,38.035856 45.175201,38.024462 45.090831,38.001002 45.064618,37.983144 45.051873,37.954461 45.058413,37.905169 45.068378,37.885499 45.097371,37.85999 45.103319,37.869199 45.139858,37.863975 45.191639,37.821354 45.286041,37.767365 45.307181,37.764152 45.288928,37.726829 45.299897,37.710535 45.283744,37.679923 45.285117,37.663836 45.276946,37.648289 45.284018,37.612398 45.280173,37.589114 45.299125,37.557713 45.293906,37.523793 45.306815,37.50838 45.299125,37.484954 45.340856,37.432011 45.355018,37.324949 45.371154,37.283002 45.469894,37.162495 45.51123,37.133104 45.523315,37.13387 45.55648,37.164871 45.55593,37.181832 45.567603,37.192281 45.583327,37.236574 45.620818,37.297066 45.6351,37.308863 45.626723,37.319021 45.644988,37.336821 45.706031,37.360838 45.723609,37.383102 45.740432,37.353252 45.762885,37.384139 45.787192,37.385121 45.800994,37.393086 45.807586,37.415722 45.794402,37.472419 45.771056,37.507288 45.718087,37.556263 45.684213,37.610034 45.664152,37.625003 45.666493,37.669715 45.688226,37.678764 45.661962,37.712857 45.614137,37.735607 45.573075,37.739462 45.494114,37.716804 45.462728,37.741701 45.46533,37.728285 45.45421,37.711695 45.433321,37.703381 45.450033,37.718451 45.436552,37.748581 45.436758,37.766441 45.409678,37.807034 45.380539,37.79605 45.406181,37.80732 45.411131,37.837491 45.402479,37.895627 45.434717,37.943078 45.42634,37.964556 45.384386,37.989454 45.419131,37.999844 45.450236,38.032788 45.463145,38.061123 45.457789,38.073773 45.468363,38.092419 45.473032,38.153459 45.44466,38.1893 45.373386,38.234566 45.347843,38.240822 45.219304,38.241205 45.098267,38.225591 45.074014,38.199502 45.061603,38.164264 45.076435,38.158069 45.087046,38.14267 45.095621,38.141374 45.109808,38.154225 45.120656,38.150973 45.124619,38.138233 45.141562,38.12604 45.157475,38.135236 45.152636,38.152727 45.16762,38.159265 45.16422,38.151024 45.172167,38.145695 45.171199,38.133717 45.206291,38.122498 45.208355,38.091131 45.199547,38.068551 45.20607,38.066894 45.1962,38.063694 45.195965,38.055068</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Lake Urmia</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>45.47756,37.60498</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

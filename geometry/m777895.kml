@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Persian Gulf</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m777895/persian-gulf">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Persian Gulf</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>51.1813,28.34739 51.00523,28.84046 50.80408,28.91864 50.92301,29.06861 50.65587,29.14019 50.65425,29.45886 50.07141,30.19616 49.55587,30.00041 49.46639,30.15691 49.243,30.13598 49.18857,30.40743 49.32179,30.47276 49.09954,30.51955 48.82665,30.33595 48.92535,30.03273 48.50084,29.83997 48.42233,29.92357 48.50301,29.82789 48.25773,30.02124 47.97729,30.00685 47.95662,30.30585 47.80403,30.3262 48.18836,29.54684 47.98012,29.57542 47.70055,29.36074 48.10138,29.35259 48.46857,28.38212 48.88384,27.83389 48.84832,27.60348 49.21416,27.58131 49.31223,27.42545 49.12302,27.40616 49.41792,27.095 49.48641,27.34465 49.70212,27.30077 49.48768,27.30401 49.55486,27.16351 49.62683,27.28432 49.58366,27.09215 50.15923,26.64707 49.99459,26.74471 50.24076,26.37073 50.15593,26.03925 50.03283,26.20227 49.99794,25.99691 50.49327,25.40268 50.76812,24.71936 50.87074,24.80126 50.7568,25.50412 50.84937,25.46606 50.8463,25.65344 50.90546,25.50849 50.9691,25.60066 51.03393,26.04367 51.26453,26.15695 51.65786,25.92682 51.47415,25.51377 51.65658,25.02912 51.3691,24.58001 51.22069,24.64278 51.30224,24.50462 51.505,24.57419 51.28174,24.28977 51.59141,24.25129 51.57191,24.39216 51.6331,24.20396 51.65448,24.32648 51.77558,24.27374 51.80071,24.00725 52.08497,23.95663 52.59028,24.21484 53.91348,24.0708 54.17543,24.18817 54.01695,24.18515 54.12804,24.3284 54.24385,24.22724 54.51425,24.31445 54.67188,24.8142 55.34534,25.19927 55.57843,25.60964 55.7905,25.69231 55.21274,26.73063 54.79282,26.49575 54.28658,26.73228 53.72584,26.70115 53.46106,26.97935 52.69432,27.29277 52.43375,27.64699 51.96665,27.88 51.40396,27.92164 51.1813,28.34739</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Persian Gulf</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>52,26</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

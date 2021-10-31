@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Magadan</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad14067/magadan">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Magadan (Magdala)</name>
+	<description><![CDATA[Matt <a href="https://www.biblegateway.com/passage/?search=Matt.15.39&amp;version=ESV">15:39</a>]]></description>
+	<Placemark>
+		<name>Magadan / Majdal</name>
+		<description>another name for Magdala</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.513552,32.827069</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Magadan / along the eastern side of the Sea of Galilee</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.612739,32.886484 35.624438,32.879182 35.633131,32.87339 35.643263,32.857885 35.648347,32.84555 35.639655,32.834476 35.641155,32.829249 35.64499,32.816019 35.638726,32.799466 35.639016,32.789887 35.634522,32.786867 35.63541,32.778806 35.638403,32.773265 35.6318,32.747377 35.624615,32.736302 35.618326,32.727237 35.612638,32.718431 35.603078,32.710152 35.591122,32.705373 35.642959,32.701597 35.676717,32.782938 35.676183,32.861962 35.624525,32.923148 35.612739,32.886484</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Magadan / along the eastern side of the Sea of Galilee</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.646371,32.860443</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Magadan / Majdal</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.513552,32.827069</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

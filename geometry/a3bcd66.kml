@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dura</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3bcd66/dura">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Dura</name>
+	<description><![CDATA[Dan <a href="https://www.biblegateway.com/passage/?search=Dan.3.1&amp;version=ESV">3:1</a>]]></description>
+	<Placemark>
+		<name>Dura / Tulul Dura</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>44.453522,32.45224 44.299636,32.448582 44.291237,32.408403 44.312659,32.352486 44.326371,32.296583 44.364605,32.252183 44.370594,32.195537 44.501938,32.205673 44.679074,32.249275 44.580871,32.384826 44.499405,32.405638 44.453522,32.45224</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Dura / Tulul Dura</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.501667,32.32</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dura / in Babylon</name>
+		<description>in Babylon 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.422222,32.543333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dura / Tall al Lahm</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>46.365556,30.774444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Dura / Tell ed Der</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>44.29833,33.09979</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

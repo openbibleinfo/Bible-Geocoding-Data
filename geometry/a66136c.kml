@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Baal-tamar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a66136c/baal-tamar">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Baal-tamar</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.20.33&amp;version=ESV">20:33</a>]]></description>
+	<Placemark>
+		<name>Baal-tamar / within 10 km of Tel el Ful</name>
+		<description>within 10 km of Gibeah 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23072,31.91305 35.21964,31.91255 35.20869,31.91108 35.19798,31.90864 35.18763,31.90526 35.17775,31.90099 35.16846,31.89585 35.15984,31.88993 35.15201,31.88327 35.14504,31.87595 35.13901,31.86805 35.13399,31.85966 35.13003,31.85086 35.12717,31.84177 35.12544,31.83247 35.12488,31.82307 35.12547,31.81367 35.12721,31.80437 35.13009,31.79528 35.13406,31.7865 35.1391,31.77811 35.14514,31.77022 35.15211,31.76291 35.15995,31.75626 35.16855,31.75034 35.17784,31.74522 35.18771,31.74095 35.19804,31.73758 35.20873,31.73514 35.21967,31.73367 35.23072,31.73318 35.24177,31.73367 35.2527,31.73514 35.26339,31.73758 35.27373,31.74095 35.28359,31.74522 35.29288,31.75034 35.30149,31.75626 35.30932,31.76291 35.3163,31.77022 35.32234,31.77811 35.32737,31.7865 35.33135,31.79528 35.33423,31.80437 35.33597,31.81367 35.33656,31.82307 35.33599,31.83247 35.33427,31.84177 35.33141,31.85086 35.32745,31.85966 35.32242,31.86805 35.3164,31.87595 35.30943,31.88327 35.30159,31.88993 35.29298,31.89585 35.28368,31.90099 35.27381,31.90526 35.26346,31.90864 35.25274,31.91108 35.24179,31.91255 35.23072,31.91305</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / within 10 km of Tel el Ful</name>
+		<description>within 10 km of Gibeah 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.230718,31.823113</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / within 10 km of Jaba</name>
+		<description>within 10 km of Gibeah 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.26111,31.94743 35.25003,31.94694 35.23908,31.94546 35.22836,31.94303 35.21801,31.93965 35.20813,31.93537 35.19883,31.93024 35.19021,31.92431 35.18237,31.91765 35.1754,31.91033 35.16937,31.90243 35.16434,31.89404 35.16038,31.88525 35.15752,31.87616 35.1558,31.86686 35.15523,31.85746 35.15582,31.84806 35.15756,31.83876 35.16044,31.82967 35.16442,31.82088 35.16946,31.8125 35.1755,31.80461 35.18248,31.7973 35.19031,31.79065 35.19892,31.78473 35.20821,31.77961 35.21808,31.77534 35.22842,31.77197 35.23912,31.76953 35.25005,31.76806 35.26111,31.76757 35.27217,31.76806 35.2831,31.76953 35.2938,31.77197 35.30414,31.77534 35.31401,31.77961 35.3233,31.78473 35.33191,31.79065 35.33975,31.7973 35.34672,31.80461 35.35276,31.8125 35.3578,31.82088 35.36178,31.82967 35.36466,31.83876 35.3664,31.84806 35.36699,31.85746 35.36642,31.86686 35.3647,31.87616 35.36184,31.88525 35.35788,31.89404 35.35285,31.90243 35.34682,31.91033 35.33985,31.91765 35.33201,31.92431 35.3234,31.93024 35.3141,31.93537 35.30422,31.93965 35.29386,31.94303 35.28315,31.94546 35.27219,31.94694 35.26111,31.94743</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / within 10 km of Jaba</name>
+		<description>within 10 km of Gibeah 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.8575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / Ras et Tawil</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.241283,31.831498</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / Khirbet Atara</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.21752,31.87993</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / Sahre al Gibiyeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.235471,31.821309</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / Khirbet Erha</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.236,31.84746</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / En Hazeva</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.2459,30.8087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / En Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.351662,30.985553</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Baal-tamar / Mezad Tamar</name>
+		<description>another name for Tamar 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.243068,31.026754</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

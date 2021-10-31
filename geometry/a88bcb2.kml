@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Suphah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a88bcb2/suphah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Suphah</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.21.14&amp;version=ESV">21:14</a>]]></description>
+	<Placemark>
+		<name>Suphah / Sufeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.81749,31.665609</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Suphah / Gulf of Aqaba</name>
+		<description>another name for Suph</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.552797,27.912175 34.502442,27.945285 34.49441,28.000801 34.515766,28.014194 34.539307,28.012414 34.551573,27.993272 34.514608,27.983488 34.502978,27.992615 34.503207,27.980988 34.531709,27.964444 34.584935,27.966513 34.624345,28.024018 34.613733,28.03915 34.622263,28.047342 34.604131,28.06187 34.609604,28.095631 34.596959,28.100619 34.575455,28.086369 34.574392,28.108647 34.632731,28.174941 34.658738,28.164709 34.645581,28.188397 34.667213,28.207426 34.673818,28.25853 34.685895,28.269184 34.67642,28.266986 34.722914,28.348969 34.763134,28.460335 34.805453,28.523198 34.792206,28.577488 34.797524,28.613072 34.775127,28.662128 34.834364,28.81158 34.828566,28.831644 34.840086,28.867719 34.821524,28.883916 34.843352,28.936854 34.844849,28.971808 34.861198,28.994728 34.847166,29.028097 34.872501,29.069921 34.881281,29.142318 34.892396,29.149362 34.895995,29.185827 34.916129,29.204827 34.909534,29.220608 34.941133,29.240726 34.928579,29.290532 34.951523,29.30224 34.947843,29.339896 34.966345,29.359573 34.958446,29.36608 34.963955,29.397419 34.979647,29.408449 34.96751,29.446552 35.000698,29.526343 34.971128,29.551893 34.96103,29.547827 34.966094,29.553415 34.913712,29.498437 34.859354,29.472556 34.852546,29.44567 34.827942,29.431653 34.832762,29.422944 34.809092,29.40024 34.80343,29.376257 34.786532,29.37088 34.778359,29.340392 34.742015,29.312124 34.738566,29.209568 34.717913,29.172417 34.692086,29.16261 34.66377,29.045236 34.684653,29.012738 34.686614,28.983528 34.653027,28.969886 34.639407,28.949959 34.647929,28.862631 34.621155,28.839357 34.626951,28.730838 34.575396,28.652977 34.575254,28.623968 34.5519,28.61123 34.543652,28.57926 34.51894,28.553019 34.511904,28.477566 34.485851,28.477248 34.456132,28.434711 34.4412,28.359326 34.409443,28.320438 34.416282,28.207859 34.426711,28.207554 34.423285,28.199104 34.449188,28.17233 34.427105,28.082609 34.442329,28.026045 34.427081,27.974472 34.384807,27.951732 34.366731,27.916448 34.347942,27.910287 34.552797,27.912175</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Suphah / Gulf of Aqaba</name>
+		<description>another name for Suph</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.75,28.75</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Suphah / Sufeh</name>
+		<description>another name for Suph</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.81749,31.665609</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Suphah / Gulf of Aqaba</name>
+		<description>another name for the Red Sea 2</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates></coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Suphah / Gulf of Aqaba</name>
+		<description>another name for the Red Sea 2</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.75,28.75</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

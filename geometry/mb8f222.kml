@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi al Juththa</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mb8f222/wadi-al-juththa">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi al Juththa</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.31439,31.87219 35.31721,31.87258 35.3183,31.87212 35.32075,31.87264 35.32405,31.8727 35.32642,31.87474 35.32806,31.8753 35.33129,31.87569 35.33252,31.87482 35.33452,31.87453 35.33602,31.8738 35.33625,31.87302 35.33693,31.87331 35.33736,31.8729 35.33873,31.87343 35.34074,31.87341 35.34241,31.87319 35.3445,31.87235 35.3491,31.87184 35.34962,31.87153 35.34979,31.87094 35.34876,31.87007 35.34861,31.86913 35.35014,31.86838 35.35389,31.86855 35.35483,31.86781 35.35647,31.86888 35.3574,31.8688 35.35799,31.8682 35.36041,31.86897 35.36119,31.86879 35.36207,31.86796 35.3638,31.86805 35.36413,31.86713 35.36683,31.86636 35.37101,31.86623 35.37385,31.86669 35.37421,31.86627 35.37464,31.86653 35.37636,31.86363 35.37779,31.86295 35.37888,31.86327 35.37874,31.86361 35.38007,31.86529 35.37944,31.8661 35.38016,31.8665 35.38129,31.86621 35.3815,31.86535 35.38218,31.86484 35.3823,31.86397 35.3837,31.86348 35.38499,31.86402 35.38765,31.86437 35.38916,31.86513 35.38987,31.86499 35.39058,31.86546 35.39353,31.86526 35.39606,31.86627 35.39757,31.86553 35.3986,31.8663 35.39977,31.8664 35.40085,31.86549 35.4016,31.86605 35.40292,31.86525 35.40314,31.86575 35.40429,31.86646 35.40649,31.86477 35.40729,31.86592 35.4107,31.86575 35.41328,31.86775 35.41648,31.86872 35.41743,31.8686 35.41818,31.86774 35.42024,31.86765 35.42087,31.8677 35.42077,31.86823 35.42022,31.86833 35.42059,31.86888 35.42164,31.86901 35.42229,31.86831 35.42323,31.86899 35.42372,31.86859 35.42409,31.86878 35.42428,31.86787 35.42492,31.86776 35.42592,31.86858 35.42579,31.86944 35.42654,31.8693 35.42656,31.86987 35.42733,31.86944 35.42759,31.87028 35.42836,31.87049 35.42853,31.87094 35.42934,31.87106 35.4301,31.87194 35.43088,31.87203 35.43173,31.87168 35.43317,31.87307 35.43446,31.87249 35.43478,31.87143 35.43579,31.87093 35.43653,31.87021 35.43636,31.86989 35.43683,31.86981 35.43726,31.86918</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi al Juththa</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.40078,31.86565</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Aijalon 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a1c600b/aijalon-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Aijalon 1</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.42&amp;version=ESV">19:42</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.24&amp;version=ESV">21:24</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.1.35&amp;version=ESV">1:35</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.14.31&amp;version=ESV">14:31</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.6.69&amp;version=ESV">6:69</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.8.13&amp;version=ESV">8:13</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.11.10&amp;version=ESV">11:10</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.28.18&amp;version=ESV">28:18</a>]]></description>
+	<Placemark>
+		<name>Aijalon 1 / Yalo</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.023611,31.841111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 1 / Tell el Kokah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.0263,31.8401</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aijalon 1 / Khirbet Haiyan</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

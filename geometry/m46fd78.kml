@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sumatra</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m46fd78/sumatra">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Sumatra</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>105.96105,-3.825289 105.824065,-3.59369 106.089035,-3.253498 106.048853,-2.998427 105.813787,-2.91824 105.779222,-2.682008 105.615453,-2.604811 105.621804,-2.391358 105.211442,-2.326682 105.024796,-2.392632 104.903083,-2.279503 104.757262,-2.385944 104.898276,-2.111398 104.839405,-2.008644 104.68422,-2.055058 104.464874,-1.911095 104.525567,-1.712164 104.369929,-1.027987 103.754947,-0.9899 103.428791,-0.729187 103.444455,-0.513733 103.785439,-0.342312 103.461905,-0.175796 103.814921,-0.00662 103.704255,0.305383 103.391476,0.528999 103.107491,0.456496 102.882501,0.73274 102.421864,0.800185 102.226532,1.002036 102.148229,1.378458 101.753138,1.663386 101.409466,1.697612 101.304213,2.042413 101.043384,2.290961 100.775507,2.284229 100.761666,2.087123 100.430776,2.271592 100.219981,2.704501 100.121099,2.619876 100.223473,2.443098 100.088772,2.479946 100.089038,2.710552 99.968885,2.704577 99.998567,2.571246 99.948807,2.695184 99.990606,2.959868 99.75675,3.168556 98.707767,3.770838 98.540141,4.01144 98.162186,4.151191 98.28628,4.417974 97.98459,4.535536 97.904645,4.890476 97.509996,5.243645 97.201674,5.140975 96.850727,5.276768 96.391505,5.209819 96.077163,5.294119 95.615164,5.626482 95.215399,5.565422 95.213363,5.280072 95.41256,4.819787 96.473056,3.768057 96.776462,3.737858 97.00221,3.547466 97.372605,2.986316 97.594658,2.878519 97.662556,2.402916 97.778207,2.239997 97.982253,2.256299 98.797026,1.725113 98.827057,1.603546 98.712643,1.560647 99.058351,0.74245 99.137975,0.252766 99.352965,0.231401 99.747389,-0.03772 99.817705,-0.29964 100.331047,-0.86088 100.413977,-1.05825 100.348587,-1.171411 100.567911,-1.336188 100.859225,-1.915197 100.891502,-2.327413 101.322617,-2.738526 101.616405,-3.239676 102.231216,-3.676674 102.307134,-3.988315 103.329188,-4.809013 103.838536,-5.065611 104.583771,-5.942817 104.733172,-5.928937 104.558216,-5.514325 105.15213,-5.809546 105.289706,-5.445357 105.717332,-5.908117 105.90216,-4.940302 105.818915,-4.158703 105.96105,-3.825289</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Sumatra</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>102,0</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

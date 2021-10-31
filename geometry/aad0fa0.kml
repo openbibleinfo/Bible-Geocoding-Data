@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mizpah 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aad0fa0/mizpah-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mizpah 2 (Mizpeh)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.11.3&amp;version=ESV">11:3</a>]]></description>
+	<Placemark>
+		<name>Mizpah 2 / within 30 km of Mount Hermon</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85,33.6698 35.81611,33.66831 35.7826,33.66388 35.74984,33.65655 35.71818,33.6464 35.68798,33.63355 35.65957,33.61812 35.63326,33.60031 35.60934,33.5803 35.58807,33.55831 35.56969,33.53458 35.5544,33.50939 35.54235,33.48299 35.53369,33.45569 35.5285,33.42779 35.52683,33.39958 35.52871,33.37138 35.5341,33.34351 35.54294,33.31625 35.55514,33.28992 35.57056,33.26479 35.58903,33.24114 35.61034,33.21924 35.63426,33.19932 35.66052,33.18159 35.68885,33.16625 35.71893,33.15346 35.75043,33.14337 35.78301,33.13608 35.81632,33.13168 35.85,33.1302 35.88368,33.13168 35.91699,33.13608 35.94957,33.14337 35.98107,33.15346 36.01115,33.16625 36.03948,33.18159 36.06574,33.19932 36.08966,33.21924 36.11097,33.24114 36.12944,33.26479 36.14486,33.28992 36.15706,33.31625 36.1659,33.34351 36.17129,33.37138 36.17317,33.39958 36.1715,33.42779 36.16631,33.45569 36.15765,33.48299 36.1456,33.50939 36.13031,33.53458 36.11193,33.55831 36.09066,33.5803 36.06674,33.60031 36.04043,33.61812 36.01202,33.63355 35.98182,33.6464 35.95016,33.65655 35.9174,33.66388 35.88389,33.66831 35.85,33.6698</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / within 30 km of Mount Hermon</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Qalat es Subeibeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.714722,33.252778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Marjayoun</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.604157,33.398855 35.540145,33.372794 35.525269,33.299632 35.436578,33.304043 35.449799,33.205364 35.504943,33.113535 35.624951,33.276669 35.647162,33.383637 35.604157,33.398855</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Marjayoun</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.5921,33.3611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Metula</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.576667,33.278889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / about 5 km around Arnah</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.87917,33.41108 35.87354,33.41083 35.86797,33.41009 35.86252,33.40888 35.85726,33.40719 35.85223,33.40505 35.84751,33.40249 35.84313,33.39952 35.83914,33.39619 35.8356,33.39253 35.83253,33.38859 35.82997,33.38439 35.82795,33.38 35.8265,33.37545 35.82562,33.3708 35.82533,33.3661 35.82562,33.3614 35.82651,33.35675 35.82797,33.35221 35.82999,33.34781 35.83255,33.34362 35.83562,33.33967 35.83917,33.33602 35.84315,33.33269 35.84753,33.32973 35.85226,33.32717 35.85728,33.32503 35.86254,33.32334 35.86798,33.32213 35.87354,33.32139 35.87917,33.32114 35.88479,33.32139 35.89036,33.32213 35.8958,33.32334 35.90106,33.32503 35.90608,33.32717 35.9108,33.32973 35.91518,33.33269 35.91916,33.33602 35.92271,33.33967 35.92578,33.34362 35.92834,33.34781 35.93036,33.35221 35.93183,33.35675 35.93271,33.3614 35.93301,33.3661 35.93272,33.3708 35.93184,33.37545 35.93038,33.38 35.92836,33.38439 35.92581,33.38859 35.92274,33.39253 35.91919,33.39619 35.91521,33.39952 35.91083,33.40249 35.9061,33.40505 35.90108,33.40719 35.89581,33.40888 35.89037,33.41009 35.8848,33.41083 35.87917,33.41108</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / about 5 km around Arnah</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.879167,33.366111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Litani River</name>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.956625,33.744107 35.951792,33.750776 35.925624,33.760151 35.916848,33.753764 35.905014,33.759375 35.882596,33.758585 35.874947,33.743215 35.867356,33.74255 35.849482,33.730823 35.830111,33.728757 35.82649,33.703568 35.820149,33.699431 35.81773,33.692228 35.818609,33.669176 35.79956,33.65796 35.791449,33.648302 35.781118,33.644533 35.778671,33.63707 35.757713,33.630419 35.734768,33.611912 35.727451,33.614967 35.717816,33.613181 35.716456,33.615897 35.707239,33.612333 35.703431,33.601046 35.697088,33.596813 35.691361,33.547043 35.693834,33.540018 35.685906,33.530587 35.690009,33.527381 35.682779,33.522721 35.679109,33.509147 35.655871,33.490158 35.667334,33.475568 35.663606,33.470171 35.66432,33.462228 35.652936,33.441456 35.63753,33.428993 35.631049,33.427829 35.623754,33.420504 35.622407,33.412171 35.617247,33.416367 35.61037,33.413447 35.607296,33.40339 35.595805,33.39463 35.591905,33.382039 35.583977,33.379692 35.567315,33.382115 35.55208,33.372753 35.548282,33.366799 35.549929,33.360571 35.539801,33.346308 35.544773,33.344292 35.540241,33.342741 35.542928,33.338115 35.537703,33.325544 35.539098,33.312397 35.534935,33.298642 35.525992,33.295653 35.512142,33.301664 35.491564,33.301825 35.480696,33.312268 35.476584,33.308814 35.472568,33.311769 35.469187,33.307346 35.462519,33.309047 35.464755,33.311403 35.462297,33.312453 35.452753,33.308798 35.448023,33.312016 35.440082,33.307998 35.431773,33.308664 35.431016,33.31394 35.423946,33.315893 35.404315,33.300413 35.390273,33.311148 35.385653,33.305619 35.373635,33.304998 35.368392,33.312639 35.357271,33.308182 35.355724,33.312619 35.346481,33.314421 35.348855,33.320761 35.341011,33.317463 35.341654,33.32753 35.333315,33.323013 35.328466,33.326446 35.325801,33.320298 35.318446,33.320064 35.316867,33.324417 35.307846,33.320466 35.30735,33.324351 35.30227,33.325576 35.293012,33.324806 35.288001,33.320081 35.284035,33.323965 35.270541,33.321953 35.267588,33.325478 35.26592,33.321099 35.258397,33.327325 35.259851,33.329699 35.254078,33.331418 35.252217,33.336547 35.257052,33.33807 35.244513,33.338907</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Mizpah 2 / Litani River</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245005,33.338397</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

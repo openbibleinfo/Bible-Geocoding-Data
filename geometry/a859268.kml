@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bochim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a859268/bochim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bochim (Bokim)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.2.1&amp;version=ESV">2:1</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.2.5&amp;version=ESV">2:5</a>]]></description>
+	<Placemark>
+		<name>Bochim / Beitin</name>
+		<description>another name for Bethel 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.241389,31.922778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / Al Bira</name>
+		<description>another name for Bethel 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / Burj Beitin</name>
+		<description>another name for Bethel 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.245478,31.921866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24139,31.93177 35.24028,31.93172 35.23919,31.93157 35.23811,31.93133 35.23708,31.93099 35.23609,31.93057 35.23516,31.93005 35.2343,31.92946 35.23351,31.9288 35.23282,31.92806 35.23221,31.92727 35.23171,31.92644 35.23131,31.92556 35.23102,31.92465 35.23085,31.92372 35.23079,31.92278 35.23085,31.92184 35.23103,31.92091 35.23131,31.92 35.23171,31.91912 35.23221,31.91828 35.23282,31.91749 35.23352,31.91676 35.2343,31.91609 35.23516,31.9155 35.23609,31.91499 35.23708,31.91456 35.23812,31.91422 35.23919,31.91398 35.24028,31.91383 35.24139,31.91378 35.2425,31.91383 35.24359,31.91398 35.24466,31.91422 35.2457,31.91456 35.24669,31.91499 35.24762,31.9155 35.24848,31.91609 35.24926,31.91676 35.24996,31.91749 35.25056,31.91828 35.25107,31.91912 35.25147,31.92 35.25175,31.92091 35.25193,31.92184 35.25198,31.92278 35.25193,31.92372 35.25175,31.92465 35.25147,31.92556 35.25107,31.92644 35.25057,31.92727 35.24996,31.92806 35.24926,31.9288 35.24848,31.92946 35.24762,31.93005 35.24669,31.93057 35.2457,31.93099 35.24466,31.93133 35.24359,31.93157 35.2425,31.93172 35.24139,31.93177</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.241389,31.922778</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Al Bira</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21496,31.91414 35.21385,31.91409 35.21276,31.91394 35.21168,31.9137 35.21065,31.91336 35.20966,31.91293 35.20873,31.91242 35.20787,31.91183 35.20708,31.91116 35.20639,31.91043 35.20578,31.90964 35.20528,31.9088 35.20488,31.90792 35.2046,31.90701 35.20442,31.90608 35.20436,31.90514 35.20442,31.9042 35.2046,31.90327 35.20488,31.90236 35.20528,31.90148 35.20578,31.90065 35.20639,31.89986 35.20709,31.89912 35.20787,31.89846 35.20873,31.89787 35.20966,31.89735 35.21065,31.89693 35.21168,31.89659 35.21276,31.89635 35.21385,31.8962 35.21496,31.89615 35.21607,31.8962 35.21716,31.89635 35.21823,31.89659 35.21927,31.89693 35.22025,31.89735 35.22118,31.89787 35.22205,31.89846 35.22283,31.89912 35.22353,31.89986 35.22413,31.90065 35.22464,31.90148 35.22503,31.90236 35.22532,31.90327 35.22549,31.9042 35.22555,31.90514 35.22549,31.90608 35.22532,31.90701 35.22503,31.90792 35.22464,31.9088 35.22413,31.90964 35.22353,31.91043 35.22283,31.91116 35.22205,31.91183 35.22119,31.91242 35.22026,31.91293 35.21927,31.91336 35.21823,31.9137 35.21716,31.91394 35.21607,31.91409 35.21496,31.91414</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Al Bira</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.214958,31.905142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Burj Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.24548,31.93086 35.24437,31.93081 35.24327,31.93066 35.2422,31.93042 35.24117,31.93008 35.24018,31.92965 35.23925,31.92914 35.23839,31.92855 35.2376,31.92788 35.23691,31.92715 35.2363,31.92636 35.2358,31.92552 35.2354,31.92464 35.23511,31.92374 35.23494,31.92281 35.23488,31.92187 35.23494,31.92093 35.23511,31.92 35.2354,31.91909 35.2358,31.91821 35.2363,31.91737 35.23691,31.91658 35.2376,31.91585 35.23839,31.91518 35.23925,31.91459 35.24018,31.91408 35.24117,31.91365 35.2422,31.91331 35.24328,31.91307 35.24437,31.91292 35.24548,31.91287 35.24659,31.91292 35.24768,31.91307 35.24875,31.91331 35.24979,31.91365 35.25078,31.91408 35.25171,31.91459 35.25257,31.91518 35.25335,31.91585 35.25405,31.91658 35.25465,31.91737 35.25516,31.91821 35.25555,31.91909 35.25584,31.92 35.25602,31.92093 35.25607,31.92187 35.25602,31.92281 35.25584,31.92374 35.25556,31.92464 35.25516,31.92552 35.25465,31.92636 35.25405,31.92715 35.25335,31.92788 35.25257,31.92855 35.25171,31.92914 35.25078,31.92965 35.24979,31.93008 35.24875,31.93042 35.24768,31.93066 35.24659,31.93081 35.24548,31.93086</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Bochim / within 1 km of Burj Beitin</name>
+		<description>another name for Allon-bacuth</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.245478,31.921866</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

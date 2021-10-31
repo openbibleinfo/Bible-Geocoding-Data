@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Rummananeh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/ma88b1e/wadi-rummananeh">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Rummananeh</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.31773,31.89931 35.31827,31.89927 35.31863,31.89862 35.31882,31.89745 35.31843,31.89616 35.31873,31.8952 35.31837,31.89437 35.31861,31.89401 35.31977,31.89371 35.32034,31.8938 35.32051,31.89466 35.32094,31.89474 35.32092,31.89491 35.32217,31.89503 35.32282,31.89637 35.32265,31.89754 35.32402,31.89751 35.32456,31.8989 35.32522,31.89897 35.326,31.89935 35.32651,31.89918 35.32706,31.89795 35.32691,31.89761 35.32601,31.8974 35.32589,31.8972 35.32639,31.89536 35.32614,31.89467 35.32634,31.89431 35.32621,31.89334 35.3256,31.89282 35.32463,31.8931 35.32447,31.8927 35.3249,31.8919 35.32534,31.89181 35.32658,31.89171 35.32838,31.89261 35.32988,31.89203 35.33086,31.89223 35.33199,31.89144 35.33314,31.89162 35.33358,31.89228 35.3346,31.89241 35.33593,31.89295 35.33612,31.89356 35.33558,31.89403 35.33539,31.89471 35.33625,31.89499 35.33758,31.89634 35.33935,31.89537 35.34023,31.89378 35.34175,31.89365 35.3419,31.89322 35.34254,31.89311 35.34287,31.89262 35.34328,31.89252 35.34355,31.89195 35.3441,31.89183 35.34457,31.89136 35.34519,31.8914 35.34564,31.89101 35.34687,31.8912 35.34787,31.89103 35.34827,31.89146 35.3488,31.89159 35.35039,31.8916 35.35064,31.89122 35.35187,31.89044 35.35268,31.89025 35.35316,31.89055 35.35322,31.8912 35.35408,31.89131 35.35525,31.8924 35.35614,31.89254 35.35714,31.89399 35.35857,31.89416 35.36065,31.89373 35.36151,31.89259 35.36215,31.89244 35.36367,31.89073 35.36435,31.89037 35.36542,31.89082 35.36611,31.89154 35.36671,31.89149 35.36752,31.89191 35.3678,31.89187 35.36835,31.89131 35.3681,31.89033 35.36841,31.88967 35.36974,31.88973 35.37199,31.88888 35.37203,31.88866 35.37401,31.88781 35.37501,31.88781 35.37582,31.88821 35.37673,31.88759 35.37773,31.8884 35.37931,31.88867</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Rummananeh</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.3225,31.8949</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Arabah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/ma7c659/wadi-arabah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Arabah</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.13738,30.15481 35.13452,30.15912 35.13606,30.16378 35.13471,30.16881 35.13961,30.18437 35.14543,30.1938 35.1519,30.19738 35.14588,30.21666 35.14626,30.22513 35.14157,30.23284 35.14329,30.24177 35.15042,30.25036 35.15857,30.27574 35.15917,30.28498 35.16578,30.2942 35.16148,30.30348 35.1608,30.31002 35.17127,30.31959 35.17419,30.32325 35.17517,30.32948 35.18647,30.34174 35.18558,30.34941 35.18821,30.35194 35.18977,30.36009 35.16283,30.40034 35.16145,30.40987 35.15744,30.41914 35.1551,30.44168 35.16746,30.4555 35.17472,30.47005 35.17473,30.47501 35.18161,30.48143 35.18044,30.48636 35.18988,30.50248 35.18598,30.51408 35.18632,30.52131 35.19611,30.53368 35.20222,30.55476 35.20615,30.58047 35.22035,30.62318 35.24972,30.65068 35.25529,30.66196 35.25607,30.67426 35.2744,30.69175 35.27813,30.70601 35.28856,30.72013 35.29334,30.73865 35.29542,30.77188 35.29875,30.78323 35.31347,30.80382 35.33336,30.81355 35.33787,30.83086 35.33151,30.84821 35.33173,30.85565 35.33759,30.8752 35.36348,30.9206 35.36967,30.92673 35.37698,30.92879 35.38664,30.92474 35.39119,30.92598 35.39623,30.92423 35.40988,30.93362 35.41331,30.94295 35.42327,30.95191 35.42473,30.96083 35.42706,30.96286 35.42769,30.98258 35.43322,30.99204 35.43351,30.99832 35.43781,31.0025 35.43697,31.01393 35.42986,31.01959 35.43094,31.02524 35.42284,31.04095 35.4231,31.04672 35.45445,31.09376 35.45806,31.10491 35.45559,31.11483 35.4596,31.13595 35.45533,31.15538 35.44813,31.17211 35.41509,31.21179 35.39459,31.24111 35.39253,31.24749 35.39369,31.25598 35.396,31.2592 35.39456,31.26134 35.39839,31.26296 35.39629,31.27538 35.40029,31.27751 35.40625,31.2902 35.40867,31.29069 35.40837,31.29431 35.41327,31.29633 35.41296,31.29984 35.41045,31.30079 35.41066,31.30762 35.42347,31.31994 35.42757,31.32151 35.4281,31.32521</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Arabah</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.45,31.06667</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

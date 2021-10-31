@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi Mujib</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mc95e22/wadi-mujib">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi Mujib</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.828903,31.421044 35.824892,31.425322 35.824776,31.43348 35.820353,31.439742 35.818416,31.444431 35.813492,31.448852 35.809152,31.448843 35.807222,31.450152 35.806443,31.452111 35.802641,31.452879 35.800892,31.454078 35.800065,31.455813 35.799025,31.456018 35.795201,31.455309 35.793762,31.452106 35.792817,31.451486 35.789206,31.453467 35.786916,31.450117 35.785829,31.449763 35.776489,31.453735 35.774102,31.453218 35.773619,31.453927 35.771871,31.454179 35.76884,31.457341 35.76604,31.456636 35.763162,31.454817 35.761099,31.456389 35.75907,31.456696 35.758122,31.45551 35.75839,31.454229 35.756999,31.453365 35.754213,31.452978 35.750649,31.45093 35.745166,31.451557 35.743112,31.452394 35.741975,31.453685 35.736694,31.455104 35.727078,31.455053 35.726273,31.454444 35.725887,31.451877 35.724629,31.451103 35.717978,31.451543 35.716578,31.450529 35.713402,31.450548 35.709279,31.448985 35.705322,31.449179 35.703982,31.448204 35.703805,31.446552 35.699505,31.442504 35.694012,31.440615 35.69237,31.441072 35.688229,31.440033 35.686619,31.438065 35.683438,31.438193 35.680421,31.43517 35.677846,31.429446 35.67654,31.428924 35.674206,31.429369 35.669891,31.434762 35.667533,31.434545 35.665494,31.43536 35.663477,31.434842 35.66263,31.437122 35.656901,31.440308 35.651085,31.440104 35.648811,31.44569 35.644541,31.444171 35.640764,31.441223 35.640035,31.442175 35.637849,31.442511 35.635893,31.445013 35.633576,31.44428 35.632635,31.445797 35.628386,31.443262 35.627739,31.443529 35.627632,31.444811 35.625433,31.444967 35.624843,31.446175 35.623512,31.44677 35.621731,31.446551 35.619718,31.44534 35.616882,31.445992 35.614589,31.444754 35.614049,31.445571 35.608503,31.447676 35.603294,31.446728 35.603299,31.448358 35.599177,31.451021 35.597119,31.453465 35.593925,31.455794 35.590881,31.454957 35.588796,31.456208 35.584945,31.456703 35.583692,31.46081 35.58205,31.461995 35.581911,31.463134 35.57911,31.46458 35.577801,31.466196 35.567929,31.467066 35.56324,31.464308</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi Mujib</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.573333,31.465833</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

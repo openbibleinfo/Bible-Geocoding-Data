@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Illyricum</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac405c0/illyricum">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Illyricum</name>
+	<description><![CDATA[Rom <a href="https://www.biblegateway.com/passage/?search=Rom.15.19&amp;version=ESV">15:19</a>]]></description>
+	<Folder>
+		<name>Illyricum</name>
+		<Placemark>
+			<name>Illyricum (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>17.12464,44.06862 17.12464,43.95523 17.27535,43.72843 17.57677,43.84183 17.42606,43.95523 17.12464,44.06862</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>16.22038,44.8624 15.91897,44.749 16.5218,43.84183 16.67251,43.72843 16.82322,43.72843 16.97393,43.72843 17.12464,43.72843 17.27535,43.72843 17.42606,43.72843 17.57677,43.72843 17.72748,43.72843 18.0289,43.72843 18.1796,43.84183 16.67251,44.749 16.37109,44.8624 16.22038,44.8624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>16.97393,44.749 16.5218,44.8624 16.37109,44.8624 16.22038,44.8624 16.06967,44.8624 15.91897,44.749 15.91897,44.63561 16.37109,43.95523 16.5218,43.84183 16.67251,43.72843 17.27535,43.38825 17.42606,43.38825 17.57677,43.38825 17.72748,43.38825 18.63173,43.84183 18.48102,43.95523 18.33031,44.06862 16.97393,44.749</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>16.06967,44.06862 16.22038,43.95523 16.37109,43.84183 16.5218,43.72843 16.97393,43.50164 18.1796,42.93466 18.33031,42.93466 18.63173,43.38825 18.63173,43.84183 18.63173,43.95523 18.48102,44.06862 17.57677,44.63561 17.12464,44.8624 16.22038,44.9758 16.06967,44.9758 15.91897,44.8624 15.76826,44.749 16.06967,44.06862</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>15.76826,44.8624 15.61755,44.749 15.91897,44.29542 16.06967,44.06862 16.22038,43.95523 16.37109,43.84183 16.5218,43.72843 17.12464,43.38825 18.1796,42.82126 18.78244,42.59447 18.93315,42.70787 18.93315,42.82126 18.93315,42.93466 18.93315,43.72843 18.63173,44.06862 17.27535,44.8624 16.82322,44.9758 16.67251,44.9758 16.5218,44.9758 16.37109,44.9758 16.22038,44.9758 16.06967,44.9758 15.91897,44.9758 15.76826,44.8624</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>15.91897,44.9758 15.61755,44.8624 15.61755,44.749 15.76826,44.18202 16.37109,43.72843 17.87819,42.93466 18.63173,42.59447 19.6867,42.36768 19.6867,42.48107 19.6867,42.59447 19.08386,43.72843 18.93315,43.84183 18.78244,43.95523 18.63173,44.06862 17.42606,44.8624 17.12464,44.9758 16.97393,44.9758 16.82322,44.9758 16.67251,44.9758 16.5218,44.9758 16.37109,44.9758 16.22038,44.9758 16.06967,44.9758 15.91897,44.9758</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>16.37109,45.31599 15.31613,44.9758 15.46684,44.40881 15.76826,44.06862 15.91897,43.95523 16.06967,43.84183 18.63173,42.48107 19.08386,42.25428 19.6867,42.36768 19.83741,42.59447 19.83741,42.82126 19.23457,44.06862 18.1796,44.8624 16.37109,45.31599</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>14.26116,45.31599 14.26116,45.20259 15.31613,44.06862 16.37109,43.50164 19.38528,42.02749 19.53599,42.14088 19.6867,42.25428 19.83741,42.36768 19.98812,42.48107 20.13882,42.59447 19.98812,43.04806 19.23457,44.18202 18.78244,44.8624 16.37109,45.54278 14.41187,45.42938 14.26116,45.31599</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illyricum</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>16.483056,43.539444</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

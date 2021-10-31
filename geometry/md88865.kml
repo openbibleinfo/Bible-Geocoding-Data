@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Argob</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/md88865/argob">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Argob</name>
+	<Placemark>
+		<name>Argob (40% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.99883,32.92192 35.97472,32.92192 35.95061,32.9016 36.02294,32.69844 36.04704,32.67813 36.19169,32.82034 36.11937,32.9016 36.02294,32.92192 35.99883,32.92192</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Argob (30% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.92651,32.77971 35.92651,32.75939 35.99883,32.65781 36.04704,32.65781 36.07115,32.65781 36.09526,32.65781 36.14348,32.67813 36.2158,32.82034 36.11937,32.94224 35.92651,32.92192 35.92651,32.9016 35.92651,32.88129 35.92651,32.86097 35.92651,32.84066 35.92651,32.80002 35.92651,32.77971</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Argob (20% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.85418,32.77971 35.85418,32.75939 35.99883,32.65781 36.04704,32.6375 36.09526,32.65781 36.14348,32.67813 36.23991,32.82034 36.23991,32.84066 36.11937,33.08445 36.09526,33.08445 36.07115,33.08445 36.04704,33.08445 36.02294,33.08445 35.99883,33.08445 35.97472,33.08445 35.95061,33.08445 35.92651,33.08445 35.9024,33.08445 35.85418,32.80002 35.85418,32.77971</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Argob (10% confidence)</name>
+		<styleUrl>#landisobands</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.80597,32.77971 35.80597,32.75939 35.92651,32.59686 35.95061,32.59686 35.97472,32.59686 36.11937,32.6375 36.16758,32.65781 36.55331,32.84066 36.55331,32.86097 36.55331,32.88129 36.55331,32.9016 36.5292,33.00319 36.50509,33.10477 36.48098,33.18603 36.09526,33.18603 36.07115,33.18603 36.04704,33.18603 36.02294,33.18603 35.99883,33.18603 35.97472,33.18603 35.95061,33.18603 35.92651,33.18603 35.9024,33.18603 35.80597,32.77971</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Argob</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.455383,32.9695</coordinates>
+		</Point>
+	</Placemark>
+</Folder></Document>
+</kml>

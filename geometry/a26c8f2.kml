@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Havvoth-jair</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a26c8f2/havvoth-jair">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Havvoth-jair (Towns of Jair, Jair’s Villages, Havoth Jair)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.32.41&amp;version=ESV">32:41</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.3.14&amp;version=ESV">3:14</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.13.30&amp;version=ESV">13:30</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.10.4&amp;version=ESV">10:4</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.4.13&amp;version=NLT">4:13</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.2.23&amp;version=ESV">2:23</a>]]></description>
+	<Folder>
+		<name>Havvoth-jair</name>
+		<Placemark>
+			<name>Havvoth-jair (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.7588,32.65608 35.74839,32.65608 35.73798,32.64729 35.74839,32.6385 35.7588,32.62971 35.76921,32.62971 35.81085,32.6385 35.7588,32.65608</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.70675,32.65608 35.68593,32.6385 35.71716,32.62971 35.72757,32.62971 35.73798,32.62971 35.74839,32.62971 35.7588,32.62971 35.76921,32.62971 35.77962,32.62971 35.79003,32.62971 35.82126,32.6385 35.8525,32.66486 35.86291,32.67365 35.8525,32.67365 35.84208,32.67365 35.76921,32.66486 35.70675,32.65608</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69634,32.66486 35.67552,32.64729 35.68593,32.6385 35.69634,32.62971 35.70675,32.62971 35.71716,32.62971 35.72757,32.62971 35.73798,32.62971 35.74839,32.62971 35.7588,32.62971 35.76921,32.62971 35.77962,32.62971 35.79003,32.62971 35.80044,32.62971 35.81085,32.62971 35.8525,32.64729 35.86291,32.65608 35.87332,32.67365 35.86291,32.68244 35.69634,32.66486</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.69634,32.66486 35.66511,32.65608 35.66511,32.64729 35.66511,32.6385 35.69634,32.62971 35.70675,32.62971 35.71716,32.62971 35.72757,32.62971 35.73798,32.62971 35.74839,32.62971 35.7588,32.62971 35.76921,32.62971 35.77962,32.62971 35.79003,32.62971 35.80044,32.62971 35.81085,32.62971 35.82126,32.62971 35.83167,32.62971 35.84208,32.62971 35.88373,32.65608 35.87332,32.68244 35.86291,32.68244 35.8525,32.68244 35.69634,32.66486</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.68593,32.67365 35.66511,32.66486 35.6547,32.64729 35.6547,32.6385 35.68593,32.62971 35.71716,32.62092 35.72757,32.62092 35.73798,32.62092 35.74839,32.62092 35.77962,32.62092 35.79003,32.62092 35.80044,32.62092 35.81085,32.62092 35.8525,32.62971 35.93578,32.66486 35.87332,32.68244 35.86291,32.68244 35.8525,32.68244 35.84208,32.68244 35.83167,32.68244 35.68593,32.67365</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.6547,32.66486 35.6547,32.65608 35.6547,32.64729 35.6547,32.6385 35.66511,32.62971 35.70675,32.62092 35.83167,32.61213 35.84208,32.61213 35.8525,32.61213 35.93578,32.66486 35.92537,32.68244 35.8525,32.70002 35.68593,32.67365 35.6547,32.66486</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.61306,32.6385 35.61306,32.62971 35.73798,32.55062 35.74839,32.55062 35.89414,32.55941 35.93578,32.6385 35.93578,32.64729 35.93578,32.65608 35.93578,32.66486 35.93578,32.67365 35.92537,32.70002 35.91496,32.70002 35.90455,32.70002 35.89414,32.70002 35.88373,32.70002 35.87332,32.70002 35.86291,32.70002 35.8525,32.70002 35.84208,32.70002 35.83167,32.70002 35.82126,32.70002 35.81085,32.70002 35.80044,32.70002 35.79003,32.70002 35.77962,32.70002 35.76921,32.70002 35.7588,32.70002 35.74839,32.70002 35.73798,32.70002 35.66511,32.69123 35.6547,32.68244 35.61306,32.6385</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.60265,32.64729 35.60265,32.6385 35.60265,32.62971 35.63388,32.4891 35.64429,32.4891 35.6547,32.4891 35.91496,32.54183 36.01906,32.61213 36.01906,32.62092 36.01906,32.62971 35.93578,32.7088 35.92537,32.7088 35.91496,32.7088 35.90455,32.7088 35.89414,32.7088 35.79003,32.7088 35.77962,32.7088 35.69634,32.70002 35.66511,32.69123 35.61306,32.65608 35.60265,32.64729</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Havvoth-jair</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.7256,32.5876</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sidra</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m0c0286/sidra">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Sidra</name>
+	<styleUrl>#water</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>15.271447,32.318836 15.31724,32.21321 15.358173,32.160328 15.355045,32.091683 15.348147,32.075725 15.358924,31.967637 15.391186,31.867276 15.481721,31.680876 15.526739,31.605262 15.565648,31.564829 15.609689,31.501137 15.657089,31.451762 15.737239,31.400028 15.813714,31.359748 15.978128,31.29152 16.122868,31.252428 16.229084,31.233711 16.414744,31.215575 16.602724,31.210785 16.63692,31.217337 16.628024,31.215177 16.63447,31.21098 16.699338,31.218708 16.765169,31.211232 16.886256,31.18019 17.005827,31.162762 17.139246,31.123818 17.29139,31.093155 17.30322,31.083171 17.392516,31.07605 17.397443,31.065153 17.438575,31.047415 17.455191,31.031049 17.510085,31.009472 17.606438,30.985278 17.687023,30.951592 17.851847,30.924558 17.88151,30.895909 17.889243,30.869688 17.915984,30.853523 18.096376,30.802402 18.175665,30.788733 18.221555,30.765455 18.224165,30.755226 18.293784,30.697282 18.29085,30.689844 18.301144,30.678248 18.339899,30.647429 18.369543,30.637026 18.368671,30.627367 18.408164,30.596204 18.514039,30.537758 18.528641,30.52275 18.574285,30.511929 18.568871,30.501082 18.625927,30.451689 18.651132,30.438754 18.647495,30.429304 18.659678,30.416801 18.745149,30.387129 18.791192,30.383288 18.791363,30.368478 18.800612,30.357555 18.882867,30.329229 18.934802,30.290825 18.966565,30.279837 19.053603,30.267495 19.114087,30.272291 19.160339,30.266036 19.270937,30.282304 19.376698,30.315637 19.571014,30.417828 19.585651,30.418026 19.579784,30.414522 19.592257,30.409419 19.625685,30.420731 19.638367,30.436982 19.6858,30.46235 19.778234,30.531774 19.821612,30.584861 19.916512,30.67357 19.977086,30.759768 20.061276,30.856693 20.074012,30.898233 20.11078,30.948612 20.163386,31.064308 20.175083,31.149054 20.159531,31.213756 20.087471,31.341432 20.066579,31.358584 20.05202,31.360151 20.03041,31.391201 20.016607,31.42277 20.013319,31.467888 19.992709,31.477098 19.989761,31.520011 19.965752,31.586451 19.955726,31.67328 19.923695,31.74377 19.931173,31.797207 19.926453,31.826806 19.953361,31.932404 19.941666,31.955785 15.271447,32.318836</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Sidra</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>18,31.5</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

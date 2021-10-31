@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi el Milh</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m76d958/wadi-el-milh">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi el Milh</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.10762,31.233678 35.107148,31.233891 35.106233,31.234135 35.103916,31.233859 35.102478,31.233529 35.101749,31.233144 35.101234,31.232263 35.101234,31.230905 35.100719,31.229658 35.098637,31.226942 35.097961,31.22552 35.09794,31.225006 35.098101,31.224502 35.098487,31.224263 35.098981,31.224327 35.099539,31.224566 35.099903,31.22485 35.100129,31.225116 35.100408,31.225107 35.101062,31.224859 35.101502,31.224474 35.101727,31.224052 35.101427,31.223511 35.101126,31.223153 35.100204,31.222694 35.099914,31.222437 35.099796,31.222194 35.099909,31.221891 35.100343,31.221199 35.100402,31.220859 35.099807,31.220125 35.098863,31.219666 35.098637,31.219492 35.097446,31.21901 35.096186,31.217864 35.095961,31.217441 35.095869,31.216868 35.095671,31.216428 35.093541,31.214386 35.092576,31.213285 35.091782,31.212716 35.090666,31.212496 35.087962,31.213046 35.087276,31.213579 35.086761,31.214643 35.085967,31.214992 35.085065,31.214716 35.08425,31.214331 35.081825,31.213744 35.079722,31.21367 35.078628,31.213817 35.075367,31.21479 35.073113,31.214496 35.071397,31.214808 35.069273,31.214992 35.067921,31.21468 35.066826,31.214808 35.065174,31.215432 35.06393,31.215744 35.062535,31.215689 35.061591,31.215249 35.060432,31.215304 35.058823,31.216056 35.057578,31.216515 35.056784,31.216496 35.055132,31.215909 35.05348,31.215817 35.051806,31.215872 35.050862,31.216001 35.050368,31.216258 35.049188,31.217763 35.047686,31.218754 35.046656,31.219194 35.04126,31.22035 35.040251,31.220983 35.039403,31.221423 35.038459,31.221616 35.037741,31.221699 35.036989,31.221589 35.036614,31.221423 35.035643,31.220474 35.035337,31.219905 35.035133,31.219699 35.03464,31.219666 35.033991,31.219992 35.033765,31.219988 35.03325,31.219822 35.032505,31.219281 35.032124,31.219065 35.031748,31.218978 35.0306,31.218763 35.029399,31.21879 35.028862,31.218717 35.02596,31.218052 35.024984,31.218079 35.024539,31.217992 35.023595,31.21757 35.023171,31.217295 35.023004,31.217042 35.02287,31.216707 35.022253,31.21624 35.022044,31.216166 35.02154,31.216487 35.021288,31.216565 35.020895,31.216541</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi el Milh</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.05055,31.216</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

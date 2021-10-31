@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hara</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab786f4/hara">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hara</name>
+	<description><![CDATA[1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.26&amp;version=ESV">5:26</a>]]></description>
+	<Placemark>
+		<name>Hara / within 50 km of Tell Halaf</name>
+		<description>within 50 km of Gozan</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>40.03967,37.27645 39.9806,37.27397 39.9222,37.26656 39.8651,37.25431 39.80995,37.23735 39.75735,37.21587 39.7079,37.19011 39.66213,37.16035 39.62055,37.12693 39.58362,37.09022 39.55174,37.05062 39.52525,37.00857 39.50444,36.96454 39.48952,36.91901 39.48065,36.87248 39.47792,36.82546 39.48134,36.77848 39.49086,36.73203 39.50638,36.68664 39.52771,36.64279 39.5546,36.60097 39.58676,36.56162 39.62384,36.52518 39.66541,36.49203 39.71104,36.46255 39.76021,36.43704 39.8124,36.41578 39.86704,36.39901 39.92354,36.38689 39.98129,36.37957 40.03967,36.37712 40.09805,36.37957 40.1558,36.38689 40.2123,36.39901 40.26694,36.41578 40.31913,36.43704 40.3683,36.46255 40.41393,36.49203 40.4555,36.52518 40.49258,36.56162 40.52474,36.60097 40.55163,36.64279 40.57296,36.68664 40.58848,36.73203 40.598,36.77848 40.60142,36.82546 40.59869,36.87248 40.58982,36.91901 40.5749,36.96454 40.55409,37.00857 40.5276,37.05062 40.49572,37.09022 40.45879,37.12693 40.41721,37.16035 40.37144,37.19011 40.32199,37.21587 40.26939,37.23735 40.21424,37.25431 40.15714,37.26656 40.09874,37.27397 40.03967,37.27645</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hara / within 50 km of Tell Halaf</name>
+		<description>within 50 km of Gozan</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>40.03967,36.826785</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / El Gebal</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>42.085969,37.833408 42.439202,37.103352 43.17479,36.783267 44.153674,36.713568 44.43802,36.328543 44.9441,36.786423 44.533517,37.780186 42.085969,37.833408</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hara / El Gebal</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>42.88083,37.35361</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / along the Balikh River</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>38.939338,36.670353 38.945308,36.667942 38.957586,36.651959 38.963581,36.650205 38.968904,36.643252 38.966179,36.642567 38.968537,36.638418 38.965925,36.638028 38.966753,36.632238 38.978603,36.625438 38.97663,36.619843 38.983057,36.611387 38.983378,36.605898 38.996762,36.601226 38.996399,36.595735 39.001681,36.592217 38.997541,36.587089 38.994521,36.586642 38.997613,36.584462 38.998543,36.575171 39.002041,36.573731 39.002298,36.576676 39.007288,36.576505 39.010957,36.571347 39.009693,36.569361 39.014487,36.568132 39.019655,36.558894 39.023878,36.556105 39.032803,36.555547 39.036864,36.551248 39.036758,36.538931 39.034265,36.537094 39.033311,36.528982 39.031311,36.527087 39.029082,36.528874 39.026669,36.525616 39.035906,36.518806 39.035235,36.515269 39.031488,36.514843 39.032655,36.510758 39.029511,36.507362 39.05241,36.49298 39.053791,36.480843 39.060735,36.476841 39.062453,36.465859 39.074398,36.459122 39.072947,36.454095 39.075751,36.444975 39.072589,36.436723 39.065953,36.428937 39.069512,36.422679 39.068673,36.41797 39.072308,36.40741 39.072545,36.398854 39.068195,36.387869 39.055621,36.373872 39.053107,36.36452 39.053132,36.357999 39.056071,36.353042 39.053854,36.342308 39.050069,36.337657 39.041436,36.335153 39.038844,36.331231 39.032551,36.328352 39.032648,36.315334 39.022577,36.306919 39.019704,36.290879 39.005061,36.271658 38.98984,36.258934 38.986349,36.248595 38.979662,36.239662 38.977905,36.229638 38.981496,36.226009 38.981161,36.218485 38.986206,36.207824 38.981622,36.200479 38.978145,36.164605 38.969301,36.141815 38.97157,36.138536 38.990775,36.127145 39.031921,36.109969 39.042053,36.107837 39.04875,36.100188 39.060296,36.093149 39.068858,36.082997 39.069989,36.069765 39.079154,36.056626 39.079844,36.047596 39.085585,36.04318 39.079682,36.019169 39.085075,36.007893 39.083046,35.999913 39.088159,35.990356 39.080583,35.938542 39.083161,35.927913 39.077188,35.925783 39.082323,35.91533 39.083283,35.899491</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Hara / along the Balikh River</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>39.0788,35.9264</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Deir ez Zor</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>40.15,35.333333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Sarandaj</name>
+		<description>another name for Harhar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>46.998889,35.309722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Nahavand</name>
+		<description>another name for Harhar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>48.090556,34.432996 48.083613,34.416049 48.06111,34.408549 48.055834,34.39883 48.045834,34.389941 48.034444,34.390771 48.017221,34.39827 48.001388,34.40133 47.989441,34.40105 47.993629,34.364661 47.963328,34.355214 47.952495,34.345495 47.940829,34.319657 47.913882,34.295768 47.901106,34.273268 47.891659,34.267989 47.88777,34.261879 47.886659,34.255209 47.900273,34.238549 47.938606,34.245769 47.944995,34.244099 47.964719,34.231329 47.985275,34.222159 47.999997,34.218371 48.000555,34.220769 48.007498,34.221049 48.019164,34.217159 48.038888,34.216879 48.053891,34.212719 48.070557,34.199099 48.081114,34.177159 48.093337,34.167158 48.100837,34.153548 48.10806,34.146598 48.12917,34.145217 48.137784,34.141047 48.167507,34.105766 48.17723,34.086044 48.186953,34.079654 48.193063,34.078823 48.217786,34.065763 48.234453,34.051321 48.240566,34.049101 48.304458,34.056602 48.305845,34.054652 48.303625,34.026869 48.304735,34.021318 48.332515,34.014928 48.352238,34.006877 48.379184,34.001316 48.420017,34.002707 48.445573,34.008547 48.473633,34.006317 48.483076,34.010207 48.511412,34.044101 48.519466,34.050762 48.519189,34.087435 48.521412,34.100766 48.526968,34.107156 48.534469,34.107707 48.541412,34.105216 48.537245,34.131878 48.531688,34.138819 48.515299,34.146328 48.513079,34.150489 48.515579,34.162439 48.506132,34.17493 48.509745,34.19549 48.508079,34.19938 48.497242,34.20383 48.494465,34.210211 48.490575,34.21272 48.478075,34.2166 48.449743,34.2491 48.436963,34.25771 48.413073,34.25938 48.403073,34.267439 48.38835,34.297438 48.377793,34.304099 48.396406,34.315488 48.397239,34.320777 48.392516,34.336886 48.370847,34.354665 48.366403,34.363554 48.351957,34.380493 48.34668,34.383272 48.31918,34.389102 48.313624,34.387162 48.306401,34.378832 48.295567,34.377443 48.267788,34.386602 48.256121,34.392721 48.248341,34.391882 48.229452,34.383832 48.216952,34.384111 48.203342,34.393001 48.185005,34.397161 48.175282,34.40355 48.152506,34.432157 48.147782,34.434666 48.142502,34.434386 48.131949,34.429107 48.117226,34.434106 48.090556,34.432996</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Nahavand</name>
+		<description>another name for Harhar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.376944,34.188333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Mons Masius</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>40.392867,37.328399 41.211997,37.140789 42.197382,37.304065 42.008619,37.523043 41.066454,37.718333 40.249236,37.504498 40.392867,37.328399</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hara / Mons Masius</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>41.166667,37.333333</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

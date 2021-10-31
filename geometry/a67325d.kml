@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mahaneh-dan 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a67325d/mahaneh-dan-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mahaneh-dan 2 (Camp of Dan)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.18.12&amp;version=ESV">18:12</a>]]></description>
+	<Placemark>
+		<name>Mahaneh-dan 2 / in the region between Eshtaol and Zorah</name>
+		<description>another name for Mahaneh-dan 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.994019,31.766748 35.010814,31.778157 34.993181,31.795408 34.975592,31.788596 34.994019,31.766748</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mahaneh-dan 2 / in the region between Eshtaol and Zorah</name>
+		<description>another name for Mahaneh-dan 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.998916,31.778023</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mahaneh-dan 2 / within 10 km of Deir el Azar</name>
+		<description>within 10 km of Kiriath-jearim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10378,31.89889 35.09271,31.8984 35.08176,31.89692 35.07105,31.89448 35.0607,31.89111 35.05082,31.88683 35.04153,31.8817 35.03292,31.87577 35.02508,31.86911 35.01812,31.86179 35.01209,31.85389 35.00706,31.8455 35.0031,31.83671 35.00025,31.82761 34.99852,31.81831 34.99795,31.80891 34.99854,31.79951 35.00029,31.79022 35.00316,31.78113 35.00714,31.77234 35.01218,31.76396 35.01821,31.75607 35.02519,31.74876 35.03302,31.7421 35.04163,31.73619 35.05091,31.73106 35.06077,31.72679 35.07111,31.72342 35.0818,31.72099 35.09273,31.71952 35.10378,31.71902 35.11483,31.71952 35.12576,31.72099 35.13645,31.72342 35.14679,31.72679 35.15665,31.73106 35.16593,31.73619 35.17454,31.7421 35.18237,31.74876 35.18935,31.75607 35.19538,31.76396 35.20042,31.77234 35.2044,31.78113 35.20727,31.79022 35.20902,31.79951 35.20961,31.80891 35.20904,31.81831 35.20731,31.82761 35.20446,31.83671 35.2005,31.8455 35.19547,31.85389 35.18944,31.86179 35.18248,31.86911 35.17464,31.87577 35.16603,31.8817 35.15674,31.88683 35.14686,31.89111 35.13651,31.89448 35.1258,31.89692 35.11485,31.8984 35.10378,31.89889</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mahaneh-dan 2 / within 10 km of Deir el Azar</name>
+		<description>within 10 km of Kiriath-jearim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.10378,31.808957</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mahaneh-dan 2 / Neve Ilan</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.0793,31.808397</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Karpathos</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/mebc554/karpathos">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Karpathos</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>27.134313,35.396645 27.170229,35.421845 27.173023,35.427872 27.157385,35.422013 27.151182,35.425183 27.158207,35.429171 27.156823,35.442302 27.169321,35.449866 27.166669,35.454116 27.173939,35.462549 27.193157,35.46256 27.191308,35.468412 27.201786,35.48138 27.217953,35.48249 27.229976,35.473578 27.242465,35.494305 27.230307,35.508722 27.220246,35.512323 27.20884,35.508356 27.201645,35.514008 27.200919,35.532449 27.210841,35.534471 27.219468,35.546913 27.203306,35.557632 27.204623,35.572847 27.188607,35.577613 27.179166,35.586752 27.177756,35.59918 27.159843,35.601971 27.150431,35.61645 27.163473,35.623624 27.156229,35.630036 27.161324,35.632419 27.162552,35.656641 27.1925,35.68325 27.190664,35.69859 27.201933,35.708031 27.210384,35.725169 27.21782,35.72638 27.217343,35.752281 27.210171,35.755954 27.209404,35.770861 27.213625,35.782881 27.231657,35.798754 27.230202,35.830033 27.210046,35.830541 27.205497,35.824454 27.222249,35.820911 27.202664,35.820778 27.200948,35.813031 27.191828,35.809911 27.187967,35.802064 27.17454,35.807828 27.169276,35.799182 27.162841,35.802667 27.16634,35.797341 27.160909,35.755479 27.166943,35.735618 27.163156,35.725212 27.139698,35.708961 27.137367,35.694419 27.125879,35.687171 27.117251,35.667002 27.125944,35.662812 27.122503,35.652502 27.117681,35.651982 27.121019,35.643663 27.088959,35.626816 27.083345,35.621495 27.087324,35.613565 27.068664,35.607379 27.061327,35.596968 27.068357,35.591732 27.065713,35.586124 27.079137,35.581193 27.073267,35.574447 27.077555,35.568627 27.091074,35.559829 27.104009,35.559777 27.113489,35.546097 27.110349,35.5371 27.103331,35.535995 27.109298,35.530261 27.104932,35.512397 27.113312,35.504892 27.114642,35.496261 27.110104,35.494579 27.119053,35.490018 27.118414,35.480473 27.114304,35.475658 27.104138,35.47664 27.111714,35.474032 27.110962,35.469185 27.104182,35.463128 27.099276,35.465159 27.087768,35.449755 27.079644,35.449323 27.080028,35.444053 27.100843,35.437824 27.111794,35.423998 27.119902,35.428969 27.132692,35.426508 27.144922,35.40823 27.13261,35.400968 27.134313,35.396645</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Karpathos</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>27.133333,35.583333</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

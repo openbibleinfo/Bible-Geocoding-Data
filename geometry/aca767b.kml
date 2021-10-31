@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Moab 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aca767b/moab-2">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Moab 2</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.22.1&amp;version=ESV">22:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.26.3&amp;version=ESV">26:3</a>, <a href="https://www.biblegateway.com/passage/?search=Num.26.63&amp;version=ESV">26:63</a>, <a href="https://www.biblegateway.com/passage/?search=Num.31.12&amp;version=ESV">31:12</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.48&amp;version=ESV">33:48</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.49&amp;version=ESV">33:49</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.50&amp;version=ESV">33:50</a>, <a href="https://www.biblegateway.com/passage/?search=Num.35.1&amp;version=ESV">35:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.36.13&amp;version=ESV">36:13</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.34.1&amp;version=ESV">34:1</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.34.8&amp;version=ESV">34:8</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.13.32&amp;version=ESV">13:32</a>]]></description>
+	<Folder>
+		<name>Moab 2 / Moab 2</name>
+		<Placemark>
+			<name>Moab 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.56312,31.89453 35.56312,31.86443 35.57019,31.86443 35.57727,31.86443 35.58435,31.86443 35.59143,31.86443 35.59851,31.86443 35.60559,31.86443 35.60559,31.88249 35.60559,31.88851 35.60559,31.89453 35.59851,31.90055 35.58435,31.90055 35.57727,31.90055 35.57019,31.90055 35.56312,31.90055 35.56312,31.89453</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.56312,31.89453 35.56312,31.88851 35.56312,31.88249 35.56312,31.87045 35.56312,31.86443 35.56312,31.85841 35.57019,31.81025 35.57727,31.81025 35.58435,31.81025 35.59143,31.81025 35.61975,31.81627 35.61975,31.82229 35.61267,31.88851 35.60559,31.90055 35.59851,31.90055 35.59143,31.90055 35.58435,31.90055 35.57727,31.90055 35.57019,31.90055 35.56312,31.90055 35.56312,31.89453</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.55604,31.81627 35.56312,31.81025 35.60559,31.79219 35.61267,31.79219 35.61975,31.79219 35.62683,31.82831 35.61975,31.88249 35.61267,31.90055 35.60559,31.90055 35.59851,31.90055 35.59143,31.90055 35.58435,31.90055 35.57727,31.90055 35.57019,31.90055 35.56312,31.90055 35.55604,31.90055 35.55604,31.89453 35.55604,31.81627</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.57019,31.94871 35.56312,31.94871 35.55604,31.94871 35.55604,31.94269 35.55604,31.93667 35.55604,31.91861 35.55604,31.91259 35.55604,31.90657 35.55604,31.90055 35.55604,31.89453 35.55604,31.88851 35.55604,31.88249 35.55604,31.87647 35.55604,31.87045 35.55604,31.82229 35.55604,31.81627 35.55604,31.81025 35.56312,31.79821 35.58435,31.79219 35.59143,31.79219 35.59851,31.79219 35.60559,31.79219 35.61267,31.79219 35.61975,31.79219 35.62683,31.79219 35.63391,31.82831 35.62683,31.87045 35.61975,31.90055 35.58435,31.94871 35.57727,31.94871 35.57019,31.94871</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.55604,31.86443 35.55604,31.85841 35.55604,31.84637 35.55604,31.84035 35.55604,31.83433 35.55604,31.82831 35.55604,31.82229 35.55604,31.81627 35.55604,31.81025 35.55604,31.80423 35.55604,31.79821 35.57019,31.79219 35.58435,31.78618 35.59143,31.78618 35.59851,31.78618 35.60559,31.78618 35.61267,31.78618 35.62683,31.79219 35.63391,31.81627 35.63391,31.82229 35.63391,31.82831 35.63391,31.83433 35.63391,31.84035 35.62683,31.89453 35.59851,31.94871 35.57019,31.95473 35.56312,31.95473 35.55604,31.95473 35.55604,31.94871 35.55604,31.94269 35.55604,31.93667 35.55604,31.93065 35.55604,31.92463 35.55604,31.91861 35.55604,31.91259 35.55604,31.90657 35.55604,31.90055 35.55604,31.89453 35.55604,31.88851 35.55604,31.88249 35.55604,31.87647 35.55604,31.87045 35.55604,31.86443</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.57019,31.78618 35.57727,31.78618 35.58435,31.78618 35.59143,31.78618 35.59851,31.78618 35.60559,31.78618 35.61267,31.78618 35.61975,31.78618 35.62683,31.78618 35.63391,31.79219 35.64099,31.81627 35.64099,31.82831 35.63391,31.87045 35.62683,31.91259 35.60559,31.94871 35.58435,31.98482 35.57727,31.98482 35.57019,31.98482 35.56312,31.98482 35.55604,31.98482 35.54896,31.95473 35.54896,31.94871 35.54896,31.94269 35.54896,31.93667 35.55604,31.79821 35.56312,31.78618 35.57019,31.78618</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.56312,31.99084 35.55604,31.99084 35.54896,31.98482 35.54896,31.9788 35.54896,31.97278 35.54896,31.96676 35.54896,31.96075 35.54896,31.95473 35.54896,31.94871 35.54896,31.94269 35.54896,31.93667 35.54896,31.93065 35.54896,31.92463 35.54896,31.91861 35.54896,31.91259 35.54896,31.90657 35.54896,31.90055 35.54896,31.89453 35.54896,31.84035 35.54896,31.83433 35.54896,31.82831 35.54896,31.82229 35.54896,31.81627 35.54896,31.81025 35.55604,31.78618 35.60559,31.77414 35.61975,31.78016 35.63391,31.78618 35.68346,31.81627 35.69054,31.82229 35.69054,31.82831 35.61975,31.94871 35.59143,31.98482 35.58435,31.99084 35.57727,31.99084 35.57019,31.99084 35.56312,31.99084</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.52772,31.81627 35.52772,31.81025 35.52772,31.80423 35.52772,31.79821 35.52772,31.79219 35.56312,31.77414 35.57019,31.77414 35.57727,31.77414 35.58435,31.77414 35.59143,31.77414 35.59851,31.77414 35.60559,31.77414 35.61267,31.77414 35.61975,31.77414 35.62683,31.77414 35.63391,31.77414 35.64099,31.77414 35.64807,31.77414 35.65515,31.77414 35.66223,31.77414 35.6693,31.77414 35.69762,31.81627 35.69762,31.82229 35.69762,31.82831 35.61975,31.9788 35.59143,31.99084 35.58435,31.99084 35.57727,31.99084 35.57019,31.99084 35.56312,31.99084 35.55604,31.99084 35.54896,31.98482 35.52772,31.82229 35.52772,31.81627</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Moab 2 / Moab 2</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.67368,31.84018</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

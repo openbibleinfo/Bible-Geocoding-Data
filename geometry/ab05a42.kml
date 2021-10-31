@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gaash</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ab05a42/gaash">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Gaash (Nahale-gaash)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.24.30&amp;version=ESV">24:30</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.2.9&amp;version=ESV">2:9</a>, 2Sam <a href="https://www.biblegateway.com/passage/?search=2Sam.23.30&amp;version=ESV">23:30</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.11.32&amp;version=ESV">11:32</a>]]></description>
+	<Placemark>
+		<name>Gaash / within 10 km of Khirbet Tibnah</name>
+		<description>within 10 km of Timnath-heres</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10729,32.09799 35.09619,32.0975 35.08522,32.09602 35.07449,32.09359 35.06411,32.09021 35.05422,32.08593 35.0449,32.0808 35.03627,32.07487 35.02842,32.06821 35.02144,32.06089 35.0154,32.05299 35.01037,32.0446 35.00639,32.03581 35.00353,32.02672 35.0018,32.01742 35.00123,32.00802 35.00183,31.99862 35.00357,31.98932 35.00646,31.98023 35.01044,31.97144 35.01549,31.96306 35.02154,31.95517 35.02853,31.94786 35.03638,31.94121 35.045,31.93529 35.05431,31.93017 35.06419,31.9259 35.07455,31.92253 35.08526,31.92009 35.09622,31.91862 35.10729,31.91813 35.11836,31.91862 35.12932,31.92009 35.14003,31.92253 35.15039,31.9259 35.16027,31.93017 35.16958,31.93529 35.1782,31.94121 35.18605,31.94786 35.19304,31.95517 35.19909,31.96306 35.20414,31.97144 35.20812,31.98023 35.21101,31.98932 35.21275,31.99862 35.21335,32.00802 35.21278,32.01742 35.21105,32.02672 35.20819,32.03581 35.20421,32.0446 35.19918,32.05299 35.19314,32.06089 35.18616,32.06821 35.17831,32.07487 35.16968,32.0808 35.16036,32.08593 35.15047,32.09021 35.14009,32.09359 35.12936,32.09602 35.11839,32.0975 35.10729,32.09799</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Gaash / within 10 km of Khirbet Tibnah</name>
+		<description>within 10 km of Timnath-heres</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.10729,32.00806</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gaash / Khirbet esh Shuna</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.092,31.9598</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

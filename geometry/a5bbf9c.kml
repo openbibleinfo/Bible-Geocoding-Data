@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zimri</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5bbf9c/zimri">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zimri</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.25&amp;version=ESV">25:25</a>]]></description>
+	<Placemark>
+		<name>Zimri / within 650 km of Shush</name>
+		<description>within 650 km of Elam</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>48.25778,38.0348 47.48369,38.00046 46.72009,37.89792 45.97723,37.72856 45.26491,37.49471 44.59226,37.19951 43.96758,36.84688 43.3982,36.44144 42.89041,35.98839 42.44941,35.49345 42.07926,34.96273 41.78294,34.40263 41.56238,33.81975 41.4185,33.22084 41.3513,32.61264 41.35996,32.00187 41.44285,31.39514 41.59771,30.7989 41.82161,30.21935 42.11111,29.66243 42.46229,29.13378 42.8708,28.63864 43.3319,28.18191 43.84055,27.76803 44.39141,27.401 44.97889,27.08434 45.59721,26.82106 46.24041,26.61367 46.90238,26.46412 47.57693,26.37383 48.25778,26.34364 48.93863,26.37383 49.61318,26.46412 50.27515,26.61367 50.91835,26.82106 51.53667,27.08434 52.12415,27.401 52.67501,27.76803 53.18366,28.18191 53.64476,28.63864 54.05327,29.13378 54.40445,29.66243 54.69395,30.21935 54.91785,30.7989 55.07271,31.39514 55.1556,32.00187 55.16426,32.61264 55.09706,33.22084 54.95318,33.81975 54.73262,34.40263 54.4363,34.96273 54.06615,35.49345 53.62515,35.98839 53.11736,36.44144 52.54798,36.84688 51.9233,37.19951 51.25065,37.49471 50.53833,37.72856 49.79547,37.89792 49.03187,38.00046 48.25778,38.0348</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zimri / within 650 km of Shush</name>
+		<description>within 650 km of Elam</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.25778,32.18922</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zimri / within 200 km of Lake Urmia</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>45.47756,39.40362 45.23432,39.39352 44.99395,39.36334 44.75927,39.31344 44.53304,39.24439 44.31788,39.15703 44.11627,39.05236 43.93047,38.93162 43.76257,38.79619 43.61438,38.64764 43.48747,38.48768 43.38315,38.31813 43.30242,38.14089 43.24601,37.95797 43.21438,37.7714 43.20767,37.58324 43.22578,37.39555 43.26832,37.21038 43.33466,37.02973 43.42392,36.85554 43.53499,36.68966 43.66658,36.53385 43.81716,36.38974 43.98508,36.25886 44.1685,36.14256 44.36546,36.04205 44.57387,35.95836 44.79157,35.89237 45.0163,35.84474 45.24575,35.81596 45.47756,35.80634 45.70937,35.81596 45.93882,35.84474 46.16355,35.89237 46.38125,35.95836 46.58966,36.04205 46.78662,36.14256 46.97004,36.25886 47.13796,36.38974 47.28854,36.53385 47.42013,36.68966 47.5312,36.85554 47.62046,37.02973 47.6868,37.21038 47.72934,37.39555 47.74745,37.58324 47.74074,37.7714 47.70911,37.95797 47.6527,38.14089 47.57197,38.31813 47.46765,38.48768 47.34074,38.64764 47.19255,38.79619 47.02465,38.93162 46.83885,39.05236 46.63724,39.15703 46.42208,39.24439 46.19585,39.31344 45.96117,39.36334 45.7208,39.39352 45.47756,39.40362</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zimri / within 200 km of Lake Urmia</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>45.47756,37.60498</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

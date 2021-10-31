@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hazar-gaddah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a7672d8/hazar-gaddah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hazar-gaddah</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.27&amp;version=ESV">15:27</a>]]></description>
+	<Placemark>
+		<name>Hazar-gaddah / within 50 km of Tel Beer Sheva</name>
+		<description>within 50 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.84083,31.69438 34.78559,31.69191 34.73097,31.68451 34.67757,31.67227 34.62597,31.65533 34.57677,31.63387 34.53049,31.60813 34.48766,31.5784 34.44873,31.54501 34.41414,31.50832 34.38427,31.46875 34.35943,31.42672 34.3399,31.3827 34.32588,31.33719 34.31751,31.29066 34.31489,31.24365 34.31803,31.19666 34.32689,31.15021 34.34137,31.1048 34.36129,31.06094 34.38643,31.01909 34.41652,30.97972 34.45122,30.94325 34.49015,30.91008 34.53287,30.88057 34.57894,30.85504 34.62784,30.83376 34.67904,30.81697 34.73199,30.80484 34.78611,30.79751 34.84083,30.79506 34.89555,30.79751 34.94968,30.80484 35.00263,30.81697 35.05383,30.83376 35.10273,30.85504 35.14879,30.88057 35.19152,30.91008 35.23045,30.94325 35.26514,30.97972 35.29523,31.01909 35.32038,31.06094 35.3403,31.1048 35.35477,31.15021 35.36363,31.19666 35.36677,31.24365 35.36415,31.29066 35.35579,31.33719 35.34177,31.3827 35.32224,31.42672 35.2974,31.46875 35.26753,31.50832 35.23294,31.54501 35.19401,31.5784 35.15117,31.60813 35.1049,31.63387 35.05569,31.65533 35.0041,31.67227 34.9507,31.68451 34.89607,31.69191 34.84083,31.69438</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 50 km of Tel Beer Sheva</name>
+		<description>within 50 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.840833,31.244722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 50 km of Bir es Seba</name>
+		<description>within 50 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.79308,31.68689 34.73784,31.68441 34.68322,31.67701 34.62982,31.66477 34.57824,31.64783 34.52904,31.62637 34.48276,31.60064 34.43993,31.57091 34.40101,31.53751 34.36642,31.50082 34.33655,31.46125 34.31171,31.41922 34.29218,31.37521 34.27816,31.32969 34.2698,31.28317 34.26718,31.23615 34.27032,31.18917 34.27918,31.14271 34.29365,31.09731 34.31357,31.05344 34.33872,31.0116 34.3688,30.97222 34.4035,30.93576 34.44242,30.90259 34.48514,30.87308 34.5312,30.84754 34.5801,30.82626 34.6313,30.80947 34.68424,30.79735 34.73836,30.79002 34.79308,30.78756 34.84779,30.79002 34.90191,30.79735 34.95486,30.80947 35.00606,30.82626 35.05495,30.84754 35.10101,30.87308 35.14374,30.90259 35.18266,30.93576 35.21736,30.97222 35.24744,31.0116 35.27258,31.05344 35.2925,31.09731 35.30698,31.14271 35.31583,31.18917 35.31898,31.23615 35.31636,31.28317 35.30799,31.32969 35.29397,31.37521 35.27444,31.41922 35.24961,31.46125 35.21974,31.50082 35.18515,31.53751 35.14623,31.57091 35.10339,31.60064 35.05712,31.62637 35.00792,31.64783 34.95633,31.66477 34.90293,31.67701 34.84831,31.68441 34.79308,31.68689</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 50 km of Bir es Seba</name>
+		<description>within 50 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.793078,31.237225</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 10 km of Ain el Qudeirat</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.42222,30.73827 34.41129,30.73777 34.40047,30.7363 34.38989,30.73386 34.37967,30.73048 34.36991,30.72621 34.36073,30.72108 34.35223,30.71515 34.34449,30.70849 34.33761,30.70117 34.33165,30.69327 34.32669,30.68488 34.32278,30.67609 34.31995,30.66699 34.31825,30.65769 34.31769,30.64829 34.31827,30.63889 34.31999,30.6296 34.32283,30.6205 34.32676,30.61172 34.33173,30.60334 34.3377,30.59544 34.34459,30.58813 34.35232,30.58148 34.36082,30.57556 34.37,30.57044 34.37974,30.56617 34.38995,30.5628 34.40051,30.56036 34.41131,30.55889 34.42222,30.5584 34.43314,30.55889 34.44394,30.56036 34.4545,30.5628 34.4647,30.56617 34.47445,30.57044 34.48362,30.57556 34.49212,30.58148 34.49986,30.58813 34.50675,30.59544 34.51271,30.60334 34.51768,30.61172 34.52161,30.6205 34.52445,30.6296 34.52617,30.63889 34.52676,30.64829 34.52619,30.65769 34.52449,30.66699 34.52167,30.67609 34.51775,30.68488 34.51279,30.69327 34.50684,30.70117 34.49995,30.70849 34.49222,30.71515 34.48371,30.72108 34.47453,30.72621 34.46478,30.73048 34.45455,30.73386 34.44398,30.7363 34.43316,30.73777 34.42222,30.73827</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 10 km of Ain el Qudeirat</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.422222,30.648333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Ein Qedeis</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.484081,30.583378</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 10 km of Ein Qedeis</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.48408,30.67331 34.47315,30.67282 34.46234,30.67134 34.45177,30.6689 34.44156,30.66553 34.43181,30.66125 34.42263,30.65612 34.41413,30.65019 34.4064,30.64353 34.39952,30.63621 34.39357,30.62831 34.38861,30.61992 34.3847,30.61113 34.38188,30.60204 34.38018,30.59274 34.37962,30.58334 34.3802,30.57394 34.38192,30.56464 34.38476,30.55555 34.38868,30.54676 34.39365,30.53838 34.39961,30.53049 34.4065,30.52318 34.41423,30.51653 34.42272,30.51061 34.43189,30.50548 34.44163,30.50121 34.45183,30.49784 34.46238,30.49541 34.47317,30.49394 34.48408,30.49345 34.49499,30.49394 34.50578,30.49541 34.51633,30.49784 34.52653,30.50121 34.53627,30.50548 34.54544,30.51061 34.55393,30.51653 34.56166,30.52318 34.56855,30.53049 34.57451,30.53838 34.57948,30.54676 34.5834,30.55555 34.58624,30.56464 34.58796,30.57394 34.58855,30.58334 34.58798,30.59274 34.58628,30.60204 34.58346,30.61113 34.57955,30.61992 34.57459,30.62831 34.56864,30.63621 34.56176,30.64353 34.55403,30.65019 34.54553,30.65612 34.53636,30.66125 34.52661,30.66553 34.51639,30.6689 34.50582,30.67134 34.49501,30.67282 34.48408,30.67331</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 10 km of Ein Qedeis</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.484081,30.583378</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Khirbet el Qaryatein</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.124376,31.344952</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Khirbet el Qudeirat</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.422222,30.648333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Har Avnon</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.971389,30.974444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Mesudat Ein Qedeis</name>
+		<description>another name for Hazar-addar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.51416,30.59462</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Khirbet el Waten</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.92141,31.61703 34.87726,31.61505 34.83359,31.60914 34.7909,31.59936 34.74965,31.58581 34.71031,31.56866 34.6733,31.54809 34.63903,31.52432 34.60789,31.49762 34.5802,31.46829 34.55628,31.43665 34.53638,31.40304 34.52072,31.36784 34.50947,31.33143 34.50274,31.29422 34.5006,31.25661 34.50307,31.21902 34.51012,31.18185 34.52167,31.14552 34.53758,31.11042 34.55767,31.07692 34.58173,31.04541 34.60948,31.01622 34.64063,30.98966 34.67482,30.96604 34.7117,30.9456 34.75084,30.92856 34.79184,30.91511 34.83424,30.9054 34.87759,30.89954 34.92141,30.89757 34.96523,30.89954 35.00858,30.9054 35.05098,30.91511 35.09198,30.92856 35.13112,30.9456 35.168,30.96604 35.20219,30.98966 35.23334,31.01622 35.26109,31.04541 35.28515,31.07692 35.30524,31.11042 35.32115,31.14552 35.3327,31.18185 35.33975,31.21902 35.34222,31.25661 35.34008,31.29422 35.33335,31.33143 35.3221,31.36784 35.30644,31.40304 35.28654,31.43665 35.26262,31.46829 35.23493,31.49762 35.20379,31.52432 35.16952,31.54809 35.13251,31.56866 35.09317,31.58581 35.05192,31.59936 35.00923,31.60914 34.96556,31.61505 34.92141,31.61703</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Khirbet el Waten</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.92141,31.2573</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Tel Malhata</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.0258,31.57693 34.98166,31.57495 34.93802,31.56904 34.89534,31.55926 34.85412,31.54571 34.81479,31.52856 34.77779,31.50799 34.74354,31.48422 34.71241,31.45753 34.68474,31.42819 34.66083,31.39655 34.64094,31.36294 34.62529,31.32774 34.61404,31.29134 34.60731,31.25412 34.60517,31.21652 34.60764,31.17892 34.61469,31.14175 34.62623,31.10542 34.64213,31.07032 34.66221,31.03682 34.68626,31.00531 34.714,30.97612 34.74513,30.94957 34.77932,30.92594 34.81617,30.9055 34.8553,30.88846 34.89628,30.87501 34.93867,30.8653 34.982,30.85944 35.0258,30.85747 35.0696,30.85944 35.11293,30.8653 35.15532,30.87501 35.1963,30.88846 35.23543,30.9055 35.27228,30.92594 35.30647,30.94957 35.3376,30.97612 35.36534,31.00531 35.38939,31.03682 35.40947,31.07032 35.42537,31.10542 35.43691,31.14175 35.44396,31.17892 35.44643,31.21652 35.44429,31.25412 35.43756,31.29134 35.42631,31.32774 35.41066,31.36294 35.39077,31.39655 35.36686,31.42819 35.33919,31.45753 35.30806,31.48422 35.27381,31.50799 35.23681,31.52856 35.19748,31.54571 35.15626,31.55926 35.11358,31.56904 35.06994,31.57495 35.0258,31.57693</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Tel Malhata</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.0258,31.2172</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Khirbet Kuseife</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.06735,31.61507 35.0232,31.61309 34.97953,31.60718 34.93684,31.5974 34.8956,31.58386 34.85625,31.56671 34.81924,31.54613 34.78498,31.52237 34.75383,31.49567 34.72615,31.46634 34.70223,31.43469 34.68233,31.40108 34.66667,31.36588 34.65542,31.32948 34.64869,31.29227 34.64655,31.25466 34.64902,31.21706 34.65607,31.1799 34.66762,31.14356 34.68352,31.10846 34.70362,31.07497 34.72768,31.04345 34.75543,31.01426 34.78657,30.98771 34.82077,30.96408 34.85764,30.94364 34.89679,30.9266 34.93778,30.91316 34.98019,30.90345 35.02353,30.89758 35.06735,30.89562 35.11117,30.89758 35.15452,30.90345 35.19692,30.91316 35.23791,30.9266 35.27706,30.94364 35.31393,30.96408 35.34813,30.98771 35.37927,31.01426 35.40703,31.04345 35.43108,31.07497 35.45118,31.10846 35.46709,31.14356 35.47863,31.1799 35.48568,31.21706 35.48815,31.25466 35.48601,31.29227 35.47928,31.32948 35.46803,31.36588 35.45237,31.40108 35.43247,31.43469 35.40855,31.46634 35.38087,31.49567 35.34972,31.52237 35.31546,31.54613 35.27845,31.56671 35.23911,31.58386 35.19786,31.5974 35.15517,31.60718 35.1115,31.61309 35.06735,31.61507</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Khirbet Kuseife</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.067351,31.255344</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Tel Yeshua</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.99028,31.63612 34.94611,31.63414 34.90244,31.62823 34.85974,31.61844 34.81848,31.6049 34.77913,31.58775 34.74211,31.56718 34.70784,31.54341 34.67669,31.51671 34.649,31.48738 34.62508,31.45574 34.60517,31.42213 34.58951,31.38693 34.57825,31.35052 34.57152,31.31331 34.56938,31.2757 34.57186,31.23811 34.57891,31.20094 34.59045,31.16461 34.60637,31.1295 34.62647,31.09601 34.65053,31.0645 34.67829,31.03531 34.70944,31.00875 34.74364,30.98513 34.78052,30.96468 34.81968,30.94765 34.86068,30.9342 34.90309,30.92449 34.94645,30.91862 34.99028,30.91666 35.03411,30.91862 35.07746,30.92449 35.11987,30.9342 35.16088,30.94765 35.20003,30.96468 35.23692,30.98513 35.27112,31.00875 35.30227,31.03531 35.33003,31.0645 35.35409,31.09601 35.37419,31.1295 35.3901,31.16461 35.40165,31.20094 35.4087,31.23811 35.41117,31.2757 35.40903,31.31331 35.4023,31.35052 35.39104,31.38693 35.37538,31.42213 35.35548,31.45574 35.33156,31.48738 35.30387,31.51671 35.27271,31.54341 35.23844,31.56718 35.20143,31.58775 35.16207,31.6049 35.12082,31.61844 35.07812,31.62823 35.03444,31.63414 34.99028,31.63612</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / within 40 km of Tel Yeshua</name>
+		<description>within 40 km of Moladah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.990278,31.276389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Horbat Uza</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.165672,31.209188</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Masada</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.353889,31.315556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hazar-gaddah / Mezudat Sheluhat Qadesh Barnea</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.499457,30.680224</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

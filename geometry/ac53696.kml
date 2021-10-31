@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shebarim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac53696/shebarim">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shebarim</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.7.5&amp;version=ESV">7:5</a>]]></description>
+	<Placemark>
+		<name>Shebarim / within 2 km of Et Tell</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.26111,31.93493 35.2589,31.93483 35.2567,31.93454 35.25456,31.93405 35.25249,31.93338 35.25051,31.93252 35.24865,31.93149 35.24693,31.93031 35.24536,31.92898 35.24397,31.92751 35.24276,31.92594 35.24175,31.92426 35.24096,31.9225 35.24038,31.92068 35.24004,31.91882 35.23992,31.91694 35.24004,31.91506 35.24038,31.9132 35.24096,31.91138 35.24175,31.90963 35.24276,31.90795 35.24397,31.90637 35.24537,31.90491 35.24693,31.90358 35.24866,31.90239 35.25052,31.90137 35.25249,31.90051 35.25456,31.89984 35.25671,31.89935 35.2589,31.89906 35.26111,31.89896 35.26333,31.89906 35.26552,31.89935 35.26766,31.89984 35.26973,31.90051 35.2717,31.90137 35.27356,31.90239 35.27529,31.90358 35.27686,31.90491 35.27825,31.90637 35.27946,31.90795 35.28047,31.90963 35.28126,31.91138 35.28184,31.9132 35.28218,31.91506 35.2823,31.91694 35.28219,31.91882 35.28184,31.92068 35.28127,31.9225 35.28047,31.92426 35.27946,31.92594 35.27826,31.92751 35.27686,31.92898 35.27529,31.93031 35.27357,31.93149 35.27171,31.93252 35.26973,31.93338 35.26766,31.93405 35.26552,31.93454 35.26333,31.93483 35.26111,31.93493</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Et Tell</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.916944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet el Maqatir</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2496,31.93275 35.24738,31.93265 35.24519,31.93235 35.24305,31.93187 35.24098,31.93119 35.239,31.93034 35.23714,31.92931 35.23542,31.92813 35.23385,31.92679 35.23246,31.92533 35.23125,31.92375 35.23024,31.92207 35.22945,31.92032 35.22887,31.9185 35.22853,31.91664 35.22841,31.91476 35.22853,31.91288 35.22887,31.91102 35.22945,31.9092 35.23024,31.90744 35.23125,31.90577 35.23246,31.90419 35.23386,31.90272 35.23542,31.90139 35.23715,31.90021 35.23901,31.89918 35.24098,31.89833 35.24305,31.89765 35.2452,31.89717 35.24739,31.89687 35.2496,31.89677 35.25181,31.89687 35.254,31.89717 35.25615,31.89765 35.25822,31.89833 35.26019,31.89918 35.26205,31.90021 35.26378,31.90139 35.26534,31.90272 35.26674,31.90419 35.26795,31.90577 35.26896,31.90744 35.26975,31.9092 35.27033,31.91102 35.27067,31.91288 35.27079,31.91476 35.27067,31.91664 35.27033,31.9185 35.26975,31.92032 35.26896,31.92207 35.26795,31.92375 35.26674,31.92533 35.26535,31.92679 35.26378,31.92813 35.26206,31.92931 35.2602,31.93034 35.25822,31.93119 35.25615,31.93187 35.25401,31.93235 35.25182,31.93265 35.2496,31.93275</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet el Maqatir</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2496,31.91476</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Nisieh</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.22862,31.9155 35.2264,31.9154 35.22421,31.91511 35.22207,31.91462 35.22,31.91395 35.21802,31.91309 35.21616,31.91207 35.21444,31.91088 35.21287,31.90955 35.21148,31.90809 35.21027,31.90651 35.20926,31.90483 35.20847,31.90307 35.2079,31.90125 35.20755,31.89939 35.20743,31.89751 35.20755,31.89563 35.2079,31.89377 35.20847,31.89196 35.20927,31.8902 35.21027,31.88852 35.21148,31.88694 35.21288,31.88548 35.21445,31.88415 35.21617,31.88296 35.21803,31.88194 35.22,31.88108 35.22207,31.88041 35.22422,31.87992 35.2264,31.87963 35.22862,31.87953 35.23083,31.87963 35.23302,31.87992 35.23516,31.88041 35.23723,31.88108 35.23921,31.88194 35.24107,31.88296 35.24279,31.88415 35.24436,31.88548 35.24576,31.88694 35.24696,31.88852 35.24797,31.8902 35.24877,31.89196 35.24934,31.89377 35.24969,31.89563 35.2498,31.89751 35.24969,31.89939 35.24934,31.90125 35.24877,31.90307 35.24797,31.90483 35.24697,31.90651 35.24576,31.90809 35.24436,31.90955 35.2428,31.91088 35.24107,31.91207 35.23921,31.91309 35.23724,31.91395 35.23517,31.91462 35.23302,31.91511 35.23083,31.9154 35.22862,31.9155</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Nisieh</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.228619,31.897515</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Ibn Baraq</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2464,31.93049 35.24418,31.93039 35.24199,31.93009 35.23985,31.92961 35.23778,31.92893 35.2358,31.92808 35.23394,31.92705 35.23222,31.92587 35.23065,31.92453 35.22926,31.92307 35.22805,31.92149 35.22704,31.91981 35.22625,31.91806 35.22567,31.91624 35.22533,31.91438 35.22521,31.9125 35.22533,31.91062 35.22567,31.90876 35.22625,31.90694 35.22704,31.90518 35.22805,31.90351 35.22926,31.90193 35.23066,31.90046 35.23222,31.89913 35.23395,31.89795 35.23581,31.89692 35.23778,31.89607 35.23985,31.89539 35.242,31.89491 35.24419,31.89461 35.2464,31.89451 35.24861,31.89461 35.2508,31.89491 35.25295,31.89539 35.25502,31.89607 35.25699,31.89692 35.25885,31.89795 35.26058,31.89913 35.26214,31.90046 35.26354,31.90193 35.26475,31.90351 35.26576,31.90518 35.26655,31.90694 35.26713,31.90876 35.26747,31.91062 35.26759,31.9125 35.26747,31.91438 35.26713,31.91624 35.26655,31.91806 35.26576,31.91981 35.26475,31.92149 35.26354,31.92307 35.26215,31.92453 35.26058,31.92587 35.25886,31.92705 35.257,31.92808 35.25502,31.92893 35.25295,31.92961 35.25081,31.93009 35.24862,31.93039 35.2464,31.93049</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Ibn Baraq</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2464,31.9125</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Haiyan</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.27038,31.92316 35.26816,31.92306 35.26597,31.92276 35.26383,31.92227 35.26176,31.9216 35.25978,31.92075 35.25792,31.91972 35.2562,31.91853 35.25463,31.9172 35.25324,31.91574 35.25203,31.91416 35.25102,31.91248 35.25023,31.91073 35.24965,31.90891 35.24931,31.90705 35.24919,31.90517 35.24931,31.90329 35.24966,31.90143 35.25023,31.89961 35.25102,31.89785 35.25203,31.89617 35.25324,31.8946 35.25464,31.89313 35.2562,31.8918 35.25793,31.89062 35.25979,31.88959 35.26176,31.88874 35.26383,31.88806 35.26597,31.88758 35.26816,31.88728 35.27038,31.88718 35.27259,31.88728 35.27478,31.88758 35.27693,31.88806 35.279,31.88874 35.28097,31.88959 35.28283,31.89062 35.28455,31.8918 35.28612,31.89313 35.28752,31.8946 35.28873,31.89617 35.28973,31.89785 35.29053,31.89961 35.2911,31.90143 35.29145,31.90329 35.29157,31.90517 35.29145,31.90705 35.2911,31.90891 35.29053,31.91073 35.28974,31.91248 35.28873,31.91416 35.28752,31.91574 35.28613,31.9172 35.28456,31.91853 35.28283,31.91972 35.28097,31.92075 35.279,31.9216 35.27693,31.92227 35.27478,31.92276 35.27259,31.92306 35.27038,31.92316</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / within 2 km of Khirbet Haiyan</name>
+		<description>within 2 km of Ai 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.270379,31.905169</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shebarim / western cliff of Wadi Makkuk</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.310588,31.907274</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

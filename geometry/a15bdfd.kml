@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ramah 8</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a15bdfd/ramah-8">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ramah 8</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.22.6&amp;version=NKJV">22:6</a>]]></description>
+	<Placemark>
+		<name>Ramah 8 / within 1 km of Tel el Ful</name>
+		<description>within 1 km of Gibeah 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23072,31.83211 35.22961,31.83206 35.22852,31.83191 35.22745,31.83167 35.22641,31.83133 35.22543,31.8309 35.2245,31.83039 35.22364,31.8298 35.22285,31.82913 35.22215,31.8284 35.22155,31.82761 35.22105,31.82677 35.22065,31.82589 35.22036,31.82498 35.22019,31.82405 35.22013,31.82311 35.22019,31.82217 35.22037,31.82124 35.22065,31.82033 35.22105,31.81945 35.22155,31.81862 35.22216,31.81783 35.22285,31.8171 35.22364,31.81643 35.2245,31.81584 35.22543,31.81532 35.22641,31.8149 35.22745,31.81456 35.22852,31.81432 35.22961,31.81417 35.23072,31.81412 35.23182,31.81417 35.23292,31.81432 35.23399,31.81456 35.23502,31.8149 35.23601,31.81532 35.23694,31.81584 35.2378,31.81643 35.23858,31.8171 35.23928,31.81783 35.23988,31.81862 35.24039,31.81945 35.24078,31.82033 35.24107,31.82124 35.24124,31.82217 35.2413,31.82311 35.24124,31.82405 35.24107,31.82498 35.24078,31.82589 35.24039,31.82677 35.23988,31.82761 35.23928,31.8284 35.23858,31.82913 35.2378,31.8298 35.23694,31.83039 35.23601,31.8309 35.23502,31.83133 35.23399,31.83167 35.23292,31.83191 35.23182,31.83206 35.23072,31.83211</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 8 / within 1 km of Tel el Ful</name>
+		<description>within 1 km of Gibeah 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.230718,31.823113</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 8 / within 1 km of Jaba</name>
+		<description>within 1 km of Gibeah 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.26111,31.86649 35.26,31.86644 35.25891,31.8663 35.25784,31.86605 35.2568,31.86572 35.25582,31.86529 35.25489,31.86478 35.25403,31.86418 35.25324,31.86352 35.25254,31.86279 35.25194,31.862 35.25144,31.86116 35.25104,31.86028 35.25075,31.85937 35.25058,31.85844 35.25052,31.8575 35.25058,31.85656 35.25075,31.85563 35.25104,31.85472 35.25144,31.85384 35.25194,31.853 35.25255,31.85221 35.25324,31.85148 35.25403,31.85082 35.25489,31.85022 35.25582,31.84971 35.2568,31.84928 35.25784,31.84895 35.25891,31.8487 35.26,31.84856 35.26111,31.84851 35.26222,31.84856 35.26331,31.8487 35.26438,31.84895 35.26542,31.84928 35.2664,31.84971 35.26733,31.85022 35.2682,31.85082 35.26898,31.85148 35.26968,31.85221 35.27028,31.853 35.27078,31.85384 35.27118,31.85472 35.27147,31.85563 35.27164,31.85656 35.2717,31.8575 35.27164,31.85844 35.27147,31.85937 35.27118,31.86028 35.27078,31.86116 35.27028,31.862 35.26968,31.86279 35.26898,31.86352 35.2682,31.86418 35.26734,31.86478 35.26641,31.86529 35.26542,31.86572 35.26438,31.86605 35.26331,31.8663 35.26222,31.86644 35.26111,31.86649</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ramah 8 / within 1 km of Jaba</name>
+		<description>within 1 km of Gibeah 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.261111,31.8575</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

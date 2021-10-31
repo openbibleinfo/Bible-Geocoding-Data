@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ashdod</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a30c937/ashdod">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ashdod</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.11.22&amp;version=ESV">11:22</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.3&amp;version=ESV">13:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.46&amp;version=ESV">15:46</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.47&amp;version=ESV">15:47</a>, 1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.5.1&amp;version=ESV">5:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.5.3&amp;version=ESV">5:3</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.5.5&amp;version=ESV">5:5</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.5.6&amp;version=ESV">5:6</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.5.7&amp;version=ESV">5:7</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.6.17&amp;version=ESV">6:17</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.26.6&amp;version=ESV">26:6</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.4.7&amp;version=NIV">4:7</a>, <a href="https://www.biblegateway.com/passage/?search=Neh.13.23&amp;version=ESV">13:23</a>, <a href="https://www.biblegateway.com/passage/?search=Neh.13.24&amp;version=ESV">13:24</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.20.1&amp;version=ESV">20:1</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.20&amp;version=ESV">25:20</a>, Amos <a href="https://www.biblegateway.com/passage/?search=Amos.1.8&amp;version=ESV">1:8</a>, <a href="https://www.biblegateway.com/passage/?search=Amos.3.9&amp;version=ESV">3:9</a>, Zeph <a href="https://www.biblegateway.com/passage/?search=Zeph.2.4&amp;version=ESV">2:4</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.9.6&amp;version=ESV">9:6</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.8.40&amp;version=ESV">8:40</a>]]></description>
+	<Placemark>
+		<name>Ashdod / Tel Ashdod</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.6578,31.7572</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

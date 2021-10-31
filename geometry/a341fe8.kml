@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Hermon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a341fe8/mount-hermon">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Hermon (Hermon)</name>
+	<description><![CDATA[Deut <a href="https://www.biblegateway.com/passage/?search=Deut.3.8&amp;version=ESV">3:8</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.3.9&amp;version=ESV">3:9</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.4.48&amp;version=ESV">4:48</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.11.3&amp;version=ESV">11:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.17&amp;version=ESV">11:17</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.1&amp;version=ESV">12:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.5&amp;version=ESV">12:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.5&amp;version=ESV">13:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.13.11&amp;version=ESV">13:11</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.5.23&amp;version=ESV">5:23</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.29.6&amp;version=ESV">29:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.42.6&amp;version=ESV">42:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.89.12&amp;version=ESV">89:12</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.133.3&amp;version=ESV">133:3</a>, Song <a href="https://www.biblegateway.com/passage/?search=Song.4.8&amp;version=ESV">4:8</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.18.14&amp;version=ESV">18:14</a>]]></description>
+	<Placemark>
+		<name>Mount Hermon</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

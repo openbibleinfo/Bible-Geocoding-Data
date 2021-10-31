@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Akrabbim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a39267b/akrabbim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Akrabbim (Scorpion Pass, Scorpion Ascent, Scorpions’ Ascent, Ascent of Akrabbim)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.34.4&amp;version=ESV">34:4</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.3&amp;version=ESV">15:3</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.1.36&amp;version=ESV">1:36</a>]]></description>
+	<Placemark>
+		<name>Akrabbim / Ma’ale Akrabbim</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.129549,30.902354 35.129512,30.902508 35.129556,30.902595 35.129647,30.902661 35.131343,30.903272 35.131527,30.903382 35.131418,30.903589 35.13111,30.90413 35.131089,30.904262 35.131182,30.904643 35.131238,30.904698 35.131545,30.90476 35.131572,30.904843 35.13145,30.90491 35.131147,30.904928 35.130327,30.905036 35.130259,30.905119 35.130422,30.905203 35.131062,30.905382 35.13135,30.905504 35.131884,30.905656 35.131873,30.90576 35.131693,30.90582 35.13094,30.905983 35.130869,30.906039 35.130882,30.906104 35.131006,30.906122 35.131198,30.906122 35.13203,30.906214 35.132018,30.90632 35.131755,30.906422 35.13129,30.906554 35.13123,30.906624 35.131253,30.906705 35.131561,30.906654 35.132015,30.906677 35.132275,30.906711 35.132296,30.906815 35.132147,30.906885 35.131921,30.906913 35.131646,30.906982 35.131525,30.907062 35.131472,30.907189 35.13152,30.907312 35.131648,30.907336 35.131987,30.907232 35.132287,30.907196 35.132469,30.907195 35.132565,30.907256 35.132535,30.907353 35.132083,30.907487 35.132064,30.907554 35.132205,30.907803 35.132145,30.907983 35.131867,30.908158 35.131449,30.908373 35.131362,30.908448 35.131374,30.908547 35.131472,30.908566 35.132517,30.908512 35.132581,30.908539 35.132573,30.908645 35.132241,30.908768 35.131747,30.90905 35.131719,30.909095 35.131723,30.909146 35.131757,30.909192 35.131878,30.909198 35.132098,30.90919 35.132645,30.909167 35.133416,30.909285 35.133443,30.909397 35.133248,30.909522 35.132878,30.909644 35.132403,30.910016 35.132414,30.910131</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Akrabbim / Ma’ale Akrabbim</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.131259,30.906602</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Akrabbim / Jebel Umm al Aqarib</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.576667,31.194167</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

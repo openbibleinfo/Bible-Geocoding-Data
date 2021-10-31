@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wilderness of Sinai</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae50cf1/wilderness-of-sinai">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Wilderness of Sinai (Desert of Sinai)</name>
+	<description><![CDATA[Exod <a href="https://www.biblegateway.com/passage/?search=Exod.19.1&amp;version=NIV">19:1</a>, <a href="https://www.biblegateway.com/passage/?search=Exod.19.2&amp;version=NIV">19:2</a>, Lev <a href="https://www.biblegateway.com/passage/?search=Lev.7.38&amp;version=NIV">7:38</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.1.1&amp;version=NIV">1:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.1.19&amp;version=NIV">1:19</a>, <a href="https://www.biblegateway.com/passage/?search=Num.3.4&amp;version=NIV">3:4</a>, <a href="https://www.biblegateway.com/passage/?search=Num.3.14&amp;version=NIV">3:14</a>, <a href="https://www.biblegateway.com/passage/?search=Num.9.1&amp;version=NIV">9:1</a>, <a href="https://www.biblegateway.com/passage/?search=Num.9.5&amp;version=NIV">9:5</a>, <a href="https://www.biblegateway.com/passage/?search=Num.10.12&amp;version=NIV">10:12</a>, <a href="https://www.biblegateway.com/passage/?search=Num.26.64&amp;version=NIV">26:64</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.15&amp;version=NIV">33:15</a>, <a href="https://www.biblegateway.com/passage/?search=Num.33.16&amp;version=NIV">33:16</a>]]></description>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Musa</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.97333,28.98938 33.9196,28.98691 33.86646,28.97951 33.81451,28.96728 33.76432,28.95035 33.71645,28.9289 33.67142,28.90317 33.62974,28.87345 33.59186,28.84007 33.55819,28.80339 33.5291,28.76383 33.50492,28.72181 33.48589,28.6778 33.47222,28.63229 33.46405,28.58577 33.46148,28.53876 33.46451,28.49177 33.47311,28.44532 33.48717,28.3999 33.50654,28.35603 33.53099,28.31418 33.56027,28.27479 33.59403,28.23831 33.63191,28.20513 33.6735,28.17561 33.71834,28.15007 33.76595,28.12878 33.8158,28.11198 33.86735,28.09985 33.92005,28.09251 33.97333,28.09006 34.02661,28.09251 34.07931,28.09985 34.13087,28.11198 34.18072,28.12878 34.22832,28.15007 34.27316,28.17561 34.31475,28.20513 34.35264,28.23831 34.3864,28.27479 34.41567,28.31418 34.44013,28.35603 34.4595,28.3999 34.47356,28.44532 34.48216,28.49177 34.48519,28.53876 34.48261,28.58577 34.47445,28.63229 34.46078,28.6778 34.44175,28.72181 34.41756,28.76383 34.38848,28.80339 34.35481,28.84007 34.31693,28.87345 34.27524,28.90317 34.23022,28.9289 34.18234,28.95035 34.13215,28.96728 34.0802,28.97951 34.02707,28.98691 33.97333,28.98938</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Musa</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.973333,28.539722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Ras es Safsafeh</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.96722,29.00522 33.91348,29.00274 33.86034,28.99535 33.80838,28.98312 33.75818,28.96618 33.7103,28.94473 33.66527,28.919 33.62358,28.88929 33.58569,28.8559 33.55201,28.81923 33.52292,28.77966 33.49873,28.73764 33.4797,28.69364 33.46603,28.64813 33.45787,28.60161 33.45529,28.5546 33.45832,28.5076 33.46692,28.46115 33.48099,28.41574 33.50036,28.37186 33.52482,28.33001 33.55409,28.29063 33.58786,28.25415 33.62575,28.22097 33.66735,28.19144 33.71219,28.1659 33.75981,28.14461 33.80966,28.12781 33.86123,28.11568 33.91394,28.10835 33.96722,28.1059 34.02051,28.10835 34.07322,28.11568 34.12478,28.12781 34.17464,28.14461 34.22225,28.1659 34.2671,28.19144 34.30869,28.22097 34.34658,28.25415 34.38035,28.29063 34.40963,28.33001 34.43409,28.37186 34.45346,28.41574 34.46752,28.46115 34.47612,28.5076 34.47915,28.5546 34.47658,28.60161 34.46841,28.64813 34.45474,28.69364 34.43571,28.73764 34.41152,28.77966 34.38243,28.81923 34.34876,28.8559 34.31087,28.88929 34.26918,28.919 34.22414,28.94473 34.17626,28.96618 34.12607,28.98312 34.07411,28.99535 34.02096,29.00274 33.96722,29.00522</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Ras es Safsafeh</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.967222,28.555556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Sin Bishar</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.961,30.12066 32.90666,30.11819 32.85293,30.11079 32.80039,30.09856 32.74964,30.08162 32.70123,30.06016 32.6557,30.03443 32.61356,30.00471 32.57525,29.97132 32.54122,29.93464 32.51181,29.89507 32.48737,29.85305 32.46813,29.80904 32.45433,29.76353 32.44608,29.71701 32.44349,29.66999 32.44656,29.623 32.45527,29.57655 32.46949,29.53114 32.48909,29.48727 32.51382,29.44542 32.54342,29.40604 32.57756,29.36957 32.61586,29.33639 32.6579,29.30687 32.70324,29.28133 32.75136,29.26005 32.80175,29.24325 32.85387,29.23112 32.90714,29.22379 32.961,29.22134 33.01486,29.22379 33.06813,29.23112 33.12025,29.24325 33.17064,29.26005 33.21876,29.28133 33.2641,29.30687 33.30614,29.33639 33.34444,29.36957 33.37858,29.40604 33.40818,29.44542 33.43291,29.48727 33.45251,29.53114 33.46673,29.57655 33.47544,29.623 33.47851,29.66999 33.47592,29.71701 33.46767,29.76353 33.45387,29.80904 33.43463,29.85305 33.41019,29.89507 33.38078,29.93464 33.34675,29.97132 33.30844,30.00471 33.2663,30.03443 33.22077,30.06016 33.17236,30.08162 33.12161,30.09856 33.06907,30.11079 33.01534,30.11819 32.961,30.12066</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Sin Bishar</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.961,29.671</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Har Karkom</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.75,30.73299 34.69532,30.73052 34.64125,30.72312 34.58838,30.71089 34.53731,30.69395 34.4886,30.67249 34.44279,30.64676 34.40038,30.61703 34.36184,30.58364 34.32759,30.54696 34.29801,30.50739 34.27342,30.46536 34.25407,30.42135 34.24018,30.37583 34.23189,30.32932 34.22929,30.2823 34.23239,30.23531 34.24115,30.18886 34.25547,30.14345 34.27519,30.09958 34.30008,30.05773 34.32986,30.01836 34.36421,29.98189 34.40275,29.94871 34.44506,29.9192 34.49067,29.89366 34.53909,29.87238 34.58979,29.85558 34.64222,29.84345 34.69582,29.83612 34.75,29.83367 34.80418,29.83612 34.85778,29.84345 34.91021,29.85558 34.96091,29.87238 35.00933,29.89366 35.05494,29.9192 35.09725,29.94871 35.13579,29.98189 35.17014,30.01836 35.19992,30.05773 35.22481,30.09958 35.24453,30.14345 35.25885,30.18886 35.26761,30.23531 35.27071,30.2823 35.26811,30.32932 35.25982,30.37583 35.24593,30.42135 35.22658,30.46536 35.20199,30.50739 35.17241,30.54696 35.13816,30.58364 35.09962,30.61703 35.05721,30.64676 35.0114,30.67249 34.96269,30.69395 34.91162,30.71089 34.85875,30.72312 34.80468,30.73052 34.75,30.73299</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Har Karkom</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.75,30.283333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Serbal</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.65167,29.09605 33.59788,29.09358 33.54469,29.08618 33.49268,29.07395 33.44244,29.05701 33.39452,29.03556 33.34945,29.00984 33.30772,28.98012 33.2698,28.94673 33.2361,28.91006 33.20698,28.87049 33.18277,28.82847 33.16372,28.78447 33.15004,28.73895 33.14187,28.69244 33.13929,28.64543 33.14233,28.59843 33.15093,28.55198 33.16501,28.50657 33.1844,28.46269 33.20888,28.42084 33.23819,28.38146 33.27198,28.34498 33.30991,28.3118 33.35154,28.28228 33.39642,28.25673 33.44407,28.23545 33.49397,28.21865 33.54558,28.20651 33.59834,28.19918 33.65167,28.19673 33.705,28.19918 33.75775,28.20651 33.80936,28.21865 33.85926,28.23545 33.90691,28.25673 33.9518,28.28228 33.99343,28.3118 34.03135,28.34498 34.06515,28.38146 34.09445,28.42084 34.11893,28.46269 34.13832,28.50657 34.1524,28.55198 34.16101,28.59843 34.16404,28.64543 34.16146,28.69244 34.15329,28.73895 34.13961,28.78447 34.12056,28.82847 34.09635,28.87049 34.06724,28.91006 34.03354,28.94673 33.99561,28.98012 33.95389,29.00984 33.90881,29.03556 33.86089,29.05701 33.81065,29.07395 33.75865,29.08618 33.70546,29.09358 33.65167,29.09605</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Serbal</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.651667,28.646389</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Katherina</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.95528,28.96049 33.90156,28.95802 33.84844,28.95063 33.7965,28.93839 33.74633,28.92146 33.69847,28.90001 33.65345,28.87428 33.61178,28.84456 33.57391,28.81118 33.54025,28.77451 33.51117,28.73494 33.48699,28.69292 33.46797,28.64892 33.4543,28.6034 33.44614,28.55689 33.44356,28.50987 33.44659,28.46288 33.45519,28.41643 33.46925,28.37102 33.48861,28.32714 33.51306,28.28529 33.54232,28.24591 33.57608,28.20943 33.61395,28.17624 33.65553,28.14672 33.70036,28.12118 33.74795,28.09989 33.79778,28.08309 33.84933,28.07096 33.90201,28.06363 33.95528,28.06117 34.00854,28.06363 34.06123,28.07096 34.11277,28.08309 34.16261,28.09989 34.2102,28.12118 34.25503,28.14672 34.29661,28.17624 34.33448,28.20943 34.36823,28.24591 34.3975,28.28529 34.42195,28.32714 34.44131,28.37102 34.45537,28.41643 34.46396,28.46288 34.46699,28.50987 34.46442,28.55689 34.45626,28.6034 34.44259,28.64892 34.42357,28.69292 34.39939,28.73494 34.37031,28.77451 34.33665,28.81118 34.29878,28.84456 34.2571,28.87428 34.21209,28.90001 34.16423,28.92146 34.11405,28.93839 34.06212,28.95063 34.009,28.95802 33.95528,28.96049</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Katherina</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.955278,28.510833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Halal</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.02889,31.10272 33.974,31.10024 33.91972,31.09284 33.86665,31.08061 33.81538,31.06367 33.76648,31.04221 33.72049,31.01647 33.67792,30.98675 33.63924,30.95336 33.60486,30.91667 33.57517,30.8771 33.55048,30.83507 33.53106,30.79106 33.51712,30.74554 33.50881,30.69902 33.5062,30.65201 33.50931,30.60502 33.51811,30.55857 33.53249,30.51316 33.55228,30.46929 33.57727,30.42745 33.60717,30.38807 33.64165,30.3516 33.68034,30.31843 33.7228,30.28891 33.76859,30.26338 33.81719,30.2421 33.86808,30.2253 33.9207,30.21318 33.9745,30.20585 34.02889,30.2034 34.08328,30.20585 34.13707,30.21318 34.1897,30.2253 34.24059,30.2421 34.28919,30.26338 34.33497,30.28891 34.37744,30.31843 34.41612,30.3516 34.45061,30.38807 34.48051,30.42745 34.50549,30.46929 34.52529,30.51316 34.53967,30.55857 34.54847,30.60502 34.55158,30.65201 34.54897,30.69902 34.54066,30.74554 34.52672,30.79106 34.5073,30.83507 34.48261,30.8771 34.45292,30.91667 34.41854,30.95336 34.37986,30.98675 34.33729,31.01647 34.2913,31.04221 34.2424,31.06367 34.19113,31.08061 34.13806,31.09284 34.08378,31.10024 34.02889,31.10272</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Halal</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.028889,30.653056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Hashem el Tarif</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.63341,30.11888 34.57907,30.1164 34.52534,30.10901 34.47281,30.09677 34.42206,30.07983 34.37365,30.05838 34.32812,30.03265 34.28597,30.00293 34.24767,29.96954 34.21364,29.93286 34.18423,29.89329 34.15979,29.85127 34.14055,29.80726 34.12675,29.76174 34.1185,29.71522 34.11591,29.66821 34.11898,29.62122 34.12769,29.57477 34.14191,29.52936 34.1615,29.48549 34.18624,29.44364 34.21584,29.40426 34.24997,29.36778 34.28828,29.33461 34.33032,29.30509 34.37565,29.27955 34.42377,29.25827 34.47417,29.24147 34.52628,29.22934 34.57956,29.22201 34.63341,29.21956 34.68727,29.22201 34.74054,29.22934 34.79266,29.24147 34.84305,29.25827 34.89117,29.27955 34.9365,29.30509 34.97855,29.33461 35.01685,29.36778 35.05099,29.40426 35.08059,29.44364 35.10532,29.48549 35.12491,29.52936 35.13914,29.57477 35.14784,29.62122 35.15091,29.66821 35.14832,29.71522 35.14008,29.76174 35.12627,29.80726 35.10704,29.85127 35.08259,29.89329 35.05319,29.93286 35.01915,29.96954 34.98085,30.00293 34.9387,30.03265 34.89317,30.05838 34.84477,30.07983 34.79402,30.09677 34.74148,30.10901 34.68775,30.1164 34.63341,30.11888</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Hashem el Tarif</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.633411,29.669217</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal al Magharah</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.37667,31.15188 33.32175,31.14941 33.26744,31.14201 33.21434,31.12977 33.16305,31.11283 33.11412,31.09138 33.06811,31.06564 33.02552,31.03591 32.98681,31.00252 32.95242,30.96584 32.92271,30.92626 32.89801,30.88424 32.87859,30.84022 32.86464,30.79471 32.85632,30.74819 32.85371,30.70117 32.85683,30.65418 32.86563,30.60773 32.88002,30.56232 32.89982,30.51846 32.92482,30.47661 32.95474,30.43724 32.98924,30.40077 33.02794,30.36759 33.07043,30.33808 33.11623,30.31254 33.16486,30.29127 33.21577,30.27447 33.26843,30.26234 33.32225,30.25501 33.37667,30.25256 33.43108,30.25501 33.48491,30.26234 33.53756,30.27447 33.58848,30.29127 33.6371,30.31254 33.68291,30.33808 33.72539,30.36759 33.7641,30.40077 33.7986,30.43724 33.82851,30.47661 33.85351,30.51846 33.87332,30.56232 33.8877,30.60773 33.89651,30.65418 33.89963,30.70117 33.89701,30.74819 33.88869,30.79471 33.87475,30.84022 33.85532,30.88424 33.83062,30.92626 33.80092,30.96584 33.76652,31.00252 33.72782,31.03591 33.68522,31.06564 33.63921,31.09138 33.59029,31.11283 33.53899,31.12977 33.4859,31.14201 33.43159,31.14941 33.37667,31.15188</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal al Magharah</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.376667,30.702222</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Yeleq</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>33.52306,30.80077 33.46834,30.7983 33.41423,30.7909 33.36132,30.77866 33.31022,30.76172 33.26147,30.74027 33.21563,30.71453 33.17319,30.68481 33.13462,30.65142 33.10035,30.61473 33.07075,30.57516 33.04614,30.53314 33.02678,30.48913 33.01288,30.44361 33.00459,30.39709 33.00198,30.35008 33.00509,30.30309 33.01386,30.25663 33.02819,30.21123 33.04792,30.16736 33.07283,30.12551 33.10263,30.08613 33.13701,30.04966 33.17557,30.01649 33.21791,29.98697 33.26355,29.96144 33.312,29.94016 33.36273,29.92336 33.4152,29.91123 33.46884,29.9039 33.52306,29.90145 33.57728,29.9039 33.63091,29.91123 33.68338,29.92336 33.73411,29.94016 33.78256,29.96144 33.82821,29.98697 33.87054,30.01649 33.90911,30.04966 33.94348,30.08613 33.97329,30.12551 33.99819,30.16736 34.01792,30.21123 34.03226,30.25663 34.04103,30.30309 34.04413,30.35008 34.04152,30.39709 34.03323,30.44361 34.01933,30.48913 33.99997,30.53314 33.97536,30.57516 33.94576,30.61473 33.91149,30.65142 33.87292,30.68481 33.83048,30.71453 33.78464,30.74027 33.73589,30.76172 33.68479,30.77866 33.63189,30.7909 33.57777,30.7983 33.52306,30.80077</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jebel Yeleq</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>33.523056,30.351111</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Har ‘Arif</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.7334,30.87616 34.67864,30.87369 34.62449,30.86629 34.57154,30.85405 34.5204,30.83711 34.47161,30.81566 34.42573,30.78992 34.38326,30.7602 34.34467,30.72681 34.31037,30.69012 34.28074,30.65055 34.25611,30.60853 34.23674,30.56451 34.22283,30.519 34.21453,30.47248 34.21193,30.42546 34.21503,30.37847 34.22381,30.33202 34.23815,30.28661 34.2579,30.24275 34.28282,30.2009 34.31265,30.16152 34.34706,30.12505 34.38565,30.09188 34.42802,30.06236 34.47369,30.03683 34.52218,30.01554 34.57295,29.99875 34.62546,29.98662 34.67914,29.97929 34.7334,29.97684 34.78766,29.97929 34.84134,29.98662 34.89385,29.99875 34.94462,30.01554 34.99311,30.03683 35.03878,30.06236 35.08115,30.09188 35.11974,30.12505 35.15415,30.16152 35.18398,30.2009 35.2089,30.24275 35.22865,30.28661 35.24299,30.33202 35.25177,30.37847 35.25487,30.42546 35.25227,30.47248 35.24397,30.519 35.23006,30.56451 35.21069,30.60853 35.18606,30.65055 35.15643,30.69012 35.12213,30.72681 35.08354,30.7602 35.04107,30.78992 34.99519,30.81566 34.9464,30.83711 34.89526,30.85405 34.84231,30.86629 34.78816,30.87369 34.7334,30.87616</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Har ‘Arif</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.7334,30.4265</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal al Lawz</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.30583,29.10383 35.25204,29.10135 35.19884,29.09396 35.14684,29.08173 35.09659,29.06479 35.04867,29.04334 35.00359,29.01761 34.96186,28.9879 34.92394,28.95451 34.89023,28.91784 34.86111,28.87827 34.8369,28.83625 34.81785,28.79225 34.80417,28.74673 34.796,28.70021 34.79342,28.6532 34.79646,28.60621 34.80506,28.55976 34.81914,28.51434 34.83853,28.47047 34.86302,28.42862 34.89232,28.38924 34.92612,28.35276 34.96405,28.31958 35.00568,28.29005 35.05057,28.26451 35.09822,28.24322 35.14813,28.22642 35.19974,28.21429 35.2525,28.20696 35.30583,28.20451 35.35917,28.20696 35.41193,28.21429 35.46354,28.22642 35.51344,28.24322 35.5611,28.26451 35.60599,28.29005 35.64762,28.31958 35.68554,28.35276 35.71934,28.38924 35.74865,28.42862 35.77313,28.47047 35.79252,28.51434 35.8066,28.55976 35.81521,28.60621 35.81825,28.6532 35.81567,28.70021 35.8075,28.74673 35.79381,28.79225 35.77477,28.83625 35.75055,28.87827 35.72143,28.91784 35.68773,28.95451 35.64981,28.9879 35.60808,29.01761 35.563,29.04334 35.51507,29.06479 35.46483,29.08173 35.41282,29.09396 35.35963,29.10135 35.30583,29.10383</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal al Lawz</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.305833,28.654167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Al Manifa</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2925,28.79016 35.23887,28.78769 35.18584,28.78029 35.13398,28.76806 35.08389,28.75113 35.03611,28.72968 34.99117,28.70395 34.94956,28.67423 34.91175,28.64085 34.87815,28.60418 34.84911,28.56461 34.82497,28.5226 34.80598,28.47859 34.79233,28.43308 34.78418,28.38656 34.78161,28.33955 34.78463,28.29256 34.79321,28.2461 34.80725,28.20069 34.82658,28.15682 34.85099,28.11496 34.8802,28.07558 34.9139,28.0391 34.95171,28.00591 34.99322,27.97639 35.03798,27.95085 35.0855,27.92956 35.13525,27.91276 35.18671,27.90063 35.23932,27.89329 35.2925,27.89084 35.34568,27.89329 35.39829,27.90063 35.44975,27.91276 35.4995,27.92956 35.54702,27.95085 35.59178,27.97639 35.63329,28.00591 35.6711,28.0391 35.7048,28.07558 35.73401,28.11496 35.75842,28.15682 35.77775,28.20069 35.79179,28.2461 35.80037,28.29256 35.80339,28.33955 35.80082,28.38656 35.79267,28.43308 35.77902,28.47859 35.76003,28.5226 35.73589,28.56461 35.70685,28.60418 35.67325,28.64085 35.63544,28.67423 35.59383,28.70395 35.54889,28.72968 35.50111,28.75113 35.45102,28.76806 35.39916,28.78029 35.34613,28.78769 35.2925,28.79016</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Al Manifa</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.2925,28.3405</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal Harb</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.6572,28.41036 35.60376,28.40789 35.55092,28.40049 35.49926,28.38826 35.44934,28.37133 35.40173,28.34988 35.35695,28.32416 35.31549,28.29444 35.27782,28.26106 35.24433,28.22439 35.2154,28.18482 35.19134,28.14281 35.17241,28.0988 35.15881,28.05329 35.15068,28.00678 35.14812,27.95976 35.15113,27.91277 35.15967,27.86632 35.17365,27.8209 35.19291,27.77703 35.21723,27.73517 35.24635,27.69579 35.27992,27.6593 35.3176,27.62612 35.35897,27.5966 35.40357,27.57105 35.45092,27.54976 35.5005,27.53296 35.55178,27.52083 35.6042,27.51349 35.6572,27.51104 35.7102,27.51349 35.76262,27.52083 35.8139,27.53296 35.86348,27.54976 35.91083,27.57105 35.95543,27.5966 35.9968,27.62612 36.03448,27.6593 36.06805,27.69579 36.09717,27.73517 36.12149,27.77703 36.14075,27.8209 36.15473,27.86632 36.16327,27.91277 36.16628,27.95976 36.16372,28.00678 36.15559,28.05329 36.14199,28.0988 36.12306,28.14281 36.099,28.18482 36.07007,28.22439 36.03658,28.26106 35.99891,28.29444 35.95745,28.32416 35.91267,28.34988 35.86506,28.37133 35.81514,28.38826 35.76348,28.40049 35.71064,28.40789 35.6572,28.41036</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Wilderness of Sinai / about 50 km around Jabal Harb</name>
+		<description>about 50 km around Mount Sinai</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.6572,27.9607</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

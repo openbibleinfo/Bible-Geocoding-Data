@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Migdal-el</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a5f0bc3/migdal-el">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Migdal-el</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.38&amp;version=ESV">19:38</a>]]></description>
+	<Placemark>
+		<name>Migdal-el / within 20 km of Yarun</name>
+		<description>within 20 km of Yiron</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.41667,33.2632 35.39418,33.26221 35.37195,33.25926 35.3502,33.25438 35.32919,33.24762 35.30914,33.23905 35.29028,33.22878 35.27281,33.21692 35.25692,33.20358 35.24279,33.18893 35.23057,33.17313 35.2204,33.15634 35.21238,33.13875 35.2066,33.12055 35.20313,33.10195 35.202,33.08315 35.20322,33.06435 35.20678,33.04576 35.21264,33.02759 35.22072,33.01002 35.23095,32.99326 35.24321,32.97749 35.25736,32.96288 35.27325,32.94959 35.2907,32.93776 35.30952,32.92752 35.32952,32.91899 35.35046,32.91225 35.37212,32.90739 35.39427,32.90445 35.41667,32.90347 35.43906,32.90445 35.46121,32.90739 35.48287,32.91225 35.50382,32.91899 35.52381,32.92752 35.54264,32.93776 35.56009,32.94959 35.57598,32.96288 35.59013,32.97749 35.60238,32.99326 35.61261,33.01002 35.6207,33.02759 35.62655,33.04576 35.63011,33.06435 35.63133,33.08315 35.6302,33.10195 35.62673,33.12055 35.62096,33.13875 35.61294,33.15634 35.60276,33.17313 35.59054,33.18893 35.57641,33.20358 35.56053,33.21692 35.54305,33.22878 35.52419,33.23905 35.50414,33.24762 35.48313,33.25438 35.46139,33.25926 35.43915,33.26221 35.41667,33.2632</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / within 20 km of Yarun</name>
+		<description>within 20 km of Yiron</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.416667,33.083333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / Majdel Selem</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.464444,33.221667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / Majdal</name>
+		<description>another name for Magdala</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.513552,32.827069</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / Khirbet el Mejdel</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.515786,33.15998</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / Majdal</name>
+		<description>another name for Magadan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.513552,32.827069</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / along the eastern side of the Sea of Galilee</name>
+		<description>another name for Magadan</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.612739,32.886484 35.624438,32.879182 35.633131,32.87339 35.643263,32.857885 35.648347,32.84555 35.639655,32.834476 35.641155,32.829249 35.64499,32.816019 35.638726,32.799466 35.639016,32.789887 35.634522,32.786867 35.63541,32.778806 35.638403,32.773265 35.6318,32.747377 35.624615,32.736302 35.618326,32.727237 35.612638,32.718431 35.603078,32.710152 35.591122,32.705373 35.642959,32.701597 35.676717,32.782938 35.676183,32.861962 35.624525,32.923148 35.612739,32.886484</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Migdal-el / along the eastern side of the Sea of Galilee</name>
+		<description>another name for Magadan</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.646371,32.860443</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

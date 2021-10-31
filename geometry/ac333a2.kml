@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ithnan</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ac333a2/ithnan">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ithnan</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.23&amp;version=ESV">15:23</a>]]></description>
+	<Placemark>
+		<name>Ithnan / El Jebariyeh</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.645224,30.722781</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithnan / Mesudat Har Hemet</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.73251,30.61274</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ithnan / within 5 km of Khirbet Abu Tulul</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.91217,31.18702 34.90668,31.18677 34.90124,31.18604 34.89593,31.18482 34.89079,31.18313 34.88589,31.18099 34.88128,31.17843 34.877,31.17546 34.87311,31.17214 34.86965,31.16848 34.86666,31.16453 34.86417,31.16033 34.8622,31.15594 34.86078,31.15139 34.85992,31.14674 34.85963,31.14204 34.85992,31.13734 34.86079,31.13269 34.86221,31.12815 34.86418,31.12375 34.86668,31.11956 34.86968,31.11562 34.87314,31.11196 34.87703,31.10863 34.8813,31.10567 34.88591,31.10311 34.89081,31.10097 34.89594,31.09929 34.90125,31.09807 34.90668,31.09733 34.91217,31.09709 34.91766,31.09733 34.92309,31.09807 34.9284,31.09929 34.93353,31.10097 34.93843,31.10311 34.94304,31.10567 34.94731,31.10863 34.9512,31.11196 34.95466,31.11562 34.95766,31.11956 34.96016,31.12375 34.96213,31.12815 34.96355,31.13269 34.96442,31.13734 34.96471,31.14204 34.96442,31.14674 34.96356,31.15139 34.96214,31.15594 34.96017,31.16033 34.95768,31.16453 34.95469,31.16848 34.95123,31.17214 34.94734,31.17546 34.94306,31.17843 34.93845,31.18099 34.93355,31.18313 34.92841,31.18482 34.9231,31.18604 34.91766,31.18677 34.91217,31.18702</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ithnan / within 5 km of Khirbet Abu Tulul</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.91217,31.142053</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goshen 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad3e63c/goshen-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Goshen 2</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.10.41&amp;version=ESV">10:41</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.11.16&amp;version=ESV">11:16</a>]]></description>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Dahriya</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9723,31.58749 34.95023,31.5865 34.9284,31.58355 34.90706,31.57867 34.88643,31.57191 34.86675,31.56335 34.84824,31.55308 34.83109,31.54121 34.81549,31.52788 34.80161,31.51323 34.78962,31.49742 34.77963,31.48064 34.77175,31.46305 34.76608,31.44485 34.76267,31.42625 34.76156,31.40745 34.76276,31.38865 34.76625,31.37006 34.77199,31.35189 34.77993,31.33432 34.78997,31.31756 34.802,31.30179 34.81589,31.28717 34.83149,31.27388 34.84862,31.26205 34.8671,31.25181 34.88673,31.24328 34.9073,31.23654 34.92857,31.23168 34.95031,31.22874 34.9723,31.22776 34.99429,31.22874 35.01603,31.23168 35.0373,31.23654 35.05787,31.24328 35.0775,31.25181 35.09598,31.26205 35.11311,31.27388 35.12871,31.28717 35.1426,31.30179 35.15463,31.31756 35.16467,31.33432 35.17261,31.35189 35.17835,31.37006 35.18184,31.38865 35.18304,31.40745 35.18193,31.42625 35.17852,31.44485 35.17285,31.46305 35.16497,31.48064 35.15498,31.49742 35.14299,31.51323 35.12911,31.52788 35.11351,31.54121 35.09636,31.55308 35.07785,31.56335 35.05817,31.57191 35.03754,31.57867 35.0162,31.58355 34.99437,31.5865 34.9723,31.58749</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Dahriya</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9723,31.407622</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Tel Halif</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.86564,31.56319 34.84358,31.56221 34.82175,31.55926 34.80042,31.55437 34.7798,31.54762 34.76012,31.53905 34.74161,31.52878 34.72446,31.51692 34.70887,31.50359 34.695,31.48894 34.683,31.47313 34.67302,31.45634 34.66515,31.43876 34.65948,31.42056 34.65607,31.40196 34.65495,31.38316 34.65615,31.36436 34.65964,31.34577 34.66538,31.32759 34.67332,31.31003 34.68335,31.29327 34.69538,31.2775 34.70927,31.26288 34.72486,31.24959 34.74199,31.23776 34.76047,31.22752 34.7801,31.21899 34.80065,31.21225 34.82192,31.20739 34.84366,31.20445 34.86564,31.20347 34.88762,31.20445 34.90936,31.20739 34.93063,31.21225 34.95118,31.21899 34.97081,31.22752 34.98929,31.23776 35.00642,31.24959 35.02201,31.26288 35.0359,31.2775 35.04793,31.29327 35.05796,31.31003 35.0659,31.32759 35.07164,31.34577 35.07513,31.36436 35.07633,31.38316 35.07521,31.40196 35.0718,31.42056 35.06613,31.43876 35.05826,31.45634 35.04828,31.47313 35.03628,31.48894 35.02241,31.50359 35.00682,31.51692 34.98967,31.52878 34.97116,31.53905 34.95148,31.54762 34.93086,31.55437 34.90953,31.55926 34.8877,31.56221 34.86564,31.56319</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Tel Halif</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.86564,31.38333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Khirbet Tatrit</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.92858,31.53013 34.90652,31.52914 34.88471,31.52619 34.86338,31.52131 34.84276,31.51455 34.8231,31.50599 34.80459,31.49572 34.78745,31.48385 34.77186,31.47052 34.758,31.45587 34.74601,31.44007 34.73602,31.42328 34.72815,31.40569 34.72248,31.3875 34.71908,31.3689 34.71796,31.35009 34.71916,31.33129 34.72265,31.3127 34.72839,31.29453 34.73632,31.27696 34.74636,31.2602 34.75838,31.24443 34.77226,31.22982 34.78785,31.21652 34.80497,31.20469 34.82344,31.19446 34.84306,31.18592 34.86361,31.17919 34.88487,31.17432 34.9066,31.17138 34.92858,31.1704 34.95055,31.17138 34.97228,31.17432 34.99354,31.17919 35.01409,31.18592 35.03371,31.19446 35.05218,31.20469 35.0693,31.21652 35.08489,31.22982 35.09878,31.24443 35.1108,31.2602 35.12083,31.27696 35.12876,31.29453 35.13451,31.3127 35.13799,31.33129 35.13919,31.35009 35.13808,31.3689 35.13467,31.3875 35.129,31.40569 35.12113,31.42328 35.11115,31.44007 35.09916,31.45587 35.08529,31.47052 35.06971,31.48385 35.05256,31.49572 35.03406,31.50599 35.01439,31.51455 34.99378,31.52131 34.97245,31.52619 34.95063,31.52914 34.92858,31.53013</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Khirbet Tatrit</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.928577,31.350265</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Tell Beit Mirsim</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9098,31.63566 34.88772,31.63468 34.86588,31.63173 34.84452,31.62684 34.82389,31.62009 34.8042,31.61152 34.78567,31.60125 34.76851,31.58939 34.75291,31.57606 34.73903,31.56141 34.72702,31.5456 34.71703,31.52881 34.70915,31.51122 34.70348,31.49303 34.70006,31.47443 34.69895,31.45563 34.70015,31.43683 34.70364,31.41824 34.70939,31.40006 34.71733,31.3825 34.72737,31.36574 34.73941,31.34997 34.75331,31.33535 34.76891,31.32206 34.78606,31.31023 34.80455,31.29999 34.82419,31.29146 34.84476,31.28472 34.86604,31.27986 34.8878,31.27692 34.9098,31.27594 34.9318,31.27692 34.95356,31.27986 34.97484,31.28472 34.99541,31.29146 35.01505,31.29999 35.03354,31.31023 35.05069,31.32206 35.06629,31.33535 35.08019,31.34997 35.09223,31.36574 35.10227,31.3825 35.11021,31.40006 35.11596,31.41824 35.11945,31.43683 35.12065,31.45563 35.11954,31.47443 35.11612,31.49303 35.11045,31.51122 35.10257,31.52881 35.09258,31.5456 35.08057,31.56141 35.06669,31.57606 35.05109,31.58939 35.03393,31.60125 35.0154,31.61152 34.99571,31.62009 34.97508,31.62684 34.95372,31.63173 34.93188,31.63468 34.9098,31.63566</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Tell Beit Mirsim</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9098,31.4558</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Khirbet el Qaryatein</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.12438,31.52482 35.10232,31.52383 35.08051,31.52088 35.05918,31.516 35.03857,31.50924 35.0189,31.50068 35.0004,31.49041 34.98326,31.47854 34.96767,31.46521 34.9538,31.45056 34.94182,31.43475 34.93183,31.41797 34.92396,31.40038 34.9183,31.38218 34.91489,31.36358 34.91378,31.34478 34.91497,31.32598 34.91846,31.30739 34.9242,31.28922 34.93213,31.27165 34.94216,31.25489 34.95419,31.23912 34.96807,31.2245 34.98366,31.21121 35.00078,31.19938 35.01925,31.18914 35.03887,31.18061 35.05941,31.17387 35.08067,31.16901 35.1024,31.16607 35.12438,31.16509 35.14635,31.16607 35.16808,31.16901 35.18934,31.17387 35.20989,31.18061 35.2295,31.18914 35.24797,31.19938 35.2651,31.21121 35.28068,31.2245 35.29456,31.23912 35.30659,31.25489 35.31662,31.27165 35.32455,31.28922 35.33029,31.30739 35.33378,31.32598 35.33498,31.34478 35.33387,31.36358 35.33046,31.38218 35.32479,31.40038 35.31692,31.41797 35.30694,31.43475 35.29495,31.45056 35.28108,31.46521 35.2655,31.47854 35.24836,31.49041 35.22985,31.50068 35.21019,31.50924 35.18957,31.516 35.16824,31.52088 35.14643,31.52383 35.12438,31.52482</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Goshen 2 / about 20 km around Khirbet el Qaryatein</name>
+		<description>about 20 km around Goshen 3</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.124376,31.344952</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Goshen 2 / Goshen 1</name>
+		<description>another name for Goshen 1</description>
+		<Placemark>
+			<name>Goshen 2 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.81859,30.86821 31.56946,30.83224 31.61098,30.40057 31.6525,30.43654 31.90164,30.83224 31.81859,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.56946,30.83224 31.48641,30.47251 31.61098,30.40057 31.6525,30.40057 31.77707,30.40057 31.81859,30.40057 31.98468,30.65237 32.0262,30.83224 31.86011,30.86821 31.81859,30.86821 31.77707,30.86821 31.73555,30.86821 31.56946,30.83224</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.86011,30.40057 31.90164,30.43654 32.10925,30.72432 32.06772,30.83224 32.0262,30.94015 31.98468,30.94015 31.77707,30.90418 31.44489,30.83224 31.44489,30.72432 31.44489,30.47251 31.48641,30.40057 31.6525,30.32862 31.69402,30.32862 31.73555,30.32862 31.81859,30.3646 31.86011,30.40057</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.56946,30.86821 31.44489,30.83224 31.40337,30.72432 31.40337,30.47251 31.40337,30.43654 31.40337,30.40057 31.61098,30.32862 31.6525,30.32862 31.69402,30.32862 31.73555,30.32862 31.77707,30.32862 31.81859,30.32862 31.98468,30.40057 32.15077,30.68835 32.15077,30.72432 32.10925,30.83224 32.06772,30.94015 32.0262,30.94015 31.98468,30.94015 31.90164,30.94015 31.81859,30.94015 31.56946,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.44489,30.86821 31.40337,30.83224 31.36184,30.40057 31.44489,30.32862 31.69402,30.29265 31.81859,30.32862 32.0262,30.40057 32.15077,30.65237 32.15077,30.68835 32.15077,30.72432 32.10925,30.94015 32.06772,30.94015 32.0262,30.94015 31.98468,30.94015 31.94316,30.94015 31.90164,30.94015 31.86011,30.94015 31.81859,30.94015 31.77707,30.94015 31.73555,30.94015 31.69402,30.94015 31.44489,30.86821</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.36184,30.72432 31.36184,30.47251 31.36184,30.43654 31.36184,30.40057 31.36184,30.3646 31.40337,30.32862 31.48641,30.29265 31.56946,30.25668 31.81859,30.29265 31.90164,30.32862 31.98468,30.3646 32.0262,30.40057 32.06772,30.43654 32.23381,30.68835 32.19229,30.94015 32.06772,30.97613 31.81859,30.97613 31.40337,30.94015 31.36184,30.83224 31.36184,30.72432</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.19229,30.94015 32.15077,30.97613 32.0262,31.0121 31.98468,31.0121 31.94316,31.0121 31.90164,31.0121 31.86011,31.0121 31.81859,31.0121 31.77707,31.0121 31.73555,31.0121 31.69402,31.0121 31.6525,31.0121 31.61098,31.0121 31.36184,30.94015 31.2788,30.72432 31.23728,30.47251 31.2788,30.40057 31.36184,30.32862 31.44489,30.29265 31.52793,30.25668 31.56946,30.25668 31.61098,30.25668 31.6525,30.25668 31.69402,30.25668 31.73555,30.25668 31.77707,30.25668 31.81859,30.25668 31.98468,30.32862 32.06772,30.40057 32.23381,30.65237 32.23381,30.68835 32.23381,30.72432 32.23381,30.83224 32.19229,30.94015</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>31.23728,30.94015 31.07119,30.83224 31.07119,30.79626 31.07119,30.76029 31.07119,30.72432 31.23728,30.32862 31.36184,30.04084 31.40337,30.00487 31.94316,30.29265 32.06772,30.3646 32.10925,30.40057 32.15077,30.43654 32.27534,30.65237 32.27534,30.68835 32.27534,30.72432 32.27534,30.83224 32.27534,30.86821 32.27534,30.94015 32.15077,31.0121 32.0262,31.08404 31.98468,31.08404 31.94316,31.08404 31.90164,31.08404 31.86011,31.08404 31.81859,31.08404 31.77707,31.08404 31.73555,31.08404 31.69402,31.08404 31.6525,31.08404 31.61098,31.08404 31.56946,31.08404 31.40337,31.0121 31.23728,30.94015</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goshen 2 / Goshen 1</name>
+			<description>another name for Goshen 1</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>31.834217,30.79937</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

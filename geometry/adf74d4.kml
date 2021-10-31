@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shechem</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adf74d4/shechem">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Shechem</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.12.6&amp;version=ESV">12:6</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.33.18&amp;version=ESV">33:18</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.35.4&amp;version=ESV">35:4</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.37.12&amp;version=ESV">37:12</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.37.13&amp;version=ESV">37:13</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.37.14&amp;version=ESV">37:14</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.17.7&amp;version=ESV">17:7</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.20.7&amp;version=ESV">20:7</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.21.21&amp;version=ESV">21:21</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.1&amp;version=ESV">24:1</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.25&amp;version=ESV">24:25</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.24.32&amp;version=ESV">24:32</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.8.31&amp;version=ESV">8:31</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.1&amp;version=ESV">9:1</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.2&amp;version=ESV">9:2</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.3&amp;version=ESV">9:3</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.6&amp;version=ESV">9:6</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.7&amp;version=ESV">9:7</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.18&amp;version=ESV">9:18</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.20&amp;version=ESV">9:20</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.23&amp;version=ESV">9:23</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.24&amp;version=ESV">9:24</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.25&amp;version=ESV">9:25</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.26&amp;version=ESV">9:26</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.27&amp;version=NLT">9:27</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.28&amp;version=ESV">9:28</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.31&amp;version=ESV">9:31</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.34&amp;version=ESV">9:34</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.39&amp;version=ESV">9:39</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.40&amp;version=NLT">9:40</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.41&amp;version=ESV">9:41</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.42&amp;version=NIV">9:42</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.44&amp;version=NLT">9:44</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.9.57&amp;version=ESV">9:57</a>, <a href="https://www.biblegateway.com/passage/?search=Judg.21.19&amp;version=ESV">21:19</a>, 1Kgs <a href="https://www.biblegateway.com/passage/?search=1Kgs.12.1&amp;version=ESV">12:1</a>, <a href="https://www.biblegateway.com/passage/?search=1Kgs.12.25&amp;version=ESV">12:25</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.6.67&amp;version=ESV">6:67</a>, <a href="https://www.biblegateway.com/passage/?search=1Chr.7.28&amp;version=ESV">7:28</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.10.1&amp;version=ESV">10:1</a>, Ps <a href="https://www.biblegateway.com/passage/?search=Ps.60.6&amp;version=ESV">60:6</a>, <a href="https://www.biblegateway.com/passage/?search=Ps.108.7&amp;version=ESV">108:7</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.41.5&amp;version=ESV">41:5</a>, Hos <a href="https://www.biblegateway.com/passage/?search=Hos.6.9&amp;version=ESV">6:9</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.7.16&amp;version=ESV">7:16</a>]]></description>
+	<Placemark>
+		<name>Shechem / Tell Balatah</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.281944,32.213611</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

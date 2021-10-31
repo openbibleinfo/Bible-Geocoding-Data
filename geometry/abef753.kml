@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sutu</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/abef753/sutu">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sutu</name>
+	<Placemark>
+		<name>Sutu / about 100 km around the mouth of the Tigris River</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>47.4421,31.90362 47.33138,31.89865 47.22191,31.88378 47.11491,31.85919 47.0116,31.82516 46.91314,31.78206 46.82061,31.73038 46.73505,31.6707 46.65741,31.60369 46.58852,31.5301 46.52914,31.45075 46.47991,31.36652 46.44133,31.27835 46.41381,31.18721 46.39762,31.0941 46.39291,31.00006 46.39968,30.90611 46.41784,30.81328 46.44715,30.72258 46.48726,30.635 46.53771,30.55149 46.59793,30.47295 46.66725,30.40022 46.7449,30.3341 46.83003,30.27529 46.92171,30.22442 47.01896,30.18204 47.12073,30.1486 47.22593,30.12445 47.33344,30.10986 47.4421,30.10498 47.55076,30.10986 47.65827,30.12445 47.76347,30.1486 47.86524,30.18204 47.96249,30.22442 48.05417,30.27529 48.1393,30.3341 48.21695,30.40022 48.28627,30.47295 48.34649,30.55149 48.39694,30.635 48.43705,30.72258 48.46636,30.81328 48.48452,30.90611 48.49129,31.00006 48.48658,31.0941 48.47039,31.18721 48.44287,31.27835 48.40429,31.36652 48.35506,31.45075 48.29568,31.5301 48.22679,31.60369 48.14915,31.6707 48.06359,31.73038 47.97106,31.78206 47.8726,31.82516 47.76929,31.85919 47.66229,31.88378 47.55282,31.89865 47.4421,31.90362</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sutu / about 100 km around the mouth of the Tigris River</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>47.4421,31.0043</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sea of Jazer</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad259d1/sea-of-jazer">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Sea of Jazer (Jazer)</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.48.32&amp;version=ESV">48:32</a>]]></description>
+	<Placemark>
+		<name>Sea of Jazer / Khirbet Jazzir</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.734976,32.006398</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / Khirbet Sara</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.830077,31.944471</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / Tell el Areme</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.795878,31.905589</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / Khirbet es Sireh</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.814722,31.956944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / Kom Yajuz</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.917261,32.030433</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / Yajuz</name>
+		<description>another name for Jazer</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.913733,32.036028</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet Jazzir</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.73498,32.27619 35.70162,32.27471 35.66864,32.27028 35.63638,32.26295 35.60522,32.2528 35.57549,32.23995 35.54752,32.22453 35.52162,32.20672 35.49807,32.18671 35.47713,32.16472 35.45904,32.141 35.44397,32.1158 35.43211,32.08941 35.42358,32.06211 35.41846,32.03421 35.41682,32.006 35.41866,31.9778 35.42396,31.94992 35.43266,31.92267 35.44467,31.89633 35.45985,31.8712 35.47802,31.84756 35.499,31.82565 35.52255,31.80572 35.54841,31.78799 35.5763,31.77265 35.60591,31.75986 35.63693,31.74977 35.66902,31.74248 35.70182,31.73808 35.73498,31.7366 35.76814,31.73808 35.80094,31.74248 35.83302,31.74977 35.86404,31.75986 35.89365,31.77265 35.92154,31.78799 35.9474,31.80572 35.97095,31.82565 35.99193,31.84756 36.01011,31.8712 36.02528,31.89633 36.03729,31.92267 36.04599,31.94992 36.05129,31.9778 36.05314,32.006 36.05149,32.03421 36.04637,32.06211 36.03784,32.08941 36.02598,32.1158 36.01092,32.141 35.99282,32.16472 35.97188,32.18671 35.94833,32.20672 35.92243,32.22453 35.89446,32.23995 35.86473,32.2528 35.83357,32.26295 35.80132,32.27028 35.76833,32.27471 35.73498,32.27619</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet Jazzir</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.734976,32.006398</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet Sara</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.83008,32.21427 35.79675,32.21278 35.76378,32.20835 35.73155,32.20102 35.70041,32.19088 35.6707,32.17802 35.64275,32.1626 35.61686,32.14479 35.59333,32.12478 35.57241,32.10279 35.55432,32.07907 35.53927,32.05388 35.52742,32.02748 35.51889,32.00019 35.51378,31.97228 35.51213,31.94407 35.51397,31.91588 35.51927,31.888 35.52797,31.86074 35.53997,31.83441 35.55513,31.80928 35.5733,31.78563 35.59426,31.76372 35.61779,31.7438 35.64364,31.72607 35.67151,31.71072 35.7011,31.69793 35.7321,31.68784 35.76416,31.68055 35.79694,31.67615 35.83008,31.67467 35.86321,31.67615 35.89599,31.68055 35.92805,31.68784 35.95905,31.69793 35.98865,31.71072 36.01652,31.72607 36.04236,31.7438 36.06589,31.76372 36.08686,31.78563 36.10502,31.80928 36.12019,31.83441 36.13219,31.86074 36.14088,31.888 36.14618,31.91588 36.14802,31.94407 36.14638,31.97228 36.14126,32.00019 36.13274,32.02748 36.12088,32.05388 36.10583,32.07907 36.08775,32.10279 36.06682,32.12478 36.04329,32.14479 36.01741,32.1626 35.98946,32.17802 35.95975,32.19088 35.9286,32.20102 35.89637,32.20835 35.86341,32.21278 35.83008,32.21427</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet Sara</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.830077,31.944471</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Tell el Areme</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.79588,32.17539 35.76256,32.1739 35.72961,32.16947 35.69739,32.16214 35.66626,32.15199 35.63657,32.13914 35.60863,32.12372 35.58276,32.10591 35.55923,32.0859 35.53832,32.06391 35.52024,32.04019 35.5052,32.01499 35.49335,31.9886 35.48482,31.9613 35.47971,31.9334 35.47807,31.90519 35.47991,31.877 35.4852,31.84912 35.4939,31.82186 35.50589,31.79552 35.52105,31.7704 35.53921,31.74675 35.56016,31.72484 35.58368,31.70492 35.60951,31.68718 35.63737,31.67184 35.66696,31.65905 35.69794,31.64896 35.72999,31.64167 35.76275,31.63727 35.79588,31.63579 35.829,31.63727 35.86177,31.64167 35.89381,31.64896 35.9248,31.65905 35.95438,31.67184 35.98224,31.68718 36.00807,31.70492 36.0316,31.72484 36.05255,31.74675 36.07071,31.7704 36.08587,31.79552 36.09786,31.82186 36.10655,31.84912 36.11185,31.877 36.11369,31.90519 36.11204,31.9334 36.10693,31.9613 36.09841,31.9886 36.08656,32.01499 36.07151,32.04019 36.05344,32.06391 36.03252,32.0859 36.009,32.10591 35.98313,32.12372 35.95519,32.13914 35.92549,32.15199 35.89436,32.16214 35.86215,32.16947 35.8292,32.1739 35.79588,32.17539</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Tell el Areme</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.795878,31.905589</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet es Sireh</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.81472,32.22674 35.78139,32.22526 35.74842,32.22083 35.71618,32.2135 35.68504,32.20335 35.65532,32.19049 35.62737,32.17508 35.60148,32.15726 35.57794,32.13725 35.55702,32.11527 35.53893,32.09154 35.52388,32.06635 35.51202,32.03996 35.50349,32.01266 35.49838,31.98475 35.49673,31.95655 35.49857,31.92835 35.50387,31.90047 35.51257,31.87321 35.52457,31.84688 35.53974,31.82175 35.55791,31.7981 35.57887,31.7762 35.60241,31.75627 35.62826,31.73854 35.65613,31.7232 35.68573,31.71041 35.71673,31.70032 35.7488,31.69303 35.78158,31.68862 35.81472,31.68715 35.84786,31.68862 35.88065,31.69303 35.91271,31.70032 35.94371,31.71041 35.97331,31.7232 36.00119,31.73854 36.02703,31.75627 36.05057,31.7762 36.07154,31.7981 36.0897,31.82175 36.10487,31.84688 36.11687,31.87321 36.12557,31.90047 36.13087,31.92835 36.13271,31.95655 36.13106,31.98475 36.12595,32.01266 36.11742,32.03996 36.10557,32.06635 36.09051,32.09154 36.07243,32.11527 36.0515,32.13725 36.02796,32.15726 36.00208,32.17508 35.97412,32.19049 35.94441,32.20335 35.91326,32.2135 35.88103,32.22083 35.84806,32.22526 35.81472,32.22674</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Khirbet es Sireh</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.814722,31.956944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Kom Yajuz</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.91726,32.30023 35.8839,32.29875 35.8509,32.29432 35.81864,32.28699 35.78747,32.27684 35.75773,32.26398 35.72975,32.24856 35.70385,32.23075 35.68029,32.21074 35.65935,32.18875 35.64125,32.16503 35.62618,32.13984 35.61432,32.11344 35.60578,32.08615 35.60066,32.05824 35.59902,32.03004 35.60086,32.00184 35.60616,31.97396 35.61487,31.9467 35.62688,31.92037 35.64206,31.89524 35.66024,31.87159 35.68122,31.84969 35.70478,31.82976 35.73065,31.81203 35.75854,31.79668 35.78817,31.7839 35.81919,31.7738 35.85128,31.76652 35.88409,31.76211 35.91726,31.76064 35.95043,31.76211 35.98324,31.76652 36.01533,31.7738 36.04636,31.7839 36.07598,31.79668 36.10388,31.81203 36.12974,31.82976 36.1533,31.84969 36.17428,31.87159 36.19246,31.89524 36.20764,31.92037 36.21965,31.9467 36.22836,31.97396 36.23366,32.00184 36.2355,32.03004 36.23386,32.05824 36.22874,32.08615 36.2202,32.11344 36.20834,32.13984 36.19327,32.16503 36.17517,32.18875 36.15423,32.21074 36.13068,32.23075 36.10477,32.24856 36.07679,32.26398 36.04705,32.27684 36.01588,32.28699 35.98362,32.29432 35.95062,32.29875 35.91726,32.30023</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Kom Yajuz</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.917261,32.030433</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Yajuz</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.91373,32.30582 35.88037,32.30434 35.84737,32.29991 35.81511,32.29258 35.78393,32.28243 35.75419,32.26958 35.72622,32.25416 35.70031,32.23635 35.67675,32.21634 35.65581,32.19435 35.6377,32.17063 35.62264,32.14543 35.61077,32.11904 35.60223,32.09174 35.59712,32.06384 35.59547,32.03563 35.59731,32.00743 35.60262,31.97955 35.61132,31.9523 35.62333,31.92596 35.63851,31.90083 35.6567,31.87719 35.67768,31.85528 35.70124,31.83535 35.72711,31.81762 35.75501,31.80228 35.78463,31.78949 35.81566,31.7794 35.84775,31.77211 35.88056,31.76771 35.91373,31.76623 35.9469,31.76771 35.97971,31.77211 36.01181,31.7794 36.04284,31.78949 36.07246,31.80228 36.10036,31.81762 36.12623,31.83535 36.14978,31.85528 36.17077,31.87719 36.18895,31.90083 36.20413,31.92596 36.21614,31.9523 36.22485,31.97955 36.23015,32.00743 36.23199,32.03563 36.23035,32.06384 36.22523,32.09174 36.21669,32.11904 36.20483,32.14543 36.18976,32.17063 36.17166,32.19435 36.15072,32.21634 36.12716,32.23635 36.10125,32.25416 36.07327,32.26958 36.04353,32.28243 36.01236,32.29258 35.9801,32.29991 35.9471,32.30434 35.91373,32.30582</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sea of Jazer / within 30 km of Yajuz</name>
+		<description>within 30 km of Jazer</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.913733,32.036028</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kos</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/md321d4/kos">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Kos</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>27.156616,36.884797 27.14421,36.880282 27.118229,36.863902 27.101707,36.856056 27.081206,36.850297 27.07595,36.850594 27.077022,36.852522 27.075662,36.852042 27.069744,36.842408 27.059854,36.837847 27.041678,36.818052 27.029026,36.812216 27.023612,36.803229 27.002919,36.778993 26.992428,36.77015 26.989384,36.769311 26.97749,36.772898 26.963627,36.77311 26.962796,36.774602 26.965623,36.774689 26.962916,36.775137 26.951929,36.771375 26.948526,36.768129 26.945561,36.76932 26.944013,36.767009 26.939141,36.76543 26.931712,36.767796 26.926205,36.761602 26.921894,36.764016 26.921483,36.75486 26.917757,36.749143 26.924012,36.741697 26.917193,36.718764 26.921663,36.713978 26.922199,36.707634 26.924796,36.704129 26.934032,36.698651 26.942279,36.686146 26.952909,36.681515 26.954464,36.676125 26.958546,36.677696 26.961506,36.674697 26.969592,36.671699 26.974083,36.672695 26.966885,36.682678 26.968636,36.689173 26.966591,36.692164 26.967979,36.697588 26.966739,36.70499 26.971986,36.711787 26.979837,36.715438 26.983117,36.714278 26.984514,36.716606 26.982891,36.718259 26.984359,36.721055 26.980407,36.728436 26.972467,36.73386 26.973245,36.736737 26.971501,36.735818 26.970237,36.737413 26.971703,36.743442 26.978913,36.749653 27.002662,36.757138 27.00759,36.756038 27.005221,36.757418 27.006383,36.759788 27.015581,36.763886 27.042862,36.767927 27.060947,36.767318 27.101509,36.756419 27.112419,36.757398 27.114996,36.760681 27.144803,36.780508 27.147224,36.782789 27.143724,36.781577 27.163002,36.802952 27.171628,36.807922 27.222081,36.824225 27.255417,36.830594 27.26548,36.830635 27.285312,36.836201 27.290117,36.839143 27.302266,36.839884 27.313252,36.8441 27.324333,36.845428 27.355992,36.859037 27.351817,36.874826 27.338989,36.890525 27.323829,36.884577 27.30767,36.886792 27.301094,36.892944 27.294338,36.893027 27.290184,36.898726 27.288834,36.896697 27.289871,36.89498 27.287733,36.894576 27.286287,36.89618 27.288472,36.898341 27.286238,36.899407 27.283923,36.909067 27.280145,36.915667 27.235322,36.894429 27.201082,36.889734 27.173713,36.891066 27.156616,36.884797</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Kos</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>27.110278,36.815278</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

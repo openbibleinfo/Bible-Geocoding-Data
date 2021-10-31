@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Iphtahel</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a3e0180/valley-of-iphtahel">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Iphtahel (Valley of Iphtah El, Iphtah-el Valley, Valley of Jiphthah El, Jiphthah-el)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.19.14&amp;version=ESV">19:14</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.19.27&amp;version=ESV">19:27</a>]]></description>
+	<Placemark>
+		<name>Valley of Iphtahel / Wadi el Melek</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.25039,32.77896 35.24974,32.77893 35.24873,32.77843 35.24629,32.77551 35.24512,32.77231 35.23884,32.76726 35.23927,32.76607 35.23921,32.76559 35.23746,32.76404 35.23384,32.76151 35.23305,32.76147 35.23236,32.76075 35.23242,32.76004 35.23133,32.75887 35.2311,32.75831 35.23011,32.75815 35.2296,32.75781 35.22865,32.75652 35.22776,32.75584 35.22652,32.75423 35.2258,32.75178 35.22543,32.75153 35.2243,32.75165 35.22257,32.75011 35.22144,32.74865 35.21904,32.74763 35.21769,32.74812 35.2135,32.74882 35.21123,32.74984 35.20965,32.74972 35.2085,32.75012 35.20645,32.75021 35.20433,32.74974 35.20229,32.74865 35.20185,32.74874 35.20105,32.74933 35.20032,32.7492 35.19964,32.74936 35.1976,32.7506 35.19643,32.75086 35.19322,32.74973 35.19091,32.74928 35.189,32.74928 35.18816,32.74969 35.18772,32.75055 35.18589,32.75186 35.18596,32.75263 35.18573,32.75336 35.18477,32.75416 35.18364,32.75464 35.18296,32.75423 35.18175,32.7539 35.17806,32.7514 35.17619,32.75151 35.17425,32.75422 35.17397,32.75433 35.1725,32.75845 35.16939,32.75909 35.16754,32.75976 35.16697,32.76015 35.16607,32.76129 35.16487,32.76217 35.16423,32.76236 35.1637,32.76309 35.16242,32.76411 35.16105,32.76417 35.1596,32.76469 35.15923,32.7644 35.15855,32.76426 35.15783,32.76462 35.15386,32.76458 35.15316,32.7651 35.15328,32.7661 35.15283,32.76913 35.15355,32.76987 35.15666,32.77056 35.15832,32.77151 35.15947,32.77173 35.16067,32.77257 35.16079,32.77308 35.16032,32.77351 35.15957,32.77358 35.15877,32.77432 35.15635,32.77453 35.15528,32.77508 35.15385,32.77513 35.15202,32.77484 35.15061,32.77396 35.1499,32.77196 35.14992,32.76907 35.14885,32.7688 35.14602,32.76987 35.14431,32.77146 35.14375,32.77245 35.14397,32.77442 35.14347,32.7755 35.14272,32.77583 35.14157,32.77559 35.14009,32.77577 35.1392,32.77637 35.13835,32.7774 35.1361,32.77836 35.13491,32.77849 35.13297,32.77795 35.12834,32.77847</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / Wadi el Melek</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.143017,32.771216</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / Wadi Abbelin</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.261823,32.841895 35.261494,32.839854 35.260102,32.837561 35.259949,32.836883 35.260344,32.835975 35.259982,32.834663 35.257184,32.831316 35.257184,32.830293 35.258661,32.828345 35.25884,32.827336 35.255743,32.824378 35.254472,32.823887 35.249787,32.822864 35.249186,32.820844 35.247212,32.819603 35.246096,32.819429 35.244275,32.819819 35.243778,32.820353 35.243555,32.822372 35.242044,32.823743 35.241409,32.824854 35.240465,32.825517 35.239178,32.82572 35.238353,32.825172 35.23777,32.821579 35.234576,32.817583 35.233103,32.815195 35.232897,32.814488 35.2331,32.810196 35.230525,32.809346 35.228586,32.808321 35.224862,32.807564 35.221653,32.807823 35.218478,32.808747 35.212263,32.812295 35.209344,32.813637 35.20768,32.814762 35.20711,32.815622 35.205653,32.816768 35.205222,32.81741 35.205291,32.819502 35.204999,32.820425 35.205171,32.820656 35.203797,32.823353 35.203266,32.825907 35.200177,32.829059 35.196657,32.830725 35.194769,32.832067 35.193653,32.833234 35.192143,32.833595 35.189069,32.833754 35.188296,32.833466 35.186803,32.833394 35.185721,32.833798 35.183267,32.833322 35.18246,32.833466 35.181172,32.834187 35.179027,32.834663 35.173911,32.834215 35.172299,32.834908 35.170529,32.834908 35.167082,32.83679 35.165775,32.836799 35.159921,32.838354 35.158719,32.838961 35.156539,32.838427 35.155028,32.839191 35.154377,32.840302 35.153054,32.841138 35.15108,32.840561 35.150102,32.840764 35.148867,32.843402 35.147286,32.844239 35.146754,32.845206 35.146943,32.845825 35.146567,32.84695 35.143992,32.84796 35.142034,32.847671 35.141467,32.847888 35.141278,32.848753 35.141588,32.848969 35.141639,32.850224 35.140334,32.851017 35.13867,32.851623 35.138498,32.851854 35.139013,32.852488 35.138635,32.852892 35.137795,32.852863 35.136403,32.854161 35.13625,32.854637 35.136267,32.855213 35.13733,32.856539 35.137158,32.85703 35.137365,32.857939 35.137673,32.858184 35.136095,32.860246 35.137073,32.877476 35.137588,32.882017 35.13653,32.892578</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / Wadi Abbelin</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.175254,32.833225</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / Beit Netofa Valley</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.239204,32.801784 35.262757,32.781737 35.352063,32.797059 35.404656,32.808052 35.411032,32.826139 35.382551,32.836142 35.33233,32.823671 35.239204,32.801784</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / Beit Netofa Valley</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.332461,32.809567</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / region around Khirbet Shifat</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.296846,32.822786 35.281769,32.853314 35.253467,32.855351 35.247722,32.818913 35.26433,32.823943 35.296846,32.822786</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Iphtahel / region around Khirbet Shifat</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.278139,32.831944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Eshcol</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a38ecff/valley-of-eshcol">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Eshcol (Valley of Eshkol, Wadi Eshcol, Eshcol Valley, Eshcol)</name>
+	<description><![CDATA[Num <a href="https://www.biblegateway.com/passage/?search=Num.13.23&amp;version=ESV">13:23</a>, <a href="https://www.biblegateway.com/passage/?search=Num.13.24&amp;version=ESV">13:24</a>, <a href="https://www.biblegateway.com/passage/?search=Num.32.9&amp;version=ESV">32:9</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.1.24&amp;version=ESV">1:24</a>]]></description>
+	<Placemark>
+		<name>Valley of Eshcol / within 5 km of Tel Rumeida</name>
+		<description>within 5 km of Hebron</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10222,31.57005 35.0967,31.56981 35.09125,31.56907 35.08591,31.56785 35.08075,31.56616 35.07583,31.56403 35.0712,31.56146 35.06691,31.5585 35.06301,31.55517 35.05953,31.55151 35.05652,31.54756 35.05402,31.54337 35.05204,31.53897 35.05062,31.53443 35.04975,31.52978 35.04947,31.52508 35.04976,31.52038 35.05063,31.51573 35.05206,31.51118 35.05404,31.50679 35.05655,31.5026 35.05956,31.49865 35.06303,31.49499 35.06693,31.49167 35.07123,31.4887 35.07586,31.48614 35.08077,31.48401 35.08593,31.48232 35.09126,31.4811 35.09671,31.48037 35.10222,31.48012 35.10773,31.48037 35.11318,31.4811 35.11851,31.48232 35.12367,31.48401 35.12858,31.48614 35.13321,31.4887 35.13751,31.49167 35.14141,31.49499 35.14488,31.49865 35.14789,31.5026 35.1504,31.50679 35.15238,31.51118 35.15381,31.51573 35.15468,31.52038 35.15497,31.52508 35.15469,31.52978 35.15382,31.53443 35.1524,31.53897 35.15042,31.54337 35.14792,31.54756 35.14491,31.55151 35.14143,31.55517 35.13753,31.5585 35.13324,31.56146 35.12861,31.56403 35.12369,31.56616 35.11853,31.56785 35.11319,31.56907 35.10774,31.56981 35.10222,31.57005</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 5 km of Tel Rumeida</name>
+		<description>within 5 km of Hebron</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.10222,31.525087</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / region around Burj el Haska</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.091319,31.560621 35.113121,31.561309 35.114457,31.571082 35.094516,31.571004 35.075458,31.573409 35.082387,31.566376 35.091319,31.560621</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / region around Burj el Haska</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.090853,31.564511</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / region around Ain Eshkali</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.115506,31.571627 35.114252,31.566895 35.113627,31.55537 35.128295,31.552363 35.137351,31.54924 35.137716,31.562303 35.129276,31.563505 35.125944,31.567534 35.129766,31.570983 35.126931,31.574637 35.115506,31.571627</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / region around Ain Eshkali</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.12438,31.56431</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Ramat el Khalil</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10534,31.57452 35.10313,31.57442 35.10095,31.57413 35.09881,31.57364 35.09675,31.57297 35.09478,31.57211 35.09293,31.57109 35.09121,31.5699 35.08965,31.56857 35.08826,31.56711 35.08705,31.56553 35.08605,31.56385 35.08526,31.56209 35.08469,31.56027 35.08434,31.55841 35.08423,31.55653 35.08434,31.55465 35.08469,31.55279 35.08526,31.55098 35.08605,31.54922 35.08706,31.54754 35.08826,31.54596 35.08965,31.5445 35.09121,31.54317 35.09293,31.54198 35.09478,31.54096 35.09675,31.5401 35.09881,31.53943 35.10095,31.53894 35.10313,31.53865 35.10534,31.53855 35.10754,31.53865 35.10972,31.53894 35.11186,31.53943 35.11392,31.5401 35.11589,31.54096 35.11774,31.54198 35.11946,31.54317 35.12102,31.5445 35.12241,31.54596 35.12361,31.54754 35.12462,31.54922 35.12541,31.55098 35.12598,31.55279 35.12633,31.55465 35.12644,31.55653 35.12633,31.55841 35.12598,31.56027 35.12541,31.56209 35.12462,31.56385 35.12362,31.56553 35.12241,31.56711 35.12102,31.56857 35.11946,31.5699 35.11774,31.57109 35.11589,31.57211 35.11392,31.57297 35.11186,31.57364 35.10973,31.57413 35.10754,31.57442 35.10534,31.57452</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Ramat el Khalil</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.105336,31.556536</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Ain Sebta</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.0856,31.55399 35.08339,31.55389 35.08121,31.55359 35.07908,31.55311 35.07702,31.55243 35.07505,31.55158 35.07319,31.55055 35.07148,31.54937 35.06992,31.54803 35.06853,31.54657 35.06732,31.54499 35.06632,31.54331 35.06553,31.54156 35.06496,31.53974 35.06461,31.53788 35.0645,31.536 35.06461,31.53412 35.06496,31.53226 35.06553,31.53044 35.06632,31.52868 35.06733,31.52701 35.06853,31.52543 35.06992,31.52396 35.07148,31.52263 35.0732,31.52145 35.07505,31.52042 35.07702,31.51957 35.07908,31.51889 35.08121,31.51841 35.08339,31.51811 35.0856,31.51801 35.08781,31.51811 35.08999,31.51841 35.09212,31.51889 35.09418,31.51957 35.09615,31.52042 35.098,31.52145 35.09972,31.52263 35.10128,31.52396 35.10267,31.52543 35.10387,31.52701 35.10488,31.52868 35.10567,31.53044 35.10624,31.53226 35.10659,31.53412 35.1067,31.536 35.10659,31.53788 35.10624,31.53974 35.10567,31.54156 35.10488,31.54331 35.10388,31.54499 35.10267,31.54657 35.10128,31.54803 35.09972,31.54937 35.09801,31.55055 35.09615,31.55158 35.09418,31.55243 35.09212,31.55311 35.08999,31.55359 35.08781,31.55389 35.0856,31.55399</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Ain Sebta</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.0856,31.536</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Khirbet Nimreh</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.10203,31.55301 35.09982,31.55291 35.09764,31.55261 35.09551,31.55213 35.09345,31.55145 35.09148,31.5506 35.08962,31.54957 35.08791,31.54839 35.08635,31.54705 35.08496,31.54559 35.08375,31.54401 35.08275,31.54233 35.08196,31.54058 35.08139,31.53876 35.08104,31.5369 35.08093,31.53502 35.08104,31.53314 35.08139,31.53128 35.08196,31.52946 35.08275,31.5277 35.08376,31.52603 35.08496,31.52445 35.08635,31.52298 35.08791,31.52165 35.08963,31.52047 35.09148,31.51944 35.09345,31.51859 35.09551,31.51791 35.09764,31.51743 35.09982,31.51713 35.10203,31.51703 35.10424,31.51713 35.10642,31.51743 35.10855,31.51791 35.11061,31.51859 35.11258,31.51944 35.11443,31.52047 35.11615,31.52165 35.11771,31.52298 35.1191,31.52445 35.1203,31.52603 35.12131,31.5277 35.1221,31.52946 35.12267,31.53128 35.12302,31.53314 35.12313,31.53502 35.12302,31.5369 35.12267,31.53876 35.1221,31.54058 35.12131,31.54233 35.12031,31.54401 35.1191,31.54559 35.11771,31.54705 35.11615,31.54839 35.11444,31.54957 35.11258,31.5506 35.11061,31.55145 35.10855,31.55213 35.10642,31.55261 35.10424,31.55291 35.10203,31.55301</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Eshcol / within 2 km of Khirbet Nimreh</name>
+		<description>within 2 km of Mamre</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.10203,31.53502</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bered</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aa3ff18/bered">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Bered</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.16.14&amp;version=ESV">16:14</a>]]></description>
+	<Placemark>
+		<name>Bered / Haluza</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.652,31.097</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bered / Jebel Umm el Bared</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.173133,30.382414</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Bered / region around Ar Ruwaysat</name>
+		<description>another name for Shur</description>
+		<Placemark>
+			<name>Bered (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.08373,30.80946 33.0381,30.80946 32.99246,30.80946 32.94683,30.76982 32.80992,30.57161 32.80992,30.53196 32.80992,30.49232 32.80992,30.45268 32.80992,30.41304 32.85555,30.41304 32.90119,30.41304 33.08373,30.41304 33.12937,30.41304 33.22064,30.45268 33.26628,30.53196 33.40319,30.76982 33.17501,30.80946 33.12937,30.80946 33.08373,30.80946</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.76428,30.45268 32.76428,30.41304 32.85555,30.3734 33.17501,30.41304 33.40319,30.53196 33.40319,30.73017 33.40319,30.76982 33.35755,30.80946 33.22064,30.80946 33.17501,30.80946 33.12937,30.80946 33.08373,30.80946 33.0381,30.80946 32.99246,30.80946 32.94683,30.76982 32.80992,30.57161 32.76428,30.45268</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.71864,30.45268 32.71864,30.41304 32.71864,30.3734 32.80992,30.3734 32.85555,30.3734 33.08373,30.3734 33.12937,30.3734 33.35755,30.45268 33.40319,30.53196 33.44883,30.76982 33.40319,30.80946 33.12937,30.8491 33.08373,30.8491 33.0381,30.8491 32.90119,30.76982 32.71864,30.45268</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.67301,30.3734 32.71864,30.33375 32.94683,30.25447 33.35755,30.41304 33.40319,30.45268 33.44883,30.53196 33.44883,30.76982 33.44883,30.80946 33.22064,30.8491 33.17501,30.8491 33.12937,30.8491 33.08373,30.8491 33.0381,30.8491 32.94683,30.80946 32.90119,30.76982 32.71864,30.49232 32.67301,30.41304 32.67301,30.3734</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.67301,30.3734 32.85555,30.17519 32.90119,30.17519 32.94683,30.17519 32.99246,30.17519 33.40319,30.41304 33.44883,30.45268 33.49446,30.53196 33.49446,30.76982 33.49446,30.8491 33.40319,30.88874 33.35755,30.88874 33.17501,30.88874 33.12937,30.88874 32.90119,30.80946 32.67301,30.45268 32.67301,30.41304 32.67301,30.3734</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>33.40319,30.88874 33.35755,30.88874 33.31192,30.88874 33.26628,30.88874 33.22064,30.88874 33.17501,30.88874 33.12937,30.88874 33.08373,30.88874 32.99246,30.8491 32.90119,30.80946 32.67301,30.45268 32.67301,30.41304 32.67301,30.3734 32.90119,30.01662 33.40319,30.3734 33.44883,30.41304 33.49446,30.45268 33.49446,30.49232 33.49446,30.53196 33.49446,30.76982 33.49446,30.80946 33.49446,30.8491 33.40319,30.88874</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.85555,29.97698 32.94683,30.01662 33.5401,30.3734 33.58573,30.88874 33.40319,30.92838 33.35755,30.92838 33.31192,30.92838 33.26628,30.92838 33.17501,30.92838 33.12937,30.92838 32.94683,30.88874 32.80992,30.76982 32.62737,30.45268 32.67301,30.33375 32.80992,30.01662 32.85555,29.97698</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.71864,30.17519 32.80992,30.01662 32.85555,29.97698 32.90119,29.97698 32.99246,30.01662 33.67701,30.3734 33.72264,30.88874 33.44883,30.92838 33.40319,30.92838 33.35755,30.92838 33.31192,30.92838 33.26628,30.92838 33.22064,30.92838 33.17501,30.92838 33.12937,30.92838 33.08373,30.92838 33.0381,30.92838 32.99246,30.92838 32.94683,30.92838 32.90119,30.92838 32.76428,30.76982 32.62737,30.45268 32.62737,30.41304 32.62737,30.3734 32.71864,30.17519</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>32.71864,29.93733 32.80992,29.89769 32.94683,29.89769 32.99246,29.89769 33.67701,30.25447 33.85955,30.3734 33.90519,30.41304 33.90519,30.45268 33.90519,30.49232 33.90519,30.53196 33.90519,30.57161 33.90519,30.61125 33.90519,30.65089 33.90519,30.69053 33.90519,30.73017 33.90519,30.76982 33.90519,30.88874 33.67701,30.96803 33.40319,30.96803 33.35755,30.96803 33.31192,30.96803 32.80992,30.92838 32.62737,30.76982 32.58173,30.41304 32.71864,29.93733</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bered / region around Ar Ruwaysat</name>
+			<description>another name for Shur</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>32.956667,30.493333</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Bered / about 30 km around Wadi as Sakriyat</name>
+		<description>another name for Shur</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>32.8725,30.22563 32.83986,30.22415 32.80758,30.21972 32.77602,30.21239 32.74553,30.20224 32.71643,30.18939 32.68906,30.17398 32.66371,30.15617 32.64067,30.13616 32.62017,30.11417 32.60246,30.09046 32.58771,30.06526 32.5761,30.03887 32.56774,30.01158 32.56272,29.98367 32.56111,29.95547 32.5629,29.92727 32.56808,29.89939 32.57659,29.87213 32.58834,29.84579 32.60319,29.82066 32.62098,29.79701 32.64151,29.7751 32.66455,29.75517 32.68987,29.73744 32.71717,29.72209 32.74616,29.7093 32.77652,29.69921 32.80793,29.69192 32.84004,29.68751 32.8725,29.68604 32.90496,29.68751 32.93707,29.69192 32.96848,29.69921 32.99884,29.7093 33.02783,29.72209 33.05513,29.73744 33.08045,29.75517 33.10349,29.7751 33.12402,29.79701 33.14181,29.82066 33.15666,29.84579 33.16841,29.87213 33.17692,29.89939 33.1821,29.92727 33.18389,29.95547 33.18228,29.98367 33.17726,30.01158 33.1689,30.03887 33.15729,30.06526 33.14254,30.09046 33.12483,30.11417 33.10433,30.13616 33.08129,30.15617 33.05594,30.17398 33.02857,30.18939 32.99947,30.20224 32.96898,30.21239 32.93742,30.21972 32.90514,30.22415 32.8725,30.22563</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Bered / about 30 km around Wadi as Sakriyat</name>
+		<description>another name for Shur</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>32.8725,29.955833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bered / Tel Sharuhen</name>
+		<description>another name for Shur</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.4825,31.281944</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

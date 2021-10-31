@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Emek-keziz</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a774e50/emek-keziz">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Emek-keziz (Keziz)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.18.21&amp;version=ESV">18:21</a>]]></description>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Tell es Sultan</name>
+		<description>within 5 km of Jericho 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.44456,31.91669 35.43903,31.91644 35.43355,31.9157 35.42819,31.91448 35.42302,31.9128 35.41808,31.91066 35.41343,31.90809 35.40912,31.90513 35.4052,31.9018 35.40172,31.89814 35.3987,31.89419 35.39618,31.89 35.3942,31.8856 35.39277,31.88106 35.3919,31.87641 35.39161,31.87171 35.39191,31.86701 35.39278,31.86236 35.39421,31.85781 35.3962,31.85342 35.39872,31.84923 35.40174,31.84528 35.40523,31.84162 35.40915,31.8383 35.41345,31.83534 35.4181,31.83277 35.42304,31.83064 35.42821,31.82895 35.43356,31.82774 35.43903,31.827 35.44456,31.82675 35.4501,31.827 35.45557,31.82774 35.46092,31.82895 35.46609,31.83064 35.47103,31.83277 35.47567,31.83534 35.47998,31.8383 35.4839,31.84162 35.48739,31.84528 35.49041,31.84923 35.49293,31.85342 35.49491,31.85781 35.49635,31.86236 35.49722,31.86701 35.49751,31.87171 35.49723,31.87641 35.49636,31.88106 35.49493,31.8856 35.49294,31.89 35.49043,31.89419 35.48741,31.89814 35.48393,31.9018 35.48001,31.90513 35.4757,31.90809 35.47105,31.91066 35.46611,31.9128 35.46093,31.91448 35.45558,31.9157 35.4501,31.91644 35.44456,31.91669</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Tell es Sultan</name>
+		<description>within 5 km of Jericho 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.444564,31.871719</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Deir Hajla</name>
+		<description>within 5 km of Beth-hoglah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.50116,31.86535 35.49563,31.8651 35.49015,31.86436 35.4848,31.86314 35.47963,31.86146 35.47469,31.85932 35.47004,31.85675 35.46574,31.85379 35.46182,31.85046 35.45834,31.8468 35.45532,31.84285 35.45281,31.83866 35.45082,31.83426 35.44939,31.82972 35.44853,31.82507 35.44824,31.82037 35.44853,31.81567 35.4494,31.81102 35.45084,31.80647 35.45283,31.80208 35.45534,31.79789 35.45836,31.79394 35.46185,31.79028 35.46576,31.78696 35.47007,31.784 35.47471,31.78143 35.47965,31.7793 35.48482,31.77761 35.49016,31.7764 35.49563,31.77566 35.50116,31.77541 35.50669,31.77566 35.51216,31.7764 35.51751,31.77761 35.52268,31.7793 35.52761,31.78143 35.53225,31.784 35.53656,31.78696 35.54048,31.79028 35.54396,31.79394 35.54698,31.79789 35.5495,31.80208 35.55148,31.80647 35.55292,31.81102 35.55379,31.81567 35.55408,31.82037 35.55379,31.82507 35.55293,31.82972 35.5515,31.83426 35.54951,31.83866 35.547,31.84285 35.54399,31.8468 35.5405,31.85046 35.53658,31.85379 35.53228,31.85675 35.52763,31.85932 35.52269,31.86146 35.51752,31.86314 35.51217,31.86436 35.5067,31.8651 35.50116,31.86535</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Deir Hajla</name>
+		<description>within 5 km of Beth-hoglah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.501161,31.820379</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Ain Hajlah</name>
+		<description>within 5 km of Beth-hoglah</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.51222,31.87302 35.50669,31.87278 35.50121,31.87204 35.49586,31.87082 35.49069,31.86913 35.48575,31.86699 35.4811,31.86443 35.4768,31.86147 35.47288,31.85814 35.46939,31.85448 35.46638,31.85053 35.46386,31.84634 35.46188,31.84194 35.46045,31.83739 35.45959,31.83275 35.4593,31.82805 35.45959,31.82334 35.46046,31.8187 35.4619,31.81415 35.46388,31.80976 35.4664,31.80556 35.46942,31.80162 35.4729,31.79796 35.47682,31.79463 35.48113,31.79167 35.48577,31.78911 35.49071,31.78698 35.49588,31.78529 35.50122,31.78407 35.50669,31.78334 35.51222,31.78309 35.51775,31.78334 35.52322,31.78407 35.52857,31.78529 35.53374,31.78698 35.53867,31.78911 35.54332,31.79167 35.54762,31.79463 35.55154,31.79796 35.55503,31.80162 35.55804,31.80556 35.56056,31.80976 35.56255,31.81415 35.56398,31.8187 35.56485,31.82334 35.56515,31.82805 35.56486,31.83275 35.56399,31.83739 35.56256,31.84194 35.56058,31.84634 35.55807,31.85053 35.55505,31.85448 35.55156,31.85814 35.54765,31.86147 35.54334,31.86443 35.5387,31.86699 35.53376,31.86913 35.52858,31.87082 35.52323,31.87204 35.51776,31.87278 35.51222,31.87302</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Ain Hajlah</name>
+		<description>within 5 km of Beth-hoglah</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.512222,31.828056</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / Khirbet Marjame</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.3322,31.9914</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Wadi el Kaziz</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.33572,31.83065 35.33019,31.8304 35.32472,31.82966 35.31937,31.82844 35.31419,31.82676 35.30926,31.82462 35.30461,31.82205 35.30031,31.81909 35.2964,31.81576 35.29291,31.8121 35.2899,31.80815 35.28738,31.80396 35.2854,31.79957 35.28397,31.79502 35.28311,31.79037 35.28282,31.78567 35.28311,31.78097 35.28398,31.77632 35.28542,31.77177 35.2874,31.76738 35.28992,31.76319 35.29294,31.75924 35.29642,31.75559 35.30034,31.75226 35.30464,31.7493 35.30928,31.74674 35.31421,31.7446 35.31938,31.74291 35.32473,31.7417 35.33019,31.74096 35.33572,31.74071 35.34125,31.74096 35.34671,31.7417 35.35206,31.74291 35.35723,31.7446 35.36216,31.74674 35.3668,31.7493 35.3711,31.75226 35.37502,31.75559 35.3785,31.75924 35.38152,31.76319 35.38404,31.76738 35.38602,31.77177 35.38746,31.77632 35.38833,31.78097 35.38862,31.78567 35.38833,31.79037 35.38747,31.79502 35.38604,31.79957 35.38406,31.80396 35.38154,31.80815 35.37853,31.8121 35.37504,31.81576 35.37113,31.81909 35.36683,31.82205 35.36218,31.82462 35.35725,31.82676 35.35207,31.82844 35.34672,31.82966 35.34125,31.8304 35.33572,31.83065</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Emek-keziz / within 5 km of Wadi el Kaziz</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.33572,31.78568</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

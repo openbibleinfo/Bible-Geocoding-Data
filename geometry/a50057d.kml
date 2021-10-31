@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wilderness of Ziph</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a50057d/wilderness-of-ziph">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Wilderness of Ziph (Desert of Ziph, Ziph)</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.23.14&amp;version=NIV">23:14</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.23.15&amp;version=NIV">23:15</a>, <a href="https://www.biblegateway.com/passage/?search=1Sam.26.2&amp;version=NIV">26:2</a>]]></description>
+	<Folder>
+		<name>Wilderness of Ziph</name>
+		<Placemark>
+			<name>Wilderness of Ziph (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.18223,31.4962 35.15307,31.4763 35.15307,31.47132 35.1589,31.47132 35.16473,31.47132 35.17056,31.47132 35.19972,31.48127 35.20555,31.48625 35.21721,31.50118 35.18223,31.4962</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.18223,31.4962 35.14141,31.4763 35.14724,31.47132 35.15307,31.47132 35.1589,31.47132 35.16473,31.47132 35.17056,31.47132 35.17639,31.47132 35.18223,31.47132 35.20555,31.48127 35.24053,31.51113 35.2347,31.51113 35.19389,31.50118 35.18223,31.4962</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13558,31.4763 35.13558,31.47132 35.14724,31.46634 35.1589,31.46137 35.16473,31.46137 35.21138,31.46634 35.2347,31.4962 35.24636,31.51611 35.24053,31.51611 35.2347,31.51611 35.21721,31.51113 35.19972,31.50615 35.18223,31.50118 35.13558,31.4763</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13558,31.4763 35.13558,31.47132 35.14141,31.46634 35.15307,31.46137 35.20555,31.45141 35.21138,31.45141 35.25219,31.50615 35.25219,31.51113 35.25219,31.51611 35.24053,31.52108 35.2347,31.52108 35.22887,31.52108 35.22304,31.52108 35.17056,31.50118 35.13558,31.4763</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.15307,31.45639 35.18806,31.44644 35.19389,31.44644 35.19972,31.44644 35.20555,31.44644 35.25219,31.4763 35.25802,31.51113 35.25802,31.52108 35.24053,31.52606 35.2347,31.52606 35.18223,31.50615 35.17056,31.50118 35.14141,31.48127 35.13558,31.4763 35.13558,31.47132 35.13558,31.46634 35.13558,31.46137 35.15307,31.45639</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.14724,31.49122 35.13558,31.48127 35.12975,31.4763 35.12975,31.47132 35.12975,31.46137 35.1589,31.45141 35.19389,31.44146 35.34548,31.48127 35.24636,31.53103 35.24053,31.53103 35.20555,31.52108 35.19389,31.51611 35.15307,31.4962 35.14724,31.49122</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>35.13558,31.44644 35.18223,31.44146 35.18806,31.44146 35.19389,31.44146 35.33965,31.45639 35.35131,31.48127 35.35131,31.48625 35.35131,31.49122 35.35131,31.4962 35.35131,31.50118 35.35131,31.50615 35.35131,31.51113 35.33965,31.51611 35.26968,31.54596 35.26385,31.54596 35.2347,31.53601 35.20555,31.52606 35.15307,31.50118 35.11226,31.4763 35.10643,31.47132 35.13558,31.44644</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Wilderness of Ziph</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>35.13514,31.47475</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Folder>
+</Document>
+</kml>

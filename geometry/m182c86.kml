@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi en Numeirah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m182c86/wadi-en-numeirah">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi en Numeirah</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.684611,31.042486 35.682759,31.043236 35.681583,31.044276 35.675451,31.044684 35.6748,31.044276 35.67241,31.045316 35.671434,31.046238 35.669782,31.046013 35.66569,31.048393 35.665465,31.049326 35.664314,31.049487 35.664426,31.050259 35.662962,31.051009 35.661221,31.051066 35.660602,31.0506 35.658068,31.050224 35.655728,31.051463 35.653901,31.05306 35.652086,31.053392 35.651285,31.054003 35.647806,31.053987 35.647218,31.059964 35.646549,31.060553 35.64663,31.061663 35.644534,31.062574 35.644528,31.064144 35.643276,31.064535 35.641781,31.067515 35.640605,31.068035 35.639585,31.069991 35.63996,31.072054 35.638953,31.073196 35.637846,31.073249 35.637748,31.076788 35.635767,31.081643 35.632784,31.085664 35.631557,31.085959 35.62998,31.087566 35.629874,31.088515 35.623733,31.091367 35.618321,31.091608 35.616588,31.09329 35.614867,31.093124 35.613284,31.095069 35.61152,31.095991 35.60898,31.096194 35.607647,31.09493 35.606208,31.094887 35.603955,31.093767 35.603061,31.094448 35.601109,31.09419 35.600545,31.09464 35.599613,31.094592 35.598837,31.095937 35.597042,31.096344 35.596948,31.097635 35.59422,31.100132 35.590766,31.100486 35.591185,31.101927 35.590185,31.103212 35.588308,31.103539 35.585987,31.103025 35.583991,31.103523 35.583734,31.104862 35.581519,31.105435 35.58075,31.106089 35.580231,31.108869 35.578835,31.109314 35.575719,31.108869 35.575963,31.109485 35.574143,31.109534 35.571421,31.110326 35.571553,31.112117 35.569965,31.113412 35.571059,31.114826 35.570737,31.115203 35.56518,31.116645 35.560641,31.121633 35.557798,31.123515 35.553657,31.123929 35.552552,31.124976 35.547488,31.125159 35.545331,31.12357 35.544398,31.124057 35.544183,31.125141 35.544516,31.125784 35.54178,31.127354 35.540396,31.127226 35.538862,31.1283 35.537542,31.127566 35.535235,31.130661 35.533261,31.131157 35.530279,31.132718 35.527587,31.133348 35.525558,31.133122 35.523005,31.131322 35.521202,31.129283 35.516439,31.118005</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi en Numeirah</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.526667,31.133611</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

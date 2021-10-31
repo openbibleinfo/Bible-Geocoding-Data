@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Abiezer</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a549c0f/abiezer">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Abiezer (Abi-ezer)</name>
+	<description><![CDATA[Judg <a href="https://www.biblegateway.com/passage/?search=Judg.8.2&amp;version=ESV">8:2</a>]]></description>
+	<Placemark>
+		<name>Abiezer / about 15 km around Afula</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29,32.7406 35.27324,32.73986 35.25666,32.73765 35.24044,32.73399 35.22478,32.72892 35.20983,32.7225 35.19576,32.7148 35.18273,32.7059 35.17088,32.69591 35.16033,32.68492 35.15121,32.67307 35.14362,32.66048 35.13763,32.64729 35.13331,32.63365 35.13072,32.6197 35.12986,32.6056 35.13077,32.5915 35.13341,32.57756 35.13777,32.56392 35.1438,32.55075 35.15142,32.53817 35.16056,32.52634 35.17112,32.51538 35.18297,32.50541 35.19599,32.49653 35.21004,32.48885 35.22496,32.48245 35.24059,32.47739 35.25675,32.47375 35.27329,32.47154 35.29,32.4708 35.30671,32.47154 35.32325,32.47375 35.33941,32.47739 35.35504,32.48245 35.36996,32.48885 35.38401,32.49653 35.39703,32.50541 35.40888,32.51538 35.41944,32.52634 35.42858,32.53817 35.4362,32.55075 35.44223,32.56392 35.44659,32.57756 35.44923,32.5915 35.45014,32.6056 35.44928,32.6197 35.44669,32.63365 35.44237,32.64729 35.43638,32.66048 35.42879,32.67307 35.41967,32.68492 35.40912,32.69591 35.39727,32.7059 35.38424,32.7148 35.37017,32.7225 35.35522,32.72892 35.33956,32.73399 35.32334,32.73765 35.30676,32.73986 35.29,32.7406</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Afula</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.29,32.6057</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Et Taiyibeh</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.44661,32.73875 35.42985,32.73801 35.41327,32.7358 35.39706,32.73214 35.38139,32.72707 35.36644,32.72065 35.35237,32.71295 35.33934,32.70405 35.32749,32.69406 35.31695,32.68307 35.30783,32.67122 35.30023,32.65863 35.29424,32.64544 35.28993,32.6318 35.28733,32.61785 35.28648,32.60375 35.28738,32.58965 35.29003,32.57571 35.29439,32.56207 35.30041,32.5489 35.30804,32.53632 35.31717,32.52449 35.32773,32.51353 35.33958,32.50356 35.3526,32.49468 35.36665,32.487 35.38157,32.4806 35.3972,32.47554 35.41337,32.4719 35.4299,32.46969 35.44661,32.46895 35.46332,32.46969 35.47985,32.4719 35.49602,32.47554 35.51165,32.4806 35.52657,32.487 35.54062,32.49468 35.55364,32.50356 35.56549,32.51353 35.57605,32.52449 35.58518,32.53632 35.59281,32.5489 35.59883,32.56207 35.60319,32.57571 35.60584,32.58965 35.60674,32.60375 35.60589,32.61785 35.60329,32.6318 35.59898,32.64544 35.59299,32.65863 35.58539,32.67122 35.57627,32.68307 35.56573,32.69406 35.55388,32.70405 35.54085,32.71295 35.52678,32.72065 35.51183,32.72707 35.49616,32.73214 35.47995,32.7358 35.46337,32.73801 35.44661,32.73875</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Et Taiyibeh</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.44661,32.60385</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Khirbet Taiyibeh</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.17854,32.65208 35.16179,32.65134 35.14523,32.64913 35.12903,32.64547 35.11338,32.6404 35.09845,32.63398 35.08439,32.62628 35.07137,32.61738 35.05953,32.60739 35.049,32.5964 35.03989,32.58455 35.0323,32.57196 35.02632,32.55877 35.02201,32.54513 35.01941,32.53118 35.01856,32.51708 35.01946,32.50298 35.02211,32.48904 35.02646,32.4754 35.03248,32.46223 35.0401,32.44966 35.04923,32.43782 35.05977,32.42686 35.07161,32.41689 35.08462,32.40801 35.09865,32.40033 35.11356,32.39393 35.12917,32.38887 35.14533,32.38523 35.16184,32.38302 35.17854,32.38228 35.19524,32.38302 35.21175,32.38523 35.22791,32.38887 35.24352,32.39393 35.25843,32.40033 35.27246,32.40801 35.28547,32.41689 35.29731,32.42686 35.30785,32.43782 35.31698,32.44966 35.3246,32.46223 35.33062,32.4754 35.33497,32.48904 35.33762,32.50298 35.33852,32.51708 35.33767,32.53118 35.33507,32.54513 35.33076,32.55877 35.32478,32.57196 35.31719,32.58455 35.30808,32.5964 35.29755,32.60739 35.28571,32.61738 35.27269,32.62628 35.25863,32.63398 35.2437,32.6404 35.22805,32.64547 35.21185,32.64913 35.19529,32.65134 35.17854,32.65208</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Khirbet Taiyibeh</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.17854,32.51718</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Ramat Rahel</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.2169,31.8748 35.20029,31.87406 35.18387,31.87185 35.16781,31.86819 35.15229,31.86312 35.13749,31.8567 35.12355,31.849 35.11064,31.84011 35.0989,31.83011 35.08846,31.81913 35.07943,31.80728 35.0719,31.79469 35.06597,31.7815 35.06169,31.76785 35.05912,31.7539 35.05828,31.7398 35.05917,31.7257 35.06179,31.71176 35.06611,31.69813 35.07207,31.68495 35.07963,31.67238 35.08868,31.66055 35.09913,31.64958 35.11087,31.63961 35.12377,31.63073 35.13769,31.62305 35.15246,31.61665 35.16795,31.6116 35.18396,31.60795 35.20034,31.60574 35.2169,31.605 35.23345,31.60574 35.24983,31.60795 35.26584,31.6116 35.28133,31.61665 35.29611,31.62305 35.31002,31.63073 35.32292,31.63961 35.33466,31.64958 35.34511,31.66055 35.35417,31.67238 35.36172,31.68495 35.36769,31.69813 35.372,31.71176 35.37462,31.7257 35.37552,31.7398 35.37467,31.7539 35.3721,31.76785 35.36782,31.7815 35.36189,31.79469 35.35437,31.80728 35.34533,31.81913 35.33489,31.83011 35.32315,31.84011 35.31024,31.849 35.29631,31.8567 35.2815,31.86312 35.26598,31.86819 35.24992,31.87185 35.2335,31.87406 35.2169,31.8748</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Ramat Rahel</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.216896,31.739901</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Silat ad Dhahr</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18456,32.45439 35.16785,32.45365 35.15133,32.45144 35.13517,32.44778 35.11955,32.44271 35.10465,32.43629 35.09062,32.42859 35.07763,32.4197 35.06582,32.4097 35.05531,32.39872 35.04622,32.38687 35.03865,32.37428 35.03268,32.36109 35.02838,32.34744 35.02579,32.33349 35.02494,32.31939 35.02584,32.30529 35.02847,32.29135 35.03282,32.27772 35.03883,32.26454 35.04643,32.25197 35.05554,32.24014 35.06606,32.22917 35.07787,32.2192 35.09085,32.21032 35.10485,32.20264 35.11973,32.19624 35.13531,32.19119 35.15142,32.18754 35.1679,32.18533 35.18456,32.18459 35.20122,32.18533 35.2177,32.18754 35.23382,32.19119 35.2494,32.19624 35.26428,32.20264 35.27828,32.21032 35.29126,32.2192 35.30307,32.22917 35.31359,32.24014 35.3227,32.25197 35.3303,32.26454 35.33631,32.27772 35.34065,32.29135 35.34329,32.30529 35.34419,32.31939 35.34334,32.33349 35.34075,32.34744 35.33645,32.36109 35.33048,32.37428 35.32291,32.38687 35.31382,32.39872 35.30331,32.4097 35.29149,32.4197 35.2785,32.42859 35.26448,32.43629 35.24958,32.44271 35.23396,32.44778 35.2178,32.45144 35.20127,32.45365 35.18456,32.45439</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Silat ad Dhahr</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.184564,32.319492</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Farata</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.16583,32.32545 35.14915,32.32471 35.13264,32.3225 35.11651,32.31884 35.10091,32.31377 35.08603,32.30736 35.07203,32.29966 35.05906,32.29076 35.04726,32.28077 35.03676,32.26978 35.02769,32.25793 35.02013,32.24534 35.01416,32.23215 35.00987,32.21851 35.00728,32.20456 35.00643,32.19046 35.00733,32.17636 35.00996,32.16241 35.0143,32.14878 35.0203,32.1356 35.02789,32.12303 35.03699,32.1112 35.04749,32.10024 35.05929,32.09026 35.07225,32.08139 35.08623,32.07371 35.10109,32.0673 35.11664,32.06225 35.13274,32.0586 35.1492,32.0564 35.16583,32.05566 35.18247,32.0564 35.19893,32.0586 35.21502,32.06225 35.23058,32.0673 35.24543,32.07371 35.25941,32.08139 35.27238,32.09026 35.28417,32.10024 35.29468,32.1112 35.30378,32.12303 35.31137,32.1356 35.31736,32.14878 35.3217,32.16241 35.32434,32.17636 35.32523,32.19046 35.32439,32.20456 35.3218,32.21851 35.3175,32.23215 35.31154,32.24534 35.30398,32.25793 35.2949,32.26978 35.28441,32.28077 35.27261,32.29076 35.25964,32.29966 35.24564,32.30736 35.23076,32.31377 35.21516,32.31884 35.19902,32.3225 35.18252,32.32471 35.16583,32.32545</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Farata</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.165833,32.190556</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Tell el Farah</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.3378,32.4223 35.3211,32.42156 35.30457,32.41935 35.28842,32.41569 35.27281,32.41062 35.25791,32.4042 35.24389,32.3965 35.23091,32.3876 35.2191,32.37761 35.20859,32.36663 35.1995,32.35477 35.19194,32.34218 35.18597,32.32899 35.18167,32.31535 35.17908,32.3014 35.17823,32.2873 35.17913,32.2732 35.18176,32.25926 35.18611,32.24562 35.19211,32.23245 35.19971,32.21988 35.20882,32.20804 35.21933,32.19708 35.23114,32.18711 35.24412,32.17823 35.25812,32.17055 35.27298,32.16415 35.28856,32.15909 35.30467,32.15545 35.32114,32.15324 35.3378,32.1525 35.35446,32.15324 35.37093,32.15545 35.38704,32.15909 35.40262,32.16415 35.41748,32.17055 35.43148,32.17823 35.44446,32.18711 35.45627,32.19708 35.46678,32.20804 35.47589,32.21988 35.48349,32.23245 35.48949,32.24562 35.49384,32.25926 35.49647,32.2732 35.49737,32.2873 35.49652,32.3014 35.49393,32.31535 35.48963,32.32899 35.48366,32.34218 35.4761,32.35477 35.46701,32.36663 35.4565,32.37761 35.44469,32.3876 35.43171,32.3965 35.41769,32.4042 35.40279,32.41062 35.38718,32.41569 35.37103,32.41935 35.3545,32.42156 35.3378,32.4223</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Abiezer / about 15 km around Tell el Farah</name>
+		<description>about 15 km around Ophrah 2</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.3378,32.2874</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

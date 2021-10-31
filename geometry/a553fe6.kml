@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Harmon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a553fe6/harmon">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Harmon</name>
+	<description><![CDATA[Amos <a href="https://www.biblegateway.com/passage/?search=Amos.4.3&amp;version=ESV">4:3</a>]]></description>
+	<Placemark>
+		<name>Harmon / Mount Hermon</name>
+		<description>another name for Mount Hermon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.85,33.4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of Rammun</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.29889,31.97469 35.29335,31.97444 35.28787,31.9737 35.28251,31.97249 35.27733,31.9708 35.27239,31.96866 35.26773,31.9661 35.26342,31.96313 35.2595,31.9598 35.25601,31.95615 35.25299,31.9522 35.25048,31.948 35.24849,31.94361 35.24706,31.93906 35.24619,31.93441 35.24591,31.92971 35.2462,31.92501 35.24707,31.92036 35.24851,31.91582 35.2505,31.91142 35.25302,31.90723 35.25604,31.90328 35.25953,31.89963 35.26345,31.8963 35.26776,31.89334 35.27241,31.89078 35.27735,31.88864 35.28252,31.88696 35.28788,31.88574 35.29335,31.885 35.29889,31.88476 35.30442,31.885 35.3099,31.88574 35.31525,31.88696 35.32043,31.88864 35.32537,31.89078 35.33002,31.89334 35.33433,31.8963 35.33825,31.89963 35.34174,31.90328 35.34476,31.90723 35.34728,31.91142 35.34927,31.91582 35.35071,31.92036 35.35158,31.92501 35.35187,31.92971 35.35158,31.93441 35.35072,31.93906 35.34929,31.94361 35.3473,31.948 35.34478,31.9522 35.34176,31.95615 35.33828,31.9598 35.33435,31.96313 35.33004,31.9661 35.32539,31.96866 35.32045,31.9708 35.31527,31.97249 35.30991,31.9737 35.30443,31.97444 35.29889,31.97469</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of Rammun</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.298889,31.929722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of El Jai Cave</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.30514,31.89259 35.2996,31.89234 35.29413,31.8916 35.28877,31.89038 35.2836,31.8887 35.27866,31.88656 35.27401,31.88399 35.26971,31.88103 35.26579,31.8777 35.2623,31.87404 35.25928,31.87009 35.25677,31.8659 35.25479,31.86151 35.25336,31.85696 35.25249,31.85231 35.2522,31.84761 35.2525,31.84291 35.25337,31.83826 35.2548,31.83371 35.25679,31.82932 35.25931,31.82513 35.26233,31.82118 35.26581,31.81753 35.26973,31.8142 35.27404,31.81124 35.27868,31.80868 35.28362,31.80654 35.28879,31.80485 35.29414,31.80364 35.29961,31.8029 35.30514,31.80265 35.31067,31.8029 35.31614,31.80364 35.32149,31.80485 35.32666,31.80654 35.3316,31.80868 35.33624,31.81124 35.34055,31.8142 35.34446,31.81753 35.34795,31.82118 35.35097,31.82513 35.35349,31.82932 35.35548,31.83371 35.35691,31.83826 35.35778,31.84291 35.35807,31.84761 35.35779,31.85231 35.35692,31.85696 35.35549,31.86151 35.35351,31.8659 35.35099,31.87009 35.34798,31.87404 35.34449,31.8777 35.34057,31.88103 35.33627,31.88399 35.33162,31.88656 35.32668,31.8887 35.3215,31.89038 35.31615,31.8916 35.31067,31.89234 35.30514,31.89259</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of El Jai Cave</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.305139,31.84762</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of the region plateau east of Rammun</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.348,32.00497 35.34246,32.00472 35.33698,32.00398 35.33161,32.00276 35.32643,32.00108 35.32149,31.99894 35.31684,31.99637 35.31252,31.99341 35.3086,31.99008 35.30511,31.98642 35.30209,31.98247 35.29957,31.97828 35.29759,31.97389 35.29615,31.96934 35.29529,31.96469 35.295,31.95999 35.29529,31.95529 35.29616,31.95064 35.2976,31.94609 35.29959,31.9417 35.30211,31.93751 35.30513,31.93356 35.30863,31.92991 35.31255,31.92658 35.31686,31.92362 35.32151,31.92106 35.32645,31.91892 35.33163,31.91723 35.33699,31.91602 35.34246,31.91528 35.348,31.91503 35.35354,31.91528 35.35901,31.91602 35.36437,31.91723 35.36955,31.91892 35.37449,31.92106 35.37914,31.92362 35.38345,31.92658 35.38737,31.92991 35.39087,31.93356 35.39389,31.93751 35.39641,31.9417 35.3984,31.94609 35.39984,31.95064 35.40071,31.95529 35.401,31.95999 35.40071,31.96469 35.39985,31.96934 35.39841,31.97389 35.39643,31.97828 35.39391,31.98247 35.39089,31.98642 35.3874,31.99008 35.38348,31.99341 35.37916,31.99637 35.37451,31.99894 35.36957,32.00108 35.36439,32.00276 35.35902,32.00398 35.35354,32.00472 35.348,32.00497</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of the region plateau east of Rammun</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.348,31.96</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of Wadi Rummananeh</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.3225,31.93987 35.31696,31.93962 35.31148,31.93888 35.30613,31.93766 35.30095,31.93598 35.29601,31.93384 35.29136,31.93127 35.28705,31.92831 35.28313,31.92498 35.27964,31.92132 35.27662,31.91737 35.27411,31.91318 35.27212,31.90879 35.27069,31.90424 35.26983,31.89959 35.26954,31.89489 35.26983,31.89019 35.2707,31.88554 35.27214,31.88099 35.27413,31.8766 35.27664,31.87241 35.27966,31.86846 35.28315,31.86481 35.28707,31.86148 35.29138,31.85852 35.29603,31.85596 35.30097,31.85382 35.30614,31.85213 35.31149,31.85092 35.31697,31.85018 35.3225,31.84993 35.32803,31.85018 35.33351,31.85092 35.33886,31.85213 35.34403,31.85382 35.34897,31.85596 35.35362,31.85852 35.35793,31.86148 35.36185,31.86481 35.36534,31.86846 35.36836,31.87241 35.37087,31.8766 35.37286,31.88099 35.3743,31.88554 35.37517,31.89019 35.37546,31.89489 35.37517,31.89959 35.37431,31.90424 35.37288,31.90879 35.37089,31.91318 35.36838,31.91737 35.36536,31.92132 35.36187,31.92498 35.35795,31.92831 35.35364,31.93127 35.34899,31.93384 35.34405,31.93598 35.33887,31.93766 35.33352,31.93888 35.32804,31.93962 35.3225,31.93987</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 5 km of Wadi Rummananeh</name>
+		<description>within 5 km of Rimmon 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.3225,31.8949</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Armenia</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>45.06628,39.78934 45.18463,39.68337 45.17303,39.59201 45.30564,39.61212 45.31129,39.56345 45.47179,39.49077 45.69433,39.60358 45.79891,39.57129 45.84108,39.46105 45.79272,39.36912 45.99916,39.29068 46.0037,39.14894 46.10148,39.01592 46.14068,38.84452 46.34614,38.91682 46.53398,38.86717 46.50653,38.94821 46.55351,39.05741 46.43196,39.18992 46.51379,39.20846 46.53734,39.15891 46.63331,39.23091 46.55294,39.25483 46.50299,39.34361 46.4098,39.362 46.38563,39.43321 46.48461,39.48335 46.53687,39.46896 46.50034,39.51935 46.5821,39.54984 46.52122,39.58425 46.4305,39.56895 46.41269,39.63079 46.35707,39.63871 46.17766,39.57926 46.15513,39.65076 46.05751,39.69075 45.97777,39.78687 45.82613,39.82599 45.79946,39.93563 45.61125,39.97409 45.60313,40.01049 45.67978,40.03385 45.83891,39.99101 45.90396,40.10423 45.96098,40.12002 45.978,40.22258 45.93046,40.29699 45.64897,40.36841 45.43867,40.51975 45.46054,40.57971 45.36328,40.65478 45.37877,40.71004 45.54562,40.77454 45.60795,40.85068 45.42227,40.95879 45.44061,41.01603 45.31873,41.00045 45.28795,41.03834 45.25772,41.00413 45.13075,41.0949 45.11503,41.0495 45.06552,41.05351 45.09895,41.11988 45.20498,41.1502 45.12503,41.20862 45.02912,41.19624 45.06301,41.24623 45.01302,41.29658 44.93807,41.25461 44.81724,41.29994 44.81443,41.23794 44.88354,41.20382 44.61146,41.24063 44.59525,41.19278 44.54389,41.19077 44.53367,41.22619 44.46517,41.18088 44.18008,41.24714 44.16207,41.18905 43.84135,41.16088 43.75074,41.10933 43.56812,41.14513 43.45863,41.11972 43.4841,41.01616 43.6716,40.93666 43.67701,40.84752 43.74831,40.73089 43.64993,40.53125 43.54213,40.4769 43.61972,40.42151 43.59081,40.34513 43.71284,40.1719 43.6508,40.1457 43.6565,40.11251 43.89942,40.02102 44.35183,40.02722 44.48135,39.96629 44.59454,39.82444 44.69325,39.79407 44.75302,39.71388 44.88597,39.74842 44.94226,39.72642 45.06628,39.78934</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Armenia</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>44.95,40.383333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Hermel</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.38715,34.39674</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 150 km of Qalaichi</name>
+		<description>within 150 km of Minni</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>46.27528,37.91926 46.09657,37.91174 45.91992,37.88926 45.74738,37.85208 45.58092,37.80063 45.42245,37.73551 45.27376,37.65746 45.13652,37.56738 45.01225,37.46629 44.90231,37.35535 44.80788,37.23581 44.72994,37.10901 44.66928,36.97639 44.62648,36.83941 44.60193,36.6996 44.59579,36.5585 44.60803,36.41765 44.63841,36.2786 44.68652,36.14286 44.75174,36.01188 44.83328,35.88708 44.93021,35.76978 45.04143,35.66125 45.1657,35.56262 45.30167,35.47495 45.44787,35.39915 45.60274,35.33602 45.76464,35.28623 45.93186,35.25028 46.10267,35.22856 46.27528,35.2213 46.44788,35.22856 46.61869,35.25028 46.78592,35.28623 46.94782,35.33602 47.10269,35.39915 47.24889,35.47495 47.38485,35.56262 47.50912,35.66125 47.62034,35.76978 47.71727,35.88708 47.79882,36.01188 47.86404,36.14286 47.91215,36.2786 47.94253,36.41765 47.95477,36.5585 47.94863,36.6996 47.92407,36.83941 47.88128,36.97639 47.82062,37.10901 47.74268,37.23581 47.64824,37.35535 47.5383,37.46629 47.41403,37.56738 47.27679,37.65746 47.1281,37.73551 46.96963,37.80063 46.80317,37.85208 46.63063,37.88926 46.45399,37.91174 46.27528,37.91926</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / within 150 km of Qalaichi</name>
+		<description>within 150 km of Minni</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>46.275278,36.570278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Jebel Zabadani</name>
+		<description>another name for Amana</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.013654,33.621927 36.036276,33.678289 36.072821,33.735011 36.029676,33.743231 35.985055,33.634683 36.013654,33.621927</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Jebel Zabadani</name>
+		<description>another name for Amana</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.031667,33.688889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harmon / Mount Amana</name>
+		<description>another name for Amana</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.963333,33.567778</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

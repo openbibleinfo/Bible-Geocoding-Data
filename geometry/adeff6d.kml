@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Harhar</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/adeff6d/harhar">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Harhar</name>
+	<Placemark>
+		<name>Harhar / Nahavand</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>48.090556,34.432996 48.083613,34.416049 48.06111,34.408549 48.055834,34.39883 48.045834,34.389941 48.034444,34.390771 48.017221,34.39827 48.001388,34.40133 47.989441,34.40105 47.993629,34.364661 47.963328,34.355214 47.952495,34.345495 47.940829,34.319657 47.913882,34.295768 47.901106,34.273268 47.891659,34.267989 47.88777,34.261879 47.886659,34.255209 47.900273,34.238549 47.938606,34.245769 47.944995,34.244099 47.964719,34.231329 47.985275,34.222159 47.999997,34.218371 48.000555,34.220769 48.007498,34.221049 48.019164,34.217159 48.038888,34.216879 48.053891,34.212719 48.070557,34.199099 48.081114,34.177159 48.093337,34.167158 48.100837,34.153548 48.10806,34.146598 48.12917,34.145217 48.137784,34.141047 48.167507,34.105766 48.17723,34.086044 48.186953,34.079654 48.193063,34.078823 48.217786,34.065763 48.234453,34.051321 48.240566,34.049101 48.304458,34.056602 48.305845,34.054652 48.303625,34.026869 48.304735,34.021318 48.332515,34.014928 48.352238,34.006877 48.379184,34.001316 48.420017,34.002707 48.445573,34.008547 48.473633,34.006317 48.483076,34.010207 48.511412,34.044101 48.519466,34.050762 48.519189,34.087435 48.521412,34.100766 48.526968,34.107156 48.534469,34.107707 48.541412,34.105216 48.537245,34.131878 48.531688,34.138819 48.515299,34.146328 48.513079,34.150489 48.515579,34.162439 48.506132,34.17493 48.509745,34.19549 48.508079,34.19938 48.497242,34.20383 48.494465,34.210211 48.490575,34.21272 48.478075,34.2166 48.449743,34.2491 48.436963,34.25771 48.413073,34.25938 48.403073,34.267439 48.38835,34.297438 48.377793,34.304099 48.396406,34.315488 48.397239,34.320777 48.392516,34.336886 48.370847,34.354665 48.366403,34.363554 48.351957,34.380493 48.34668,34.383272 48.31918,34.389102 48.313624,34.387162 48.306401,34.378832 48.295567,34.377443 48.267788,34.386602 48.256121,34.392721 48.248341,34.391882 48.229452,34.383832 48.216952,34.384111 48.203342,34.393001 48.185005,34.397161 48.175282,34.40355 48.152506,34.432157 48.147782,34.434666 48.142502,34.434386 48.131949,34.429107 48.117226,34.434106 48.090556,34.432996</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Harhar / Nahavand</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>48.376944,34.188333</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Harhar / Sarandaj</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>46.998889,35.309722</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

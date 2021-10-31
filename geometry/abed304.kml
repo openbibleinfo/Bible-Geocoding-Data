@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Salt Sea</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/abed304/salt-sea">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Salt Sea (Dead Sea)</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.14.3&amp;version=ESV">14:3</a>, Num <a href="https://www.biblegateway.com/passage/?search=Num.34.3&amp;version=ESV">34:3</a>, <a href="https://www.biblegateway.com/passage/?search=Num.34.12&amp;version=ESV">34:12</a>, Deut <a href="https://www.biblegateway.com/passage/?search=Deut.3.17&amp;version=ESV">3:17</a>, <a href="https://www.biblegateway.com/passage/?search=Deut.4.49&amp;version=ESV">4:49</a>, Josh <a href="https://www.biblegateway.com/passage/?search=Josh.3.16&amp;version=ESV">3:16</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.12.3&amp;version=ESV">12:3</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.2&amp;version=ESV">15:2</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.15.5&amp;version=ESV">15:5</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.18.19&amp;version=ESV">18:19</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.14.25&amp;version=ESV">14:25</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.20.2&amp;version=NIV">20:2</a>, Isa <a href="https://www.biblegateway.com/passage/?search=Isa.16.8&amp;version=NLT">16:8</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.48.32&amp;version=NET">48:32</a>, Ezek <a href="https://www.biblegateway.com/passage/?search=Ezek.39.11&amp;version=NIV">39:11</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.8&amp;version=NIV">47:8</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.9&amp;version=NLT">47:9</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.10&amp;version=NLT">47:10</a>, <a href="https://www.biblegateway.com/passage/?search=Ezek.47.18&amp;version=NIV">47:18</a>, Joel <a href="https://www.biblegateway.com/passage/?search=Joel.2.20&amp;version=NIV">2:20</a>, Zech <a href="https://www.biblegateway.com/passage/?search=Zech.14.8&amp;version=NIV">14:8</a>]]></description>
+	<Placemark>
+		<name>Salt Sea / Dead Sea</name>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.558105,31.763892 35.547047,31.763193 35.533707,31.77372 35.50384,31.771982 35.491831,31.750885 35.476828,31.738802 35.477226,31.730799 35.471541,31.721622 35.455076,31.711921 35.443088,31.682926 35.448353,31.67061 35.434636,31.663669 35.430262,31.651458 35.422601,31.644808 35.418092,31.629578 35.411894,31.62513 35.404865,31.60493 35.407699,31.583828 35.414954,31.570602 35.397333,31.550933 35.394476,31.514565 35.397927,31.510828 35.39493,31.502825 35.398576,31.486373 35.397169,31.457791 35.378506,31.423904 35.37921,31.416285 35.38852,31.404668 35.384688,31.386761 35.386344,31.363603 35.39636,31.346371 35.395064,31.328046 35.383697,31.309637 35.389175,31.291628 35.37846,31.282797 35.374869,31.255971 35.364026,31.248284 35.365864,31.235084 35.36029,31.233276 35.355633,31.223912 35.362528,31.213975 35.362568,31.196537 35.369686,31.178459 35.367077,31.156961 35.383544,31.143331 35.391671,31.114821 35.391605,31.095305 35.398629,31.081169 35.415079,31.071696 35.445705,31.071358 35.463953,31.062927 35.499872,31.075557 35.525903,31.104615 35.511754,31.123201 35.507592,31.140335 35.531168,31.160051 35.534091,31.178246 35.526332,31.185676 35.525473,31.20295 35.521797,31.207193 35.509108,31.212022 35.493379,31.204462 35.485845,31.215195 35.47409,31.214741 35.46841,31.218675 35.438708,31.247416 35.420545,31.251978 35.427609,31.273197 35.454583,31.300343 35.465993,31.30516 35.480558,31.332827 35.49803,31.348598 35.501021,31.348889 35.501125,31.34348 35.491792,31.324894 35.490063,31.293905 35.498443,31.287333 35.519573,31.288764 35.519509,31.30372 35.542376,31.319461 35.542204,31.329996 35.548123,31.337268 35.546763,31.36834 35.551798,31.383266 35.548515,31.397983 35.562956,31.412546 35.562816,31.433232 35.567276,31.440352 35.564652,31.451128 35.571497,31.460312 35.56344,31.466957 35.575193,31.473134 35.555624,31.515932 35.553555,31.577774 35.566025,31.613299 35.564743,31.619707 35.57426,31.630087 35.574777,31.68136 35.584288,31.702925 35.583781,31.718354 35.589079,31.722716 35.594347,31.742613 35.586538,31.760055 35.573766,31.764999 35.558105,31.763892</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Salt Sea / Dead Sea</name>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.5,31.5</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

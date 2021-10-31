@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Heshmon</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ad2d29f/heshmon">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Heshmon (Heshbon)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.27&amp;version=ESV">15:27</a>]]></description>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Beer Sheva</name>
+		<description>within 30 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.84083,31.51452 34.80775,31.51304 34.77504,31.50861 34.74305,31.50128 34.71214,31.49113 34.68266,31.47828 34.65492,31.46286 34.62923,31.44505 34.60587,31.42504 34.58511,31.40305 34.56715,31.37933 34.55221,31.35414 34.54045,31.32774 34.53198,31.30045 34.5269,31.27254 34.52527,31.24434 34.52709,31.21614 34.53235,31.18826 34.54098,31.161 34.55288,31.13467 34.56793,31.10954 34.58596,31.08589 34.60677,31.06398 34.63012,31.04405 34.65578,31.02632 34.68344,31.01098 34.71281,30.99819 34.74358,30.98809 34.77541,30.98081 34.80794,30.9764 34.84083,30.97493 34.87373,30.9764 34.90626,30.98081 34.93808,30.98809 34.96885,30.99819 34.99823,31.01098 35.02589,31.02632 35.05154,31.04405 35.0749,31.06398 35.0957,31.08589 35.11373,31.10954 35.12878,31.13467 35.14069,31.161 35.14932,31.18826 35.15458,31.21614 35.1564,31.24434 35.15476,31.27254 35.14969,31.30045 35.14122,31.32774 35.12945,31.35414 35.11451,31.37933 35.09656,31.40305 35.07579,31.42504 35.05244,31.44505 35.02675,31.46286 34.99901,31.47828 34.96952,31.49113 34.93861,31.50128 34.90663,31.50861 34.87391,31.51304 34.84083,31.51452</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Beer Sheva</name>
+		<description>within 30 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.840833,31.244722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Bir es Seba</name>
+		<description>within 30 km of Beersheba 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.79308,31.50702 34.76,31.50554 34.72729,31.50111 34.6953,31.49378 34.6644,31.48363 34.63492,31.47078 34.60718,31.45536 34.58149,31.43755 34.55814,31.41754 34.53737,31.39555 34.51942,31.37183 34.50448,31.34664 34.49272,31.32025 34.48425,31.29295 34.47917,31.26505 34.47754,31.23684 34.47936,31.20864 34.48462,31.18076 34.49325,31.15351 34.50515,31.12717 34.5202,31.10204 34.53823,31.07839 34.55903,31.05648 34.58239,31.03656 34.60803,31.01882 34.6357,31.00348 34.66507,30.99069 34.69583,30.9806 34.72766,30.97331 34.76019,30.9689 34.79308,30.96743 34.82597,30.9689 34.8585,30.97331 34.89032,30.9806 34.92109,30.99069 34.95046,31.00348 34.97812,31.01882 35.00377,31.03656 35.02712,31.05648 35.04793,31.07839 35.06595,31.10204 35.081,31.12717 35.09291,31.15351 35.10154,31.18076 35.1068,31.20864 35.10862,31.23684 35.10698,31.26505 35.10191,31.29295 35.09344,31.32025 35.08167,31.34664 35.06674,31.37183 35.04879,31.39555 35.02802,31.41754 35.00467,31.43755 34.97898,31.45536 34.95124,31.47078 34.92176,31.48363 34.89085,31.49378 34.85887,31.50111 34.82616,31.50554 34.79308,31.50702</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Bir es Seba</name>
+		<description>within 30 km of Beersheba 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.793078,31.237225</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tell es Saqati</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9078,31.57972 34.8747,31.57823 34.84196,31.5738 34.80995,31.56647 34.77902,31.55633 34.74951,31.54347 34.72175,31.52806 34.69605,31.51024 34.67268,31.49023 34.65189,31.46825 34.63393,31.44453 34.61898,31.41933 34.60721,31.39294 34.59873,31.36564 34.59365,31.33774 34.59202,31.30953 34.59384,31.28134 34.5991,31.25346 34.60774,31.2262 34.61965,31.19986 34.63471,31.17473 34.65275,31.15109 34.67358,31.12918 34.69695,31.10925 34.72262,31.09152 34.7503,31.07617 34.77969,31.06339 34.81048,31.05329 34.84233,31.046 34.87489,31.0416 34.9078,31.04012 34.94071,31.0416 34.97327,31.046 35.00512,31.05329 35.03591,31.06339 35.0653,31.07617 35.09298,31.09152 35.11865,31.10925 35.14202,31.12918 35.16285,31.15109 35.18089,31.17473 35.19595,31.19986 35.20786,31.2262 35.2165,31.25346 35.22176,31.28134 35.22358,31.30953 35.22195,31.33774 35.21687,31.36564 35.20839,31.39294 35.19662,31.41933 35.18167,31.44453 35.16371,31.46825 35.14292,31.49023 35.11955,31.51024 35.09385,31.52806 35.06609,31.54347 35.03658,31.55633 35.00565,31.56647 34.97364,31.5738 34.9409,31.57823 34.9078,31.57972</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tell es Saqati</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9078,31.30992</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Givat Hablanim</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.79361,31.46271 34.76055,31.46123 34.72785,31.4568 34.69588,31.44947 34.66499,31.43932 34.63552,31.42647 34.60779,31.41105 34.58212,31.39324 34.55878,31.37323 34.53802,31.35124 34.52008,31.32752 34.50515,31.30233 34.49339,31.27594 34.48492,31.24864 34.47985,31.22074 34.47821,31.19253 34.48004,31.16433 34.48529,31.13645 34.49391,31.1092 34.50582,31.08286 34.52086,31.05773 34.53888,31.03408 34.55967,31.01217 34.58301,30.99225 34.60865,30.97451 34.6363,30.95917 34.66566,30.94638 34.69641,30.93629 34.72822,30.929 34.76073,30.92459 34.79361,30.92312 34.82648,30.92459 34.859,30.929 34.89081,30.93629 34.92156,30.94638 34.95092,30.95917 34.97856,30.97451 35.0042,30.99225 35.02754,31.01217 35.04834,31.03408 35.06636,31.05773 35.0814,31.08286 35.0933,31.1092 35.10192,31.13645 35.10718,31.16433 35.109,31.19253 35.10736,31.22074 35.10229,31.24864 35.09383,31.27594 35.08207,31.30233 35.06714,31.32752 35.04919,31.35124 35.02844,31.37323 35.00509,31.39324 34.97942,31.41105 34.95169,31.42647 34.92222,31.43932 34.89133,31.44947 34.85936,31.4568 34.82667,31.46123 34.79361,31.46271</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Givat Hablanim</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.793607,31.192915</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Masos</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.95828,31.48208 34.92521,31.4806 34.89251,31.47617 34.86053,31.46884 34.82963,31.45869 34.80016,31.44584 34.77243,31.43042 34.74675,31.41261 34.7234,31.3926 34.70264,31.37061 34.68469,31.34689 34.66976,31.3217 34.65799,31.29531 34.64953,31.26801 34.64445,31.24011 34.64282,31.2119 34.64464,31.1837 34.6499,31.15582 34.65852,31.12857 34.67043,31.10223 34.68547,31.0771 34.70349,31.05345 34.72429,31.03154 34.74764,31.01162 34.77328,30.99388 34.80094,30.97854 34.8303,30.96575 34.86106,30.95566 34.89287,30.94837 34.9254,30.94396 34.95828,30.94249 34.99116,30.94396 35.02368,30.94837 35.0555,30.95566 35.08625,30.96575 35.11562,30.97854 35.14327,30.99388 35.16891,31.01162 35.19226,31.03154 35.21306,31.05345 35.23108,31.0771 35.24613,31.10223 35.25803,31.12857 35.26666,31.15582 35.27191,31.1837 35.27373,31.2119 35.2721,31.24011 35.26702,31.26801 35.25856,31.29531 35.2468,31.3217 35.23186,31.34689 35.21392,31.37061 35.19316,31.3926 35.16981,31.41261 35.14413,31.43042 35.1164,31.44584 35.08692,31.45869 35.05602,31.46884 35.02405,31.47617 34.99135,31.4806 34.95828,31.48208</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Masos</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.958277,31.212285</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Sharuhen</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.4825,31.55174 34.44941,31.55026 34.41668,31.54583 34.38468,31.5385 34.35376,31.52835 34.32426,31.5155 34.29651,31.50008 34.27081,31.48227 34.24745,31.46226 34.22667,31.44027 34.20871,31.41655 34.19377,31.39136 34.182,31.36497 34.17353,31.33767 34.16845,31.30976 34.16681,31.28156 34.16863,31.25336 34.17389,31.22548 34.18253,31.19822 34.19444,31.17189 34.20949,31.14676 34.22753,31.12311 34.24834,31.1012 34.27171,31.08127 34.29737,31.06354 34.32504,31.0482 34.35443,31.03541 34.38521,31.02532 34.41705,31.01803 34.44959,31.01362 34.4825,31.01215 34.51541,31.01362 34.54795,31.01803 34.57979,31.02532 34.61057,31.03541 34.63996,31.0482 34.66763,31.06354 34.69329,31.08127 34.71666,31.1012 34.73747,31.12311 34.75551,31.14676 34.77056,31.17189 34.78247,31.19822 34.79111,31.22548 34.79637,31.25336 34.79819,31.28156 34.79655,31.30976 34.79147,31.33767 34.783,31.36497 34.77123,31.39136 34.75629,31.41655 34.73833,31.44027 34.71755,31.46226 34.69419,31.48227 34.66849,31.50008 34.64074,31.5155 34.61124,31.52835 34.58032,31.5385 34.54832,31.54583 34.51559,31.55026 34.4825,31.55174</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / within 30 km of Tel Sharuhen</name>
+		<description>within 30 km of Beth-pelet</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.4825,31.281944</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / Ain Muweileh</name>
+		<description>another name for Azmon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.333333,30.6875</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heshmon / Ain Qoseimeh</name>
+		<description>another name for Azmon</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.366667,30.666667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

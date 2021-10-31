@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Judea 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a149f13/judea-1">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Judea 1 (Judaea)</name>
+	<description><![CDATA[Matt <a href="https://www.biblegateway.com/passage/?search=Matt.2.1&amp;version=ESV">2:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.2.5&amp;version=ESV">2:5</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.2.22&amp;version=ESV">2:22</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.3.5&amp;version=ESV">3:5</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.12&amp;version=NLT">4:12</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.4.25&amp;version=ESV">4:25</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.19.1&amp;version=ESV">19:1</a>, <a href="https://www.biblegateway.com/passage/?search=Matt.24.16&amp;version=ESV">24:16</a>, Mark <a href="https://www.biblegateway.com/passage/?search=Mark.1.5&amp;version=ESV">1:5</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.3.7&amp;version=ESV">3:7</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.10.1&amp;version=ESV">10:1</a>, <a href="https://www.biblegateway.com/passage/?search=Mark.13.14&amp;version=ESV">13:14</a>, Luke <a href="https://www.biblegateway.com/passage/?search=Luke.1.5&amp;version=ESV">1:5</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.1.39&amp;version=ESV">1:39</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.1.65&amp;version=ESV">1:65</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.2.4&amp;version=ESV">2:4</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.3.1&amp;version=ESV">3:1</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.4.44&amp;version=ESV">4:44</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.5.17&amp;version=ESV">5:17</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.6.17&amp;version=ESV">6:17</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.7.17&amp;version=ESV">7:17</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.21.21&amp;version=ESV">21:21</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.5&amp;version=ESV">23:5</a>, <a href="https://www.biblegateway.com/passage/?search=Luke.23.51&amp;version=NLT">23:51</a>, John <a href="https://www.biblegateway.com/passage/?search=John.3.22&amp;version=NASB">3:22</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.3&amp;version=ESV">4:3</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.47&amp;version=ESV">4:47</a>, <a href="https://www.biblegateway.com/passage/?search=John.4.54&amp;version=ESV">4:54</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.1&amp;version=ESV">7:1</a>, <a href="https://www.biblegateway.com/passage/?search=John.7.3&amp;version=ESV">7:3</a>, <a href="https://www.biblegateway.com/passage/?search=John.11.7&amp;version=ESV">11:7</a>, <a href="https://www.biblegateway.com/passage/?search=John.11.8&amp;version=NLT">11:8</a>, <a href="https://www.biblegateway.com/passage/?search=John.11.54&amp;version=NIV">11:54</a>, Acts <a href="https://www.biblegateway.com/passage/?search=Acts.1.8&amp;version=ESV">1:8</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.2.9&amp;version=ESV">2:9</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.2.14&amp;version=ESV">2:14</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.8.1&amp;version=ESV">8:1</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.9.31&amp;version=ESV">9:31</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.10.37&amp;version=ESV">10:37</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.10.39&amp;version=NRSV">10:39</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.11.1&amp;version=ESV">11:1</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.11.29&amp;version=ESV">11:29</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.12.19&amp;version=ESV">12:19</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.15.1&amp;version=ESV">15:1</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.21.10&amp;version=ESV">21:10</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.26.20&amp;version=ESV">26:20</a>, <a href="https://www.biblegateway.com/passage/?search=Acts.28.21&amp;version=ESV">28:21</a>, Rom <a href="https://www.biblegateway.com/passage/?search=Rom.15.31&amp;version=ESV">15:31</a>, 2Cor <a href="https://www.biblegateway.com/passage/?search=2Cor.1.16&amp;version=ESV">1:16</a>, Gal <a href="https://www.biblegateway.com/passage/?search=Gal.1.22&amp;version=ESV">1:22</a>, 1Thess <a href="https://www.biblegateway.com/passage/?search=1Thess.2.14&amp;version=ESV">2:14</a>]]></description>
+	<Placemark>
+		<name>Judea 1 / Judea 1</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.883215,32.562013 34.855042,32.412566 34.741444,32.044753 34.59465,31.777872 34.484398,31.617956 34.539955,31.211483 35.450015,31.243866 35.55086,31.531459 35.647488,31.595129 35.596268,32.711386 35.645996,32.866567 35.628623,33.104068 34.883215,32.562013</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Judea 1 / Judea 1</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.234167,31.776667</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

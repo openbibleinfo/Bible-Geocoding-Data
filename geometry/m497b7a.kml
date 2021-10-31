@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wadi el Kaziz</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m497b7a/wadi-el-kaziz">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Wadi el Kaziz</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>35.3219,31.7793 35.32225,31.7795 35.32245,31.77977 35.32333,31.77992 35.32423,31.78044 35.32468,31.78051 35.32543,31.78084 35.32564,31.78096 35.32568,31.78107 35.32603,31.78113 35.32601,31.78136 35.3265,31.78127 35.32652,31.78149 35.32676,31.78161 35.32732,31.78166 35.32802,31.78236 35.32864,31.78277 35.33208,31.78364 35.33272,31.78369 35.33326,31.78389 35.33418,31.78387 35.33502,31.78436 35.33544,31.78437 35.33666,31.78539 35.33736,31.78577 35.339,31.78593 35.33954,31.78593 35.34026,31.78572 35.34045,31.78554 35.34047,31.78483 35.34111,31.78446 35.34228,31.78398 35.34252,31.78368 35.34301,31.78344 35.34367,31.7834 35.34478,31.78495 35.34499,31.7851 35.34521,31.78499 35.34523,31.78477 35.34562,31.78446 35.34629,31.78433 35.34672,31.78396 35.34668,31.78347 35.34657,31.7832 35.34697,31.78269 35.34718,31.7826 35.34751,31.78266 35.34803,31.78312 35.34781,31.78396 35.34798,31.78415 35.34848,31.78422 35.34888,31.78438 35.34903,31.78453 35.34938,31.78462 35.34985,31.78462 35.35022,31.78434 35.35026,31.78402 35.35009,31.78355 35.35031,31.78337 35.35107,31.78344 35.35134,31.78372 35.35195,31.78366 35.35216,31.78349 35.35282,31.78345 35.35313,31.78353 35.35314,31.78368 35.35353,31.7839 35.35375,31.78379 35.35375,31.78359 35.35444,31.78319 35.35467,31.78284 35.35481,31.78252 35.35484,31.78219 35.35475,31.78107 35.35486,31.78074 35.35504,31.78061 35.3552,31.78061 35.35552,31.78079 35.35589,31.78117 35.35659,31.78262 35.35704,31.78335 35.35706,31.78377 35.35718,31.78417 35.35734,31.78442 35.35767,31.78467 35.35814,31.78468 35.35945,31.78436 35.36066,31.78478 35.36096,31.78509 35.36146,31.7853 35.36235,31.7854 35.36298,31.78537 35.3629,31.78508 35.36307,31.78488 35.36414,31.78485 35.36432,31.7846 35.36439,31.78408 35.36458,31.78376 35.36503,31.78342 35.36539,31.78374 35.36661,31.78399 35.36854,31.78389 35.36905,31.7835</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Wadi el Kaziz</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>35.33572,31.78568</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>City of Salt</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/acc1702/city-of-salt">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>City of Salt</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.62&amp;version=ESV">15:62</a>]]></description>
+	<Placemark>
+		<name>City of Salt / Qumran</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.458611,31.740833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Mezad Gozal</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.387664,31.129652</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Ain el Ghuweir</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.40968,31.6242</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region south of the Lisan</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.408824,31.314783 35.305248,30.924507 35.479241,30.90329 35.546828,31.303317 35.408824,31.314783</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region south of the Lisan</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.449223,31.20849</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Bab edh Dhra</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.523005,31.248729</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region north of the Dead Sea</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.641497,31.738839 35.701387,31.844513 35.595213,31.965858 35.605654,32.028979 35.473661,32.0442 35.447941,31.960009 35.398864,31.951947 35.377756,31.918242 35.421166,31.893264 35.430094,31.847714 35.454051,31.779867 35.494221,31.751456 35.641497,31.738839</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region north of the Dead Sea</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.595278,31.795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Tall el Hammam</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.67368,31.84018</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Numeira</name>
+		<description>another name for Sodom</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.529368,31.129757</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Ein et Turaba</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.40649,31.60797</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Tel Malhata</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.0258,31.2172</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Rujm el Bahr</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.512045,31.772258</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Khirbet es Samrah</name>
+		<description>another name for Secacah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.391592,31.71684</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Qumran</name>
+		<description>another name for Secacah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.458611,31.740833</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / Ain Feshkah</name>
+		<description>another name for Secacah</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.453333,31.714444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region south of the Lisan</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates></coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>City of Salt / in the region south of the Lisan</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.449223,31.20849</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

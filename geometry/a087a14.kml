@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Buz</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a087a14/buz">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Buz</name>
+	<description><![CDATA[Jer <a href="https://www.biblegateway.com/passage/?search=Jer.25.23&amp;version=ESV">25:23</a>]]></description>
+	<Placemark>
+		<name>Buz / between Dedan and Kedar</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>38.064748,26.758072 39.429652,26.804022 39.228358,29.876814 37.002387,29.856019 36.912715,27.414772 38.064748,26.758072</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Buz / between Dedan and Kedar</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>38.987969,28.356612</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Buz / about 30 km around Azraq</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>36.82743,32.14976 36.79412,32.14828 36.76118,32.14385 36.72897,32.13652 36.69785,32.12637 36.66816,32.11352 36.64023,32.0981 36.61437,32.08028 36.59085,32.06027 36.56994,32.03829 36.55187,32.01456 36.53683,31.98937 36.52498,31.96298 36.51646,31.93568 36.51135,31.90777 36.50971,31.87957 36.51154,31.85137 36.51684,31.82349 36.52553,31.79624 36.53752,31.7699 36.55267,31.74477 36.57083,31.72112 36.59178,31.69922 36.61529,31.67929 36.64112,31.66156 36.66897,31.64622 36.69854,31.63343 36.72952,31.62334 36.76156,31.61605 36.79431,31.61164 36.82743,31.61017 36.86054,31.61164 36.8933,31.61605 36.92534,31.62334 36.95631,31.63343 36.98589,31.64622 37.01374,31.66156 37.03956,31.67929 37.06308,31.69922 37.08403,31.72112 37.10218,31.74477 37.11734,31.7699 37.12933,31.79624 37.13802,31.82349 37.14331,31.85137 37.14515,31.87957 37.14351,31.90777 37.1384,31.93568 37.12987,31.96298 37.11803,31.98937 37.10299,32.01456 37.08491,32.03829 37.06401,32.06027 37.04049,32.08028 37.01462,32.0981 36.98669,32.11352 36.957,32.12637 36.92588,32.13652 36.89368,32.14385 36.86074,32.14828 36.82743,32.14976</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Buz / about 30 km around Azraq</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>36.827428,31.879964</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Buz / Al Ahsa</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>49.529138,25.287331 49.73921,25.17197 49.918638,25.587394 49.780454,25.824314 49.487807,25.703892 49.486773,25.388243 49.529138,25.287331</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Buz / Al Ahsa</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>49.621944,25.429444</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

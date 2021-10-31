@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mount Perazim</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a991067/mount-perazim">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Mount Perazim (Perazim)</name>
+	<description><![CDATA[Isa <a href="https://www.biblegateway.com/passage/?search=Isa.28.21&amp;version=ESV">28:21</a>]]></description>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Sheikh Badr</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.20474,31.78747 35.20446,31.78745 35.20419,31.78742 35.20392,31.78736 35.20366,31.78727 35.20341,31.78716 35.20318,31.78704 35.20297,31.78689 35.20277,31.78672 35.2026,31.78654 35.20244,31.78634 35.20232,31.78613 35.20222,31.78591 35.20215,31.78568 35.2021,31.78545 35.20209,31.78522 35.2021,31.78498 35.20215,31.78475 35.20222,31.78452 35.20232,31.7843 35.20244,31.78409 35.2026,31.7839 35.20277,31.78371 35.20297,31.78355 35.20318,31.7834 35.20341,31.78327 35.20366,31.78316 35.20392,31.78308 35.20419,31.78302 35.20446,31.78298 35.20474,31.78297 35.20501,31.78298 35.20528,31.78302 35.20555,31.78308 35.20581,31.78316 35.20606,31.78327 35.20629,31.7834 35.2065,31.78355 35.2067,31.78371 35.20687,31.7839 35.20703,31.78409 35.20715,31.7843 35.20725,31.78452 35.20732,31.78475 35.20737,31.78498 35.20738,31.78522 35.20737,31.78545 35.20732,31.78568 35.20725,31.78591 35.20715,31.78613 35.20703,31.78634 35.20687,31.78654 35.2067,31.78672 35.2065,31.78689 35.20629,31.78704 35.20606,31.78716 35.20581,31.78727 35.20555,31.78736 35.20528,31.78742 35.20501,31.78745 35.20474,31.78747</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Sheikh Badr</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.204735,31.785217</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Ez Zuhur</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18332,31.7441 35.18304,31.74409 35.18277,31.74405 35.1825,31.74399 35.18224,31.74391 35.182,31.7438 35.18176,31.74367 35.18155,31.74352 35.18135,31.74336 35.18118,31.74318 35.18103,31.74298 35.1809,31.74277 35.1808,31.74255 35.18073,31.74232 35.18069,31.74209 35.18067,31.74185 35.18069,31.74162 35.18073,31.74139 35.1808,31.74116 35.1809,31.74094 35.18103,31.74073 35.18118,31.74053 35.18135,31.74035 35.18155,31.74018 35.18176,31.74004 35.182,31.73991 35.18224,31.7398 35.1825,31.73972 35.18277,31.73965 35.18304,31.73962 35.18332,31.73961 35.18359,31.73962 35.18387,31.73965 35.18413,31.73972 35.18439,31.7398 35.18464,31.73991 35.18487,31.74004 35.18509,31.74018 35.18528,31.74035 35.18546,31.74053 35.18561,31.74073 35.18573,31.74094 35.18583,31.74116 35.1859,31.74139 35.18595,31.74162 35.18596,31.74185 35.18595,31.74209 35.1859,31.74232 35.18583,31.74255 35.18573,31.74277 35.18561,31.74298 35.18546,31.74318 35.18528,31.74336 35.18509,31.74352 35.18487,31.74367 35.18464,31.7438 35.18439,31.74391 35.18413,31.74399 35.18387,31.74405 35.18359,31.74409 35.18332,31.7441</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Ez Zuhur</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.183317,31.741854</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Abu Tor</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.23264,31.76589 35.23236,31.76587 35.23209,31.76584 35.23182,31.76578 35.23156,31.76569 35.23132,31.76559 35.23108,31.76546 35.23087,31.76531 35.23067,31.76514 35.2305,31.76496 35.23035,31.76476 35.23022,31.76455 35.23012,31.76433 35.23005,31.76411 35.23001,31.76387 35.22999,31.76364 35.23001,31.7634 35.23005,31.76317 35.23012,31.76294 35.23022,31.76272 35.23035,31.76251 35.2305,31.76232 35.23067,31.76213 35.23087,31.76197 35.23108,31.76182 35.23132,31.76169 35.23156,31.76159 35.23182,31.7615 35.23209,31.76144 35.23236,31.7614 35.23264,31.76139 35.23292,31.7614 35.23319,31.76144 35.23346,31.7615 35.23371,31.76159 35.23396,31.76169 35.23419,31.76182 35.23441,31.76197 35.2346,31.76213 35.23478,31.76232 35.23493,31.76251 35.23505,31.76272 35.23515,31.76294 35.23523,31.76317 35.23527,31.7634 35.23528,31.76364 35.23527,31.76387 35.23523,31.76411 35.23515,31.76433 35.23505,31.76455 35.23493,31.76476 35.23478,31.76496 35.2346,31.76514 35.23441,31.76531 35.23419,31.76546 35.23396,31.76559 35.23371,31.76569 35.23346,31.76578 35.23319,31.76584 35.23292,31.76587 35.23264,31.76589</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Abu Tor</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.232639,31.763639</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Gilo</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.18701,31.7331 35.18674,31.73309 35.18646,31.73305 35.1862,31.73299 35.18594,31.73291 35.18569,31.7328 35.18546,31.73267 35.18525,31.73252 35.18505,31.73236 35.18488,31.73217 35.18472,31.73198 35.1846,31.73177 35.1845,31.73155 35.18443,31.73132 35.18439,31.73109 35.18437,31.73085 35.18439,31.73062 35.18443,31.73039 35.1845,31.73016 35.1846,31.72994 35.18472,31.72973 35.18488,31.72953 35.18505,31.72935 35.18525,31.72918 35.18546,31.72903 35.18569,31.72891 35.18594,31.7288 35.1862,31.72871 35.18646,31.72865 35.18674,31.72862 35.18701,31.7286 35.18729,31.72862 35.18756,31.72865 35.18783,31.72871 35.18809,31.7288 35.18834,31.72891 35.18857,31.72903 35.18878,31.72918 35.18898,31.72935 35.18915,31.72953 35.1893,31.72973 35.18943,31.72994 35.18953,31.73016 35.1896,31.73039 35.18964,31.73062 35.18966,31.73085 35.18964,31.73109 35.1896,31.73132 35.18953,31.73155 35.18943,31.73177 35.1893,31.73198 35.18915,31.73217 35.18898,31.73236 35.18878,31.73252 35.18857,31.73267 35.18834,31.7328 35.18809,31.73291 35.18783,31.73299 35.18756,31.73305 35.18729,31.73309 35.18701,31.7331</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Gilo</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.187014,31.730853</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Mar Elias</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.21117,31.73707 35.21089,31.73705 35.21062,31.73702 35.21035,31.73696 35.21009,31.73687 35.20984,31.73676 35.20961,31.73664 35.2094,31.73649 35.2092,31.73632 35.20903,31.73614 35.20888,31.73594 35.20875,31.73573 35.20865,31.73551 35.20858,31.73528 35.20854,31.73505 35.20852,31.73482 35.20854,31.73458 35.20858,31.73435 35.20865,31.73412 35.20875,31.7339 35.20888,31.73369 35.20903,31.7335 35.2092,31.73331 35.2094,31.73315 35.20961,31.733 35.20984,31.73287 35.21009,31.73276 35.21035,31.73268 35.21062,31.73262 35.21089,31.73258 35.21117,31.73257 35.21144,31.73258 35.21172,31.73262 35.21198,31.73268 35.21224,31.73276 35.21249,31.73287 35.21272,31.733 35.21293,31.73315 35.21313,31.73331 35.2133,31.7335 35.21346,31.73369 35.21358,31.7339 35.21368,31.73412 35.21375,31.73435 35.2138,31.73458 35.21381,31.73482 35.2138,31.73505 35.21375,31.73528 35.21368,31.73551 35.21358,31.73573 35.21346,31.73594 35.2133,31.73614 35.21313,31.73632 35.21293,31.73649 35.21272,31.73664 35.21249,31.73676 35.21224,31.73687 35.21198,31.73696 35.21172,31.73702 35.21144,31.73705 35.21117,31.73707</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mount Perazim / within 250 m of Mar Elias</name>
+		<description>within 250 m of Baal-perazim</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.211166,31.734817</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

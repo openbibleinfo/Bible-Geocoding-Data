@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valley of Hinnom</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a37c8e6/valley-of-hinnom">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Valley of Hinnom (Valley of the Son of Hinnom, Valley of Ben Hinnom, Valley of Slaughter, Ben Hinnom Valley)</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.8&amp;version=ESV">15:8</a>, <a href="https://www.biblegateway.com/passage/?search=Josh.18.16&amp;version=ESV">18:16</a>, 2Kgs <a href="https://www.biblegateway.com/passage/?search=2Kgs.23.10&amp;version=ESV">23:10</a>, 2Chr <a href="https://www.biblegateway.com/passage/?search=2Chr.28.3&amp;version=ESV">28:3</a>, <a href="https://www.biblegateway.com/passage/?search=2Chr.33.6&amp;version=ESV">33:6</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.11.30&amp;version=ESV">11:30</a>, Jer <a href="https://www.biblegateway.com/passage/?search=Jer.2.23&amp;version=NET">2:23</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.7.31&amp;version=ESV">7:31</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.7.32&amp;version=ESV">7:32</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.19.2&amp;version=ESV">19:2</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.19.6&amp;version=ESV">19:6</a>, <a href="https://www.biblegateway.com/passage/?search=Jer.32.35&amp;version=ESV">32:35</a>]]></description>
+	<Placemark>
+		<name>Valley of Hinnom / Hinnom Valley</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.226521,31.771194 35.226425,31.771254 35.226178,31.771219 35.226009,31.771178 35.225877,31.771114 35.225765,31.770953 35.225701,31.770872 35.22563,31.770469 35.225646,31.770223 35.225748,31.770201 35.225911,31.770267 35.22639,31.76966 35.226178,31.769549 35.226088,31.769457 35.226429,31.769186 35.22665,31.768919 35.22765,31.768532 35.227962,31.768429 35.228058,31.768491 35.22831,31.768459 35.228461,31.768852 35.228289,31.768961 35.227421,31.769785 35.227024,31.769776 35.226863,31.769967 35.227024,31.77014 35.226681,31.770825 35.226668,31.771002 35.226594,31.771138 35.226521,31.771194</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Valley of Hinnom / Hinnom Valley</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.228056,31.769167</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

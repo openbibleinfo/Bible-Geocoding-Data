@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Samos</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m509072/samos">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Samos</name>
+	<styleUrl>#region</styleUrl>
+	<Polygon>
+		<tesselate>1</tesselate>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>26.94638,37.690923 26.953017,37.687416 26.958492,37.690266 26.953967,37.69147 26.965614,37.69287 26.980052,37.706762 26.996105,37.707521 27.011403,37.702857 27.018839,37.707932 27.037106,37.704297 27.043163,37.710048 27.048706,37.705752 27.056368,37.713863 27.060555,37.708994 27.067323,37.711534 27.065226,37.715205 27.069786,37.718025 27.065982,37.727109 27.036532,37.728391 27.036278,37.734083 27.041286,37.737718 27.039187,37.742104 27.024146,37.752107 27.029578,37.762846 27.048145,37.76619 27.068648,37.777328 27.059342,37.779725 27.021289,37.773379 27.012182,37.77833 26.998602,37.777112 26.987249,37.784018 26.986207,37.790663 26.99149,37.795933 26.977977,37.793133 26.976312,37.785182 26.981819,37.778827 26.96173,37.787624 26.951953,37.78711 26.949003,37.782254 26.963472,37.771306 26.961937,37.766256 26.970068,37.755644 26.976763,37.754301 26.972276,37.748323 26.965483,37.747312 26.958293,37.756977 26.928239,37.771774 26.910618,37.772397 26.892903,37.781545 26.882354,37.778486 26.858182,37.796254 26.857087,37.802689 26.848249,37.806192 26.741288,37.813108 26.690634,37.795714 26.678468,37.795713 26.68446,37.79871 26.672982,37.796342 26.658614,37.790174 26.637852,37.770025 26.608699,37.768849 26.59623,37.762127 26.591458,37.751757 26.584137,37.749287 26.566185,37.731349 26.585341,37.705335 26.577967,37.69173 26.582726,37.690181 26.584095,37.683073 26.590669,37.681272 26.591409,37.675408 26.600671,37.682912 26.60467,37.677429 26.615012,37.683775 26.623388,37.680124 26.622529,37.688352 26.633449,37.688883 26.631139,37.693013 26.643339,37.70286 26.691811,37.709827 26.722738,37.709791 26.730064,37.703589 26.752762,37.696641 26.793338,37.643088 26.81721,37.637025 26.832078,37.640118 26.859504,37.636146 26.879211,37.64039 26.883317,37.644896 26.882368,37.663055 26.890684,37.673049 26.927926,37.688579 26.948279,37.686745 26.942768,37.688877 26.94638,37.690923</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Samos</name>
+	<styleUrl>#landrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>26.8333,37.75</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

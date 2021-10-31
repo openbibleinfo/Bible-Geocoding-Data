@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Upper Gulloth</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a380434/upper-gulloth">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Upper Gulloth</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.19&amp;version=NIV">15:19</a>, Judg <a href="https://www.biblegateway.com/passage/?search=Judg.1.15&amp;version=NRSV">1:15</a>]]></description>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Khirbet Rabud</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.01485,31.47706 35.00934,31.47681 35.00389,31.47607 34.99856,31.47485 34.99341,31.47317 34.98849,31.47103 34.98386,31.46846 34.97957,31.4655 34.97567,31.46217 34.9722,31.45851 34.9692,31.45456 34.9667,31.45037 34.96472,31.44598 34.9633,31.44143 34.96244,31.43678 34.96215,31.43208 34.96244,31.42738 34.96331,31.42273 34.96474,31.41818 34.96672,31.41379 34.96922,31.4096 34.97223,31.40565 34.9757,31.402 34.9796,31.39867 34.98389,31.39571 34.98851,31.39315 34.99342,31.39101 34.99857,31.38932 35.0039,31.38811 35.00934,31.38737 35.01485,31.38712 35.02036,31.38737 35.0258,31.38811 35.03113,31.38932 35.03628,31.39101 35.04119,31.39315 35.04581,31.39571 35.0501,31.39867 35.054,31.402 35.05747,31.40565 35.06048,31.4096 35.06298,31.41379 35.06496,31.41818 35.06639,31.42273 35.06726,31.42738 35.06755,31.43208 35.06726,31.43678 35.0664,31.44143 35.06498,31.44598 35.063,31.45037 35.0605,31.45456 35.0575,31.45851 35.05403,31.46217 35.05013,31.4655 35.04584,31.46846 35.04121,31.47103 35.03629,31.47317 35.03114,31.47485 35.02581,31.47607 35.02036,31.47681 35.01485,31.47706</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Khirbet Rabud</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.01485,31.43209</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Tell Beit Mirsim</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9098,31.50077 34.90429,31.50052 34.89884,31.49978 34.8935,31.49856 34.88835,31.49688 34.88343,31.49474 34.8788,31.49217 34.87452,31.48921 34.87061,31.48588 34.86714,31.48222 34.86414,31.47827 34.86164,31.47408 34.85966,31.46969 34.85823,31.46514 34.85737,31.46049 34.85709,31.45579 34.85738,31.45109 34.85824,31.44644 34.85967,31.44189 34.86165,31.4375 34.86416,31.43331 34.86717,31.42936 34.87064,31.42571 34.87454,31.42238 34.87883,31.41942 34.88345,31.41686 34.88837,31.41472 34.89352,31.41303 34.89885,31.41182 34.90429,31.41108 34.9098,31.41083 34.91531,31.41108 34.92075,31.41182 34.92608,31.41303 34.93123,31.41472 34.93615,31.41686 34.94077,31.41942 34.94506,31.42238 34.94896,31.42571 34.95243,31.42936 34.95544,31.43331 34.95795,31.4375 34.95993,31.44189 34.96136,31.44644 34.96222,31.45109 34.96251,31.45579 34.96223,31.46049 34.96137,31.46514 34.95994,31.46969 34.95796,31.47408 34.95546,31.47827 34.95246,31.48222 34.94899,31.48588 34.94508,31.48921 34.9408,31.49217 34.93617,31.49474 34.93125,31.49688 34.9261,31.49856 34.92076,31.49978 34.91531,31.50052 34.9098,31.50077</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Tell Beit Mirsim</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9098,31.4558</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Khirbet Tarrama</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#water</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.03264,31.52354 35.02713,31.52329 35.02167,31.52255 35.01634,31.52133 35.01119,31.51965 35.00627,31.51751 35.00164,31.51494 34.99735,31.51198 34.99344,31.50865 34.98997,31.50499 34.98697,31.50104 34.98446,31.49685 34.98249,31.49246 34.98106,31.48791 34.9802,31.48326 34.97991,31.47856 34.98021,31.47386 34.98107,31.46921 34.9825,31.46466 34.98448,31.46027 34.98699,31.45608 34.99,31.45213 34.99347,31.44848 34.99737,31.44515 35.00166,31.44219 35.00629,31.43963 35.0112,31.43749 35.01635,31.4358 35.02168,31.43459 35.02713,31.43385 35.03264,31.4336 35.03815,31.43385 35.0436,31.43459 35.04893,31.4358 35.05408,31.43749 35.05899,31.43963 35.06362,31.44219 35.06791,31.44515 35.07181,31.44848 35.07528,31.45213 35.07829,31.45608 35.0808,31.46027 35.08278,31.46466 35.08421,31.46921 35.08507,31.47386 35.08537,31.47856 35.08508,31.48326 35.08422,31.48791 35.08279,31.49246 35.08082,31.49685 35.07831,31.50104 35.07531,31.50499 35.07184,31.50865 35.06793,31.51198 35.06364,31.51494 35.05901,31.51751 35.05409,31.51965 35.04894,31.52133 35.04361,31.52255 35.03815,31.52329 35.03264,31.52354</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Upper Gulloth / within 5 km of Khirbet Tarrama</name>
+		<description>another name for Gulloth-mayim</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.03264,31.47857</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

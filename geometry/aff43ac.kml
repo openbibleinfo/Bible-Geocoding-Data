@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nahor</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/aff43ac/nahor">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Nahor</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.24.10&amp;version=ESV">24:10</a>]]></description>
+	<Placemark>
+		<name>Nahor / within 170 km of Harran</name>
+		<description>another name for Nahuru</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>39.03278,38.39329 38.82893,38.38474 38.62745,38.3592 38.43069,38.31696 38.24092,38.25851 38.06033,38.18453 37.89096,38.09588 37.73473,37.99358 37.59337,37.87881 37.46843,37.75288 37.36122,37.61721 37.27288,37.47335 37.20426,37.32291 37.15603,37.16758 37.12859,37.00908 37.12211,36.84915 37.13654,36.68956 37.17158,36.53204 37.22673,36.37831 37.30128,36.23001 37.39433,36.08873 37.50479,35.95599 37.6314,35.83318 37.77277,35.7216 37.92734,35.62243 38.09346,35.53671 38.26936,35.46532 38.45318,35.40901 38.64302,35.36837 38.83688,35.34381 39.03278,35.3356 39.22867,35.34381 39.42254,35.36837 39.61237,35.40901 39.7962,35.46532 39.9721,35.53671 40.13822,35.62243 40.29279,35.7216 40.43416,35.83318 40.56077,35.95599 40.67123,36.08873 40.76428,36.23001 40.83883,36.37831 40.89398,36.53204 40.92902,36.68956 40.94344,36.84915 40.93696,37.00908 40.90952,37.16758 40.86129,37.32291 40.79268,37.47335 40.70433,37.61721 40.59713,37.75288 40.47218,37.87881 40.33082,37.99358 40.17459,38.09588 40.00523,38.18453 39.82463,38.25851 39.63486,38.31696 39.4381,38.3592 39.23663,38.38474 39.03278,38.39329</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Nahor / within 170 km of Harran</name>
+		<description>another name for Nahuru</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>39.032778,36.864444</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nahor / Harran</name>
+		<description>another name for Haran</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>39.032778,36.864444</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

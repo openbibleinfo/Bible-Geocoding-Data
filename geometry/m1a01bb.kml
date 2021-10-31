@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Blue Nile</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/modern/m1a01bb/blue-nile">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Placemark>
+	<name>Blue Nile</name>
+	<styleUrl>#water</styleUrl>
+	<LineString>
+		<tesselate>1</tesselate>
+		<coordinates>37.36862,11.96074 37.39411,11.54626 37.62561,11.48352 37.72639,11.3167 37.87673,11.21758 38.18002,11.14135 38.29536,11.15209 38.48268,11.03003 38.53379,10.78955 38.46445,10.59449 38.49621,10.3688 38.40292,10.14974 38.34558,10.16377 38.30222,10.09505 38.24341,10.10753 38.04394,9.97296 37.70346,9.84161 37.53311,10.00174 37.40263,10.05071 37.3298,10.01192 37.21805,10.09311 37.17372,10.16807 37.19032,10.24614 36.76208,10.37184 36.6677,10.31868 36.54285,10.36854 36.53238,10.48665 36.43526,10.45152 36.42179,10.3757 36.24008,10.13012 35.97694,10.14389 35.87184,10.00819 35.73688,10.0497 35.73701,9.9764 35.68008,9.94179 35.56888,10.06654 35.35827,10.12977 35.31399,10.19991 35.31564,10.4025 35.15128,10.57615 35.21341,10.8595 35.19849,11.11621 35.09166,11.2151 34.83662,11.24467 34.7318,11.29863 34.37686,11.63669 34.40184,11.77973 34.3038,12.14025 34.36036,12.21993 34.35708,12.37161 34.14303,12.50982 34.18628,12.57228 34.1316,12.63345 34.15143,12.7648 34.03954,12.88237 33.99709,12.85982 34.02537,12.92087 33.94415,13.06047 33.98321,13.1395 33.93316,13.16925 33.96423,13.22048 33.88472,13.2654 33.88465,13.31946 33.84599,13.27716 33.75818,13.3506 33.72141,13.29993 33.72551,13.35908 33.66362,13.40355 33.67005,13.52756 33.58059,13.57288 33.65017,13.6847 33.56119,13.71546 33.63648,13.76637 33.5503,13.84337 33.62441,13.88014 33.58601,13.95496 33.63809,13.96193 33.61271,14.037 33.66155,14.04956 33.69134,14.14298 33.61032,14.21049 33.62037,14.2888 33.55019,14.34522 33.56903,14.42925 33.51465,14.4105 33.36244,14.75386 33.3135,14.72512 33.3168,14.77816 33.23738,14.86307 33.2422,14.998 33.18506,15.04865 33.19354,15.11452 33.02786,15.27017 32.92452,15.26777 32.78157,15.34803 32.58184,15.61543 32.50641,15.64124</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>Blue Nile</name>
+	<styleUrl>#waterrepresentativepoint</styleUrl>
+	<Point>
+		<coordinates>32.501944,15.623611</coordinates>
+	</Point>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zaanan</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a4e7fa8/zaanan">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Zaanan</name>
+	<description><![CDATA[Mic <a href="https://www.biblegateway.com/passage/?search=Mic.1.11&amp;version=ESV">1:11</a>]]></description>
+	<Placemark>
+		<name>Zaanan / within 12 km of Tell ed Duweir</name>
+		<description>another name for Zenan</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.84917,31.6732 34.83591,31.6726 34.8228,31.67084 34.80998,31.66791 34.7976,31.66386 34.78577,31.65872 34.77465,31.65256 34.76434,31.64545 34.75497,31.63745 34.74663,31.62867 34.73941,31.61919 34.7334,31.60912 34.72866,31.59857 34.72525,31.58766 34.72319,31.5765 34.72251,31.56522 34.72322,31.55394 34.72531,31.54278 34.72875,31.53187 34.73351,31.52133 34.73954,31.51127 34.74677,31.5018 34.75511,31.49303 34.76449,31.48505 34.77479,31.47795 34.7859,31.4718 34.7977,31.46668 34.81007,31.46264 34.82286,31.45972 34.83594,31.45795 34.84917,31.45736 34.86239,31.45795 34.87547,31.45972 34.88826,31.46264 34.90063,31.46668 34.91243,31.4718 34.92355,31.47795 34.93385,31.48505 34.94322,31.49303 34.95157,31.5018 34.95879,31.51127 34.96482,31.52133 34.96958,31.53187 34.97303,31.54278 34.97512,31.55394 34.97583,31.56522 34.97515,31.5765 34.97309,31.58766 34.96967,31.59857 34.96493,31.60912 34.95892,31.61919 34.95171,31.62867 34.94337,31.63745 34.93399,31.64545 34.92368,31.65256 34.91256,31.65872 34.90074,31.66386 34.88835,31.66791 34.87553,31.67084 34.86242,31.6726 34.84917,31.6732</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Zaanan / within 12 km of Tell ed Duweir</name>
+		<description>another name for Zenan</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.849167,31.565278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zaanan / Iraq el Kharab</name>
+		<description>another name for Zenan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.803939,31.599435</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zaanan / Tel Erani</name>
+		<description>another name for Zenan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.78622,31.61209</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zaanan / Khirbet Summeily</name>
+		<description>another name for Zenan</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.688042,31.564734</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

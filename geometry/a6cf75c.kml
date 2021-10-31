@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ur 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6cf75c/ur-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Ur 1</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.11.28&amp;version=ESV">11:28</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.11.31&amp;version=ESV">11:31</a>, <a href="https://www.biblegateway.com/passage/?search=Gen.15.7&amp;version=ESV">15:7</a>, Neh <a href="https://www.biblegateway.com/passage/?search=Neh.9.7&amp;version=ESV">9:7</a>]]></description>
+	<Placemark>
+		<name>Ur 1 / Tell el Muqayyar</name>
+		<description>another name for Ur 2</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>46.104444,30.962222</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ur 1 / Urfa</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>38.784444,37.147778</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Ur 1 / Urartu</name>
+		<Placemark>
+			<name>Ur 1 (90% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>41.54718,39.36518 41.54718,39.1742 41.54718,38.98322 41.78308,38.98322 42.01898,38.98322 42.25489,38.98322 44.37802,39.1742 44.37802,39.36518 43.67031,39.55616 43.43441,39.55616 43.1985,39.55616 42.9626,39.55616 42.7267,39.55616 42.49079,39.55616 41.54718,39.36518</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (80% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>41.07537,39.36518 41.07537,39.1742 41.07537,38.98322 41.31127,38.98322 41.54718,38.98322 41.78308,38.98322 42.01898,38.98322 42.25489,38.98322 44.14212,38.98322 44.37802,38.98322 44.61393,38.98322 44.37802,39.36518 43.67031,39.55616 42.7267,39.74713 42.01898,39.74713 41.54718,39.55616 41.07537,39.36518</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (70% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>41.54718,39.74713 41.07537,39.55616 41.07537,39.36518 41.07537,39.1742 41.07537,38.98322 41.31127,38.98322 41.54718,38.98322 41.78308,38.98322 42.01898,38.98322 42.25489,38.98322 44.14212,38.98322 44.37802,38.98322 44.61393,38.98322 44.84983,38.98322 45.08573,39.1742 44.84983,39.36518 44.37802,39.55616 43.43441,39.74713 43.1985,39.74713 42.9626,39.74713 42.7267,39.74713 42.49079,39.74713 42.25489,39.74713 42.01898,39.74713 41.78308,39.74713 41.54718,39.74713</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (60% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>40.60356,39.36518 40.60356,39.1742 40.60356,38.98322 41.54718,38.79225 42.01898,38.79225 44.61393,38.79225 44.84983,38.79225 45.08573,38.79225 45.32164,38.98322 44.84983,39.55616 43.43441,39.74713 43.1985,39.74713 42.9626,39.74713 42.7267,39.74713 42.49079,39.74713 42.25489,39.74713 42.01898,39.74713 41.78308,39.74713 41.54718,39.74713 41.31127,39.74713 41.07537,39.74713 40.60356,39.36518</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>39.65995,39.1742 41.78308,38.21931 43.1985,38.02833 43.43441,38.02833 43.67031,38.02833 44.61393,38.02833 44.84983,38.21931 45.32164,38.60127 45.32164,38.79225 45.32164,38.98322 45.32164,39.1742 45.08573,39.55616 44.37802,39.74713 43.67031,39.93811 41.07537,39.74713 39.65995,39.1742</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>39.18814,39.1742 39.65995,38.98322 41.54718,38.21931 43.43441,37.83736 43.67031,37.83736 44.84983,38.02833 46.26525,38.98322 46.26525,39.1742 44.37802,39.93811 44.14212,39.93811 43.90621,39.93811 43.67031,39.93811 43.43441,39.93811 43.1985,39.93811 42.9626,39.93811 42.7267,39.93811 40.60356,39.74713 39.65995,39.55616 39.18814,39.1742</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>39.18814,39.1742 39.42404,38.79225 40.36766,38.21931 44.37802,37.26442 44.61393,37.26442 44.84983,37.26442 45.32164,37.26442 46.26525,38.98322 46.26525,39.1742 45.79344,39.36518 45.32164,39.55616 44.84983,39.74713 44.37802,39.93811 43.90621,40.12909 43.1985,40.12909 42.9626,40.12909 42.01898,40.12909 41.78308,40.12909 39.18814,39.55616 39.18814,39.36518 39.18814,39.1742</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>38.95224,39.1742 38.71633,38.60127 40.36766,38.02833 44.61393,37.07345 45.55754,37.26442 45.79344,37.64638 46.50116,39.1742 46.26525,39.93811 46.02935,40.12909 45.08573,40.70202 43.90621,40.893 43.67031,40.893 43.43441,40.893 43.1985,40.893 42.25489,40.70202 41.07537,40.32007 39.18814,39.55616 38.95224,39.1742</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>46.50116,39.74713 46.26525,39.93811 46.02935,40.12909 45.79344,40.32007 45.55754,40.51104 44.37802,41.08398 44.14212,41.08398 43.90621,41.08398 43.67031,41.08398 43.43441,41.08398 39.42404,40.12909 38.95224,39.36518 38.71633,38.60127 38.71633,38.41029 39.18814,38.21931 39.89585,38.02833 44.61393,36.88247 44.84983,36.88247 45.08573,36.88247 45.32164,36.88247 45.55754,36.88247 45.79344,36.88247 46.26525,37.07345 46.50116,37.4554 47.20887,38.98322 47.20887,39.1742 46.73706,39.55616 46.50116,39.74713</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ur 1 / Urartu</name>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>44.300381,39.702761</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Ur 1 / within 150 km of Bayburt</name>
+		<description>another name for Ura</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>40.226,41.60362 40.03747,41.59608 39.85113,41.57354 39.66915,41.53628 39.49363,41.48471 39.32659,41.41944 39.16993,41.34123 39.02542,41.25097 38.89467,41.14971 38.77908,41.0386 38.67991,40.9189 38.59817,40.79196 38.53469,40.65923 38.49006,40.52217 38.46466,40.38231 38.45866,40.2412 38.47198,40.10038 38.50439,39.96138 38.55539,39.82573 38.62435,39.69487 38.71042,39.57021 38.81259,39.45308 38.92971,39.34471 39.06047,39.24626 39.20346,39.15875 39.35712,39.08311 39.51983,39.02012 39.68987,38.97043 39.86547,38.93457 40.0448,38.91291 40.226,38.90566 40.4072,38.91291 40.58653,38.93457 40.76213,38.97043 40.93217,39.02012 41.09488,39.08311 41.24854,39.15875 41.39153,39.24626 41.52229,39.34471 41.63941,39.45308 41.74158,39.57021 41.82765,39.69487 41.89661,39.82573 41.94761,39.96138 41.98002,40.10038 41.99334,40.2412 41.98734,40.38231 41.96194,40.52217 41.91731,40.65923 41.85383,40.79196 41.77209,40.9189 41.67292,41.0386 41.55733,41.14971 41.42658,41.25097 41.28207,41.34123 41.12541,41.41944 40.95837,41.48471 40.78285,41.53628 40.60087,41.57354 40.41453,41.59608 40.226,41.60362</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ur 1 / within 150 km of Bayburt</name>
+		<description>another name for Ura</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>40.226,40.254639</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

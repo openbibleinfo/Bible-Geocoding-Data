@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hobah</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a6779cd/hobah">OpenBible.info</a>]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Hobah</name>
+	<description><![CDATA[Gen <a href="https://www.biblegateway.com/passage/?search=Gen.14.15&amp;version=ESV">14:15</a>]]></description>
+	<Folder>
+		<name>Hobah / Upu</name>
+		<description>another name for Upu</description>
+		<Placemark>
+			<name>Hobah (50% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.27842,33.60095 36.30367,33.60095 36.32892,33.60095 36.35417,33.60095 36.37942,33.60095 36.42992,33.62211 36.50567,33.66445 36.48042,33.68561 36.45517,33.68561 36.42992,33.68561 36.35417,33.64328 36.27842,33.60095</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hobah (40% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.25317,33.60095 36.20267,33.55861 36.22792,33.53745 36.25317,33.51628 36.53092,33.60095 36.53092,33.62211 36.53092,33.64328 36.53092,33.66445 36.53092,33.68561 36.48042,33.68561 36.45517,33.68561 36.42992,33.68561 36.40467,33.68561 36.35417,33.66445 36.30367,33.64328 36.27842,33.62211 36.25317,33.60095</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hobah (30% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.32892,33.66445 36.27842,33.64328 36.25317,33.62211 36.22792,33.60095 36.20267,33.57978 36.15217,33.51628 36.32892,33.28344 36.35417,33.28344 36.37942,33.28344 36.40467,33.28344 36.63192,33.66445 36.63192,33.68561 36.45517,33.70678 36.37942,33.68561 36.32892,33.66445</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hobah (20% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.12692,33.53745 36.12692,33.51628 36.22792,33.07178 36.25317,33.07178 36.27842,33.07178 36.30367,33.07178 36.32892,33.07178 36.35417,33.07178 36.37942,33.07178 36.40467,33.07178 36.78342,33.60095 36.78342,33.62211 36.78342,33.64328 36.78342,33.66445 36.78342,33.68561 36.53092,33.74911 36.30367,33.68561 36.25317,33.66445 36.12692,33.53745</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hobah (10% confidence)</name>
+			<styleUrl>#landisobands</styleUrl>
+			<Polygon>
+				<tesselate>1</tesselate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>36.48042,33.07178 36.50567,33.07178 36.53092,33.07178 36.55617,33.07178 36.73292,33.28344 36.83392,33.55861 36.83392,33.57978 36.83392,33.60095 36.83392,33.62211 36.83392,33.64328 36.83392,33.66445 36.83392,33.68561 36.58142,33.74911 36.55617,33.74911 36.53092,33.74911 36.50567,33.74911 36.48042,33.74911 36.25317,33.68561 36.12692,33.53745 36.12692,33.51628 36.12692,33.49511 36.12692,33.47394 36.15217,33.07178 36.17742,33.07178 36.20267,33.07178 36.22792,33.07178 36.25317,33.07178 36.27842,33.07178 36.30367,33.07178 36.32892,33.07178 36.35417,33.07178 36.37942,33.07178 36.40467,33.07178 36.42992,33.07178 36.45517,33.07178 36.48042,33.07178</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hobah / Upu</name>
+			<description>another name for Upu</description>
+			<styleUrl>#landrepresentativepoint</styleUrl>
+			<Point>
+				<coordinates>36.30639,33.511112</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Hobah / Hoba</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>37.066667,34.25</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hobah / Tell el Salihiye</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>36.469722,33.508611</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

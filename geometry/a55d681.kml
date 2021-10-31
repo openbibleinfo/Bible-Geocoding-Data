@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Geder</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a55d681/geder">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Geder</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.12.13&amp;version=ESV">12:13</a>, 1Chr <a href="https://www.biblegateway.com/passage/?search=1Chr.27.28&amp;version=NLT">27:28</a>]]></description>
+	<Placemark>
+		<name>Geder / Khirbet Jedur</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.092145,31.632629</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / Khirbet Jedur</name>
+		<description>another name for Beth-gader</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.092145,31.632629</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of Bethlehem</name>
+		<description>another name for Beth-gader</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.20764,31.74927 35.20211,31.74903 35.19664,31.74829 35.1913,31.74707 35.18613,31.74538 35.1812,31.74324 35.17656,31.74068 35.17226,31.73772 35.16835,31.73439 35.16487,31.73073 35.16186,31.72678 35.15935,31.72259 35.15737,31.71819 35.15594,31.71364 35.15507,31.709 35.15479,31.7043 35.15508,31.69959 35.15595,31.69495 35.15738,31.6904 35.15936,31.68601 35.16188,31.68181 35.16489,31.67787 35.16837,31.67421 35.17229,31.67088 35.17658,31.66792 35.18122,31.66536 35.18615,31.66323 35.19131,31.66154 35.19666,31.66032 35.20212,31.65959 35.20764,31.65934 35.21316,31.65959 35.21862,31.66032 35.22396,31.66154 35.22913,31.66323 35.23405,31.66536 35.23869,31.66792 35.24299,31.67088 35.2469,31.67421 35.25039,31.67787 35.2534,31.68181 35.25591,31.68601 35.2579,31.6904 35.25933,31.69495 35.2602,31.69959 35.26049,31.7043 35.26021,31.709 35.25934,31.71364 35.25791,31.71819 35.25593,31.72259 35.25342,31.72678 35.25041,31.73073 35.24693,31.73439 35.24302,31.73772 35.23872,31.74068 35.23408,31.74324 35.22915,31.74538 35.22398,31.74707 35.21863,31.74829 35.21317,31.74903 35.20764,31.74927</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of Bethlehem</name>
+		<description>another name for Beth-gader</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.207639,31.704306</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of the Valley of Elah</name>
+		<description>another name for Beth-gader</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.99802,31.72039 34.99249,31.72014 34.98703,31.7194 34.98169,31.71818 34.97652,31.7165 34.97159,31.71436 34.96695,31.71179 34.96265,31.70883 34.95874,31.7055 34.95526,31.70184 34.95225,31.69789 34.94974,31.6937 34.94776,31.68931 34.94633,31.68476 34.94547,31.68011 34.94518,31.67541 34.94548,31.67071 34.94634,31.66606 34.94778,31.66151 34.94976,31.65712 34.95227,31.65293 34.95529,31.64898 34.95877,31.64533 34.96268,31.642 34.96698,31.63904 34.97161,31.63648 34.97654,31.63434 34.9817,31.63265 34.98704,31.63144 34.9925,31.6307 34.99802,31.63045 35.00354,31.6307 35.009,31.63144 35.01434,31.63265 35.0195,31.63434 35.02443,31.63648 35.02906,31.63904 35.03336,31.642 35.03727,31.64533 35.04075,31.64898 35.04377,31.65293 35.04628,31.65712 35.04826,31.66151 35.0497,31.66606 35.05056,31.67071 35.05086,31.67541 35.05057,31.68011 35.04971,31.68476 35.04828,31.68931 35.0463,31.6937 35.04379,31.69789 35.04078,31.70184 35.0373,31.7055 35.03339,31.70883 35.02909,31.71179 35.02445,31.71436 35.01952,31.7165 35.01435,31.71818 35.00901,31.7194 35.00355,31.72014 34.99802,31.72039</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of the Valley of Elah</name>
+		<description>another name for Beth-gader</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.99802,31.67542</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / Tel Haror</name>
+		<description>another name for Gerar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.6065,31.3821</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / Tell esh Sharia</name>
+		<description>another name for Gerar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.6816,31.3912</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / Tell Tuweiyil</name>
+		<description>another name for Gerar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.567048,31.183861</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / Tell Jemmeh</name>
+		<description>another name for Gerar</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.44506,31.38724</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of Tell Beit Mirsim</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.9098,31.50077 34.90429,31.50052 34.89884,31.49978 34.8935,31.49856 34.88835,31.49688 34.88343,31.49474 34.8788,31.49217 34.87452,31.48921 34.87061,31.48588 34.86714,31.48222 34.86414,31.47827 34.86164,31.47408 34.85966,31.46969 34.85823,31.46514 34.85737,31.46049 34.85709,31.45579 34.85738,31.45109 34.85824,31.44644 34.85967,31.44189 34.86165,31.4375 34.86416,31.43331 34.86717,31.42936 34.87064,31.42571 34.87454,31.42238 34.87883,31.41942 34.88345,31.41686 34.88837,31.41472 34.89352,31.41303 34.89885,31.41182 34.90429,31.41108 34.9098,31.41083 34.91531,31.41108 34.92075,31.41182 34.92608,31.41303 34.93123,31.41472 34.93615,31.41686 34.94077,31.41942 34.94506,31.42238 34.94896,31.42571 34.95243,31.42936 34.95544,31.43331 34.95795,31.4375 34.95993,31.44189 34.96136,31.44644 34.96222,31.45109 34.96251,31.45579 34.96223,31.46049 34.96137,31.46514 34.95994,31.46969 34.95796,31.47408 34.95546,31.47827 34.95246,31.48222 34.94899,31.48588 34.94508,31.48921 34.9408,31.49217 34.93617,31.49474 34.93125,31.49688 34.9261,31.49856 34.92076,31.49978 34.91531,31.50052 34.9098,31.50077</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Geder / within 5 km of Tell Beit Mirsim</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.9098,31.4558</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

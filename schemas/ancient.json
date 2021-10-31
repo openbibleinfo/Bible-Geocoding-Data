@@ -1,0 +1,870 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": false,
+   "definitions": {
+      "ancient_id": {
+         "pattern": "^a[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "ancient_or_modern_id": {
+         "pattern": "^[am][0-9a-f]{6}$",
+         "type": "string"
+      },
+      "geojson_geometry": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "geometry_credit": {
+               "enum": [
+                  "osm"
+               ],
+               "type": "string"
+            },
+            "id": {
+               "pattern": "^g[0-9a-f]{6}\\.[a-z]+$",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id"
+         ],
+         "type": "object"
+      },
+      "geojson_point": {
+         "additionalProperties": false,
+         "properties": {
+            "description": {
+               "type": "string"
+            },
+            "geometry_credit": {
+               "enum": [
+                  "osm"
+               ],
+               "type": "string"
+            },
+            "id": {
+               "pattern": "^m[0-9a-f]{6}\\.(point|[0-9]+m)$",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id"
+         ],
+         "type": "object"
+      },
+      "geometry_id": {
+         "pattern": "^g[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "image_id": {
+         "pattern": "^i[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "linked_data_source": {
+         "additionalProperties": false,
+         "properties": {
+            "biblemapper_bmid_parameters": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "biblemapper_locids_parameters": {
+               "items": {
+                  "type": "number"
+               },
+               "type": "array"
+            },
+            "data_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "id": {
+               "type": "string"
+            },
+            "ids": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "modifier": {
+               "enum": [
+                  "anchor",
+                  "main",
+                  "nonunique_url",
+                  "modern",
+                  "not",
+                  "partial",
+                  "partial,redirect",
+                  "redirect"
+               ],
+               "type": "string"
+            },
+            "name": {
+               "type": "string"
+            },
+            "review": {
+               "enum": [
+                  "automatic",
+                  "uncertain"
+               ],
+               "type": "string"
+            },
+            "url": {
+               "$ref": "#/definitions/uri"
+            }
+         },
+         "type": "object"
+      },
+      "lonlat": {
+         "pattern": "^-?1?[0-9]{1,2}\\.[0-9]{6},-?[0-9]{1,2}\\.[0-9]{6}$",
+         "type": "string"
+      },
+      "media_object": {
+         "additionalProperties": false,
+         "properties": {
+            "credit": {
+               "type": "string"
+            },
+            "credit_url": {
+               "$ref": "#/definitions/uri"
+            },
+            "description": {
+               "type": "string"
+            },
+            "file": {
+               "pattern": "^[am][0-9a-f]{6}\\.(i[0-9a-f]{6}|satellite)\\.jpg$",
+               "type": "string"
+            },
+            "image_id": {
+               "$ref": "#/definitions/image_id"
+            },
+            "placeholder": {
+               "pattern": "^#[0-9a-f]{6},#[0-9a-f]{6},#[0-9a-f]{6}$",
+               "type": "string"
+            },
+            "role": {
+               "enum": [
+                  "satellite"
+               ],
+               "type": "string"
+            }
+         },
+         "required": [
+            "credit",
+            "description",
+            "file",
+            "image_id",
+            "placeholder"
+         ],
+         "type": "object"
+      },
+      "media_parent": {
+         "additionalProperties": false,
+         "properties": {
+            "thumbnail": {
+               "$ref": "#/definitions/media_object"
+            }
+         },
+         "required": [
+            "thumbnail"
+         ],
+         "type": "object"
+      },
+      "modern_id": {
+         "pattern": "^m[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "place_modifier": {
+         "enum": [
+            "<",
+            "along",
+            "near",
+            "on",
+            ">"
+         ],
+         "type": "string"
+      },
+      "place_type": {
+         "enum": [
+            "altar",
+            "body of water",
+            "campsite",
+            "canal",
+            "cliff",
+            "district in settlement",
+            "field",
+            "ford",
+            "forest",
+            "fortification",
+            "garden",
+            "gate",
+            "hall",
+            "hill",
+            "island",
+            "mine",
+            "mountain",
+            "mountain pass",
+            "mountain range",
+            "mountain ridge",
+            "natural area",
+            "people group",
+            "pool",
+            "promontory",
+            "region",
+            "river",
+            "road",
+            "rock",
+            "room",
+            "settlement",
+            "settlement and spring",
+            "special",
+            "spring",
+            "stone heap",
+            "structure",
+            "tree",
+            "valley",
+            "wadi",
+            "well"
+         ],
+         "type": "string"
+      },
+      "source_id": {
+         "pattern": "^s[0-9a-f]{6}$",
+         "type": "string"
+      },
+      "special": {
+         "enum": [
+            "multiple_locations",
+            "nonspecific_place",
+            "not_a_place",
+            "not_a_proper_name",
+            "recursive",
+            "unknown_place"
+         ],
+         "type": "string"
+      },
+      "translation_id": {
+         "enum": [
+            "csb",
+            "esv",
+            "kjv",
+            "leb",
+            "nasb",
+            "net",
+            "niv",
+            "nkjv",
+            "nlt",
+            "nrsv"
+         ],
+         "type": "string"
+      },
+      "uri": {
+         "pattern": "https?://.+$",
+         "type": "string"
+      },
+      "url_slug": {
+         "pattern": "^\\w[\\w-]*\\w$",
+         "type": "string"
+      },
+      "vote_tag": {
+         "enum": [
+            "confidence_yes",
+            "confidence_likely",
+            "confidence_map",
+            "confidence_mostlikely",
+            "identified_is",
+            "identified_been",
+            "identified_adjective",
+            "authority_preserved",
+            "authority_usually",
+            "authority_scholar",
+            "authority_parallel",
+            "authority_variant",
+            "authority_traditional",
+            "confidence_possible",
+            "authority_old",
+            "unknown",
+            "uncertain",
+            "confidence_unlikely",
+            "confidence_no"
+         ],
+         "type": "string"
+      }
+   },
+   "properties": {
+      "comment": {
+         "type": "string"
+      },
+      "extra": {
+         "type": "string"
+      },
+      "friendly_id": {
+         "type": "string"
+      },
+      "geojson_file": {
+         "pattern": "^a[0-9a-f]{6}\\.geojson$",
+         "type": "string"
+      },
+      "geometry_credit": {
+         "enum": [
+            "osm"
+         ],
+         "type": "string"
+      },
+      "id": {
+         "$ref": "#/definitions/ancient_id"
+      },
+      "identification_sources": {
+         "additionalProperties": false,
+         "patternProperties": {
+            "^s[0-9a-f]{6}$": {
+               "additionalProperties": false,
+               "properties": {
+                  "map": {
+                     "type": "string"
+                  },
+                  "maps": {
+                     "items": {
+                        "type": "string"
+                     },
+                     "type": "array"
+                  },
+                  "page": {
+                     "type": "string"
+                  },
+                  "pages": {
+                     "items": {
+                        "type": "string"
+                     },
+                     "type": "array"
+                  },
+                  "table": {
+                     "type": "string"
+                  },
+                  "tables": {
+                     "items": {
+                        "type": "string"
+                     },
+                     "type": "array"
+                  },
+                  "title": {
+                     "type": "string"
+                  },
+                  "titles": {
+                     "items": {
+                        "type": "string"
+                     },
+                     "type": "array"
+                  },
+                  "type": {
+                     "enum": [
+                        "entry"
+                     ],
+                     "type": "string"
+                  },
+                  "url": {
+                     "$ref": "#/definitions/uri"
+                  }
+               },
+               "type": "object"
+            }
+         },
+         "propertyNames": {
+            "$ref": "#/definitions/source_id"
+         },
+         "type": "object"
+      },
+      "identifications": {
+         "items": {
+            "additionalProperties": false,
+            "properties": {
+               "class": {
+                  "enum": [
+                     "human,natural",
+                     "human",
+                     "natural",
+                     "special"
+                  ],
+                  "type": "string"
+               },
+               "comment": {
+                  "type": "string"
+               },
+               "contained_in": {
+                  "items": {
+                     "type": "number"
+                  },
+                  "type": "array"
+               },
+               "contains": {
+                  "items": {
+                     "type": "number"
+                  },
+                  "type": "array"
+               },
+               "description": {
+                  "type": "string"
+               },
+               "geometry_id": {
+                  "$ref": "#/definitions/geometry_id"
+               },
+               "geometry_radius_meters": {
+                  "type": "number"
+               },
+               "id": {
+                  "$ref": "#/definitions/ancient_or_modern_id"
+               },
+               "id_source": {
+                  "enum": [
+                     "ancient",
+                     "modern",
+                     "special"
+                  ],
+                  "type": "string"
+               },
+               "media": {
+                  "$ref": "#/definitions/media_parent"
+               },
+               "modifier": {
+                  "$ref": "#/definitions/place_modifier"
+               },
+               "resolutions": {
+                  "items": {
+                     "additionalProperties": false,
+                     "properties": {
+                        "ancient_geometry": {
+                           "enum": [
+                              "point",
+                              "path",
+                              "polygon"
+                           ],
+                           "type": "string"
+                        },
+                        "best_path_score": {
+                           "type": "number"
+                        },
+                        "best_time_score": {
+                           "type": "number"
+                        },
+                        "class": {
+                           "enum": [
+                              "human",
+                              "natural"
+                           ],
+                           "type": "string"
+                        },
+                        "description": {
+                           "type": "string"
+                        },
+                        "geojson_roles": {
+                           "additionalProperties": false,
+                           "properties": {
+                              "center": {
+                                 "$ref": "#/definitions/geojson_point"
+                              },
+                              "geometry": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              },
+                              "local": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              },
+                              "point": {
+                                 "$ref": "#/definitions/geojson_point"
+                              },
+                              "precise": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              },
+                              "representative_point": {
+                                 "$ref": "#/definitions/geojson_point"
+                              },
+                              "settlement": {
+                                 "$ref": "#/definitions/geojson_point"
+                              },
+                              "simplified_geometry": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              },
+                              "simplified_local": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              },
+                              "simplified_precise": {
+                                 "$ref": "#/definitions/geojson_geometry"
+                              }
+                           },
+                           "type": "object"
+                        },
+                        "geometry_id": {
+                           "$ref": "#/definitions/geometry_id"
+                        },
+                        "geometry_radius_meters": {
+                           "type": "number"
+                        },
+                        "in": {
+                           "enum": [
+                              "region",
+                              "settlement"
+                           ],
+                           "type": "string"
+                        },
+                        "land_or_water": {
+                           "enum": [
+                              "land",
+                              "water"
+                           ],
+                           "type": "string"
+                        },
+                        "local_geometry_id": {
+                           "$ref": "#/definitions/geometry_id"
+                        },
+                        "lonlat": {
+                           "$ref": "#/definitions/lonlat"
+                        },
+                        "lonlat_type": {
+                           "enum": [
+                              "center",
+                              "point",
+                              "representative point",
+                              "settlement"
+                           ],
+                           "type": "string"
+                        },
+                        "media": {
+                           "$ref": "#/definitions/media_parent"
+                        },
+                        "modern_basis_id": {
+                           "$ref": "#/definitions/modern_id"
+                        },
+                        "modifier": {
+                           "$ref": "#/definitions/place_modifier"
+                        },
+                        "paths": {
+                           "items": {
+                              "items": {
+                                 "additionalProperties": false,
+                                 "properties": {
+                                    "ancient_id": {
+                                       "$ref": "#/definitions/ancient_id"
+                                    },
+                                    "identification_i": {
+                                       "type": "number"
+                                    },
+                                    "modern_id": {
+                                       "$ref": "#/definitions/modern_id"
+                                    },
+                                    "modifier": {
+                                       "$ref": "#/definitions/place_modifier"
+                                    },
+                                    "special": {
+                                       "$ref": "#/definitions/special"
+                                    }
+                                 },
+                                 "type": "object"
+                              },
+                              "type": "array"
+                           },
+                           "type": "array"
+                        },
+                        "precise_geometry_id": {
+                           "$ref": "#/definitions/geometry_id"
+                        },
+                        "special": {
+                           "$ref": "#/definitions/special"
+                        },
+                        "type": {
+                           "$ref": "#/definitions/place_type"
+                        }
+                     },
+                     "required": [
+                        "description",
+                        "best_path_score"
+                     ],
+                     "type": "object"
+                  },
+                  "type": "array"
+               },
+               "score": {
+                  "additionalProperties": false,
+                  "properties": {
+                     "time_best_fits": {
+                        "items": {
+                           "type": "number"
+                        },
+                        "type": "array"
+                     },
+                     "time_intercept": {
+                        "type": "number"
+                     },
+                     "time_r_squared": {
+                        "type": "number"
+                     },
+                     "time_slope": {
+                        "type": "number"
+                     },
+                     "time_total": {
+                        "type": "number"
+                     },
+                     "time_values": {
+                        "items": {
+                           "type": "number"
+                        },
+                        "type": "array"
+                     },
+                     "vote_average": {
+                        "type": "number"
+                     },
+                     "vote_count": {
+                        "type": "number"
+                     },
+                     "vote_total": {
+                        "type": "number"
+                     }
+                  },
+                  "required": [
+                     "time_best_fits",
+                     "time_intercept",
+                     "time_r_squared",
+                     "time_slope",
+                     "time_total",
+                     "time_values",
+                     "vote_average",
+                     "vote_count",
+                     "vote_total"
+                  ],
+                  "type": "object"
+               },
+               "special": {
+                  "enum": [
+                     "multiple_locations",
+                     "nonspecific_place",
+                     "not_a_place",
+                     "not_a_proper_name",
+                     "unknown_place"
+                  ],
+                  "type": "string"
+               },
+               "types": {
+                  "items": {
+                     "$ref": "#/definitions/place_type"
+                  },
+                  "type": "array"
+               },
+               "votes": {
+                  "additionalProperties": false,
+                  "properties": {
+                     "tags": {
+                        "additionalProperties": {
+                           "type": "number"
+                        },
+                        "type": "object"
+                     }
+                  },
+                  "required": [
+                     "tags"
+                  ],
+                  "type": "object"
+               }
+            },
+            "required": [
+               "class",
+               "description",
+               "id_source",
+               "score"
+            ],
+            "type": "object"
+         },
+         "type": "array"
+      },
+      "kml_file": {
+         "pattern": "^a[0-9a-f]{6}\\.kml$",
+         "type": "string"
+      },
+      "linked_data": {
+         "additionalProperties": false,
+         "patternProperties": {
+            "^s[0-9a-f]{6}$": {
+               "$ref": "#/definitions/linked_data_source"
+            }
+         },
+         "type": "object"
+      },
+      "media": {
+         "$ref": "#/definitions/media_parent"
+      },
+      "modern_associations": {
+         "additionalProperties": false,
+         "patternProperties": {
+            "^m[0-9a-f]{6}$": {
+               "additionalProperties": false,
+               "properties": {
+                  "identification_ids": {
+                     "items": {
+                        "items": {
+                           "type": "number"
+                        },
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "type": "array"
+                     },
+                     "type": "array"
+                  },
+                  "name": {
+                     "type": "string"
+                  },
+                  "score": {
+                     "type": "number"
+                  },
+                  "url_slug": {
+                     "$ref": "#/definitions/url_slug"
+                  }
+               },
+               "required": [
+                  "identification_ids",
+                  "name",
+                  "score",
+                  "url_slug"
+               ],
+               "type": "object"
+            }
+         },
+         "type": "object"
+      },
+      "preceding_article": {
+         "enum": [
+            "",
+            "the"
+         ],
+         "type": "string"
+      },
+      "translation_name_counts": {
+         "patternProperties": {
+            "": {
+               "type": "number"
+            }
+         },
+         "type": "object"
+      },
+      "types": {
+         "items": {
+            "$ref": "#/definitions/place_type"
+         },
+         "type": "array"
+      },
+      "url_slug": {
+         "$ref": "#/definitions/url_slug"
+      },
+      "verses": {
+         "items": {
+            "additionalProperties": false,
+            "properties": {
+               "alternate_roots": {
+                  "additionalProperties": false,
+                  "patternProperties": {
+                     "^a[0-9a-f]{6}$": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     }
+                  },
+                  "type": "object"
+               },
+               "alternate_verses": {
+                  "patternProperties": {
+                     "^[0-9a-z]{1,8}$": {
+                        "type": "string"
+                     }
+                  },
+                  "type": "object"
+               },
+               "instance_types": {
+                  "additionalProperties": false,
+                  "properties": {
+                     "combined": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "common_noun": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "helper": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "name": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "no_translation": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "partial": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "people_group": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     },
+                     "person": {
+                        "maximum": 10,
+                        "minimum": 1,
+                        "type": "number"
+                     }
+                  },
+                  "type": "object"
+               },
+               "osis": {
+                  "pattern": "^[123A-Za-z]{2,6}\\.[0-9]{1,3}\\.[0-9]{1,3}$",
+                  "type": "string"
+               },
+               "readable": {
+                  "pattern": "^([1-3] )?[A-Z][a-z]{1,5} [0-9]{1,3}:[0-9]{1,3}$",
+                  "type": "string"
+               },
+               "sort": {
+                  "pattern": "^[0-6][0-9][01][0-9]{2}[01][0-9]{2}$",
+                  "type": "string"
+               },
+               "translations": {
+                  "items": {
+                     "$ref": "#/definitions/translation_id"
+                  },
+                  "type": "array"
+               },
+               "usx": {
+                  "pattern": "^[123A-Z]{3,} [0-9]{1,3}:[0-9]{1,3}$",
+                  "type": "string"
+               }
+            },
+            "required": [
+               "instance_types",
+               "osis",
+               "readable",
+               "sort",
+               "usx"
+            ],
+            "type": "object"
+         },
+         "type": "array"
+      }
+   },
+   "required": [
+      "friendly_id",
+      "geojson_file",
+      "id",
+      "kml_file",
+      "preceding_article",
+      "types"
+   ],
+   "type": "object"
+}

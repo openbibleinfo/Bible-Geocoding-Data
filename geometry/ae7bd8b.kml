@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Naamah 1</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ae7bd8b/naamah-1">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Naamah 1</name>
+	<description><![CDATA[Josh <a href="https://www.biblegateway.com/passage/?search=Josh.15.41&amp;version=ESV">15:41</a>]]></description>
+	<Placemark>
+		<name>Naamah 1 / within 30 km of Tell ed Duweir</name>
+		<description>within 30 km of Lachish</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>34.84917,31.83507 34.81597,31.83359 34.78315,31.82916 34.75105,31.82183 34.72003,31.81168 34.69045,31.79883 34.66261,31.78341 34.63683,31.7656 34.6134,31.74559 34.59256,31.7236 34.57455,31.69988 34.55956,31.67469 34.54775,31.6483 34.53926,31.621 34.53416,31.59309 34.53252,31.56489 34.53435,31.53669 34.53963,31.50881 34.54829,31.48155 34.56024,31.45522 34.57534,31.43009 34.59343,31.40644 34.61431,31.38453 34.63774,31.36461 34.66348,31.34687 34.69124,31.33153 34.72071,31.31874 34.75159,31.30865 34.78352,31.30136 34.81616,31.29696 34.84917,31.29548 34.88217,31.29696 34.91482,31.30136 34.94675,31.30865 34.97762,31.31874 35.00709,31.33153 35.03485,31.34687 35.06059,31.36461 35.08403,31.38453 35.1049,31.40644 35.12299,31.43009 35.1381,31.45522 35.15005,31.48155 35.15871,31.50881 35.16398,31.53669 35.16581,31.56489 35.16417,31.59309 35.15908,31.621 35.15058,31.6483 35.13878,31.67469 35.12379,31.69988 35.10578,31.7236 35.08494,31.74559 35.0615,31.7656 35.03572,31.78341 35.00789,31.79883 34.9783,31.81168 34.94729,31.82183 34.91519,31.82916 34.88236,31.83359 34.84917,31.83507</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Naamah 1 / within 30 km of Tell ed Duweir</name>
+		<description>within 30 km of Lachish</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>34.849167,31.565278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naamah 1 / Khirbet Fered</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.89496,31.76527</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naamah 1 / Al Na’ani</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.87325,31.872167</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Naamah 1 / Horbat Bet Elem</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>34.946331,31.579335</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

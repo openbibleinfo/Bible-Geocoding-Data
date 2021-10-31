@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rock of Escape</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/a897bdb/rock-of-escape">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Rock of Escape (Sela Hammahlekoth, Rock of Division, Rock of Separation)</name>
+	<description><![CDATA[1Sam <a href="https://www.biblegateway.com/passage/?search=1Sam.23.28&amp;version=ESV">23:28</a>]]></description>
+	<Placemark>
+		<name>Rock of Escape / along Wadi Malaqi</name>
+		<styleUrl>#path</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.179255,31.439289 35.179548,31.440786 35.180229,31.441241 35.182782,31.440001 35.184292,31.440161 35.184419,31.440797 35.183311,31.441397 35.183917,31.442355 35.185926,31.443626 35.187179,31.443488 35.187474,31.444561 35.188361,31.44501 35.189526,31.446461 35.190478,31.446632 35.191695,31.446209 35.192116,31.446403 35.192409,31.446907 35.19224,31.447861 35.192886,31.448101 35.19415,31.4493 35.194254,31.44979 35.193892,31.45063 35.194815,31.452019 35.194461,31.452879 35.195032,31.453554 35.1964,31.453783 35.197036,31.455112 35.199364,31.455254 35.199602,31.454339 35.199871,31.454231 35.200992,31.45468 35.201754,31.454449 35.203355,31.454716 35.203516,31.455666 35.204307,31.456268 35.203642,31.457215 35.204648,31.457828 35.206724,31.456249 35.208558,31.456938 35.210353,31.455934 35.212083,31.455558 35.212456,31.454952 35.215983,31.454321 35.21613,31.453753 35.216892,31.453051 35.219427,31.45325 35.222906,31.45279 35.224603,31.453309 35.225872,31.452975 35.226486,31.453337 35.227401,31.453337 35.230335,31.452861 35.234871,31.450861 35.239208,31.451053 35.240731,31.451202 35.242499,31.452124 35.242837,31.452891 35.242682,31.454275 35.243752,31.456643 35.244677,31.457444 35.24575,31.45813 35.248078,31.45873 35.248445,31.459388 35.249733,31.460219 35.250409,31.460462 35.251291,31.460125 35.253134,31.461999 35.25307,31.463452 35.25437,31.463678 35.255822,31.464694 35.257581,31.464644 35.258102,31.465312 35.259445,31.46563 35.260599,31.465262 35.261953,31.466005 35.262543,31.465664 35.263173,31.466348 35.266403,31.467385 35.268163,31.466604 35.26747,31.465143 35.268163,31.464751 35.268801,31.465195 35.268801,31.46633 35.27004,31.466943 35.272352,31.469119 35.272939,31.469087 35.273452,31.468554 35.273554,31.467769 35.273125,31.467311 35.273583,31.466325 35.273985,31.466444 35.2749,31.467941 35.275648,31.468071 35.276099,31.46767 35.276204,31.467039 35.277116,31.467064 35.277303,31.466074 35.278065,31.46528 35.280777,31.463296 35.281509,31.463237 35.282856,31.463777 35.284819,31.465943 35.286192,31.465422 35.28688,31.465583</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Rock of Escape / along Wadi Malaqi</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.232889,31.451513</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>

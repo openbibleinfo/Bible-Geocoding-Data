@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Migron 2</name>
+<description><![CDATA[From <a href="https://www.openbible.info/geo/ancient/ade6a96/migron-2">OpenBible.info</a>; some data © OpenStreetMap contributors]]></description>
+<Style id="landpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterpoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="waterrepresentativepoint">
+	<IconStyle>
+		<scale>0.75</scale>
+		<Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+	</IconStyle>
+</Style>
+<Style id="landisobands">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ffffff</color>
+		<fill>1</fill>
+		<outline>0</outline>
+	</PolyStyle>
+</Style>
+<Style id="waterisobands">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>50cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="region">
+	<LineStyle>
+		<color>80333333</color>
+		<width>1</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>33333333</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="water">
+	<LineStyle>
+		<color>cccc0000</color>
+		<width>2</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>80cc0000</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="path">
+	<LineStyle>
+		<color>ff333333</color>
+		<width>1</width>
+	</LineStyle>
+</Style>
+<Folder>
+	<name>Migron 2</name>
+	<description><![CDATA[Isa <a href="https://www.biblegateway.com/passage/?search=Isa.10.28&amp;version=ESV">10:28</a>]]></description>
+	<Placemark>
+		<name>Migron 2 / Tell Maryam</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.26807,31.86921</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Nahal Mikhmash</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#water</styleUrl>
+		<LineString>
+			<tesselate>1</tesselate>
+			<coordinates>35.259251,31.871426 35.260727,31.871151 35.260873,31.870273 35.260571,31.869519 35.260932,31.869188 35.261468,31.86913 35.262765,31.869627 35.26415,31.869627 35.264696,31.869354 35.265467,31.867664 35.268198,31.867018 35.268978,31.865957 35.270305,31.865113 35.270295,31.86382 35.270656,31.863332 35.271095,31.863414 35.271329,31.863779 35.271856,31.863994 35.275659,31.86479 35.276176,31.865369 35.276313,31.866156 35.276976,31.866628 35.278244,31.86614 35.2788,31.865527 35.278732,31.865096 35.27799,31.864284 35.277961,31.863804 35.278283,31.863042 35.277727,31.861965 35.278342,31.861327 35.278556,31.860614 35.279619,31.860349 35.280039,31.859372 35.280673,31.858991 35.281931,31.857251 35.282467,31.856887 35.28512,31.856133 35.285491,31.855768 35.286466,31.85576 35.289207,31.854907 35.290826,31.853391 35.292084,31.852686 35.29424,31.852131 35.294688,31.851427 35.295791,31.851253 35.296815,31.850251 35.298083,31.84972 35.299273,31.849712 35.300141,31.849406 35.302686,31.849339 35.3053,31.849845 35.306607,31.848544 35.306988,31.848527 35.307544,31.849049 35.308226,31.849198 35.30885,31.849215 35.309875,31.848875 35.310616,31.849132 35.311123,31.849082 35.312449,31.848378 35.312557,31.847633 35.311981,31.846904 35.311962,31.846589 35.312264,31.84615 35.313025,31.845802 35.31442,31.845603 35.315658,31.844874 35.316741,31.845139 35.318233,31.844642 35.319862,31.844816 35.320379,31.844393 35.320711,31.84344 35.32154,31.843109 35.322554,31.843175 35.32272,31.843714 35.323188,31.844062 35.32392,31.843871 35.324056,31.843531 35.323627,31.842877 35.323881,31.841684 35.323617,31.840631 35.325514,31.840288 35.326093,31.839509 35.326383,31.839386 35.327376,31.840066 35.328424,31.839972 35.329121,31.840253 35.33019,31.840294 35.330755,31.841155 35.331569,31.840634 35.332328,31.839685 35.333211,31.839216 35.334155,31.839825 35.335693,31.839849 35.336073,31.838314 35.336424,31.837886 35.339356,31.836392 35.33985,31.836328</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Nahal Mikhmash</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#waterrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.288056,31.855278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Tell el Askar</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.28093,31.88036</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / about 2 km around Mukhmas</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.27686,31.8908 35.27464,31.8907 35.27245,31.89041 35.27031,31.88992 35.26824,31.88925 35.26627,31.88839 35.26441,31.88737 35.26268,31.88618 35.26112,31.88485 35.25972,31.88339 35.25851,31.88181 35.25751,31.88013 35.25671,31.87837 35.25614,31.87655 35.25579,31.8747 35.25568,31.87282 35.25579,31.87094 35.25614,31.86908 35.25672,31.86726 35.25751,31.8655 35.25852,31.86382 35.25973,31.86224 35.26112,31.86078 35.26269,31.85945 35.26441,31.85827 35.26627,31.85724 35.26824,31.85639 35.27031,31.85571 35.27246,31.85522 35.27464,31.85493 35.27686,31.85483 35.27907,31.85493 35.28126,31.85522 35.2834,31.85571 35.28547,31.85639 35.28745,31.85724 35.28931,31.85827 35.29103,31.85945 35.2926,31.86078 35.29399,31.86224 35.2952,31.86382 35.29621,31.8655 35.297,31.86726 35.29757,31.86908 35.29792,31.87094 35.29804,31.87282 35.29792,31.8747 35.29758,31.87655 35.297,31.87837 35.29621,31.88013 35.2952,31.88181 35.29399,31.88339 35.2926,31.88485 35.29103,31.88618 35.28931,31.88737 35.28745,31.88839 35.28547,31.88925 35.2834,31.88992 35.28126,31.89041 35.27907,31.8907 35.27686,31.8908</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / about 2 km around Mukhmas</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.276858,31.872817</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Makrun</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.271389,31.889722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Khirbet el Qubba</name>
+		<description>another name for Migron 1</description>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.28726,31.86458</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / in the region between Aiath and Michmash</name>
+		<styleUrl>#region</styleUrl>
+		<Polygon>
+			<tesselate>1</tesselate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>35.264036,31.874339 35.280577,31.875203 35.278337,31.902276 35.26183,31.90125 35.264036,31.874339</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / in the region between Aiath and Michmash</name>
+		<styleUrl>#landrepresentativepoint</styleUrl>
+		<Point>
+			<coordinates>35.271389,31.889722</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Migron 2 / Tell el Askar</name>
+		<styleUrl>#landpoint</styleUrl>
+		<Point>
+			<coordinates>35.28093,31.88036</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</Document>
+</kml>
