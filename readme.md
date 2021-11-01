@@ -4,7 +4,7 @@ This project attempts to catalog the location of every identifiable place mentio
 
 It is a substantial update to my previous attempt to catalog this data in 2007.
 
-Read a blog post for a [higher-level overview of this project](https://www.openbible.info/blog/2021/11/rethinking-the-bible-atlas/).
+Browse an [interface to this data](https://www.openbible.info/geo/) or read a blog post for a [higher-level overview of this project](https://www.openbible.info/blog/2021/11/rethinking-the-bible-atlas/).
 
 ## Definitions
 
